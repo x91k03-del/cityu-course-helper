@@ -1,0 +1,7 @@
+# Preserve saved source/evidence bytes and their recorded hashes across clones.
+* -text
+*.safetensors -text -diff
+*.pdf -text -diff
+*.png -text -diff
+*.pptx -text -diff
+*.docx -text -diff

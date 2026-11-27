@@ -1035,13 +1035,13 @@
     },
     {
       "path": "NOTICE.md",
-      "bytes": 854,
-      "sha256": "17f4412468c94e3e903a47a92792c60a87ef04f81d9e60068dcbcf6c1f790c0f"
+      "bytes": 861,
+      "sha256": "4a5b2aff60aaa2c659f7f0be749586f1cc0eec327e2a3ddec379cf797e7c42a6"
     },
     {
       "path": "README.md",
-      "bytes": 6530,
-      "sha256": "fe919a4711e873eb5219e523668180af6b7fc1eef80e67c22361545ae967cb1e"
+      "bytes": 6605,
+      "sha256": "fa086eeb4dd5a2cdd2b6252be570b848f755c60d83ed22136c748b6dba2a84e0"
     },
     {
       "path": "adapters/objective-parameters/README.md",
@@ -4574,6 +4574,11 @@
       "sha256": "398cb10a8dccb8de0a62c95f8757f3ca0e845333eb639f1f50a5c3a2612fe2c1"
     },
     {
+      "path": "reports/github-public-package-checks.log",
+      "bytes": 411,
+      "sha256": "43da8c375b53c76812df9e4ed27ab9c9f4c579c52d348995450388ee80f98c20"
+    },
+    {
       "path": "reports/github-runtime-checks.log",
       "bytes": 411,
       "sha256": "4c65b4695a49b6f7732534f11423e6673aef76af44cc1f7cd1c55ce7bb3586fb"
@@ -6369,7 +6374,8 @@
       "M"
     ],
     "checkpoint_unchanged": true,
-    "default_loader_manifest_checked": true
+    "default_loader_manifest_checked": true,
+    "post_relocation_checks_passed": 31
   },
   "runtime_focused": true,
   "runtime_cleanup": {
@@ -6377,5 +6383,15 @@
     "core_python_modules": 28,
     "checks_directory": "tests/",
     "previous_full_package_commit": "2dae238d65d110600d628274b291721e6853f2a7"
+  },
+  "repository_layout": {
+    "package_directory": "cityu-course-helper",
+    "manifest_paths": "Relative to this package folder",
+    "root_README": "Repository landing page"
+  },
+  "public_access_preparation": {
+    "history_text_blobs_checked": 1016,
+    "credential_pattern_findings": 0,
+    "excluded_private_paths_found": 0
   }
 }

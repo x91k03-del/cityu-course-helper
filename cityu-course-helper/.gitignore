@@ -1,0 +1,25 @@
+# Environments, downloaded frozen base weights, temporary files and authentication
+.venv/
+.collector-venv/
+.cache/
+models/
+tmp/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+hosts.yml
+.tools/
+node_modules/
+.build/
+data/banweb/
+data/banweb-offline/
+MA_SAVED_PAGES/
+transcripts/
+**/private-inspection/
+hwsrcrtr_cityu.sw_gen_crtr.pdf
+# Keep the released active checkpoint; ignore new experimental weights by default.
+adapters/*
+!adapters/objective-parameters/
