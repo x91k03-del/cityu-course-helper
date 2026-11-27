@@ -3,7 +3,6 @@ import argparse,copy,itertools,json
 from pathlib import Path
 import project_runtime
 from programme_policy import *
-from ma_timetable import alternatives
 from markov_planner import solve
 DATA=ROOT/'data/programme-v6'
 _evidence=ROOT/'data/active_timetable_evidence.json'
@@ -79,38 +78,3 @@ def plan(profile,assume_component_linkage=False,model_proposal=None):
     from stream_path import plan_stream
     result['stream_completion_path']=plan_stream(profile)
     return result
-if __name__=='__main__':
-    a=argparse.ArgumentParser();a.add_argument('command',choices=['lookup','plan','model-stream','model-background','stream-path','streams']);a.add_argument('--programme');a.add_argument('--term',default='202702');a.add_argument('--course');a.add_argument('--profile');a.add_argument('--assume-component-linkage',action='store_true')
-    a.add_argument('--desired-stream');a.add_argument('--stream-weight',type=float)
-    a.add_argument('--proposal',help='Optional saved Qwen timetable JSON; validate before acceptance and record any Markov fallback.')
-    a.add_argument('--lambda-b',type=float);a.add_argument('--lambda-d',type=float);a.add_argument('--lambda-w',type=float);args=a.parse_args()
-    if args.command=='streams':value={'programme':programme(args.programme),'available_streams':list(policy()['streams'][programme(args.programme)]),'explicit_choice_default_weight':3}
-    elif args.command=='lookup':value=lookup(args.programme,args.term,args.course)
-    else:
-        profile=json.loads(Path(args.profile).read_text(encoding='utf-8'))
-        if args.desired_stream:profile['desired_stream']=args.desired_stream
-        if args.stream_weight is not None:profile['stream_reward_multiplier']=args.stream_weight
-        values={'background_mismatch':args.lambda_b,'difficulty':args.lambda_d,'workload':args.lambda_w}
-        if any(v is not None for v in values.values()):profile['weights']={k:profile.get('weights',{}).get(k,1.) if v is None else v for k,v in values.items()}
-        if args.command=='stream-path':
-            from stream_path import plan_stream
-            value=plan_stream(profile)
-        elif args.command=='plan':value=plan(profile,args.assume_component_linkage,json.loads(Path(args.proposal).read_text(encoding='utf-8')) if args.proposal else None)
-        elif args.command=='model-background':
-            from cm_finance_training import infer
-            value=infer(profile,args.course)
-        else:
-            from programme_training_v6 import SYSTEM
-            from cm_finance_training import active_adapter
-            ADAPTER=active_adapter()
-            from inference import load,generate
-            from ge_pathways import recommend
-            major=profile['programme'];done=profile['completed_courses'];stream=recommend(profile)['selected_stream']
-            from stream_path import model_messages
-            tok,model=load(ADAPTER);raw=generate(tok,model,model_messages(profile,SYSTEM),max_tokens=1000)
-            try:parsed=json.loads(raw)
-            except ValueError:parsed=None
-            expected=stream_result(major,done,stream)
-            value={'raw_model_response':raw,'model_output_accepted':exact(expected,parsed),'verified_policy_output':expected,
-                   'policy_fallback_used':not exact(expected,parsed),'registration_verified':False}
-    print(json.dumps(value,ensure_ascii=False,indent=2))

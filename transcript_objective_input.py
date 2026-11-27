@@ -3,7 +3,7 @@ import argparse,contextlib,copy,hashlib,json,re,sys
 from pathlib import Path
 import project_runtime
 import transcript_parameter_pipeline as p
-from natural_language_training import explicit_grades
+from student_facts import explicit_grades
 from preparation import PASS
 from programme_policy import policy
 

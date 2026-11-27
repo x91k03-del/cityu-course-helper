@@ -3,7 +3,7 @@ import copy,json
 from pathlib import Path
 from four_year_markov import catalog
 from programme_policy import policy,progress
-from timetable_grounded_training import records,compatible_sections,problem_for
+from timetable_data import records,compatible_sections,problem_for
 from markov_planner import solve,plan_from_proposal
 ROOT=Path(__file__).resolve().parent
 
@@ -129,6 +129,8 @@ def coverage(profile):
         'note':'This is a source-coverage certificate, not a claim that the university does not offer the missing subjects.'}
 
 def simulate(profile,model_provider=None):
+    if model_provider is not None:
+        raise ValueError('Use objective parameters with the external optimiser; model-generated schedules are not supported.')
     if profile.get('degree_mode')=='curriculum_with_pending':
         from curriculum_chain import plan
         return plan(profile,width=profile.get('curriculum_beam_width',48))
@@ -150,9 +152,6 @@ def simulate(profile,model_provider=None):
             result={'status':'feasible','selected_options':[o['option_id'] for o in chosen],'course_codes':[o['course_code'] for o in chosen],
                 'course_count':len(chosen),'planner':('Whole-chain Markov beam search with hard terminal graduation checks'
                     if global_plan.get('degree_feasible_search') else 'Diagnostic incomplete path; not a degree recommendation')}
-        elif model_provider:
-            from degree_chain_training import semester_messages
-            raw,parsed=model_provider(semester_messages(problem));result=plan_from_proposal(problem,parsed);result['raw_model_response']=raw
         else:result=solve(problem)
         options={o['option_id']:o for o in problem['options']}
         selected=[options[x] for x in result.get('selected_options',[])]

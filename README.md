@@ -1,45 +1,35 @@
 # CityU Course Helper
 
-Local course planning for Computing Mathematics (CM) and Computer Science (CS),
-with a fine-tuned Qwen3-8B parameter model and external reward optimisation.
+**A local course-planning assistant with Qwen3-8B and an external optimiser.**
 
-## Current released pipeline
+Give the assistant a transcript PDF or a student message. Qwen supplies reward
+parameters and course relations; external Python code selects the course path
+and checks the encoded graduation requirements.
 
-Transcript PDF or natural-language input -> external fact reader -> Qwen objective
-parameters -> strict validator -> external dynamic-programming optimiser.
+[**Test examples**](examples/README.md) · [**Current checkpoint**](adapters/objective-parameters/)
+· [**Results report**](output/pdf/transcript-parameter-pipeline/Transcript_Parameter_Test_Report.pdf)
 
-Qwen returns only `reward_parameters`, `course_relations`, `penalty_weights` and
-`stream_reward_multiplier`. It does not return a timetable or select courses.
-Invalid responses are rejected before optimisation; no silent fallback is used.
+## How it works
 
-## Included checkpoint and evidence
+```mermaid
+flowchart LR
+    A[Transcript PDF or student message] --> B[Read course and grade facts]
+    B --> C[Qwen: objective parameters]
+    C --> D[Validate parameter output]
+    D --> E[External dynamic programming]
+    B -->|Student facts| E
+    E --> F[Course path and requirement audit]
+```
 
-- **Current checkpoint:** `adapters/objective-parameters/`, including the exact
-  trained LoRA weights, configuration and tokenizer files. This is the active
-  rank-8 QLoRA adapter, not a merged standalone copy of the frozen 8B base.
-- **Checkpoint hash:** `62fd3c3bcb8585b36e47e806d9c3c7126801e81953e7b5448a0e11a40d7ec1e8`.
-- **Base revision:** `b968826d9c46dd6066d109eabc6255188de91218` of `Qwen/Qwen3-8B`.
-  `tools/restore_base_model.py` downloads this revision and verifies recorded hashes.
-- **Test inputs and outputs:** start with [`examples/`](examples/README.md).
-  Full raw comparisons, training records and audits are in
-  `reports/transcript-parameter-pipeline/`.
-- **Training data:** `data/transcript-parameters/` and `data/objective-parameters/`.
-- **Readable reports:** `output/pdf/transcript-parameter-pipeline/`.
-- **Course evidence:** parsed data, source provenance, saved CM/CS/GE course PDFs,
-  programme documents and A/B snapshots are included under `data/`, `sources/`
-  and `GE_SEMA/`.
+The model returns only four groups: `reward_parameters`, `course_relations`,
+`penalty_weights` and `stream_reward_multiplier`. The interface rejects model
+responses containing course selections, timetables or changes to hard requirements.
 
-The package also retains historical code, datasets, reports, editable LaTeX and
-presentation materials. `README.history.md` describes earlier experiments;
-historical checkpoints are not bundled and earlier commands may require them.
+## Quick start
 
-## Setup and run
-
-Use Python with an NVIDIA CUDA-capable GPU for live Qwen inference. The original
-run used an RTX 5090 (32 GB), CUDA PyTorch 2.7.1 and four-bit NF4 base loading.
-Training peaked at about 10.6 GiB allocated GPU memory; inference requirements
-vary with input length. Install the CUDA PyTorch build suitable for your system
-before installing `requirements.txt`.
+Use Python and an NVIDIA CUDA-capable GPU for live Qwen inference. The original
+run used an RTX 5090 with 32 GB VRAM. Install a CUDA PyTorch build suitable for
+your system before installing the remaining requirements.
 
 ```powershell
 py -m venv .venv
@@ -49,48 +39,94 @@ py -m venv .venv
 .\run_transcript_optimizer.cmd F
 ```
 
-Use `N` or `M` for the other complete fictional demonstrations. With another
-transcript or English message, the interface exports parameters and parsed facts;
-it requires a supported complete planning context before certifying a degree path.
-Poppler `pdftotext` is preferred for PDFs; a `pypdf` layout fallback is included.
-Project library caches and temporary files stay under the cloned project folder.
-
-### Reproduce the small checks without loading base weights
+Use `N` or `M` for the other examples, or open `run_transcript_optimizer.cmd`
+without an argument for the interactive input. To pass a PDF or a message:
 
 ```powershell
-.\.venv\Scripts\python.exe -m unittest test_transcript_parameter_pipeline test_markov_planner test_llm_reward_external
+.\run_transcript_optimizer.cmd "examples\F\input.pdf"
+.\run_natural_student_input.cmd "I am a Year 2 CM student. MA1300: B+, CS1302: A, GE2260: B. I want Financial Mathematics."
 ```
 
-To rerun the paired GPU comparison with the current checkpoint:
+Outputs are saved in `reports/transcript-parameter-pipeline/latest-run/`, including
+exact model inputs, raw parameters, validation and the optimiser's result when a
+supported full planning context is available. Other student messages export
+parameters and parsed facts; they do not invent a complete degree context.
+
+Poppler `pdftotext` is preferred for PDF reading; a `pypdf` fallback is included.
+Project library caches and temporary files stay inside the cloned project folder.
+
+## Examples and recorded results
+
+Each example contains a clearly fictional transcript, the raw Qwen response,
+validated parameters and a complete external optimiser output.
+
+| Example | Requested stream | Projected credits | Reward | Transcript / structured-prompt agreement |
+| --- | --- | ---: | ---: | --- |
+| [F](examples/F/result.txt) | Financial Mathematics | 122 | 154.312078 | Same parameters and path |
+| [N](examples/N/result.txt) | Financial Mathematics | 122 | 140.126282 | Same parameters and path |
+| [M](examples/M/result.txt) | Enriched Mathematics | 122 | 153.655049 | Same parameters and path |
+
+These three examples were taught after initial failures and are corrective
+retests. Eight separate synthetic parameter exports and four new English controls
+also passed; the reviewed reward policy and formatting families remain familiar.
+The evidence measures input consistency and software behaviour, not student outcomes.
+
+Each CM demonstration satisfies the encoded 122-credit, four-GE/three-area and
+mathematics-elective requirements. Exact dynamic programming and independent
+checking of 64 allowed elective assignments verify the maximum **within each
+supplied fixed completion context**. The comparison is not a global search over
+all possible curricula. Twenty-five future credits retain pending timetable
+details, and repeated A/B snapshots are an explicit simulation assumption.
+These are curriculum plans rather than confirmed registration timetables.
+
+## Included model
+
+The repository includes the current **rank-8 QLoRA adapter**, its configuration
+and tokenizer files in [`adapters/objective-parameters/`](adapters/objective-parameters/).
+The checkpoint is separate from the frozen Qwen3-8B base.
+
+| Item | Value |
+| --- | --- |
+| Base | `Qwen/Qwen3-8B` |
+| Pinned base revision | `b968826d9c46dd6066d109eabc6255188de91218` |
+| Adapter SHA-256 | `62fd3c3bcb8585b36e47e806d9c3c7126801e81953e7b5448a0e11a40d7ec1e8` |
+| Loading | Frozen four-bit NF4 base, BF16 computation |
+
+`tools/restore_base_model.py` downloads that exact base revision and verifies its
+recorded file hashes. `tools/verify_checkpoint.py` checks the included adapter
+without loading the model. Training datasets and training records remain available
+as evidence; the current branch focuses on running the released checkpoint.
+
+## Repository guide
+
+| Location | Contents |
+| --- | --- |
+| `transcript_objective_input.py` | User-facing transcript/message entry point |
+| `inference.py`, `stream_base.py` | Local model loading and generation |
+| `transcript_parameter_pipeline.py` | Parameter validation and optimiser handoff |
+| `curriculum_chain.py`, planning/policy modules | External reward calculation, search and audits |
+| [`examples/`](examples/README.md) | Fictional inputs, parameters and resulting plans |
+| `adapters/objective-parameters/` | Current trained checkpoint |
+| `data/`, `sources/`, `GE_SEMA/` | Course data, programme documents and timetable evidence |
+| `reports/`, `output/pdf/` | Recorded comparisons and readable reports |
+| `tools/` | Base restoration and checkpoint verification |
+| `tests/` | Parameter-contract, path-search and reward checks |
+| `docs/history/` | Earlier project notes |
+
+The complete original development package, including older training and report
+builders, is preserved in [Git history](https://github.com/x91k03-del/cityu-course-helper/tree/2dae238d65d110600d628274b291721e6853f2a7).
+
+## Run the checks
+
+After installing the Python requirements, these checks run without downloading
+base-model weights:
 
 ```powershell
-.\.venv\Scripts\python.exe objective_english_correction.py paired
-.\.venv\Scripts\python.exe objective_english_correction.py evaluate
-.\.venv\Scripts\python.exe objective_english_correction.py heldout
+.\.venv\Scripts\python.exe -m unittest discover -s tests -p "test_*.py"
+.\.venv\Scripts\python.exe tools/verify_checkpoint.py
 ```
 
-These commands overwrite their generated comparison outputs. Parent adapters used
-in earlier training rounds are recorded in the logs but are not needed for inference.
-
-## Recorded results and limits
-
-- Three transcript-versus-structured-prompt pairs returned equal parameters and
-  equal external paths after corrective training. They are familiar corrective retests.
-- Eight separate synthetic parameter exports and four new English controls passed.
-  Policy and formatting families remain familiar; this is not real-student validation.
-- Each of the three CM demonstrations reaches 122 projected credits, with four
-  distributional GEs across Areas 1-3 and at least 20 mathematics-elective credits.
-- Exact dynamic programming and independent enumeration of 64 allowed elective
-  assignments verify the maximum **within each supplied fixed completion context**.
-  This is not a global search over every possible curriculum reallocation.
-- The approved repeated A/B snapshots are simulation assumptions. Twenty-five
-  future credits retain pending timetable details; class times are not invented.
-- The current complete-degree demonstration is CM-specific. Historical CM/CS
-  datasets and policy tools remain included; full-degree CS completion is not
-  claimed by the three CM transcript tests.
-
-Actual student transcripts, credentials, browser profiles, virtual environments,
-downloaded frozen base weights, temporary build dependencies and unrelated archives
-are excluded. Only fictional student examples are packaged. The original transcript
-was used to understand layout, not as model training data. Course materials retain
-their source owners' rights; source provenance is preserved in `sources/`.
+CM and CS course evidence and policy rules are included. The three complete-degree
+transcript demonstrations are CM-specific; they do not establish full-degree CS
+completion support. Only fictional student examples are included. Source owners'
+rights and provenance are recorded in [`NOTICE.md`](NOTICE.md) and `sources/`.

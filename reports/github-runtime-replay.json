@@ -1,0 +1,25 @@
+{
+  "saved_parameter_replays": [
+    {
+      "case": "F",
+      "same_path": true,
+      "same_reward": true,
+      "credits": 122.0
+    },
+    {
+      "case": "N",
+      "same_path": true,
+      "same_reward": true,
+      "credits": 122.0
+    },
+    {
+      "case": "M",
+      "same_path": true,
+      "same_reward": true,
+      "credits": 122.0
+    }
+  ],
+  "ordinary_English_facts_checked": true,
+  "default_inference_uses_active_checkpoint": true,
+  "no_GPU_inference_required_for_cleanup_checks": true
+}

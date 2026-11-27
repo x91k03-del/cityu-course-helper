@@ -16,7 +16,7 @@ from profit_objective import settings,components,option_profit,option_year_bonus
 from planning_policy import cm_priority_weights
 from preparation import graph
 from course_relations import graph as rule_graph
-from timetable_grounded_training import records
+from timetable_data import records
 ROOT=Path(__file__).resolve().parent
 
 def plan(profile,timetable_run=None,width=48):

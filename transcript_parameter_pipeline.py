@@ -233,10 +233,3 @@ def evaluate(label,adapter):
            'credits':a.get('credits'),'objective':a.get('objective')})
     save(OUT/(label+'_comparison.json'),summary)
     print(json.dumps(summary),flush=True)
-
-if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('command',choices=['fixtures','before','after']);args=ap.parse_args()
-    if args.command=='fixtures':build_fixtures()
-    else:
-        adapter=PARENT if args.command=='before' else ADAPTER
-        evaluate(args.command,adapter)
