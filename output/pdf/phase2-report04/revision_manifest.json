@@ -1,0 +1,256 @@
+{
+  "old_tex_sha256": "b11bb0b16bb9ad5937b42998acff12704c89cdeaa4e28560ee90dc26ce274bef",
+  "old_pdf_sha256": "9ab95b150d3792e1133ec16139ab657277009ae9ab464c7bb3885813c6f8fc5a",
+  "only_replaced_model_comparison_subsection": true,
+  "total_tested_profiles": 14,
+  "new_profiles": 8,
+  "report_selection": "four cases with differing outputs; not an overall benchmark score",
+  "selected_examples": [
+    {
+      "case_id": "CM_early_analysis",
+      "changed_courses": [
+        "MA2507",
+        "MA3511",
+        "MA3515",
+        "MA3530"
+      ],
+      "table_entries": [
+        [
+          "MA2507",
+          "---",
+          "Tue 16:00--16:50; Tue 15:00--15:50"
+        ],
+        [
+          "MA3511",
+          "---",
+          "Wed 09:00--11:50"
+        ],
+        [
+          "MA3515",
+          "Thu 15:00--17:50",
+          "---"
+        ],
+        [
+          "MA3530",
+          "---",
+          "Tue 18:00--18:50"
+        ]
+      ],
+      "qwen": {
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA2510:11812:11814",
+          "MA3515:10141",
+          "MA3517:11296",
+          "MA3523:14280"
+        ]
+      },
+      "gpt": {
+        "case_id": "CM_early_analysis",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA2507:10101:10115",
+          "MA2510:11812:11814",
+          "MA3511:10075",
+          "MA3517:11296",
+          "MA3523:14280",
+          "MA3530:12169"
+        ]
+      }
+    },
+    {
+      "case_id": "CM_enriched_despite_finance_GE",
+      "changed_courses": [
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3526",
+        "MA3530"
+      ],
+      "table_entries": [
+        [
+          "MA2507",
+          "---",
+          "Tue 16:00--16:50; Tue 15:00--15:50"
+        ],
+        [
+          "MA2510",
+          "Fri 16:00--16:50; Thu 16:00--17:50; Fri 15:00--15:50",
+          "---"
+        ],
+        [
+          "MA3511",
+          "---",
+          "Wed 09:00--11:50"
+        ],
+        [
+          "MA3526",
+          "Tue 09:00--11:50",
+          "---"
+        ],
+        [
+          "MA3530",
+          "---",
+          "Tue 18:00--18:50"
+        ]
+      ],
+      "qwen": {
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3523:14280",
+          "MA3526:11816",
+          "MA3515:10141",
+          "MA3517:11296",
+          "MA2510:11812:11814"
+        ]
+      },
+      "gpt": {
+        "case_id": "CM_enriched_despite_finance_GE",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA2507:10101:10115",
+          "MA3511:10075",
+          "MA3515:10141",
+          "MA3517:11296",
+          "MA3523:14280",
+          "MA3530:12169"
+        ]
+      }
+    },
+    {
+      "case_id": "CS_data_science",
+      "changed_courses": [
+        "CS2613",
+        "CS3103",
+        "CS3342",
+        "CS3391",
+        "CS3402",
+        "CS3481"
+      ],
+      "table_entries": [
+        [
+          "CS2613",
+          "---",
+          "Fri 17:00--18:50"
+        ],
+        [
+          "CS3103",
+          "Fri 14:00--16:50; Mon 17:00--17:50",
+          "Fri 14:00--16:50; Fri 12:00--12:50"
+        ],
+        [
+          "CS3342",
+          "---",
+          "Thu 10:00--12:50; Thu 14:00--14:50"
+        ],
+        [
+          "CS3391",
+          "---",
+          "Tue 18:30--21:20; Tue 21:30--22:20"
+        ],
+        [
+          "CS3402",
+          "Wed 09:00--11:50; Mon 13:00--13:50",
+          "Wed 09:00--11:50; Mon 11:00--11:50"
+        ],
+        [
+          "CS3481",
+          "Mon 18:30--21:20; Mon 15:00--15:50",
+          "Mon 18:30--21:20; Mon 21:30--22:20"
+        ]
+      ],
+      "qwen": {
+        "status": "feasible",
+        "selected_option_ids": [
+          "CS3103:10021:10023",
+          "CS3481:10568:10900",
+          "CS3402:10025:10027"
+        ]
+      },
+      "gpt": {
+        "case_id": "CS_data_science",
+        "status": "feasible",
+        "selected_option_ids": [
+          "CS2613:13675",
+          "CS3103:10021:10022",
+          "CS3342:10482:10483",
+          "CS3391:13076:13416",
+          "CS3402:10025:10026",
+          "CS3481:10568:10899"
+        ]
+      }
+    },
+    {
+      "case_id": "CS_workload_priority",
+      "changed_courses": [
+        "CS2613",
+        "CS3103",
+        "CS3342",
+        "CS3402",
+        "CS3481"
+      ],
+      "table_entries": [
+        [
+          "CS2613",
+          "---",
+          "Fri 17:00--18:50"
+        ],
+        [
+          "CS3103",
+          "Fri 14:00--16:50; Mon 17:00--17:50",
+          "Fri 14:00--16:50; Fri 12:00--12:50"
+        ],
+        [
+          "CS3342",
+          "Thu 10:00--12:50; Thu 15:00--15:50",
+          "Thu 10:00--12:50; Thu 14:00--14:50"
+        ],
+        [
+          "CS3402",
+          "---",
+          "Wed 09:00--11:50; Mon 11:00--11:50"
+        ],
+        [
+          "CS3481",
+          "---",
+          "Mon 18:30--21:20; Mon 21:30--22:20"
+        ]
+      ],
+      "qwen": {
+        "status": "feasible",
+        "selected_option_ids": [
+          "CS3103:10021:10023",
+          "CS3342:10482:10484"
+        ]
+      },
+      "gpt": {
+        "case_id": "CS_workload_priority",
+        "status": "feasible",
+        "selected_option_ids": [
+          "CS2613:13675",
+          "CS3103:10021:10022",
+          "CS3342:10482:10483",
+          "CS3402:10025:10026",
+          "CS3481:10568:10899"
+        ]
+      }
+    }
+  ],
+  "pages": 9,
+  "comparison_pages_visually_reviewed": [
+    6,
+    7
+  ],
+  "all_previous_content_preserved": true,
+  "profile_count": 14,
+  "additional_profiles": 8,
+  "displayed_difference_examples": 4,
+  "pdf_sha256": "fec5439c332d7dd26097e7f8e29b88c636081b39bed62e0258c506b2de30bf69",
+  "evidence": {
+    "protocol.json": "3797e1c0918d80f9160b3882ef135a6c57ba2b0e5069b8686be499399e447730",
+    "cases.json": "fa9308794df36a81f94c09c19ed125a50381307da1cea06ac3a9fc81b6706d81",
+    "qwen_raw.json": "28e09925b03d255a16e6fc3d72c162585d061622cc0631963976e97792bc30c6",
+    "gpt_raw.json": "7e429568e8b5b79de132f90b2fa74746540a448f722e595e005bd243279bf3d0",
+    "displayed_examples.json": "ec8583490dfdc64055a37ae7ab5dc36bba280f20651d209c77a85ce310055924"
+  }
+}

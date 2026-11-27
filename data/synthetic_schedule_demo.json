@@ -1,0 +1,132 @@
+{
+  "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+  "term": "DEMO",
+  "required_courses": [
+    "DEMO1001"
+  ],
+  "completed_courses": [],
+  "credit_min": 6,
+  "credit_max": 6,
+  "course_min": 2,
+  "course_max": 2,
+  "options": [
+    {
+      "option_id": "DEMO1001-01",
+      "course_code": "DEMO1001",
+      "credits": 3,
+      "term": "DEMO",
+      "rules_reviewed": true,
+      "prerequisites_all": [],
+      "prerequisites_any_groups": [],
+      "corequisites": [],
+      "exclusive_courses": [],
+      "timetable_verified": true,
+      "meetings": [
+        {
+          "day": 1,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_minute": 540,
+          "end_minute": 600
+        }
+      ],
+      "scores": {
+        "background_mismatch": 0.4,
+        "difficulty": 0.4,
+        "workload": 0.4
+      }
+    },
+    {
+      "option_id": "DEMO1002-01",
+      "course_code": "DEMO1002",
+      "credits": 3,
+      "term": "DEMO",
+      "rules_reviewed": true,
+      "prerequisites_all": [],
+      "prerequisites_any_groups": [],
+      "corequisites": [],
+      "exclusive_courses": [],
+      "timetable_verified": true,
+      "meetings": [
+        {
+          "day": 1,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_minute": 540,
+          "end_minute": 600
+        }
+      ],
+      "scores": {
+        "background_mismatch": 0.1,
+        "difficulty": 0.1,
+        "workload": 0.1
+      }
+    },
+    {
+      "option_id": "DEMO1003-01",
+      "course_code": "DEMO1003",
+      "credits": 3,
+      "term": "DEMO",
+      "rules_reviewed": true,
+      "prerequisites_all": [],
+      "prerequisites_any_groups": [],
+      "corequisites": [],
+      "exclusive_courses": [],
+      "timetable_verified": true,
+      "meetings": [
+        {
+          "day": 2,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_minute": 540,
+          "end_minute": 600
+        }
+      ],
+      "scores": {
+        "background_mismatch": 0.4,
+        "difficulty": 0.4,
+        "workload": 0.4
+      }
+    }
+  ],
+  "objective_mode": "legacy_cost"
+}

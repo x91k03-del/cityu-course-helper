@@ -1,0 +1,41 @@
+{
+  "examples": {
+    "train": 331,
+    "validation": 39,
+    "test": 137
+  },
+  "tasks": {
+    "train": {
+      "bscm_score": 18,
+      "cm_selection": 17,
+      "extract": 1,
+      "grounded_extraction": 39,
+      "grounded_rules": 17,
+      "grounded_schedule": 16,
+      "guard": 6,
+      "handbook": 24,
+      "requirement_check": 65,
+      "rules_recall": 34,
+      "schedule_recall": 16,
+      "score": 28,
+      "snapshot_recall": 45,
+      "student_profile": 5
+    },
+    "validation": {
+      "guard": 6,
+      "rules_recall": 17,
+      "schedule_recall": 16
+    },
+    "test": {
+      "grounded_rules": 17,
+      "grounded_schedule": 16,
+      "guard": 6,
+      "requirement_check": 65,
+      "rules_recall": 17,
+      "schedule_recall": 16
+    }
+  },
+  "evaluation_scope": "All source facts intentionally taught. Validation/test are prompt paraphrases and grounded checks, not unseen-fact or independent student evaluation.",
+  "replay": "96 prior GE/BSCM timetable examples and 64 BSCM examples; original datasets unchanged.",
+  "excluded_schedule_examples": 0
+}

@@ -1,0 +1,214 @@
+[
+  {
+    "id": "FIN_PASS_NL1",
+    "group": "FIN_PASS",
+    "mode": "natural_language_question",
+    "input_text": "I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-. How well does my completed study prepare me for EF3320?",
+    "reference": {
+      "target": "EF3320",
+      "preparation_bonus": 0.1,
+      "strongest_sources": [
+        "GE2260"
+      ]
+    },
+    "previous_structured_raw_output": "{\"target\": \"EF3320\", \"preparation_bonus\": 0.1, \"strongest_sources\": [\"GE2260\"]}",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-. How well does my completed study prepare me for EF3320?"
+      }
+    ]
+  },
+  {
+    "id": "FIN_PASS_NL2",
+    "group": "FIN_PASS",
+    "mode": "natural_language_question",
+    "input_text": "I'm in my second year of Computing Mathematics at CityUHK. I passed GE2260 Introduction to Finance with A-, CS1302 with B and MA1300 with B+. Based on these results, what preparation do I have for EF3320?",
+    "reference": {
+      "target": "EF3320",
+      "preparation_bonus": 0.1,
+      "strongest_sources": [
+        "GE2260"
+      ]
+    },
+    "previous_structured_raw_output": "{\"target\": \"EF3320\", \"preparation_bonus\": 0.1, \"strongest_sources\": [\"GE2260\"]}",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I'm in my second year of Computing Mathematics at CityUHK. I passed GE2260 Introduction to Finance with A-, CS1302 with B and MA1300 with B+. Based on these results, what preparation do I have for EF3320?"
+      }
+    ]
+  },
+  {
+    "id": "FIN_FAIL_NL1",
+    "group": "FIN_FAIL",
+    "mode": "natural_language_question",
+    "input_text": "I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: F. How well does my completed study prepare me for EF3320?",
+    "reference": {
+      "target": "EF3320",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "previous_structured_raw_output": "{\"target\": \"EF3320\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: F. How well does my completed study prepare me for EF3320?"
+      }
+    ]
+  },
+  {
+    "id": "FIN_FAIL_NL2",
+    "group": "FIN_FAIL",
+    "mode": "natural_language_question",
+    "input_text": "I'm in my second year of Computing Mathematics at CityUHK. I failed GE2260 Introduction to Finance, but passed CS1302 with B and MA1300 with B+. Based on these results, what preparation do I have for EF3320?",
+    "reference": {
+      "target": "EF3320",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "previous_structured_raw_output": "{\"target\": \"EF3320\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I'm in my second year of Computing Mathematics at CityUHK. I failed GE2260 Introduction to Finance, but passed CS1302 with B and MA1300 with B+. Based on these results, what preparation do I have for EF3320?"
+      }
+    ]
+  },
+  {
+    "id": "AI_GE_NL1",
+    "group": "AI_GE",
+    "mode": "natural_language_question",
+    "input_text": "I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B. How well does my completed study prepare me for CS4487?",
+    "reference": {
+      "target": "CS4487",
+      "preparation_bonus": 0.1,
+      "strongest_sources": [
+        "GE2340"
+      ]
+    },
+    "previous_structured_raw_output": "{\"target\": \"CS4487\", \"preparation_bonus\": 0.25, \"strongest_sources\": [\"MA2503\", \"MA2510\", \"MA3515\"]}",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B. How well does my completed study prepare me for CS4487?"
+      }
+    ]
+  },
+  {
+    "id": "AI_GE_NL2",
+    "group": "AI_GE",
+    "mode": "natural_language_question",
+    "input_text": "I'm studying Computer Science in Year 2 at CityUHK. I have passed the AI GE GE2340 with B, CS2310 with B+ and CS1302A with A. What preparation from these courses would help me take CS4487?",
+    "reference": {
+      "target": "CS4487",
+      "preparation_bonus": 0.1,
+      "strongest_sources": [
+        "GE2340"
+      ]
+    },
+    "previous_structured_raw_output": "{\"target\": \"CS4487\", \"preparation_bonus\": 0.25, \"strongest_sources\": [\"MA2503\", \"MA2510\", \"MA3515\"]}",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I'm studying Computer Science in Year 2 at CityUHK. I have passed the AI GE GE2340 with B, CS2310 with B+ and CS1302A with A. What preparation from these courses would help me take CS4487?"
+      }
+    ]
+  },
+  {
+    "id": "AI_MAX_NL1",
+    "group": "AI_MAX",
+    "mode": "natural_language_question",
+    "input_text": "I am a Year 3 Computing Mathematics student at City University of Hong Kong. My transcript is MA2503: B+, MA2510: P, MA3515: A-, and GE2340: B. How well does my completed study prepare me for CS4487?",
+    "reference": {
+      "target": "CS4487",
+      "preparation_bonus": 0.25,
+      "strongest_sources": [
+        "MA2503",
+        "MA2510",
+        "MA3515"
+      ]
+    },
+    "previous_structured_raw_output": "{\"target\": \"CS4487\", \"preparation_bonus\": 0.25, \"strongest_sources\": [\"MA2503\", \"MA2510\", \"MA3515\"]}",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am a Year 3 Computing Mathematics student at City University of Hong Kong. My transcript is MA2503: B+, MA2510: P, MA3515: A-, and GE2340: B. How well does my completed study prepare me for CS4487?"
+      }
+    ]
+  },
+  {
+    "id": "AI_MAX_NL2",
+    "group": "AI_MAX",
+    "mode": "natural_language_question",
+    "input_text": "I'm a third-year Computing Mathematics student at CityUHK. My passed courses are GE2340 (B), MA3515 (A-), MA2510 (P) and MA2503 (B+). What preparation from these courses would help me take CS4487?",
+    "reference": {
+      "target": "CS4487",
+      "preparation_bonus": 0.25,
+      "strongest_sources": [
+        "MA2503",
+        "MA2510",
+        "MA3515"
+      ]
+    },
+    "previous_structured_raw_output": "{\"target\": \"CS4487\", \"preparation_bonus\": 0.25, \"strongest_sources\": [\"MA2503\", \"MA2510\", \"MA3515\"]}",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I'm a third-year Computing Mathematics student at CityUHK. My passed courses are GE2340 (B), MA3515 (A-), MA2510 (P) and MA2503 (B+). What preparation from these courses would help me take CS4487?"
+      }
+    ]
+  },
+  {
+    "id": "FIN_PASS_TRANSCRIPT_ONLY",
+    "group": "FIN_PASS",
+    "mode": "transcript_only_no_question",
+    "input_text": "I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-.",
+    "reference": null,
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-."
+      }
+    ]
+  },
+  {
+    "id": "FIN_PASS_PLAN",
+    "group": "FIN_PASS",
+    "mode": "ordinary_planning_question",
+    "input_text": "I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-. What courses should I consider next semester and why?",
+    "reference": null,
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-. What courses should I consider next semester and why?"
+      }
+    ]
+  },
+  {
+    "id": "AI_GE_TRANSCRIPT_ONLY",
+    "group": "AI_GE",
+    "mode": "transcript_only_no_question",
+    "input_text": "I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B.",
+    "reference": null,
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B."
+      }
+    ]
+  },
+  {
+    "id": "AI_GE_PLAN",
+    "group": "AI_GE",
+    "mode": "ordinary_planning_question",
+    "input_text": "I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B. What courses should I consider next semester and why?",
+    "reference": null,
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B. What courses should I consider next semester and why?"
+      }
+    ]
+  }
+]

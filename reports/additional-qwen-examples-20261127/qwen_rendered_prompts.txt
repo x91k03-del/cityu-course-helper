@@ -1,0 +1,104 @@
+
+======================================================================
+CASE FIN_PASS
+<|im_start|>system
+Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation.<|im_end|>
+<|im_start|>user
+{"transcript": [{"course_code": "CS1302", "grade": "B"}, {"course_code": "MA1300", "grade": "B+"}, {"course_code": "GE2260", "grade": "A-"}], "target": "EF3320", "direct_teacher_edges": [{"source": "MA2503", "target": "EF3320", "benefit": 0.2, "reason": "Covariance matrices and quadratic forms offer mathematical preparation for portfolio risk.", "topic": "portfolio_mathematics", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm"], "formal_prerequisite": false}, {"source": "MA3515", "target": "EF3320", "benefit": 0.25, "reason": "Constrained optimisation helps interpret portfolio weights and risk-return tradeoffs.", "topic": "portfolio_optimisation", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm"], "formal_prerequisite": false}, {"source": "GE1202", "target": "EF3320", "benefit": 0.1, "reason": "Introductory financial planning provides investment vocabulary, not advanced valuation skills.", "topic": "finance_vocabulary", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm"], "formal_prerequisite": false}, {"source": "GE2260", "target": "EF3320", "benefit": 0.1, "reason": "Introductory finance study provides limited risk-return vocabulary, not quantitative competence.", "topic": "finance_vocabulary", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm"], "formal_prerequisite": false}]}<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+
+
+======================================================================
+CASE FIN_FAIL
+<|im_start|>system
+Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation.<|im_end|>
+<|im_start|>user
+{"transcript": [{"course_code": "CS1302", "grade": "B"}, {"course_code": "MA1300", "grade": "B+"}, {"course_code": "GE2260", "grade": "F"}], "target": "EF3320", "direct_teacher_edges": [{"source": "MA2503", "target": "EF3320", "benefit": 0.2, "reason": "Covariance matrices and quadratic forms offer mathematical preparation for portfolio risk.", "topic": "portfolio_mathematics", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm"], "formal_prerequisite": false}, {"source": "MA3515", "target": "EF3320", "benefit": 0.25, "reason": "Constrained optimisation helps interpret portfolio weights and risk-return tradeoffs.", "topic": "portfolio_optimisation", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm"], "formal_prerequisite": false}, {"source": "GE1202", "target": "EF3320", "benefit": 0.1, "reason": "Introductory financial planning provides investment vocabulary, not advanced valuation skills.", "topic": "finance_vocabulary", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm"], "formal_prerequisite": false}, {"source": "GE2260", "target": "EF3320", "benefit": 0.1, "reason": "Introductory finance study provides limited risk-return vocabulary, not quantitative competence.", "topic": "finance_vocabulary", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm"], "formal_prerequisite": false}]}<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+
+
+======================================================================
+CASE CALC_PASS
+<|im_start|>system
+Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation.<|im_end|>
+<|im_start|>user
+{"transcript": [{"course_code": "MA1301", "grade": "B"}, {"course_code": "MA2508", "grade": "B+"}], "target": "MA3515", "direct_teacher_edges": [{"source": "MA2508", "target": "MA3515", "benefit": 0.2, "confidence": "moderate_deduction", "reason": "Multivariate differentiation may help interpret smooth nonlinear optimization. It does not cover the full linear/integer programming or computational workload."}]}<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+
+
+======================================================================
+CASE CALC_IP
+<|im_start|>system
+Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation.<|im_end|>
+<|im_start|>user
+{"transcript": [{"course_code": "MA1301", "grade": "B"}, {"course_code": "MA2508", "grade": "IP"}], "target": "MA3515", "direct_teacher_edges": [{"source": "MA2508", "target": "MA3515", "benefit": 0.2, "confidence": "moderate_deduction", "reason": "Multivariate differentiation may help interpret smooth nonlinear optimization. It does not cover the full linear/integer programming or computational workload."}]}<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+
+
+======================================================================
+CASE AI_GE
+<|im_start|>system
+Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation.<|im_end|>
+<|im_start|>user
+{"transcript": [{"course_code": "CS1302A", "grade": "A"}, {"course_code": "CS2310", "grade": "B+"}, {"course_code": "GE2340", "grade": "B"}], "target": "CS4487", "direct_teacher_edges": [{"source": "MA2503", "target": "CS4487", "benefit": 0.25, "reason": "Vectors and matrices provide representations for data and model parameters.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "MA2510", "target": "CS4487", "benefit": 0.25, "reason": "Probability and statistical reasoning support uncertainty and model evaluation.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "MA3515", "target": "CS4487", "benefit": 0.25, "reason": "Optimisation concepts help interpret model fitting and loss minimisation.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "MA3518", "target": "CS4487", "benefit": 0.2, "reason": "Applied data analysis and inference provide limited preparation for empirical model assessment.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "GE2340", "target": "CS4487", "benefit": 0.1, "reason": "AI vocabulary and motivation offer limited orientation, not programming or mathematical competence.", "topic": "AI_orientation", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}]}<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+
+
+======================================================================
+CASE AI_GE_FAILED
+<|im_start|>system
+Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation.<|im_end|>
+<|im_start|>user
+{"transcript": [{"course_code": "CS1302A", "grade": "A"}, {"course_code": "CS2310", "grade": "B+"}, {"course_code": "GE2340", "grade": "F"}], "target": "CS4487", "direct_teacher_edges": [{"source": "MA2503", "target": "CS4487", "benefit": 0.25, "reason": "Vectors and matrices provide representations for data and model parameters.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "MA2510", "target": "CS4487", "benefit": 0.25, "reason": "Probability and statistical reasoning support uncertainty and model evaluation.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "MA3515", "target": "CS4487", "benefit": 0.25, "reason": "Optimisation concepts help interpret model fitting and loss minimisation.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "MA3518", "target": "CS4487", "benefit": 0.2, "reason": "Applied data analysis and inference provide limited preparation for empirical model assessment.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "GE2340", "target": "CS4487", "benefit": 0.1, "reason": "AI vocabulary and motivation offer limited orientation, not programming or mathematical competence.", "topic": "AI_orientation", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}]}<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+
+
+======================================================================
+CASE AI_MAX
+<|im_start|>system
+Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation.<|im_end|>
+<|im_start|>user
+{"transcript": [{"course_code": "MA2503", "grade": "B+"}, {"course_code": "MA2510", "grade": "P"}, {"course_code": "MA3515", "grade": "A-"}, {"course_code": "GE2340", "grade": "B"}], "target": "CS4487", "direct_teacher_edges": [{"source": "MA2503", "target": "CS4487", "benefit": 0.25, "reason": "Vectors and matrices provide representations for data and model parameters.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "MA2510", "target": "CS4487", "benefit": 0.25, "reason": "Probability and statistical reasoning support uncertainty and model evaluation.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "MA3515", "target": "CS4487", "benefit": 0.25, "reason": "Optimisation concepts help interpret model fitting and loss minimisation.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "MA3518", "target": "CS4487", "benefit": 0.2, "reason": "Applied data analysis and inference provide limited preparation for empirical model assessment.", "topic": "machine_learning", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}, {"source": "GE2340", "target": "CS4487", "benefit": 0.1, "reason": "AI vocabulary and motivation offer limited orientation, not programming or mathematical competence.", "topic": "AI_orientation", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm", "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4487.pdf"], "formal_prerequisite": false}]}<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+
+
+======================================================================
+CASE ALG_PASS
+<|im_start|>system
+Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation.<|im_end|>
+<|im_start|>user
+{"transcript": [{"course_code": "CS2310", "grade": "B"}, {"course_code": "CS3334", "grade": "A-"}, {"course_code": "GE1305", "grade": "B"}], "target": "CS4335", "direct_teacher_edges": [{"source": "CS2468", "target": "CS4335", "benefit": 0.25, "reason": "Data-structure operations and representation costs support algorithm design.", "topic": "algorithms", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["Saved curriculum title plus GPT disciplinary deduction", "data/courses.jsonl: saved course aims for CS1302/CS1302A/CS2360/CS2468/CS3334"], "formal_prerequisite": false}, {"source": "CS3334", "target": "CS4335", "benefit": 0.3, "reason": "Heaps, trees, hashing and algorithm-analysis practice support advanced algorithm design.", "topic": "algorithms", "confidence": "GPT_content_deduction_not_empirically_calibrated", "evidence": ["Saved curriculum title plus GPT disciplinary deduction", "data/courses.jsonl: saved course aims for CS1302/CS1302A/CS2360/CS2468/CS3334"], "formal_prerequisite": false}]}<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+

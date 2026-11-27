@@ -1,0 +1,18 @@
+{
+  "seed": 20261124,
+  "source_adapter": "adapters/cm-finance-background",
+  "splits": {
+    "test": 20,
+    "validation": 24,
+    "train": 263
+  },
+  "scope": "Synthetic source-conditioned policy distillation; held-out profile/course combinations share source facts. Corrected timetable diagnostics were seen in training.",
+  "extra_EF_penalty": {
+    "no_finance": 1.5,
+    "finance_study": 0.0,
+    "scaled_by": "lambda_background"
+  },
+  "previous_neural_answer_counted_as_success": false,
+  "future_timetables_verified": false,
+  "previous_rollout_corrections": 45
+}

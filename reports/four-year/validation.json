@@ -1,0 +1,10 @@
+{
+  "automated_tests": 106,
+  "all_passed": true,
+  "complete_four_year_transcripts": 6,
+  "all_terminal_audits_passed": true,
+  "model_parameter_calls_accepted": 16,
+  "model_parameter_calls": 16,
+  "fallbacks": 0,
+  "official_graduation_verified": false
+}

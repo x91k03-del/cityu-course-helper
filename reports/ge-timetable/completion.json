@@ -1,0 +1,6 @@
+{
+  "model_parent": "adapters/bscm",
+  "adapter_sha256": "dad4bb3ce46ee1f3fe43536ab1a2f6959831748d7bfe640d630261eff501475d",
+  "source_capture_sha256": "5570629f108e9d9bbfc350bd0c28c820ab79957cecb86a2665e71e398e121365",
+  "grounded_cli_smoke_passed": true
+}

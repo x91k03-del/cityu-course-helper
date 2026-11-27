@@ -1,0 +1,47 @@
+{
+  "seed": 20261116,
+  "examples": {
+    "train": 260,
+    "validation": 36,
+    "test": 48
+  },
+  "new_profile_counts": {
+    "train": 32,
+    "validation": 6,
+    "test": 8
+  },
+  "former_failed_profiles_used_for_training": [
+    "CM02",
+    "CM03",
+    "CM04",
+    "CM05",
+    "CM07",
+    "CM08",
+    "CM09",
+    "CM10",
+    "CM11",
+    "CM12"
+  ],
+  "old_test_contaminated_after_this_training": true,
+  "new_holdout_group_disjoint": true,
+  "split_group": "student year, cohort, passed-course set; failed historical profiles excluded from all new holdout groups",
+  "negative_example_method": "Wrong answer appears only in user evidence; assistant target rejects it and supplies source-derived correction. This is supervised correction, not DPO.",
+  "year_priorities": {
+    "1": [
+      "MA1505"
+    ],
+    "2": [
+      "MA2508",
+      "MA2509"
+    ],
+    "3": [
+      "MA3512",
+      "MA3518"
+    ],
+    "4": [
+      "MA3514",
+      "MA3515"
+    ]
+  },
+  "source_limit": "MA-only hypothetical bundles. Missing verified GE/CS options can make five-course planning infeasible."
+}

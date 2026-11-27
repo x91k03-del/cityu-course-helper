@@ -1,0 +1,134 @@
+1         CS2612: Seminars on Contemporary Cybersecurity
+CS2612: SEMINARS ON CONTEMPORARY
+CYBERSECURITY
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Seminars on Contemporary Cybersecurity 
+Subject Code
+CS - Computer Science 
+Course Number
+2612 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+Two Semesters 
+Credit Units
+0-2 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+Part II Course Details
+Abstract
+2         CS2612: Seminars on Contemporary Cybersecurity
+This course aims to increase the breadth of outlook of students in cybersecurity-related topics. Upon completion, students
+should be able to: 
+1. Understand the current technological trends, social and ethical issues in cybersecurity-related professions; 
+2. Acquire knowledge through self-motivated, continuous, and outside-classroom learning, with a focus on staying up-to-
+date with the latest developments in cybersecurity.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Recognize the current technological trends,
+social and ethical issues in cybersecurity-related
+professions.
+80 x
+2 Acquire cybersecurity knowledge through self-
+motivated, outside-class-room learning and
+discovery.
+20 x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 1 Approximately one
+seminar in diﬀerent
+cybersecurity topics
+would be arranged. In
+total 7 to 8 seminars will
+be arranged per year.
+1
+2 2 Students are required
+to write a report on
+cybersecurity per
+semester based on the
+seminars they attended
+and the extended
+readings they conduct,
+and should participate
+in the online discussion
+forum of the course
+regarding the technology
+trends.
+1, 2
+Assessment Tasks / Activities (ATs)
+3         CS2612: Seminars on Contemporary Cybersecurity
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Attendance of the
+arranged seminars
+1 50 N/A No
+2 Reﬂections and
+extended readings
+documented in the
+submitted reports
+for the seminars
+that students
+attended
+1, 2 50 - No
+Continuous Assessment (%)
+100 
+Examination (%)
+0 
+Assessment Rubrics (AR)
+Assessment Task
+Attendance of the arranged seminars 
+Criterion
+1.1. Attendance 
+Failure (F)
+Not even reaching margin level 
+Assessment Task
+Reﬂections and extended readings documented in the submitted reports for the seminars that students attended 
+Criterion
+2.1. Ability to show appreciation of the technological trends and issues as well as self-learning 
+Failure (F)
+Not even reaching margin level 
+Part III Other Information
+Keyword Syllabus
+Selected topics presented in the format of seminar. Example topics are: emerging cybersecurity threats and vulnerabilities;
+eﬀective cybersecurity strategies in large corporations; latest trends in cybersecurity products and technologies; ethics
+considerations in cybersecurity, such as privacy and data protection.
+Reading List
+Compulsory Readings
+ Title
+1 Nil
+4         CS2612: Seminars on Contemporary Cybersecurity
+Additional Readings
+ Title
+1 Nil

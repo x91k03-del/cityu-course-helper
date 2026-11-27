@@ -1,0 +1,84 @@
+2026/11/21 17:15                                                                               Courses Offered
+
+                                                                                                                                            How to Navigate | Site Map | Help | Exit
+
+
+   Courses Offered in Semester B 2026/27
+
+
+
+    As of November 21, 2026 17:15 PM
+
+    Course : MA3511 Ordinary Differential Equations [ Click here for course catalogue ] or [ Click here for registration detail ] (use "Back" to return to
+    this page)
+
+    Offering Academic Unit: Mathematics
+
+    Pre-requisites/precursors (Students should ensure they fulfill the pre-requisites/precursors requirement prior to adding a course.):
+         (MA2503 and MA2508) or MA2001
+
+    Exclusive Course (Students are restricted from registration in a course when they have earned credits for an exclusive course.):
+         Nil
+
+     CRN     Section   Credit   Campus     WEB    Level   Avail  Cap   Waitlist   Date                         Day   Time            Bldg      Room    Instructor    Medium of
+                                                                       Avail                                                                                         Instruction
+     10075   CA1       3        Main       Y      B       1      66    N          11/01/2027 - 17/04/2027      W     09:00 - 11:50   YEUNG     LT-12   REINTJES      English
+                                Campus                                                                                                                 Moritz
+                                                                                                                                                       Andreas
+                                                  only for Programme: BSCSIU2, BSCSIU3, BSCSIU4
+                                                  only for Major: CM
+     12705   CB1       3        Main       Y      B       15     45    N          11/01/2027 - 17/04/2027      W     09:00 - 11:50   YEUNG     LT-12   REINTJES      English
+                                Campus                                                                                                                 Moritz
+                                                                                                                                                       Andreas
+                                                  only for Programme: BSCCBU4, DBSCBSC1
+                                                  only for Major: CFFT, D004, D008
+     10909   CC1       3        Main       Y      B       4      4     N          11/01/2027 - 17/04/2027      W     09:00 - 11:50   YEUNG     LT-12   REINTJES      English
+                                Campus                                                                                                                 Moritz
+                                                                                                                                                       Andreas
+                                                  only for Minor: MA
+     11401   CD1       3        Main       N      B       FULL   5     N          11/01/2027 - 17/04/2027      W     09:00 - 11:50   YEUNG     LT-12   REINTJES      English
+                                Campus                                                                                                                 Moritz
+                                                                                                                                                       Andreas
+                                                  only for Programme: BSCSIU2, BSCSIU3, BSCSIU4
+                                                  only for Major: PHY
+
+    As of November 21, 2026 17:15 PM
+
+    Disclaimer:
+           The University reserves the right to make adjustments to the class schedules.
+           The Medium of Instruction listed is for general reference only. Please refer to the syllabus of individual courses for more detailed information.
+
+     Search Class
+
+
+    [ Personal Information Collection Statement | Copyright | Disclaimer ]                                             IT Service Desk: +852 3442-8340
+    © 2026 City University of Hong Kong. All Rights Reserved.                                                          Email: it.servicedesk@cityu.edu.hk
+    Release: 8.7.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://banweb.cityu.edu.hk/pls/PROD/hwscrssh_cityu.P_DispOneSection?term=202702&subj=MA&crse=3511&camp=%25&web_avail=                                                           1/1

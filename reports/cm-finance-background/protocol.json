@@ -1,0 +1,29 @@
+{
+  "seed": 20261121,
+  "splits": {
+    "test": 20,
+    "validation": 32,
+    "train": 244
+  },
+  "new_heldout_queries": 20,
+  "historical_regression_queries": 6,
+  "source_adapter": "adapters/cm-cs-programme-v6",
+  "before_after_same_quantised_base": true,
+  "scope": "Synthetic user-policy distillation with profile/candidate combinations split before training. Familiar facts/rubric, not independent real-student or university-waiver validation.",
+  "waiver_authority": "User instruction; CM advisory planning only. Registration approval remains unverified.",
+  "finance_background_scores": {
+    "none": 0.45,
+    "introductory": 0.15,
+    "advanced": 0.05
+  },
+  "policy": "No additional missing-prerequisite penalty for document-allowed CM EF/CS courses; preserve all other source constraints.",
+  "inference_batch_size": 1,
+  "decoding": "greedy, non-thinking, max 420 tokens; identical before/after",
+  "activation_criteria": {
+    "new_heldout_exact_matches_minimum": 18,
+    "new_heldout_total": 20,
+    "historical_regression": "not worse than parent",
+    "six_default_input_diagnostics": "all six exact; familiar-policy diagnostics, not independent holdout"
+  },
+  "runtime_note": "Initial padded batch run aborted in Windows Torch attention-mask vmap; abandoned outputs retained but excluded. Complete comparison rerun using unpadded requests."
+}

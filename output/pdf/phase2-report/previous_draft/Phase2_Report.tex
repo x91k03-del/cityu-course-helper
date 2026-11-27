@@ -1,0 +1,209 @@
+\documentclass{article}
+\usepackage[preprint]{ge2340_project}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{hyperref}
+\setcitestyle{numbers,square}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue,
+  pdftitle={Phase 2: Course Registration Helper for Balanced Workloads},pdfauthor={}}
+\urlstyle{same}
+\title{Phase 2: AI Project Report\\
+\large Course Registration Helper for Balanced Workloads}
+\author{}
+
+\begin{document}
+\maketitle
+
+\section{Introduction \& Problem Recap}
+City University of Hong Kong students must combine degree requirements, prerequisites, section restrictions and class times when choosing courses. A plausible language-model recommendation can still contain an ineligible course, an impossible prerequisite chain or a timetable clash. The project targets Computing Mathematics (CM) and Computer Science (CS) students who want a feasible path that reflects their background, workload preferences and intended stream.
+
+The Phase 1 proposal compared direct language-model planning with language-model scoring followed by constrained optimisation. The implemented prototype follows the latter approach: a locally fine-tuned Qwen3-8B model proposes structured facts or reward parameters, source-based rules validate them, and an optimiser selects courses. The objective now maximises academic utility after three adjustable cost penalties. Source-conditioned test performance improved from 3/15 to 14/15, but later stream examples exposed substantial failures. The main outcome is therefore a guarded planning prototype, rather than an autonomous registration or graduation adviser.
+
+\section{Data Collection \& Methodology}
+\textbf{Sources and scope.} The local collection contains the supplied student handbook, CM degree path and course list, CS major requirements and suggested plan, GE pages, and saved Semester A/B timetable PDFs\citep{cityu-programmes}. The CM path is for the 2025 intake; the user-designated CM course list is a historical 2022/23 catalogue page. CS major requirements are for 2026/27, while its suggested plan is for cohort 2025. These versions are retained separately; their compatibility is not assumed. Only a programme's supplied course list, or a verified GE entry, permits a candidate to pass the membership filter. Membership alone does not establish eligibility.
+
+\begin{table}[H]
+\centering\small
+\caption{Programme/timetable import at the v6 release. Counts refer to records and sections, not independent training labels.}
+\begin{tabular}{p{3.85in}r}
+\toprule
+Item & Count\\
+\midrule
+Distinct timetable files after hash deduplication & 93\\
+Course--term--programme records & 86\\
+Sections matching the encoded major restrictions & 128\\
+Files quarantined because meeting times were unrecognised & 7\\
+CM / CS document-listed course codes & 85 / 73\\
+Captured GE codes at release & 64\\
+\bottomrule
+\end{tabular}
+\label{tab:data}
+\end{table}
+
+\textbf{Cleaning and provenance.} Imports preserve source hashes, term codes, meeting dates/times, restrictions and prerequisite expressions. Semester A is 202609 and Semester B is 202702. Duplicate copies are removed by content hash. ``ONLY FOR CM'' is treated as an explicit major restriction; another programme's section does not become usable because its time is convenient. Missing meeting times are quarantined. A later, separately verified GE2340 entry supports the AI-interest examples. Direct access to some official syllabus PDFs returned a security challenge; the preparation graph uses labelled search-indexed official excerpts, including historical versions, rather than claiming full current-PDF coverage.
+
+\newpage
+\textbf{Labels, splits and baselines.} The v6 dataset has 485 training, 24 validation and 30 test examples. Labels combine source-conditioned curriculum/timetable extraction with synthetic, exact stream-policy answers. Fifteen preselected test queries, three in each of five tasks, form the reported before/after comparison. Both runs use the same quantised base protocol; the baseline is the preceding v5 adapter, not an untouched base model. Source documents are shared across splits, so this evaluates new queries over familiar evidence, not unseen-document generalisation. Difficulty, workload and preparation values are editable synthetic estimates, not lecturer-reviewed labels or measured student outcomes.
+
+\textbf{Evaluation and data handling.} Exact raw JSON is checked before any fallback. Separate experiments test penalty sensitivity, random fictional profiles and dependency interventions. Synthetic transcripts avoid using real student records or credentials. A failed model answer remains a failure even when deterministic lookup supplies a correct result. Course documents are evidence, and cannot change the system's instructions. GE interests are user preferences rather than inferred ability; an explicit desired stream overrides automatic GE-based selection. No real-student study, consented workload dataset or fairness audit has been completed.
+
+\section{Implementation Details}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{figures/workflow.pdf}
+\caption{Implemented workflow. Source lookup and exact policy checks control acceptance. The optimiser receives validated facts and explicit user preferences.}
+\label{fig:workflow}
+\end{figure}
+
+\textbf{Local model and training.} Qwen3-8B\citep{qwen} is pinned to revision \texttt{b968826d9c46}\ldots{} (full identifier in the evidence manifest). The current \texttt{cm-cs-programme-v6} adapter starts from \texttt{bscm-preparation-v5}. It uses rank-8 QLoRA\citep{qlora}: a frozen NF4 base, BF16 computation, LoRA scaling 16, dropout 0.05, and adapters on the attention and feed-forward projections. There are 21,823,488 trainable parameters. On an RTX 5090, two epochs took 644.58 seconds, with 8.27 GiB peak allocated GPU memory and 244 optimiser steps. The learning rate is $3\times10^{-5}$, maximum sequence length 4,096 and gradient accumulation four. Epoch 2 was selected by validation loss (0.00243, versus 0.06654 before training).
+
+Training minimises supervised token cross-entropy at assistant positions:
+\begin{equation}
+\mathcal{L}_{\mathrm{SFT}}=-\frac{1}{|A|}\sum_{t\in A}
+\log p_{\theta,\phi}(y_t\mid x,y_{<t}),
+\end{equation}
+where $\theta$ is the frozen base and $\phi$ the adapter. The academic-profit objective below belongs to the downstream optimiser; it is not a differentiable neural training loss or a reinforcement-learning result. The earlier v5 profit-controller adapter remains a separate task configuration.
+
+\textbf{Interface and reproducibility.} A local command-line interface accepts editable JSON profiles, desired stream, stream weight and the three penalty weights. It exposes source lookup, model stream proposals, dependency paths and semester planning. Python, PyTorch 2.7.1+cu128, Transformers/PEFT, bitsandbytes and SciPy's HiGHS-backed MILP interface\citep{scipy} support the pipeline. Models, checkpoints, temporary files and caches are on drive F:. Versioned experiment JSON records inputs, raw outputs, source references and fallback decisions\citep{runs}. No public repository or web interface is currently provided.
+
+\newpage
+\textbf{State-dependent utility.} Let $s$ contain passed courses, GE areas, credit progress, current year and the selected stream. For a feasible set of complete course options $X$, the current semester objective is
+\begin{align}
+\max_X\;U(X,s)={}&\sum_{c\in X}\bigl[g_c(s)+p_c(s)+h_c(s)+q_c(s)\nonumber\\
+&\quad-\lambda_b b_c(s)-\lambda_d d_c(s)-\lambda_w w_c(s)\bigr]
++R_{\mathrm{stream}}(X,s)-O(X,s). \label{eq:utility}
+\end{align}
+Here $g$ is base profit (normally 3), $p$ is a direct preparation benefit, $h$ a graduation-priority term, $q$ a prerequisite-bridge reward, and $b,d,w\in[0,1]$ are background mismatch, difficulty and workload. All three $\lambda$ values are user-adjustable and non-negative. Utilities are configurable points, not money. Minimising schedule loss is equivalent to minimising $-U$; it remains distinct from $\mathcal{L}_{\mathrm{SFT}}$.
+
+Passing a distributional GE course reduces the base profit of another GE in the same area to $0.1\times3=0.3$. Area metadata comes from the source, rather than code-prefix inference. A selected stream earns 2 points per newly fulfilled distinct slot plus a one-time 6-point completion reward. An explicit stream normally has weight 3, editable from 0 to 10. GE2260 can raise finance preference, and GE2340 can raise CS AI preference, but neither GE awards stream/minor credit. Explicit choices take precedence, and an existing weight of 3 is not multiplied again. Joint selections are evaluated without double-counting alternative slots or completion rewards.
+
+Overload applies only in Year 4:
+\begin{equation}
+O(X,s)=\mathbf{1}_{\{\mathrm{year}=4\}}\,0.25\,[\max(0,C(X)-12)]^2.
+\end{equation}
+Thus 12, 15 and 18 credits incur 0, 2.25 and 9 points respectively; Years 1--3 incur zero overload penalty. Historical four-year mocks also use bounded progress bonuses and discount factor 0.98, updating $s$ after each simulated semester. This is a configured Markov-style utility, not a learned transition model.
+One-hot variables over integer credit totals linearise the Year 4 penalty; enumerated stream-selection patterns preserve exact slot and completion rewards.
+
+\textbf{Hard constraints and unknown facts.} The MILP enforces supplied prerequisites, exclusions, required courses, credit bounds, one option per course and time conflicts between complete section bundles. Defaults require 5--6 distinct courses in Years 1--3 and at most 18 credits. The Year 4 minimum is waived to accommodate the supplied path. At most one \emph{distributional} GE is selected per semester; compulsory GE-coded language/development courses are outside that cap. The CM four-year mock uses at least 122 total credits (the source requirement, stricter than the requested 121), four distributional GEs covering all three areas, and at least 20 elective mathematics credits excluding core/capstone credits.
+
+Unknown lecture/tutorial linkage or teaching weeks prevents verified semester planning. An explicitly hypothetical mode assumes component pairing and weeks 1--14; its output is labelled accordingly. Saved times do not establish current seats. Dependency layers express academic precedence, not actual future semesters. Formal prerequisites, advisory precursors, exclusions and inferred content links are kept separate where sources allow; ambiguous combined labels remain flagged.
+
+\section{Results \& Evaluation}
+\begin{table}[H]
+\centering\small
+\caption{Distinct evaluation sets. Raw-model acceptance is measured before repair or fallback; the rows are not pooled into one accuracy.}
+\begin{tabular}{p{2.55in}p{1.2in}p{1.25in}}
+\toprule
+Protocol & Result & Interpretation\\
+\midrule
+15 preselected v6 source-conditioned queries & Before 3/15; after 14/15 & Familiar-source test\\
+20 later desired-stream profiles & CM 0/10; CS 10/10 & 10 policy fallbacks\\
+4 predeclared dependency-factorial queries & 4/4 exact & Narrow policy probe\\
+\bottomrule
+\end{tabular}
+\label{tab:main}
+\end{table}
+
+\newpage
+\textbf{Neural gains and failures.} The v6 test result rises from 20.0\% to 93.3\% on its 15-query protocol. Membership, section, course-rule and source-excerpt tasks each pass 3/3 after training; stream reasoning passes 2/3. The failed case counts a completed Enriched Mathematics stream as only 3/4 complete and incorrectly offers additional reward. A corrective fine-tune fixes that example but introduces a finance-stream error: replay validation loss worsens from 0.00462 to 0.00921, while post-correction diagnostics remain 14/15. That trial was rejected and the initial v6 checkpoint retained. Those diagnostics include a taught failure and are not an independent holdout.
+
+\textbf{Do the three penalties work?} A controlled experiment fixes four required three-credit courses, three alternative electives, all scores, synthetic meeting times and a five-course/15-credit requirement. Only $\lambda$ changes. Every optimum is checked by enumerating all three alternatives. The six settings are repeated for CM and CS, giving 12 verified optima (Table~\ref{tab:lambda}).
+
+\begin{table}[H]
+\centering\small
+\caption{Penalty sensitivity with frozen synthetic inputs. Each row is run separately for CM and CS. Equal net values result from matched constructed scores, not equal real course workloads.}
+\begin{tabular}{cccp{1.05in}p{1.05in}r}
+\toprule
+$\lambda_b$ & $\lambda_d$ & $\lambda_w$ & CM elective & CS elective & Net utility\\
+\midrule
+1 & 1 & 1 & MA3521 & CS4486 & 17.25\\
+20 & 1 & 1 & MA3521 & CS4486 & 1.10\\
+1 & 20 & 1 & MA3523 & CS3483 & $-5.90$\\
+1 & 1 & 20 & MA3525 & CS3402 & $-5.75$\\
+0 & 12 & 1 & MA3523 & CS3483 & 2.85\\
+12 & 12 & 1 & MA3521 & CS4486 & $-8.05$\\
+\bottomrule
+\end{tabular}
+\label{tab:lambda}
+\end{table}
+
+The difficulty and workload penalties change the selected elective; a larger background penalty changes utility without necessarily changing the optimum. Negative utility is possible because mandatory study constraints remain binding. Values under different $\lambda$ settings are different preference scales, so their magnitudes are not a common outcome metric. Twelve additional saved-timetable runs and two GE ablation pairs are recorded separately; the clean sensitivity table uses constructed times to isolate the objective.
+
+\textbf{Dependency experiment.} Twelve predeclared paired interventions freeze Year 2, base profit 3, scores $(0.2,0.2,0.2)$ and $\lambda=(1,1,1)$, removing credit-progress, overload and semester-competition confounds. All predicted component deltas match the implemented policy. MA2508 adds $+0.20$ preparation utility to MA3515; MA2509 adds $+0.15$ to GE2134. Replacing an equal-credit Area-2 GE with an Area-1 GE reduces another Area-1 GE's base profit by $2.70$. Finance-GE preference changes the next finance slot by $+4$ (weight 1 to 3), while an explicit conflicting stream choice gives zero change. These are configured effects, not measured improvements in learning.
+
+Passing CS3481 unlocks the known prerequisite gate for CS4487 without changing its advertised numeric reward. By contrast, completing CS4480 when CS3481 is already passed makes CS4487 the last Data Science slot, adding the one-time completion reward of $+6$. Controls verify no extra benefit from a duplicate course ID, an unrelated GE, or an already-applied preference multiplier. MA2509 grades B/F/IP/W produce preparation bonuses 0.15/0/0/0. An inferred MA2503--EF3320 content relation remains inactive and does not substitute for an EF prerequisite.
+
+\newpage
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{figures/stream_interaction.pdf}
+\caption{Predeclared $2\times2$ interaction: prior CS3346/CS3356 passes and the target CS4348 in the Software Engineering and Project Management stream. Policy bonuses and all four raw model outputs agree. Historical/current-offering warnings still apply; this is a rule test, not a registration plan.}
+\label{fig:interaction}
+\end{figure}
+With neither prior pass, either pass alone, or both passes, the target stream bonuses are $2,2,2,8$. The interaction $8-2-2+2=6$ is exactly the completion reward. All four frozen model queries reproduce the complete expected policy JSON. A separate prerequisite-OR factorial gives false/true/true/true for CS3481/CS4486 combinations, preventing two alternatives from being mistaken for two required passes. These small, familiar-policy probes do not cancel the broader stream failures in Table~\ref{tab:main}. The dependency study's end-to-end schedule intervention was designed but not executed; a changed course reward need not change a constrained optimum.
+
+\textbf{Twenty desired-stream profiles.} A fixed seed (20261121) generates ten CM and ten CS fictional histories with the listed taught core passed, 1--3 randomly sampled GEs, passing GE grades and preference weights 2, 3 or 4. Stream choices are balanced deliberately. Capstones and internships are not presumed completed, and a student's year is not inferred from completing taught core. Across the 20 profiles, the path checker returns 11 academic dependency paths, four provisional paths with incomplete/historical rule evidence, and five blocked finance paths. None certifies future timetables or graduation. The model accepts only 10/20 raw outputs (CM 0/10, CS 10/10); all ten failures use exact policy fallback.
+
+\begin{table}[H]
+\centering\small
+\caption{Representative profile-to-output results from the 20 saved examples. Arrows denote dependency order, not verified semester assignments.}
+\begin{tabular}{p{1.4in}p{2.2in}p{1.4in}}
+\toprule
+Input / preference & Source-based path or obstacle & Output status\\
+\midrule
+CM taught core; explicit Enriched Mathematics & MA3523, MA4542, MA4545 and MA4546 & Academic path; no verified future times\\
+CS taught core; Artificial Intelligence & CS3383 + CS4486 $\rightarrow$ CS4487 & Academic path\\
+CS taught core; Data Science & CS3402 + CS3481 $\rightarrow$ CS4480 + CS4487 & Academic path with bridges\\
+CM taught core; Financial Mathematics & EF branches need prerequisite courses outside the CM list & Blocked complete route\\
+\bottomrule
+\end{tabular}
+\label{tab:examples}
+\end{table}
+
+The finance case illustrates why interest cannot replace eligibility. GE2260 raises finance preference but excludes CB3410 in the inspected rule evidence; EF3320 requires CB3410 or FB3410. The other EF branch requires EF4820 and further prerequisites outside the specified CM allowlist. Conflicting historical GE exclusions remain flagged\citep{cityu-finance}. Thus increasing reward cannot create a legal complete finance path. Likewise, a GE about AI does not award a minor, and the complete minor route is not automatically authorised for a CM student.
+
+\newpage
+\section{Discussion}
+The strongest result is the separation of useful preference modelling from registration constraints. The model can explain unfamiliar combinations of supplied course facts, while exact checks preserve missing information and reject unsupported stream claims. One document-filtered CM four-year mock reaches 124 credits and one completed stream under the encoded requirements; it remains a hypothetical curriculum audit. A saved CM Semester A example is infeasible under the five-course minimum, and the system reports that outcome rather than inventing another course. CS evaluation covers source-based paths and semester experiments, not a verified full-degree audit.
+
+Authentication/security challenges made live collection unreliable, so saved pages became the reproducible timetable source. Hash deduplication and exact major matching prevented duplicate records and inappropriate section choices. A Windows commit-memory ceiling interrupted full-precision loading; streamed loading and quantised-base training enabled v6. Model caches were redirected to F:.
+
+Policy imitation remains distinct from educational validity. Small splits share documents, profiles are fictional, and the four-case interaction probes familiar rules. Later CM failures demonstrate weak robustness despite low validation loss; corrective training also caused regression. Replay, validation and checkpoint retention are essential. Fallback reliability must not be reported as model accuracy.
+
+Deployment requires coherent cohort rules, confirmed section bundles/weeks, current sources and academic review. GE choices may reflect opportunity rather than enduring interests; editable preferences help, but have not been fairness-tested. Real transcripts would require consent, local processing, minimal retention and deletion controls.
+
+Next, paired schedule tests should freeze candidate sets and report plan overlap, eligibility errors and utility components separately from raw model accuracy. New documents and independent cohorts should test generalisation. Reviewed content, assessment-week deadlines and consented study-time/outcome data are needed: semester workload estimates and clash avoidance do not demonstrate the proposal's weekly-balance goal. Proposed external-university datasets have not been validated as training ground truth.
+
+\section{Conclusion}
+The local Qwen3-8B prototype combines CM/CS source conditioning, guarded timetables, adjustable penalties, stream rewards and constrained selection. Original test performance improves from 3/15 to 14/15, but only 10/20 later stream outputs pass validation. Controlled tests verify configured reward dependencies, not real workload savings. Useful preferences require source checks and feasibility constraints. Independent, cohort-consistent evaluation with reviewed workload evidence and confirmed section bundles is the next priority.
+
+\begin{thebibliography}{9}
+\small
+\bibitem[Yang et~al.(2025)]{qwen}
+A. Yang et al., ``Qwen3 Technical Report,'' arXiv:2505.09388, 2025.
+\url{https://arxiv.org/abs/2505.09388}. Model: \url{https://huggingface.co/Qwen/Qwen3-8B}.
+
+\bibitem[Dettmers et~al.(2023)]{qlora}
+T. Dettmers, A. Pagnoni, A. Holtzman and L. Zettlemoyer, ``QLoRA: Efficient Finetuning of Quantized LLMs,'' 2023. \url{https://arxiv.org/abs/2305.14314}.
+
+\bibitem[SciPy contributors()]{scipy}
+SciPy contributors, ``\texttt{scipy.optimize.milp},'' official documentation.
+\url{https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.milp.html}.
+
+\bibitem[CityUHK(2022--2026)]{cityu-programmes}
+CityUHK, supplied CM \emph{Student Handbook 2026--27}, 2025-entry normative path and historical \emph{CMcourses.pdf}; CS \emph{Majors.pdf} (2026/27) and 2025-cohort normative plan; saved GE and A/B timetable pages. Local source versions and hashes are retained in the project.
+
+\bibitem[CityUHK()]{cityu-finance}
+CityUHK, course catalogue entries and saved rule evidence for GE2260, CB3410 and EF prerequisite chains. \url{https://www.cityu.edu.hk/catalogue/ug/current/course/GE2260.htm}; \url{https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm}. Historical conflicts are retained, not silently reconciled.
+
+\bibitem[Project experiment records(2026)]{runs}
+Project experiment records, snapshot 21 November 2026. Local \texttt{reports/} subfolders: \texttt{programme-v6}, \texttt{ge-pathway-lambda}, \texttt{desired-stream} and \texttt{dependency-experiment}; policies under \texttt{data/}. The accompanying evidence manifest records file hashes.
+\end{thebibliography}
+\end{document}

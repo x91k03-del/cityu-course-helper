@@ -1,0 +1,499 @@
+2026/11/21 下午5:15                                                                                      Majors
+
+
+
+     MAJORS >>>
+
+
+
+         Overview
+
+       Curriculum»
+
+         Normative 4-year
+         Degree
+
+
+           GE Requirements
+
+           College / School
+           Requirements
+
+           Major Requirements
+
+           Suggested Study Plan
+
+         Advanced Standing I
+
+
+         Advanced Standing II
+
+
+            Computer Science
+
+
+                                                                                              Normative 4-year Degree
+
+               Major                                        Computer Science
+                                                            計算機科學
+
+               Degree / Award Title                         Bachelor of Science in Computer Science
+                                                            理學⼠     (計算機科學        )
+
+               Offering Academic Unit                       Department of Computer Science
+
+               Normal Period of Study                       4 years
+
+               Maximum Period of Study                      8 years
+
+               Credit Units Required for                    122 credit units
+               Graduation
+
+             Note: The following curriculum information is subject to periodic review and changes.
+
+
+              GE Requirements (31 credit units)                                             Catalogue Term : Semester A 2026/27
+
+
+
+                                                                                                           Credit
+                                                                                                           Units
+
+              GE University              GE1401 University English                                         3
+              Requirements               GE2410 English for Engineering                                    3
+
+                                         GE1501 Chinese Civilisation - History and Philosophy              3
+
+                                         GE1601 Whole-Person Development                                   1
+
+              GE Distributional          Take at least 1 course from each of the three                     12
+              Requirements               distributional areas:
+
+
+                                         Area 1: Arts and Humanities
+                                         Area 2: Study of Societies, Social and Business
+                                         Organisations
+                                We use cookies to ensure you get the best experience on our website.Area 3: Science and Technology
+                               More information                                                                                                    OK
+
+                                         Visit the GE website for more course information.
+
+https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CSC1-1.htm                                                                                                             1/6
+2026/11/21 下午5:15                                                                                     Majors
+
+              College-specified         CS1302A Introduction to Computer Programming                      3
+              Courses                   CS3402 Database Systems                                           3
+
+                                        JC2066 IT   Professionals: Ethical, Legal and Social              3
+                                        Issues
+
+
+
+              College / School Requirements (8 credit units)                                Catalogue Term : Semester A 2026/27
+
+
+                Course Code          Course Title                                                          Credit
+                                                                                                           Units
+
+                MA1503               Linear Algebra with Applications                                      4
+
+                MA1508               Calculus                                                              4
+
+
+
+              Major Requirements (83 credit units)                                          Catalogue Term : Semester A 2026/27
+
+
+
+              For Normative 4-year Degree (83 credit units)
+              For Normative 4-year Degree with ACT Stream              (83 credit units)
+
+
+               1. Core Courses (56 or 47 credits units)
+
+              Required CS Courses - 47 or 38 credit units
+
+                Course       Course Title                           Credit      Remarks
+                Code                                                Units
+
+                CS2115       Computer Organization                  3
+
+                CS2310       Computer Programming                   3
+
+                CS2312       Problem Solving and                    3
+                             Programming
+
+                CS2402       Introduction to Computational          3
+                             Probability Modeling
+
+                CS2613       Seminars on Contemporary               2
+                             Technology
+
+                CS3103       Operating Systems                      3
+
+                CS3201       Computer Networks                      3
+
+                CS3334       Data Structures                        3
+
+                CS3342       Software Design                        3
+
+                CS4335       Design and Analysis of                 3
+                             Algorithms
+
+                                                                                A course to fulfil the
+                                                                                internship/consultancy
+                CS4514       Project                                9           project/research project
+                                                                                requirement for normative 4-
+                                                                                year degree students
+
+
+
+              Choose either CS3000 or CS3505:
+
+                Course       Course Title                           Credit      Remarks
+                Code                                                Units
+
+                CS3000       Professional Career                    0           Exclusive with CS3505
+                             Development Internship                             Students who choose to enrol
+                                We use cookies to ensure you get the best experience on our website.in CS3000 are required to take
+                               More information                                3 elective courses from the
+
+                                                                                Elective List in lieu of the 9-
+
+https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CSC1-1.htm                                                                                                            2/6
+2026/11/21 下午5:15                                                                                        Majors
+                                                                                  credit CS3505.
+                                                                                  Not available for students
+                                                                                  admitted via 1070 (JS1070)
+                                                                                  under the AI, Computing and
+                                                                                  Transformation stream
+
+                                                                                  Exclusive with CS3000
+                                                                                  A course to fulfil the
+                                                                                  internship/consultancy
+                CS3505        IT Professional Internship              9           project/research project
+                                                                                  requirement for normative 4-
+                                                                                  year degree students
+                                                                                  @Same course
+
+
+
+
+
+
+              Required Supporting Courses – 9 credit units
+
+                Course        Course Title                             Credit      Remarks
+                Code                                                   Units
+
+                MA2185        Discrete Mathematics                     3
+
+
+
+              Choose any TWO from the following list:
+
+                Course        Course Title                             Credit      Remarks
+                Code                                                   Units
+
+                CB2100        Introduction to Financial                3
+                              Accounting
+
+                CB2101        Introduction to Managerial               3
+                              Accounting
+
+                CB2201        Operations Management                    3
+
+                CB2300        Management                               3
+
+                CB2400        Microeconomics                           3
+
+                CB2402        Macroeconomics                           3
+
+                CB2500        Information Management                   3
+
+                CB2601        Marketing                                3
+
+                CB3410        Financial Management                     3
+
+
+
+
+
+
+              2. Electives (27 or 36 credit units)
+
+
+              Electives: minimum 27 credit units from these electives
+              Students may choose any of the Artificial Intelligence / Data Science / Cybersecurity /
+              Multimedia Computing / Software Engineering and Project Management streams by taking 3
+              courses of the selected stream and any 6 elective courses from the list.
+              Students admitted via 1070 (JS1070) are automatically placed under the AI, Computing and
+              Transformation stream, and are required to take the DSC3026 and CS3505 as the stream
+              cores.
+              For those who do not want to focus on a selected stream, they can take any 9 elective courses
+              from the list.
+              Students who choose to enrol in CS3000 are required to take additional 3 elective courses from
+              the list in lieu of the 9-credit CS3505.
+                                We use cookies to ensure you get the best experience on our website.
+              Artificial Intelligence Stream : Stream CoreMore information
+
+
+https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CSC1-1.htm                                                                                                                  3/6
+2026/11/21 下午5:15                                                                                   Majors
+             Students have to choose one out of the following two courses to fulfil Artificial
+             Intelligence Stream Core requirements.  The remaining one can be selected to fulfil
+             Artificial Intelligence Stream Elective requirements.
+
+               Course       Course Title                           Credit     Remarks
+               Code                                                Units
+
+               CS4486       Artificial Intelligence                3
+
+               CS4487       Machine Learning                       3          *Same course
+
+
+
+             Choose two from the following courses:
+
+               Course       Course Title                           Credit      Remarks
+               Code                                                Units
+
+               CS3383       AI for Software Engineering            3
+
+               CS4186       Computer Vision and Image              3           #Same course
+                            Processing
+
+               CS4386       AI Game Programming                    3
+
+               CS4486       Artificial Intelligence                3
+
+               CS4487       Machine Learning                       3           *Same Course
+
+               CS4489       Optimization Foundations for AI        3
+                            Training
+
+               CS4490       Generative AI Essentials and           3
+                            Applications
+
+               CS4493       Natural Language Processing            3
+
+
+
+
+             Data Science Stream: Stream Core
+
+               Course       Course Title                           Credit      Remarks
+               Code                                                Units
+
+               CS3481       Fundamentals of Data Science           3
+
+               CS4480       Data-Intensive Computing               3
+
+               CS4487       Machine Learning                       3           *Same course
+
+
+
+
+             Cybersecurity Stream : Stream Core
+
+               Course       Course Title                           Credit      Remarks
+               Code                                                Units
+
+               CS4286       Internet Security and e-               3
+                            Commerce Protocols
+
+               CS4293       Topics in Cybersecurity                3
+
+               CS4394       Information Security and               3
+                            Management
+
+
+
+
+             Multimedia Computing Stream : Stream Core
+
+               Course       Course Title                           Credit     Remarks
+               Code                                                Units
+               CS3483       Multimodal Interface DesignWe use cookies to ensure you get the best experience on our website.3
+                              More information
+
+
+
+https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CSC1-1.htm                                                                                                         4/6
+2026/11/21 下午5:15                                                                                   Majors
+
+               CS4182       Computer Graphics                      3
+
+
+
+             Choose one out of the following five courses:
+
+               Course       Course Title                           Credit     Remarks
+               Code                                                Units
+
+               CS3189       User-centred Interaction               3
+                            Design
+
+               CS4185       Multimedia Technologies and            3
+                            Applications
+
+               CS4186       Computer Vision and Image              3          #Same course
+                            Processing
+
+               CS4187       Computer Vision for                    3
+                            Interactivity
+
+               CS4188       Virtual Reality                        3
+
+
+
+
+             Software Engineering and Project Management Stream : Stream Core
+
+
+             Choose three out of the following four courses:
+
+               Course       Course Title                           Credit     Remarks
+               Code                                                Units
+
+               CS3346       Software Testing and                   3
+                            Maintenance
+
+               CS3356       Managing Software Projects             3          Exclusive with IS4500
+
+               CS4348       Software Quality Management            3
+
+               CS4389       Decentralized Applications             3
+                            Development
+
+
+
+
+             AI, Computing and Transformation Stream: Stream Core (only for students admitted via
+             1070 (JS1070))
+
+
+               Course         Course Title                          Credit     Remarks
+               Code                                                 Units
+
+               DSC3026        International Professional            3          CS3505 is another stream
+                              Development                                      core under this stream
+
+
+
+
+              Other Electives :
+
+               Course       Course Title                           Credit     Remarks
+               Code                                                Units
+
+               CS3283       Distributed Systems                    3
+
+               CS3382       Web Usability Design and               3
+                            Engineering
+
+               CS3391       Advanced Programming                   3
+
+               CS4280       Advanced Internet                      3
+                            Applications DevelopmentWe use cookies to ensure you get the best experience on our website.
+               CS4284      Mobile ComputingMore information       3
+
+
+
+https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CSC1-1.htm                                                                                                        5/6
+2026/11/21 下午5:15                                                                                     Majors
+
+                CS4288       Cryptographic Algorithms and           3
+                             Protocols
+
+                CS4295       Mobile Application                     3
+                             Programming
+
+                CS4296       Cloud Computing                        3
+
+                CS4298       iOS Application Development            3
+
+                CS4367       Computer Games Design                  3
+
+                CS4381       Advanced Software Design               3
+
+                CS4385       Topics in Software                     3
+                             Engineering
+
+                CS4485       Information Retrieval                  3
+
+                                                                                A course to fulfil the
+                                                                                internship/consultancy
+                CS4552       Guided Study                           3           project/research project
+                                                                                requirement for normative 4-
+                                                                                year degree students
+
+                MA2172       Applied Statistics for Sciences        3
+                             and Engineering
+
+
+
+              Suggested Study Plan
+
+                Suggested Study Plan for BSc Computer Science
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                We use cookies to ensure you get the best experience on our website.
+                               More information
+
+
+
+https://www.cityu.edu.hk/catalogue/ug/current/Major/BSC1_CSC1-1.htm                                                                                                            6/6

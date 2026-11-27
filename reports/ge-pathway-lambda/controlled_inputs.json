@@ -1,0 +1,629 @@
+{
+  "CM": {
+    "programme": "CM",
+    "selected_stream": "Financial Mathematics",
+    "stream_reward_multiplier": 3.0,
+    "student_year": 2,
+    "term": "DEMO",
+    "required_courses": [
+      "MA2509",
+      "CS2360",
+      "MA3517",
+      "GE1105"
+    ],
+    "completed_courses": [
+      "MA1300",
+      "MA1301",
+      "MA2503",
+      "MA2508",
+      "MA2510",
+      "CS1302",
+      "GE2260"
+    ],
+    "credit_min": 15,
+    "credit_max": 15,
+    "course_min": 5,
+    "course_max": 5,
+    "options": [
+      {
+        "option_id": "MA2509-01",
+        "course_code": "MA2509",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [
+          "MA2144",
+          "MA2185",
+          "MA2504"
+        ],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 1,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.2,
+          "difficulty": 0.2,
+          "workload": 0.2
+        }
+      },
+      {
+        "option_id": "CS2360-01",
+        "course_code": "CS2360",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 2,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.2,
+          "difficulty": 0.2,
+          "workload": 0.2
+        }
+      },
+      {
+        "option_id": "MA3517-01",
+        "course_code": "MA3517",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [
+          "MA2508"
+        ],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 3,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.2,
+          "difficulty": 0.2,
+          "workload": 0.2
+        }
+      },
+      {
+        "option_id": "GE1105-01",
+        "course_code": "GE1105",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 4,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.2,
+          "difficulty": 0.2,
+          "workload": 0.2
+        }
+      },
+      {
+        "option_id": "MA3521-01",
+        "course_code": "MA3521",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [
+          "MA2510"
+        ],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 5,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.05,
+          "difficulty": 0.65,
+          "workload": 0.65
+        }
+      },
+      {
+        "option_id": "MA3523-01",
+        "course_code": "MA3523",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [
+          "MA2503"
+        ],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 5,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.75,
+          "difficulty": 0.1,
+          "workload": 0.55
+        }
+      },
+      {
+        "option_id": "MA3525-01",
+        "course_code": "MA3525",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [
+          "MA2503"
+        ],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 5,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.6,
+          "difficulty": 0.55,
+          "workload": 0.1
+        }
+      }
+    ],
+    "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable"
+  },
+  "CS": {
+    "programme": "CS",
+    "selected_stream": "Artificial Intelligence",
+    "stream_reward_multiplier": 3.0,
+    "student_year": 2,
+    "term": "DEMO",
+    "required_courses": [
+      "CS2115",
+      "CS2402",
+      "CS3334",
+      "CS3342"
+    ],
+    "completed_courses": [
+      "CS1302A",
+      "CS2310",
+      "CS2312",
+      "GE2340"
+    ],
+    "credit_min": 15,
+    "credit_max": 15,
+    "course_min": 5,
+    "course_max": 5,
+    "options": [
+      {
+        "option_id": "CS2115-01",
+        "course_code": "CS2115",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 1,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.2,
+          "difficulty": 0.2,
+          "workload": 0.2
+        }
+      },
+      {
+        "option_id": "CS2402-01",
+        "course_code": "CS2402",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [
+          "CS1302A"
+        ],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 2,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.2,
+          "difficulty": 0.2,
+          "workload": 0.2
+        }
+      },
+      {
+        "option_id": "CS3334-01",
+        "course_code": "CS3334",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [
+          "CS2310"
+        ],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [
+          "CS2334"
+        ],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 3,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.2,
+          "difficulty": 0.2,
+          "workload": 0.2
+        }
+      },
+      {
+        "option_id": "CS3342-01",
+        "course_code": "CS3342",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [
+          "CS2310"
+        ],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 4,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.2,
+          "difficulty": 0.2,
+          "workload": 0.2
+        }
+      },
+      {
+        "option_id": "CS4486-01",
+        "course_code": "CS4486",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [
+          "CS2310"
+        ],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 5,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.05,
+          "difficulty": 0.65,
+          "workload": 0.65
+        }
+      },
+      {
+        "option_id": "CS3483-01",
+        "course_code": "CS3483",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [
+          "CS2310"
+        ],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 5,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.75,
+          "difficulty": 0.1,
+          "workload": 0.55
+        }
+      },
+      {
+        "option_id": "CS3402-01",
+        "course_code": "CS3402",
+        "credits": 3,
+        "term": "DEMO",
+        "rules_reviewed": true,
+        "prerequisites_all": [
+          "CS2310"
+        ],
+        "prerequisites_any_groups": [],
+        "corequisites": [],
+        "exclusive_courses": [],
+        "timetable_verified": true,
+        "meetings": [
+          {
+            "day": 5,
+            "weeks": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "start_minute": 540,
+            "end_minute": 600
+          }
+        ],
+        "scores": {
+          "background_mismatch": 0.6,
+          "difficulty": 0.55,
+          "workload": 0.1
+        }
+      }
+    ],
+    "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable"
+  }
+}

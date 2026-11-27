@@ -1,0 +1,15 @@
+{
+  "adapter": "adapters/degree-chain-policy",
+  "report_dir": "reports/degree-chain-policy",
+  "accepted_for_activation": true,
+  "before": {
+    "passed": 12,
+    "total": 20
+  },
+  "after": {
+    "passed": 18,
+    "total": 20
+  },
+  "sha256": "c8835286981162a6f9ffb67fa8e712e8c9beceb93f7e5f2237f0b4c90b33e0cf",
+  "scope": "Flexible semester timetable and hard terminal degree-credit policy; general/relations checkpoints preserved."
+}

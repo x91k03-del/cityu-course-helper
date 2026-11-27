@@ -1,0 +1,79 @@
+[
+  {
+    "programme": "CS",
+    "completed_courses": [
+      "CS3481",
+      "CS4480"
+    ],
+    "selected_stream": "Data Science",
+    "raw_model_response": "{\"selected_stream\": \"Data Science\", \"completed_slots\": 2, \"required_slots\": 3, \"stream_complete\": false, \"course_chain_bonus\": {\"CS4487\": 8}, \"completion_bonus\": 6, \"progress_bonus_per_slot\": 2, \"maximum_streams_rewarded\": 1}",
+    "model_accepted": true,
+    "policy_fallback_used": false,
+    "validated_output": {
+      "selected_stream": "Data Science",
+      "completed_slots": 2,
+      "required_slots": 3,
+      "stream_complete": false,
+      "course_chain_bonus": {
+        "CS4487": 8
+      },
+      "completion_bonus": 6,
+      "progress_bonus_per_slot": 2,
+      "maximum_streams_rewarded": 1
+    }
+  },
+  {
+    "programme": "CM",
+    "completed_courses": [
+      "MA3523",
+      "MA4542",
+      "MA4545",
+      "MA4528",
+      "MA4551"
+    ],
+    "selected_stream": "Enriched Mathematics",
+    "raw_model_response": "{\"selected_stream\": \"Enriched Mathematics\", \"completed_slots\": 3, \"required_slots\": 4, \"stream_complete\": false, \"course_chain_bonus\": {\"MA4546\": 8}, \"completion_bonus\": 6, \"progress_bonus_per_slot\": 2, \"maximum_streams_rewarded\": 1}",
+    "model_accepted": false,
+    "policy_fallback_used": true,
+    "validated_output": {
+      "selected_stream": "Enriched Mathematics",
+      "completed_slots": 4,
+      "required_slots": 4,
+      "stream_complete": true,
+      "course_chain_bonus": {
+        "MA4546": 0
+      },
+      "completion_bonus": 6,
+      "progress_bonus_per_slot": 2,
+      "maximum_streams_rewarded": 1
+    }
+  },
+  {
+    "programme": "CS",
+    "completed_courses": [
+      "CS4487",
+      "CS3383"
+    ],
+    "selected_stream": "Artificial Intelligence",
+    "raw_model_response": "{\"selected_stream\": \"Artificial Intelligence\", \"completed_slots\": 2, \"required_slots\": 3, \"stream_complete\": false, \"course_chain_bonus\": {\"CS4186\": 8, \"CS4386\": 8, \"CS4486\": 8, \"CS4489\": 8, \"CS4490\": 8, \"CS4493\": 8}, \"completion_bonus\": 6, \"progress_bonus_per_slot\": 2, \"maximum_streams_rewarded\": 1}",
+    "model_accepted": true,
+    "policy_fallback_used": false,
+    "validated_output": {
+      "selected_stream": "Artificial Intelligence",
+      "completed_slots": 2,
+      "required_slots": 3,
+      "stream_complete": false,
+      "course_chain_bonus": {
+        "CS4186": 8,
+        "CS4386": 8,
+        "CS4486": 8,
+        "CS4489": 8,
+        "CS4490": 8,
+        "CS4493": 8
+      },
+      "completion_bonus": 6,
+      "progress_bonus_per_slot": 2,
+      "maximum_streams_rewarded": 1
+    }
+  }
+]

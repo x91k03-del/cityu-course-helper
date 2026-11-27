@@ -1,0 +1,279 @@
+{
+  "data_mode": "synthetic_fixture_only",
+  "profiles": 6,
+  "methods": {
+    "pure_llm_base": {
+      "schedules": 6,
+      "schedules_with_violations": 6,
+      "total_constraint_violations": 6
+    },
+    "fine_tuned_scores_milp": {
+      "schedules": 6,
+      "schedules_with_violations": 0,
+      "total_constraint_violations": 0
+    }
+  },
+  "human_rankings": null,
+  "real_workload_mse": null,
+  "limitations": "Synthetic constraints do not measure real-student performance or score accuracy.",
+  "details": [
+    {
+      "profile": "cs_y1",
+      "method": "pure_llm_base",
+      "selection": [
+        "CS1315-SIM"
+      ],
+      "violations": [
+        "credit_bound"
+      ],
+      "raw_response": "{\n  \"selected_options\": [\"CS1315-SIM\"],\n  \"explanation\": \"The student is a first-year Computer Science major with an interest in programming. The required course is CS1315, which is offered as an option. Since the student has no completed courses, they can enroll in CS1315. The course meets the required course requirement and satisfies the credit minimum of 9 credits. No other courses are needed as the credit requirement is met with just CS1315.\"\n}"
+    },
+    {
+      "profile": "cs_y1",
+      "method": "fine_tuned_scores_milp",
+      "selection": [
+        "CS1315-SIM",
+        "CS2312-SIM",
+        "CS2315-SIM"
+      ],
+      "violations": [],
+      "solver": {
+        "status": "optimal",
+        "selected_options": [
+          "CS1315-SIM",
+          "CS2312-SIM",
+          "CS2315-SIM"
+        ],
+        "course_codes": [
+          "CS1315",
+          "CS2312",
+          "CS2315"
+        ],
+        "credits": 9.0,
+        "objective": 2.81,
+        "rejected_options": {},
+        "data_mode": "synthetic_constraint_fixture_not_real_CityU_timetable_or_eligibility",
+        "weekly_balance_verified": false,
+        "limitations": [
+          "Only the supplied reviewed rules and meetings are enforced.",
+          "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+        ]
+      }
+    },
+    {
+      "profile": "cs_y2",
+      "method": "pure_llm_base",
+      "selection": [
+        "CS1315-SIM"
+      ],
+      "violations": [
+        "credit_bound"
+      ],
+      "raw_response": "{\n  \"selected_options\": [\"CS1315-SIM\"],\n  \"explanation\": \"The student has already completed 'CS1302' and the required course 'CS1315' is mandatory. Since the student's major is Computer Science and they are in their second year, 'CS1315' is a suitable course to fulfill the required course and aligns with their interests in AI and data. The course 'CS1315' is selected as it meets the required course criteria and does not conflict with any other courses in the schedule. The total credit hours for the selected course is 3, which is within the credit range of 9 to 9.\"\n}"
+    },
+    {
+      "profile": "cs_y2",
+      "method": "fine_tuned_scores_milp",
+      "selection": [
+        "CS1315-SIM",
+        "CS2312-SIM",
+        "CS2315-SIM"
+      ],
+      "violations": [],
+      "solver": {
+        "status": "optimal",
+        "selected_options": [
+          "CS1315-SIM",
+          "CS2312-SIM",
+          "CS2315-SIM"
+        ],
+        "course_codes": [
+          "CS1315",
+          "CS2312",
+          "CS2315"
+        ],
+        "credits": 9.0,
+        "objective": 3.46,
+        "rejected_options": {},
+        "data_mode": "synthetic_constraint_fixture_not_real_CityU_timetable_or_eligibility",
+        "weekly_balance_verified": false,
+        "limitations": [
+          "Only the supplied reviewed rules and meetings are enforced.",
+          "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+        ]
+      }
+    },
+    {
+      "profile": "cs_y4",
+      "method": "pure_llm_base",
+      "selection": [
+        "CS1315-SIM"
+      ],
+      "violations": [
+        "credit_bound"
+      ],
+      "raw_response": "{\n  \"selected_options\": [\"CS1315-SIM\"],\n  \"explanation\": \"The student has already completed 'CS1302' and 'CS3334', and the required course 'CS1315' is needed. Since 'CS1315' is a required course and the student has not completed it, it must be selected. The other courses (CS2310, CS2312, CS2315) are not required, and the student's interests are in 'systems', which may not align with these courses. Additionally, the student is in their fourth year, so they may not need to take foundational courses like CS1315 again. The selected course 'CS1315-SIM' meets the required course requirement and does not conflict with any other courses in the schedule.\"\n}"
+    },
+    {
+      "profile": "cs_y4",
+      "method": "fine_tuned_scores_milp",
+      "selection": [
+        "CS1315-SIM",
+        "CS2312-SIM",
+        "CS2315-SIM"
+      ],
+      "violations": [],
+      "solver": {
+        "status": "optimal",
+        "selected_options": [
+          "CS1315-SIM",
+          "CS2312-SIM",
+          "CS2315-SIM"
+        ],
+        "course_codes": [
+          "CS1315",
+          "CS2312",
+          "CS2315"
+        ],
+        "credits": 9.0,
+        "objective": 3.02,
+        "rejected_options": {},
+        "data_mode": "synthetic_constraint_fixture_not_real_CityU_timetable_or_eligibility",
+        "weekly_balance_verified": false,
+        "limitations": [
+          "Only the supplied reviewed rules and meetings are enforced.",
+          "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+        ]
+      }
+    },
+    {
+      "profile": "business_y1",
+      "method": "pure_llm_base",
+      "selection": [
+        "CS1315-SIM"
+      ],
+      "violations": [
+        "credit_bound"
+      ],
+      "raw_response": "{\n  \"selected_options\": [\"CS1315-SIM\"],\n  \"explanation\": \"The student is required to complete 'CS1315' as a required course. Since the student has no completed courses and the required course 'CS1315' is available as an option, it is selected. The other courses are not required, and the student's major is Business, which does not have any direct constraints on the selection of computer science courses in this synthetic scenario. The credit requirement is satisfied with 3 credits from 'CS1315', and no other courses are needed to meet the credit minimum of 9. The selected course does not conflict with any other courses in terms of meeting times.\"\n}"
+    },
+    {
+      "profile": "business_y1",
+      "method": "fine_tuned_scores_milp",
+      "selection": [
+        "CS1315-SIM",
+        "CS2312-SIM",
+        "CS2315-SIM"
+      ],
+      "violations": [],
+      "solver": {
+        "status": "optimal",
+        "selected_options": [
+          "CS1315-SIM",
+          "CS2312-SIM",
+          "CS2315-SIM"
+        ],
+        "course_codes": [
+          "CS1315",
+          "CS2312",
+          "CS2315"
+        ],
+        "credits": 9.0,
+        "objective": 3.76,
+        "rejected_options": {},
+        "data_mode": "synthetic_constraint_fixture_not_real_CityU_timetable_or_eligibility",
+        "weekly_balance_verified": false,
+        "limitations": [
+          "Only the supplied reviewed rules and meetings are enforced.",
+          "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+        ]
+      }
+    },
+    {
+      "profile": "business_y3",
+      "method": "pure_llm_base",
+      "selection": [
+        "CS1315-SIM"
+      ],
+      "violations": [
+        "credit_bound"
+      ],
+      "raw_response": "{\n  \"selected_options\": [\"CS1315-SIM\"],\n  \"explanation\": \"The student is required to complete 'CS1315' as a required course. Since the student has no completed courses and the required course 'CS1315' is available as an option, it is selected. The other courses are not required, and the student's interests in technology are not directly addressed by the available options. The selected course meets the required course requirement and satisfies the credit minimum of 9 credits.\"\n}"
+    },
+    {
+      "profile": "business_y3",
+      "method": "fine_tuned_scores_milp",
+      "selection": [
+        "CS1315-SIM",
+        "CS2312-SIM",
+        "CS2315-SIM"
+      ],
+      "violations": [],
+      "solver": {
+        "status": "optimal",
+        "selected_options": [
+          "CS1315-SIM",
+          "CS2312-SIM",
+          "CS2315-SIM"
+        ],
+        "course_codes": [
+          "CS1315",
+          "CS2312",
+          "CS2315"
+        ],
+        "credits": 9.0,
+        "objective": 3.76,
+        "rejected_options": {},
+        "data_mode": "synthetic_constraint_fixture_not_real_CityU_timetable_or_eligibility",
+        "weekly_balance_verified": false,
+        "limitations": [
+          "Only the supplied reviewed rules and meetings are enforced.",
+          "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+        ]
+      }
+    },
+    {
+      "profile": "humanities_y2",
+      "method": "pure_llm_base",
+      "selection": [
+        "CS1315-SIM"
+      ],
+      "violations": [
+        "credit_bound"
+      ],
+      "raw_response": "{\n  \"selected_options\": [\"CS1315-SIM\"],\n  \"explanation\": \"The student is required to complete 'CS1315' as a required course. Since the student has no completed courses and the required course 'CS1315' is available as an option, it is selected. The other courses are not required, and the student's major in Humanities does not necessitate additional computer science courses. The selected course meets the credit requirement of 9 credits (3 credits for CS1315).\"\n}"
+    },
+    {
+      "profile": "humanities_y2",
+      "method": "fine_tuned_scores_milp",
+      "selection": [
+        "CS1315-SIM",
+        "CS2312-SIM",
+        "CS2315-SIM"
+      ],
+      "violations": [],
+      "solver": {
+        "status": "optimal",
+        "selected_options": [
+          "CS1315-SIM",
+          "CS2312-SIM",
+          "CS2315-SIM"
+        ],
+        "course_codes": [
+          "CS1315",
+          "CS2312",
+          "CS2315"
+        ],
+        "credits": 9.0,
+        "objective": 3.8200000000000003,
+        "rejected_options": {},
+        "data_mode": "synthetic_constraint_fixture_not_real_CityU_timetable_or_eligibility",
+        "weekly_balance_verified": false,
+        "limitations": [
+          "Only the supplied reviewed rules and meetings are enforced.",
+          "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+        ]
+      }
+    }
+  ]
+}

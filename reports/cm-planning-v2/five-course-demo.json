@@ -1,0 +1,38 @@
+{
+  "status": "optimal",
+  "selected_options": [
+    "MA3512-SIM",
+    "MA3518-SIM",
+    "DEMO1003-SIM",
+    "DEMO1004-SIM",
+    "DEMO1005-SIM"
+  ],
+  "course_codes": [
+    "MA3512",
+    "MA3518",
+    "DEMO1003",
+    "DEMO1004",
+    "DEMO1005"
+  ],
+  "credits": 15,
+  "objective": 5.700000000000001,
+  "objective_model": "student_cost_plus_weighted_unselected_maths_core",
+  "course_count": 5,
+  "course_min": 5,
+  "course_max": 6,
+  "student_cost": 5.7,
+  "graduation_priority_weight": 3,
+  "selected_priority_courses": [
+    "MA3512",
+    "MA3518"
+  ],
+  "unselected_priority_courses": [],
+  "priority_policy_note": "Synthetic year-three example: actual eligibility and class times are simulated.",
+  "rejected_options": {},
+  "data_mode": "synthetic_policy_demo_not_actual_CityU_times_or_eligibility",
+  "weekly_balance_verified": false,
+  "limitations": [
+    "Only the supplied reviewed rules and meetings are enforced.",
+    "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+  ]
+}

@@ -1,0 +1,15 @@
+Student input interpreted by Qwen
+Programme: CM
+Study year: 2
+Semester: A
+Entry cohort: 2025
+Completed courses: CS1302, GE2260, MA1300
+Desired stream: Financial Mathematics
+CS1302: B -- Introduction to Computer Programming
+GE2260: A-
+MA1300: B+ -- Enhanced Calculus and Linear Algebra I
+Preparation target: EF3320 -- Security Analysis and Portfolio Management
+Configured preparation reward: 0.1
+Strongest passed sources: GE2260
+Penalty weights: {"background_mismatch": 1.0, "difficulty": 1.0, "workload": 1.0}
+Course titles above are read from saved source data. Preparation rewards are advisory; they do not establish registration eligibility.

@@ -1,0 +1,20 @@
+{
+  "profile_id": "finance_GE",
+  "programme": "CM",
+  "programme_code": "BSCSIU4",
+  "cohort": 2025,
+  "year": 2,
+  "term": "202702",
+  "completed_courses": [
+    "MA1300",
+    "MA1301",
+    "MA2503",
+    "MA2508",
+    "MA2509",
+    "MA2510",
+    "CS1302",
+    "GE2260"
+  ],
+  "desired_stream": "Financial Mathematics",
+  "stream_reward_multiplier": 1.0
+}

@@ -1,0 +1,172 @@
+=== PAGE 1 ===
+2026/11/15 晚上9:26                                                                          Courses Offered
+
+                                                                                                                                  How to Navigate | Site Map | Help | Exit
+
+
+  Courses Offered in Semester A 2026/27
+
+
+
+   As of November 15, 2026 21:26 PM
+
+   Course : MA2001 Multi-variable Calculus and Linear Algebra [ Click here for course catalogue ] or [ Click here for registration detail ] (use "Back"
+   to return to this page)
+
+   Offering Academic Unit: Mathematics
+
+   Pre-requisites/precursors (Students should ensure they fulfill the pre-requisites/precursors requirement prior to adding a course.):
+        MA1201 or MA1301
+
+   Exclusive Course (Students are restricted from registration in a course when they have earned credits for an exclusive course.):
+        MA2158
+
+    CRN     Section   Credit  Campus    WEB    Level  Avail  Cap  Waitlist  Date                       Day   Time           Bldg     Room     Instructor  Medium of
+                                                                  Avail                                                                                   Instruction
+    10426   CA1       3       Main      Y      B      1      210  N         31/08/2026 - 28/11/2026    F     12:00 - 13:50  BOC      R4057    WANG        English
+                              Campus                                                                                                          Jingjing
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+                                               only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+                                                                            31/08/2026 - 28/11/2026    T     17:00 - 18:50  YEUNG    LT-1     WANG        English
+                                                                                                                                              Jingjing
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+                                               only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+    13723   CB1       3       Main      Y      B      1      200  N         31/08/2026 - 28/11/2026    W     13:00 - 14:50  LI       3508     WANG        English
+                              Campus                                                                                                          Jingjing
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+                                               only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+                                                                            31/08/2026 - 28/11/2026    F     15:00 - 16:50  YEUNG    LT-17    WANG        English
+                                                                                                                                              Jingjing
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+                                               only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+    14940   CC1       3       Main      Y      B      107    200  N         31/08/2026 - 28/11/2026    W     13:00 - 14:50  MMW      2450     ZHANG       English
+                              Campus                                                                                                          Mengqi
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+                                               only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+                                                                            31/08/2026 - 28/11/2026    F     16:00 - 17:50  BOC      LT401    ZHANG       English
+                                                                                                                                              Mengqi
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+                                               only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+    11694   TA1       0       Main      Y      B      1      95   N         31/08/2026 - 28/11/2026    W     15:00 - 15:50  YEUNG    LT-13    ZHANG       English
+                              Campus                                                                                                          Wenluo
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+                                               only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+    11696   TA2       0       Main      Y      B      Full   115  N         31/08/2026 - 28/11/2026    T     15:00 - 15:50  YEUNG    LT-13    ZHANG       English
+                              Campus                                                                                                          Wenluo
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+                                               only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+    11697   TB1       0       Main      Y      B      1      100  N         31/08/2026 - 28/11/2026    T     09:00 - 09:50  YEUNG    LT-11    GUO Jin     English
+                              Campus
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+                                               only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+    11698   TB2       0       Main      Y      B      Full   100  N         31/08/2026 - 28/11/2026    T     15:00 - 15:50  YEUNG    LT-12    GUO Jin     English
+                              Campus
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+                                               only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+    11695   TC1       0       Main      Y      B      50     100  N         31/08/2026 - 28/11/2026    T     17:00 - 17:50  YEUNG    LT-11    FIAZ        English
+                              Campus                                                                                                          Mudassar
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+                                               only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+    11699   TC2       0       Main      Y      B      57     100  N         31/08/2026 - 28/11/2026    T     12:00 - 12:50  YEUNG    LT-15    FIAZ        English
+                              Campus                                                                                                          Mudassar
+                                               only for Programme: BENGEGU2, BENGEGU3, BENGEGU4, BSCCBU4, DBSCBSC1
+
+https://banweb.cityu.edu.hk/pls/PROD/hwscrssh_cityu.P_DispOneSection?term=202609&subj=MA&crse=2001&camp=%25&web_avail=                                               1/2
+=== PAGE 2 ===
+2026/11/15 晚上9:26                                                                                       Courses Offered
+                                                      only for Major: A.E., CDE, CFFT, D004, D008, ELEL, INFE, M.E., MASE, MEE, NRE
+
+    As of November 15, 2026 21:26 PM
+
+     Disclaimer:
+            The University reserves the right to make adjustments to the class schedules.
+            The Medium of Instruction listed is for general reference only. Please refer to the syllabus of individual courses for more detailed information.
+
+     Search Class
+
+
+     [ Personal Information Collection Statement | Copyright | Disclaimer ]                                                    IT Service Desk: +852 3442-8340
+     © 2026 City University of Hong Kong. All Rights Reserved.                                                                 Email: it.servicedesk@cityu.edu.hk
+    Release: 8.7.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://banweb.cityu.edu.hk/pls/PROD/hwscrssh_cityu.P_DispOneSection?term=202609&subj=MA&crse=2001&camp=%25&web_avail=                                                                      2/2

@@ -1,0 +1,67 @@
+QWEN TEST RESULTS
+Matched configured policy: 7/8
+No repair, fallback or retraining. Preparation bonuses are configured utility hypotheses.
+
+CASE FIN_PASS
+Finance GE passed
+RAW OUTPUT
+{"target": "EF3320", "preparation_bonus": 0.1, "strongest_sources": ["GE2260"]}
+EXPECTED
+{"target": "EF3320", "preparation_bonus": 0.1, "strongest_sources": ["GE2260"]}
+MATCH: True
+
+CASE FIN_FAIL
+Matched profile, finance GE failed
+RAW OUTPUT
+{"target": "EF3320", "preparation_bonus": 0.0, "strongest_sources": []}
+EXPECTED
+{"target": "EF3320", "preparation_bonus": 0.0, "strongest_sources": []}
+MATCH: True
+
+CASE CALC_PASS
+Multivariable calculus passed
+RAW OUTPUT
+{"target": "MA3515", "preparation_bonus": 0.2, "strongest_sources": ["MA2508"]}
+EXPECTED
+{"target": "MA3515", "preparation_bonus": 0.2, "strongest_sources": ["MA2508"]}
+MATCH: True
+
+CASE CALC_IP
+Matched profile, calculus still in progress
+RAW OUTPUT
+{"target": "MA3515", "preparation_bonus": 0.0, "strongest_sources": []}
+EXPECTED
+{"target": "MA3515", "preparation_bonus": 0.0, "strongest_sources": []}
+MATCH: True
+
+CASE AI_GE
+AI GE orientation, programming background
+RAW OUTPUT
+{"target": "CS4487", "preparation_bonus": 0.25, "strongest_sources": ["MA2503", "MA2510", "MA3515"]}
+EXPECTED
+{"target": "CS4487", "preparation_bonus": 0.1, "strongest_sources": ["GE2340"]}
+MATCH: False
+
+CASE AI_GE_FAILED
+Matched profile, AI GE failed
+RAW OUTPUT
+{"target": "CS4487", "preparation_bonus": 0.0, "strongest_sources": []}
+EXPECTED
+{"target": "CS4487", "preparation_bonus": 0.0, "strongest_sources": []}
+MATCH: True
+
+CASE AI_MAX
+Several mathematical preparation links: take maximum, not sum
+RAW OUTPUT
+{"target": "CS4487", "preparation_bonus": 0.25, "strongest_sources": ["MA2503", "MA2510", "MA3515"]}
+EXPECTED
+{"target": "CS4487", "preparation_bonus": 0.25, "strongest_sources": ["MA2503", "MA2510", "MA3515"]}
+MATCH: True
+
+CASE ALG_PASS
+Data structures passed before advanced algorithms
+RAW OUTPUT
+{"target": "CS4335", "preparation_bonus": 0.3, "strongest_sources": ["CS3334"]}
+EXPECTED
+{"target": "CS4335", "preparation_bonus": 0.3, "strongest_sources": ["CS3334"]}
+MATCH: True

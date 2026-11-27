@@ -1,0 +1,115 @@
+{
+  "adapter": "adapters/bscm-profit-v3",
+  "copied_from": "adapters/bscm-planning-v2",
+  "adapter_sha256": "5880335fff70bf818d823dc9a55bbed9e6a4f9a50ba45416ed45f9c14d581219",
+  "source_and_copy_identical": true,
+  "files": [
+    {
+      "file": "adapter_config.json",
+      "bytes": 1000,
+      "sha256": "5052c322b7d7b6c2d3f7c18dff70ac4df1398031e1c0818f414f34a13dbd8d70"
+    },
+    {
+      "file": "adapter_model.safetensors",
+      "bytes": 87360584,
+      "sha256": "5880335fff70bf818d823dc9a55bbed9e6a4f9a50ba45416ed45f9c14d581219"
+    },
+    {
+      "file": "added_tokens.json",
+      "bytes": 735,
+      "sha256": "79f6ec6fcc423d3a82bfac8b9033b1daac7b7bce06a5f5f441637b480cc605de"
+    },
+    {
+      "file": "chat_template.jinja",
+      "bytes": 4256,
+      "sha256": "51fa65c79bb57f058dc7ef8734884bd325fe9d45bb03a61bfef59785d3bc2da9"
+    },
+    {
+      "file": "merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "file": "README.md",
+      "bytes": 5242,
+      "sha256": "74a885a8706e4e6cdb15c767aa9c8222bf890fb3237d1c72b9613501b3dbb442"
+    },
+    {
+      "file": "special_tokens_map.json",
+      "bytes": 521,
+      "sha256": "890efa1686cf49870d5018b948316d11c6d9ce121a942803eeb4224dcc7db3f0"
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 5640,
+      "sha256": "3a1306cdaf4228dc827a92649103e7e2d972f73d97fe72e09ffe3666602e6d9b"
+    },
+    {
+      "file": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "base_model": "models/Qwen3-8B (shared, unchanged)",
+  "training_performed": false,
+  "optimizer_state_available": false,
+  "checkpoint_scope": "Saved LoRA adapter and tokenizer; original run did not save optimizer state.",
+  "objective_policy": {
+    "objective_mode": "profit",
+    "base_course_profit": 3.0,
+    "overload_reference_courses": 5,
+    "overload_penalty_weight": 3.0,
+    "units": "configurable academic-utility points, not money or measured student outcomes",
+    "profit_overrides": "An option may specify profit; otherwise base_course_profit applies.",
+    "overload_formula": "weight * max(0, distinct_course_count - reference_courses)^2",
+    "schedule_loss": "student_cost_penalty + overload_penalty - course_profit - maths_priority_bonus",
+    "hard_constraints": "Existing course-count, credit, prerequisite, required-course, exclusion and timetable evidence constraints remain enforced."
+  },
+  "year_priority_policy": {
+    "minimum_courses": 5,
+    "maximum_courses": 6,
+    "graduation_priority_weight": 3,
+    "common_maths_core": [
+      "MA2508",
+      "MA2509",
+      "MA2510",
+      "MA3511",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525"
+    ],
+    "base_core_weight": 1,
+    "year_focus_weight": 3,
+    "year_focus": {
+      "1": [
+        "MA1505"
+      ],
+      "2": [
+        "MA2508",
+        "MA2509"
+      ],
+      "3": [
+        "MA3512",
+        "MA3518"
+      ],
+      "4": [
+        "MA3514",
+        "MA3515"
+      ]
+    },
+    "source_note": "Common core list from user-supplied BSCM 2026/27 handbook physical page 10; year assignments are an advisory policy, not official deadlines.",
+    "applicability_note": "Do not treat route-dependent MA1505 as universally required. No offering is invented when a focus course is absent."
+  },
+  "schedule_loss": "student_cost_penalty + overload_penalty - course_profit - maths_priority_bonus",
+  "neural_training_loss": "Unchanged assistant-token cross entropy. Discrete schedule profit is not a differentiable replacement.",
+  "final_selection_authority": "constraint_solver_or_exact_source_enumerator",
+  "raw_model_planning_reliability": "Copy inherits existing planning-v2 limitations; no new inference accuracy claim."
+}

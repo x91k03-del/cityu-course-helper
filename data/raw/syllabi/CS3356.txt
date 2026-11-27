@@ -1,0 +1,267 @@
+1         CS3356: Managing Software Projects
+CS3356: MANAGING SOFTWARE PROJECTS
+Eﬀective Term
+Semester A 2026/27 
+Part I Course Overview
+Course Title
+Managing Software Projects 
+Subject Code
+CS - Computer Science 
+Course Number
+3356 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+CS3342 Software Design or 
+CS3354 Software Engineering or equivalent 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+IS4532 Project Management and Outsourcing 
+Part II Course Details
+Abstract
+2         CS3356: Managing Software Projects
+The course aims to introduce students to the principles behind the eﬀective and successful management of software
+projects as well as tools, techniques and best practices.  There are three main parts.  One part is concerned with the project
+life cycle, processes and knowledge areas of the Project Management Framework as deﬁned in “A Guide to the Project
+Management Body of Knowledge” (PMBOK) published by the Project Management Institute (PMI).  The second part
+is concerned with the various soft skills required of a project manager, such as presentation skills, negotiation skills,
+interpersonal skills, people management skills, leadership skills, etc.  The ﬁnal part aims to expose students to highly
+realistic risk scenarios in which project managers need to prepare themselves for; issues that may involve hardware/
+software problems, to issues with clients/stakeholders, developers, budget, schedule, etc.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Critically evaluate the Project Management
+Framework as described in the PMBOK.
+x x
+2 Apply IT project management knowledge,
+techniques and tools to solve realistic problems
+related to IT projects.
+x
+3 Recognize the importance of project
+management soft skills needed in project
+managers.
+x x
+4 Explore new ways to suitably integrate project
+management knowledge, techniques, tools and
+soft skills in enhancing IT project success.
+x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Explain the keys concepts
+in software project
+management and its
+framework as deﬁned in
+PMBOK.
+1, 2, 3 Lecture: 
+3 hours/week 
+3         CS3356: Managing Software Projects
+2 Case study/risk scenario
+analysis and discussion
+To reinforce what is
+learned from the reading
+and lecture, students
+are given a weekly risk
+scenario/case. The
+scenario/case poses an IT
+project problem situation
+for students to propose a
+course of action to take,
+as well as precautionary
+actions that should have
+been taken to avoid or
+alleviate the problem in
+the ﬁrst place. Students
+are required to do some
+online research as well
+as make appropriate
+references to the PMBOK
+in their proposal.
+2, 3, 4 Lecture: 
+3 hours/week 
+3 Journal As a learning and
+knowledge sharing tool,
+students are required
+to keep a weekly self-
+reﬂective journal to
+record their learning
+progress and useful
+insights as they progress
+through the course. The
+journal provides evidence
+to support the learning
+of software project
+management concepts
+and best practices.
+1, 2, 3 After Class
+4 Presentation and case
+analysis
+Students will be randomly
+selected to present their
+proposals for the risk
+scenarios/case. The
+instructor will guide and
+help focus discussions.
+1, 2, 3, 4 Tutorial: 
+8 hours/semester 
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks Allow Use of
+GenAI?
+1 Class exercise and
+discussion
+1, 2, 3 12 - Yes
+2 Self-reﬂective
+journal and
+discussion
+2, 3, 4 8 - Yes
+3 Quiz 1, 2, 3 30 - No
+4 Risk scenario/case
+analysis report/
+presentation
+2, 3, 4 10 - Yes
+Continuous Assessment (%)
+4         CS3356: Managing Software Projects
+60 
+Examination (%)
+40 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Class exercise and discussion 
+Criterion
+1.1 ABILITY to EXPLAIN and APPLY Project Management Framework for eﬀective IT project management 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Self-reﬂective journal and discussion 
+Criterion
+2.1 ABILITY to EXPLAIN the important soft skills and APPLY the skills for eﬀective IT project management 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+5         CS3356: Managing Software Projects
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+3. Quiz 
+Criterion
+3.1 ABILITY to APPLY the Project Management Framework and soft skills for eﬀective IT project management 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Risk scenario/case analysis report/presentation 
+Criterion
+4.1 ABILITY to APPLY the Project Management Framework and soft skills for solving risk scenario problems 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Examination 
+Criterion
+5.1 ABILITY to EXPLAIN and APPLY Project Management Framework for eﬀective IT project management
+6         CS3356: Managing Software Projects
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Part III Other Information
+Keyword Syllabus
+The Project Management Framework.  Project Management Institute (PMI).  A Guide to the Project Management Body of
+Knowledge (PMBOK).  Project Management Professional (PMP) certiﬁcation.  Roles/responsibilities of a project manager. 
+Project manager soft skills: presentation skills, time management skills, people management skills, communication skills,
+negotiation skills, interviewing skills.
+Syllabus
+• Overview 
+Overview of the project management discipline; software system versus software project; system development life cycle;
+roles and responsibilities of the project manager, ethics of software project management; PMI; PMBOK
+• The Project Management Framework 
+The chapters of the PMBOK ‒ integration management, scope management, time management, cost management,
+quality management, human resource management, communication management, risk management, procurement
+management, etc
+• Project Management Soft Skills 
+Presentation skills, managing time, managing meetings, managing people, managing team, doing interviews,
+interpersonal communication skills, problem solving skills, etc
+• Worst Case Scenarios/Case Studies 
+Examples: "How to Give a Last Minute Project Status Presentation", "How to Convince Others, and Yourself, that the
+Software will be Delivered on Time", "How to Keep the Project Going After Your Key Developer Suddenly Quits", "What
+to Do When a New Technology Fails", "How to Convince Others, and Yourself, that the Software will be Absolutely Safe",
+"What to Do When the Customer Insists that You Add a New Feature", etc.
+Reading List
+Compulsory Readings
+ Title
+1 K. Schwalbe (2014). Managing Information Technology Projects. Course Technology, 7th Edition.
+2 Project Management Institute (2013). A Guide to the Project Management Body of Knowledge: (PMBOK Guide). 5th
+edition.
+Additional Readings
+7         CS3356: Managing Software Projects
+ Title
+1 A. Stellman and J. Greene (2007). Head First PMP: A Brain-Friendly Guide to Passing the Project Management
+Professional Exam. O’Reilly.
+2 F.P. Brooks (1995). The Mythical Man-Month: Essays on Software Engineering. Addison-Wesley Professional, 20th
+Anniversary Edition.

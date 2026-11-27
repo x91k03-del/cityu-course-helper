@@ -1,0 +1,132 @@
+{
+  "source_reference": {
+    "profile_id": "NEW00007",
+    "status": "candidate",
+    "minimum_courses": 5,
+    "completed_courses": [
+      "GE1359",
+      "MA2503",
+      "MA2510",
+      "MA3511",
+      "MA3526"
+    ],
+    "selected_options": [
+      {
+        "course_code": "MA1300",
+        "class_section": "C01",
+        "tutorial_section": "T01",
+        "meetings": [
+          {
+            "section": "C01",
+            "day": "Fri",
+            "start_time": "12:00",
+            "end_time": "13:50"
+          },
+          {
+            "section": "C01",
+            "day": "Wed",
+            "start_time": "17:00",
+            "end_time": "18:50"
+          },
+          {
+            "section": "T01",
+            "day": "Mon",
+            "start_time": "18:00",
+            "end_time": "18:50"
+          }
+        ]
+      },
+      {
+        "course_code": "MA2509",
+        "class_section": "CA1",
+        "tutorial_section": "TA1",
+        "meetings": [
+          {
+            "section": "CA1",
+            "day": "Mon",
+            "start_time": "10:00",
+            "end_time": "10:50"
+          },
+          {
+            "section": "CA1",
+            "day": "Wed",
+            "start_time": "10:00",
+            "end_time": "11:50"
+          },
+          {
+            "section": "TA1",
+            "day": "Mon",
+            "start_time": "11:00",
+            "end_time": "11:50"
+          }
+        ]
+      },
+      {
+        "course_code": "MA3512",
+        "class_section": "CA1",
+        "tutorial_section": null,
+        "meetings": [
+          {
+            "section": "CA1",
+            "day": "Fri",
+            "start_time": "15:00",
+            "end_time": "17:50"
+          }
+        ]
+      },
+      {
+        "course_code": "MA3518",
+        "class_section": "CA1",
+        "tutorial_section": null,
+        "meetings": [
+          {
+            "section": "CA1",
+            "day": "Tue",
+            "start_time": "16:00",
+            "end_time": "18:50"
+          }
+        ]
+      },
+      {
+        "course_code": "MA3525",
+        "class_section": "CA1",
+        "tutorial_section": "TA1",
+        "meetings": [
+          {
+            "section": "CA1",
+            "day": "Thu",
+            "start_time": "13:00",
+            "end_time": "14:50"
+          },
+          {
+            "section": "CA1",
+            "day": "Tue",
+            "start_time": "14:00",
+            "end_time": "14:50"
+          },
+          {
+            "section": "TA1",
+            "day": "Tue",
+            "start_time": "15:00",
+            "end_time": "15:50"
+          }
+        ]
+      }
+    ],
+    "needs_confirmation": true,
+    "feasibility_verified": false
+  },
+  "course_count": 5,
+  "credits": 15,
+  "policy_weights": {
+    "MA2508": 1.0,
+    "MA2509": 1.0,
+    "MA3512": 3.0,
+    "MA3514": 1.0,
+    "MA3515": 1.0,
+    "MA3517": 1.0,
+    "MA3518": 3.0,
+    "MA3525": 1.0
+  },
+  "experimental_only": true
+}

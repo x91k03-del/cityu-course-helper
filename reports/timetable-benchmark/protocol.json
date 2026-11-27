@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-24",
+  "cases": 6,
+  "instruction": "Choose a semester timetable using only the supplied options and facts. Return a JSON object with status (feasible or infeasible) and selected_option_ids (list). No markdown. Do not invent or repair options. Respect min/max course count, credits, mandatory courses, one bundle per course, at most one distributional GE, and same-day/week overlap. All supplied options already passed programme/known-prerequisite checks; CM EF/CS planning waivers do not grant real registration approval. Maximise sum of option additive_net plus the single selected stream potential gain times stream_multiplier, minus overload. Stream potential=2*distinct completed slots+6 if complete. Use stream_definition (required plus choose options; for AI one core_choice plus choose distinct options with no reuse), and completed_courses. Overload=.25*max(0,credits-(12 in Year 4 else 15))^2. Feasible is not a claim of proven optimality. If no legal plan meets all hard limits return infeasible with an empty list. Teaching weeks and component pairing are shared explicit assumptions.",
+  "cases_sha256": "ed025c4102ec695af04038831522ace387335d74487dba831aa9b9f8f9fc66fb",
+  "scope": "Frozen familiar-source diagnostic. Actual saved meeting times; assumed pairing/weeks. Not registration verification or an independent generalisation benchmark.",
+  "treatments": [
+    "Current fine-tuned Qwen direct selection",
+    "GPT-6.1 Sol direct selection"
+  ],
+  "reference": "Exact common MILP objective; no solver repair counted as model success",
+  "decoding": "Qwen greedy/non-thinking; GPT agent reasoning defaults are not identical. No fair latency/cost claim.",
+  "GPT_model_request": "gpt-6.1-sol",
+  "GPT_access": "user-requested model-specific agent; one evidence-file read, no solver/external evidence",
+  "GPT_context": "six-case batch; not token-identical to separate Qwen contexts"
+}

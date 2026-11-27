@@ -1,0 +1,20 @@
+{
+  "target": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\Phase2_Report10\\Phase2_Report10 (1).tex",
+  "before_sha256": "dd486b6a043b7fb308e838482c7eb61d7a7f4b07636d145eaaca3c00617a673f",
+  "after_sha256": "99942d61049377007e8168cea783471289d071e0d03367623d2fc76466adb7ab",
+  "cited_references": [
+    "cityu-programmes",
+    "qlora",
+    "qwen"
+  ],
+  "removed_unused_references": [
+    "dp",
+    "runs"
+  ],
+  "author_blocks": 4,
+  "name_ID_email_details": "blank",
+  "template_structure": "And / AND / And",
+  "hardware_subsection_added_to_section": 3,
+  "inference_measurement": "inference_memory.json",
+  "original_open_report_not_modified": true
+}

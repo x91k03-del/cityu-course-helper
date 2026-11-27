@@ -1,0 +1,1831 @@
+[
+  {
+    "model": "prior",
+    "id": "MA1300:rules3",
+    "task": "rules_recall",
+    "expected": {
+      "course_code": "MA1300",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "Nil",
+      "completion_alternatives": [
+        []
+      ],
+      "exclusive_courses": [
+        "MA1006",
+        "MA1400",
+        "MA1508"
+      ],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1300\", \"title\": \"Linear Algebra\", \"credits\": 3, \"route_note\": \"Common core list; check admission route\", \"prerequisites\": [\"MA1100\"], \"exclusions\": [\"MA1350\", \"MA1360\"], \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "a2e39081bf673ba7aabe802e7134a1d7a8f4de9e95d419e2a36b8a09d72cefcf",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA2508:rules3",
+    "task": "rules_recall",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "completion_alternatives": [
+        [
+          "MA1201"
+        ],
+        [
+          "MA1301"
+        ],
+        [
+          "MA1503",
+          "MA1508"
+        ]
+      ],
+      "exclusive_courses": [
+        "GE1359",
+        "MA1502"
+      ],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"title\": \"Linear Algebra II\", \"credits\": 3, \"route_note\": \"Not for CM\", \"prerequisites\": [\"MA1507\"], \"exclusions\": [\"MA2507\"], \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "c1a396af3ae39de1f1c68f722245fa7f05232c0af956185894f07798061abd3d",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA4542:rules3",
+    "task": "rules_recall",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "completion_alternatives": [
+        [
+          "MA2508",
+          "MA3526"
+        ],
+        [
+          "MA2508",
+          "MA3524"
+        ]
+      ],
+      "exclusive_courses": [],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"title\": \"Applied Statistics\", \"credits\": 3, \"route_note\": \"Common core list; check admission route\", \"prerequisites\": [\"MA2541\", \"MA2542\"], \"exclusions\": [\"MA4543\"], \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "24b6e53296e2990bb28cf5a3b66445a1597317745d26dc1a82e20246b34a173e",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA2510:rules3",
+    "task": "rules_recall",
+    "expected": {
+      "course_code": "MA2510",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "completion_alternatives": [
+        [
+          "MA1201"
+        ],
+        [
+          "MA1301"
+        ],
+        [
+          "MA1503",
+          "MA1508"
+        ]
+      ],
+      "exclusive_courses": [
+        "MA2172",
+        "MA2177",
+        "MA2506"
+      ],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2510\", \"title\": \"Linear Algebra II\", \"credits\": 3, \"route_note\": \"Not for CM\", \"prerequisites\": [\"MA1510\"], \"exclusions\": [\"MA2500\", \"MA2505\"], \"eligibility_verified\": false, \"current_seats\": null, \"route_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "4fe7fcb11db9940bc3c6326c6de73cc3081883ad6d183ce501ffeb781115ff4f",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA2508:grounded_rules:test",
+    "task": "grounded_rules",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "completion_alternatives": [
+        [
+          "MA1201"
+        ],
+        [
+          "MA1301"
+        ],
+        [
+          "MA1503",
+          "MA1508"
+        ]
+      ],
+      "exclusive_courses": [
+        "GE1359",
+        "MA1502"
+      ],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_source_label\": \"Pre-requisites/precursors\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"completion_alternatives\": [[\"MA1201\"], [\"MA1301\"], [\"MA1503\", \"MA1508\"]], \"exclusive_courses\": [\"GE1359\", \"MA1502\"], \"prerequisite_precursor_distinction_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "14c8f040dc89c12c3b39a80e6bb29981bcda4d832e24f5e35057951cf92ed801",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA4542:grounded_rules:test",
+    "task": "grounded_rules",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "completion_alternatives": [
+        [
+          "MA2508",
+          "MA3526"
+        ],
+        [
+          "MA2508",
+          "MA3524"
+        ]
+      ],
+      "exclusive_courses": [],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"requirement_source_label\": \"Pre-requisites/precursors\", \"requirement_text\": \"MA2508 and (MA3526 or MA3524)\", \"completion_alternatives\": [[\"MA2508\", \"MA3526\"], [\"MA2508\", \"MA3524\"]], \"exclusive_courses\": [], \"prerequisite_precursor_distinction_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "f06819d3a7b66ffcde1012abef01fc9d2fdde6df914124bc1c95b699fbfd1fea",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA1300:C01:recall2",
+    "task": "schedule_recall",
+    "expected": {
+      "course_code": "MA1300",
+      "term_code": "202609",
+      "crn": "12244",
+      "section": "C01",
+      "meetings": [
+        {
+          "day": "Fri",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "YEUNG",
+          "room": "LT-18",
+          "pdf_page": 1
+        },
+        {
+          "day": "Wed",
+          "start_time": "17:00",
+          "end_time": "18:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "BOC",
+          "room": "R4057",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CM",
+          "values": [
+            "CM"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1300\", \"section\": \"C01\", \"credits\": 3, \"route_note\": \"Common core list; check admission route\", \"route_eligible\": [\"CM\", \"BSCG\", \"BSCS\", \"BSMA\"], \"prerequisites\": [\"MA1100 or MA1110 or MA1151\"], \"route_verified\": false, \"eligibility_verified\": false, \"current_seats\": 0, \"waitlisted\": 0, \"route_note_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "c8ccf1afc4bf7f027780fa9442a0a332953ca48dff4aa37787d0ae001c5d0682",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA1502:CB1:recall2",
+    "task": "schedule_recall",
+    "expected": {
+      "course_code": "MA1502",
+      "term_code": "202609",
+      "crn": "12609",
+      "section": "CB1",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "YEUNG",
+          "room": "LT-18",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCSIU4",
+          "values": [
+            "BSCSIU4"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CM",
+          "values": [
+            "CM"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "cohort",
+          "raw": "2026",
+          "values": [
+            "2026"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1502\", \"section\": \"CB1\", \"credits\": 3, \"route_note\": \"Common core list; check admission route\", \"route_eligible\": true, \"route_verified\": false, \"prerequisites\": \"MA1501\", \"route_restrictions\": [\"MA1501\"], \"eligibility_verified\": false, \"eligibility_note\": \"Common core list; check admission route\", \"current_seats\": 0, \"waitlisted\": 0, \"route_verified_required\": false, \"route_verified_note\": \"Common core list; check admission route\"}",
+    "passed": false,
+    "prompt_sha256": "bf6686ef581fb8986342bfc58387ca368b3f503881b4485d7acb53ae0c38e00f",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA2508:CA1:recall2",
+    "task": "schedule_recall",
+    "expected": {
+      "course_code": "MA2508",
+      "term_code": "202609",
+      "crn": "13701",
+      "section": "CA1",
+      "meetings": [
+        {
+          "day": "Sat",
+          "start_time": "11:00",
+          "end_time": "12:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-12-05",
+          "building": "YEUNG",
+          "room": "LT-3",
+          "pdf_page": 1
+        },
+        {
+          "day": "Tue",
+          "start_time": "16:00",
+          "end_time": "16:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-12-05",
+          "building": "YEUNG",
+          "room": "LT-11",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4",
+          "values": [
+            "BSCCBU4",
+            "BSCSIU2",
+            "BSCSIU3",
+            "BSCSIU4"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CFFT, CM",
+          "values": [
+            "CFFT",
+            "CM"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"section\": \"CA1\", \"credits\": 3, \"route_note\": \"Common core list; check admission route\", \"route_eligible\": [\"CM\", \"MATH\"], \"route_verified\": false, \"prerequisites\": [\"MA1501\"], \"route_verified_note\": \"Not verified for CM-only eligibility\"}",
+    "passed": false,
+    "prompt_sha256": "c50b6ecb2e5181285da46740ed966ae897e5b888e238147bfdb4b776cd99e5c2",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA3525:CA1:recall2",
+    "task": "schedule_recall",
+    "expected": {
+      "course_code": "MA3525",
+      "term_code": "202609",
+      "crn": "11213",
+      "section": "CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "13:00",
+          "end_time": "14:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "LI",
+          "room": "1614",
+          "pdf_page": 1
+        },
+        {
+          "day": "Tue",
+          "start_time": "14:00",
+          "end_time": "14:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "LI",
+          "room": "1614",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4, DBSCBSC1, DLLBBSC",
+          "values": [
+            "BSCCBU4",
+            "BSCSIU2",
+            "BSCSIU3",
+            "BSCSIU4",
+            "DBSCBSC1",
+            "DLLBBSC"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CFFT, CM, D001, D004, D008",
+          "values": [
+            "CFFT",
+            "CM",
+            "D001",
+            "D004",
+            "D008"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA3525\", \"section\": \"CA1\", \"credits\": 3, \"route_note\": \"Common core list; check admission route\", \"route_eligibility\": [\"CM\"], \"prerequisites\": [\"MA2503\"], \"route_verified\": false, \"eligibility_verified\": false, \"current_seats\": 0, \"route_note_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "8eb8a8822c146d3af222f3aef1ff377bd5d0b450a07d1f05973e993b4c17bb71",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA1300:C01:grounded:test",
+    "task": "grounded_schedule",
+    "expected": {
+      "course_code": "MA1300",
+      "term_code": "202609",
+      "crn": "12244",
+      "section": "C01",
+      "meetings": [
+        {
+          "day": "Fri",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "YEUNG",
+          "room": "LT-18",
+          "pdf_page": 1
+        },
+        {
+          "day": "Wed",
+          "start_time": "17:00",
+          "end_time": "18:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "BOC",
+          "room": "R4057",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CM",
+          "values": [
+            "CM"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1300\", \"term_code\": \"202609\", \"crn\": \"12244\", \"section\": \"C01\", \"meetings\": [{\"day\": \"Fri\", \"start_time\": \"12:00\", \"end_time\": \"13:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"YEUNG\", \"room\": \"LT-18\", \"pdf_page\": 1}, {\"day\": \"Wed\", \"start_time\": \"17:00\", \"end_time\": \"18:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"BOC\", \"room\": \"R4057\", \"pdf_page\": 1}], \"restrictions\": [{\"mode\": \"only\", \"field\": \"major\", \"raw\": \"CM\", \"values\": [\"CM\"]}], \"teaching_weeks\": null, \"component_linking_verified\": false, \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "c1cc2b229559fa68f61de57250cecfb180aa69f660a82b8e4402125bd034ec43",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA1502:CB1:grounded:test",
+    "task": "grounded_schedule",
+    "expected": {
+      "course_code": "MA1502",
+      "term_code": "202609",
+      "crn": "12609",
+      "section": "CB1",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "YEUNG",
+          "room": "LT-18",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCSIU4",
+          "values": [
+            "BSCSIU4"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CM",
+          "values": [
+            "CM"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "cohort",
+          "raw": "2026",
+          "values": [
+            "2026"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1502\", \"term_code\": \"202609\", \"crn\": \"12609\", \"section\": \"CB1\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"YEUNG\", \"room\": \"LT-18\", \"pdf_page\": 1}], \"restrictions\": [{\"mode\": \"only\", \"field\": \"programme\", \"raw\": \"BSCSIU4\", \"values\": [\"BSCSIU4\"]}, {\"mode\": \"only\", \"field\": \"major\", \"raw\": \"CM\", \"values\": [\"CM\"]}, {\"mode\": \"only\", \"field\": \"cohort\", \"raw\": \"2026\", \"values\": [\"2026\"]}], \"teaching_weeks\": null, \"component_linking_verified\": false, \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "bac610012284e079c5830bc21b3d561213a07554c56477a69f5a5d7c047cf588",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA2508:CA1:grounded:test",
+    "task": "grounded_schedule",
+    "expected": {
+      "course_code": "MA2508",
+      "term_code": "202609",
+      "crn": "13701",
+      "section": "CA1",
+      "meetings": [
+        {
+          "day": "Sat",
+          "start_time": "11:00",
+          "end_time": "12:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-12-05",
+          "building": "YEUNG",
+          "room": "LT-3",
+          "pdf_page": 1
+        },
+        {
+          "day": "Tue",
+          "start_time": "16:00",
+          "end_time": "16:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-12-05",
+          "building": "YEUNG",
+          "room": "LT-11",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4",
+          "values": [
+            "BSCCBU4",
+            "BSCSIU2",
+            "BSCSIU3",
+            "BSCSIU4"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CFFT, CM",
+          "values": [
+            "CFFT",
+            "CM"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"term_code\": \"202609\", \"crn\": \"13701\", \"section\": \"CA1\", \"meetings\": [{\"day\": \"Sat\", \"start_time\": \"11:00\", \"end_time\": \"12:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-12-05\", \"building\": \"YEUNG\", \"room\": \"LT-3\", \"pdf_page\": 1}, {\"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"16:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-12-05\", \"building\": \"YEUNG\", \"room\": \"LT-11\", \"pdf_page\": 1}], \"restrictions\": [{\"mode\": \"only\", \"field\": \"major\", \"raw\": \"CFFT, CM\", \"values\": [\"CFFT\", \"CM\"]}], \"prerequisites\": [], \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "fe28a0e037592b7340fe8a7065d9c3ebcde25170b363d4afc5114bbe811310b5",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA3525:CA1:grounded:test",
+    "task": "grounded_schedule",
+    "expected": {
+      "course_code": "MA3525",
+      "term_code": "202609",
+      "crn": "11213",
+      "section": "CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "13:00",
+          "end_time": "14:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "LI",
+          "room": "1614",
+          "pdf_page": 1
+        },
+        {
+          "day": "Tue",
+          "start_time": "14:00",
+          "end_time": "14:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "LI",
+          "room": "1614",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4, DBSCBSC1, DLLBBSC",
+          "values": [
+            "BSCCBU4",
+            "BSCSIU2",
+            "BSCSIU3",
+            "BSCSIU4",
+            "DBSCBSC1",
+            "DLLBBSC"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CFFT, CM, D001, D004, D008",
+          "values": [
+            "CFFT",
+            "CM",
+            "D001",
+            "D004",
+            "D008"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA3525\", \"term_code\": \"202609\", \"crn\": \"11213\", \"section\": \"CA1\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"13:00\", \"end_time\": \"14:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"LI\", \"room\": \"1614\", \"pdf_page\": 1}, {\"day\": \"Tue\", \"start_time\": \"14:00\", \"end_time\": \"14:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"LI\", \"room\": \"1614\", \"pdf_page\": 1}], \"restrictions\": [{\"mode\": \"only\", \"field\": \"major\", \"raw\": \"CFFT, CM, D001, D004, D008\", \"values\": [\"CM\"]}], \"prerequisites\": [], \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "c2cdbf085979b25aae7fa4a1b445ccdb14484bc934fa05acd6887e20bc9d08cb",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "guard:cm:test",
+    "task": "guard",
+    "expected": {
+      "CM": "Computing Mathematics",
+      "CM_is_listed": true,
+      "other_restrictions_still_apply": true
+    },
+    "raw_response": "{\"error\": \"Invalid request. Use only the supplied facts and return only JSON. Do not explain or assume.\"}",
+    "passed": false,
+    "prompt_sha256": "c298e697a01c475b3e8eb8d7c838cedd041d987a5c67826436422972e2c8ee78",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "guard:token:test",
+    "task": "guard",
+    "expected": {
+      "CM_is_listed": false
+    },
+    "raw_response": "{\"eligibility_verified\": false, \"route_verified\": false, \"only_for_major_verified\": true, \"route_note\": \"Not applicable\", \"eligibility_note\": \"Not applicable\", \"prerequisites_verified\": false, \"route_eligibility\": \"not applicable\", \"eligibility\": \"not applicable\", \"route_prerequisites\": \"not applicable\", \"prerequisites\": \"not applicable\", \"route_verified_note\": \"not applicable\", \"verified_note\": \"not applicable\", \"eligibility_verified_note\": \"not applicable\", \"prerequisites_verified_note\": \"not applicable\", \"route_eligibility_note\": \"not applicable\", \"eligibility_note_note\": \"not applicable\", \"prerequisites_note\": \"not applicable\", \"route_prerequisites_note\": \"not applicable\", \"verified\": false, \"eligibility_verified\": false, \"prerequisites_verified\": false, \"route_verified\": false, \"eligibility_note\": \"not applicable\", \"prerequisites_note\": \"not applicable\", \"route_eligibility_note\": \"not applicable\", \"eligibility_verified_note\": \"not applicable\", \"prerequisites_verified_note\": \"not applicable\", \"route_verified_note\": \"not applicable\", \"route_note_note\": \"not applicable\", \"eligibility_note_note\": \"not applicable\", \"prerequisites_note_note\": \"not applicable\", \"route_prerequisites_note_note\": \"not applicable\", \"verified_note\": \"not applicable\", \"eligibility_verified_note_note\": \"not applicable\", \"prerequisites_verified_note_note\": \"not applicable\", \"route_verified_note_note\": \"not applicable\", \"route_note_note_note\": \"not applicable\", \"eligibility_note_note_note\": \"not applicable\", \"prerequisites_note_note_note\": \"not applicable\", \"route_prerequisites_note_note_note\": \"not applicable\", \"verified_note_note\": \"not applicable\", \"eligibility_verified_note_note_note\": \"not applicable\", \"prerequisites_verified_note_note_note\": \"not applicable\", \"route_verified_note_note_note\": \"not applicable\", \"route_note_note_note_note\": \"not applicable\", \"eligibility_note_note_note_note\": \"not applicable\", \"prerequisites_note_note_note_note\": \"not applicable\", \"route_prerequisites_note_note_note_note\": \"not applicable\", \"verified_note_note_note\": \"not applicable\", \"eligibility_verified_note_note_note_note\": \"not applicable\", \"prerequisites_verified_note_note_note_note\": \"not applicable\", \"route_verified_note_note_note_note\": \"not applicable\", \"route_note_note_note_note_note\": \"not applicable\", \"eligibility_note_note_note_note_note\": \"not applicable\", \"prerequisites_note_note_note_note_note\": \"not applicable\", \"route_prerequisites_note_note_note_note_note\": \"not applicable\", \"verified_note_note_note_note\": \"not applicable\", \"eligibility_verified_note_note_note_note_note\": \"not applicable\", \"prerequisites_verified_note_note_note_note_note\": \"not applicable\", \"route_verified_note_note_note_note_note\": \"not applicable\", \"route_note_note_note_note_note_note\": \"not applicable\", \"eligibility_note_note_note_note_note_note\": \"not applicable\", \"prerequisites_note_note_note_note_note_note\": \"not applicable\", \"route_prerequisites_note_note_note_note_note_note\": \"not applicable\", \"verified_note_note_note_note_note\": \"not applicable\", \"eligibility_verified_note_note_note_note_note_note\": \"not applicable\", \"prerequisites_verified_note_note_note_note_note_note\": \"not applicable\", \"route_verified_note_note_note_note_note_note\": \"not applicable\", \"route_note_note_note_note_note_note_note\": \"not applicable\", \"eligibility_note_note_note_note_note_note_note\": \"not applicable\", \"prerequisites_note_note_note_note_note_note_note\": \"not applicable\", \"route_prerequisites_note_note_note_note_note_note_note\": \"not applicable\", \"verified_note_note_note_note_note_note\": \"not applicable\", \"eligibility_verified_note_note_note_note_note_note_note\": \"not applicable\", \"prerequisites_verified_note_note_note_note_note_note_note\": \"not applicable\", \"route_verified_note_note_note_note_note_note_note\": \"not applicable\", \"route_note_note_note_note_note_note_note_note\": \"not applicable\", \"eligibility_note_note_note_note_note_note_note_note\": \"not applicable\", \"prerequisites_note_note_note_note_note_note_note_note\": \"not applicable\", \"route_prerequisites_note_note_note_note_note_note_note_note\":",
+    "passed": false,
+    "prompt_sha256": "242676aa23a1c86f0c55d6ebca5353e0a9275cfbaefde0a43f74691bab992864",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "guard:not:test",
+    "task": "guard",
+    "expected": {
+      "permitted_by_major_rule": false
+    },
+    "raw_response": "{\"answer\": false, \"reason\": \"Sections explicitly marked 'not for Major: CM' are excluded from CM eligibility.\"}",
+    "passed": false,
+    "prompt_sha256": "15eb3d32d25b1b7d44cca8d6253288cab4b5b954de44992fec49c21fb63e37d6",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "guard:completion:test",
+    "task": "guard",
+    "expected": {
+      "completed_courses_assumed": false,
+      "requires_verified_completion_record": true
+    },
+    "raw_response": "{\"eligibility_verified\": false, \"required_courses_completed\": false, \"required_courses_outstanding\": [\"MA3507\", \"MA3508\"], \"optional_courses_completed\": 0, \"optional_courses_eligible\": 5, \"core_courses_completed\": 2, \"core_courses_outstanding\": [\"MA3507\", \"MA3508\"], \"prerequisites_verified\": false, \"registration_eligibility_verified\": false, \"seat_availability_verified\": false, \"eligibility_note\": \"A BSCM major/year never proves course completion.\"}",
+    "passed": false,
+    "prompt_sha256": "3b7240ac8937e3f83dd461b7964fd2b8a896eda4efb10c699ada005215d713c5",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "guard:alternatives:test",
+    "task": "guard",
+    "expected": {
+      "all_alternatives_required": false,
+      "component_linking_verified": false,
+      "confirm_valid_component_bundle": true
+    },
+    "raw_response": "{\"required_information_missing\": true, \"reason\": \"No CM section links or overlaps are provided in the source data.\"}",
+    "passed": false,
+    "prompt_sha256": "ebd4e0cb58b2fbe9728878cd29ead683290bd2bda0148f2afd5b808e319be402",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "guard:nil:test",
+    "task": "guard",
+    "expected": {
+      "requirement_expression_empty": true,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"eligibility_verified\": false, \"prerequisites_exempt\": false, \"route_verified\": false, \"seat_availability_verified\": false, \"summary\": \"Nil in prerequisites does not guarantee registration. Verify eligibility, prerequisites, and seat availability directly with the source data.\"}",
+    "passed": false,
+    "prompt_sha256": "10aee883dee6b55308f0ad6333d230ab9918914a5dfdcd6b4ec9f6ff6f9bb87e",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA2508:check0:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "requirement_expression_satisfied": null,
+      "exclusive_course_conflicts": null,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"requirement_expression_satisfied\": false, \"exclusive_course_conflicts\": false, \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "de406dccb5af3f6d9c5225febd8c4a1dcb6ad579305132d14fb2a219a76d39b1",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA2508:check1:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "requirement_expression_satisfied": false,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"requirement_expression_satisfied\": false, \"exclusive_course_conflicts\": false, \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "b60e32cf80842639e408d7123583a53e4aea79196fcf88fc96e6e0db5f0172ee",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA2508:check2:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "requirement_expression_satisfied": true,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"requirement_expression_satisfied\": true, \"exclusive_course_conflicts\": false, \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "8ac852f00070812c19fc0a1ac01befee3c2f20fe81d0695cf3e2dfa60248f935",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA2508:check3:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "requirement_expression_satisfied": true,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"requirement_expression_satisfied\": true, \"exclusive_course_conflicts\": [\"GE1359\", \"MA1502\"], \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "48845405d135f2a78e3d5cb59b385072385cfd9a7d84846d747414ea51315ad1",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA2508:check4:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "requirement_expression_satisfied": true,
+      "exclusive_course_conflicts": [
+        "GE1359"
+      ],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"requirement_expression_satisfied\": true, \"exclusive_course_conflicts\": [\"GE1359\"], \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "230cd3d26ea87f87914dda698b6450951f6a8b8d59a60cb5676e3a7b2406e2d2",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA4542:check0:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "requirement_expression_satisfied": null,
+      "exclusive_course_conflicts": null,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"requirement_text\": \"MA2508 and (MA3526 or MA3524)\", \"requirement_expression_satisfied\": false, \"exclusive_course_conflicts\": [], \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "cd8f2fe9ca28d00badb3fcec383d7ee9b97dbdeb400b569d151ab2db301039c8",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA4542:check1:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "requirement_expression_satisfied": false,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"requirement_text\": \"MA2508 and (MA3526 or MA3524)\", \"requirement_expression_satisfied\": false, \"exclusive_course_conflicts\": [], \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "fa487303b9a34107ff2a0aba7a194bf9dcb1a24c342993a10e9f3b1d645c76a0",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA4542:check2:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "requirement_expression_satisfied": false,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"requirement_text\": \"MA2508 and (MA3526 or MA3524)\", \"requirement_expression_satisfied\": false, \"exclusive_course_conflicts\": [], \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "d623d9f9f6eb6492b800142d5c26797931b8e9c740268617e639652e60b746c0",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA4542:check3:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "requirement_expression_satisfied": true,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"requirement_text\": \"MA2508 and (MA3526 or MA3524)\", \"requirement_expression_satisfied\": true, \"exclusive_course_conflicts\": [], \"eligibility_verified\": true}",
+    "passed": false,
+    "prompt_sha256": "05ad302faf68394094c941592e74293ba26fbb84c92d9753268e765ab59ffb09",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "MA1300:check0:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA1300",
+      "requirement_text": "Nil",
+      "requirement_expression_satisfied": true,
+      "exclusive_course_conflicts": null,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1300\", \"requirement_text\": \"Nil\", \"requirement_expression_satisfied\": true, \"exclusive_course_conflicts\": false, \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "2aa582cf000f6c351e5cae64a84c292a6a85f5cc2e0d3f0dad259b37265b196b"
+  },
+  {
+    "model": "prior",
+    "id": "regression:GE1105",
+    "task": "ge_grounded_replay",
+    "expected": {
+      "course_code": "GE1105",
+      "term": "2026-27 Sem A",
+      "section": "15848CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "LT-14"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "raw_response": "{\"course_code\": \"GE1105\", \"term\": \"2026-27 Sem A\", \"section\": \"15848CA1\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"LT-14\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "prompt_sha256": "61d1b090a5f6c15410c9d353c63c972fc6123e14b805c60f35b182b480573fc8",
+    "reused_prior_result": true
+  },
+  {
+    "model": "prior",
+    "id": "regression:GE1356",
+    "task": "ge_grounded_replay",
+    "expected": {
+      "course_code": "GE1356",
+      "term": "2026-27 Sem A",
+      "section": "12086C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "12:00",
+          "end_time": "14:50",
+          "building": "LI",
+          "room": "3505"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "raw_response": "{\"course_code\": \"GE1356\", \"term\": \"2026-27 Sem A\", \"section\": \"12086C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"LI\", \"room\": \"3505\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "prompt_sha256": "34ae47f6a53dad9f16248ba20b233ab124b324a6e11c1cfd0f19e28cc21f65b1",
+    "reused_prior_result": true
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA1300:rules3",
+    "task": "rules_recall",
+    "expected": {
+      "course_code": "MA1300",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "Nil",
+      "completion_alternatives": [
+        []
+      ],
+      "exclusive_courses": [
+        "MA1006",
+        "MA1400",
+        "MA1508"
+      ],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1300\", \"requirement_source_label\": \"Pre-requisites/precursors\", \"requirement_text\": \"Nil\", \"completion_alternatives\": [[]], \"exclusive_courses\": [\"MA1006\", \"MA1508\", \"MA1584\"], \"prerequisite_precursor_distinction_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "a2e39081bf673ba7aabe802e7134a1d7a8f4de9e95d419e2a36b8a09d72cefcf"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA2508:rules3",
+    "task": "rules_recall",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "completion_alternatives": [
+        [
+          "MA1201"
+        ],
+        [
+          "MA1301"
+        ],
+        [
+          "MA1503",
+          "MA1508"
+        ]
+      ],
+      "exclusive_courses": [
+        "GE1359",
+        "MA1502"
+      ],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_source_label\": \"Pre-requisites/precursors\", \"requirement_text\": \"MA1201 or MA1301\", \"completion_alternatives\": [[\"MA1201\"], [\"MA1301\"]], \"exclusive_courses\": [\"MA2507\"], \"prerequisite_precursor_distinction_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "c1a396af3ae39de1f1c68f722245fa7f05232c0af956185894f07798061abd3d"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA4542:rules3",
+    "task": "rules_recall",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "completion_alternatives": [
+        [
+          "MA2508",
+          "MA3526"
+        ],
+        [
+          "MA2508",
+          "MA3524"
+        ]
+      ],
+      "exclusive_courses": [],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"requirement_source_label\": \"Pre-requisites/precursors\", \"requirement_text\": \"MA2506 or MA3510\", \"completion_alternatives\": [[\"MA2506\"], [\"MA3510\"]], \"exclusive_courses\": [\"MA4541\", \"MA4543\"], \"prerequisite_precursor_distinction_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "24b6e53296e2990bb28cf5a3b66445a1597317745d26dc1a82e20246b34a173e"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA2510:rules3",
+    "task": "rules_recall",
+    "expected": {
+      "course_code": "MA2510",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "completion_alternatives": [
+        [
+          "MA1201"
+        ],
+        [
+          "MA1301"
+        ],
+        [
+          "MA1503",
+          "MA1508"
+        ]
+      ],
+      "exclusive_courses": [
+        "MA2172",
+        "MA2177",
+        "MA2506"
+      ],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2510\", \"requirement_source_label\": \"Pre-requisites/precursors\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"completion_alternatives\": [[\"MA1201\"], [\"MA1301\"], [\"MA1503\", \"MA1508\"]], \"exclusive_courses\": [\"MA2508\"], \"prerequisite_precursor_distinction_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "4fe7fcb11db9940bc3c6326c6de73cc3081883ad6d183ce501ffeb781115ff4f"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA2508:grounded_rules:test",
+    "task": "grounded_rules",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "completion_alternatives": [
+        [
+          "MA1201"
+        ],
+        [
+          "MA1301"
+        ],
+        [
+          "MA1503",
+          "MA1508"
+        ]
+      ],
+      "exclusive_courses": [
+        "GE1359",
+        "MA1502"
+      ],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_source_label\": \"Pre-requisites/precursors\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"completion_alternatives\": [[\"MA1201\"], [\"MA1301\"], [\"MA1503\", \"MA1508\"]], \"exclusive_courses\": [\"GE1359\", \"MA1502\"], \"prerequisite_precursor_distinction_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "14c8f040dc89c12c3b39a80e6bb29981bcda4d832e24f5e35057951cf92ed801"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA4542:grounded_rules:test",
+    "task": "grounded_rules",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_source_label": "Pre-requisites/precursors",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "completion_alternatives": [
+        [
+          "MA2508",
+          "MA3526"
+        ],
+        [
+          "MA2508",
+          "MA3524"
+        ]
+      ],
+      "exclusive_courses": [],
+      "prerequisite_precursor_distinction_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"requirement_source_label\": \"Pre-requisites/precursors\", \"requirement_text\": \"MA2508 and (MA3526 or MA3524)\", \"completion_alternatives\": [[\"MA2508\", \"MA3526\"], [\"MA2508\", \"MA3524\"]], \"exclusive_courses\": [], \"prerequisite_precursor_distinction_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "f06819d3a7b66ffcde1012abef01fc9d2fdde6df914124bc1c95b699fbfd1fea"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA1300:C01:recall2",
+    "task": "schedule_recall",
+    "expected": {
+      "course_code": "MA1300",
+      "term_code": "202609",
+      "crn": "12244",
+      "section": "C01",
+      "meetings": [
+        {
+          "day": "Fri",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "YEUNG",
+          "room": "LT-18",
+          "pdf_page": 1
+        },
+        {
+          "day": "Wed",
+          "start_time": "17:00",
+          "end_time": "18:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "BOC",
+          "room": "R4057",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CM",
+          "values": [
+            "CM"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1300\", \"term_code\": \"202609\", \"crn\": \"11043\", \"section\": \"C01\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"12:00\", \"end_time\": \"12:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"YEUNG\", \"room\": \"LT-15\", \"pdf_page\": 1}, {\"day\": \"Fri\", \"start_time\": \"12:00\", \"end_time\": \"12:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"YEUNG\", \"room\": \"LT-15\", \"pdf_page\": 1}], \"restrictions\": [{\"mode\": \"only\", \"field\": \"programme\", \"raw\": \"BSCCBU3, BSCSIU3\", \"values\": [\"BSCCBU3\", \"BSCSIU3\"]}, {\"mode\": \"only\", \"field\": \"major\", \"raw\": \"CM\", \"values\": [\"CM\"]}], \"teaching_weeks\": null, \"component_linking_verified\": false, \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "c8ccf1afc4bf7f027780fa9442a0a332953ca48dff4aa37787d0ae001c5d0682"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA1502:CB1:recall2",
+    "task": "schedule_recall",
+    "expected": {
+      "course_code": "MA1502",
+      "term_code": "202609",
+      "crn": "12609",
+      "section": "CB1",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "YEUNG",
+          "room": "LT-18",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCSIU4",
+          "values": [
+            "BSCSIU4"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CM",
+          "values": [
+            "CM"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "cohort",
+          "raw": "2026",
+          "values": [
+            "2026"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1502\", \"term_code\": \"202609\", \"crn\": \"11149\", \"section\": \"CB1\", \"restrictions\": [[\"CM\", \"BSCSIU2026\", \"BSCSIU2027\", \"BSCSIU2028\", \"BSCSIU2029\"], [\"BSCSIU2026\", \"BSCSIU2027\", \"BSCSIU2028\", \"BSCSIU2029\"], [\"BSCSIU2026\", \"BSCSIU2027\", \"BSCSIU2028\", \"BSCSIU2029\"]], \"teaching_medium\": \"Face-to-face\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"15:00\", \"end_time\": \"17:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-25\", \"building\": \"YEUNG\", \"room\": \"G7610\", \"pdf_page\": 1}, {\"day\": \"Fri\", \"start_time\": \"15:00\", \"end_time\": \"17:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-25\", \"building\": \"YEUNG\", \"room\": \"G7610\", \"pdf_page\": 1}], \"restrictions_verified\": false, \"eligibility_verified\": false, \"component_linking_verified\": false, \"current_section_seats_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "bf6686ef581fb8986342bfc58387ca368b3f503881b4485d7acb53ae0c38e00f"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA2508:CA1:recall2",
+    "task": "schedule_recall",
+    "expected": {
+      "course_code": "MA2508",
+      "term_code": "202609",
+      "crn": "13701",
+      "section": "CA1",
+      "meetings": [
+        {
+          "day": "Sat",
+          "start_time": "11:00",
+          "end_time": "12:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-12-05",
+          "building": "YEUNG",
+          "room": "LT-3",
+          "pdf_page": 1
+        },
+        {
+          "day": "Tue",
+          "start_time": "16:00",
+          "end_time": "16:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-12-05",
+          "building": "YEUNG",
+          "room": "LT-11",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4",
+          "values": [
+            "BSCCBU4",
+            "BSCSIU2",
+            "BSCSIU3",
+            "BSCSIU4"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CFFT, CM",
+          "values": [
+            "CFFT",
+            "CM"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"term_code\": \"202609\", \"crn\": \"11043\", \"section\": \"CA1\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-25\", \"building\": \"YEUNG\", \"room\": \"LT-14\", \"pdf_page\": 1}, {\"day\": \"Fri\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-25\", \"building\": \"YEUNG\", \"room\": \"LT-14\", \"pdf_page\": 1}], \"restrictions\": [{\"mode\": \"only\", \"field\": \"programme\", \"raw\": \"BSCCBU4, BSCSIU3\", \"values\": [\"BSCCBU4\", \"BSCSIU3\"]}, {\"mode\": \"only\", \"field\": \"major\", \"raw\": \"CM\", \"values\": [\"CM\"]}], \"teaching_weeks\": null, \"component_linking_verified\": false, \"eligibility_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "c50b6ecb2e5181285da46740ed966ae897e5b888e238147bfdb4b776cd99e5c2"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA3525:CA1:recall2",
+    "task": "schedule_recall",
+    "expected": {
+      "course_code": "MA3525",
+      "term_code": "202609",
+      "crn": "11213",
+      "section": "CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "13:00",
+          "end_time": "14:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "LI",
+          "room": "1614",
+          "pdf_page": 1
+        },
+        {
+          "day": "Tue",
+          "start_time": "14:00",
+          "end_time": "14:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "LI",
+          "room": "1614",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4, DBSCBSC1, DLLBBSC",
+          "values": [
+            "BSCCBU4",
+            "BSCSIU2",
+            "BSCSIU3",
+            "BSCSIU4",
+            "DBSCBSC1",
+            "DLLBBSC"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CFFT, CM, D001, D004, D008",
+          "values": [
+            "CFFT",
+            "CM",
+            "D001",
+            "D004",
+            "D008"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA3525\", \"term_code\": \"202609\", \"crn\": \"11071\", \"section\": \"CA1\", \"restrictions\": [[\"CM\", \"MATH2014\", \"MATH2015\", \"MATH2016\", \"MATH2017\", \"MATH2018\", \"MATH2019\", \"MATH2020\", \"MATH2021\", \"MATH2022\", \"MATH2023\", \"MATH2024\", \"MATH2025\", \"MATH2026\", \"MATH2027\", \"MATH2028\", \"MATH2029\", \"MATH2030\", \"MATH2031\", \"MATH2032\", \"MATH2033\", \"MATH2034\", \"MATH2035\", \"MATH2036\", \"MATH2037\", \"MATH2038\", \"MATH2039\", \"MATH2040\", \"MATH2041\", \"MATH2042\", \"MATH2043\", \"MATH2044\", \"MATH2045\", \"MATH2046\", \"MATH2047\", \"MATH2048\", \"MATH2049\", \"MATH2050\", \"MATH2051\", \"MATH2052\", \"MATH2053\", \"MATH2054\", \"MATH2055\", \"MATH2056\", \"MATH2057\", \"MATH2058\", \"MATH2059\", \"MATH2060\", \"MATH2061\", \"MATH2062\", \"MATH2063\", \"MATH2064\", \"MATH2065\", \"MATH2066\", \"MATH2067\", \"MATH2068\", \"MATH2069\", \"MATH2070\", \"MATH2071\", \"MATH2072\", \"MATH2073\", \"MATH2074\", \"MATH2075\", \"MATH2076\", \"MATH2077\", \"MATH2078\", \"MATH2079\", \"MATH2080\", \"MATH2081\", \"MATH2082\", \"MATH2083\", \"MATH2084\", \"MATH2085\", \"MATH2086\", \"MATH2087\", \"MATH2088\", \"MATH2089\", \"MATH2090\", \"MATH2091\", \"MATH2092\", \"MATH2093\", \"MATH2094\", \"MATH2095\", \"MATH2096\", \"MATH2097\", \"MATH2098\", \"MATH2099\", \"MATH2100\", \"MATH2101\", \"MATH2102\", \"MATH2103\", \"MATH2104\", \"MATH2105\", \"MATH2106\", \"MATH2107\", \"MATH2108\", \"MATH2109\", \"MATH2110\", \"MATH2111\", \"MATH2112\", \"MATH2113\", \"MATH2114\", \"MATH2115\", \"MATH2116\", \"MATH2117\", \"MATH2118\", \"MATH2119\", \"MATH2",
+    "passed": false,
+    "prompt_sha256": "8eb8a8822c146d3af222f3aef1ff377bd5d0b450a07d1f05973e993b4c17bb71"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA1300:C01:grounded:test",
+    "task": "grounded_schedule",
+    "expected": {
+      "course_code": "MA1300",
+      "term_code": "202609",
+      "crn": "12244",
+      "section": "C01",
+      "meetings": [
+        {
+          "day": "Fri",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "YEUNG",
+          "room": "LT-18",
+          "pdf_page": 1
+        },
+        {
+          "day": "Wed",
+          "start_time": "17:00",
+          "end_time": "18:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "BOC",
+          "room": "R4057",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CM",
+          "values": [
+            "CM"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1300\", \"term_code\": \"202609\", \"crn\": \"12244\", \"section\": \"C01\", \"meetings\": [{\"day\": \"Fri\", \"start_time\": \"12:00\", \"end_time\": \"13:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"YEUNG\", \"room\": \"LT-18\", \"pdf_page\": 1}, {\"day\": \"Wed\", \"start_time\": \"17:00\", \"end_time\": \"18:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"BOC\", \"room\": \"R4057\", \"pdf_page\": 1}], \"restrictions\": [{\"mode\": \"only\", \"field\": \"major\", \"raw\": \"CM\", \"values\": [\"CM\"]}], \"teaching_weeks\": null, \"component_linking_verified\": false, \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "c1cc2b229559fa68f61de57250cecfb180aa69f660a82b8e4402125bd034ec43"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA1502:CB1:grounded:test",
+    "task": "grounded_schedule",
+    "expected": {
+      "course_code": "MA1502",
+      "term_code": "202609",
+      "crn": "12609",
+      "section": "CB1",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "YEUNG",
+          "room": "LT-18",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCSIU4",
+          "values": [
+            "BSCSIU4"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CM",
+          "values": [
+            "CM"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "cohort",
+          "raw": "2026",
+          "values": [
+            "2026"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1502\", \"term_code\": \"202609\", \"crn\": \"12609\", \"section\": \"CB1\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"YEUNG\", \"room\": \"LT-18\", \"pdf_page\": 1}], \"restrictions\": [{\"mode\": \"only\", \"field\": \"programme\", \"raw\": \"BSCSIU4\", \"values\": [\"BSCSIU4\"]}, {\"mode\": \"only\", \"field\": \"major\", \"raw\": \"CM\", \"values\": [\"CM\"]}, {\"mode\": \"only\", \"field\": \"cohort\", \"raw\": \"2026\", \"values\": [\"2026\"]}], \"teaching_weeks\": null, \"component_linking_verified\": false, \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "bac610012284e079c5830bc21b3d561213a07554c56477a69f5a5d7c047cf588"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA2508:CA1:grounded:test",
+    "task": "grounded_schedule",
+    "expected": {
+      "course_code": "MA2508",
+      "term_code": "202609",
+      "crn": "13701",
+      "section": "CA1",
+      "meetings": [
+        {
+          "day": "Sat",
+          "start_time": "11:00",
+          "end_time": "12:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-12-05",
+          "building": "YEUNG",
+          "room": "LT-3",
+          "pdf_page": 1
+        },
+        {
+          "day": "Tue",
+          "start_time": "16:00",
+          "end_time": "16:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-12-05",
+          "building": "YEUNG",
+          "room": "LT-11",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4",
+          "values": [
+            "BSCCBU4",
+            "BSCSIU2",
+            "BSCSIU3",
+            "BSCSIU4"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CFFT, CM",
+          "values": [
+            "CFFT",
+            "CM"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"term_code\": \"202609\", \"crn\": \"13701\", \"section\": \"CA1\", \"meetings\": [{\"day\": \"Sat\", \"start_time\": \"11:00\", \"end_time\": \"12:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-12-05\", \"building\": \"YEUNG\", \"room\": \"LT-3\", \"pdf_page\": 1}, {\"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"16:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-12-05\", \"building\": \"YEUNG\", \"room\": \"LT-11\", \"pdf_page\": 1}], \"restrictions\": [{\"mode\": \"only\", \"field\": \"programme\", \"raw\": \"BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4\", \"values\": [\"BSCCBU4\", \"BSCSIU2\", \"BSCSIU3\", \"BSCSIU4\"]}, {\"mode\": \"only\", \"field\": \"major\", \"raw\": \"CFFT, CM\", \"values\": [\"CFFT\", \"CM\"]}], \"teaching_weeks\": null, \"component_linking_verified\": false, \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "fe28a0e037592b7340fe8a7065d9c3ebcde25170b363d4afc5114bbe811310b5"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA3525:CA1:grounded:test",
+    "task": "grounded_schedule",
+    "expected": {
+      "course_code": "MA3525",
+      "term_code": "202609",
+      "crn": "11213",
+      "section": "CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "13:00",
+          "end_time": "14:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "LI",
+          "room": "1614",
+          "pdf_page": 1
+        },
+        {
+          "day": "Tue",
+          "start_time": "14:00",
+          "end_time": "14:50",
+          "start_date": "2026-08-31",
+          "end_date": "2026-11-28",
+          "building": "LI",
+          "room": "1614",
+          "pdf_page": 1
+        }
+      ],
+      "restrictions": [
+        {
+          "mode": "only",
+          "field": "programme",
+          "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4, DBSCBSC1, DLLBBSC",
+          "values": [
+            "BSCCBU4",
+            "BSCSIU2",
+            "BSCSIU3",
+            "BSCSIU4",
+            "DBSCBSC1",
+            "DLLBBSC"
+          ]
+        },
+        {
+          "mode": "only",
+          "field": "major",
+          "raw": "CFFT, CM, D001, D004, D008",
+          "values": [
+            "CFFT",
+            "CM",
+            "D001",
+            "D004",
+            "D008"
+          ]
+        }
+      ],
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA3525\", \"term_code\": \"202609\", \"crn\": \"11213\", \"section\": \"CA1\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"13:00\", \"end_time\": \"14:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"LI\", \"room\": \"1614\", \"pdf_page\": 1}, {\"day\": \"Tue\", \"start_time\": \"14:00\", \"end_time\": \"14:50\", \"start_date\": \"2026-08-31\", \"end_date\": \"2026-11-28\", \"building\": \"LI\", \"room\": \"1614\", \"pdf_page\": 1}], \"restrictions\": [{\"mode\": \"only\", \"field\": \"programme\", \"raw\": \"BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4, DBSCBSC1, DLLBBSC\", \"values\": [\"BSCCBU4\", \"BSCSIU2\", \"BSCSIU3\", \"BSCSIU4\", \"DBSCBSC1\", \"DLLBBSC\"]}, {\"mode\": \"only\", \"field\": \"major\", \"raw\": \"CFFT, CM, D001, D004, D008\", \"values\": [\"CFFT\", \"CM\", \"D001\", \"D004\", \"D008\"]}], \"teaching_weeks\": null, \"component_linking_verified\": false, \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "c2cdbf085979b25aae7fa4a1b445ccdb14484bc934fa05acd6887e20bc9d08cb"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "guard:cm:test",
+    "task": "guard",
+    "expected": {
+      "CM": "Computing Mathematics",
+      "CM_is_listed": true,
+      "other_restrictions_still_apply": true
+    },
+    "raw_response": "{\"CM_is_listed_as_only_for_major_in_saved_source\": true, \"CM_is_a_major_only_listed_as_only_for_major_in_saved_source\": false, \"CM_is_a_major_or_other_major_only_listed_as_only_for_major_in_saved_source\": true, \"CM_is_a_minor_only_listed_as_only_for_major_in_saved_source\": false, \"CM_is_unspecified_listed_as_only_for_major_in_saved_source\": false, \"CM_section_restrictions_apply\": true}",
+    "passed": false,
+    "prompt_sha256": "c298e697a01c475b3e8eb8d7c838cedd041d987a5c67826436422972e2c8ee78"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "guard:token:test",
+    "task": "guard",
+    "expected": {
+      "CM_is_listed": false
+    },
+    "raw_response": "{\"CM_is_listed\": false}",
+    "passed": true,
+    "prompt_sha256": "242676aa23a1c86f0c55d6ebca5353e0a9275cfbaefde0a43f74691bab992864"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "guard:not:test",
+    "task": "guard",
+    "expected": {
+      "permitted_by_major_rule": false
+    },
+    "raw_response": "{\"requirement_source_label\": \"CM section restrictions\", \"eligibility_verified\": false, \"can_use_section\": false, \"reason\": \"A section marked not-for-Major: CM is not accessible to CM students.\"}",
+    "passed": false,
+    "prompt_sha256": "15eb3d32d25b1b7d44cca8d6253288cab4b5b954de44992fec49c21fb63e37d6"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "guard:completion:test",
+    "task": "guard",
+    "expected": {
+      "completed_courses_assumed": false,
+      "requires_verified_completion_record": true
+    },
+    "raw_response": "{\"completed_courses_assumed\": false, \"prerequisite_precursor_verified\": false, \"eligibility_verified\": false, \"required_information\": [\"completed_courses\"], \"independent_learning_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "3b7240ac8937e3f83dd461b7964fd2b8a896eda4efb10c699ada005215d713c5"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "guard:alternatives:test",
+    "task": "guard",
+    "expected": {
+      "all_alternatives_required": false,
+      "component_linking_verified": false,
+      "confirm_valid_component_bundle": true
+    },
+    "raw_response": "{\"CM_section_linking_required\": false, \"CM_section_linking_verified\": false}",
+    "passed": false,
+    "prompt_sha256": "ebd4e0cb58b2fbe9728878cd29ead683290bd2bda0148f2afd5b808e319be402"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "guard:nil:test",
+    "task": "guard",
+    "expected": {
+      "requirement_expression_empty": true,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"requirement_expression_always_verified\": false, \"eligibility_verified_by_source\": false, \"no_other_verified_source\": true, \"prerequisite_precursor_distinction_not_in_source\": true, \"assume_no_completed_courses_without_eligibility_verified\": true}",
+    "passed": false,
+    "prompt_sha256": "10aee883dee6b55308f0ad6333d230ab9918914a5dfdcd6b4ec9f6ff6f9bb87e"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA2508:check0:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "requirement_expression_satisfied": null,
+      "exclusive_course_conflicts": null,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"requirement_expression_satisfied\": null, \"exclusive_course_conflicts\": null, \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "de406dccb5af3f6d9c5225febd8c4a1dcb6ad579305132d14fb2a219a76d39b1"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA2508:check1:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "requirement_expression_satisfied": false,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"requirement_expression_satisfied\": false, \"exclusive_course_conflicts\": [], \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "b60e32cf80842639e408d7123583a53e4aea79196fcf88fc96e6e0db5f0172ee"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA2508:check2:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "requirement_expression_satisfied": true,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"requirement_expression_satisfied\": true, \"exclusive_course_conflicts\": [], \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "8ac852f00070812c19fc0a1ac01befee3c2f20fe81d0695cf3e2dfa60248f935"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA2508:check3:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "requirement_expression_satisfied": true,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"requirement_expression_satisfied\": true, \"exclusive_course_conflicts\": [], \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "48845405d135f2a78e3d5cb59b385072385cfd9a7d84846d747414ea51315ad1"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA2508:check4:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA2508",
+      "requirement_text": "MA1201 or MA1301 or (MA1503 and MA1508)",
+      "requirement_expression_satisfied": true,
+      "exclusive_course_conflicts": [
+        "GE1359"
+      ],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA2508\", \"requirement_text\": \"MA1201 or MA1301 or (MA1503 and MA1508)\", \"requirement_expression_satisfied\": true, \"exclusive_course_conflicts\": [\"GE1359\"], \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "230cd3d26ea87f87914dda698b6450951f6a8b8d59a60cb5676e3a7b2406e2d2"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA4542:check0:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "requirement_expression_satisfied": null,
+      "exclusive_course_conflicts": null,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"requirement_text\": \"MA2508 and (MA3526 or MA3524)\", \"requirement_expression_satisfied\": null, \"exclusive_course_conflicts\": null, \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "cd8f2fe9ca28d00badb3fcec383d7ee9b97dbdeb400b569d151ab2db301039c8"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA4542:check1:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "requirement_expression_satisfied": false,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"requirement_text\": \"MA2508 and (MA3526 or MA3524)\", \"requirement_expression_satisfied\": false, \"exclusive_course_conflicts\": [], \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "fa487303b9a34107ff2a0aba7a194bf9dcb1a24c342993a10e9f3b1d645c76a0"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA4542:check2:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "requirement_expression_satisfied": false,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"requirement_text\": \"MA2508 and (MA3526 or MA3524)\", \"requirement_expression_satisfied\": false, \"exclusive_course_conflicts\": [], \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "d623d9f9f6eb6492b800142d5c26797931b8e9c740268617e639652e60b746c0"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA4542:check3:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA4542",
+      "requirement_text": "MA2508 and (MA3526 or MA3524)",
+      "requirement_expression_satisfied": true,
+      "exclusive_course_conflicts": [],
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA4542\", \"requirement_text\": \"MA2508 and (MA3526 or MA3524)\", \"requirement_expression_satisfied\": true, \"exclusive_course_conflicts\": [], \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "05ad302faf68394094c941592e74293ba26fbb84c92d9753268e765ab59ffb09"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "MA1300:check0:test",
+    "task": "requirement_check",
+    "expected": {
+      "course_code": "MA1300",
+      "requirement_text": "Nil",
+      "requirement_expression_satisfied": true,
+      "exclusive_course_conflicts": null,
+      "eligibility_verified": false
+    },
+    "raw_response": "{\"course_code\": \"MA1300\", \"requirement_text\": \"Nil\", \"requirement_expression_satisfied\": true, \"exclusive_course_conflicts\": null, \"eligibility_verified\": false}",
+    "passed": true,
+    "prompt_sha256": "2aa582cf000f6c351e5cae64a84c292a6a85f5cc2e0d3f0dad259b37265b196b"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "regression:GE1105",
+    "task": "ge_grounded_replay",
+    "expected": {
+      "course_code": "GE1105",
+      "term": "2026-27 Sem A",
+      "section": "15848CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "LT-14"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "raw_response": "{\"course_code\": \"GE1105\", \"term\": \"2026-27 Sem A\", \"section\": \"15848CA1\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"LT-14\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "prompt_sha256": "61d1b090a5f6c15410c9d353c63c972fc6123e14b805c60f35b182b480573fc8"
+  },
+  {
+    "model": "ma_tuned",
+    "id": "regression:GE1356",
+    "task": "ge_grounded_replay",
+    "expected": {
+      "course_code": "GE1356",
+      "term": "2026-27 Sem A",
+      "section": "12086C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "12:00",
+          "end_time": "14:50",
+          "building": "LI",
+          "room": "3505"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "raw_response": "{\"course_code\": \"GE1356\", \"term\": \"2026-27 Sem A\", \"section\": \"12086C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"LI\", \"room\": \"3505\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "prompt_sha256": "34ae47f6a53dad9f16248ba20b233ab124b324a6e11c1cfd0f19e28cc21f65b1"
+  }
+]

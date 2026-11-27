@@ -1,0 +1,1124 @@
+[
+  {
+    "programme": "CM",
+    "setting": "balanced",
+    "lambdas": [
+      1,
+      1,
+      1
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "MA2509-01",
+        "CS2360-01",
+        "MA3517-01",
+        "GE1105-01",
+        "MA3521-01"
+      ],
+      "course_codes": [
+        "MA2509",
+        "CS2360",
+        "MA3517",
+        "GE1105",
+        "MA3521"
+      ],
+      "credits": 15,
+      "objective": 17.25,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 3.7500000000000004,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 3.7500000000000004,
+        "preparation_benefit": 0.0,
+        "net_profit": 17.25,
+        "schedule_loss": -17.25,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 6.0,
+        "selected_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2510",
+          "CS1302",
+          "GE2260"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 3.7500000000000004,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 0.8500000000000001,
+      "difficulty": 1.4500000000000002,
+      "workload": 1.4500000000000002
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 0.8500000000000001,
+      "difficulty": 1.4500000000000002,
+      "workload": 1.4500000000000002
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "d9ff13eec3b4110189b06496a8d324ddb8659e5ff24f0c274bb8074222927c50"
+  },
+  {
+    "programme": "CM",
+    "setting": "background_priority",
+    "lambdas": [
+      20,
+      1,
+      1
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "MA2509-01",
+        "CS2360-01",
+        "MA3517-01",
+        "GE1105-01",
+        "MA3521-01"
+      ],
+      "course_codes": [
+        "MA2509",
+        "CS2360",
+        "MA3517",
+        "GE1105",
+        "MA3521"
+      ],
+      "credits": 15,
+      "objective": 1.0999999999999979,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 19.900000000000002,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 19.900000000000002,
+        "preparation_benefit": 0.0,
+        "net_profit": 1.0999999999999979,
+        "schedule_loss": -1.0999999999999979,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 6.0,
+        "selected_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2510",
+          "CS1302",
+          "GE2260"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 19.900000000000002,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 0.8500000000000001,
+      "difficulty": 1.4500000000000002,
+      "workload": 1.4500000000000002
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 17.0,
+      "difficulty": 1.4500000000000002,
+      "workload": 1.4500000000000002
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "d9ff13eec3b4110189b06496a8d324ddb8659e5ff24f0c274bb8074222927c50"
+  },
+  {
+    "programme": "CM",
+    "setting": "difficulty_priority",
+    "lambdas": [
+      1,
+      20,
+      1
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "MA2509-01",
+        "CS2360-01",
+        "MA3517-01",
+        "GE1105-01",
+        "MA3523-01"
+      ],
+      "course_codes": [
+        "MA2509",
+        "CS2360",
+        "MA3517",
+        "GE1105",
+        "MA3523"
+      ],
+      "credits": 15,
+      "objective": -5.900000000000002,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 20.900000000000002,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 20.900000000000002,
+        "preparation_benefit": 0.0,
+        "net_profit": -5.900000000000002,
+        "schedule_loss": 5.900000000000002,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 0.0,
+        "selected_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2510",
+          "CS1302",
+          "GE2260"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 20.900000000000002,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 1.55,
+      "difficulty": 0.9,
+      "workload": 1.35
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 1.55,
+      "difficulty": 18.0,
+      "workload": 1.35
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "d9ff13eec3b4110189b06496a8d324ddb8659e5ff24f0c274bb8074222927c50"
+  },
+  {
+    "programme": "CM",
+    "setting": "workload_priority",
+    "lambdas": [
+      1,
+      1,
+      20
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "MA2509-01",
+        "CS2360-01",
+        "MA3517-01",
+        "GE1105-01",
+        "MA3525-01"
+      ],
+      "course_codes": [
+        "MA2509",
+        "CS2360",
+        "MA3517",
+        "GE1105",
+        "MA3525"
+      ],
+      "credits": 15,
+      "objective": -5.75,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 20.75,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 20.75,
+        "preparation_benefit": 0.0,
+        "net_profit": -5.75,
+        "schedule_loss": 5.75,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 0.0,
+        "selected_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2510",
+          "CS1302",
+          "GE2260"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 20.75,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 1.4,
+      "difficulty": 1.35,
+      "workload": 0.9
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 1.4,
+      "difficulty": 1.35,
+      "workload": 18.0
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "d9ff13eec3b4110189b06496a8d324ddb8659e5ff24f0c274bb8074222927c50"
+  },
+  {
+    "programme": "CM",
+    "setting": "mismatch_low_fixed_d12",
+    "lambdas": [
+      0,
+      12,
+      1
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "MA2509-01",
+        "CS2360-01",
+        "MA3517-01",
+        "GE1105-01",
+        "MA3523-01"
+      ],
+      "course_codes": [
+        "MA2509",
+        "CS2360",
+        "MA3517",
+        "GE1105",
+        "MA3523"
+      ],
+      "credits": 15,
+      "objective": 2.849999999999998,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 12.150000000000002,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 12.150000000000002,
+        "preparation_benefit": 0.0,
+        "net_profit": 2.849999999999998,
+        "schedule_loss": -2.849999999999998,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 0.0,
+        "selected_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2510",
+          "CS1302",
+          "GE2260"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 12.150000000000002,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 1.55,
+      "difficulty": 0.9,
+      "workload": 1.35
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 0.0,
+      "difficulty": 10.8,
+      "workload": 1.35
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "d9ff13eec3b4110189b06496a8d324ddb8659e5ff24f0c274bb8074222927c50"
+  },
+  {
+    "programme": "CM",
+    "setting": "mismatch_high_fixed_d12",
+    "lambdas": [
+      12,
+      12,
+      1
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "MA2509-01",
+        "CS2360-01",
+        "MA3517-01",
+        "GE1105-01",
+        "MA3521-01"
+      ],
+      "course_codes": [
+        "MA2509",
+        "CS2360",
+        "MA3517",
+        "GE1105",
+        "MA3521"
+      ],
+      "credits": 15,
+      "objective": -8.050000000000004,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 29.050000000000004,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 29.050000000000004,
+        "preparation_benefit": 0.0,
+        "net_profit": -8.050000000000004,
+        "schedule_loss": 8.050000000000004,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 6.0,
+        "selected_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2510",
+          "CS1302",
+          "GE2260"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 29.050000000000004,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 0.8500000000000001,
+      "difficulty": 1.4500000000000002,
+      "workload": 1.4500000000000002
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 10.200000000000001,
+      "difficulty": 17.400000000000002,
+      "workload": 1.4500000000000002
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "d9ff13eec3b4110189b06496a8d324ddb8659e5ff24f0c274bb8074222927c50"
+  },
+  {
+    "programme": "CS",
+    "setting": "balanced",
+    "lambdas": [
+      1,
+      1,
+      1
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "CS2115-01",
+        "CS2402-01",
+        "CS3334-01",
+        "CS3342-01",
+        "CS4486-01"
+      ],
+      "course_codes": [
+        "CS2115",
+        "CS2402",
+        "CS3334",
+        "CS3342",
+        "CS4486"
+      ],
+      "credits": 15,
+      "objective": 17.25,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 3.7500000000000004,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 3.7500000000000004,
+        "preparation_benefit": 0.0,
+        "net_profit": 17.25,
+        "schedule_loss": -17.25,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 6.0,
+        "selected_stream": "Artificial Intelligence",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "CS1302A",
+          "CS2310",
+          "CS2312",
+          "GE2340"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 3.7500000000000004,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 0.8500000000000001,
+      "difficulty": 1.4500000000000002,
+      "workload": 1.4500000000000002
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 0.8500000000000001,
+      "difficulty": 1.4500000000000002,
+      "workload": 1.4500000000000002
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "218e9c37d9bdf650e88ab66bd3dc26db7bcfd7e911666f235a206f1839b04849"
+  },
+  {
+    "programme": "CS",
+    "setting": "background_priority",
+    "lambdas": [
+      20,
+      1,
+      1
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "CS2115-01",
+        "CS2402-01",
+        "CS3334-01",
+        "CS3342-01",
+        "CS4486-01"
+      ],
+      "course_codes": [
+        "CS2115",
+        "CS2402",
+        "CS3334",
+        "CS3342",
+        "CS4486"
+      ],
+      "credits": 15,
+      "objective": 1.0999999999999979,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 19.900000000000002,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 19.900000000000002,
+        "preparation_benefit": 0.0,
+        "net_profit": 1.0999999999999979,
+        "schedule_loss": -1.0999999999999979,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 6.0,
+        "selected_stream": "Artificial Intelligence",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "CS1302A",
+          "CS2310",
+          "CS2312",
+          "GE2340"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 19.900000000000002,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 0.8500000000000001,
+      "difficulty": 1.4500000000000002,
+      "workload": 1.4500000000000002
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 17.0,
+      "difficulty": 1.4500000000000002,
+      "workload": 1.4500000000000002
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "218e9c37d9bdf650e88ab66bd3dc26db7bcfd7e911666f235a206f1839b04849"
+  },
+  {
+    "programme": "CS",
+    "setting": "difficulty_priority",
+    "lambdas": [
+      1,
+      20,
+      1
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "CS2115-01",
+        "CS2402-01",
+        "CS3334-01",
+        "CS3342-01",
+        "CS3483-01"
+      ],
+      "course_codes": [
+        "CS2115",
+        "CS2402",
+        "CS3334",
+        "CS3342",
+        "CS3483"
+      ],
+      "credits": 15,
+      "objective": -5.900000000000002,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 20.900000000000002,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 20.900000000000002,
+        "preparation_benefit": 0.0,
+        "net_profit": -5.900000000000002,
+        "schedule_loss": 5.900000000000002,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 0.0,
+        "selected_stream": "Artificial Intelligence",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "CS1302A",
+          "CS2310",
+          "CS2312",
+          "GE2340"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 20.900000000000002,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 1.55,
+      "difficulty": 0.9,
+      "workload": 1.35
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 1.55,
+      "difficulty": 18.0,
+      "workload": 1.35
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "218e9c37d9bdf650e88ab66bd3dc26db7bcfd7e911666f235a206f1839b04849"
+  },
+  {
+    "programme": "CS",
+    "setting": "workload_priority",
+    "lambdas": [
+      1,
+      1,
+      20
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "CS2115-01",
+        "CS2402-01",
+        "CS3334-01",
+        "CS3342-01",
+        "CS3402-01"
+      ],
+      "course_codes": [
+        "CS2115",
+        "CS2402",
+        "CS3334",
+        "CS3342",
+        "CS3402"
+      ],
+      "credits": 15,
+      "objective": -5.75,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 20.75,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 20.75,
+        "preparation_benefit": 0.0,
+        "net_profit": -5.75,
+        "schedule_loss": 5.75,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 0.0,
+        "selected_stream": "Artificial Intelligence",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "CS1302A",
+          "CS2310",
+          "CS2312",
+          "GE2340"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 20.75,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 1.4,
+      "difficulty": 1.35,
+      "workload": 0.9
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 1.4,
+      "difficulty": 1.35,
+      "workload": 18.0
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "218e9c37d9bdf650e88ab66bd3dc26db7bcfd7e911666f235a206f1839b04849"
+  },
+  {
+    "programme": "CS",
+    "setting": "mismatch_low_fixed_d12",
+    "lambdas": [
+      0,
+      12,
+      1
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "CS2115-01",
+        "CS2402-01",
+        "CS3334-01",
+        "CS3342-01",
+        "CS3483-01"
+      ],
+      "course_codes": [
+        "CS2115",
+        "CS2402",
+        "CS3334",
+        "CS3342",
+        "CS3483"
+      ],
+      "credits": 15,
+      "objective": 2.849999999999998,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 12.150000000000002,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 12.150000000000002,
+        "preparation_benefit": 0.0,
+        "net_profit": 2.849999999999998,
+        "schedule_loss": -2.849999999999998,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 0.0,
+        "selected_stream": "Artificial Intelligence",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "CS1302A",
+          "CS2310",
+          "CS2312",
+          "GE2340"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 12.150000000000002,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 1.55,
+      "difficulty": 0.9,
+      "workload": 1.35
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 0.0,
+      "difficulty": 10.8,
+      "workload": 1.35
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "218e9c37d9bdf650e88ab66bd3dc26db7bcfd7e911666f235a206f1839b04849"
+  },
+  {
+    "programme": "CS",
+    "setting": "mismatch_high_fixed_d12",
+    "lambdas": [
+      12,
+      12,
+      1
+    ],
+    "result": {
+      "status": "optimal",
+      "selected_options": [
+        "CS2115-01",
+        "CS2402-01",
+        "CS3334-01",
+        "CS3342-01",
+        "CS4486-01"
+      ],
+      "course_codes": [
+        "CS2115",
+        "CS2402",
+        "CS3334",
+        "CS3342",
+        "CS4486"
+      ],
+      "credits": 15,
+      "objective": -8.050000000000004,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 15.0,
+        "student_cost_penalty": 29.050000000000004,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 29.050000000000004,
+        "preparation_benefit": 0.0,
+        "net_profit": -8.050000000000004,
+        "schedule_loss": 8.050000000000004,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 6.0,
+        "selected_stream": "Artificial Intelligence",
+        "stream_reward_multiplier": 3.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "CS1302A",
+          "CS2310",
+          "CS2312",
+          "GE2340"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 5,
+      "course_min": 5,
+      "course_max": 5,
+      "student_cost": 29.050000000000004,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "controlled_synthetic_times_and_scores_for_lambda_sensitivity_not_a_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "raw_score_totals": {
+      "background_mismatch": 0.8500000000000001,
+      "difficulty": 1.4500000000000002,
+      "workload": 1.4500000000000002
+    },
+    "weighted_penalty_components": {
+      "background_mismatch": 10.200000000000001,
+      "difficulty": 17.400000000000002,
+      "workload": 1.4500000000000002
+    },
+    "enumerated_optimum_verified": true,
+    "fixed_input_options_hash": "218e9c37d9bdf650e88ab66bd3dc26db7bcfd7e911666f235a206f1839b04849"
+  }
+]

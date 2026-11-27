@@ -1,0 +1,6 @@
+{
+  "quantization": "NF4",
+  "compute_dtype": "BF16",
+  "streaming_tensor_loader": true,
+  "CITYU_QUANTIZE_4BIT": "1"
+}

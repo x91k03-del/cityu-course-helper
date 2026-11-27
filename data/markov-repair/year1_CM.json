@@ -1,0 +1,11 @@
+{
+  "profile_id": "YEAR1_CM_ENTERING_MARKOV_SIMULATION",
+  "programme": "CM",
+  "year": 1,
+  "cohort": 2025,
+  "completed_courses": [],
+  "desired_stream": "Enriched Mathematics",
+  "cm_ef_cs_prerequisite_waiver": true,
+  "synthetic": true,
+  "note": "New entering Year-1 profile; all courses in the simulation receive a hypothetical B pass."
+}

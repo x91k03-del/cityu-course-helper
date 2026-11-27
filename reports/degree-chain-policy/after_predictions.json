@@ -1,0 +1,266 @@
+[
+  {
+    "id": "degree:72:4:True",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": false, \"meets_source_122\": false, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": false,
+      "meets_source_122": false,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:122:7:False",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": true, \"meets_source_122\": true, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": true,
+      "meets_source_122": true,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:114:1:True",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": false, \"meets_source_122\": false, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": false,
+      "meets_source_122": false,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:72:1:False",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": false, \"meets_source_122\": false, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": false,
+      "meets_source_122": false,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:121:8:False",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": true, \"meets_source_122\": false, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": true,
+      "meets_source_122": false,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:114:4:True",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": false, \"meets_source_122\": false, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": false,
+      "meets_source_122": false,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:122:7:True",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": true, \"meets_source_122\": true, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": true,
+      "meets_source_122": true,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:72:1:True",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": false, \"meets_source_122\": false, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": false,
+      "meets_source_122": false,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:72:8:False",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": false, \"meets_source_122\": false, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": false,
+      "meets_source_122": false,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:144:1:False",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": true, \"meets_source_122\": true, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": true,
+      "meets_source_122": true,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:121:1:False",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": true, \"meets_source_122\": false, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": true,
+      "meets_source_122": false,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:123:8:True",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": true, \"meets_source_122\": true, \"chain_accepted\": true}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": true,
+      "meets_source_122": true,
+      "chain_accepted": true
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:144:7:False",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": true, \"meets_source_122\": true, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": true,
+      "meets_source_122": true,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:122:4:True",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": true, \"meets_source_122\": true, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": true,
+      "meets_source_122": true,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:72:7:True",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": false, \"meets_source_122\": false, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": false,
+      "meets_source_122": false,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "degree:121:1:True",
+    "task": "degree_policy",
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": true, \"meets_source_122\": false, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": true,
+      "meets_source_122": false,
+      "chain_accepted": false
+    },
+    "passed": true
+  },
+  {
+    "id": "EF-diagnostic:202702",
+    "task": "EF_section",
+    "raw": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF3320\", \"timetable_available\": true, \"finance_background\": \"advanced\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF3320",
+      "timetable_available": true,
+      "finance_background": "introductory",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": false
+  },
+  {
+    "id": "EF-diagnostic:202609",
+    "task": "EF_section",
+    "raw": "{\"programme\": \"CM\", \"term\": \"202609\", \"course_code\": \"EF3320\", \"timetable_available\": false, \"finance_background\": \"advanced\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202609",
+      "course_code": "EF3320",
+      "timetable_available": false,
+      "finance_background": "introductory",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": false
+  },
+  {
+    "id": "load-diagnostic:CM",
+    "task": "flexible_timetable",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA2509:12041:12042\"], \"course_count\": 1}",
+    "expected": {
+      "status": "feasible",
+      "selected_option_ids": [
+        "MA2509:12041:12042"
+      ],
+      "course_count": 1
+    },
+    "passed": true
+  },
+  {
+    "id": "load-diagnostic:CS",
+    "task": "flexible_timetable",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"CS2115:10405:10406\", \"CS2310:10770:10537\", \"CS2613:13743\"], \"course_count\": 3}",
+    "expected": {
+      "status": "feasible",
+      "selected_option_ids": [
+        "CS2115:10405:10406",
+        "CS2310:10770:10537",
+        "CS2613:13743"
+      ],
+      "course_count": 3
+    },
+    "passed": true
+  }
+]

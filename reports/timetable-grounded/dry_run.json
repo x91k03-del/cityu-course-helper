@@ -1,0 +1,95 @@
+{
+  "status": "incomplete_missing_or_incompatible_saved_timetables",
+  "input_profile": {
+    "profile_id": "YEAR1_CM_ENTERING_MARKOV_SIMULATION",
+    "programme": "CM",
+    "year": 1,
+    "cohort": 2025,
+    "completed_courses": [],
+    "desired_stream": "Enriched Mathematics",
+    "cm_ef_cs_prerequisite_waiver": true,
+    "synthetic": true,
+    "note": "New entering Year-1 profile; all courses in the simulation receive a hypothetical B pass.",
+    "programme_code": "BSCSIU4"
+  },
+  "method": "Markov decision search over saved section bundles; no MILP",
+  "steps": [
+    {
+      "term": 1,
+      "year": 1,
+      "semester": "A",
+      "term_code": "202609",
+      "input_profile": {
+        "profile_id": "YEAR1_CM_ENTERING_MARKOV_SIMULATION",
+        "programme": "CM",
+        "year": 1,
+        "cohort": 2025,
+        "completed_courses": [],
+        "desired_stream": "Enriched Mathematics",
+        "cm_ef_cs_prerequisite_waiver": true,
+        "synthetic": true,
+        "note": "New entering Year-1 profile; all courses in the simulation receive a hypothetical B pass.",
+        "programme_code": "BSCSIU4",
+        "term": "202609"
+      },
+      "candidate_course_codes": [
+        "MA1300",
+        "MA2509"
+      ],
+      "result": {
+        "planner": "Markov decision subset search; no MILP",
+        "search_exact": true,
+        "states_by_course_count": [
+          1,
+          3,
+          2
+        ],
+        "course_min": 5,
+        "course_max": 6,
+        "rejected_options": {},
+        "eligible_course_count": 2,
+        "status": "infeasible",
+        "reason": "hard_constraints_infeasible",
+        "message": "No legal semester found. The minimum course load was not relaxed."
+      },
+      "selected_timetable_evidence": {}
+    }
+  ],
+  "transcript": [],
+  "blocked_at": {
+    "year": 1,
+    "semester": "A",
+    "term_code": "202609",
+    "reason": "hard_constraints_infeasible",
+    "candidate_course_codes": [
+      "MA1300",
+      "MA2509"
+    ],
+    "minimum_courses": 5
+  },
+  "mandatory_courses_without_any_compatible_saved_timetable": [
+    "CHEM1200",
+    "CS1302",
+    "CS2360",
+    "CS2468",
+    "CSCI1001",
+    "CSCI1002",
+    "GE1401",
+    "GE1501",
+    "GE1601",
+    "GE2401",
+    "MA4530",
+    "PHY1201"
+  ],
+  "audit": {
+    "earned_credits": 0,
+    "all_encoded_requirements_met": false,
+    "official_graduation_verified": false
+  },
+  "interpretation": "Insufficient source evidence is not proof that the actual university programme cannot be completed. No unsupported course was selected.",
+  "assumptions": [
+    "Exact saved terms only; no Semester A/B or future-year extrapolation.",
+    "Source section bundle pairing/teaching weeks retain the explicitly hypothetical assumptions from prior experiments.",
+    "No initial completed courses or transcript credits are invented."
+  ]
+}

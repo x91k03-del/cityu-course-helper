@@ -1,0 +1,244 @@
+1         CS2116: Computer Systems
+CS2116: COMPUTER SYSTEMS
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Computer Systems 
+Subject Code
+CS - Computer Science 
+Course Number
+2116 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+Part II Course Details
+Abstract
+2         CS2116: Computer Systems
+The goal of this course is for students to learn the logic design techniques in constructing the functional parts of a CPU and
+the fundamental components and principles of operation of computer systems.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Describe functions of the basic building blocks
+of a digital system.
+x
+2 Discuss the advantages and limitations of
+various architectures and the design concepts
+for analyzing computer systems.
+x
+3 Explore the basic operations of cache and main
+memory, I/O operations, bus, interrupt and
+peripheral devices as well as assessing the
+performance of diﬀerent designs.
+x
+4 Apply low-level programs for bitwise operation,
+function pointer, call-back function, and event
+interrupt using C or C++ language.
+x x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Students will engage
+in formal lectures on
+logic design techniques
+for constructing the
+functional parts of a
+CPU and fundamental
+components and
+principles of operation of
+computer systems.
+1, 2, 3, 4 3 hours/week
+2 Tutorial Students will be provided
+with some exercise
+questions to gain better
+understanding of the
+lecture materials. The
+instructor will explain the
+questions in detail.
+1, 2, 3, 4 8 hours/semester
+3         CS2116: Computer Systems
+3 Assignment Students will engage in
+assignments during the
+semester. Assignments
+will be focusing on
+practical questions.
+1, 2, 3 After class
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Written
+Assignment
+1, 2, 3 10 It includes
+short factual
+questions and case
+studies regarding
+computer
+architecture.
+Quality of
+assignment
+(correctness of
+answers and
+ability to apply
+knowledge) will
+be used to assess
+CILOs.
+Yes
+2 Programming
+Assignment
+4 5 There will be
+tutorials devoted
+to the Arduino
+board where the
+students will
+design programs
+for the Arduino
+board to fulﬁll
+some functionality.
+Yes
+3 Midterm 1, 2, 3, 4 15 The Midterm
+will include
+questions assessing
+the students’
+understanding of
+the architectural
+aspect of
+computers.
+No
+Continuous Assessment (%)
+30 
+Examination (%)
+70 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+4         CS2116: Computer Systems
+The ﬁnal exam will include questions assessing the students’ understanding of the architectural aspect of the computers.
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Written Assignment 
+Criterion
+ABILITY to SOLVE questions from diﬀerent basic topics 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Programming Assignment 
+Criterion
+ABILITY to design and apply code to make the Arduino board perform the desired functionality. 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Midterm 
+Criterion
+ABILITY to solve problems for diﬀerent topics under time pressure 
+5         CS2116: Computer Systems
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Examination 
+Criterion
+ABILITY to solve problems for diﬀerent topics under time pressure 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Part III Other Information
+Keyword Syllabus
+Number Systems. Logic Gates. Basic combinational circuits. Basic Computer Organization and Architecture. Cache, Main
+Memory and Flash Memory. Storage Device. Synchronous and Asynchronous Bus, Bus Arbitration. Parallel and Serial
+Interfaces, PCI Bus. Peripheral Devices. Low-level programming.
+Syllabus
+• Number systems 
+Number representation. Binary arithmetic. Negative numbers. Floating point numbers and calculations, IEEE ﬂoating
+point.
+• Digital logic fundamentals 
+Logic gates. Basic combinational circuits. Examples with applications.
+• Basic computer organization 
+Functional subsystems: CPU, memory, input/output systems.
+• CPU organization and operations 
+6         CS2116: Computer Systems
+Register model. Fetch and execute cycle. Instruction format. Control unit and microprogramming, case study on a
+typical microprocessor.
+• Low-level programming 
+Bitwise operator. Function pointer. Call-back function. Event interrupt.
+• Memory system 
+RAM, ROM. Cache memory. Flash memory.
+• Peripherals 
+Display technology. Interactive Display. Storage device.
+• I/O and bus system 
+Basic model of an I/O system. I/O interfaces including serial and parallel. PCI bus.
+Reading List
+Compulsory Readings
+ Title
+1 Hamacher, V.C., Vranesic, Z.G. and Zaky, S.G. (2011). Computer Organization and Embedded Systems. McGraw-Hill,
+6th edition.
+2 Mano, M.M., and Kime, C.R., (2007). Logic and Computer Design Fundamentals, Prentice-Hall, 4th edition.
+Additional Readings
+ Title
+1 Tanenbaum, A. (2005). Structured Computer Organization. Prentice-Hall, 5th edition.
+2 Stallings, W. (2009). Computer Organization and Architecture. Prentice-Hall, 8th edition.

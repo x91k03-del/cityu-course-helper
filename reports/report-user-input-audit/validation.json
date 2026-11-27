@@ -1,0 +1,15 @@
+{
+  "only_change": "Inserted User input and personalisation subsection after Hardware and GPU memory usage",
+  "new_subsection": "3.2",
+  "other_content_unchanged": true,
+  "compile": "success",
+  "change": [
+    [
+      "insert",
+      480,
+      480,
+      480,
+      487
+    ]
+  ]
+}

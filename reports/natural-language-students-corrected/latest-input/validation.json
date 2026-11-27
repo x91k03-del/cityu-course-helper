@@ -1,0 +1,16 @@
+{
+  "accepted": true,
+  "accepted_component": "student profile",
+  "fallback_used": false,
+  "adapter": "adapters/natural-language-students-corrected",
+  "raw_complete_answer_matches_policy": true,
+  "model_reward_proposal": {
+    "preparation_bonus": 0.1,
+    "strongest_sources": [
+      "GE2260"
+    ],
+    "missing_fields": []
+  },
+  "used_model_reward_proposal": false,
+  "contextual_reward_source": "external reviewed course-relation calculator"
+}

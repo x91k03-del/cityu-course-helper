@@ -1,0 +1,16 @@
+{
+  "sha256": {
+    "section_eligibility.py": "fdde8a4627677139c51eb86a634bde0ff210eb4efc937032856f68f5b0920e5f",
+    "degree_chain.py": "5293431febc1b45b46ab115da23e74de159608e47ddc376ab91b9a55db98edeb",
+    "terminal_markov.py": "9259ef28928e8e3c72232f9876d895b9a25fef9a661ffc587c48e9dc0a0f02bc",
+    "degree_chain_training.py": "277077c4fb6398eaafd7f05a3f7e32f3bf792d5f745f83bc4b2c3570381cc76f",
+    "programme_v6.py": "c309268bcdec73d257ed1499fe2163bf350a120526f2111d9d239f0e00cfee0f",
+    "markov_planner.py": "fff09e0a2b45b0db7b0b516c2f8f105d5db2eeba46c50e126b5ece382fb441b1",
+    "data/degree-chain-policy/train.jsonl": "eb28bd8cfd0986f996514a1dc5442a9f275ac332916a0f83282e8f2b7c128f58",
+    "data/degree-chain-policy/snapshot_cross/courses.json": "e4f69276bc9ecbcafcdfc342c5829a0300c55da68521fe4505b49ab04df571cf",
+    "adapters/degree-chain-policy/adapter_model.safetensors": "c8835286981162a6f9ffb67fa8e712e8c9beceb93f7e5f2237f0b4c90b33e0cf"
+  },
+  "prior_reports_preserved": true,
+  "whole_chain_accepted": false,
+  "source_credit_upper_bound": 70
+}

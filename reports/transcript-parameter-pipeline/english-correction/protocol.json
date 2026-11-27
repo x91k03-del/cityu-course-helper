@@ -1,0 +1,11 @@
+{
+  "parent": "adapters/transcript-parameters",
+  "new_adapter": "adapters/objective-parameters",
+  "train": 120,
+  "validation": 8,
+  "layout_replay_rows": 84,
+  "english_rows": 36,
+  "old_failure_taught": true,
+  "new_english_control_messages": 4,
+  "real_source_transcript_in_training": false
+}

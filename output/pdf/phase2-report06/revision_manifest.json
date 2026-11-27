@@ -1,0 +1,308 @@
+{
+  "previous_tex_sha256": "b3d58d4690984bc1535d418c3018999dc1e8d73a0d8274a2336f316280504bfd",
+  "previous_pdf_sha256": "7e13dd514b31b5a40a0886374245d91363cff28858e3bc631c0d68da36b85433",
+  "only_changed_model_comparison_subsection": true,
+  "input_year": 2,
+  "output_year": 3,
+  "output_semester": "A",
+  "proxy_source_term": "202609",
+  "unverified_target_term": "202709",
+  "tables": 2,
+  "rows": [
+    {
+      "label": "CM1",
+      "case_id": "CM_finance_analysis",
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3526"
+      ],
+      "planning_year": 3,
+      "planning_semester": "A",
+      "qwen": {
+        "case_id": "CM_finance_analysis",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3521:11880",
+          "MA3525:11213:11219",
+          "EF3320:10000"
+        ],
+        "future_path": "Complete MA4529 and choose two from EF4821, MA4537, or MA4542/MA4545 to satisfy stream requirements."
+      },
+      "gpt": {
+        "case_id": "CM_finance_analysis",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3521:11880",
+          "MA3525:11213:11219",
+          "MA4545:11882"
+        ],
+        "future_path": "With Analysis already passed, passing these selections would advance Financial Mathematics through MA3521; later consider MA4529 and two of MA4537, EF3320, EF4821, subject to prerequisites and unverified offerings."
+      }
+    },
+    {
+      "label": "CM2",
+      "case_id": "CM_finance_no_analysis",
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511"
+      ],
+      "planning_year": 3,
+      "planning_semester": "A",
+      "qwen": {
+        "case_id": "CM_finance_no_analysis",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3521:11880",
+          "MA4545:11882",
+          "MA3525:11213:11219"
+        ],
+        "future_path": "Complete MA3521 and MA3525 to satisfy stream requirements, then take EF3320 and EF4821."
+      },
+      "gpt": {
+        "case_id": "CM_finance_no_analysis",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3521:11880",
+          "MA3525:11213:11219",
+          "MA4545:11882"
+        ],
+        "future_path": "If these selections are passed, continue Financial Mathematics toward MA4529 and two listed options, subject to prerequisites and offerings; missing MA3526 must be passed before upper-level analysis-dependent routes."
+      }
+    },
+    {
+      "label": "CM3",
+      "case_id": "CM_enriched",
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3526"
+      ],
+      "planning_year": 3,
+      "planning_semester": "A",
+      "qwen": {
+        "case_id": "CM_enriched",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA4542:11513",
+          "MA4545:11882"
+        ],
+        "future_path": "Complete MA3523 and MA4546/MA4551 for enriched mathematics stream graduation."
+      },
+      "gpt": {
+        "case_id": "CM_enriched",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3525:11213:11219",
+          "MA4542:11513",
+          "MA4545:11882"
+        ],
+        "future_path": "The explicit Enriched Mathematics preference prioritizes MA4542 and MA4545; if these selections are passed, later consider MA3523 and one of MA4528, MA4546, MA4551, subject to prerequisites and unverified offerings."
+      }
+    },
+    {
+      "label": "CS1",
+      "case_id": "CS_AI",
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2340",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "planning_year": 3,
+      "planning_semester": "A",
+      "qwen": {
+        "case_id": "CS_AI",
+        "status": "feasible",
+        "selected_option_ids": [
+          "CS3383:14958:15303",
+          "CS3402:10816:15173",
+          "CS3356:11724:11726"
+        ],
+        "future_path": "Complete AI core in Semester B. Select CS4486/CS4487 for final stream fulfillment."
+      },
+      "gpt": {
+        "case_id": "CS_AI",
+        "status": "infeasible",
+        "selected_option_ids": [],
+        "future_path": "Passed CS3342 permits the supplied CS3383 candidate, but CS3402 conflicts with CS3483, preventing five courses; a revised feasible plan could target AI core CS4486 or CS4487, with future offerings unverified."
+      }
+    },
+    {
+      "label": "CS2",
+      "case_id": "CS_AI_no_CS3342",
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2340",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "planning_year": 3,
+      "planning_semester": "A",
+      "qwen": {
+        "case_id": "CS_AI_no_CS3342",
+        "status": "feasible",
+        "selected_option_ids": [
+          "CS3402:10816:15173",
+          "CS3483:10145:13161"
+        ],
+        "future_path": "Complete AI core in Semester A, then take CS4486/CS4487 and CS4386/CS4490."
+      },
+      "gpt": {
+        "case_id": "CS_AI_no_CS3342",
+        "status": "infeasible",
+        "selected_option_ids": [],
+        "future_path": "Only three distinct courses remain, below five required; missing CS3342 normally must be passed before CS3383, so the AI path needs prerequisite recovery and a revised plan, with future offerings unverified."
+      }
+    },
+    {
+      "label": "CS3",
+      "case_id": "CS_data_science",
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2340",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "planning_year": 3,
+      "planning_semester": "A",
+      "qwen": {
+        "case_id": "CS_data_science",
+        "status": "feasible",
+        "selected_option_ids": [
+          "CS2613:13743",
+          "CS3402:10816:15173",
+          "CS3483:10145:13161"
+        ],
+        "future_path": "Complete CS3481, CS4480, CS4487 for Data Science stream."
+      },
+      "gpt": {
+        "case_id": "CS_data_science",
+        "status": "infeasible",
+        "selected_option_ids": [],
+        "future_path": "Despite passed CS3342, CS3402 conflicts with CS3483, preventing five courses; the explicit Data Science preference directs a revised later plan toward CS3481, CS4480, and CS4487, subject to prerequisites and unverified offerings."
+      }
+    }
+  ],
+  "matched_effects": [
+    [
+      "Analysis pass: CM1 versus CM2",
+      "CM1 proposes MA4529 and later options, but incorrectly includes MA4542/MA4545 among finance options. CM2 shifts toward EF3320/EF4821 and does not identify recovery of missing MA3526.",
+      "The immediate Year 3 A selection is unchanged. Both paths continue toward MA4529 and finance options, but CM2 explicitly requires MA3526 before analysis-dependent upper-level study."
+    ],
+    [
+      "Explicit CM stream: CM1 versus CM3",
+      "With the same completed courses and finance GE, the Enriched preference changes the selection toward MA4542/MA4545 and the later proposal to MA3523 plus MA4546/MA4551.",
+      "The Enriched preference replaces MA3521 with MA4542 in Year 3 A. The later route changes from finance courses to MA3523 plus one of MA4528, MA4546 or MA4551, conditional on passing the selected courses."
+    ],
+    [
+      "CS3342 pass: CS1 versus CS2",
+      "CS1 proposes CS3383 and later AI core study. When CS3342 is missing, CS2 still proposes later CS4486/CS4487 and CS4386/CS4490 without a CS3342-recovery step.",
+      "CS1 can access CS3383, but the current proxy pool has a clash that prevents a five-course plan. CS2 has only three distinct candidates and needs CS3342 recovery before CS3383, plus a revised candidate pool."
+    ],
+    [
+      "Explicit CS stream: CS1 versus CS3",
+      "With the same completed courses and AI GE, the Data Science preference changes the later proposal from CS4486/CS4487 toward CS3481, CS4480 and CS4487.",
+      "The later goal changes from AI core CS4486/CS4487 to the Data Science chain CS3481, CS4480 and CS4487. Neither profile has a complete feasible plan in the supplied Semester A pool."
+    ]
+  ],
+  "pages": 10,
+  "two_comparison_tables_on_pages": [
+    6,
+    7
+  ],
+  "comparison_pages_visually_checked": true,
+  "previous_report_unchanged": true,
+  "unrelated_text_unchanged": true,
+  "all_input_profiles_year2": true,
+  "output_year3_semesterA": true,
+  "pdf_sha256": "e452c0a246a15843e2e2dae239b2712c8623bae1c788a9d41009b54afafbc393",
+  "evidence": {
+    "protocol.json": "446d88af0df9901dd52868749e329634b4acc12feeb969f592e1886c80490ab7",
+    "cases.json": "139aa3aef09c023885c7f433a4360fbdab951151879727ff9063d1340445021b",
+    "qwen_raw.json": "2c32918a182fc1208ce9ba0820438e6994c76c4b69da585be4e36964ff71eb56",
+    "gpt_raw.json": "7b18e2b7c2359827be1775a73a71c553c0fd912195891e8e72c79eea4449db32"
+  }
+}

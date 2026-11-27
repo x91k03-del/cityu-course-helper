@@ -1,0 +1,15 @@
+{
+  "heldout": {
+    "passed": 0,
+    "total": 16
+  },
+  "familiar_failures": {
+    "passed": 0,
+    "total": 0
+  },
+  "legacy_relations": {
+    "passed": 0,
+    "total": 0
+  },
+  "scope": "Bounded pre-training baseline on the first saved heldout cases only. Compare these same IDs after training; full post-training evaluation uses all 48 heldout cases."
+}

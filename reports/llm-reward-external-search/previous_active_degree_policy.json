@@ -1,0 +1,8 @@
+{
+  "degree_mode": "curriculum_with_pending",
+  "curriculum_beam_width": 24,
+  "minimum_degree_credits": 122,
+  "pending_timetable_authorised_by_user": true,
+  "include_GE_snapshot": true,
+  "scope": "CM profiles with explicit completed Year-1 history; curriculum completeness does not imply registration timetable completeness"
+}

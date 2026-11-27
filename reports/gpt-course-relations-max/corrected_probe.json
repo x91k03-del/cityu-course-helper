@@ -1,0 +1,14 @@
+{
+  "raw": "{\"target\": \"CS4487\", \"preparation_bonus\": 0.25, \"strongest_sources\": [\"MA2503\", \"MA2510\", \"MA3515\"]}",
+  "expected": {
+    "target": "CS4487",
+    "preparation_bonus": 0.25,
+    "strongest_sources": [
+      "MA2503",
+      "MA2510",
+      "MA3515"
+    ]
+  },
+  "model_output_accepted": true,
+  "seen_in_correction_training": true
+}

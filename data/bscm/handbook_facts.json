@@ -1,0 +1,490 @@
+[
+  {
+    "key": "identity",
+    "question": "What degree and major does BSCM refer to?",
+    "expected": {
+      "answer": {
+        "major": "Computing Mathematics",
+        "award": "Bachelor of Science in Computing Mathematics",
+        "background": [
+          "mathematical_modelling",
+          "scientific_computing",
+          "technical_computer_software"
+        ]
+      },
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "scope",
+    "question": "Which student cohort does this handbook cover?",
+    "expected": {
+      "answer": {
+        "intake": "2026/27",
+        "routes": [
+          "Normative 4-year",
+          "Advanced Standing I"
+        ],
+        "applies_to_other_intakes_automatically": false
+      },
+      "pdf_pages": [
+        1
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "Normative 4-yearcredits",
+    "question": "What are the credit requirements for Normative 4-year in this handbook?",
+    "expected": {
+      "answer": {
+        "route": "Normative 4-year",
+        "minimum_award_credits": 121,
+        "maximum_credits": 144,
+        "GE_credits": 31,
+        "core_credits": 44,
+        "major_elective_credits": "18-20"
+      },
+      "pdf_pages": [
+        4
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "Advanced Standing Icredits",
+    "question": "What are the credit requirements for Advanced Standing I in this handbook?",
+    "expected": {
+      "answer": {
+        "route": "Advanced Standing I",
+        "minimum_award_credits": 92,
+        "maximum_credits": 114,
+        "GE_credits": 22,
+        "core_credits": 45,
+        "major_elective_credits": "18"
+      },
+      "pdf_pages": [
+        4
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "asi_conflict",
+    "question": "Is the ASI major-elective credit requirement consistent throughout the handbook?",
+    "expected": {
+      "answer": {
+        "summary_and_core_list": 18,
+        "later_elective_list": 21,
+        "resolution": "Unresolved inconsistency; confirm with Department of Mathematics or ARRO before planning."
+      },
+      "pdf_pages": [
+        4,
+        10,
+        11
+      ],
+      "needs_confirmation": true
+    }
+  },
+  {
+    "key": "route_unknown",
+    "question": "I am a BSCM student. What graduation credit total applies to me?",
+    "expected": {
+      "answer": {
+        "required_information": [
+          "intake_cohort",
+          "admission_route"
+        ],
+        "reason": "Normative and Advanced Standing I totals differ; do not assume a route."
+      },
+      "pdf_pages": [
+        1,
+        4
+      ],
+      "needs_confirmation": true
+    }
+  },
+  {
+    "key": "completed",
+    "question": "Does being a year-three BSCM student prove I passed Java and calculus?",
+    "expected": {
+      "answer": {
+        "assume_completed": false,
+        "required_information": [
+          "verified_completed_courses_or_transcript"
+        ],
+        "prerequisites_verified": false
+      },
+      "pdf_pages": [
+        7,
+        9
+      ],
+      "needs_confirmation": true
+    }
+  },
+  {
+    "key": "timetable",
+    "question": "Can the suggested study plan guarantee a clash-free schedule or an available seat?",
+    "expected": {
+      "answer": {
+        "feasibility_verified": false,
+        "seat_guaranteed": false,
+        "required_information": [
+          "current_AIMS_sections",
+          "verified_prerequisites"
+        ],
+        "reason": "A suggested plan is not a live timetable or seat record."
+      },
+      "pdf_pages": [
+        7,
+        9,
+        15
+      ],
+      "needs_confirmation": true
+    }
+  },
+  {
+    "key": "streams",
+    "question": "How many BSCM streams may a student declare and is a stream compulsory?",
+    "expected": {
+      "answer": {
+        "maximum_streams": 1,
+        "optional": true,
+        "stream_names": [
+          "Enriched Mathematics",
+          "Financial Mathematics"
+        ],
+        "credits_each": 12
+      },
+      "pdf_pages": [
+        12
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "linear_route",
+    "question": "Which linear algebra courses differ between Normative and ASI students in the 2026/27 intake?",
+    "expected": {
+      "answer": {
+        "MA1505": "waived for ASI/ASII",
+        "MA2505": "not applicable to 2026/27 ASI",
+        "MA2503": "last offering for 2026/27 ASI",
+        "MA3526": "last offering for 2026/27 ASI"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "computing",
+    "question": "Which core computing courses are listed for BSCM?",
+    "expected": {
+      "answer": {
+        "courses": [
+          "CS2360 Java Programming",
+          "CS2468 Data Structures and Data Management"
+        ],
+        "credits_each": 3,
+        "completed_courses_assumed": false
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "ai",
+    "question": "Are AI and machine learning listed as BSCM major electives?",
+    "expected": {
+      "answer": {
+        "CS4486": "Artificial Intelligence",
+        "CS4487": "Machine Learning",
+        "eligibility_automatically_verified": false
+      },
+      "pdf_pages": [
+        12
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA1505",
+    "question": "What does the handbook list for MA1505?",
+    "expected": {
+      "answer": {
+        "course_code": "MA1505",
+        "title": "Linear Algebra I",
+        "credits": 3,
+        "route_note": "Waived for ASI/ASII"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA2505",
+    "question": "What does the handbook list for MA2505?",
+    "expected": {
+      "answer": {
+        "course_code": "MA2505",
+        "title": "Linear Algebra II",
+        "credits": 3,
+        "route_note": "Not applicable to ASI 2026/27"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA2507",
+    "question": "What does the handbook list for MA2507?",
+    "expected": {
+      "answer": {
+        "course_code": "MA2507",
+        "title": "Computing Mathematics Laboratory",
+        "credits": 1,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA2508",
+    "question": "What does the handbook list for MA2508?",
+    "expected": {
+      "answer": {
+        "course_code": "MA2508",
+        "title": "Multi-variable Calculus",
+        "credits": 4,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA2509",
+    "question": "What does the handbook list for MA2509?",
+    "expected": {
+      "answer": {
+        "course_code": "MA2509",
+        "title": "Discrete Mathematics",
+        "credits": 3,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA2510",
+    "question": "What does the handbook list for MA2510?",
+    "expected": {
+      "answer": {
+        "course_code": "MA2510",
+        "title": "Probability and Statistics",
+        "credits": 3,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA3511",
+    "question": "What does the handbook list for MA3511?",
+    "expected": {
+      "answer": {
+        "course_code": "MA3511",
+        "title": "Ordinary Differential Equations",
+        "credits": 3,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA3512",
+    "question": "What does the handbook list for MA3512?",
+    "expected": {
+      "answer": {
+        "course_code": "MA3512",
+        "title": "Partial Differential Equations",
+        "credits": 3,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA3514",
+    "question": "What does the handbook list for MA3514?",
+    "expected": {
+      "answer": {
+        "course_code": "MA3514",
+        "title": "Numerical Methods for Differential Equations",
+        "credits": 3,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA3515",
+    "question": "What does the handbook list for MA3515?",
+    "expected": {
+      "answer": {
+        "course_code": "MA3515",
+        "title": "Introduction to Optimization",
+        "credits": 3,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA3517",
+    "question": "What does the handbook list for MA3517?",
+    "expected": {
+      "answer": {
+        "course_code": "MA3517",
+        "title": "Complex Analysis",
+        "credits": 3,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA3518",
+    "question": "What does the handbook list for MA3518?",
+    "expected": {
+      "answer": {
+        "course_code": "MA3518",
+        "title": "Applied Statistics",
+        "credits": 3,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA3525",
+    "question": "What does the handbook list for MA3525?",
+    "expected": {
+      "answer": {
+        "course_code": "MA3525",
+        "title": "Elementary Numerical Methods",
+        "credits": 3,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "CS2360",
+    "question": "What does the handbook list for CS2360?",
+    "expected": {
+      "answer": {
+        "course_code": "CS2360",
+        "title": "Java Programming",
+        "credits": 3,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "CS2468",
+    "question": "What does the handbook list for CS2468?",
+    "expected": {
+      "answer": {
+        "course_code": "CS2468",
+        "title": "Data Structures and Data Management",
+        "credits": 3,
+        "route_note": "Common core list; check admission route"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA2503",
+    "question": "What does the handbook list for MA2503?",
+    "expected": {
+      "answer": {
+        "course_code": "MA2503",
+        "title": "Linear Algebra",
+        "credits": 4,
+        "route_note": "Last offering for ASI 2026/27"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  },
+  {
+    "key": "MA3526",
+    "question": "What does the handbook list for MA3526?",
+    "expected": {
+      "answer": {
+        "course_code": "MA3526",
+        "title": "Analysis",
+        "credits": 3,
+        "route_note": "Last offering for ASI 2026/27"
+      },
+      "pdf_pages": [
+        10
+      ],
+      "needs_confirmation": false
+    }
+  }
+]

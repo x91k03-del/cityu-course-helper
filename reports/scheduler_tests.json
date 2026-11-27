@@ -1,0 +1,26 @@
+{
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "random_bruteforce_instances": 15,
+  "synthetic_demo_result": {
+    "status": "optimal",
+    "selected_options": [
+      "DEMO1001-01",
+      "DEMO1003-01"
+    ],
+    "course_codes": [
+      "DEMO1001",
+      "DEMO1003"
+    ],
+    "credits": 6,
+    "objective": 2.4000000000000004,
+    "rejected_options": {},
+    "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+    "weekly_balance_verified": false,
+    "limitations": [
+      "Only the supplied reviewed rules and meetings are enforced.",
+      "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+    ]
+  }
+}

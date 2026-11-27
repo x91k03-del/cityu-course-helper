@@ -1,0 +1,19 @@
+{
+  "profiles": 8,
+  "familiar_prior_profiles": 6,
+  "new_matched_variations": 2,
+  "comparison": "Deployed Qwen timetable checkpoint versus requested GPT-6.1 Sol, identical updated reward inputs.",
+  "blind_to_other_outputs_and_reference": true,
+  "independent_unseen_document_benchmark": false,
+  "term": "202609",
+  "actual_future_offerings_verified": false,
+  "instruction": "Return JSON only. Plan a Year-3 Semester-A workload for the supplied synthetic end-of-Year-2 transcript using ONLY the supplied exact Semester-A snapshot options. This is a controlled captured-term scenario, not evidence of actual future-year offerings. Select 5-6 distinct courses, at most 18 credits, one option per course, required courses and credit limits, no meeting overlap, at most one distributional GE. Individual eligibility has already been checked, including the user CM EF/CS prerequisite waiver; all remaining constraints still bind. Maximise sum(additive_net) plus stream_multiplier times the gain in stream potential, minus .25*max(0,total credits-15)^2. The updated GPT-teacher preparation bonus is ALREADY included in additive_net: do not add it twice. Stream potential is 2*fulfilled distinct slots +6 once complete; AI core/elective slots cannot reuse one course. If no legal five-course combination exists, return infeasible and empty IDs. Use only supplied IDs. Return exactly case_id,status(feasible/infeasible),selected_option_ids,future_path. Future_path is one sentence at most 35 words: explain the academic next step using only stream members or supplied missing-study notes, conditional on passing current selections and compatible future timetables. Do not invent future offerings, passes or stream credit.",
+  "active_preparation_graph": {
+    "path": "data/gpt-course-relations/reward_graph.json",
+    "teacher": "GPT assistant in the current Codex conversation; no separate GPT-6.1-sol API call claimed",
+    "aggregation": "strongest_direct_passed_edge",
+    "cap": 0.35
+  },
+  "Qwen_adapter": "adapters/timetable-grounded-correction",
+  "cases_sha256": "af960bb512ce03b641bfaa6defc8fdbd4cc806772e0aaa3d98c9cf8990b6288f"
+}

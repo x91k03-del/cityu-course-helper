@@ -1,0 +1,22 @@
+{
+  "parent_adapter": "adapters/natural-language-students",
+  "new_adapter": "adapters/natural-language-students-corrected",
+  "splits": {
+    "train": 728,
+    "validation": 32,
+    "test": 48
+  },
+  "balanced_additional_rows": 252,
+  "previous_test_promoted_to_training_development": 48,
+  "final_test_random_profiles": 24,
+  "final_test_messages": 48,
+  "final_test_profile_keys_disjoint": true,
+  "final_test_templates_shared_with_training": true,
+  "new_test_used_for_training": false,
+  "familiar_failures_used_for_training": 12,
+  "manual_wordings_unseen_but_some_profiles_familiar": true,
+  "natural_language_messages_have_no_system_prompt": true,
+  "teacher_graph_provided_at_inference": false,
+  "scope": "Synthetic extraction and configured reward policy; familiar courses/relations, new final test profiles. No real-student outcome claim.",
+  "parent_sha256": "4afa9cef61c66d9f059dd24f70f7cef83dc52cbcbc909ffbf077be16ceb60c6a"
+}

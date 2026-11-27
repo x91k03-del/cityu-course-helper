@@ -1,0 +1,176 @@
+1         CS1103B: Media Computing
+CS1103B: MEDIA COMPUTING
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Media Computing 
+Subject Code
+CS - Computer Science 
+Course Number
+1103B 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+CS1103 Introduction to Media Computing 
+Exclusive Courses
+SM1103A Introduction to Media Computing 
+Part II Course Details
+Abstract
+The goal of this course is for students to learn the fundamental concepts for programming media objects such as image,
+graphics and sound.  Students will learn basic programming concepts including variables, loops, conditions, arrays,
+2         CS1103B: Media Computing
+functions and recursion.  With these concepts, students will explore advanced topics like human-computer interaction,
+geometric transformation and fractal programming.  Students may also learn data structures and simple object-oriented
+techniques.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Describe and explain procedural concepts and
+mathematics essential for media programming.
+x x
+2 Apply programming concepts to handle image,
+graphics and sound.
+x x x
+3 Create computer animation through human-
+computer interaction, geometric transformation
+and fractal programming.
+x x x
+4 Solve problems independently by ﬁnding
+resources, breaking down problems into sub-
+problems, and debugging.
+x x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lectures/Workshops Students will engage in
+the lectures/workshops
+to gain knowledge
+about all CILOs, with
+extensive examples and
+discussions concerning
+the concepts, techniques,
+and applications of media
+computing, as well as
+online resources which
+students can continue for
+out-of-classroom reading
+and learning.
+1, 2, 3, 4
+3         CS1103B: Media Computing
+2 Workshop exercises Students will engage with
+hands-on experience on
+computer programming
+and exploring media
+computing technology.
+Students will actively
+contribute to class
+discussions, and complete
+programming exercises.
+2, 3, 4
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Quiz 1, 2, 3 20 - No
+2 Assignments 2, 3, 4 40 - No
+Continuous Assessment (%)
+60 
+Examination (%)
+40 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Quiz 
+Criterion
+ABILITY to UNDERSTAND and APPLY fundamental programming concepts to the context of media computing
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal level 
+4         CS1103B: Media Computing
+Assessment Task
+Assignment 
+Criterion
+ABILITY to APPLY learnt knowledge for creative media 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Note even reaching marginal level 
+Assessment Task
+Assignment 
+Criterion
+CAPACITY for knowledge and creativity in applying and implementing media computing technologies 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Note even reaching marginal level 
+Part III Other Information
+Keyword Syllabus
+• Programming fundamentals: variable, condition, loop, array, function
+• Interactivity: image, sound, graphics, text, mouse and keyboard events
+• Math: vector, matrix, trigonometry, probability
+5         CS1103B: Media Computing
+• Geometry transformations: rotation, translation, scaling, push and pop
+• Fractal: randomness, noise, recursion, random walk
+Reading List
+Compulsory Readings
+ Title
+1 Nil
+Additional Readings
+ Title
+1 Marijn Haverbeke (2014). Eloquent JavaScript: A Modern Introduction to Programming. No Starch Press, 2nd edition.
+2 Lauren McCarthy, Casey Reas, and Ben Fry. Getting Started with p5.js. Published October 2015, Maker Media. 246
+pages. Paperback.
+3 Dan Saﬀer (2010). Designing for Interaction: Creating Innovative Applications and Devices. New Riders, 2nd edition.

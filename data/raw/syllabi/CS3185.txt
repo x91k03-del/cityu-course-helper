@@ -1,0 +1,172 @@
+1         CS3185: Computer Architecture
+CS3185: COMPUTER ARCHITECTURE
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Computer Architecture 
+Subject Code
+CS - Computer Science 
+Course Number
+3185 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+CS2115 Computer Organization 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+Part II Course Details
+Abstract
+To study fundamentals on computer system architectures. On completion of the course, students should be able
+to:- understand the design and processor functional units, register set, instruction encoding, assembler programming
+2         CS3185: Computer Architecture
+with case study on a processor design;-  identify some critical issues to achieve performance in processor design and
+multiprocessing systems;-  understand the basic operations of cache memory and memory system, bus and I/O interface
+and operations, interrupt handling and design of I/O devices.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Describe the functional components in
+processor design, register sets, instruction
+codes and execution, addressing modes, basic
+assembly code and programming.
+x
+2 Identify factors in the processor design
+to achieve performance in single and
+multiprocessing systems.
+x
+3 Explain the operations of cache and main
+memory, I/O operations, bus controls, I/O
+interrupts and interfaces, I/O devices and
+characteristics.
+x
+4 Apply the knowledge on system components
+and explore technological improvements in
+processor, memory, bus and I/O operations on
+the design of a typical computer system.
+x
+5 Investigate on computer architecture for an
+application environment such as mobile or
+intelligent devices.
+x x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Introduce the basic
+concepts, design
+considerations and
+methodologies with case
+examples.
+1, 2, 3 3 hours/week
+2 Tutorial sessions For discussions, exercise
+questions and case
+examples on the lecture
+topics.
+1, 2, 3 8 hours/semester
+3         CS3185: Computer Architecture
+3 Coursework assignments Focus on practical
+questions as well as
+case examples for
+study. Students are
+required to solve and
+understand some
+assembly programming
+problems.
+1, 2, 3, 4, 5
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Coursework 1, 2, 3, 4, 5 30 - Yes
+Continuous Assessment (%)
+30 
+Examination (%)
+70 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Coursework 
+Criterion
+Ability to explain the introduced concepts 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Examination 
+4         CS3185: Computer Architecture
+Criterion
+Ability to learn the topics explained 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Part III Other Information
+Keyword Syllabus
+Computer Models. Central Processing Unit. Memory System. Cache memory organization. I/O Interfaces. CISC and RISC.
+Multiprocessors. Bus protocol.
+Syllabus:
+• Basic Computer Models and Hardware Components
+• Number Systems
+• Central Processing Unit
+• Processor Instructions and Addressing Modes
+• Assembly Language
+• Processor Design, CISC and RISC and Multiprocessors
+• Memory System and Cache Memory Organization
+• Input/Output Subsystems
+• Peripheral Devices
+Reading List
+Compulsory Readings
+ Title
+1 Hamacher V.C., Vranesic Z.G., Zaky S., (2011). Computer Organization and Embedded Systems. McGraw-Hill, 6th
+edition.
+2 Stallings W. (2009). Computer Organization and Architecture: Designing for Performance. Prentice Hall, 8th edition.
+Additional Readings
+ Title
+1 Tanenbum A. (2006). Structure Computer Organization. Pearson Prentice Hall, 5th edition.
+2 Mano M.M., (2000). Computer System Architecture. Prentice Hall (2000), 3rd edition.

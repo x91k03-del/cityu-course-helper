@@ -1,0 +1,41 @@
+{
+  "adapter": "adapters/cm-finance-background",
+  "source_adapter": "adapters/cm-cs-programme-v6",
+  "training_performed": true,
+  "training_method": "NF4 frozen base with BF16 compute and rank-8 QLoRA",
+  "selected_epoch": 1,
+  "sha256": "3dd2e45217ce71e764d5fd8a20dc3cf7b9489b650ac8b24a18a37f59de8f75ff",
+  "evaluation": {
+    "before": {
+      "new_heldout": {
+        "passed": 0,
+        "total": 20
+      },
+      "historical_regression": {
+        "passed": 5,
+        "total": 6
+      }
+    },
+    "after": {
+      "new_heldout": {
+        "passed": 18,
+        "total": 20
+      },
+      "historical_regression": {
+        "passed": 5,
+        "total": 6
+      }
+    }
+  },
+  "accepted_for_activation": true,
+  "default_profile_diagnostics": {
+    "passed": 6,
+    "total": 6,
+    "independent_holdout": false
+  },
+  "model_role": "CM finance-background and advisory EF_CS prerequisite-waiver policy with source-task replay",
+  "raw_outputs_require_validation": true,
+  "official_registration_or_graduation_verified": false,
+  "policy": "data/cm-finance-background/policy.json",
+  "waiver_authority": "User-provided planning assumption, not university approval evidence"
+}

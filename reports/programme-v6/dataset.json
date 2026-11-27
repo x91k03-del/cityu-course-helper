@@ -1,0 +1,10 @@
+{
+  "examples": {
+    "test": 30,
+    "validation": 24,
+    "train": 485
+  },
+  "evaluation_queries": 15,
+  "seed": 20261121,
+  "scope": "Source-conditioned extraction and synthetic stream-policy distillation. No human workload labels. Split IDs disjoint; documents shared across splits."
+}

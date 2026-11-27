@@ -1,0 +1,7485 @@
+[
+  {
+    "course_code": "GE1105",
+    "title": "Chinese Music Appreciation",
+    "credits": 3,
+    "crn": "15848",
+    "section": "15848CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 10,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1105",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "LT-14"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1105",
+    "title": "Chinese Music Appreciation",
+    "credits": 3,
+    "crn": "10967",
+    "section": "10967CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 120,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1105",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "LT-14"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1109",
+    "title": "Values and Justice in the Contemporary World",
+    "credits": 3,
+    "crn": "14936",
+    "section": "14936CB2",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 12,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1109",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1109",
+    "title": "Values and Justice in the Contemporary World",
+    "credits": 3,
+    "crn": "14912",
+    "section": "14912CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1109",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1109",
+    "title": "Values and Justice in the Contemporary World",
+    "credits": 3,
+    "crn": "14935",
+    "section": "14935CA2",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 12,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1109",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "LT-9"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1109",
+    "title": "Values and Justice in the Contemporary World",
+    "credits": 3,
+    "crn": "13638",
+    "section": "13638CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1109",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "LT-9"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1110",
+    "title": "Exploring Contemporary Art - 探索當代藝術",
+    "credits": 3,
+    "crn": "12202",
+    "section": "12202C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 60,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1110",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "G5-216"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1113",
+    "title": "Visual Storytelling and Cultural Thinking - 視像規則與文化思維",
+    "credits": 3,
+    "crn": "15333",
+    "section": "15333C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 80,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1113",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "15:00",
+        "end_time": "16:20",
+        "building": "CMC",
+        "room": "M4051"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1113",
+    "title": "Visual Storytelling and Cultural Thinking - 視像規則與文化思維",
+    "credits": 3,
+    "crn": "15334",
+    "section": "15334T01",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 29,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1113",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "16:30",
+        "end_time": "17:50",
+        "building": "CMC",
+        "room": "M4051"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1113",
+    "title": "Visual Storytelling and Cultural Thinking - 視像規則與文化思維",
+    "credits": 3,
+    "crn": "15335",
+    "section": "15335T02",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 27,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1113",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "13:00",
+        "end_time": "14:20",
+        "building": "CMC",
+        "room": "M4051"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1113",
+    "title": "Visual Storytelling and Cultural Thinking - 視像規則與文化思維",
+    "credits": 3,
+    "crn": "15336",
+    "section": "15336T03",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1113",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "14:30",
+        "end_time": "15:50",
+        "building": "CMC",
+        "room": "M4051"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1125",
+    "title": "Architecture and Space in Chinese Culture - 建築空間與中國文化",
+    "credits": 3,
+    "crn": "15849",
+    "section": "15849CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 10,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1125",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "LT-9"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1125",
+    "title": "Architecture and Space in Chinese Culture - 建築空間與中國文化",
+    "credits": 3,
+    "crn": "11305",
+    "section": "11305CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 116,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1125",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "LT-9"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1126",
+    "title": "Smart Consumers – Think Like Lawyers",
+    "credits": 3,
+    "crn": "12650",
+    "section": "12650S01",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 50,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1126",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "G5-216"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1128",
+    "title": "Music for Film",
+    "credits": 3,
+    "crn": "13209",
+    "section": "13209C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 60,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1128",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "CMC",
+        "room": "M3090"
+      },
+      {
+        "day": "Thu",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LAU",
+        "room": "7-209"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1137",
+    "title": "Movies and Psychology",
+    "credits": 3,
+    "crn": "11424",
+    "section": "11424C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 240,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1137",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "BOC",
+        "room": "LT401"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1138",
+    "title": "Exploring Hong Kong: History, Culture and Society",
+    "credits": 3,
+    "crn": "15850",
+    "section": "15850CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 10,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1138",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "LT-9"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1138",
+    "title": "Exploring Hong Kong: History, Culture and Society",
+    "credits": 3,
+    "crn": "12480",
+    "section": "12480CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 122,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1138",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "LT-9"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1202",
+    "title": "Managing Your Personal Finance",
+    "credits": 3,
+    "crn": "13475",
+    "section": "13475C03",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 100,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1202",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1202",
+    "title": "Managing Your Personal Finance",
+    "credits": 3,
+    "crn": "10501",
+    "section": "10501C02",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 100,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1202",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1202",
+    "title": "Managing Your Personal Finance",
+    "credits": 3,
+    "crn": "10500",
+    "section": "10500C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 100,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1202",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1205",
+    "title": "Green Economics - 綠色經濟學",
+    "credits": 3,
+    "crn": "10241",
+    "section": "10241S01",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 120,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1205",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1507"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1205",
+    "title": "Green Economics - 綠色經濟學",
+    "credits": 3,
+    "crn": "10598",
+    "section": "10598S02",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 120,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1205",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "LT-13"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1218",
+    "title": "Social Entrepreneurship and Innovation",
+    "credits": 3,
+    "crn": "15151",
+    "section": "15151CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 10,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1218",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "YEUNG",
+        "room": "LT-13"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1218",
+    "title": "Social Entrepreneurship and Innovation",
+    "credits": 3,
+    "crn": "15053",
+    "section": "15053CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1218",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "YEUNG",
+        "room": "LT-13"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1226",
+    "title": "Youth in a Changing Society",
+    "credits": 3,
+    "crn": "10623",
+    "section": "10623C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 120,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1226",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "LT-12"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1229",
+    "title": "Community Service Engagement",
+    "credits": 3,
+    "crn": "13485",
+    "section": "13485C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 60,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1229",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2513"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1301",
+    "title": "Climate Change and Extreme Weather - 氣候變化與極端天氣",
+    "credits": 3,
+    "crn": "12364",
+    "section": "12364C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 131,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1301",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "1507"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1305",
+    "title": "Foundation Physics",
+    "credits": 3,
+    "crn": "11355",
+    "section": "11355C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 200,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1305",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "13:50",
+        "building": "YEUNG",
+        "room": "LT-17"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1305",
+    "title": "Foundation Physics",
+    "credits": 3,
+    "crn": "11360",
+    "section": "11360T01",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 200,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1305",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "LT-17"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1320",
+    "title": "Engineering Your Health",
+    "credits": 3,
+    "crn": "12516",
+    "section": "12516C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 120,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1320",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "LT-16"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1341",
+    "title": "Life and Health",
+    "credits": 3,
+    "crn": "11014",
+    "section": "11014C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 200,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1341",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "Y4302"
+      },
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "B5-210"
+      },
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "LT-18"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1351",
+    "title": "Food Production and Security",
+    "credits": 3,
+    "crn": "11136",
+    "section": "11136CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1351",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "10:50",
+        "building": "YEUNG",
+        "room": "B4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1351",
+    "title": "Food Production and Security",
+    "credits": 3,
+    "crn": "11155",
+    "section": "11155C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 6,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1351",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "10:50",
+        "building": "YEUNG",
+        "room": "B4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1351",
+    "title": "Food Production and Security",
+    "credits": 3,
+    "crn": "11124",
+    "section": "11124TA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1351",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "B4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1351",
+    "title": "Food Production and Security",
+    "credits": 3,
+    "crn": "11156",
+    "section": "11156T01",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 6,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1351",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "B4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1352",
+    "title": "How Your Brain Works",
+    "credits": 3,
+    "crn": "11207",
+    "section": "11207C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 200,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1352",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "10:50",
+        "building": "YEUNG",
+        "room": "LT-5"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1352",
+    "title": "How Your Brain Works",
+    "credits": 3,
+    "crn": "11208",
+    "section": "11208T01",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 67,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1352",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "building": "LI",
+        "room": "4109"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1352",
+    "title": "How Your Brain Works",
+    "credits": 3,
+    "crn": "11209",
+    "section": "11209T02",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 67,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1352",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "building": "LI",
+        "room": "4109"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1352",
+    "title": "How Your Brain Works",
+    "credits": 3,
+    "crn": "11210",
+    "section": "11210T03",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 66,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1352",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "17:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "4109"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11456",
+    "section": "11456LB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Laboratory",
+    "capacity": 6,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "13:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "G7610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11446",
+    "section": "11446LA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Laboratory",
+    "capacity": 0,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "13:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "G7610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11442",
+    "section": "11442L01",
+    "term": "2026-27 Sem A",
+    "section_type": "Laboratory",
+    "capacity": 50,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "13:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "G7610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11443",
+    "section": "11443L02",
+    "term": "2026-27 Sem A",
+    "section_type": "Laboratory",
+    "capacity": 53,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "13:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "G7620"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11447",
+    "section": "11447LA2",
+    "term": "2026-27 Sem A",
+    "section_type": "Laboratory",
+    "capacity": 0,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "13:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "G7620"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11583",
+    "section": "11583LB2",
+    "term": "2026-27 Sem A",
+    "section_type": "Laboratory",
+    "capacity": 2,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "13:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "G7620"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11444",
+    "section": "11444L03",
+    "term": "2026-27 Sem A",
+    "section_type": "Laboratory",
+    "capacity": 44,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "16:50",
+        "building": "YEUNG",
+        "room": "G7610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11448",
+    "section": "11448LA3",
+    "term": "2026-27 Sem A",
+    "section_type": "Laboratory",
+    "capacity": 9,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "16:50",
+        "building": "YEUNG",
+        "room": "G7610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11584",
+    "section": "11584LB3",
+    "term": "2026-27 Sem A",
+    "section_type": "Laboratory",
+    "capacity": 6,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "16:50",
+        "building": "YEUNG",
+        "room": "G7610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11445",
+    "section": "11445CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 9,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "LT-17"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11455",
+    "section": "11455CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 14,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "LT-17"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1354",
+    "title": "Introduction to Electronic Design - 電子設計導論",
+    "credits": 3,
+    "crn": "11441",
+    "section": "11441C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 147,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1354",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "LT-17"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1355",
+    "title": "Introduction to Sustainable Energy and Environment - 可持續能源及環境工程",
+    "credits": 3,
+    "crn": "14171",
+    "section": "14171C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 100,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1355",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "1503"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1356",
+    "title": "Introduction to Data Science - 數據科學簡介",
+    "credits": 3,
+    "crn": "12086",
+    "section": "12086C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 140,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1356",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "3505"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1359",
+    "title": "Algebra",
+    "credits": 3,
+    "crn": "11993",
+    "section": "11993CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 120,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1359",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "LT-18"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1362",
+    "title": "Exploring Generative AI in Practice",
+    "credits": 3,
+    "crn": "14467",
+    "section": "14467C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 120,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1362",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "16:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "1507"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1362",
+    "title": "Exploring Generative AI in Practice",
+    "credits": 3,
+    "crn": "14468",
+    "section": "14468T01",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 120,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1362",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "18:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "1507"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10708",
+    "section": "10708T34",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11495",
+    "section": "11495T77",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2407"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13263",
+    "section": "13263T92",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2409"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15183",
+    "section": "15183TC4",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10696",
+    "section": "10696T20",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15205",
+    "section": "15205TC5",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2308"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10701",
+    "section": "10701T25",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2310"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10715",
+    "section": "10715T45",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10679",
+    "section": "10679T02",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2308"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13576",
+    "section": "13576TB5",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11507",
+    "section": "11507T80",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2310"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12397",
+    "section": "12397T51",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2409"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11491",
+    "section": "11491T69",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2407"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10728",
+    "section": "10728T61",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10687",
+    "section": "10687T10",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2407"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15206",
+    "section": "15206TC6",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2108"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12119",
+    "section": "12119T18",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "2409"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15602",
+    "section": "15602T58",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "1310"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12734",
+    "section": "12734T71",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10714",
+    "section": "10714T43",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10681",
+    "section": "10681T04",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "2306"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10712",
+    "section": "10712T41",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "2108"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11500",
+    "section": "11500T86",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "3500"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13571",
+    "section": "13571T99",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10710",
+    "section": "10710T37",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2407"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12396",
+    "section": "12396T46",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10724",
+    "section": "10724T57",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2308"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "14270",
+    "section": "14270TB7",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12399",
+    "section": "12399T72",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2409"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15182",
+    "section": "15182TC3",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2310"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10682",
+    "section": "10682T05",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11497",
+    "section": "11497T81",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2310"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10692",
+    "section": "10692T15",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2407"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10688",
+    "section": "10688T11",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2409"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10722",
+    "section": "10722T55",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13561",
+    "section": "13561T95",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12814",
+    "section": "12814T91",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2308"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13577",
+    "section": "13577TB6",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2407"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12124",
+    "section": "12124T49",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2413"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13570",
+    "section": "13570T98",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "1410"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12121",
+    "section": "12121T33",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10689",
+    "section": "10689T12",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11496",
+    "section": "11496T79",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "2306"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10719",
+    "section": "10719T52",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "1310"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11503",
+    "section": "11503T89",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10699",
+    "section": "10699T23",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "3500"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10713",
+    "section": "10713T42",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "2413"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10695",
+    "section": "10695T19",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10686",
+    "section": "10686T09",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12733",
+    "section": "12733T62",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2407"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "14548",
+    "section": "14548TB9",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2308"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13568",
+    "section": "13568T96",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2310"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10705",
+    "section": "10705T30",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2409"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10720",
+    "section": "10720T53",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12123",
+    "section": "12123T44",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15991",
+    "section": "15991TC9",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "1314"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10730",
+    "section": "10730T64",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10684",
+    "section": "10684T07",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2310"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15207",
+    "section": "15207TC7",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2407"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12127",
+    "section": "12127T84",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2308"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15180",
+    "section": "15180TC1",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2306"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13574",
+    "section": "13574TB3",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2409"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10694",
+    "section": "10694T17",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "1410"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11505",
+    "section": "11505T93",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10690",
+    "section": "10690T13",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2306"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10721",
+    "section": "10721T54",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "1402"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12122",
+    "section": "12122T35",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13573",
+    "section": "13573TB2",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "2413"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10717",
+    "section": "10717T48",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "2108"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12126",
+    "section": "12126T67",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10709",
+    "section": "10709T36",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "1402"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11502",
+    "section": "11502T88",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "1310"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10700",
+    "section": "10700T24",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "1314"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15601",
+    "section": "15601T28",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2306"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12398",
+    "section": "12398T70",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2413"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10685",
+    "section": "10685T08",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2108"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11504",
+    "section": "11504T90",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "14271",
+    "section": "14271TB8",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2407"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12732",
+    "section": "12732T40",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11494",
+    "section": "11494T76",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10706",
+    "section": "10706T31",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "2306"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11451",
+    "section": "11451T68",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12120",
+    "section": "12120T26",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "1402"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12731",
+    "section": "12731T39",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "1400"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10693",
+    "section": "10693T16",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2306"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10683",
+    "section": "10683T06",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2407"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10729",
+    "section": "10729T63",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "3500"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15992",
+    "section": "15992TD1",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1402"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13572",
+    "section": "13572TB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11506",
+    "section": "11506T78",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13575",
+    "section": "13575TB4",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10704",
+    "section": "10704T29",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2409"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10718",
+    "section": "10718T50",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2413"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15181",
+    "section": "15181TC2",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2108"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11493",
+    "section": "11493T75",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10716",
+    "section": "10716T47",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "1410"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10702",
+    "section": "10702T27",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12125",
+    "section": "12125T65",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2306"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11499",
+    "section": "11499T85",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "14941",
+    "section": "14941TC8",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "13:00",
+        "end_time": "15:50",
+        "building": "LI",
+        "room": "1310"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11070",
+    "section": "11070TA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 23,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "13:00",
+        "end_time": "15:50",
+        "building": "LI",
+        "room": "2407"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13197",
+    "section": "13197TA2",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 22,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "13:00",
+        "end_time": "15:50",
+        "building": "LI",
+        "room": "2409"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15600",
+    "section": "15600T14",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2405"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10697",
+    "section": "10697T21",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10707",
+    "section": "10707T32",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2306"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11498",
+    "section": "11498T83",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2413"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10726",
+    "section": "10726T59",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2415"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10680",
+    "section": "10680T03",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2108"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "15603",
+    "section": "15603T73",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "2409"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "11501",
+    "section": "11501T87",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "1312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10711",
+    "section": "10711T38",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "1402"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10731",
+    "section": "10731T66",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "2306"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10698",
+    "section": "10698T22",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "LI",
+        "room": "1314"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10357",
+    "section": "10357T01",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Sat",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1404"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13560",
+    "section": "13560T94",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Sat",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1410"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10723",
+    "section": "10723T56",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Sat",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1312"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13967",
+    "section": "13967T82",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Sat",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1400"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "13569",
+    "section": "13569T97",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Sat",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "3500"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "10727",
+    "section": "10727T60",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 26,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Sat",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1314"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1401",
+    "title": "University English",
+    "credits": 3,
+    "crn": "12735",
+    "section": "12735T74",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 25,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1401",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Sat",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1402"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "12619",
+    "section": "12619C14",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 75,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "Y4702"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "12513",
+    "section": "12513C10",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "P4703"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "10604",
+    "section": "10604C09",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "G4702"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "10250",
+    "section": "10250C03",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2301"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "15851",
+    "section": "15851CA2",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 4,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "12621",
+    "section": "12621CB2",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 88,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "10249",
+    "section": "10249C02",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2513"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "10256",
+    "section": "10256C08",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "P4701"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "12622",
+    "section": "12622C16",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "P4703"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "10248",
+    "section": "10248C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "1301"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "12618",
+    "section": "12618C13",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 75,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "P4701"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "12616",
+    "section": "12616C11",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "G4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "10255",
+    "section": "10255C07",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "G4702"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "11157",
+    "section": "11157CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 48,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "LT-11"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "10257",
+    "section": "10257CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 39,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "LT-11"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "10254",
+    "section": "10254C06",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "YEUNG",
+        "room": "G4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "12620",
+    "section": "12620C15",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 76,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "G4702"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "10252",
+    "section": "10252C04",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "P4703"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1501",
+    "title": "Chinese Civilisation-History and Philosophy - 中國文化—歷史與哲學",
+    "credits": 3,
+    "crn": "10253",
+    "section": "10253C05",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 74,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1501",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2513"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14217",
+    "section": "14217C17",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14210",
+    "section": "14210C10",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14222",
+    "section": "14222C22",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14215",
+    "section": "14215C15",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14213",
+    "section": "14213C13",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14227",
+    "section": "14227C27",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14207",
+    "section": "14207C07",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14211",
+    "section": "14211C11",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14228",
+    "section": "14228C28",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14214",
+    "section": "14214C14",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14209",
+    "section": "14209C09",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14204",
+    "section": "14204C04",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14224",
+    "section": "14224C24",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14231",
+    "section": "14231C30",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14202",
+    "section": "14202C02",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14226",
+    "section": "14226C26",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14225",
+    "section": "14225C25",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14216",
+    "section": "14216C16",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14229",
+    "section": "14229C29",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14212",
+    "section": "14212C12",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14223",
+    "section": "14223C23",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14206",
+    "section": "14206C06",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14208",
+    "section": "14208C08",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14201",
+    "section": "14201C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14220",
+    "section": "14220C20",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14203",
+    "section": "14203C03",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14219",
+    "section": "14219C19",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14221",
+    "section": "14221C21",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14218",
+    "section": "14218C18",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14205",
+    "section": "14205C05",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 500,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": null,
+        "start_time": null,
+        "end_time": null,
+        "building": null,
+        "room": null
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE1601",
+    "title": "Whole-Person Development",
+    "credits": 1,
+    "crn": "14232",
+    "section": "14232S01",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 100,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1601",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "13:50",
+        "building": "YEUNG",
+        "room": "LT-16"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2105",
+    "title": "Popular Culture",
+    "credits": 3,
+    "crn": "11956",
+    "section": "11956C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 80,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2105",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "Y4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2106",
+    "title": "Philosophy and Life: A Dialogue",
+    "credits": 3,
+    "crn": "15152",
+    "section": "15152CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2106",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "6603"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2106",
+    "title": "Philosophy and Life: A Dialogue",
+    "credits": 3,
+    "crn": "15153",
+    "section": "15153CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 10,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2106",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "6603"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2108",
+    "title": "Literature in our Lives - 生活中的英語文學",
+    "credits": 3,
+    "crn": "11974",
+    "section": "11974C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 80,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2108",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "G4702"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2109",
+    "title": "Love, Sex, and Relationships: Psychological Perspectives - 人際關係中的性與愛",
+    "credits": 3,
+    "crn": "10495",
+    "section": "10495C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 120,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2109",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "YEUNG",
+        "room": "LT-4"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2111",
+    "title": "Image of the City – Language, Culture and Society",
+    "credits": 3,
+    "crn": "13769",
+    "section": "13769CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 128,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2111",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "5012"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2111",
+    "title": "Image of the City – Language, Culture and Society",
+    "credits": 3,
+    "crn": "14967",
+    "section": "14967CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 4,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2111",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "building": "LI",
+        "room": "5012"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2120",
+    "title": "Asian Values and Managerial Practices - 亜洲價値觀與管理實務",
+    "credits": 3,
+    "crn": "13116",
+    "section": "13116CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2120",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2120",
+    "title": "Asian Values and Managerial Practices - 亜洲價値觀與管理實務",
+    "credits": 3,
+    "crn": "14913",
+    "section": "14913CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 14,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2120",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2129",
+    "title": "Psychology for Young Professionals",
+    "credits": 3,
+    "crn": "10599",
+    "section": "10599S01",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 80,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2129",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "Y4702"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2129",
+    "title": "Psychology for Young Professionals",
+    "credits": 3,
+    "crn": "10600",
+    "section": "10600S02",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 80,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2129",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1511"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2132",
+    "title": "Discovering the Dynamics of Contemporary Cities and Architecture in China - 發現當代中國都市及建築的活力",
+    "credits": 3,
+    "crn": "11016",
+    "section": "11016CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 112,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2132",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "1507"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2132",
+    "title": "Discovering the Dynamics of Contemporary Cities and Architecture in China - 發現當代中國都市及建築的活力",
+    "credits": 3,
+    "crn": "15852",
+    "section": "15852CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 10,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2132",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "1507"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2134",
+    "title": "Critical and Creative Thinking",
+    "credits": 3,
+    "crn": "11425",
+    "section": "11425CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 68,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2134",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "1610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2134",
+    "title": "Critical and Creative Thinking",
+    "credits": 3,
+    "crn": "15776",
+    "section": "15776CA3",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 5,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2134",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "1610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2134",
+    "title": "Critical and Creative Thinking",
+    "credits": 3,
+    "crn": "14300",
+    "section": "14300CA2",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 10,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2134",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "1610"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2134",
+    "title": "Critical and Creative Thinking",
+    "credits": 3,
+    "crn": "15777",
+    "section": "15777CB3",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 5,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2134",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2134",
+    "title": "Critical and Creative Thinking",
+    "credits": 3,
+    "crn": "14914",
+    "section": "14914CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2134",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2134",
+    "title": "Critical and Creative Thinking",
+    "credits": 3,
+    "crn": "14915",
+    "section": "14915CB2",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 10,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2134",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2135",
+    "title": "World Religions",
+    "credits": 3,
+    "crn": "13117",
+    "section": "13117CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2135",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2135",
+    "title": "World Religions",
+    "credits": 3,
+    "crn": "14917",
+    "section": "14917CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 14,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2135",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2136",
+    "title": "Sources of Chinese Tradition",
+    "credits": 3,
+    "crn": "12611",
+    "section": "12611CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 35,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2136",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2142",
+    "title": "Network Analysis for the Humanities and Social Sciences",
+    "credits": 3,
+    "crn": "15175",
+    "section": "15175CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 114,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2142",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "B7701"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2142",
+    "title": "Network Analysis for the Humanities and Social Sciences",
+    "credits": 3,
+    "crn": "15176",
+    "section": "15176CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 5,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2142",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "B7701"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2211",
+    "title": "Sexuality, Culture and Diversity",
+    "credits": 3,
+    "crn": "10496",
+    "section": "10496C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 150,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2211",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "5012"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2213",
+    "title": "Understanding Uncertainty and Statistical Reasoning - 認識不確定性與統計推論",
+    "credits": 3,
+    "crn": "10358",
+    "section": "10358C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 120,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2213",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "LT-3"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2223",
+    "title": "Interpersonal Skills and Positive Personal Development - 積極個人成長及人際技巧",
+    "credits": 3,
+    "crn": "12523",
+    "section": "12523S03",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 40,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2223",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "Y5-305"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2223",
+    "title": "Interpersonal Skills and Positive Personal Development - 積極個人成長及人際技巧",
+    "credits": 3,
+    "crn": "11635",
+    "section": "11635S02",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 40,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2223",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "Y5-303"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2223",
+    "title": "Interpersonal Skills and Positive Personal Development - 積極個人成長及人際技巧",
+    "credits": 3,
+    "crn": "10497",
+    "section": "10497S01",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 40,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2223",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "G5-315"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2226",
+    "title": "Ageing Society: Hong Kong and Beyond - 香港及其他老齡化社會: 挑戰及機會",
+    "credits": 3,
+    "crn": "12760",
+    "section": "12760C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 80,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2226",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "G4702"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2230",
+    "title": "Innovation and Entrepreneurship in Global Business",
+    "credits": 3,
+    "crn": "13423",
+    "section": "13423S01",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 80,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2230",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "Y4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2234",
+    "title": "Social Networks for Media, Business and Technological Applications",
+    "credits": 3,
+    "crn": "12308",
+    "section": "12308C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 115,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2234",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LAU",
+        "room": "LT-501"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2239",
+    "title": "Food: Culture, Science and Society",
+    "credits": 3,
+    "crn": "11987",
+    "section": "11987CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2239",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2239",
+    "title": "Food: Culture, Science and Society",
+    "credits": 3,
+    "crn": "14918",
+    "section": "14918CA2",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 14,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2239",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2244",
+    "title": "The Hidden City: Space, Power and Social Processes in Hong Kong",
+    "credits": 3,
+    "crn": "14919",
+    "section": "14919CB1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 10,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2244",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "LT-8"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2244",
+    "title": "The Hidden City: Space, Power and Social Processes in Hong Kong",
+    "credits": 3,
+    "crn": "12492",
+    "section": "12492CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2244",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "LT-8"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2256",
+    "title": "Applications of Game Theory to Business",
+    "credits": 3,
+    "crn": "11197",
+    "section": "11197C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 150,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2256",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "1507"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2258",
+    "title": "Introduction to Economics",
+    "credits": 3,
+    "crn": "14013",
+    "section": "14013C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 100,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2258",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2260",
+    "title": "Introduction to Finance",
+    "credits": 3,
+    "crn": "14014",
+    "section": "14014C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 100,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2260",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2262",
+    "title": "Business Statistics - 商業统計",
+    "credits": 3,
+    "crn": "11758",
+    "section": "11758C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 120,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2262",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "13:50",
+        "building": "YEUNG",
+        "room": "LT-13"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2262",
+    "title": "Business Statistics - 商業统計",
+    "credits": 3,
+    "crn": "11761",
+    "section": "11761T03",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 40,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2262",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "17:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "B5-207"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2262",
+    "title": "Business Statistics - 商業统計",
+    "credits": 3,
+    "crn": "11760",
+    "section": "11760T02",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 40,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2262",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "building": "YEUNG",
+        "room": "B5-309"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2262",
+    "title": "Business Statistics - 商業统計",
+    "credits": 3,
+    "crn": "11759",
+    "section": "11759T01",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 40,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2262",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "B5-209"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2263",
+    "title": "Information Management",
+    "credits": 3,
+    "crn": "12459",
+    "section": "12459S01",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 38,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2263",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "4307"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2263",
+    "title": "Information Management",
+    "credits": 3,
+    "crn": "15199",
+    "section": "15199SA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 42,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2263",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "LI",
+        "room": "4307"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2265",
+    "title": "Introduction to Marketing",
+    "credits": 3,
+    "crn": "15529",
+    "section": "15529S02",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 70,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2265",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "G4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2265",
+    "title": "Introduction to Marketing",
+    "credits": 3,
+    "crn": "15530",
+    "section": "15530SA2",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 10,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2265",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "YEUNG",
+        "room": "G4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2265",
+    "title": "Introduction to Marketing",
+    "credits": 3,
+    "crn": "15528",
+    "section": "15528SA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 10,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2265",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "G4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2265",
+    "title": "Introduction to Marketing",
+    "credits": 3,
+    "crn": "15527",
+    "section": "15527S01",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 70,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2265",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "building": "YEUNG",
+        "room": "G4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2266",
+    "title": "Health Communication",
+    "credits": 3,
+    "crn": "12610",
+    "section": "12610C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 115,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2266",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "3508"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2267",
+    "title": "Exploring Public Affairs in Globalised Cities",
+    "credits": 3,
+    "crn": "12740",
+    "section": "12740CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 30,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2267",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "5012"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2301",
+    "title": "Science and Technology: Fascinating Mechanical Engineering",
+    "credits": 3,
+    "crn": "11907",
+    "section": "11907C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 250,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2301",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "14:00",
+        "end_time": "16:50",
+        "building": "BOC",
+        "room": "R4057"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2304",
+    "title": "Foundations of Innovation and Entrepreneurship",
+    "credits": 3,
+    "crn": "12651",
+    "section": "12651C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 78,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2304",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "18:00",
+        "end_time": "20:50",
+        "building": "YEUNG",
+        "room": "P4703"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2309",
+    "title": "The World of NANO: The Next Big Thing is Really Small - 納米 : 一門交叉科學 (從極微小的發現對未來的重大影響)",
+    "credits": 3,
+    "crn": "13147",
+    "section": "13147C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 70,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2309",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "P4701"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2309",
+    "title": "The World of NANO: The Next Big Thing is Really Small - 納米 : 一門交叉科學 (從極微小的發現對未來的重大影響)",
+    "credits": 3,
+    "crn": "13148",
+    "section": "13148T01",
+    "term": "2026-27 Sem A",
+    "section_type": "Tutorial",
+    "capacity": 70,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2309",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "building": "YEUNG",
+        "room": "B4302"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE2327",
+    "title": "Green and Intelligent Buildings",
+    "credits": 3,
+    "crn": "13483",
+    "section": "13483C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 200,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2327",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "MMW",
+        "room": "3420"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE3204",
+    "title": "Business and Hong Kong Society",
+    "credits": 3,
+    "crn": "13968",
+    "section": "13968S01",
+    "term": "2026-27 Sem A",
+    "section_type": "Seminar",
+    "capacity": 80,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE3204",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "building": "LI",
+        "room": "1601"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE3207",
+    "title": "Comparing Capitalisms in East Asia and the West",
+    "credits": 3,
+    "crn": "13118",
+    "section": "13118CA1",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 65,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE3207",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE3207",
+    "title": "Comparing Capitalisms in East Asia and the West",
+    "credits": 3,
+    "crn": "14949",
+    "section": "14949CA2",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 14,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE3207",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "LI",
+        "room": "2614"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "GE4103",
+    "title": "Technologies in Art, Science and Everyday Life",
+    "credits": 3,
+    "crn": "13993",
+    "section": "13993C01",
+    "term": "2026-27 Sem A",
+    "section_type": "Lecture",
+    "capacity": 40,
+    "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE4103",
+    "snapshot_date": "2026-11-15",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "building": "YEUNG",
+        "room": "Y5-304"
+      }
+    ],
+    "calendar_dates": null,
+    "teaching_weeks": null,
+    "needs_confirmation": true,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  }
+]

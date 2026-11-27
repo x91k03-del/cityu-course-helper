@@ -1,0 +1,34 @@
+[
+  {
+    "state": {
+      "semester": 8,
+      "earned_credits": 121,
+      "other_graduation_requirements_met": true
+    },
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": true, \"meets_source_122\": false, \"chain_accepted\": false}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": true,
+      "meets_source_122": false,
+      "chain_accepted": false
+    },
+    "accepted": true
+  },
+  {
+    "state": {
+      "semester": 8,
+      "earned_credits": 122,
+      "other_graduation_requirements_met": true
+    },
+    "raw": "{\"semester_min_courses\": 0, \"graduation_min_credits\": 122, \"satisfies_user_121\": true, \"meets_source_122\": true, \"chain_accepted\": true}",
+    "expected": {
+      "semester_min_courses": 0,
+      "graduation_min_credits": 122,
+      "satisfies_user_121": true,
+      "meets_source_122": true,
+      "chain_accepted": true
+    },
+    "accepted": true
+  }
+]

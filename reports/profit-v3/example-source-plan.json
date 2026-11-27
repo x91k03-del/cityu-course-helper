@@ -1,0 +1,175 @@
+{
+  "plan": {
+    "profile_id": "NEW00007",
+    "status": "candidate",
+    "minimum_courses": 5,
+    "completed_courses": [
+      "GE1359",
+      "MA2503",
+      "MA2510",
+      "MA3511",
+      "MA3526"
+    ],
+    "selected_options": [
+      {
+        "course_code": "MA1300",
+        "class_section": "C01",
+        "tutorial_section": "T01",
+        "meetings": [
+          {
+            "section": "C01",
+            "day": "Fri",
+            "start_time": "12:00",
+            "end_time": "13:50"
+          },
+          {
+            "section": "C01",
+            "day": "Wed",
+            "start_time": "17:00",
+            "end_time": "18:50"
+          },
+          {
+            "section": "T01",
+            "day": "Mon",
+            "start_time": "18:00",
+            "end_time": "18:50"
+          }
+        ]
+      },
+      {
+        "course_code": "MA2509",
+        "class_section": "CA1",
+        "tutorial_section": "TA1",
+        "meetings": [
+          {
+            "section": "CA1",
+            "day": "Mon",
+            "start_time": "10:00",
+            "end_time": "10:50"
+          },
+          {
+            "section": "CA1",
+            "day": "Wed",
+            "start_time": "10:00",
+            "end_time": "11:50"
+          },
+          {
+            "section": "TA1",
+            "day": "Mon",
+            "start_time": "11:00",
+            "end_time": "11:50"
+          }
+        ]
+      },
+      {
+        "course_code": "MA3512",
+        "class_section": "CA1",
+        "tutorial_section": null,
+        "meetings": [
+          {
+            "section": "CA1",
+            "day": "Fri",
+            "start_time": "15:00",
+            "end_time": "17:50"
+          }
+        ]
+      },
+      {
+        "course_code": "MA3518",
+        "class_section": "CA1",
+        "tutorial_section": null,
+        "meetings": [
+          {
+            "section": "CA1",
+            "day": "Tue",
+            "start_time": "16:00",
+            "end_time": "18:50"
+          }
+        ]
+      },
+      {
+        "course_code": "MA3525",
+        "class_section": "CA1",
+        "tutorial_section": "TA1",
+        "meetings": [
+          {
+            "section": "CA1",
+            "day": "Thu",
+            "start_time": "13:00",
+            "end_time": "14:50"
+          },
+          {
+            "section": "CA1",
+            "day": "Tue",
+            "start_time": "14:00",
+            "end_time": "14:50"
+          },
+          {
+            "section": "TA1",
+            "day": "Tue",
+            "start_time": "15:00",
+            "end_time": "15:50"
+          }
+        ]
+      }
+    ],
+    "needs_confirmation": true,
+    "feasibility_verified": false
+  },
+  "course_count": 5,
+  "credits": 15,
+  "profit_breakdown": {
+    "course_profit": 15.0,
+    "maths_priority_bonus": 24.0,
+    "gross_profit": 39.0,
+    "student_cost_penalty": 5.0,
+    "overload_penalty": 0.0,
+    "total_profit_penalty": 5.0,
+    "net_profit": 34.0,
+    "schedule_loss": -34.0,
+    "course_count": 5
+  },
+  "objective_settings": {
+    "objective_mode": "profit",
+    "base_course_profit": 3.0,
+    "overload_reference_courses": 5,
+    "overload_penalty_weight": 3.0
+  },
+  "blocked_courses": {
+    "MA1502": [
+      "restriction:cohort"
+    ],
+    "MA1508": [
+      "no_explicit_cm_section_in_saved_source"
+    ],
+    "MA2001": [
+      "no_explicit_cm_section_in_saved_source"
+    ],
+    "MA2158": [
+      "no_explicit_cm_section_in_saved_source"
+    ],
+    "MA2172": [
+      "no_explicit_cm_section_in_saved_source"
+    ],
+    "MA2185": [
+      "no_explicit_cm_section_in_saved_source"
+    ],
+    "MA2503": [
+      "already_completed",
+      "combined_requirement_not_satisfied"
+    ],
+    "MA2508": [
+      "combined_requirement_not_satisfied",
+      "exclusive_course_completed"
+    ],
+    "MA2510": [
+      "no_explicit_cm_section_in_saved_source"
+    ],
+    "MA4542": [
+      "combined_requirement_not_satisfied"
+    ]
+  },
+  "data_mode": "experimental_MA_snapshot_with_unverified_component_linkage_and_teaching_weeks",
+  "profit_units": "academic utility; per-course cost 1 is synthetic, not measured workload",
+  "selection_method": "exhaustive_source_option_enumeration_maximizing_net_profit"
+}

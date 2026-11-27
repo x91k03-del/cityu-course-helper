@@ -1,0 +1,10 @@
+{
+  "adapter": "adapters/gpt-course-relations-max",
+  "cases": 8,
+  "passed": 7,
+  "seconds": 40.71,
+  "neural_weights_updated": false,
+  "evaluation_scope": "Additional fictional transcript probes of familiar configured course relations; not unseen-course or educational-outcome evaluation.",
+  "LLM_task": "Preparation bonus and strongest prior passed sources only; external software handles scheduling.",
+  "input_sha256": "333e59ba6320722ae22deda452a91ed7a71f7ab4a2290d6ab067f85c09b6991b"
+}

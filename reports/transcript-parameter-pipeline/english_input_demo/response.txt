@@ -1,0 +1,3 @@
+Objective parameters and extracted student facts saved.
+A supported full-degree planning context is needed before a maximum-reward path can be certified.
+Use F, N or M to run the complete fictional transcript-to-optimiser demonstrations.

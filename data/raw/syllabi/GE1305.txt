@@ -1,0 +1,261 @@
+1         GE1305: Foundation Physics
+GE1305: FOUNDATION PHYSICS
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Foundation Physics 
+Subject Code
+GE - Gateway Education 
+Course Number
+1305 
+Academic Unit
+Physics (PHY) 
+College/School
+College of Science (SI) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+GE Area (Primary)
+Area 3 - Science and Technology 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+AP1200/PHY1200 Foundation Physics 
+2         GE1305: Foundation Physics
+Part II Course Details
+Abstract
+This course explores the fundamental principles of physics, focusing on the discipline's role in understanding the principles
+of physics and the laws of nature. Adopting a concept-focus approach introduces students to crucial physics concepts that
+enhance their understanding of the world and develop their well-informed opinions and choices in their professional
+careers and everyday lives. Students are also expected to learn in the course thinking skills of a physicist, which are
+evidence-based, critical and based on the framework of physical principles. The course will be run in a combination of
+lectures and tutorials with examples drawn from our everyday experience and important technologies. The students is
+assessed through an examination with conceptual questions (may require some simple calculations). The students can
+practice the use of concepts and principles to analyse physics phenomena or problems in tutorials. These tutorial questions
+are good training of the analytical skills used by physicists.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Cite and understand the basic concepts and
+principles of physics.
+x
+2 Identify the relevant physics concepts and
+principles which play an important role
+in physical phenomena and relevant daily
+experience.
+x x
+3 Apply physics concepts and principles to
+analyse physical phenomena and relevant daily
+experience.
+x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lectures Describe and explain the
+examples, concepts and
+principles of physics
+1, 2 26 hours in total
+2 Video viewing Students will watch video
+programmes on physics
+experiments or physics
+documentaries which
+prompt them to search
+scientiﬁc interpretations
+and explanation of the
+phenomena or issues.
+1, 2 varies, during the lectures
+or tutorials
+3         GE1305: Foundation Physics
+3 Tutorials Students discuss with
+tutors on physics topics/
+phenomena. The
+discussion trains the
+application of physics
+concepts and principles
+to analysis phenomena.
+3 There is a total of ﬁve
+tutorials.
+Additional Information for LTAs
+During the lectures and tutorials, the following topics may be used to raise the interest of the students and lead the student
+to the relevant physics concepts and principles. These examples can also train the students to apply the concepts and
+principles to analyse the phenomena and operation principles. This list of topics is not exhaustive and other topics will be
+included if necessary: 
+1. Relation between your mobile phone and your microwave oven and production of food.  
+2. Where does the energy we use come from? 
+3. Why do you need to hold the hand rails in MTR? 
+4. Friction actually helps us to move. Without friction can we walk? 
+5. What does happen in boiling water? 
+6. Why do we use dry ice instead of ice to keep your ice cream cold? 
+7. Relation between LCD TV and your ice tea. 
+8. Why do grand pianos have the beautiful shape? What are the common components in a musical instrument? 
+9. Why do we need nuclear power plant? 
+10. How does radiotherapy cure cancer? 
+11. Quantum physics we use everyday. 
+12. Strange quantum world: a particle is not 100% a particle?  
+13. How can we create weightlessness on earth? 
+14. How is the laser show eﬀect created? Its relation to internet communication. 
+15. How do LED light bulbs work and how do they save energy?
+16. Why the universe is dark despite it has so many stars?
+17. Why all the electrons are identical?
+18. What is a black hole?
+19. Why we need to build a huge collider to get the Higgs boson?
+20. Other questions.
+Possible video for viewing during class: 
+1. “Slow Motion Musical Instruments | Mister C (Slow Mo #14)” Youtube 
+2. “Energy for the future: the grand vision” (TJ163.2 .E547 2001  DVD) 
+3. “Renewable Energy” (TJ808 .R4723 2008  DVD) 
+4. “Law of Conservation of Energy (Roller Coaster Demo)” Youtube 
+5. “Electromagnetic Waves” Youtube 
+6. “Laser : the extraordinary light for material processing” (TA1677 .L3747 2000  DVD) 
+7. “Light Fantastic” (QC363 .L54 2007  DVD) 
+8. “Classic sound waves ﬁlms” (QC225 .C537 2006  DVD) 
+9. “Hiroshima” (D767.25.H6 H568 2006  DVD) 
+10. Other videos “Particle Fever” Youtube
+11. “Black Holes: the edge of all we know” Youtube
+12. “A trip to inﬁnity” Netﬂix
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Assignments 1, 2, 3 30 - Yes
+4         GE1305: Foundation Physics
+Continuous Assessment (%)
+30 
+Examination (%)
+70 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+1. Assignments 
+Criterion
+Demonstrate understanding of physics concepts and principles through their application to solve some conceptual
+problems. 
+Excellent (A+, A, A-)
+Demonstrate a high level of understanding of physics concepts and principles through their application to solve some
+conceptual problems. 
+Good (B+, B, B-)
+Demonstrate a signiﬁcant level of understanding of physics concepts and principles through their application to solve some
+conceptual problems. 
+Fair (C+, C, C-)
+Demonstrate a moderate level of understanding of physics concepts and principles through their application to solve some
+conceptual problems. 
+Marginal (D)
+Demonstrate a basic level of understanding of physics concepts and principles through their application to solve some
+conceptual problems. 
+Failure (F)
+Not able to demonstrate a basic level of understanding of physics concepts and principles through their application to solve
+some conceptual problems. 
+Assessment Task
+2. Examination 
+Criterion
+Demonstrate ability to understand the physics concepts and principles and apply the concepts and principles to analyze
+physical phenomena and solve some conceptual problems. 
+Excellent (A+, A, A-)
+Demonstrate a high level of ability to understand the physics concepts and principles and apply the concepts and principles
+to analyze physical phenomena and solve some conceptual problems. 
+5         GE1305: Foundation Physics
+Good (B+, B, B-)
+Demonstrate a signiﬁcant level of ability to understand the physics concepts and principles and apply the concepts and
+principles to analyze physical phenomena and solve some conceptual problems. 
+Fair (C+, C, C-)
+Demonstrate a moderate level of ability to understand the physics concepts and principles and apply the concepts and
+principles to analyze physical phenomena and solve some conceptual problems. 
+Marginal (D)
+Demonstrate a basic level of ability to understand the physics concepts and principles and apply the concepts and principles
+to analyze physical phenomena and solve some conceptual problems. 
+Failure (F)
+Not able to demonstrate a basic level of ability to understand the physics concepts and principles and apply the concepts
+and principles to analyze physical phenomena and solve some conceptual problems. 
+Part III Other Information
+Keyword Syllabus
+Newton’s Law of motion: 
+Velocity, Acceleration, Force,
+Energy and Power: 
+Work done, Forms of Energy, Conservation of Energy, Electric Car, Diet or Exercise, Renewable energy
+Atoms and Heat: 
+Building blocks of matter, Diﬀerent Phases of Matter, Temperature and Thermal eﬀects, Heat Engines and Refrigerators,
+Air Pressure
+Gravity, Force and Space: 
+Gravitational force Launching rockets and Satellite, Solar system
+Nuclei and Radioactivity: 
+Radioactivity, Seeing radiation, Radiation and death, Radiation to cure cancer, Environmental radioactivity, Fission, Fusion.
+Chain Reactions, Nuclear Reactors and Atomic Bombs: 
+Various types of chain reactions, e.g. computer viruses, lightning and avalanches; Making a nuclear bomb, Nuclear
+Reactors and Daya Bay Nuclear Power Plant, Controlled fusion for power.
+Electricity and Magnetism: 
+Charge and current, Finger sparks and lightning, magnets and compass, permanent magnets and electromagnets, magnetic
+recording, electric motors and generators, transformers, magnetic levitation, AC vs. DC.
+Waves: 
+Sound waves, wave in  a stretched string, water waves and tsunamis, earthquakes, music, superposition of waves,
+introduction to electromagnetic waves and quantum waves
+Light: 
+Light and colour, EM wave ﬁber optics, photography and images, mirages, rainbows, mirrors and lenses, polarized light and
+3-D movies, LCD displays.
+Invisible light: 
+Light beyond the visible spectrum, Infrared and ultraviolet, night vision, remote sensing, weather satellites, sunburn and
+sunblock, the ozone layer and ozone depleting chemicals, other invisible ‘light’ including x-rays, gamma rays, radio
+waves and microwaves.
+Quantum Physics: 
+'Particles are waves!’, Minimum unit of energy, Laser and DVD, Photoelectric eﬀect and digital camera, Semiconductor
+and computer chips, Electron microscope, ‘Do you know your exact position?’ ‒ Uncertainty Principle.
+Particle Physics:
+6         GE1305: Foundation Physics
+Fields, Interactions, Scale, Symmetry, Gauge, Phases, Matter, Standard Model
+Reading List
+Compulsory Readings
+ Title
+1 Nil
+Additional Readings
+ Title
+1 “Physics and Technology for Future Presidents ‒ An Introduction to the Essential Physics Every World Leader Needs
+to Know”, Richard A. Muller, Princeton University Press, 2010.
+Annex (for GE courses only)
+A. Please specify the Gateway Education Programme Intended Learning Outcomes (PILOs) that the course is aligned to
+and relate them to the CILOs stated in Part II, Section 2 of this form:
+Please indicate which CILO(s) is/are related to this PILO, if any (can be more than one CILOs in each PILO)
+PILO 1: Demonstrate the capacity for self-directed learning
+2, 3 
+PILO 2: Explain the basic methodologies and techniques of inquiry of the arts and humanities, social sciences,
+business, and science and technology
+1 
+PILO 3: Demonstrate critical thinking skills
+2, 3 
+PILO 4: Interpret information and numerical data
+2, 3 
+PILO 9: Value ethical and socially responsible actions
+2 
+PILO 10: Demonstrate the attitude and/or ability to accomplish discovery and/or innovation
+2, 3 
+B. Please select an assessment task for collecting evidence of student achievement for quality assurance purposes.
+Please retain at least one sample of student achievement across a period of three years.
+Selected Assessment Task
+Examination and marks distribution. 

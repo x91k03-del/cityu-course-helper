@@ -1,0 +1,14 @@
+{
+  "software_checks": 76,
+  "passed": true,
+  "controlled_enumerated_optima": 12,
+  "saved_timetable_runs": 12,
+  "GE_ablation_pairs": 2,
+  "model_raw_passes": 0,
+  "model_queries": 2,
+  "model_policy_fallbacks": 2,
+  "model_weights_changed": false,
+  "pdf_pages": 5,
+  "all_PDF_pages_visually_reviewed": true,
+  "controlled_inputs_identical_across_lambda_settings": true
+}

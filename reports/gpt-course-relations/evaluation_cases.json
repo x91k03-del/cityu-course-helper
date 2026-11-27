@@ -1,0 +1,362 @@
+[
+  {
+    "id": "relation:MA3512:2",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"MA2508\", \"grade\": \"F\"}], \"target\": \"MA3512\", \"direct_teacher_edges\": [{\"source\": \"MA2508\", \"target\": \"MA3512\", \"benefit\": 0.25, \"confidence\": \"moderate_content_overlap\", \"reason\": \"Partial differentiation and multivariate modelling provide preparation for PDE formulation; the PDE syllabus still introduces new methods.\"}, {\"source\": \"MA3511\", \"target\": \"MA3512\", \"benefit\": 0.3, \"reason\": \"Differential-equation solution methods support learning PDE models; extra spatial variables introduce new theory.\", \"topic\": \"differential_equations\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"MA3512\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:GE2134:5",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"GE2134\", \"grade\": \"B\"}], \"target\": \"GE2134\", \"direct_teacher_edges\": [{\"source\": \"MA2509\", \"target\": \"GE2134\", \"benefit\": 0.15, \"confidence\": \"low_to_moderate_cross_domain_hypothesis_historical_source\", \"reason\": \"Practice with formal logic may help evaluate arguments. Ethical reasoning, cognitive biases, creativity, group work and writing remain distinct demands.\"}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"GE2134\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:MA3518:6",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"GE1305\", \"grade\": \"B\"}], \"target\": \"MA3518\", \"direct_teacher_edges\": [{\"source\": \"MA2510\", \"target\": \"MA3518\", \"benefit\": 0.3, \"reason\": \"Probability, estimation and testing foundations support applied statistical analysis.\", \"topic\": \"statistics\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/202425/course/MA3518.htm\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"MA3518\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:CS2360:7",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"CS1302A\", \"grade\": \"IP\"}], \"target\": \"CS2360\", \"direct_teacher_edges\": [{\"source\": \"CS1302\", \"target\": \"CS2360\", \"benefit\": 0.2, \"reason\": \"Python programming concepts transfer to learning Java control flow and program structure; language details differ.\", \"topic\": \"programming\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\", \"data/courses.jsonl: saved course aims for CS1302/CS1302A/CS2360/CS2468/CS3334\"], \"formal_prerequisite\": false}, {\"source\": \"CS1302A\", \"target\": \"CS2360\", \"benefit\": 0.2, \"reason\": \"Prior Python programming provides transferable procedural concepts for Java.\", \"topic\": \"programming\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\", \"data/courses.jsonl: saved course aims for CS1302/CS1302A/CS2360/CS2468/CS3334\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"CS2360\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:MA4546:6",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"GE1305\", \"grade\": \"B\"}], \"target\": \"MA4546\", \"direct_teacher_edges\": [{\"source\": \"MA2510\", \"target\": \"MA4546\", \"benefit\": 0.25, \"reason\": \"Distributions and conditional expectations support random-process reasoning.\", \"topic\": \"probability\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"MA4546\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:MA3515:6",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"GE1305\", \"grade\": \"B\"}], \"target\": \"MA3515\", \"direct_teacher_edges\": [{\"source\": \"MA2508\", \"target\": \"MA3515\", \"benefit\": 0.2, \"confidence\": \"moderate_deduction\", \"reason\": \"Multivariate differentiation may help interpret smooth nonlinear optimization. It does not cover the full linear/integer programming or computational workload.\"}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"MA3515\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:CS2360:1",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"CS1302\", \"grade\": \"B\"}], \"target\": \"CS2360\", \"direct_teacher_edges\": [{\"source\": \"CS1302\", \"target\": \"CS2360\", \"benefit\": 0.2, \"reason\": \"Python programming concepts transfer to learning Java control flow and program structure; language details differ.\", \"topic\": \"programming\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\", \"data/courses.jsonl: saved course aims for CS1302/CS1302A/CS2360/CS2468/CS3334\"], \"formal_prerequisite\": false}, {\"source\": \"CS1302A\", \"target\": \"CS2360\", \"benefit\": 0.2, \"reason\": \"Prior Python programming provides transferable procedural concepts for Java.\", \"topic\": \"programming\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\", \"data/courses.jsonl: saved course aims for CS1302/CS1302A/CS2360/CS2468/CS3334\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"CS2360\", \"preparation_bonus\": 0.2, \"strongest_sources\": [\"CS1302\"]}"
+      }
+    ]
+  },
+  {
+    "id": "relation:EF3320:10",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"MA2503\", \"grade\": \"F\"}], \"target\": \"EF3320\", \"direct_teacher_edges\": [{\"source\": \"MA2503\", \"target\": \"EF3320\", \"benefit\": 0.2, \"reason\": \"Covariance matrices and quadratic forms offer mathematical preparation for portfolio risk.\", \"topic\": \"portfolio_mathematics\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}, {\"source\": \"MA3515\", \"target\": \"EF3320\", \"benefit\": 0.25, \"reason\": \"Constrained optimisation helps interpret portfolio weights and risk-return tradeoffs.\", \"topic\": \"portfolio_optimisation\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}, {\"source\": \"GE1202\", \"target\": \"EF3320\", \"benefit\": 0.1, \"reason\": \"Introductory financial planning provides investment vocabulary, not advanced valuation skills.\", \"topic\": \"finance_vocabulary\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}, {\"source\": \"GE2260\", \"target\": \"EF3320\", \"benefit\": 0.1, \"reason\": \"Introductory finance study provides limited risk-return vocabulary, not quantitative competence.\", \"topic\": \"finance_vocabulary\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"EF3320\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:CS3334:3",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"MA2509\", \"grade\": \"IP\"}], \"target\": \"CS3334\", \"direct_teacher_edges\": [{\"source\": \"MA2509\", \"target\": \"CS3334\", \"benefit\": 0.2, \"reason\": \"Counting, relations and graph reasoning support analysis of discrete data structures.\", \"topic\": \"discrete_structures\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\", \"data/courses.jsonl: saved course aims for CS1302/CS1302A/CS2360/CS2468/CS3334\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"CS3334\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:CS2468:4",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"CS2360\", \"grade\": \"W\"}], \"target\": \"CS2468\", \"direct_teacher_edges\": [{\"source\": \"CS2360\", \"target\": \"CS2468\", \"benefit\": 0.25, \"reason\": \"Java implementation practice helps implement and test data structures.\", \"topic\": \"data_structures\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\", \"data/courses.jsonl: saved course aims for CS1302/CS1302A/CS2360/CS2468/CS3334\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"CS2468\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:EF3320:6",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"GE2260\", \"grade\": \"F\"}], \"target\": \"EF3320\", \"direct_teacher_edges\": [{\"source\": \"MA2503\", \"target\": \"EF3320\", \"benefit\": 0.2, \"reason\": \"Covariance matrices and quadratic forms offer mathematical preparation for portfolio risk.\", \"topic\": \"portfolio_mathematics\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}, {\"source\": \"MA3515\", \"target\": \"EF3320\", \"benefit\": 0.25, \"reason\": \"Constrained optimisation helps interpret portfolio weights and risk-return tradeoffs.\", \"topic\": \"portfolio_optimisation\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}, {\"source\": \"GE1202\", \"target\": \"EF3320\", \"benefit\": 0.1, \"reason\": \"Introductory financial planning provides investment vocabulary, not advanced valuation skills.\", \"topic\": \"finance_vocabulary\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}, {\"source\": \"GE2260\", \"target\": \"EF3320\", \"benefit\": 0.1, \"reason\": \"Introductory finance study provides limited risk-return vocabulary, not quantitative competence.\", \"topic\": \"finance_vocabulary\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"EF3320\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:GE2134:6",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"GE1305\", \"grade\": \"B\"}], \"target\": \"GE2134\", \"direct_teacher_edges\": [{\"source\": \"MA2509\", \"target\": \"GE2134\", \"benefit\": 0.15, \"confidence\": \"low_to_moderate_cross_domain_hypothesis_historical_source\", \"reason\": \"Practice with formal logic may help evaluate arguments. Ethical reasoning, cognitive biases, creativity, group work and writing remain distinct demands.\"}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"GE2134\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:MA3514:3",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"MA3525\", \"grade\": \"IP\"}], \"target\": \"MA3514\", \"direct_teacher_edges\": [{\"source\": \"MA3525\", \"target\": \"MA3514\", \"benefit\": 0.25, \"reason\": \"Approximation and numerical error concepts support computational differential equations.\", \"topic\": \"numerical_methods\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"MA3514\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:MA3518:5",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"MA3518\", \"grade\": \"B\"}], \"target\": \"MA3518\", \"direct_teacher_edges\": [{\"source\": \"MA2510\", \"target\": \"MA3518\", \"benefit\": 0.3, \"reason\": \"Probability, estimation and testing foundations support applied statistical analysis.\", \"topic\": \"statistics\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/202425/course/MA3518.htm\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"MA3518\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:EF3320:7",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"GE2260\", \"grade\": \"IP\"}], \"target\": \"EF3320\", \"direct_teacher_edges\": [{\"source\": \"MA2503\", \"target\": \"EF3320\", \"benefit\": 0.2, \"reason\": \"Covariance matrices and quadratic forms offer mathematical preparation for portfolio risk.\", \"topic\": \"portfolio_mathematics\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}, {\"source\": \"MA3515\", \"target\": \"EF3320\", \"benefit\": 0.25, \"reason\": \"Constrained optimisation helps interpret portfolio weights and risk-return tradeoffs.\", \"topic\": \"portfolio_optimisation\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}, {\"source\": \"GE1202\", \"target\": \"EF3320\", \"benefit\": 0.1, \"reason\": \"Introductory financial planning provides investment vocabulary, not advanced valuation skills.\", \"topic\": \"finance_vocabulary\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}, {\"source\": \"GE2260\", \"target\": \"EF3320\", \"benefit\": 0.1, \"reason\": \"Introductory finance study provides limited risk-return vocabulary, not quantitative competence.\", \"topic\": \"finance_vocabulary\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"EF3320\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:MA3518:1",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"MA2510\", \"grade\": \"B\"}], \"target\": \"MA3518\", \"direct_teacher_edges\": [{\"source\": \"MA2510\", \"target\": \"MA3518\", \"benefit\": 0.3, \"reason\": \"Probability, estimation and testing foundations support applied statistical analysis.\", \"topic\": \"statistics\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/202425/course/MA3518.htm\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"MA3518\", \"preparation_bonus\": 0.3, \"strongest_sources\": [\"MA2510\"]}"
+      }
+    ]
+  },
+  {
+    "id": "relation:MA3515:5",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"MA3515\", \"grade\": \"B\"}], \"target\": \"MA3515\", \"direct_teacher_edges\": [{\"source\": \"MA2508\", \"target\": \"MA3515\", \"benefit\": 0.2, \"confidence\": \"moderate_deduction\", \"reason\": \"Multivariate differentiation may help interpret smooth nonlinear optimization. It does not cover the full linear/integer programming or computational workload.\"}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"MA3515\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:CS2360:10",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"CS2360\", \"grade\": \"B\"}], \"target\": \"CS2360\", \"direct_teacher_edges\": [{\"source\": \"CS1302\", \"target\": \"CS2360\", \"benefit\": 0.2, \"reason\": \"Python programming concepts transfer to learning Java control flow and program structure; language details differ.\", \"topic\": \"programming\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\", \"data/courses.jsonl: saved course aims for CS1302/CS1302A/CS2360/CS2468/CS3334\"], \"formal_prerequisite\": false}, {\"source\": \"CS1302A\", \"target\": \"CS2360\", \"benefit\": 0.2, \"reason\": \"Prior Python programming provides transferable procedural concepts for Java.\", \"topic\": \"programming\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\", \"data/courses.jsonl: saved course aims for CS1302/CS1302A/CS2360/CS2468/CS3334\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"CS2360\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:MA3512:4",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"MA2508\", \"grade\": \"W\"}], \"target\": \"MA3512\", \"direct_teacher_edges\": [{\"source\": \"MA2508\", \"target\": \"MA3512\", \"benefit\": 0.25, \"confidence\": \"moderate_content_overlap\", \"reason\": \"Partial differentiation and multivariate modelling provide preparation for PDE formulation; the PDE syllabus still introduces new methods.\"}, {\"source\": \"MA3511\", \"target\": \"MA3512\", \"benefit\": 0.3, \"reason\": \"Differential-equation solution methods support learning PDE models; extra spatial variables introduce new theory.\", \"topic\": \"differential_equations\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"Saved curriculum title plus GPT disciplinary deduction\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"MA3512\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  },
+  {
+    "id": "relation:MA3518:3",
+    "task": "GPT_preparation_reward",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return JSON only. Use the supplied GPT-teacher direct preparation relationships as advisory utility, not statistical correlations or prerequisites. Only passed courses count. F, IP and W do not count. Use the maximum applicable direct edge, capped at 0.35, not the sum. No recursive, same-semester or self-course bonus. A completed target receives zero new-course benefit. Return target, preparation_bonus, strongest_sources (all tied strongest direct passed sources, sorted). Timetable, programme, prerequisite and stream rules are enforced separately and are never overridden by preparation."
+      },
+      {
+        "role": "user",
+        "content": "{\"transcript\": [{\"course_code\": \"MA2510\", \"grade\": \"IP\"}], \"target\": \"MA3518\", \"direct_teacher_edges\": [{\"source\": \"MA2510\", \"target\": \"MA3518\", \"benefit\": 0.3, \"reason\": \"Probability, estimation and testing foundations support applied statistical analysis.\", \"topic\": \"statistics\", \"confidence\": \"GPT_content_deduction_not_empirically_calibrated\", \"evidence\": [\"https://www.cityu.edu.hk/catalogue/ug/202425/course/MA3518.htm\"], \"formal_prerequisite\": false}]}"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"target\": \"MA3518\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}"
+      }
+    ]
+  }
+]

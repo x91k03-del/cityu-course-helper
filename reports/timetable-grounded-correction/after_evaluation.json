@@ -1,0 +1,14 @@
+{
+  "heldout_policy": {
+    "passed": 20,
+    "total": 20
+  },
+  "familiar_schedule_diagnostics": {
+    "passed": 10,
+    "total": 10
+  },
+  "historical_regression": {
+    "passed": 4,
+    "total": 6
+  }
+}

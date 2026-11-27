@@ -1,0 +1,1196 @@
+[
+  {
+    "case_id": "CM_B_finance",
+    "policy_fallback_used": true,
+    "output": {
+      "status": "feasible",
+      "selected_option_ids": [
+        "MA2507:10101:10115",
+        "MA2510:11812:11814",
+        "MA3511:10075",
+        "MA3517:11296",
+        "MA3526:11816",
+        "MA3530:12169"
+      ]
+    },
+    "grade": {
+      "valid": true,
+      "infeasible_correct": false,
+      "utility": 22.783,
+      "regret": 0.0,
+      "optimal": true,
+      "courses": [
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3517",
+        "MA3526",
+        "MA3530"
+      ],
+      "credits": 14,
+      "timetable": [
+        {
+          "course": "MA2507",
+          "option_id": "MA2507:10101:10115",
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 960,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "MA2510",
+          "option_id": "MA2510:11812:11814",
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 960,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 4,
+              "start_minute": 960,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 5,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "MA3511",
+          "option_id": "MA3511:10075",
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "MA3517",
+          "option_id": "MA3517:11296",
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "MA3526",
+          "option_id": "MA3526:11816",
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "MA3530",
+          "option_id": "MA3530:12169",
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 1080,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "CM_B_no_finance",
+    "policy_fallback_used": true,
+    "output": {
+      "status": "feasible",
+      "selected_option_ids": [
+        "MA2507:10101:10115",
+        "MA3511:10075",
+        "MA3515:10141",
+        "MA3517:11296",
+        "MA3523:14280",
+        "MA3530:12169"
+      ]
+    },
+    "grade": {
+      "valid": true,
+      "infeasible_correct": false,
+      "utility": 21.832,
+      "regret": 0.0,
+      "optimal": true,
+      "courses": [
+        "MA2507",
+        "MA3511",
+        "MA3515",
+        "MA3517",
+        "MA3523",
+        "MA3530"
+      ],
+      "credits": 14,
+      "timetable": [
+        {
+          "course": "MA2507",
+          "option_id": "MA2507:10101:10115",
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 960,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "MA3511",
+          "option_id": "MA3511:10075",
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "MA3515",
+          "option_id": "MA3515:10141",
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "MA3517",
+          "option_id": "MA3517:11296",
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "MA3523",
+          "option_id": "MA3523:14280",
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 720,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "MA3530",
+          "option_id": "MA3530:12169",
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 1080,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "CS_B_AI",
+    "policy_fallback_used": true,
+    "output": {
+      "status": "feasible",
+      "selected_option_ids": [
+        "CS2613:13675",
+        "CS3103:10021:10992",
+        "CS3342:10482:10485",
+        "CS3391:13076:13416",
+        "CS3402:10025:10026",
+        "CS3481:10568:10899"
+      ]
+    },
+    "grade": {
+      "valid": true,
+      "infeasible_correct": false,
+      "utility": 40.172,
+      "regret": 0.0,
+      "optimal": true,
+      "courses": [
+        "CS2613",
+        "CS3103",
+        "CS3342",
+        "CS3391",
+        "CS3402",
+        "CS3481"
+      ],
+      "credits": 16,
+      "timetable": [
+        {
+          "course": "CS2613",
+          "option_id": "CS2613:13675",
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 1020,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "CS3103",
+          "option_id": "CS3103:10021:10992",
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 840,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 960,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "CS3342",
+          "option_id": "CS3342:10482:10485",
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 600,
+              "end_minute": 770,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 4,
+              "start_minute": 960,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "CS3391",
+          "option_id": "CS3391:13076:13416",
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 1110,
+              "end_minute": 1280,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 1290,
+              "end_minute": 1340,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "CS3402",
+          "option_id": "CS3402:10025:10026",
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 660,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "CS3481",
+          "option_id": "CS3481:10568:10899",
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 1110,
+              "end_minute": 1280,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 1290,
+              "end_minute": 1340,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "CS_B_difficulty",
+    "policy_fallback_used": true,
+    "output": {
+      "status": "feasible",
+      "selected_option_ids": [
+        "CS2613:13675",
+        "CS3103:10021:10992",
+        "CS3342:10482:10485",
+        "CS3402:10025:10026",
+        "CS3481:10568:10899"
+      ]
+    },
+    "grade": {
+      "valid": true,
+      "infeasible_correct": false,
+      "utility": -16.380000000000003,
+      "regret": 0.0,
+      "optimal": true,
+      "courses": [
+        "CS2613",
+        "CS3103",
+        "CS3342",
+        "CS3402",
+        "CS3481"
+      ],
+      "credits": 13,
+      "timetable": [
+        {
+          "course": "CS2613",
+          "option_id": "CS2613:13675",
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 1020,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "CS3103",
+          "option_id": "CS3103:10021:10992",
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 840,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 960,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "CS3342",
+          "option_id": "CS3342:10482:10485",
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 600,
+              "end_minute": 770,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 4,
+              "start_minute": 960,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "CS3402",
+          "option_id": "CS3402:10025:10026",
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 660,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        },
+        {
+          "course": "CS3481",
+          "option_id": "CS3481:10568:10899",
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 1110,
+              "end_minute": 1280,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 1290,
+              "end_minute": 1340,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "CM_A_missing_options",
+    "policy_fallback_used": true,
+    "output": {
+      "status": "infeasible",
+      "selected_option_ids": []
+    },
+    "grade": {
+      "valid": true,
+      "infeasible_correct": true,
+      "reason": "infeasibility_claim"
+    }
+  },
+  {
+    "case_id": "CS_A_missing_options",
+    "policy_fallback_used": true,
+    "output": {
+      "status": "infeasible",
+      "selected_option_ids": []
+    },
+    "grade": {
+      "valid": true,
+      "infeasible_correct": true,
+      "reason": "infeasibility_claim"
+    }
+  }
+]

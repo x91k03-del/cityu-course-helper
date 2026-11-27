@@ -1,0 +1,113 @@
+[
+  {
+    "id": "missing_conjunct",
+    "question": "Is MA1503 alone sufficient for the MA2508 preparation expression?",
+    "command": ".\\ma_timetable.cmd check --course MA2508 --completed MA1503",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "method": "deterministic_local_source_and_rule_check"
+  },
+  {
+    "id": "both_conjuncts",
+    "question": "Does the MA1503 + MA1508 branch satisfy MA2508?",
+    "command": ".\\ma_timetable.cmd check --course MA2508 --completed MA1503,MA1508",
+    "expected": true,
+    "actual": true,
+    "passed": true,
+    "method": "deterministic_local_source_and_rule_check"
+  },
+  {
+    "id": "single_or_branch",
+    "question": "Does MA1201 satisfy a MA2508 preparation branch?",
+    "command": ".\\ma_timetable.cmd check --course MA2508 --completed MA1201",
+    "expected": true,
+    "actual": true,
+    "passed": true,
+    "method": "deterministic_local_source_and_rule_check"
+  },
+  {
+    "id": "outer_conjunct",
+    "question": "Is MA3526 alone sufficient for MA4542?",
+    "command": ".\\ma_timetable.cmd check --course MA4542 --completed MA3526",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "method": "deterministic_local_source_and_rule_check"
+  },
+  {
+    "id": "nested_or",
+    "question": "Do MA2508 and MA3524 satisfy the MA4542 preparation expression?",
+    "command": ".\\ma_timetable.cmd check --course MA4542 --completed MA2508,MA3524",
+    "expected": true,
+    "actual": true,
+    "passed": true,
+    "method": "deterministic_local_source_and_rule_check"
+  },
+  {
+    "id": "exclusive",
+    "question": "Does completed MA1502 conflict with MA2508?",
+    "command": ".\\ma_timetable.cmd check --course MA2508 --completed MA1201,MA1502",
+    "expected": [
+      "MA1502"
+    ],
+    "actual": [
+      "MA1502"
+    ],
+    "passed": true,
+    "method": "deterministic_local_source_and_rule_check"
+  },
+  {
+    "id": "cohort",
+    "question": "Does cohort 2025 pass the MA1502 CB1 cohort condition?",
+    "command": ".\\ma_timetable.cmd check --course MA1502 --section CB1 --no-completed-courses --programme BSCSIU4 --cohort 2025",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "method": "deterministic_local_source_and_rule_check"
+  },
+  {
+    "id": "unknown_completion",
+    "question": "Does being a CM student establish MA2508 prerequisite completion?",
+    "command": ".\\ma_timetable.cmd check --course MA2508",
+    "expected": null,
+    "actual": null,
+    "passed": true,
+    "method": "deterministic_local_source_and_rule_check"
+  },
+  {
+    "id": "nil_without_history",
+    "question": "Is a Nil preparation expression satisfied even when course history is unknown?",
+    "command": ".\\ma_timetable.cmd check --course MA1502",
+    "expected": true,
+    "actual": true,
+    "passed": true,
+    "method": "deterministic_local_source_and_rule_check"
+  },
+  {
+    "id": "no_cm_section",
+    "question": "Is an explicitly CM-listed section absent from this saved MA2510 page?",
+    "command": ".\\ma_timetable.cmd lookup --course MA2510",
+    "expected": true,
+    "actual": true,
+    "passed": true,
+    "method": "deterministic_local_source_and_rule_check"
+  },
+  {
+    "id": "multiple_options",
+    "question": "Are all CM alternatives for MA1300 retained?",
+    "command": ".\\ma_timetable.cmd lookup --course MA1300",
+    "expected": [
+      "C01",
+      "T01",
+      "T02"
+    ],
+    "actual": [
+      "C01",
+      "T01",
+      "T02"
+    ],
+    "passed": true,
+    "method": "deterministic_local_source_and_rule_check"
+  }
+]

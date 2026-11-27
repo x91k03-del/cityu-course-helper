@@ -1,0 +1,7 @@
+{
+  "requested_model_configuration": "gpt-6.1-sol",
+  "agent_task": "/root/gpt_timetable_retest07",
+  "fork_context": "none",
+  "packet_only": true,
+  "actual_provider_model_revision_exposed": false
+}

@@ -1,0 +1,215 @@
+1         CS2115: Computer Organization
+CS2115: COMPUTER ORGANIZATION
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Computer Organization 
+Subject Code
+CS - Computer Science 
+Course Number
+2115 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+Part II Course Details
+Abstract
+2         CS2115: Computer Organization
+This course aims to introduce digital logic, Boolean algebra and also principles behind the organization of the functional
+parts of CPU and fundamental components. The course demonstrates computer architecture and programming CISC and
+RISC microprocessors.  It also introduces the basics of assembly language programming.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Describe functions of the basic building blocks
+of a digital system.
+2 Identify various architectures and explain the
+design concepts of computer systems.
+x
+3 Create the designs of simple digital logic
+circuits.
+x
+4 Apply techniques of assembly language to write
+simple programs.
+x
+5 Explain and critique the basic operations of
+cache and main memory, I/O operations and
+interrupt, as well as analyzing the performance
+of diﬀerent designs.
+x x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Students will explain
+key concepts, such
+as theories related to
+computer organization
+and architecture. Discuss
+practical questions and
+exercises with students.
+1, 2, 3, 4 3 hours/week
+3         CS2115: Computer Organization
+2 Tutorial Students will demonstrate
+the usage of useful
+supporting software
+tools and do exercise
+and case studies. The
+students will apply the
+computer organization
+concepts and use the
+supporting software tools
+to implement to design
+and analysis problems.
+2, 3, 4, 5 8 hours/semester
+3 Group project Students will work as a
+group to apply computer
+organization concepts to
+design, implement and
+validate a CPU and its
+associated instruction set.
+The design will be done
+using circuit simulation
+software.
+1, 2, 3, 4 After class
+4 Assignment Students will apply
+computer organization
+concepts to solve diﬀerent
+programming, analysis
+and calculation problems
+that are common in
+modern operating system
+design.
+1, 2, 3, 4, 5 After class
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Coursework 1, 2, 3, 4, 5 20 4 assignments Yes
+2 Midterm Exam 1, 2, 3, 4, 5 10 - No
+Continuous Assessment (%)
+30 
+Examination (%)
+70 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Coursework 
+4         CS2115: Computer Organization
+Criterion
+Assignment may include short factual questions and design exercises regarding the various building blocks of computer.
+Assignment may include simple circuit design project / exercises. There would be hands-on and case study on circuit design
+during tutorial. Assignment may include mini programming project in assembly language. There would also be hands-on
+exercises during tutorial. 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Midterm Exam 
+Criterion
+The mid-term quiz will include questions assessing the students’ understanding on architectural aspect of computer such
+as single bus organization. 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Final Exam 
+Criterion
+The ﬁnal exam and mid-term quiz will include questions assessing the students’ understanding on architectural aspect of
+computer such as single bus organization, I/O, bus, interrupt and peripheral operations. 
+Excellent (A+, A, A-)
+High 
+5         CS2115: Computer Organization
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Part III Other Information
+Keyword Syllabus
+Number Systems. Floating Point. Logic Gates. Combinational Circuit Design. Classical Combinational Circuits. Basic
+Computer Architecture Model. Classiﬁcation of Processors. Stages of Instruction Execution. Memory Systems. Memory
+Mapped I/O, Programmed I/O, Interrupt I/O, DMA. Assembly Programming. Addressing Mode. Stack Operation.
+Syllabus
+• Number systems 
+Number representation. Binary arithmetic. Conversion between number systems. Floating point numbers and
+calculations, IEEE ﬂoating point.
+• Digital logic fundamentals 
+Logic gates and pricinples. Boolean Algebra. Basic combinational circuits. Karnaugh-Map logic simplication. Examples
+with applications.
+• Basic computer organization 
+Functional subsystems: CPU, memory, input/output systems.
+• CPU organization and operations 
+CPU model, Fetch and execute cycle. Control unit and signal, Interrupt cycle, case study on a typical microprocessor.
+• Assembly instruction and assembly language programming 
+Machine code instruction. Assembly instruction. Assembly language programming. Addressing modes and example of
+assembly program.
+• Processor design 
+Instruction pipelining. Classiﬁcation of Processors. CISC v.s. RISC
+• Memory system 
+Memory bus, memory access. Cache.
+• I/O system, bus and interrupt and peripherals 
+Basic model of an I/O system including programmed, Interrupt, DMA.
+Reading List
+Compulsory Readings
+ Title
+1 Carl Hamacher, Zvonko Vranesic, Safwat Zaky and Naraig Manjikian (2012). Computer Organization and Embedded
+Systems. McGraw-Hill Education, 6th edition.
+Additional Readings
+6         CS2115: Computer Organization
+ Title
+1 Andrew S. Tanenbaum and Todd Austin (2012). Structured Computer Organization. Pearson, 6th edition.
+2 William Stallings. Computer Organization and Architecture. William Stallings. Computer Organization and
+Architecture. Pearson, 11th edition.

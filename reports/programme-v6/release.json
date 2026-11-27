@@ -1,0 +1,107 @@
+{
+  "import": {
+    "courses": 86,
+    "sections": 128,
+    "quarantined": 7,
+    "CM_codes": 85,
+    "CS_codes": 73,
+    "GE_codes": 64,
+    "deduplicated_timetable_files": 93
+  },
+  "model": {
+    "adapter": "adapters/cm-cs-programme-v6",
+    "sha256": "1d4f52049898ff08b4d1eb79d6753e08eddc328054d1ae06c989e3d0110d8889",
+    "source_adapter": "adapters/bscm-preparation-v5",
+    "model_role": "CM_CS_source_conditioned_curriculum_schedule_rules_and_single_stream_reward",
+    "training_performed": true,
+    "training_method": "NF4 frozen base with BF16 compute and rank-8 QLoRA",
+    "selected_epoch": 2,
+    "policy": "data/programme-v6/policy.json",
+    "courses": "data/programme-v6/courses.json",
+    "evaluation": {
+      "before": {
+        "passed": 3,
+        "total": 15
+      },
+      "after": {
+        "passed": 14,
+        "total": 15
+      }
+    },
+    "raw_outputs_require_validation": true,
+    "final_eligibility_authority": "document_membership_plus_saved_rules_and_sections_not_model_memory",
+    "official_registration_or_graduation_verified": false,
+    "corrective_trial": "reports/programme-v6/correction/training.json",
+    "correction_deployed": false,
+    "correction_selection_reason": "Trial fixed the original error but introduced another stream error and worsened validation loss; initial v6 retained.",
+    "corrective_trial_diagnostic": {
+      "passed": 14,
+      "total": 15,
+      "independent_holdout": false
+    }
+  },
+  "software_checks": 70,
+  "by_task": {
+    "before": {
+      "course_rules": {
+        "passed": 0,
+        "total": 3
+      },
+      "membership": {
+        "passed": 0,
+        "total": 3
+      },
+      "section": {
+        "passed": 3,
+        "total": 3
+      },
+      "source_excerpt": {
+        "passed": 0,
+        "total": 3
+      },
+      "stream": {
+        "passed": 0,
+        "total": 3
+      }
+    },
+    "after": {
+      "course_rules": {
+        "passed": 3,
+        "total": 3
+      },
+      "membership": {
+        "passed": 3,
+        "total": 3
+      },
+      "section": {
+        "passed": 3,
+        "total": 3
+      },
+      "source_excerpt": {
+        "passed": 3,
+        "total": 3
+      },
+      "stream": {
+        "passed": 2,
+        "total": 3
+      }
+    }
+  },
+  "scope_notes": [
+    "CMcourses.pdf is a 2022/23 catalogue page used as the explicit user-requested allowlist.",
+    "CS Majors.pdf is 2026/27; suggested CS study plan is cohort 2025. Source text retained separately; no silent cohort reconciliation.",
+    "Course-list membership is a necessary condition only; section restrictions, prerequisites, exclusions and source term remain mandatory.",
+    "One stream is a user reward preference, not compulsory declaration. ACT/JS1070 route needs separate route confirmation.",
+    "Seven no-time files quarantined; no dates fabricated. Saved snapshots do not prove current seats.",
+    "Lecture/tutorial pairing and teaching weeks are unverified: semester examples require explicit hypothetical mode.",
+    "Raw model outputs are reported without repairs. Failed outputs must use exact local policy/lookup instead.",
+    "Both before/after model evaluation used the same NF4 base/BF16 compute protocol. Earlier BF16 v5 scores are not directly compared.",
+    "CS future four-year graduation and timetables are not verified; the CS examples are current-semester experiments."
+  ],
+  "guarded_examples": {
+    "path": "reports/programme-v6/guarded_examples.json",
+    "raw_model_accepted": 2,
+    "total": 3,
+    "all_returned_outputs_checked_against_exact_policy": true
+  }
+}

@@ -1,0 +1,242 @@
+1         CS2360: Java Programming
+CS2360: JAVA PROGRAMMING
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Java Programming 
+Subject Code
+CS - Computer Science 
+Course Number
+2360 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+CS1315 Introduction to Computer Programming 
+CS2310 Computer Programming 
+CS2311 Computer Programming 
+CS2313 Computer Programming 
+CS2315 Computer Programming 
+2         CS2360: Java Programming
+Part II Course Details
+Abstract
+This course is a introductory ﬁrst course on the concepts and techniques of computer programming and problem solving
+using Java.  No previous programming experience is required.  The main objective is to equip students with basic concepts
+in procedural and object-oriented programming for problem solving.  Students will learn good programming practices and
+the art of problem solving.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Create programs to solve simple problems. x
+2 Design classes to sub-divide a problem to create
+a solution.
+x
+3 Apply selection, repetition and recursion for
+problem solving.
+x
+4 Explore arrays, class libraries and dynamic
+structures to store and work with data.
+x
+5 Explain, assess and critique good programming
+practices.
+x x x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Students will explain key
+concepts; highlight key
+concepts with relevant
+examples.
+1, 2, 3, 4 3 hours/week
+2 Tutorial / Lab Students will apply
+concepts into practice
+through tutorials to
+be proﬁcient in Java.
+The tutorial exercises
+consist of programming
+problems that students
+should solve within the
+tutorial class period.
+Students will experience
+the process and art of
+problem solving.
+1, 2, 3, 4, 5 8 hours/semester
+3         CS2360: Java Programming
+3 Assignment Students will analyze the
+assignment problems,
+break them down
+into manageable sub-
+problems, and apply
+(possibly combine)
+various techniques
+learnt from lectures
+and tutorial exercises
+in order to design
+algorithms for solving
+them. Assignments are
+intended to be more
+challenging problems
+compared with tutorial
+exercises. Then students
+will implement the
+algorithms as computer
+programs, and to follow,
+assess and critique good
+programming practices
+through program
+documentation.
+1, 2, 3, 4, 5 After class
+4 Quiz Students will participate
+in quizzes to demonstrate
+their understanding on
+various programming
+concepts and apply
+concepts and techniques
+for problem solving.
+1, 3, 4
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Tutorial exercises 1, 2, 3, 4, 5 5 Final solutions/
+reports must
+be written and
+justiﬁed without
+using GenAI.
+Yes
+4         CS2360: Java Programming
+2 Assignments 1, 2, 3, 4, 5 30 Final solutions/
+reports must
+be written and
+justiﬁed without
+using GenAI. 
+Expected to
+have three
+programming
+assignments. The
+1st assignment
+assesses CILOs
+1, 3 & 5; the
+2nd assignment
+assesses CILOs
+4 & 5; the 3rd
+assignment
+assesses CILOs 2 &
+5.
+Yes
+3 Quiz 1, 3, 4 15 - No
+Continuous Assessment (%)
+50 
+Examination (%)
+50 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Tutorial exercises 
+Criterion
+ABILITY to apply the concepts for problem solving 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+5         CS2360: Java Programming
+Not even reaching marginal level 
+Assessment Task
+Assignments 
+Criterion
+2.1 ABILITY to design and implement appropriate algorithms or approaches for problem solving 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal level 
+Assessment Task
+Quiz 
+Criterion
+3.1 ABILITY to apply basic procedural programming concepts and techniques for problem solving 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal level 
+Assessment Task
+Examination 
+Criterion
+4.1 ABILITY to apply procedural and object-oriented programming concepts and techniques for problem solving 
+6         CS2360: Java Programming
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal level 
+Part III Other Information
+Keyword Syllabus
+Problem solving techniques; elements of coding styles; basic data types and declarations; basic object-orientation, such as
+classes, inheritance and polymorphism; expressions; assignment; basic I/O operations and control structures; functions and
+procedures; parameter passing; block structure; scope of variables; structured data types; arrays; lists; ﬁles and advanced
+I/O; levels of abstraction; concept of data hiding; abstract data types and structures; iteration and recursion; basic ﬂow-
+charting and/or simple UML diagrams.
+Reading List
+Compulsory Readings
+ Title
+1 Y. D. Liang (2013). Introduction to Java Programming (Comprehensive Version). Pearson, 9th edition.
+Additional Readings
+ Title
+1 D. Eck (2014). Introduction to Programming Using Java. David Eck, 7th edition, free online: http://math.hws.edu/
+javanotes/
+2 Sun Microsystems (2007). The Java Tutorial, free online: http://docs.oracle.com/javase/tutorial/

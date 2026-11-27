@@ -1,0 +1,175 @@
+=== PAGE 1 ===
+2026/11/15 晚上9:27                                                                            Courses Offered
+
+                                                                                                                                     How to Navigate | Site Map | Help | Exit
+
+
+  Courses Offered in Semester A 2026/27
+
+
+
+   As of November 15, 2026 21:27 PM
+
+   Course : MA2508 Multi-variable Calculus [ Click here for course catalogue ] or [ Click here for registration detail ] (use "Back" to return to this page)
+
+   Offering Academic Unit: Mathematics
+
+   Pre-requisites/precursors (Students should ensure they fulfill the pre-requisites/precursors requirement prior to adding a course.):
+        MA1201 or MA1301 or (MA1503 and MA1508)
+
+   Exclusive Course (Students are restricted from registration in a course when they have earned credits for an exclusive course.):
+        GE1359 MA1502
+
+    CRN     Section   Credit  Campus     WEB    Level  Avail  Cap   Waitlist  Date                        Day  Time            Bldg     Room     Instructor  Medium of
+                                                                    Avail                                                                                    Instruction
+    13701   CA1       4       Main       Y      B      Full   85    N         31/08/2026 - 05/12/2026     S    11:00 - 12:50   YEUNG    LT-3     LEUNG       English
+                              Campus                                                                                                             Wing Tat
+                                                only for Programme: BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4
+                                                only for Major: CFFT, CM
+                                                                              31/08/2026 - 05/12/2026     T    16:00 - 16:50   YEUNG    LT-11    LEUNG       English
+                                                                                                                                                 Wing Tat
+                                                only for Programme: BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4
+                                                only for Major: CFFT, CM
+    11707   CB1       4       Main       Y      B      4      175   N         31/08/2026 - 05/12/2026     W    10:00 - 10:50   YEUNG    LT-5     DAI Dan     English
+                              Campus
+                                                only for Programme: BSCCCU2, BSCCCU3, BSCCCU4
+                                                only for Major: DSC, DSE1
+                                                                              31/08/2026 - 05/12/2026     S    11:00 - 12:50   YEUNG    LT-5     DAI Dan     English
+                                                only for Programme: BSCCCU2, BSCCCU3, BSCCCU4
+                                                only for Major: DSC, DSE1
+    13702   CD1       4       Main       Y      B      3      9     N         31/08/2026 - 05/12/2026     S    11:00 - 12:50   YEUNG    LT-3     LEUNG       English
+                              Campus                                                                                                             Wing Tat
+                                                only for Minor: MA
+                                                                              31/08/2026 - 05/12/2026     T    16:00 - 16:50   YEUNG    LT-11    LEUNG       English
+                                                                                                                                                 Wing Tat
+                                                only for Minor: MA
+    13703   CE1       4       Main       N      B      Full   5     N         31/08/2026 - 05/12/2026     S    11:00 - 12:50   YEUNG    LT-3     LEUNG       English
+                              Campus                                                                                                             Wing Tat
+                                                only for Programme: BSCSIU4
+                                                only for Major: PHY
+                                                                              31/08/2026 - 05/12/2026     T    16:00 - 16:50   YEUNG    LT-11    LEUNG       English
+                                                                                                                                                 Wing Tat
+                                                only for Programme: BSCSIU4
+                                                only for Major: PHY
+    13704   TA1       0       Main       Y      B      Full   85    N         31/08/2026 - 28/11/2026     T    15:00 - 15:50   YEUNG    LT-11    LEUNG       English
+                              Campus                                                                                                             Wing Tat
+                                                only for Programme: BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4
+                                                only for Major: CFFT, CM
+    11708   TB1       0       Main       Y      B      4      175   N         31/08/2026 - 28/11/2026     W    09:00 - 09:50   YEUNG    LT-5     DAI Dan     English
+                              Campus
+                                                only for Programme: BSCCCU2, BSCCCU3, BSCCCU4
+                                                only for Major: DSC, DSE1
+    13705   TD1       0       Main       Y      B      3      9     N         31/08/2026 - 28/11/2026     T    15:00 - 15:50   YEUNG    LT-11    LEUNG       English
+                              Campus                                                                                                             Wing Tat
+                                                only for Minor: MA
+    13706   TE1       0       Main       N      B      Full   5     N         31/08/2026 - 28/11/2026     T    15:00 - 15:50   YEUNG    LT-11    LEUNG       English
+                              Campus                                                                                                             Wing Tat
+                                                only for Programme: BSCSIU4
+                                                only for Major: PHY
+
+   As of November 15, 2026 21:27 PM
+
+
+
+https://banweb.cityu.edu.hk/pls/PROD/hwscrssh_cityu.P_DispOneSection?term=202609&subj=MA&crse=2508&camp=%25&web_avail=                                                  1/2
+=== PAGE 2 ===
+2026/11/15 晚上9:27                                                                                        Courses Offered
+
+     Disclaimer:
+            The University reserves the right to make adjustments to the class schedules.
+            The Medium of Instruction listed is for general reference only. Please refer to the syllabus of individual courses for more detailed information.
+
+
+     Search Class
+
+
+     [ Personal Information Collection Statement | Copyright | Disclaimer ]                                                     IT Service Desk: +852 3442-8340
+     © 2026 City University of Hong Kong. All Rights Reserved.                                                                  Email: it.servicedesk@cityu.edu.hk
+    Release: 8.7.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://banweb.cityu.edu.hk/pls/PROD/hwscrssh_cityu.P_DispOneSection?term=202609&subj=MA&crse=2508&camp=%25&web_avail=                                                                         2/2

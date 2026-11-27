@@ -1,0 +1,1133 @@
+[
+  {
+    "profile": {
+      "profile_id": "no_finance",
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "year": 2,
+      "term": "202702",
+      "completed_courses": [
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "CS1302"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 1.0
+    },
+    "finance_background": {
+      "level": "none",
+      "evidence_courses": [],
+      "self_reported_study": false,
+      "background_mismatch": 0.45,
+      "priority_multiplier": 1.0,
+      "label": "configurable_content_background_rubric_not_measured_learning"
+    },
+    "policy_target": {
+      "programme": "CM",
+      "course_code": "EF3320",
+      "document_allowed": true,
+      "prerequisite_waiver_assumed": true,
+      "prerequisite_handling": "waived_for_CM_planning",
+      "additional_missing_prerequisite_penalty": 0.0,
+      "finance_background_level": "none",
+      "finance_evidence_courses": [],
+      "finance_background_mismatch": 0.45,
+      "finance_priority_multiplier": 1.0,
+      "registration_verified": false
+    },
+    "scores": {
+      "background_mismatch": 0.45,
+      "difficulty": 0.52,
+      "workload": 0.32
+    },
+    "controlled_solver_result": {
+      "status": "optimal",
+      "selected_options": [
+        "EF3320-01"
+      ],
+      "course_codes": [
+        "EF3320"
+      ],
+      "credits": 3,
+      "objective": 3.71,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 3.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 3.0,
+        "student_cost_penalty": 1.29,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 1.29,
+        "preparation_benefit": 0.0,
+        "net_profit": 3.71,
+        "schedule_loss": -3.71,
+        "course_count": 1,
+        "selected_credits": 3,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 2.0,
+        "selected_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 1.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "CS1302"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 1,
+      "course_min": 1,
+      "course_max": 1,
+      "student_cost": 1.29,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "matched_single_course_synthetic_timetable_and_scores_for_background_comparison",
+      "weekly_balance_verified": false,
+      "prerequisite_waivers_assumed": [
+        "EF3320"
+      ],
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "stream_path": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 1.0,
+      "current_progress": {
+        "selected_stream": "Financial Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "EF3320": 2,
+          "EF4821": 2,
+          "MA3521": 2,
+          "MA4529": 2,
+          "MA4537": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "EF3320",
+          "EF4821",
+          "MA3521",
+          "MA4529"
+        ],
+        "remaining_courses": [
+          "EF3320",
+          "EF4821",
+          "MA3521",
+          "MA4529"
+        ],
+        "dependency_layers": [
+          [
+            "EF3320",
+            "EF4821",
+            "MA3521"
+          ],
+          [
+            "MA4529"
+          ]
+        ],
+        "prerequisite_waivers_assumed": [
+          "EF3320",
+          "EF4821"
+        ],
+        "course_sources": {
+          "EF3320": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "EF4821": "GE_SEMA/MA/SEMA/EF4821.pdf",
+          "MA3521": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm",
+          "MA4529": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_path_assuming_CM_prerequisite_waiver",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 14
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 14.0,
+      "course_reward_adjustments": {
+        "EF3320": 2.0,
+        "EF4821": 2.0,
+        "MA3521": 2.0,
+        "MA4529": 2.0,
+        "MA4537": 2.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic planning order, not semester assignments. CM EF/CS prerequisites may be assumed waived by user policy; source requirements and university approval are not changed. Other unknown or blocked rules remain explicit."
+    },
+    "actual_EF_CM_matching_sections_in_saved_term": 0,
+    "note": "The controlled option is synthetic. Saved CM EF snapshots currently contain no matching CM sections; waiver does not create an actual offered section."
+  },
+  {
+    "profile": {
+      "profile_id": "finance_GE",
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "year": 2,
+      "term": "202702",
+      "completed_courses": [
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "CS1302",
+        "GE2260"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 1.0
+    },
+    "finance_background": {
+      "level": "introductory",
+      "evidence_courses": [
+        "GE2260"
+      ],
+      "self_reported_study": false,
+      "background_mismatch": 0.15,
+      "priority_multiplier": 3.0,
+      "label": "configurable_content_background_rubric_not_measured_learning"
+    },
+    "policy_target": {
+      "programme": "CM",
+      "course_code": "EF3320",
+      "document_allowed": true,
+      "prerequisite_waiver_assumed": true,
+      "prerequisite_handling": "waived_for_CM_planning",
+      "additional_missing_prerequisite_penalty": 0.0,
+      "finance_background_level": "introductory",
+      "finance_evidence_courses": [
+        "GE2260"
+      ],
+      "finance_background_mismatch": 0.15,
+      "finance_priority_multiplier": 3.0,
+      "registration_verified": false
+    },
+    "scores": {
+      "background_mismatch": 0.15,
+      "difficulty": 0.52,
+      "workload": 0.32
+    },
+    "controlled_solver_result": {
+      "status": "optimal",
+      "selected_options": [
+        "EF3320-01"
+      ],
+      "course_codes": [
+        "EF3320"
+      ],
+      "credits": 3,
+      "objective": 4.01,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 3.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 3.0,
+        "student_cost_penalty": 0.99,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 0.99,
+        "preparation_benefit": 0.0,
+        "net_profit": 4.01,
+        "schedule_loss": -4.01,
+        "course_count": 1,
+        "selected_credits": 3,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 2.0,
+        "selected_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 1.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "CS1302",
+          "GE2260"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 1,
+      "course_min": 1,
+      "course_max": 1,
+      "student_cost": 0.99,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "matched_single_course_synthetic_timetable_and_scores_for_background_comparison",
+      "weekly_balance_verified": false,
+      "prerequisite_waivers_assumed": [
+        "EF3320"
+      ],
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "stream_path": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 1.0,
+      "current_progress": {
+        "selected_stream": "Financial Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "EF3320": 2,
+          "EF4821": 2,
+          "MA3521": 2,
+          "MA4529": 2,
+          "MA4537": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "EF3320",
+          "EF4821",
+          "MA3521",
+          "MA4529"
+        ],
+        "remaining_courses": [
+          "EF3320",
+          "EF4821",
+          "MA3521",
+          "MA4529"
+        ],
+        "dependency_layers": [
+          [
+            "EF3320",
+            "EF4821",
+            "MA3521"
+          ],
+          [
+            "MA4529"
+          ]
+        ],
+        "prerequisite_waivers_assumed": [
+          "EF3320",
+          "EF4821"
+        ],
+        "course_sources": {
+          "EF3320": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "EF4821": "GE_SEMA/MA/SEMA/EF4821.pdf",
+          "MA3521": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm",
+          "MA4529": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_path_assuming_CM_prerequisite_waiver",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 14
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 14.0,
+      "course_reward_adjustments": {
+        "EF3320": 2.0,
+        "EF4821": 2.0,
+        "MA3521": 2.0,
+        "MA4529": 2.0,
+        "MA4537": 2.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic planning order, not semester assignments. CM EF/CS prerequisites may be assumed waived by user policy; source requirements and university approval are not changed. Other unknown or blocked rules remain explicit."
+    },
+    "actual_EF_CM_matching_sections_in_saved_term": 0,
+    "note": "The controlled option is synthetic. Saved CM EF snapshots currently contain no matching CM sections; waiver does not create an actual offered section."
+  },
+  {
+    "profile": {
+      "profile_id": "self_reported_finance",
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "year": 2,
+      "term": "202702",
+      "completed_courses": [
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "CS1302"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 1.0,
+      "finance_background": {
+        "studied": true,
+        "topics": [
+          "personal finance"
+        ]
+      }
+    },
+    "finance_background": {
+      "level": "introductory",
+      "evidence_courses": [],
+      "self_reported_study": true,
+      "background_mismatch": 0.15,
+      "priority_multiplier": 3.0,
+      "label": "configurable_content_background_rubric_not_measured_learning"
+    },
+    "policy_target": {
+      "programme": "CM",
+      "course_code": "EF3320",
+      "document_allowed": true,
+      "prerequisite_waiver_assumed": true,
+      "prerequisite_handling": "waived_for_CM_planning",
+      "additional_missing_prerequisite_penalty": 0.0,
+      "finance_background_level": "introductory",
+      "finance_evidence_courses": [],
+      "finance_background_mismatch": 0.15,
+      "finance_priority_multiplier": 3.0,
+      "registration_verified": false
+    },
+    "scores": {
+      "background_mismatch": 0.15,
+      "difficulty": 0.52,
+      "workload": 0.32
+    },
+    "controlled_solver_result": {
+      "status": "optimal",
+      "selected_options": [
+        "EF3320-01"
+      ],
+      "course_codes": [
+        "EF3320"
+      ],
+      "credits": 3,
+      "objective": 4.01,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 3.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 3.0,
+        "student_cost_penalty": 0.99,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 0.99,
+        "preparation_benefit": 0.0,
+        "net_profit": 4.01,
+        "schedule_loss": -4.01,
+        "course_count": 1,
+        "selected_credits": 3,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 2.0,
+        "selected_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 1.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "CS1302"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 1,
+      "course_min": 1,
+      "course_max": 1,
+      "student_cost": 0.99,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "matched_single_course_synthetic_timetable_and_scores_for_background_comparison",
+      "weekly_balance_verified": false,
+      "prerequisite_waivers_assumed": [
+        "EF3320"
+      ],
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "stream_path": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 1.0,
+      "current_progress": {
+        "selected_stream": "Financial Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "EF3320": 2,
+          "EF4821": 2,
+          "MA3521": 2,
+          "MA4529": 2,
+          "MA4537": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "EF3320",
+          "EF4821",
+          "MA3521",
+          "MA4529"
+        ],
+        "remaining_courses": [
+          "EF3320",
+          "EF4821",
+          "MA3521",
+          "MA4529"
+        ],
+        "dependency_layers": [
+          [
+            "EF3320",
+            "EF4821",
+            "MA3521"
+          ],
+          [
+            "MA4529"
+          ]
+        ],
+        "prerequisite_waivers_assumed": [
+          "EF3320",
+          "EF4821"
+        ],
+        "course_sources": {
+          "EF3320": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "EF4821": "GE_SEMA/MA/SEMA/EF4821.pdf",
+          "MA3521": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm",
+          "MA4529": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_path_assuming_CM_prerequisite_waiver",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 14
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 14.0,
+      "course_reward_adjustments": {
+        "EF3320": 2.0,
+        "EF4821": 2.0,
+        "MA3521": 2.0,
+        "MA4529": 2.0,
+        "MA4537": 2.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic planning order, not semester assignments. CM EF/CS prerequisites may be assumed waived by user policy; source requirements and university approval are not changed. Other unknown or blocked rules remain explicit."
+    },
+    "actual_EF_CM_matching_sections_in_saved_term": 0,
+    "note": "The controlled option is synthetic. Saved CM EF snapshots currently contain no matching CM sections; waiver does not create an actual offered section."
+  },
+  {
+    "profile": {
+      "profile_id": "advanced_finance",
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "year": 2,
+      "term": "202702",
+      "completed_courses": [
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "CS1302",
+        "MA3521"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 1.0
+    },
+    "finance_background": {
+      "level": "advanced",
+      "evidence_courses": [
+        "MA3521"
+      ],
+      "self_reported_study": false,
+      "background_mismatch": 0.05,
+      "priority_multiplier": 3.0,
+      "label": "configurable_content_background_rubric_not_measured_learning"
+    },
+    "policy_target": {
+      "programme": "CM",
+      "course_code": "EF3320",
+      "document_allowed": true,
+      "prerequisite_waiver_assumed": true,
+      "prerequisite_handling": "waived_for_CM_planning",
+      "additional_missing_prerequisite_penalty": 0.0,
+      "finance_background_level": "advanced",
+      "finance_evidence_courses": [
+        "MA3521"
+      ],
+      "finance_background_mismatch": 0.05,
+      "finance_priority_multiplier": 3.0,
+      "registration_verified": false
+    },
+    "scores": {
+      "background_mismatch": 0.05,
+      "difficulty": 0.52,
+      "workload": 0.32
+    },
+    "controlled_solver_result": {
+      "status": "optimal",
+      "selected_options": [
+        "EF3320-01"
+      ],
+      "course_codes": [
+        "EF3320"
+      ],
+      "credits": 3,
+      "objective": 4.109999999999999,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 3.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 3.0,
+        "student_cost_penalty": 0.8900000000000001,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 0.8900000000000001,
+        "preparation_benefit": 0.0,
+        "net_profit": 4.109999999999999,
+        "schedule_loss": -4.109999999999999,
+        "course_count": 1,
+        "selected_credits": 3,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 2.0,
+        "selected_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 1.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "CS1302",
+          "MA3521"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 1,
+      "course_min": 1,
+      "course_max": 1,
+      "student_cost": 0.8900000000000001,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "matched_single_course_synthetic_timetable_and_scores_for_background_comparison",
+      "weekly_balance_verified": false,
+      "prerequisite_waivers_assumed": [
+        "EF3320"
+      ],
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "stream_path": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 1.0,
+      "current_progress": {
+        "selected_stream": "Financial Mathematics",
+        "completed_slots": 1,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "EF3320": 2,
+          "EF4821": 2,
+          "MA4529": 2,
+          "MA4537": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "EF3320",
+          "EF4821",
+          "MA3521",
+          "MA4529"
+        ],
+        "remaining_courses": [
+          "EF3320",
+          "EF4821",
+          "MA4529"
+        ],
+        "dependency_layers": [
+          [
+            "EF3320",
+            "EF4821",
+            "MA4529"
+          ]
+        ],
+        "prerequisite_waivers_assumed": [
+          "EF3320",
+          "EF4821"
+        ],
+        "course_sources": {
+          "EF3320": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "EF4821": "GE_SEMA/MA/SEMA/EF4821.pdf",
+          "MA4529": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_path_assuming_CM_prerequisite_waiver",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 12
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 12.0,
+      "course_reward_adjustments": {
+        "EF3320": 2.0,
+        "EF4821": 2.0,
+        "MA4529": 2.0,
+        "MA4537": 2.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic planning order, not semester assignments. CM EF/CS prerequisites may be assumed waived by user policy; source requirements and university approval are not changed. Other unknown or blocked rules remain explicit."
+    },
+    "actual_EF_CM_matching_sections_in_saved_term": 0,
+    "note": "The controlled option is synthetic. Saved CM EF snapshots currently contain no matching CM sections; waiver does not create an actual offered section."
+  },
+  {
+    "profile": {
+      "profile_id": "failed_finance_GE",
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "year": 2,
+      "term": "202702",
+      "completed_courses": [
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "CS1302",
+        "GE2260"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 1.0,
+      "GE_history": [
+        {
+          "course_code": "GE2260",
+          "grade": "F"
+        }
+      ]
+    },
+    "finance_background": {
+      "level": "none",
+      "evidence_courses": [],
+      "self_reported_study": false,
+      "background_mismatch": 0.45,
+      "priority_multiplier": 1.0,
+      "label": "configurable_content_background_rubric_not_measured_learning"
+    },
+    "policy_target": {
+      "programme": "CM",
+      "course_code": "EF3320",
+      "document_allowed": true,
+      "prerequisite_waiver_assumed": true,
+      "prerequisite_handling": "waived_for_CM_planning",
+      "additional_missing_prerequisite_penalty": 0.0,
+      "finance_background_level": "none",
+      "finance_evidence_courses": [],
+      "finance_background_mismatch": 0.45,
+      "finance_priority_multiplier": 1.0,
+      "registration_verified": false
+    },
+    "scores": {
+      "background_mismatch": 0.45,
+      "difficulty": 0.52,
+      "workload": 0.32
+    },
+    "controlled_solver_result": {
+      "status": "optimal",
+      "selected_options": [
+        "EF3320-01"
+      ],
+      "course_codes": [
+        "EF3320"
+      ],
+      "credits": 3,
+      "objective": 3.71,
+      "objective_sense": "maximize",
+      "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+      "profit_breakdown": {
+        "course_profit": 3.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 3.0,
+        "student_cost_penalty": 1.29,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 1.29,
+        "preparation_benefit": 0.0,
+        "net_profit": 3.71,
+        "schedule_loss": -3.71,
+        "course_count": 1,
+        "selected_credits": 3,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 2.0,
+        "selected_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 1.0
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year4_credits",
+        "student_year": 2,
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "CS1302",
+          "GE2260"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {},
+        "covered_GE_area_multiplier": 0.1,
+        "year4_overload_weight": 0.25
+      },
+      "course_count": 1,
+      "course_min": 1,
+      "course_max": 1,
+      "student_cost": 1.29,
+      "graduation_priority_weight": 0.0,
+      "selected_priority_courses": [],
+      "unselected_priority_courses": [],
+      "priority_policy_note": null,
+      "rejected_options": {},
+      "data_mode": "matched_single_course_synthetic_timetable_and_scores_for_background_comparison",
+      "weekly_balance_verified": false,
+      "prerequisite_waivers_assumed": [
+        "EF3320"
+      ],
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "stream_path": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 1.0,
+      "current_progress": {
+        "selected_stream": "Financial Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "EF3320": 2,
+          "EF4821": 2,
+          "MA3521": 2,
+          "MA4529": 2,
+          "MA4537": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "EF3320",
+          "EF4821",
+          "MA3521",
+          "MA4529"
+        ],
+        "remaining_courses": [
+          "EF3320",
+          "EF4821",
+          "MA3521",
+          "MA4529"
+        ],
+        "dependency_layers": [
+          [
+            "EF3320",
+            "EF4821",
+            "MA3521"
+          ],
+          [
+            "MA4529"
+          ]
+        ],
+        "prerequisite_waivers_assumed": [
+          "EF3320",
+          "EF4821"
+        ],
+        "course_sources": {
+          "EF3320": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "EF4821": "GE_SEMA/MA/SEMA/EF4821.pdf",
+          "MA3521": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm",
+          "MA4529": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_path_assuming_CM_prerequisite_waiver",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 14
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 14.0,
+      "course_reward_adjustments": {
+        "EF3320": 2.0,
+        "EF4821": 2.0,
+        "MA3521": 2.0,
+        "MA4529": 2.0,
+        "MA4537": 2.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic planning order, not semester assignments. CM EF/CS prerequisites may be assumed waived by user policy; source requirements and university approval are not changed. Other unknown or blocked rules remain explicit."
+    },
+    "actual_EF_CM_matching_sections_in_saved_term": 0,
+    "note": "The controlled option is synthetic. Saved CM EF snapshots currently contain no matching CM sections; waiver does not create an actual offered section."
+  },
+  {
+    "profile": {
+      "profile_id": "strict_prerequisites",
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "year": 2,
+      "term": "202702",
+      "completed_courses": [
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "CS1302",
+        "GE2260"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 1.0,
+      "cm_ef_cs_prerequisite_waiver": false
+    },
+    "finance_background": {
+      "level": "introductory",
+      "evidence_courses": [
+        "GE2260"
+      ],
+      "self_reported_study": false,
+      "background_mismatch": 0.15,
+      "priority_multiplier": 3.0,
+      "label": "configurable_content_background_rubric_not_measured_learning"
+    },
+    "policy_target": {
+      "programme": "CM",
+      "course_code": "EF3320",
+      "document_allowed": true,
+      "prerequisite_waiver_assumed": false,
+      "prerequisite_handling": "not_satisfied",
+      "additional_missing_prerequisite_penalty": 0.0,
+      "finance_background_level": "introductory",
+      "finance_evidence_courses": [
+        "GE2260"
+      ],
+      "finance_background_mismatch": 0.15,
+      "finance_priority_multiplier": 3.0,
+      "registration_verified": false
+    },
+    "scores": {
+      "background_mismatch": 0.15,
+      "difficulty": 0.6,
+      "workload": 0.32
+    },
+    "controlled_solver_result": {
+      "status": "infeasible",
+      "reason": "insufficient_eligible_courses",
+      "course_min": 1,
+      "eligible_course_count": 0,
+      "eligible_courses": [],
+      "rejected_options": {
+        "EF3320-01": "source_verified_prerequisites_not_met"
+      },
+      "message": "Supply more verified eligible course options; the minimum was not relaxed."
+    },
+    "stream_path": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 1.0,
+      "current_progress": {
+        "selected_stream": "Financial Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "EF3320": 2,
+          "EF4821": 2,
+          "MA3521": 2,
+          "MA4529": 2,
+          "MA4537": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "remaining_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "dependency_layers": [
+          [
+            "MA3521",
+            "MA4537"
+          ],
+          [
+            "MA4529"
+          ]
+        ],
+        "prerequisite_waivers_assumed": [],
+        "course_sources": {
+          "EF3320": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "MA3521": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm",
+          "MA4529": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm",
+          "MA4537": null
+        },
+        "offering_warnings": {},
+        "blocked": [
+          {
+            "course": "CB3410",
+            "reason": "outside_programme_allowlist"
+          },
+          {
+            "courses": [
+              "EF3320"
+            ],
+            "reason": "no_verified_dependency_order"
+          }
+        ],
+        "unknown_rules": [
+          {
+            "course": "MA4537",
+            "reason": "prerequisites_not_available_in_source"
+          }
+        ],
+        "status": "blocked",
+        "stream_complete_if_all_passed": false,
+        "base_chain_reward": 0
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 0.0,
+      "course_reward_adjustments": {
+        "EF3320": 2.0,
+        "EF4821": 2.0,
+        "MA3521": 2.0,
+        "MA4529": 2.0,
+        "MA4537": 2.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic planning order, not semester assignments. CM EF/CS prerequisites may be assumed waived by user policy; source requirements and university approval are not changed. Other unknown or blocked rules remain explicit."
+    },
+    "actual_EF_CM_matching_sections_in_saved_term": 0,
+    "note": "The controlled option is synthetic. Saved CM EF snapshots currently contain no matching CM sections; waiver does not create an actual offered section."
+  }
+]

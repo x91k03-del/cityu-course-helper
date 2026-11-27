@@ -1,0 +1,20 @@
+{
+  "examples": {
+    "train": 222,
+    "validation": 24,
+    "test": 28
+  },
+  "seed": 2025111605,
+  "scope": "Rule distillation: one distributional GE per term; bounded direct preparation deductions from indexed official PDF excerpts. No measured workload or outcome labels.",
+  "state_vectors_disjoint": true,
+  "official_minimum": 122,
+  "user_minimum": 121,
+  "math_elective_minimum": 20,
+  "GE_minimum": 4,
+  "required_areas": [
+    1,
+    2,
+    3
+  ],
+  "full_transcript_states_in_training": 14
+}

@@ -1,0 +1,203 @@
+CASE F
+FICTIONAL TRANSCRIPT - DEMONSTRATION ONLY
+Course Helper - student grade display
+
+This document is a synthetic test fixture. It is not a university academic record.
+Student Name : FICTIONAL STUDENT F
+Student Number : DEMO-F
+Level : Bachelor's Degree
+Degree : Bachelor of Science
+Major : Computing Mathematics
+INSTITUTION CREDIT
+Course Code          Course Title                                                               Credits   Grade         Remarks
+
+
+                                                                     Semester A 2025/26
+Status: Enrolled
+Major: Computing Mathematics
+MA1300               Enhanced Calculus and Linear Algebra I                                     3         B
+
+CS1302               Introduction to Computer Programming                                       3         B
+
+PHY1201              PHY1201                                                                    3         B
+
+GE1401               GE1401                                                                     3         B
+
+GE2260               Introduction to Finance                                                    3         B
+
+CSCI1001             Employability for Scientists                                               0         P
+
+LC0200A              English for Academic Purposes 1                                            3         C+*           Non-degree
+
+     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00
+
+
+                                                                     Semester B 2025/26
+Status: Enrolled
+Major: Computing Mathematics
+MA1301               Enhanced Calculus and Linear Algebra II                                    3         B
+
+CHEM1200             CHEM1200                                                                   3         B
+
+GE1501               GE1501                                                                     3         B
+
+GE2401               GE2401                                                                     3         B
+
+GE1105               Chinese Music Appreciation                                                 3         B
+
+     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00
+
+
+                                                                     Semester A 2026/27
+Status: Enrolled
+Major: Computing Mathematics
+MA2503               Linear Algebra                                                             4         In Progress
+
+In Progress Credits: 4.00
+* Starred flag retained; credit exclusion here is explicitly stated in the fictional Remarks.
+Zero-credit P rows are passed requirements and add no credits.
+Total Credit Units Completed (degree-counted in this fixture): 30
+
+
+
+
+SYNTHETIC TEST FIXTURE - NOT AN OFFICIAL RECORD                                                                                      1
+
+
+I want the Financial Mathematics stream. I am planning from Year 2 Semester A, entry cohort 2025. Use background mismatch weight 1.0, difficulty weight 1.0, workload weight 1.0, and stream reward multiplier 3.0.
+
+CASE N
+FICTIONAL TRANSCRIPT - DEMONSTRATION ONLY
+Course Helper - student grade display
+
+This document is a synthetic test fixture. It is not a university academic record.
+Student Name : FICTIONAL STUDENT N
+Student Number : DEMO-N
+Level : Bachelor's Degree
+Degree : Bachelor of Science
+Major : Computing Mathematics
+INSTITUTION CREDIT
+Course Code          Course Title                                                               Credits   Grade         Remarks
+
+
+                                                                     Semester A 2025/26
+Status: Enrolled
+Major: Computing Mathematics
+MA1300               Enhanced Calculus and Linear Algebra I                                     3         B
+
+CS1302               Introduction to Computer Programming                                       3         B
+
+PHY1201              PHY1201                                                                    3         B
+
+GE1401               GE1401                                                                     3         B
+
+GE1305               Foundation Physics                                                         3         B
+
+CSCI1001             Employability for Scientists                                               0         P
+
+LC0200A              English for Academic Purposes 1                                            3         C+*           Non-degree
+
+     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00
+
+
+                                                                     Semester B 2025/26
+Status: Enrolled
+Major: Computing Mathematics
+MA1301               Enhanced Calculus and Linear Algebra II                                    3         B
+
+CHEM1200             CHEM1200                                                                   3         B
+
+GE1501               GE1501                                                                     3         B
+
+GE2401               GE2401                                                                     3         B
+
+GE1113               Visual Storytelling and Cultural Thinking                                  3         B
+
+     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00
+
+
+                                                                     Semester A 2026/27
+Status: Enrolled
+Major: Computing Mathematics
+MA2503               Linear Algebra                                                             4         In Progress
+
+In Progress Credits: 4.00
+* Starred flag retained; credit exclusion here is explicitly stated in the fictional Remarks.
+Zero-credit P rows are passed requirements and add no credits.
+Total Credit Units Completed (degree-counted in this fixture): 30
+
+
+
+
+SYNTHETIC TEST FIXTURE - NOT AN OFFICIAL RECORD                                                                                      1
+
+
+I want the Financial Mathematics stream. I am planning from Year 2 Semester A, entry cohort 2025. Use background mismatch weight 1.0, difficulty weight 1.0, workload weight 1.0, and stream reward multiplier 3.0.
+
+CASE M
+FICTIONAL TRANSCRIPT - DEMONSTRATION ONLY
+Course Helper - student grade display
+
+This document is a synthetic test fixture. It is not a university academic record.
+Student Name : FICTIONAL STUDENT M
+Student Number : DEMO-M
+Level : Bachelor's Degree
+Degree : Bachelor of Science
+Major : Computing Mathematics
+INSTITUTION CREDIT
+Course Code          Course Title                                                               Credits   Grade         Remarks
+
+
+                                                                     Semester A 2025/26
+Status: Enrolled
+Major: Computing Mathematics
+MA1300               Enhanced Calculus and Linear Algebra I                                     3         B
+
+CS1302               Introduction to Computer Programming                                       3         B
+
+PHY1201              PHY1201                                                                    3         B
+
+GE1401               GE1401                                                                     3         B
+
+GE2134               Critical and Creative Thinking                                             3         B
+
+CSCI1001             Employability for Scientists                                               0         P
+
+LC0200A              English for Academic Purposes 1                                            3         C+*           Non-degree
+
+     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00
+
+
+                                                                     Semester B 2025/26
+Status: Enrolled
+Major: Computing Mathematics
+MA1301               Enhanced Calculus and Linear Algebra II                                    3         B
+
+CHEM1200             CHEM1200                                                                   3         B
+
+GE1501               GE1501                                                                     3         B
+
+GE2401               GE2401                                                                     3         B
+
+GE1305               Foundation Physics                                                         3         B
+
+     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00
+
+
+                                                                     Semester A 2026/27
+Status: Enrolled
+Major: Computing Mathematics
+MA2503               Linear Algebra                                                             4         In Progress
+
+In Progress Credits: 4.00
+* Starred flag retained; credit exclusion here is explicitly stated in the fictional Remarks.
+Zero-credit P rows are passed requirements and add no credits.
+Total Credit Units Completed (degree-counted in this fixture): 30
+
+
+
+
+SYNTHETIC TEST FIXTURE - NOT AN OFFICIAL RECORD                                                                                      1
+
+
+I want the Enriched Mathematics stream. I am planning from Year 2 Semester A, entry cohort 2025. Use background mismatch weight 1.0, difficulty weight 1.0, workload weight 1.0, and stream reward multiplier 3.0.

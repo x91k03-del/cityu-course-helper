@@ -1,0 +1,16 @@
+{
+  "objective_mode": "profit",
+  "base_course_profit": 3.0,
+  "overload_reference_courses": 5,
+  "overload_penalty_weight": 3.0,
+  "units": "configurable academic-utility points, not money or measured student outcomes",
+  "profit_overrides": "An option may specify profit; otherwise base_course_profit applies.",
+  "overload_formula": "0.25 * max(0, semester credits - (12 in Year 4 else 15))^2",
+  "schedule_loss": "student_cost_penalty + overload_penalty - course_profit - maths_priority_bonus",
+  "hard_constraints": "Existing course-count, credit, prerequisite, required-course, exclusion and timetable evidence constraints remain enforced.",
+  "overload_mode": "year_specific_credits",
+  "year4_overload_weight": 0.25,
+  "overload_threshold_credits": 12,
+  "years_1_to_3_overload_weight": 0.25,
+  "years_1_to_3_overload_threshold_credits": 15
+}

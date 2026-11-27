@@ -1,0 +1,3326 @@
+[
+  {
+    "profile": {
+      "profile_id": "CM_01",
+      "programme": "CM",
+      "desired_stream": "Enriched Mathematics",
+      "stream_reward_multiplier": 2.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3526",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "CS2360",
+        "CS2468"
+      ],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1113",
+        "GE2260",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "MA3526"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1113",
+          "title": "Visual Storytelling and Cultural Thinking",
+          "grade": "A",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE2260",
+          "title": "Introduction to Finance",
+          "grade": "B",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Enriched Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Enriched Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "current_progress": {
+        "selected_stream": "Enriched Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "MA3523": 2,
+          "MA4528": 2,
+          "MA4542": 2,
+          "MA4545": 2,
+          "MA4546": 2,
+          "MA4551": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "MA3523",
+          "MA4542",
+          "MA4545",
+          "MA4546"
+        ],
+        "remaining_courses": [
+          "MA3523",
+          "MA4542",
+          "MA4545",
+          "MA4546"
+        ],
+        "dependency_layers": [
+          [
+            "MA3523",
+            "MA4542",
+            "MA4545",
+            "MA4546"
+          ]
+        ],
+        "course_sources": {
+          "MA3523": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3523.pdf",
+          "MA4542": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4542.pdf",
+          "MA4545": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "MA4546": "https://www.cityu.edu.hk/catalogue/ug/202526/course/MA4546.pdf"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_dependency_path",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 14
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 28.0,
+      "course_reward_adjustments": {
+        "MA3523": 4.0,
+        "MA4528": 4.0,
+        "MA4542": 4.0,
+        "MA4545": 4.0,
+        "MA4546": 4.0,
+        "MA4551": 4.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CM_02",
+      "programme": "CM",
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 3.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3526",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "CS2360",
+        "CS2468"
+      ],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1113",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "MA3526"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1113",
+          "title": "Visual Storytelling and Cultural Thinking",
+          "grade": "B+",
+          "year": 1,
+          "semester": "A"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": {
+        "EF_options": [
+          {
+            "course_code": "EF3320",
+            "known_prerequisites_satisfied": false,
+            "source_conflict_courses_needing_confirmation": [],
+            "missing_alternatives": [
+              [
+                "CB3410"
+              ],
+              [
+                "FB3410"
+              ]
+            ],
+            "exclusive_conflicts": [],
+            "source": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+            "registration_verified": false,
+            "document_allowed": true,
+            "outside_allowlist_in_each_missing_route": [
+              [
+                "CB3410"
+              ],
+              [
+                "FB3410"
+              ]
+            ],
+            "no_currently_allowed_prerequisite_route": true
+          },
+          {
+            "course_code": "EF4821",
+            "known_prerequisites_satisfied": false,
+            "source_conflict_courses_needing_confirmation": [],
+            "missing_alternatives": [
+              [
+                "EF4820"
+              ]
+            ],
+            "exclusive_conflicts": [],
+            "source": "GE_SEMA/MA/SEMA/EF4821.pdf",
+            "registration_verified": false,
+            "document_allowed": true,
+            "outside_allowlist_in_each_missing_route": [
+              [
+                "EF4820"
+              ]
+            ],
+            "no_currently_allowed_prerequisite_route": true
+          }
+        ],
+        "GE2260_CB3410_conflict_if_both_passed": false,
+        "usual_CB3410_route_conflicts_with_passed_finance_GE": false,
+        "financial_stream_completion_verified": false,
+        "warning": "Financial interest can be strong while the EF entry route is blocked. Do not promise completion of the financial stream without an approved prerequisite route and eligible sections."
+      },
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "current_progress": {
+        "selected_stream": "Financial Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "EF3320": 2,
+          "EF4821": 2,
+          "MA3521": 2,
+          "MA4529": 2,
+          "MA4537": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "remaining_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "dependency_layers": [
+          [
+            "MA3521",
+            "MA4537"
+          ],
+          [
+            "MA4529"
+          ]
+        ],
+        "course_sources": {
+          "EF3320": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "MA3521": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm",
+          "MA4529": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm",
+          "MA4537": null
+        },
+        "offering_warnings": {},
+        "blocked": [
+          {
+            "course": "CB3410",
+            "reason": "outside_programme_allowlist"
+          },
+          {
+            "courses": [
+              "EF3320"
+            ],
+            "reason": "no_verified_dependency_order"
+          }
+        ],
+        "unknown_rules": [
+          {
+            "course": "MA4537",
+            "reason": "prerequisites_not_available_in_source"
+          }
+        ],
+        "status": "blocked",
+        "stream_complete_if_all_passed": false,
+        "base_chain_reward": 0
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 0.0,
+      "course_reward_adjustments": {
+        "EF3320": 6.0,
+        "EF4821": 6.0,
+        "MA3521": 6.0,
+        "MA4529": 6.0,
+        "MA4537": 6.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CM_03",
+      "programme": "CM",
+      "desired_stream": "Enriched Mathematics",
+      "stream_reward_multiplier": 3.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3526",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "CS2360",
+        "CS2468"
+      ],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1113",
+        "GE2340",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "MA3526"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1113",
+          "title": "Visual Storytelling and Cultural Thinking",
+          "grade": "B",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE2340",
+          "title": "Artificial Intelligence - Past, Present, and Future",
+          "grade": "C+",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Enriched Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": {
+        "name": "Artificial Intelligence",
+        "GE_is_minor_credit": false,
+        "declaration_verified": false,
+        "source": "https://www.cityu.edu.hk/catalogue/ug/current/Minor/MNR-AINT.htm",
+        "status": "interest_only_blocked_by_current_course_allowlist",
+        "reason": "AI minor courses are outside the user-specified CM allowlist. CGPA >=3.0, a listed programming pass and departmental approval are also required; no exception is assumed."
+      }
+    },
+    "stream_plan": {
+      "selected_stream": "Enriched Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "current_progress": {
+        "selected_stream": "Enriched Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "MA3523": 2,
+          "MA4528": 2,
+          "MA4542": 2,
+          "MA4545": 2,
+          "MA4546": 2,
+          "MA4551": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "MA3523",
+          "MA4542",
+          "MA4545",
+          "MA4546"
+        ],
+        "remaining_courses": [
+          "MA3523",
+          "MA4542",
+          "MA4545",
+          "MA4546"
+        ],
+        "dependency_layers": [
+          [
+            "MA3523",
+            "MA4542",
+            "MA4545",
+            "MA4546"
+          ]
+        ],
+        "course_sources": {
+          "MA3523": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3523.pdf",
+          "MA4542": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4542.pdf",
+          "MA4545": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "MA4546": "https://www.cityu.edu.hk/catalogue/ug/202526/course/MA4546.pdf"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_dependency_path",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 14
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 42.0,
+      "course_reward_adjustments": {
+        "MA3523": 6.0,
+        "MA4528": 6.0,
+        "MA4542": 6.0,
+        "MA4545": 6.0,
+        "MA4546": 6.0,
+        "MA4551": 6.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CM_04",
+      "programme": "CM",
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 2.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3526",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "CS2360",
+        "CS2468"
+      ],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1105",
+        "GE2134",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "MA3526"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE2134",
+          "title": "Critical and Creative Thinking",
+          "grade": "B+",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE1105",
+          "title": "Chinese Music Appreciation",
+          "grade": "C+",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": {
+        "EF_options": [
+          {
+            "course_code": "EF3320",
+            "known_prerequisites_satisfied": false,
+            "source_conflict_courses_needing_confirmation": [],
+            "missing_alternatives": [
+              [
+                "CB3410"
+              ],
+              [
+                "FB3410"
+              ]
+            ],
+            "exclusive_conflicts": [],
+            "source": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+            "registration_verified": false,
+            "document_allowed": true,
+            "outside_allowlist_in_each_missing_route": [
+              [
+                "CB3410"
+              ],
+              [
+                "FB3410"
+              ]
+            ],
+            "no_currently_allowed_prerequisite_route": true
+          },
+          {
+            "course_code": "EF4821",
+            "known_prerequisites_satisfied": false,
+            "source_conflict_courses_needing_confirmation": [],
+            "missing_alternatives": [
+              [
+                "EF4820"
+              ]
+            ],
+            "exclusive_conflicts": [],
+            "source": "GE_SEMA/MA/SEMA/EF4821.pdf",
+            "registration_verified": false,
+            "document_allowed": true,
+            "outside_allowlist_in_each_missing_route": [
+              [
+                "EF4820"
+              ]
+            ],
+            "no_currently_allowed_prerequisite_route": true
+          }
+        ],
+        "GE2260_CB3410_conflict_if_both_passed": false,
+        "usual_CB3410_route_conflicts_with_passed_finance_GE": false,
+        "financial_stream_completion_verified": false,
+        "warning": "Financial interest can be strong while the EF entry route is blocked. Do not promise completion of the financial stream without an approved prerequisite route and eligible sections."
+      },
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "current_progress": {
+        "selected_stream": "Financial Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "EF3320": 2,
+          "EF4821": 2,
+          "MA3521": 2,
+          "MA4529": 2,
+          "MA4537": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "remaining_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "dependency_layers": [
+          [
+            "MA3521",
+            "MA4537"
+          ],
+          [
+            "MA4529"
+          ]
+        ],
+        "course_sources": {
+          "EF3320": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "MA3521": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm",
+          "MA4529": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm",
+          "MA4537": null
+        },
+        "offering_warnings": {},
+        "blocked": [
+          {
+            "course": "CB3410",
+            "reason": "outside_programme_allowlist"
+          },
+          {
+            "courses": [
+              "EF3320"
+            ],
+            "reason": "no_verified_dependency_order"
+          }
+        ],
+        "unknown_rules": [
+          {
+            "course": "MA4537",
+            "reason": "prerequisites_not_available_in_source"
+          }
+        ],
+        "status": "blocked",
+        "stream_complete_if_all_passed": false,
+        "base_chain_reward": 0
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 0.0,
+      "course_reward_adjustments": {
+        "EF3320": 4.0,
+        "EF4821": 4.0,
+        "MA3521": 4.0,
+        "MA4529": 4.0,
+        "MA4537": 4.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CM_05",
+      "programme": "CM",
+      "desired_stream": "Enriched Mathematics",
+      "stream_reward_multiplier": 2.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3526",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "CS2360",
+        "CS2468"
+      ],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1105",
+        "GE1202",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "MA3526"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1105",
+          "title": "Chinese Music Appreciation",
+          "grade": "B+",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE1202",
+          "title": "Managing Your Personal Finance",
+          "grade": "A",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Enriched Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Enriched Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "current_progress": {
+        "selected_stream": "Enriched Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "MA3523": 2,
+          "MA4528": 2,
+          "MA4542": 2,
+          "MA4545": 2,
+          "MA4546": 2,
+          "MA4551": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "MA3523",
+          "MA4542",
+          "MA4545",
+          "MA4546"
+        ],
+        "remaining_courses": [
+          "MA3523",
+          "MA4542",
+          "MA4545",
+          "MA4546"
+        ],
+        "dependency_layers": [
+          [
+            "MA3523",
+            "MA4542",
+            "MA4545",
+            "MA4546"
+          ]
+        ],
+        "course_sources": {
+          "MA3523": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3523.pdf",
+          "MA4542": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4542.pdf",
+          "MA4545": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "MA4546": "https://www.cityu.edu.hk/catalogue/ug/202526/course/MA4546.pdf"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_dependency_path",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 14
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 28.0,
+      "course_reward_adjustments": {
+        "MA3523": 4.0,
+        "MA4528": 4.0,
+        "MA4542": 4.0,
+        "MA4545": 4.0,
+        "MA4546": 4.0,
+        "MA4551": 4.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CM_06",
+      "programme": "CM",
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 2.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3526",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "CS2360",
+        "CS2468"
+      ],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1105",
+        "GE1113",
+        "GE1202",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "MA3526"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1113",
+          "title": "Visual Storytelling and Cultural Thinking",
+          "grade": "B",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE1202",
+          "title": "Managing Your Personal Finance",
+          "grade": "C+",
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "course_code": "GE1105",
+          "title": "Chinese Music Appreciation",
+          "grade": "A",
+          "year": 2,
+          "semester": "A"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": {
+        "EF_options": [
+          {
+            "course_code": "EF3320",
+            "known_prerequisites_satisfied": false,
+            "source_conflict_courses_needing_confirmation": [],
+            "missing_alternatives": [
+              [
+                "CB3410"
+              ],
+              [
+                "FB3410"
+              ]
+            ],
+            "exclusive_conflicts": [],
+            "source": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+            "registration_verified": false,
+            "document_allowed": true,
+            "outside_allowlist_in_each_missing_route": [
+              [
+                "CB3410"
+              ],
+              [
+                "FB3410"
+              ]
+            ],
+            "no_currently_allowed_prerequisite_route": true
+          },
+          {
+            "course_code": "EF4821",
+            "known_prerequisites_satisfied": false,
+            "source_conflict_courses_needing_confirmation": [],
+            "missing_alternatives": [
+              [
+                "EF4820"
+              ]
+            ],
+            "exclusive_conflicts": [],
+            "source": "GE_SEMA/MA/SEMA/EF4821.pdf",
+            "registration_verified": false,
+            "document_allowed": true,
+            "outside_allowlist_in_each_missing_route": [
+              [
+                "EF4820"
+              ]
+            ],
+            "no_currently_allowed_prerequisite_route": true
+          }
+        ],
+        "GE2260_CB3410_conflict_if_both_passed": false,
+        "usual_CB3410_route_conflicts_with_passed_finance_GE": false,
+        "financial_stream_completion_verified": false,
+        "warning": "Financial interest can be strong while the EF entry route is blocked. Do not promise completion of the financial stream without an approved prerequisite route and eligible sections."
+      },
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "current_progress": {
+        "selected_stream": "Financial Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "EF3320": 2,
+          "EF4821": 2,
+          "MA3521": 2,
+          "MA4529": 2,
+          "MA4537": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "remaining_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "dependency_layers": [
+          [
+            "MA3521",
+            "MA4537"
+          ],
+          [
+            "MA4529"
+          ]
+        ],
+        "course_sources": {
+          "EF3320": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "MA3521": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm",
+          "MA4529": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm",
+          "MA4537": null
+        },
+        "offering_warnings": {},
+        "blocked": [
+          {
+            "course": "CB3410",
+            "reason": "outside_programme_allowlist"
+          },
+          {
+            "courses": [
+              "EF3320"
+            ],
+            "reason": "no_verified_dependency_order"
+          }
+        ],
+        "unknown_rules": [
+          {
+            "course": "MA4537",
+            "reason": "prerequisites_not_available_in_source"
+          }
+        ],
+        "status": "blocked",
+        "stream_complete_if_all_passed": false,
+        "base_chain_reward": 0
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 0.0,
+      "course_reward_adjustments": {
+        "EF3320": 4.0,
+        "EF4821": 4.0,
+        "MA3521": 4.0,
+        "MA4529": 4.0,
+        "MA4537": 4.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CM_07",
+      "programme": "CM",
+      "desired_stream": "Enriched Mathematics",
+      "stream_reward_multiplier": 2.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3526",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "CS2360",
+        "CS2468"
+      ],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE2340",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "MA3526"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE2340",
+          "title": "Artificial Intelligence - Past, Present, and Future",
+          "grade": "B+",
+          "year": 1,
+          "semester": "A"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Enriched Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": {
+        "name": "Artificial Intelligence",
+        "GE_is_minor_credit": false,
+        "declaration_verified": false,
+        "source": "https://www.cityu.edu.hk/catalogue/ug/current/Minor/MNR-AINT.htm",
+        "status": "interest_only_blocked_by_current_course_allowlist",
+        "reason": "AI minor courses are outside the user-specified CM allowlist. CGPA >=3.0, a listed programming pass and departmental approval are also required; no exception is assumed."
+      }
+    },
+    "stream_plan": {
+      "selected_stream": "Enriched Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "current_progress": {
+        "selected_stream": "Enriched Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "MA3523": 2,
+          "MA4528": 2,
+          "MA4542": 2,
+          "MA4545": 2,
+          "MA4546": 2,
+          "MA4551": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "MA3523",
+          "MA4542",
+          "MA4545",
+          "MA4546"
+        ],
+        "remaining_courses": [
+          "MA3523",
+          "MA4542",
+          "MA4545",
+          "MA4546"
+        ],
+        "dependency_layers": [
+          [
+            "MA3523",
+            "MA4542",
+            "MA4545",
+            "MA4546"
+          ]
+        ],
+        "course_sources": {
+          "MA3523": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3523.pdf",
+          "MA4542": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4542.pdf",
+          "MA4545": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "MA4546": "https://www.cityu.edu.hk/catalogue/ug/202526/course/MA4546.pdf"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_dependency_path",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 14
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 28.0,
+      "course_reward_adjustments": {
+        "MA3523": 4.0,
+        "MA4528": 4.0,
+        "MA4542": 4.0,
+        "MA4545": 4.0,
+        "MA4546": 4.0,
+        "MA4551": 4.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CM_08",
+      "programme": "CM",
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 3.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3526",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "CS2360",
+        "CS2468"
+      ],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE2134",
+        "GE2260",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "MA3526"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE2134",
+          "title": "Critical and Creative Thinking",
+          "grade": "B",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE2260",
+          "title": "Introduction to Finance",
+          "grade": "B",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "evidence_GE_passes": [
+        "GE2260"
+      ],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": {
+        "EF_options": [
+          {
+            "course_code": "EF3320",
+            "known_prerequisites_satisfied": false,
+            "source_conflict_courses_needing_confirmation": [],
+            "missing_alternatives": [
+              [
+                "CB3410"
+              ],
+              [
+                "FB3410"
+              ]
+            ],
+            "exclusive_conflicts": [],
+            "source": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+            "registration_verified": false,
+            "document_allowed": true,
+            "outside_allowlist_in_each_missing_route": [
+              [
+                "CB3410"
+              ],
+              [
+                "FB3410"
+              ]
+            ],
+            "no_currently_allowed_prerequisite_route": true
+          },
+          {
+            "course_code": "EF4821",
+            "known_prerequisites_satisfied": false,
+            "source_conflict_courses_needing_confirmation": [],
+            "missing_alternatives": [
+              [
+                "EF4820"
+              ]
+            ],
+            "exclusive_conflicts": [],
+            "source": "GE_SEMA/MA/SEMA/EF4821.pdf",
+            "registration_verified": false,
+            "document_allowed": true,
+            "outside_allowlist_in_each_missing_route": [
+              [
+                "EF4820"
+              ]
+            ],
+            "no_currently_allowed_prerequisite_route": true
+          }
+        ],
+        "GE2260_CB3410_conflict_if_both_passed": false,
+        "usual_CB3410_route_conflicts_with_passed_finance_GE": true,
+        "financial_stream_completion_verified": false,
+        "warning": "Financial interest can be strong while the EF entry route is blocked. Do not promise completion of the financial stream without an approved prerequisite route and eligible sections."
+      },
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "current_progress": {
+        "selected_stream": "Financial Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "EF3320": 2,
+          "EF4821": 2,
+          "MA3521": 2,
+          "MA4529": 2,
+          "MA4537": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "remaining_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "dependency_layers": [
+          [
+            "MA3521",
+            "MA4537"
+          ],
+          [
+            "MA4529"
+          ]
+        ],
+        "course_sources": {
+          "EF3320": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "MA3521": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm",
+          "MA4529": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm",
+          "MA4537": null
+        },
+        "offering_warnings": {},
+        "blocked": [
+          {
+            "course": "CB3410",
+            "reason": "outside_programme_allowlist"
+          },
+          {
+            "courses": [
+              "EF3320"
+            ],
+            "reason": "no_verified_dependency_order"
+          }
+        ],
+        "unknown_rules": [
+          {
+            "course": "MA4537",
+            "reason": "prerequisites_not_available_in_source"
+          }
+        ],
+        "status": "blocked",
+        "stream_complete_if_all_passed": false,
+        "base_chain_reward": 0
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 0.0,
+      "course_reward_adjustments": {
+        "EF3320": 6.0,
+        "EF4821": 6.0,
+        "MA3521": 6.0,
+        "MA4529": 6.0,
+        "MA4537": 6.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CM_09",
+      "programme": "CM",
+      "desired_stream": "Enriched Mathematics",
+      "stream_reward_multiplier": 3.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3526",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "CS2360",
+        "CS2468"
+      ],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE2134",
+        "GE2260",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "MA3526"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE2134",
+          "title": "Critical and Creative Thinking",
+          "grade": "C+",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE2260",
+          "title": "Introduction to Finance",
+          "grade": "C+",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Enriched Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Enriched Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "current_progress": {
+        "selected_stream": "Enriched Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "MA3523": 2,
+          "MA4528": 2,
+          "MA4542": 2,
+          "MA4545": 2,
+          "MA4546": 2,
+          "MA4551": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "MA3523",
+          "MA4542",
+          "MA4545",
+          "MA4546"
+        ],
+        "remaining_courses": [
+          "MA3523",
+          "MA4542",
+          "MA4545",
+          "MA4546"
+        ],
+        "dependency_layers": [
+          [
+            "MA3523",
+            "MA4542",
+            "MA4545",
+            "MA4546"
+          ]
+        ],
+        "course_sources": {
+          "MA3523": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3523.pdf",
+          "MA4542": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4542.pdf",
+          "MA4545": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "MA4546": "https://www.cityu.edu.hk/catalogue/ug/202526/course/MA4546.pdf"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_dependency_path",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 14
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 42.0,
+      "course_reward_adjustments": {
+        "MA3523": 6.0,
+        "MA4528": 6.0,
+        "MA4542": 6.0,
+        "MA4545": 6.0,
+        "MA4546": 6.0,
+        "MA4551": 6.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CM_10",
+      "programme": "CM",
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 3.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA2507",
+        "MA2510",
+        "MA3511",
+        "MA3526",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "CS2360",
+        "CS2468"
+      ],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1105",
+        "GE1113",
+        "GE2134",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3512",
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3518",
+        "MA3525",
+        "MA3526"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1105",
+          "title": "Chinese Music Appreciation",
+          "grade": "B+",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE1113",
+          "title": "Visual Storytelling and Cultural Thinking",
+          "grade": "C+",
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "course_code": "GE2134",
+          "title": "Critical and Creative Thinking",
+          "grade": "C+",
+          "year": 2,
+          "semester": "A"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": {
+        "EF_options": [
+          {
+            "course_code": "EF3320",
+            "known_prerequisites_satisfied": false,
+            "source_conflict_courses_needing_confirmation": [],
+            "missing_alternatives": [
+              [
+                "CB3410"
+              ],
+              [
+                "FB3410"
+              ]
+            ],
+            "exclusive_conflicts": [],
+            "source": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+            "registration_verified": false,
+            "document_allowed": true,
+            "outside_allowlist_in_each_missing_route": [
+              [
+                "CB3410"
+              ],
+              [
+                "FB3410"
+              ]
+            ],
+            "no_currently_allowed_prerequisite_route": true
+          },
+          {
+            "course_code": "EF4821",
+            "known_prerequisites_satisfied": false,
+            "source_conflict_courses_needing_confirmation": [],
+            "missing_alternatives": [
+              [
+                "EF4820"
+              ]
+            ],
+            "exclusive_conflicts": [],
+            "source": "GE_SEMA/MA/SEMA/EF4821.pdf",
+            "registration_verified": false,
+            "document_allowed": true,
+            "outside_allowlist_in_each_missing_route": [
+              [
+                "EF4820"
+              ]
+            ],
+            "no_currently_allowed_prerequisite_route": true
+          }
+        ],
+        "GE2260_CB3410_conflict_if_both_passed": false,
+        "usual_CB3410_route_conflicts_with_passed_finance_GE": false,
+        "financial_stream_completion_verified": false,
+        "warning": "Financial interest can be strong while the EF entry route is blocked. Do not promise completion of the financial stream without an approved prerequisite route and eligible sections."
+      },
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Financial Mathematics",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "current_progress": {
+        "selected_stream": "Financial Mathematics",
+        "completed_slots": 0,
+        "required_slots": 4,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "EF3320": 2,
+          "EF4821": 2,
+          "MA3521": 2,
+          "MA4529": 2,
+          "MA4537": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "remaining_courses": [
+          "EF3320",
+          "MA3521",
+          "MA4529",
+          "MA4537"
+        ],
+        "dependency_layers": [
+          [
+            "MA3521",
+            "MA4537"
+          ],
+          [
+            "MA4529"
+          ]
+        ],
+        "course_sources": {
+          "EF3320": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "MA3521": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm",
+          "MA4529": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm",
+          "MA4537": null
+        },
+        "offering_warnings": {},
+        "blocked": [
+          {
+            "course": "CB3410",
+            "reason": "outside_programme_allowlist"
+          },
+          {
+            "courses": [
+              "EF3320"
+            ],
+            "reason": "no_verified_dependency_order"
+          }
+        ],
+        "unknown_rules": [
+          {
+            "course": "MA4537",
+            "reason": "prerequisites_not_available_in_source"
+          }
+        ],
+        "status": "blocked",
+        "stream_complete_if_all_passed": false,
+        "base_chain_reward": 0
+      },
+      "alternatives_evaluated": 3,
+      "scaled_chain_reward": 0.0,
+      "course_reward_adjustments": {
+        "EF3320": 6.0,
+        "EF4821": 6.0,
+        "MA3521": 6.0,
+        "MA4529": 6.0,
+        "MA4537": 6.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CS_01",
+      "programme": "CS",
+      "desired_stream": "Artificial Intelligence",
+      "stream_reward_multiplier": 4.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "MA2185"
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "GE1105",
+        "GE1305",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1305",
+          "title": "Foundation Physics",
+          "grade": "C+",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE1105",
+          "title": "Chinese Music Appreciation",
+          "grade": "B",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Artificial Intelligence",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 4.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Artificial Intelligence",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 4.0,
+      "current_progress": {
+        "selected_stream": "Artificial Intelligence",
+        "completed_slots": 0,
+        "required_slots": 3,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "CS3383": 2,
+          "CS4186": 2,
+          "CS4386": 2,
+          "CS4486": 2,
+          "CS4487": 2,
+          "CS4489": 2,
+          "CS4490": 2,
+          "CS4493": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "CS3383",
+          "CS4486",
+          "CS4487"
+        ],
+        "remaining_courses": [
+          "CS3383",
+          "CS4486",
+          "CS4487"
+        ],
+        "dependency_layers": [
+          [
+            "CS3383",
+            "CS4486"
+          ],
+          [
+            "CS4487"
+          ]
+        ],
+        "course_sources": {
+          "CS3383": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3383.pdf",
+          "CS4486": "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4486.pdf",
+          "CS4487": "https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_dependency_path",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 12
+      },
+      "alternatives_evaluated": 42,
+      "scaled_chain_reward": 48.0,
+      "course_reward_adjustments": {
+        "CS3383": 8.0,
+        "CS4186": 8.0,
+        "CS4386": 8.0,
+        "CS4486": 8.0,
+        "CS4487": 8.0,
+        "CS4489": 8.0,
+        "CS4490": 8.0,
+        "CS4493": 8.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CS_02",
+      "programme": "CS",
+      "desired_stream": "Data Science",
+      "stream_reward_multiplier": 3.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "MA2185"
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "GE1305",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1305",
+          "title": "Foundation Physics",
+          "grade": "A",
+          "year": 1,
+          "semester": "A"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Data Science",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Data Science",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "current_progress": {
+        "selected_stream": "Data Science",
+        "completed_slots": 0,
+        "required_slots": 3,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "CS3481": 2,
+          "CS4480": 2,
+          "CS4487": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "CS3481",
+          "CS4480",
+          "CS4487"
+        ],
+        "remaining_courses": [
+          "CS3402",
+          "CS3481",
+          "CS4480",
+          "CS4487"
+        ],
+        "dependency_layers": [
+          [
+            "CS3402",
+            "CS3481"
+          ],
+          [
+            "CS4480",
+            "CS4487"
+          ]
+        ],
+        "course_sources": {
+          "CS3402": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs semb time\\cs3402.pdf",
+          "CS3481": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs semb time\\cs3481.pdf",
+          "CS4480": "https://www.cityu.edu.hk/catalogue/ug/current/course/CS4480.htm",
+          "CS4487": "https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_dependency_path",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 12
+      },
+      "alternatives_evaluated": 1,
+      "scaled_chain_reward": 36.0,
+      "course_reward_adjustments": {
+        "CS3481": 6.0,
+        "CS4480": 6.0,
+        "CS4487": 6.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CS_03",
+      "programme": "CS",
+      "desired_stream": "Cybersecurity",
+      "stream_reward_multiplier": 2.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "MA2185"
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "GE1105",
+        "GE1202",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1202",
+          "title": "Managing Your Personal Finance",
+          "grade": "B+",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE1105",
+          "title": "Chinese Music Appreciation",
+          "grade": "B",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Cybersecurity",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Cybersecurity",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "current_progress": {
+        "selected_stream": "Cybersecurity",
+        "completed_slots": 0,
+        "required_slots": 3,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "CS4286": 2,
+          "CS4293": 2,
+          "CS4394": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "CS4286",
+          "CS4293",
+          "CS4394"
+        ],
+        "remaining_courses": [
+          "CS4286",
+          "CS4293",
+          "CS4394"
+        ],
+        "dependency_layers": [
+          [
+            "CS4286",
+            "CS4293",
+            "CS4394"
+          ]
+        ],
+        "course_sources": {
+          "CS4286": "https://www.cityu.edu.hk/catalogue/ug/202425/course/CS4286.htm",
+          "CS4293": "https://www.cityu.edu.hk/catalogue/ug/current/course/cs4293.htm",
+          "CS4394": "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4394.pdf"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [
+          {
+            "course": "CS4286",
+            "reason": "historical_source_needs_current_confirmation"
+          }
+        ],
+        "status": "provisional_missing_rules",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 12
+      },
+      "alternatives_evaluated": 1,
+      "scaled_chain_reward": 24.0,
+      "course_reward_adjustments": {
+        "CS4286": 4.0,
+        "CS4293": 4.0,
+        "CS4394": 4.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CS_04",
+      "programme": "CS",
+      "desired_stream": "Multimedia Computing",
+      "stream_reward_multiplier": 3.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "MA2185"
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "GE1105",
+        "GE2134",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1105",
+          "title": "Chinese Music Appreciation",
+          "grade": "C+",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE2134",
+          "title": "Critical and Creative Thinking",
+          "grade": "B",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Multimedia Computing",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Multimedia Computing",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 3.0,
+      "current_progress": {
+        "selected_stream": "Multimedia Computing",
+        "completed_slots": 0,
+        "required_slots": 3,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "CS3189": 2,
+          "CS3483": 2,
+          "CS4182": 2,
+          "CS4185": 2,
+          "CS4186": 2,
+          "CS4187": 2,
+          "CS4188": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "CS3189",
+          "CS3483",
+          "CS4182"
+        ],
+        "remaining_courses": [
+          "CS3189",
+          "CS3483",
+          "CS4182"
+        ],
+        "dependency_layers": [
+          [
+            "CS3189",
+            "CS3483",
+            "CS4182"
+          ]
+        ],
+        "course_sources": {
+          "CS3189": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs semb time\\cs3189.pdf",
+          "CS3483": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3483.pdf",
+          "CS4182": "https://www.cityu.edu.hk/catalogue/ug/current/course/cs4182.htm"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_dependency_path",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 12
+      },
+      "alternatives_evaluated": 5,
+      "scaled_chain_reward": 36.0,
+      "course_reward_adjustments": {
+        "CS3189": 6.0,
+        "CS3483": 6.0,
+        "CS4182": 6.0,
+        "CS4185": 6.0,
+        "CS4186": 6.0,
+        "CS4187": 6.0,
+        "CS4188": 6.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CS_05",
+      "programme": "CS",
+      "desired_stream": "Software Engineering and Project Management",
+      "stream_reward_multiplier": 4.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "MA2185"
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "GE1105",
+        "GE1202",
+        "GE2340",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1202",
+          "title": "Managing Your Personal Finance",
+          "grade": "C+",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE2340",
+          "title": "Artificial Intelligence - Past, Present, and Future",
+          "grade": "B+",
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "course_code": "GE1105",
+          "title": "Chinese Music Appreciation",
+          "grade": "C+",
+          "year": 2,
+          "semester": "A"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Software Engineering and Project Management",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 4.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": {
+        "name": "Artificial Intelligence",
+        "GE_is_minor_credit": false,
+        "declaration_verified": false,
+        "source": "https://www.cityu.edu.hk/catalogue/ug/current/Minor/MNR-AINT.htm",
+        "status": "not_allowed_for_CS_major",
+        "reason": "Official AI minor excludes Computer Science; use the AI major stream instead."
+      }
+    },
+    "stream_plan": {
+      "selected_stream": "Software Engineering and Project Management",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 4.0,
+      "current_progress": {
+        "selected_stream": "Software Engineering and Project Management",
+        "completed_slots": 0,
+        "required_slots": 3,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "CS3346": 2,
+          "CS3356": 2,
+          "CS4348": 2,
+          "CS4389": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "CS3346",
+          "CS3356",
+          "CS4348"
+        ],
+        "remaining_courses": [
+          "CS3346",
+          "CS3356",
+          "CS4348"
+        ],
+        "dependency_layers": [
+          [
+            "CS3346",
+            "CS3356",
+            "CS4348"
+          ]
+        ],
+        "course_sources": {
+          "CS3346": "https://www.cityu.edu.hk/catalogue/ug/current/course/cs3346.htm",
+          "CS3356": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3356.pdf",
+          "CS4348": "https://www.cityu.edu.hk/catalogue/ug/202324/course/CS4348.htm"
+        },
+        "offering_warnings": {
+          "CS3346": "Not offering in current 2026/27 academic year. Future offering unverified."
+        },
+        "blocked": [],
+        "unknown_rules": [
+          {
+            "course": "CS4348",
+            "reason": "historical_source_needs_current_confirmation"
+          }
+        ],
+        "status": "provisional_missing_rules",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 12
+      },
+      "alternatives_evaluated": 4,
+      "scaled_chain_reward": 48.0,
+      "course_reward_adjustments": {
+        "CS3346": 8.0,
+        "CS3356": 8.0,
+        "CS4348": 8.0,
+        "CS4389": 8.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CS_06",
+      "programme": "CS",
+      "desired_stream": "Artificial Intelligence",
+      "stream_reward_multiplier": 2.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "MA2185"
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "GE1113",
+        "GE2134",
+        "GE2260",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE2260",
+          "title": "Introduction to Finance",
+          "grade": "C+",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE2134",
+          "title": "Critical and Creative Thinking",
+          "grade": "B+",
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "course_code": "GE1113",
+          "title": "Visual Storytelling and Cultural Thinking",
+          "grade": "C+",
+          "year": 2,
+          "semester": "A"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Artificial Intelligence",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Artificial Intelligence",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "current_progress": {
+        "selected_stream": "Artificial Intelligence",
+        "completed_slots": 0,
+        "required_slots": 3,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "CS3383": 2,
+          "CS4186": 2,
+          "CS4386": 2,
+          "CS4486": 2,
+          "CS4487": 2,
+          "CS4489": 2,
+          "CS4490": 2,
+          "CS4493": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "CS3383",
+          "CS4486",
+          "CS4487"
+        ],
+        "remaining_courses": [
+          "CS3383",
+          "CS4486",
+          "CS4487"
+        ],
+        "dependency_layers": [
+          [
+            "CS3383",
+            "CS4486"
+          ],
+          [
+            "CS4487"
+          ]
+        ],
+        "course_sources": {
+          "CS3383": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3383.pdf",
+          "CS4486": "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4486.pdf",
+          "CS4487": "https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_dependency_path",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 12
+      },
+      "alternatives_evaluated": 42,
+      "scaled_chain_reward": 24.0,
+      "course_reward_adjustments": {
+        "CS3383": 4.0,
+        "CS4186": 4.0,
+        "CS4386": 4.0,
+        "CS4486": 4.0,
+        "CS4487": 4.0,
+        "CS4489": 4.0,
+        "CS4490": 4.0,
+        "CS4493": 4.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CS_07",
+      "programme": "CS",
+      "desired_stream": "Data Science",
+      "stream_reward_multiplier": 4.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "MA2185"
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "GE1105",
+        "GE1305",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE1105",
+          "title": "Chinese Music Appreciation",
+          "grade": "B",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE1305",
+          "title": "Foundation Physics",
+          "grade": "B+",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Data Science",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 4.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Data Science",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 4.0,
+      "current_progress": {
+        "selected_stream": "Data Science",
+        "completed_slots": 0,
+        "required_slots": 3,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "CS3481": 2,
+          "CS4480": 2,
+          "CS4487": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "CS3481",
+          "CS4480",
+          "CS4487"
+        ],
+        "remaining_courses": [
+          "CS3402",
+          "CS3481",
+          "CS4480",
+          "CS4487"
+        ],
+        "dependency_layers": [
+          [
+            "CS3402",
+            "CS3481"
+          ],
+          [
+            "CS4480",
+            "CS4487"
+          ]
+        ],
+        "course_sources": {
+          "CS3402": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs semb time\\cs3402.pdf",
+          "CS3481": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs semb time\\cs3481.pdf",
+          "CS4480": "https://www.cityu.edu.hk/catalogue/ug/current/course/CS4480.htm",
+          "CS4487": "https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_dependency_path",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 12
+      },
+      "alternatives_evaluated": 1,
+      "scaled_chain_reward": 48.0,
+      "course_reward_adjustments": {
+        "CS3481": 8.0,
+        "CS4480": 8.0,
+        "CS4487": 8.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CS_08",
+      "programme": "CS",
+      "desired_stream": "Cybersecurity",
+      "stream_reward_multiplier": 2.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "MA2185"
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "GE1105",
+        "GE2260",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE2260",
+          "title": "Introduction to Finance",
+          "grade": "A",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE1105",
+          "title": "Chinese Music Appreciation",
+          "grade": "B+",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Cybersecurity",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Cybersecurity",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 2.0,
+      "current_progress": {
+        "selected_stream": "Cybersecurity",
+        "completed_slots": 0,
+        "required_slots": 3,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "CS4286": 2,
+          "CS4293": 2,
+          "CS4394": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "CS4286",
+          "CS4293",
+          "CS4394"
+        ],
+        "remaining_courses": [
+          "CS4286",
+          "CS4293",
+          "CS4394"
+        ],
+        "dependency_layers": [
+          [
+            "CS4286",
+            "CS4293",
+            "CS4394"
+          ]
+        ],
+        "course_sources": {
+          "CS4286": "https://www.cityu.edu.hk/catalogue/ug/202425/course/CS4286.htm",
+          "CS4293": "https://www.cityu.edu.hk/catalogue/ug/current/course/cs4293.htm",
+          "CS4394": "https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4394.pdf"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [
+          {
+            "course": "CS4286",
+            "reason": "historical_source_needs_current_confirmation"
+          }
+        ],
+        "status": "provisional_missing_rules",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 12
+      },
+      "alternatives_evaluated": 1,
+      "scaled_chain_reward": 24.0,
+      "course_reward_adjustments": {
+        "CS4286": 4.0,
+        "CS4293": 4.0,
+        "CS4394": 4.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CS_09",
+      "programme": "CS",
+      "desired_stream": "Multimedia Computing",
+      "stream_reward_multiplier": 4.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "MA2185"
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "GE1305",
+        "GE2134",
+        "GE2260",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE2134",
+          "title": "Critical and Creative Thinking",
+          "grade": "A",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE2260",
+          "title": "Introduction to Finance",
+          "grade": "C+",
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "course_code": "GE1305",
+          "title": "Foundation Physics",
+          "grade": "C+",
+          "year": 2,
+          "semester": "A"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Multimedia Computing",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 4.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": null
+    },
+    "stream_plan": {
+      "selected_stream": "Multimedia Computing",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 4.0,
+      "current_progress": {
+        "selected_stream": "Multimedia Computing",
+        "completed_slots": 0,
+        "required_slots": 3,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "CS3189": 2,
+          "CS3483": 2,
+          "CS4182": 2,
+          "CS4185": 2,
+          "CS4186": 2,
+          "CS4187": 2,
+          "CS4188": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "CS3189",
+          "CS3483",
+          "CS4182"
+        ],
+        "remaining_courses": [
+          "CS3189",
+          "CS3483",
+          "CS4182"
+        ],
+        "dependency_layers": [
+          [
+            "CS3189",
+            "CS3483",
+            "CS4182"
+          ]
+        ],
+        "course_sources": {
+          "CS3189": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs semb time\\cs3189.pdf",
+          "CS3483": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3483.pdf",
+          "CS4182": "https://www.cityu.edu.hk/catalogue/ug/current/course/cs4182.htm"
+        },
+        "offering_warnings": {},
+        "blocked": [],
+        "unknown_rules": [],
+        "status": "academic_dependency_path",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 12
+      },
+      "alternatives_evaluated": 5,
+      "scaled_chain_reward": 48.0,
+      "course_reward_adjustments": {
+        "CS3189": 8.0,
+        "CS3483": 8.0,
+        "CS4182": 8.0,
+        "CS4185": 8.0,
+        "CS4186": 8.0,
+        "CS4187": 8.0,
+        "CS4188": 8.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  },
+  {
+    "profile": {
+      "profile_id": "CS_10",
+      "programme": "CS",
+      "desired_stream": "Software Engineering and Project Management",
+      "stream_reward_multiplier": 4.0,
+      "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+      "completed_taught_core": [
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "MA2185"
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS2613",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "CS4335",
+        "GE2260",
+        "GE2340",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "GE_history": [
+        {
+          "course_code": "GE2340",
+          "title": "Artificial Intelligence - Past, Present, and Future",
+          "grade": "B",
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "course_code": "GE2260",
+          "title": "Introduction to Finance",
+          "grade": "A",
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "fictional": true,
+      "future_term": "unverified",
+      "random_seed": 20261121,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      }
+    },
+    "pathway": {
+      "selected_stream": "Software Engineering and Project Management",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 4.0,
+      "evidence_GE_passes": [],
+      "prerequisite_bridge_bonus": {},
+      "finance_route_audit": null,
+      "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+      "minor": {
+        "name": "Artificial Intelligence",
+        "GE_is_minor_credit": false,
+        "declaration_verified": false,
+        "source": "https://www.cityu.edu.hk/catalogue/ug/current/Minor/MNR-AINT.htm",
+        "status": "not_allowed_for_CS_major",
+        "reason": "Official AI minor excludes Computer Science; use the AI major stream instead."
+      }
+    },
+    "stream_plan": {
+      "selected_stream": "Software Engineering and Project Management",
+      "selection_source": "user_desired_stream",
+      "stream_reward_multiplier": 4.0,
+      "current_progress": {
+        "selected_stream": "Software Engineering and Project Management",
+        "completed_slots": 0,
+        "required_slots": 3,
+        "stream_complete": false,
+        "course_chain_bonus": {
+          "CS3346": 2,
+          "CS3356": 2,
+          "CS4348": 2,
+          "CS4389": 2
+        },
+        "completion_bonus": 6,
+        "progress_bonus_per_slot": 2,
+        "maximum_streams_rewarded": 1
+      },
+      "path": {
+        "target_stream_courses": [
+          "CS3346",
+          "CS3356",
+          "CS4348"
+        ],
+        "remaining_courses": [
+          "CS3346",
+          "CS3356",
+          "CS4348"
+        ],
+        "dependency_layers": [
+          [
+            "CS3346",
+            "CS3356",
+            "CS4348"
+          ]
+        ],
+        "course_sources": {
+          "CS3346": "https://www.cityu.edu.hk/catalogue/ug/current/course/cs3346.htm",
+          "CS3356": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3356.pdf",
+          "CS4348": "https://www.cityu.edu.hk/catalogue/ug/202324/course/CS4348.htm"
+        },
+        "offering_warnings": {
+          "CS3346": "Not offering in current 2026/27 academic year. Future offering unverified."
+        },
+        "blocked": [],
+        "unknown_rules": [
+          {
+            "course": "CS4348",
+            "reason": "historical_source_needs_current_confirmation"
+          }
+        ],
+        "status": "provisional_missing_rules",
+        "stream_complete_if_all_passed": true,
+        "base_chain_reward": 12
+      },
+      "alternatives_evaluated": 4,
+      "scaled_chain_reward": 48.0,
+      "course_reward_adjustments": {
+        "CS3346": 8.0,
+        "CS3356": 8.0,
+        "CS4348": 8.0,
+        "CS4389": 8.0
+      },
+      "all_path_courses_programme_allowed": true,
+      "future_offerings_and_timetables_verified": false,
+      "declaration_or_graduation_verified": false,
+      "note": "Layers show academic dependency order, not semester assignments. Unknown prerequisites remain explicit; blocked routes are never claimed as completed."
+    }
+  }
+]

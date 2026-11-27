@@ -1,0 +1,170 @@
+1         CS3000: Professional Career Development Internship
+CS3000: PROFESSIONAL CAREER
+DEVELOPMENT INTERNSHIP
+Eﬀective Term
+Semester A 2026/27 
+Part I Course Overview
+Course Title
+Professional Career Development Internship 
+Subject Code
+CS - Computer Science 
+Course Number
+3000 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+Non-standard Duration 
+Other Course Duration
+Students should complete a minimum internship duration of 160 hours (equivalent to 4 weeks of full-time work) by the end
+of the study period. 
+Credit Units
+0 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Completed at least 25 credit units of CS courses and attained CGPA of 2.0 or above in the semester prior to internship, or
+subject to special approval by the Internship Coordinator. 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+2         CS3000: Professional Career Development Internship
+CS3504 IT Professional Placement or 
+CS3505 IT Professional Internship 
+Part II Course Details
+Abstract
+The Professional Career Development Internship (CS3000) program is designed to provide students with practical exposure
+and hands-on experience in areas related to research and professional development. This course aims to prepare students
+for co-curricular activities relevant to any related computer science ﬁelds while equipping them with advanced technical
+and non-technical skills to excel in both industry and academic research.
+This course bridges academic knowledge with professional R&D practice by requiring students to complete 160 hours
+of hands-on internship work in industry, academia, or research projects. Students may fulﬁll the requirement through
+placements of their choice (e.g., software development, cybersecurity, or faculty-led research projects), with no maximum
+duration constraint. Prior internship experience may be recognized subject to approval by the internship coordinator. Upon
+completion, students will demonstrate technical proﬁciency, critical thinking, and professionalism essential for careers in
+industry or academic research
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Apply interdisciplinary scientiﬁc/engineering
+principles to design and implement solutions
+for real-world computer science problems in
+professional settings.
+40 x
+2 Observe, analyze, and identify the importance
+of technical and non-technical skills in
+professional practice.
+30 x
+3 Demonstrate professionalism through
+collaboration, ethical responsibility, and
+eﬀective communication in diverse workplace
+or research environments.
+30 x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+3         CS3000: Professional Career Development Internship
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Professional Work
+Experience
+Students will complete
+a total of 160 hours of
+internship, equivalent
+to 4 weeks of full-time
+work, in a professional
+environment. This
+may include working
+in an industry setting,
+collaborating on research
+projects under faculty
+supervision for example,
+or participating in other
+approved opportunities.
+1, 2, 3
+Additional Information for LTAs
+Attendance at mandatory pre-internship workshops is required, as is CS3504/05. 
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks Allow Use of
+GenAI?
+1 Reference Letter
+and Reports
+1, 2, 3 100 Evidence of
+complete a total
+of 160 hours of
+internship.
+Yes
+Continuous Assessment (%)
+100 
+Examination (%)
+0 
+Additional Information for ATs
+Student Report:
+Students will submit a detailed report summarizing their internship experience, including key tasks completed, skills
+developed, challenges faced, and how they applied academic knowledge to solve real-world problems.
+Reference Letter from Supervisor:
+Workplace supervisors will provide a letter evaluating the student’s performance, including their technical and non-
+technical skills, professionalism, and overall contribution.
+Final Determination :
+While student reports and supervisor evaluations form the primary basis for assessment, the Internship Coordinator or
+Department of Computer Science retains the right to make the ﬁnal decision on course completion. This includes reviewing
+supplementary evidence (e.g., interviews, documentation) and addressing cases where academic integrity, workplace
+performance, or special circumstances may aﬀect outcomes.
+Assessment Rubrics (AR)
+Assessment Task
+Reports 
+Criterion
+Evidence of professional career development, eﬀective performance, and completion of a total of 160 hours of internship. 
+4         CS3000: Professional Career Development Internship
+Pass (P)
+Satisfactory 
+Positive feedback highlighting technical and interpersonal skills. 
+Failure (F)
+Unsatisfactory 
+Negative Feedback indicates major areas of weakness. 
+Part III Other Information
+Keyword Syllabus
+Technical Skills: 
+A. Application of computer science theories in real-world scenarios 
+B. Problem-solving and critical thinking in practical contexts 
+C. Development practices and tools 
+D. Research and development methodologies
+Non-Technical Skills: 
+A. Leadership and teamwork in professional settings 
+B. Communication (verbal, written, and technical documentation) 
+C. Self-motivation, adaptability, and resilience 
+D. Ethics, workplace professionalism, and cultural awareness
+Professional Training and Career Development: 
+A. Career planning and employability skills (resume writing, interview preparation) 
+B. Networking and professional relationship building 
+C. Lifelong learning and skills upskilling 
+D. Entrepreneurship and innovation
+Reading List
+Compulsory Readings
+ Title
+1 Nil
+Additional Readings
+ Title
+1 Felder, R. M., & Brent, R. (2016). Teaching and Learning STEM: A Practical Guide (2nd ed.). Jossey-Bass.
+2 Moore, J., Nelson, C., & Smith, D. (2021). Work-Integrated Learning in Higher Education: Research, Practice, and
+Theory (1st ed.). Routledge.
+3 Shapiro, D. E., & Stefkovich, J. A. (2016). Ethical Leadership and Decision Making in Education: Applying Theoretical
+Perspectives to Complex Dilemmas (4th ed.). Routledge.
+4 Hutchings, P., & Marchese, T. J. (2020). Making Teaching Public: A Guide for Research Internship Programs .
+Carnegie Foundation for the Advancement of Teaching.

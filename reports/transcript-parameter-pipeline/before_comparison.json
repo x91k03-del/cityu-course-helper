@@ -1,0 +1,29 @@
+[
+  {
+    "id": "F",
+    "transcript_accepted": false,
+    "prompted_accepted": false,
+    "parameters_identical": false,
+    "optimizer_paths_identical": false,
+    "credits": null,
+    "objective": null
+  },
+  {
+    "id": "N",
+    "transcript_accepted": false,
+    "prompted_accepted": false,
+    "parameters_identical": false,
+    "optimizer_paths_identical": false,
+    "credits": null,
+    "objective": null
+  },
+  {
+    "id": "M",
+    "transcript_accepted": false,
+    "prompted_accepted": false,
+    "parameters_identical": false,
+    "optimizer_paths_identical": false,
+    "credits": null,
+    "objective": null
+  }
+]

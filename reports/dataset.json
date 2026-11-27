@@ -1,0 +1,22 @@
+{
+  "warning": "All numeric scores are synthetic rubric labels, not reviewed CityU workload targets.",
+  "seed": 42,
+  "split_unit": "normalized course aims group",
+  "splits": {
+    "train": {
+      "courses": 62,
+      "examples": 434,
+      "sha256": "b76241bf19e3a61b8b12555e03c7d10ce755be2e8eaa66c3d4d44692e1014ca8"
+    },
+    "validation": {
+      "courses": 7,
+      "examples": 49,
+      "sha256": "c77890d8fbe0cbdb336cc65e09c58671a3c543ca6e5d82e9c77326af9f230887"
+    },
+    "test": {
+      "courses": 8,
+      "examples": 56,
+      "sha256": "df923d13d49612ecd0ad8c2a1440e843c5f0d429af354e4d04da39f262c1ffb2"
+    }
+  }
+}

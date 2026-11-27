@@ -1,0 +1,206 @@
+[
+  {
+    "id": "relation:MA3512:2",
+    "expected": {
+      "target": "MA3512",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"MA3512\", \"preparation_bonus\": 0.25, \"strongest_sources\": [\"MA2508\"]}",
+    "passed": false
+  },
+  {
+    "id": "relation:GE2134:5",
+    "expected": {
+      "target": "GE2134",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"GE2134\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:MA3518:6",
+    "expected": {
+      "target": "MA3518",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"MA3518\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:CS2360:7",
+    "expected": {
+      "target": "CS2360",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"CS2360\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:MA4546:6",
+    "expected": {
+      "target": "MA4546",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"MA4546\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:MA3515:6",
+    "expected": {
+      "target": "MA3515",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"MA3515\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:CS2360:1",
+    "expected": {
+      "target": "CS2360",
+      "preparation_bonus": 0.2,
+      "strongest_sources": [
+        "CS1302"
+      ]
+    },
+    "raw": "{\"target\": \"CS2360\", \"preparation_bonus\": 0.2, \"strongest_sources\": [{\"source\": \"CS1302\", \"benefit\": 0.2}, {\"source\": \"CS1302A\", \"benefit\": 0.2}]}",
+    "passed": false
+  },
+  {
+    "id": "relation:EF3320:10",
+    "expected": {
+      "target": "EF3320",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"EF3320\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:CS3334:3",
+    "expected": {
+      "target": "CS3334",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"CS3334\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:CS2468:4",
+    "expected": {
+      "target": "CS2468",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"CS2468\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:EF3320:6",
+    "expected": {
+      "target": "EF3320",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"EF3320\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:GE2134:6",
+    "expected": {
+      "target": "GE2134",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"GE2134\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:MA3514:3",
+    "expected": {
+      "target": "MA3514",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"MA3514\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:MA3518:5",
+    "expected": {
+      "target": "MA3518",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"MA3518\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:EF3320:7",
+    "expected": {
+      "target": "EF3320",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"EF3320\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:MA3518:1",
+    "expected": {
+      "target": "MA3518",
+      "preparation_bonus": 0.3,
+      "strongest_sources": [
+        "MA2510"
+      ]
+    },
+    "raw": "{\"target\": \"MA3518\", \"preparation_bonus\": 0.3, \"strongest_sources\": [{\"source\": \"MA2510\", \"benefit\": 0.3}]}",
+    "passed": false
+  },
+  {
+    "id": "relation:MA3515:5",
+    "expected": {
+      "target": "MA3515",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"MA3515\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:CS2360:10",
+    "expected": {
+      "target": "CS2360",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"CS2360\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:MA3512:4",
+    "expected": {
+      "target": "MA3512",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"MA3512\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  },
+  {
+    "id": "relation:MA3518:3",
+    "expected": {
+      "target": "MA3518",
+      "preparation_bonus": 0.0,
+      "strongest_sources": []
+    },
+    "raw": "{\"target\": \"MA3518\", \"preparation_bonus\": 0.0, \"strongest_sources\": []}",
+    "passed": true
+  }
+]

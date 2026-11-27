@@ -1,0 +1,15 @@
+{
+  "adapter": "adapters/bscm-ma-timetable",
+  "base_model": "Qwen/Qwen3-8B",
+  "adapter_sha256": "20baa2d40a8a65400ecfb7e33df29e83eb9f522b0924fde684c50be377ea9072",
+  "training_report": "reports/ma-timetable/training.json",
+  "evaluation_report": "reports/ma-timetable/evaluation.json",
+  "term_code": "202609",
+  "source_dataset_sha256": {
+    "courses.json": "074a3ef8f4cce453c81b13c4a4d1272e995aae93409d7f689ebb299335f936d7",
+    "train.jsonl": "a4e48cfe3ebeced89a239c382f74bc5e1ef954a4ca5aeb157126163c901061d4",
+    "validation.jsonl": "b1d39474171ceae3ebf33a63abf57a9cb25ac952dc6bf8264cfb6b1d70dd20b8",
+    "test.jsonl": "1e7c80bf0f95070eb44efd94d9012db37dcc290f2ca322f1ab27cd8f02cb3432"
+  },
+  "answer_policy": "Exact saved source lookup for schedule and rule questions; model memory is diagnostic only."
+}

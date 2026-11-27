@@ -1,0 +1,35 @@
+{
+  "evaluation_target": "public_fact_extraction_and_synthetic_rubric_scores_not_real_student_workload",
+  "test_examples": 56,
+  "seconds": 344.6318771999795,
+  "schema_definition": "Exact extraction keys and numeric JSON types; validated bounded scoring fields.",
+  "numeric_normalization": "Only numeric strings are converted for the separate factual-value comparison.",
+  "methods": {
+    "base": {
+      "valid_json_and_schema": 48,
+      "invalid": 8,
+      "valid_score_predictions": 48,
+      "exact_fact_extractions": 0,
+      "fact_values_match_after_numeric_normalization": 8,
+      "fact_extraction_examples": 8,
+      "mse_on_valid_synthetic_targets": {
+        "background_mismatch": 0.06343750000000001,
+        "difficulty": 0.03125000000000001,
+        "workload": 0.0131
+      }
+    },
+    "fine_tuned": {
+      "valid_json_and_schema": 56,
+      "invalid": 0,
+      "valid_score_predictions": 48,
+      "exact_fact_extractions": 8,
+      "fact_values_match_after_numeric_normalization": 8,
+      "fact_extraction_examples": 8,
+      "mse_on_valid_synthetic_targets": {
+        "background_mismatch": 0.016927083333333332,
+        "difficulty": 0.00046875000000000015,
+        "workload": 0.0005250000000000009
+      }
+    }
+  }
+}

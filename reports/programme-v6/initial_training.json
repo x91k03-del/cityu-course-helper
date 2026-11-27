@@ -1,0 +1,45 @@
+{
+  "model": {
+    "repo_id": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "retrieved_at": "2026-10-24T04:09:04.230857+00:00",
+    "official_url": "https://huggingface.co/Qwen/Qwen3-8B"
+  },
+  "args": {
+    "epochs": 2,
+    "accumulation": 4,
+    "max_length": 4096,
+    "lr": 3e-05,
+    "data_dir": "data/programme-v6",
+    "output_dir": "adapters/cm-cs-programme-v6",
+    "report_dir": "reports/programme-v6",
+    "init_adapter": "adapters/bscm-preparation-v5",
+    "assistant_logits_only": true
+  },
+  "label_type": "User-PDF-conditioned CM/CS curriculum, timetable and requirement extraction plus synthetic single-stream policy distillation",
+  "torch": "2.7.1+cu128",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "train_examples": 485,
+  "validation_examples": 24,
+  "training_method": "NF4 frozen base with BF16 compute and rank-8 QLoRA",
+  "trainable_parameters": 21823488,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.024556882073086376,
+      "validation_loss": 0.0030541540244380903
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0038200875633326186,
+      "validation_loss": 0.0024324651870625187
+    }
+  ],
+  "status": "complete",
+  "loss_method": "assistant_positions_only_equivalent_masked_CE",
+  "initial_validation_loss": 0.06654354193180405,
+  "selected_epoch": 2,
+  "seconds": 644.5800488999812,
+  "peak_gpu_allocated_gb": 8.266178131103516,
+  "optimizer_steps": 244
+}

@@ -1,0 +1,17 @@
+{
+  "programme": "CM",
+  "programme_code": "BSCSIU4",
+  "cohort": 2025,
+  "term": "202702",
+  "year": 2,
+  "completed_courses": [
+    "MA1300",
+    "MA1301",
+    "MA2503",
+    "MA2508",
+    "MA2509",
+    "CS1302",
+    "CS2360"
+  ],
+  "selected_stream": "Enriched Mathematics"
+}

@@ -1,0 +1,230 @@
+1         CS3103: Operating Systems
+CS3103: OPERATING SYSTEMS
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Operating Systems 
+Subject Code
+CS - Computer Science 
+Course Number
+3103 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+(CS2115 Computer Organization or EE2004 Microcomputer System) And 
+(CS2310 Computer Programming or CS2311 Computer Programming or 
+CS2360 Java Programming) 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+Part II Course Details
+Abstract
+2         CS3103: Operating Systems
+This course aims to introduce the concepts, roles and functionality of operating systems, which are an essential part of
+any computer system.   By going through the major areas in the development of operating systems including process
+management, memory management, scheduling, I/O and disk management, students are expected to gain a broad
+understanding of key approaches to operating system design and implementation.  By discussing the design issues of
+diﬀerent approaches, students should be able to analyse the trade-oﬀs and contrast their performance in satisfying diﬀerent
+system and application requirements.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Identify and describe the objectives, roles and
+functionality of typical operating systems.
+2 Explain concepts which are fundamental to
+operating system requirements and designs.
+3 Discuss design issues of diﬀerent approaches to
+operating system design and implementation
+in order to understand their characteristics and
+analyse the trade-oﬀs.
+x
+4 Describe and contrast design and performance
+of diﬀerent algorithms proposed for major
+operating system functionalities such as
+scheduling, concurrency, memory and disk
+management.
+x
+5 Demonstrate ability/skill in applying operating
+system concepts to develop and implement
+eﬀective solutions to programming problems.
+x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Students will explain
+basic concepts and
+introduce existing
+approaches to operating
+system design and
+implementation. Requires
+students to ask questions
+actively and apply
+knowledge to discuss and
+solve problems
+1, 2, 3, 4 3 hours/week
+3         CS3103: Operating Systems
+2 Tutorial Students will apply
+operating system
+concepts to analysis
+problems in operating
+system design and
+develop and implement
+solutions to programming
+problems.
+1, 2, 3, 4, 5 8 hours/semester
+3 Group project Students will work as a
+group to apply operating
+system concepts and
+algorithms to solve
+programming problems
+and analyse its functional
+and non-functional
+aspects.
+1, 2, 3, 4, 5 After class
+4 Assignment Students will apply
+operating system
+concepts to solve diﬀerent
+programming, analysis
+and calculation problems
+that are common in
+modern operating system
+design.
+1, 2, 3, 4, 5 After class
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Programming
+assignments
+2, 5 17 - Yes
+2 Case study 1, 2 8 - Yes
+3 Mid-term quiz 1, 2, 3, 4 15 - No
+Continuous Assessment (%)
+40 
+Examination (%)
+60 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Programming assignments 
+Criterion
+4         CS3103: Operating Systems
+1.1 Understanding and application of operating system concepts1.2 Ability to develop and implement eﬀective solutions to
+programming problems. 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching the marginal levels 
+Assessment Task
+Case study 
+Criterion
+2.1 Ability to identify and describe information and operations for supporting management functions provided by system
+utilities in a commercial operating system. 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching the marginal levels 
+Assessment Task
+Mid-term quiz 
+Criterion
+3.1 Ability to describe basic concepts3.2 Ability to explain diﬀerent approaches to operating system design and
+implementation. 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+5         CS3103: Operating Systems
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching the marginal levels 
+Assessment Task
+Examination 
+Criterion
+3.1 Ability to describe basic concepts3.2 Ability to explain diﬀerent approaches to operating system design and
+implementation3.3 Ability to contrast design and performance of diﬀerent algorithms proposed for major operating system
+functionalities. 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching the marginal levels 
+Part III Other Information
+Keyword Syllabus
+Operating system objectives and functions, processes and threads, mutual exclusion, synchronization, deadlock, processor
+scheduling, memory management, virtual memory, I/O buﬀering, disk scheduling and management.
+Syllabus:
+• Overview and basics of operating system 
+Objectives and roles of operating system. Interrupt processing. Process and process control blocks. Process states and
+state diagrams. Modes of execution. Context switching. Multithreading. User-level and kernel-level threads.
+• Concurrency 
+Race condition. Mutual exclusion. Synchronization. Semaphores. Deadlock. Classic problems.
+• Scheduling 
+Long-term, medium-term and long-term scheduling. Preemptive and non-preemptive scheduling. Scheduling
+algorithms.
+• Memory management 
+Memory hierarchy. Caching. Paging. Segmentation. Virtual memory. Thrashing. Memory allocation. Working sets.
+• Device management 
+I/O devices. Direct memory access. Buﬀering. Disk scheduling. Failure recovery.
+6         CS3103: Operating Systems
+• File management 
+File organization. Directories. Secondary storage management.
+Reading List
+Compulsory Readings
+ Title
+1 William Stallings (2015). Operating Systems: Internals and Design Principles. Pearson
+Additional Readings
+ Title
+1 Abraham Silberschatz, Peter B. Galvin, Grey Gagne (2014). Operating System Concepts. Wiley.

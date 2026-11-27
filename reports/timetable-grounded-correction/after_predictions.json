@@ -1,0 +1,498 @@
+[
+  {
+    "id": "policy:CS:202702:CS3104:",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CS\", \"term\": \"202702\", \"course_code\": \"CS3104\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CS",
+      "term": "202702",
+      "course_code": "CS3104",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "policy:CM:202609:MA2001:",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202609\", \"course_code\": \"MA2001\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202609",
+      "course_code": "MA2001",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "policy:CM:202609:MA2503:EF3320",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202609\", \"course_code\": \"MA2503\", \"timetable_available\": true, \"finance_background\": \"advanced\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202609",
+      "course_code": "MA2503",
+      "timetable_available": true,
+      "finance_background": "advanced",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "policy:CM:202702:MA1505:EF3320",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"MA1505\", \"timetable_available\": false, \"finance_background\": \"advanced\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "MA1505",
+      "timetable_available": false,
+      "finance_background": "advanced",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "policy:CM:202702:MA1501:EF3320",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"MA1501\", \"timetable_available\": false, \"finance_background\": \"advanced\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "MA1501",
+      "timetable_available": false,
+      "finance_background": "advanced",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "policy:CM:202609:MA2510:",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202609\", \"course_code\": \"MA2510\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202609",
+      "course_code": "MA2510",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "policy:CM:202609:MA1502:",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202609\", \"course_code\": \"MA1502\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202609",
+      "course_code": "MA1502",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "policy:CM:202702:MA3517:EF3320",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"MA3517\", \"timetable_available\": true, \"finance_background\": \"advanced\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "MA3517",
+      "timetable_available": true,
+      "finance_background": "advanced",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "policy:CS:202609:CS2611:",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CS\", \"term\": \"202609\", \"course_code\": \"CS2611\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CS",
+      "term": "202609",
+      "course_code": "CS2611",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "policy:CM:202609:MA1300:",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202609\", \"course_code\": \"MA1300\", \"timetable_available\": true, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202609",
+      "course_code": "MA1300",
+      "timetable_available": true,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "policy:CM:202609:MA1508:GE1202",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202609\", \"course_code\": \"MA1508\", \"timetable_available\": false, \"finance_background\": \"introductory\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202609",
+      "course_code": "MA1508",
+      "timetable_available": false,
+      "finance_background": "introductory",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "policy:CS:202609:CS2115:GE1202",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CS\", \"term\": \"202609\", \"course_code\": \"CS2115\", \"timetable_available\": true, \"finance_background\": \"introductory\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CS",
+      "term": "202609",
+      "course_code": "CS2115",
+      "timetable_available": true,
+      "finance_background": "introductory",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "boundary:EF3320:0",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF3320\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 3.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF3320",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 3.0
+    },
+    "passed": true
+  },
+  {
+    "id": "boundary:EF4821:0",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF4821\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 3.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF4821",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 3.0
+    },
+    "passed": true
+  },
+  {
+    "id": "boundary:EF3320:1",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF3320\", \"timetable_available\": false, \"finance_background\": \"introductory\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF3320",
+      "timetable_available": false,
+      "finance_background": "introductory",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "boundary:EF4821:1",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF4821\", \"timetable_available\": false, \"finance_background\": \"introductory\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF4821",
+      "timetable_available": false,
+      "finance_background": "introductory",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "boundary:EF3320:2",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF3320\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 0.75}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF3320",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 0.75
+    },
+    "passed": true
+  },
+  {
+    "id": "boundary:EF4821:2",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF4821\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 0.75}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF4821",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 0.75
+    },
+    "passed": true
+  },
+  {
+    "id": "boundary:EF3320:3",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF3320\", \"timetable_available\": false, \"finance_background\": \"introductory\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF3320",
+      "timetable_available": false,
+      "finance_background": "introductory",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "boundary:EF4821:3",
+    "task": "timetable_EF_policy",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF4821\", \"timetable_available\": false, \"finance_background\": \"introductory\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF4821",
+      "timetable_available": false,
+      "finance_background": "introductory",
+      "EF_mismatch_penalty": 0.0
+    },
+    "passed": true
+  },
+  {
+    "id": "diagnostic:corrected:CM_finance_analysis",
+    "task": "grounded_timetable",
+    "raw_model_response": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA3512:10430\", \"MA3518:10613\", \"MA3521:11880\", \"MA3525:11213:11219\", \"MA4545:11882\"], \"course_count\": 5}",
+    "expected": {
+      "status": "feasible",
+      "selected_option_ids": [
+        "MA3512:10430",
+        "MA3518:10613",
+        "MA3521:11880",
+        "MA3525:11213:11219",
+        "MA4545:11882"
+      ],
+      "course_count": 5
+    },
+    "passed": true
+  },
+  {
+    "id": "diagnostic:corrected:CM_finance_no_analysis",
+    "task": "grounded_timetable",
+    "raw_model_response": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA3512:10430\", \"MA3518:10613\", \"MA3521:11880\", \"MA3525:11213:11219\", \"MA4545:11882\"], \"course_count\": 5}",
+    "expected": {
+      "status": "feasible",
+      "selected_option_ids": [
+        "MA3512:10430",
+        "MA3518:10613",
+        "MA3521:11880",
+        "MA3525:11213:11219",
+        "MA4545:11882"
+      ],
+      "course_count": 5
+    },
+    "passed": true
+  },
+  {
+    "id": "diagnostic:corrected:CM_enriched",
+    "task": "grounded_timetable",
+    "raw_model_response": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA3512:10430\", \"MA3518:10613\", \"MA3521:11880\", \"MA3525:11213:11219\", \"MA4545:11882\"], \"course_count\": 5}",
+    "expected": {
+      "status": "feasible",
+      "selected_option_ids": [
+        "MA3512:10430",
+        "MA3518:10613",
+        "MA3525:11213:11219",
+        "MA4542:11513",
+        "MA4545:11882"
+      ],
+      "course_count": 5
+    },
+    "passed": true
+  },
+  {
+    "id": "diagnostic:corrected:CS_AI",
+    "task": "grounded_timetable",
+    "raw_model_response": "{\"status\": \"infeasible\", \"selected_option_ids\": [], \"course_count\": 0}",
+    "expected": {
+      "status": "infeasible",
+      "selected_option_ids": [],
+      "course_count": 0
+    },
+    "passed": true
+  },
+  {
+    "id": "diagnostic:corrected:CS_AI_no_CS3342",
+    "task": "grounded_timetable",
+    "raw_model_response": "{\"status\": \"infeasible\", \"selected_option_ids\": [], \"course_count\": 0}",
+    "expected": {
+      "status": "infeasible",
+      "selected_option_ids": [],
+      "course_count": 0
+    },
+    "passed": true
+  },
+  {
+    "id": "diagnostic:corrected:CS_data_science",
+    "task": "grounded_timetable",
+    "raw_model_response": "{\"status\": \"infeasible\", \"selected_option_ids\": [], \"course_count\": 0}",
+    "expected": {
+      "status": "infeasible",
+      "selected_option_ids": [],
+      "course_count": 0
+    },
+    "passed": true
+  },
+  {
+    "id": "diagnostic:entry:CM:202609",
+    "task": "grounded_timetable",
+    "raw_model_response": "{\"status\": \"infeasible\", \"selected_option_ids\": [], \"course_count\": 0}",
+    "expected": {
+      "status": "infeasible",
+      "selected_option_ids": [],
+      "course_count": 0
+    },
+    "passed": true
+  },
+  {
+    "id": "diagnostic:entry:CM:202702",
+    "task": "grounded_timetable",
+    "raw_model_response": "{\"status\": \"infeasible\", \"selected_option_ids\": [], \"course_count\": 0}",
+    "expected": {
+      "status": "infeasible",
+      "selected_option_ids": [],
+      "course_count": 0
+    },
+    "passed": true
+  },
+  {
+    "id": "diagnostic:entry:CS:202609",
+    "task": "grounded_timetable",
+    "raw_model_response": "{\"status\": \"infeasible\", \"selected_option_ids\": [], \"course_count\": 0}",
+    "expected": {
+      "status": "infeasible",
+      "selected_option_ids": [],
+      "course_count": 0
+    },
+    "passed": true
+  },
+  {
+    "id": "diagnostic:entry:CS:202702",
+    "task": "grounded_timetable",
+    "raw_model_response": "{\"status\": \"infeasible\", \"selected_option_ids\": [], \"course_count\": 0}",
+    "expected": {
+      "status": "infeasible",
+      "selected_option_ids": [],
+      "course_count": 0
+    },
+    "passed": true
+  },
+  {
+    "id": "regression:member:CS:CHEM3081",
+    "task": "membership",
+    "raw_model_response": "{\"document_allowed\": false, \"registration_verified\": false}",
+    "expected": {
+      "document_allowed": false,
+      "registration_verified": false
+    },
+    "passed": true
+  },
+  {
+    "id": "regression:member:CM:MA4531",
+    "task": "membership",
+    "raw_model_response": "{\"document_allowed\": true, \"registration_verified\": false}",
+    "expected": {
+      "document_allowed": true,
+      "registration_verified": false
+    },
+    "passed": true
+  },
+  {
+    "id": "regression:member:CS:GE2304",
+    "task": "membership",
+    "raw_model_response": "{\"document_allowed\": true, \"registration_verified\": false}",
+    "expected": {
+      "document_allowed": true,
+      "registration_verified": false
+    },
+    "passed": true
+  },
+  {
+    "id": "regression:stream:CM:Financial Mathematics:19",
+    "task": "stream",
+    "raw_model_response": "{\"selected_stream\": \"Financial Mathematics\", \"completed_slots\": 2, \"required_slots\": 4, \"stream_complete\": false, \"course_chain_bonus\": {\"EF3320\": 0, \"MA3521\": 8, \"MA4537\": 0}, \"completion_bonus\": 6, \"progress_bonus_per_slot\": 2, \"maximum_streams_rewarded\": 1}",
+    "expected": {
+      "selected_stream": "Financial Mathematics",
+      "completed_slots": 2,
+      "required_slots": 4,
+      "stream_complete": false,
+      "course_chain_bonus": {
+        "EF3320": 2,
+        "MA3521": 2,
+        "MA4537": 2
+      },
+      "completion_bonus": 6,
+      "progress_bonus_per_slot": 2,
+      "maximum_streams_rewarded": 1
+    },
+    "passed": false
+  },
+  {
+    "id": "regression:stream:CM:Enriched Mathematics:9",
+    "task": "stream",
+    "raw_model_response": "{\"selected_stream\": \"Enriched Mathematics\", \"completed_slots\": 3, \"required_slots\": 4, \"stream_complete\": false, \"course_chain_bonus\": {\"MA4546\": 2}, \"completion_bonus\": 6, \"progress_bonus_per_slot\": 2, \"maximum_streams_rewarded\": 1}",
+    "expected": {
+      "selected_stream": "Enriched Mathematics",
+      "completed_slots": 4,
+      "required_slots": 4,
+      "stream_complete": true,
+      "course_chain_bonus": {
+        "MA4546": 0
+      },
+      "completion_bonus": 6,
+      "progress_bonus_per_slot": 2,
+      "maximum_streams_rewarded": 1
+    },
+    "passed": false
+  },
+  {
+    "id": "regression:stream:CS:Multimedia Computing:22",
+    "task": "stream",
+    "raw_model_response": "{\"selected_stream\": \"Multimedia Computing\", \"completed_slots\": 3, \"required_slots\": 3, \"stream_complete\": true, \"course_chain_bonus\": {\"CS3189\": 0, \"CS4186\": 0, \"CS4188\": 0}, \"completion_bonus\": 6, \"progress_bonus_per_slot\": 2, \"maximum_streams_rewarded\": 1}",
+    "expected": {
+      "selected_stream": "Multimedia Computing",
+      "completed_slots": 3,
+      "required_slots": 3,
+      "stream_complete": true,
+      "course_chain_bonus": {
+        "CS3189": 0,
+        "CS4186": 0,
+        "CS4188": 0
+      },
+      "completion_bonus": 6,
+      "progress_bonus_per_slot": 2,
+      "maximum_streams_rewarded": 1
+    },
+    "passed": true
+  }
+]

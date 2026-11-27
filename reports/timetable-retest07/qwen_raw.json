@@ -1,0 +1,34 @@
+[
+  {
+    "case_id": "CM_finance_analysis",
+    "raw": "{\"case_id\": \"CM_finance_analysis\", \"status\": \"feasible\", \"selected_option_ids\": [\"MA3512:10430\", \"MA3518:10613\", \"MA3521:11880\", \"MA4542:11513\", \"MA4545:11882\"], \"future_path\": \"Complete MA4529 and EF3320 to satisfy stream requirements.\"}"
+  },
+  {
+    "case_id": "CM_finance_no_analysis",
+    "raw": "{\"case_id\": \"CM_finance_no_analysis\", \"status\": \"feasible\", \"selected_option_ids\": [\"MA3512:10430\", \"MA3518:10613\", \"MA3521:11880\", \"MA3525:11213:11219\", \"EF3320:10000\"], \"future_path\": \"Complete MA3521, MA3525, and EF3320 to meet stream requirements; then take MA4529 and MA4537.\"}"
+  },
+  {
+    "case_id": "CM_enriched",
+    "raw": "{\"case_id\": \"CM_enriched\", \"status\": \"feasible\", \"selected_option_ids\": [\"MA3512:10430\", \"MA3518:10613\", \"MA3525:11213:11219\", \"MA4542:11513\", \"MA4545:11882\"], \"future_path\": \"Complete MA3523 and MA4546 to satisfy stream requirements.\"}"
+  },
+  {
+    "case_id": "CS_AI",
+    "raw": "{\"case_id\":\"CS_AI\",\"status\":\"feasible\",\"selected_option_ids\":[\"CS3356:11724:11726\",\"CS3383:14958:15303\",\"CS3402:10816:15173\",\"CS3483:10145:13161\",\"CS4486:11729:11730\"],\"future_path\":\"Complete CS4487 and AI electives next term to satisfy core slots.\"}"
+  },
+  {
+    "case_id": "CS_AI_no_CS3342",
+    "raw": "{\"case_id\":\"CS_AI_no_CS3342\",\"status\":\"feasible\",\"selected_option_ids\":[\"CS2613:13743\",\"CS3402:10816:15173\",\"CS3483:10145:13161\"],\"future_path\":\"Take CS3342 next year to complete AI core slots; then CS4486 and CS4487 in Year 3 Semester B.\"}"
+  },
+  {
+    "case_id": "CS_data_science",
+    "raw": "{\"case_id\":\"CS_data_science\",\"status\":\"feasible\",\"selected_option_ids\":[\"CS2613:13743\",\"CS3356:11724:11726\",\"CS3402:10816:15173\",\"CS3483:10145:13161\",\"CS3383:14958:15303\"],\"future_path\":\"Complete CS3481 and CS4480/CS4487 in next term to fulfill Data Science stream.\"}"
+  },
+  {
+    "case_id": "CM_finance_no_statistics",
+    "raw": "{\"case_id\":\"CM_finance_no_statistics\",\"status\":\"infeasible\",\"selected_option_ids\":[],\"future_path\":\"No legal five-course combination exists for the Financial Mathematics stream.\"}"
+  },
+  {
+    "case_id": "CM_finance_no_linear_algebra",
+    "raw": "{\"case_id\":\"CM_finance_no_linear_algebra\",\"status\":\"feasible\",\"selected_option_ids\":[\"MA3512:10430\",\"MA3518:10613\",\"MA3521:11880\",\"MA4542:11513\",\"MA4545:11882\"],\"future_path\":\"Complete MA2503 and MA3521 to satisfy stream requirements.\"}"
+  }
+]

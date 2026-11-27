@@ -1,0 +1,814 @@
+[
+  {
+    "course_code": "MA1300",
+    "crn": "12244",
+    "section": "C01",
+    "credits": 3,
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "12:00",
+        "end_time": "13:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "LT-18",
+        "pdf_page": 1
+      },
+      {
+        "day": "Wed",
+        "start_time": "17:00",
+        "end_time": "18:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "BOC",
+        "room": "R4057",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": false,
+    "availability_at_capture": "FULL",
+    "capacity": 4,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CM",
+        "values": [
+          "CM"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA1300",
+    "crn": "12245",
+    "section": "T01",
+    "credits": 0,
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "18:00",
+        "end_time": "18:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "P4302",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": false,
+    "availability_at_capture": "FULL",
+    "capacity": 4,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CM",
+        "values": [
+          "CM"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA1300",
+    "crn": "12246",
+    "section": "T02",
+    "credits": 0,
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "18:00",
+        "end_time": "18:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "B5-211",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": false,
+    "availability_at_capture": "FULL",
+    "capacity": 0,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CM",
+        "values": [
+          "CM"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA1502",
+    "crn": "12609",
+    "section": "CB1",
+    "credits": 3,
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "LT-18",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "2",
+    "capacity": 70,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BSCSIU4",
+        "values": [
+          "BSCSIU4"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CM",
+        "values": [
+          "CM"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "cohort",
+        "raw": "2026",
+        "values": [
+          "2026"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA2503",
+    "crn": "13697",
+    "section": "CA1",
+    "credits": 4,
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "LT-3",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "1",
+    "capacity": 75,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BSCSIU2, BSCSIU3, BSCSIU4",
+        "values": [
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CM",
+        "values": [
+          "CM"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA2508",
+    "crn": "13701",
+    "section": "CA1",
+    "credits": 4,
+    "meetings": [
+      {
+        "day": "Sat",
+        "start_time": "11:00",
+        "end_time": "12:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-12-05",
+        "building": "YEUNG",
+        "room": "LT-3",
+        "pdf_page": 1
+      },
+      {
+        "day": "Tue",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-12-05",
+        "building": "YEUNG",
+        "room": "LT-11",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "Full",
+    "capacity": 85,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4",
+        "values": [
+          "BSCCBU4",
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CFFT, CM",
+        "values": [
+          "CFFT",
+          "CM"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA2508",
+    "crn": "13704",
+    "section": "TA1",
+    "credits": 0,
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "LT-11",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "Full",
+    "capacity": 85,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4",
+        "values": [
+          "BSCCBU4",
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CFFT, CM",
+        "values": [
+          "CFFT",
+          "CM"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA2509",
+    "crn": "12041",
+    "section": "CA1",
+    "credits": 3,
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "10:00",
+        "end_time": "10:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "LT-15",
+        "pdf_page": 1
+      },
+      {
+        "day": "Wed",
+        "start_time": "10:00",
+        "end_time": "11:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "LT-15",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "15",
+    "capacity": 93,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BDSI, BSCSIU2, BSCSIU3, BSCSIU4",
+        "values": [
+          "BDSI",
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CM, U",
+        "values": [
+          "CM",
+          "U"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA2509",
+    "crn": "12042",
+    "section": "TA1",
+    "credits": 0,
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "11:00",
+        "end_time": "11:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "LT-15",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "15",
+    "capacity": 93,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BDSI, BSCSIU2, BSCSIU3, BSCSIU4",
+        "values": [
+          "BDSI",
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CM, U",
+        "values": [
+          "CM",
+          "U"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA3512",
+    "crn": "10430",
+    "section": "CA1",
+    "credits": 3,
+    "meetings": [
+      {
+        "day": "Fri",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "G4702",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "9",
+    "capacity": 70,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BSCSIU2, BSCSIU3, BSCSIU4",
+        "values": [
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CM",
+        "values": [
+          "CM"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA3518",
+    "crn": "10613",
+    "section": "CA1",
+    "credits": 3,
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "16:00",
+        "end_time": "18:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "LI",
+        "room": "4307",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "1",
+    "capacity": 65,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BSCSIU2, BSCSIU3, BSCSIU4, DLLBBSC",
+        "values": [
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4",
+          "DLLBBSC"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CM, D001",
+        "values": [
+          "CM",
+          "D001"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA3521",
+    "crn": "11880",
+    "section": "CA1",
+    "credits": 3,
+    "meetings": [
+      {
+        "day": "Mon",
+        "start_time": "09:00",
+        "end_time": "11:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "LT-13",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "7",
+    "capacity": 65,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BSCSIU2, BSCSIU3, BSCSIU4, DLLBBSC",
+        "values": [
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4",
+          "DLLBBSC"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CM, D001",
+        "values": [
+          "CM",
+          "D001"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA3525",
+    "crn": "11213",
+    "section": "CA1",
+    "credits": 3,
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "13:00",
+        "end_time": "14:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "LI",
+        "room": "1614",
+        "pdf_page": 1
+      },
+      {
+        "day": "Tue",
+        "start_time": "14:00",
+        "end_time": "14:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "LI",
+        "room": "1614",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "10",
+    "capacity": 106,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4, DBSCBSC1, DLLBBSC",
+        "values": [
+          "BSCCBU4",
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4",
+          "DBSCBSC1",
+          "DLLBBSC"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CFFT, CM, D001, D004, D008",
+        "values": [
+          "CFFT",
+          "CM",
+          "D001",
+          "D004",
+          "D008"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA3525",
+    "crn": "11219",
+    "section": "TA1",
+    "credits": 0,
+    "meetings": [
+      {
+        "day": "Tue",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "LI",
+        "room": "1614",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "10",
+    "capacity": 106,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4, DBSCBSC1, DLLBBSC",
+        "values": [
+          "BSCCBU4",
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4",
+          "DBSCBSC1",
+          "DLLBBSC"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CFFT, CM, D001, D004, D008",
+        "values": [
+          "CFFT",
+          "CM",
+          "D001",
+          "D004",
+          "D008"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA4542",
+    "crn": "11513",
+    "section": "CA1",
+    "credits": 3,
+    "meetings": [
+      {
+        "day": "Thu",
+        "start_time": "15:00",
+        "end_time": "17:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "P4701",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "40",
+    "capacity": 60,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4",
+        "values": [
+          "BSCCBU4",
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CFFT, CM",
+        "values": [
+          "CFFT",
+          "CM"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  },
+  {
+    "course_code": "MA4545",
+    "crn": "11882",
+    "section": "CA1",
+    "credits": 3,
+    "meetings": [
+      {
+        "day": "Wed",
+        "start_time": "12:00",
+        "end_time": "14:50",
+        "start_date": "2026-08-31",
+        "end_date": "2026-11-28",
+        "building": "YEUNG",
+        "room": "P4703",
+        "pdf_page": 1
+      }
+    ],
+    "pdf_pages": [
+      1
+    ],
+    "web_registration": true,
+    "availability_at_capture": "46",
+    "capacity": 60,
+    "restrictions": [
+      {
+        "mode": "only",
+        "field": "programme",
+        "raw": "BSCSIU2, BSCSIU3, BSCSIU4",
+        "values": [
+          "BSCSIU2",
+          "BSCSIU3",
+          "BSCSIU4"
+        ]
+      },
+      {
+        "mode": "only",
+        "field": "major",
+        "raw": "CM",
+        "values": [
+          "CM"
+        ]
+      }
+    ],
+    "term_code": "202609",
+    "teaching_weeks": null,
+    "component_linking_verified": false,
+    "eligibility_verified": false
+  }
+]

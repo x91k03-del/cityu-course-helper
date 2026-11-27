@@ -1,0 +1,9 @@
+{
+  "corrective_examples": 34,
+  "replay": 48,
+  "original_evaluation_retained": true,
+  "failed_test_case_now_used_for_teaching": true,
+  "subsequent_evaluation_is_diagnostic_not_independent_holdout": true,
+  "deployed": false,
+  "reason": "Validation loss worsened and one stream error replaced another; retained initial v6"
+}

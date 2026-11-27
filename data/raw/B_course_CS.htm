@@ -1,0 +1,379 @@
+
+<!DOCTYPE HTML><HTML lang="en">
+<!-- This web page was generated on 24-OCT-2026 08:01:35 -->
+<HEAD><script src="/Hemlock-on-Macb-Then-sight-What-Duncan-eard-thal" async></script>
+<META charset="utf-8" />
+<TITLE>Courses</TITLE>
+<link rel="stylesheet" type="text/css" href="//template.cityu.edu.hk/template/css/cityu.base.css">
+<style>
+.collegeHeader { font-size: 16px; color: #FFFEFF; }
+.noDisplay { display:none; }
+</style>
+<script src="//www.cityu.edu.hk/ug/system/js/jquery.min.js">
+$(document).ready(function(){
+});
+</script>
+<script>
+// NEW selector
+jQuery.expr[':'].Contains = function(a, i, m) {
+return jQuery(a).text().toUpperCase()
+      .indexOf(m[3].toUpperCase()) >= 0;
+};
+// OVERWRITES old selecor
+jQuery.expr[':'].contains = function(a, i, m) {
+  return jQuery(a).text().toUpperCase()
+      .indexOf(m[3].toUpperCase()) >= 0;
+};  
+function setSearch()  
+{
+var record_found = 0; 
+var url = window.location.href;
+var queryString = url.split("?")[1].split("=")[1].split("&")[0];
+var showGEonly = url.split("?")[1].split("=")[2];
+var str = "tr.dept:contains('"+queryString+"')";
+var criteria ="";
+$(".dept").addClass("noDisplay");
+$( ".head ").addClass("noDisplay");
+$(str).removeClass("noDisplay");
+criteria="Courses (with keyword &quot;" + queryString + "&quot;)";
+if(showGEonly=="Y"){
+  criteria=criteria+", show only GE courses"
+}
+$("#header").html(criteria);
+var prev_dept = "";
+var crse_found = "N";
+var ge_crse_found = "N";
+$('.dept').not('.noDisplay').each(function(i, obj) {
+record_found = 1; 
+  var cls = obj.className;
+  var dept = (cls.split(' ')[1]);
+  if(dept.substring(0, 2)=="ge"){
+    ge_crse_found="Y";
+  }
+  else{
+    crse_found="Y";
+  }
+  var head = ".head."+dept;
+  $(head).removeClass("noDisplay");
+});
+$("#crse").removeClass("noDisplay");
+if(showGEonly=="Y"){
+  $("#crse_gp").addClass("noDisplay");
+  $("#ge_title").removeClass("noDisplay");
+  if(ge_crse_found=="N"){
+     $("#ge_no_record").removeClass("noDisplay");
+  }
+}
+if(ge_crse_found=="Y"){
+  $("#ge_title").removeClass("noDisplay");
+}
+if (record_found == 0){
+$("#no_record").removeClass("noDisplay");
+}
+} 
+</script>
+</HEAD><BODY style="padding-left:20px;">
+<span id="crse_gp">
+<h1 class="head d_CS">Department of Computer Science</h1>
+<span id="no_record" class="noDisplay">No record found</span>
+<table class="head d_CS">
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS1102.htm" style="white-space:wrap;" target=_blank>CS1102 Introduction to Computer Studies</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS1103B.htm" style="white-space:wrap;" target=_blank>CS1103B Media Computing</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS1302.htm" style="white-space:wrap;" target=_blank>CS1302 Introduction to Computer Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS1302A.htm" style="white-space:wrap;" target=_blank>CS1302A Introduction to Computer Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS1315.htm" style="white-space:wrap;" target=_blank>CS1315 Introduction to Computer Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2066.htm" style="white-space:wrap;" target=_blank>CS2066 IT Professionals and Society</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2104.htm" style="white-space:wrap;" target=_blank>CS2104 Discrete Computations</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2115.htm" style="white-space:wrap;" target=_blank>CS2115 Computer Organization</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2116.htm" style="white-space:wrap;" target=_blank>CS2116 Computer Systems</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2117.htm" style="white-space:wrap;" target=_blank>CS2117 Foundation of Cybersecurity</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2204.htm" style="white-space:wrap;" target=_blank>CS2204 Fundamentals of Internet Applications Development</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2303.htm" style="white-space:wrap;" target=_blank>CS2303 Data Structures for Media</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2310.htm" style="white-space:wrap;" target=_blank>CS2310 Computer Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2311.htm" style="white-space:wrap;" target=_blank>CS2311 Computer Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2312.htm" style="white-space:wrap;" target=_blank>CS2312 Problem Solving and Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2313.htm" style="white-space:wrap;" target=_blank>CS2313 Computer Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2315.htm" style="white-space:wrap;" target=_blank>CS2315 Computer Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2334.htm" style="white-space:wrap;" target=_blank>CS2334 Data Structures for Data Science</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2360.htm" style="white-space:wrap;" target=_blank>CS2360 Java Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2402.htm" style="white-space:wrap;" target=_blank>CS2402 Introduction to Computational Probability Modeling</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2403.htm" style="white-space:wrap;" target=_blank>CS2403 Data Management and Cloud Storage</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2468.htm" style="white-space:wrap;" target=_blank>CS2468 Data Structures and Data Management</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2611.htm" style="white-space:wrap;" target=_blank>CS2611 Seminars on Contemporary Technology I</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2612.htm" style="white-space:wrap;" target=_blank>CS2612 Seminars on Contemporary Cybersecurity</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS2613.htm" style="white-space:wrap;" target=_blank>CS2613 Seminars on Contemporary Technology</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3000.htm" style="white-space:wrap;" target=_blank>CS3000 Professional Career Development Internship</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3103.htm" style="white-space:wrap;" target=_blank>CS3103 Operating Systems</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3104.htm" style="white-space:wrap;" target=_blank>CS3104 Applied Cryptographic Systems</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3185.htm" style="white-space:wrap;" target=_blank>CS3185 Computer Architecture</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3189.htm" style="white-space:wrap;" target=_blank>CS3189 User-centred Interaction Design</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3201.htm" style="white-space:wrap;" target=_blank>CS3201 Computer Networks</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3273.htm" style="white-space:wrap;" target=_blank>CS3273 Data Protection and System Security</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3283.htm" style="white-space:wrap;" target=_blank>CS3283 Distributed Systems</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3301.htm" style="white-space:wrap;" target=_blank>CS3301 Applied Algorithms</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3334.htm" style="white-space:wrap;" target=_blank>CS3334 Data Structures</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3342.htm" style="white-space:wrap;" target=_blank>CS3342 Software Design</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3343.htm" style="white-space:wrap;" target=_blank>CS3343 Software Engineering Practice</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3346.htm" style="white-space:wrap;" target=_blank>CS3346 Software Testing and Maintenance</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3347.htm" style="white-space:wrap;" target=_blank>CS3347 Software Engineering Principles and Practice</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3356.htm" style="white-space:wrap;" target=_blank>CS3356 Managing Software Projects</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3367.htm" style="white-space:wrap;" target=_blank>CS3367 Essentials of Software Engineering</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3382.htm" style="white-space:wrap;" target=_blank>CS3382 Web Usability Design and Engineering</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3383.htm" style="white-space:wrap;" target=_blank>CS3383 AI for Software Engineering</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3391.htm" style="white-space:wrap;" target=_blank>CS3391 Advanced Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3402.htm" style="white-space:wrap;" target=_blank>CS3402 Database Systems</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3481.htm" style="white-space:wrap;" target=_blank>CS3481 Fundamentals of Data Science</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3483.htm" style="white-space:wrap;" target=_blank>CS3483 Multimodal Interface Design</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3503.htm" style="white-space:wrap;" target=_blank>CS3503 IT Professional Placement</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3504.htm" style="white-space:wrap;" target=_blank>CS3504 IT Professional Placement</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3505.htm" style="white-space:wrap;" target=_blank>CS3505 IT Professional Internship</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS3612.htm" style="white-space:wrap;" target=_blank>CS3612 Seminars on Contemporary Technology II</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4101.htm" style="white-space:wrap;" target=_blank>CS4101 Software Security</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4182.htm" style="white-space:wrap;" target=_blank>CS4182 Computer Graphics</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4185.htm" style="white-space:wrap;" target=_blank>CS4185 Multimedia Technologies and Applications</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4186.htm" style="white-space:wrap;" target=_blank>CS4186 Computer Vision and Image Processing</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4187.htm" style="white-space:wrap;" target=_blank>CS4187 Computer Vision for Interactivity</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4188.htm" style="white-space:wrap;" target=_blank>CS4188 Virtual Reality</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4191.htm" style="white-space:wrap;" target=_blank>CS4191 Mobile and IoT Security</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4192.htm" style="white-space:wrap;" target=_blank>CS4192 Algorithms for Private Data Analytics</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4273.htm" style="white-space:wrap;" target=_blank>CS4273 Distributed System Technologies and Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4274.htm" style="white-space:wrap;" target=_blank>CS4274 Distributed Computing Technologies</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4280.htm" style="white-space:wrap;" target=_blank>CS4280 Advanced Internet Applications Development</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4284.htm" style="white-space:wrap;" target=_blank>CS4284 Mobile Computing</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4285.htm" style="white-space:wrap;" target=_blank>CS4285 High Speed Multimedia Networks</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4286.htm" style="white-space:wrap;" target=_blank>CS4286 Internet Security and e-Commerce Protocols</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4288.htm" style="white-space:wrap;" target=_blank>CS4288 Cryptographic Algorithms and Protocols</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4289.htm" style="white-space:wrap;" target=_blank>CS4289 Pervasive Computing</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4293.htm" style="white-space:wrap;" target=_blank>CS4293 Topics in Cybersecurity</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4295.htm" style="white-space:wrap;" target=_blank>CS4295 Mobile Application Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4296.htm" style="white-space:wrap;" target=_blank>CS4296 Cloud Computing</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4297.htm" style="white-space:wrap;" target=_blank>CS4297 Cloud Robotics and Automation</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4298.htm" style="white-space:wrap;" target=_blank>CS4298 iOS Application Development</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4335.htm" style="white-space:wrap;" target=_blank>CS4335 Design and Analysis of Algorithms</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4348.htm" style="white-space:wrap;" target=_blank>CS4348 Software Quality Management</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4367.htm" style="white-space:wrap;" target=_blank>CS4367 Computer Games Design</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4381.htm" style="white-space:wrap;" target=_blank>CS4381 Advanced Software Design</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4385.htm" style="white-space:wrap;" target=_blank>CS4385 Topics in Software Engineering</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4386.htm" style="white-space:wrap;" target=_blank>CS4386 AI Game Programming</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4389.htm" style="white-space:wrap;" target=_blank>CS4389 Decentralized Applications Development</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4394.htm" style="white-space:wrap;" target=_blank>CS4394 Information Security and Management</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4465.htm" style="white-space:wrap;" target=_blank>CS4465 Computational Biology and Bioinformatics</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4480.htm" style="white-space:wrap;" target=_blank>CS4480 Data-Intensive Computing</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4482.htm" style="white-space:wrap;" target=_blank>CS4482 Advanced Database Systems</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4485.htm" style="white-space:wrap;" target=_blank>CS4485 Information Retrieval</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4486.htm" style="white-space:wrap;" target=_blank>CS4486 Artificial Intelligence</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4487.htm" style="white-space:wrap;" target=_blank>CS4487 Machine Learning</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4489.htm" style="white-space:wrap;" target=_blank>CS4489 Optimization Foundations for AI Training</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4490.htm" style="white-space:wrap;" target=_blank>CS4490 Generative AI Essentials and Applications</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4493.htm" style="white-space:wrap;" target=_blank>CS4493 Natural Language Processing</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4514.htm" style="white-space:wrap;" target=_blank>CS4514 Project</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4514A.htm" style="white-space:wrap;" target=_blank>CS4514A Project</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/CS4552.htm" style="white-space:wrap;" target=_blank>CS4552 Guided Study</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/GE1361.htm" style="white-space:wrap;" target=_blank>GE1361 Digital Literacy: New Technologies, Society, and You</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/GE1362.htm" style="white-space:wrap;" target=_blank>GE1362 Exploring Generative AI in Practice</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/GE2313.htm" style="white-space:wrap;" target=_blank>GE2313 Global IT Case Studies</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/GE2324.htm" style="white-space:wrap;" target=_blank>GE2324 The Art and Science of Data</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/GE2338.htm" style="white-space:wrap;" target=_blank>GE2338 Everyday Security - Protecting Yourself in the Digital Age</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/GE2340.htm" style="white-space:wrap;" target=_blank>GE2340 Artificial Intelligence – Past, Present, and Future</A></span></td>
+</tr>
+<tr class="dept d_CS">
+<td style="border-bottom: 0px none #ffffff;"><span class="itemTitle"><A HREF="../course/JC2066.htm" style="white-space:wrap;" target=_blank>JC2066 IT Professionals: Ethical, Legal and Social Issues</A></span></td>
+</tr>
+</table>
+</span>
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1869064200" async></script></BODY></HTML>

@@ -1,0 +1,11 @@
+Fictional CM profile F
+Desired stream: Financial Mathematics
+Projected total credits: 122.0
+Objective reward: 154.312078
+Year 2 Semester A: CS2360, GE1305, GE1601, MA2503, MA2508, MA2509 (18 credits)
+Year 2 Semester B: CS2468, CSCI1002, MA2507, MA2510, MA3511, MA3517, MA3530 (14 credits)
+Year 3 Semester A: GE1113, MA3512, MA3518, MA3521, MA3525 (15 credits)
+Year 3 Semester B: MA3514, MA3515, MA3523, MA3526, MA4529, MA4537 (18 credits)
+Year 4 Semester A: MA4528, MA4530:A, MA4542, MA4545 (12 credits)
+Year 4 Semester B: EF3320, MA4530:B, MA4546, MA4550, MA4551 (15 credits)
+Maximum within the supplied finite completion context; 25 future credits retain pending timetable details.

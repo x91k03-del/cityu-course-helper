@@ -1,0 +1,861 @@
+[
+  {
+    "id": "test:15:0",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm a Computing Mathematics student, currently in year 2. I passed MA3518 with A-; I passed GE1305 with A-; I passed MA2503 with B+; I failed CS3334. I am planning semester B. I entered in 2024. I want the Financial Mathematics stream. Could you assess my background for taking CS4487?"
+      }
+    ],
+    "expected": {
+      "programme": "CM",
+      "year": 2,
+      "semester": "B",
+      "cohort": 2024,
+      "transcript": [
+        {
+          "course_code": "CS3334",
+          "grade": "F"
+        },
+        {
+          "course_code": "GE1305",
+          "grade": "A-"
+        },
+        {
+          "course_code": "MA2503",
+          "grade": "B+"
+        },
+        {
+          "course_code": "MA3518",
+          "grade": "A-"
+        }
+      ],
+      "completed_courses": [
+        "GE1305",
+        "MA2503",
+        "MA3518"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "CS4487",
+      "preparation_bonus": 0.25,
+      "strongest_sources": [
+        "MA2503"
+      ],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on your academic background and the information you've provided, here's an assessment of your readiness to take **CS4487** (which I assume is a **Data Structures and Data Management** course, as that is a common title for such a course in a CS curriculum):\n\n---\n\n### 📚 **Your Background Summary:**\n\n- **MA3518 (Advanced Topics in Mathematics)**: A-  \n- **GE1305 (General Education)**: A-  \n- **MA2503 (Linear Algebra or Discrete Math)**: B+  \n- **CS3334 (Data Structures and Data Management)**: **Failed**  \n- **Year of Entry**: 2024  \n- **Intended Stream**: **Financial Mathematics**  \n\n---\n\n### 🧠 **CS4487 Prerequisites and Content:**\n\nAssuming **CS4487** is a **Data Structures and Data Management** course, it typically includes:\n\n- **Core Topics**:\n  - Abstract data types (arrays, linked lists, stacks, queues, trees, graphs)\n  - Searching and sorting algorithms\n  - Time and space complexity analysis\n  - Introduction to databases or data management systems\n  - Implementation in a programming language (e.g., Python, Java, C++)\n\n- **Prerequisites**:\n  - **CS2334** (Data Structures and Data Management) or equivalent\n  - **Programming proficiency** (e.g., Python, Java, C++)\n  - **Mathematical maturity** (e.g., proof-based reasoning, algorithmic thinking)\n\n---\n\n### 📌 **Your Readiness for CS4487:**\n\n#### ✅ **Strengths:**\n- You have a strong background in **mathematics** (A- in MA3518, B+ in MA2503), which is **very helpful** for understanding algorithmic complexity and abstract data structures.\n- You have a **strong academic record** overall, which suggests you can handle a challenging course.\n- You are **not in a CS major**, but you are **planning to pursue Financial Mathematics**, which often intersects with **computational finance**, **data analysis**, and **algorithmic trading**. These fields **require data structures",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:13:0",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm a Computing Mathematics student, currently in year 1. CS2310 is still in progress. I am planning semester A. I entered in 2026. Could you assess my background for taking CS2360?"
+      }
+    ],
+    "expected": {
+      "programme": "CM",
+      "year": 1,
+      "semester": "A",
+      "cohort": 2026,
+      "transcript": [
+        {
+          "course_code": "CS2310",
+          "grade": "IP"
+        }
+      ],
+      "completed_courses": [],
+      "desired_stream": null,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "CS2360",
+      "preparation_bonus": 0.0,
+      "strongest_sources": [],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on the information you've provided, here's an assessment of your background and readiness for **CS2360** (which is likely a **Data Structures and Data Management** course, common in CS curricula):\n\n---\n\n### 📌 **Your Background So Far:**\n- **Year**: 1st year\n- **Current Course**: CS2310 (likely a foundational course, possibly **Programming Fundamentals** or **Data Structures I**)\n- **Program**: Computing Mathematics\n- **Entry Year**: 2026\n\n---\n\n### 📚 **Assumed Content of CS2310:**\nSince you're in the first year and CS2310 is still in progress, it's likely covering:\n- Basic programming concepts (Python, Java, or C++)\n- Introduction to data structures (arrays, lists, stacks, queues)\n- Control structures (loops, conditionals)\n- Functions and recursion\n- Possibly an introduction to object-oriented programming\n\n---\n\n### 📚 **What CS2360 Likely Covers:**\nBased on common course titles, **CS2360** is likely:\n- **Advanced Data Structures** (trees, graphs, hash tables)\n- **Data Management** (databases, SQL, file systems)\n- **Algorithm Analysis** (time and space complexity)\n- **Applications** (e.g., graph algorithms, sorting, searching)\n\n---\n\n### ✅ **You Are Likely Ready for CS2360, But with Some Considerations:**\n\n#### ✅ **Strengths:**\n- You're in a **Computing Mathematics** program, which suggests a strong foundation in **mathematical reasoning** and **algorithmic thinking**.\n- You're taking CS2310, which is likely a prerequisite for CS2360.\n- You're in your **first year**, so it's still early to assess your exact level, but you're on the right track.\n\n#### ⚠️ **Potential Gaps:**\n- If CS2310 is **not** covering advanced data structures (e.g., trees, graphs, hash tables), you may need to **self-study** or **take a bridge course**.\n- If you're not yet comfortable with **algorithm analysis** (Big O notation",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:10:1",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm in my fourth year of Computing Mathematics at CityUHK. CS2310 (IP); CS1302A (B); CS2360 (F); MA1300 (B); MA1301 (F). I am planning semester B. I entered in 2024. I want the Financial Mathematics stream. With this record, how ready am I for CS2468?"
+      }
+    ],
+    "expected": {
+      "programme": "CM",
+      "year": 4,
+      "semester": "B",
+      "cohort": 2024,
+      "transcript": [
+        {
+          "course_code": "CS1302A",
+          "grade": "B"
+        },
+        {
+          "course_code": "CS2310",
+          "grade": "IP"
+        },
+        {
+          "course_code": "CS2360",
+          "grade": "F"
+        },
+        {
+          "course_code": "MA1300",
+          "grade": "B"
+        },
+        {
+          "course_code": "MA1301",
+          "grade": "F"
+        }
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "MA1300"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "CS2468",
+      "preparation_bonus": 0.0,
+      "strongest_sources": [],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on your current record and the goal of pursuing the **Financial Mathematics stream**, let's evaluate your readiness for **CS2468** (likely a **Data Structures and Data Management** course, common in CS curricula). Here's a breakdown:\n\n---\n\n### 📚 **Your Current Record (2024–2025):**\n- **CS2310 (IP)**: Not yet completed. This is a core CS course (likely **Programming in Java** or **C++**).\n- **CS1302A (B)**: Intro to programming (likely Python or Java). A **B** is decent, but not strong.\n- **CS2360 (F)**: A **fail** in a second-year CS course. This is a red flag.\n- **MA1300 (B)**: Intro to calculus. A **B** is okay.\n- **MA1301 (F)**: A **fail** in a second-year math course. This is a major concern.\n\n---\n\n### 🎯 **Financial Mathematics Stream Requirements:**\n- Strong **mathematical foundation** (calculus, linear algebra, probability, statistics).\n- **Programming skills** (especially in Python, C++, or Java).\n- **Data structures and algorithms** (often a prerequisite for advanced financial modeling or computational finance courses).\n\n---\n\n### 🔍 **CS2468: What to Expect**\nAssuming **CS2468** is **Data Structures and Data Management**, it typically covers:\n- **Abstract data types** (arrays, linked lists, stacks, queues, trees, graphs).\n- **Algorithms** (sorting, searching, recursion).\n- **Time and space complexity**.\n- **Implementation in a programming language** (likely Java or C++).\n\n---\n\n### 📊 **Your Readiness for CS2468:**\n| Skill | Current Level | Required Level | Notes |\n|------|---------------|----------------|-------|\n| **Programming** | B in CS1302A | Strong | You have a B, but a **fail** in CS2360 (a second-year course) suggests **weakness**. |\n| **Mathematical Foundation** | B in MA130",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:9:0",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm a Computing Mathematics student, currently in year 2. I passed MA2510 with B; I passed GE1105 with B+; CS3334 is still in progress; I passed CS1302 with B+. I am planning semester A. I entered in 2026. I want the Financial Mathematics stream."
+      }
+    ],
+    "expected": {
+      "programme": "CM",
+      "year": 2,
+      "semester": "A",
+      "cohort": 2026,
+      "transcript": [
+        {
+          "course_code": "CS1302",
+          "grade": "B+"
+        },
+        {
+          "course_code": "CS3334",
+          "grade": "IP"
+        },
+        {
+          "course_code": "GE1105",
+          "grade": "B+"
+        },
+        {
+          "course_code": "MA2510",
+          "grade": "B"
+        }
+      ],
+      "completed_courses": [
+        "CS1302",
+        "GE1105",
+        "MA2510"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": null,
+      "preparation_bonus": null,
+      "strongest_sources": [],
+      "request": "profile",
+      "missing_fields": []
+    },
+    "raw": "Great! Since you're a Computing Mathematics student and you're planning to focus on **Financial Mathematics**, I'll help you plan a **semester A** (typically the first semester of your second year) that aligns with your goals. You're entering in 2026, so you’ll have a full year to build up to a financial mathematics stream.\n\n---\n\n## 🎓 Your Current Standing (as of 2026):\n- **MA2510**: B (Linear Algebra or similar)\n- **GE1105**: B+ (General Education)\n- **CS1302**: B+ (Intro to Programming)\n- **CS3334**: In progress (likely a data structures or algorithms course)\n\n---\n\n## 🎯 Your Goal: Financial Mathematics Stream\n\nFinancial Mathematics typically involves:\n- **Advanced mathematics** (calculus, probability, statistics)\n- **Computational skills** (Python, R, or C++)\n- **Financial modeling** (options, derivatives, risk management)\n- **Econometrics or financial economics** (optional)\n\n---\n\n## 📅 Semester A Plan (2026)\n\n### ✅ Core Mathematics Courses\nYou need to build a strong foundation in **calculus**, **probability**, and **statistics**.\n\n#### 1. **MA3401: Advanced Calculus or Real Analysis** (Core)\n- Prerequisite: MA2510\n- This is essential for financial mathematics, especially for understanding stochastic calculus later.\n\n#### 2. **MA3402: Probability and Statistics**\n- Prerequisite: MA2510\n- This is **crucial** for financial modeling, risk analysis, and actuarial science.\n\n#### 3. **MA3403: Stochastic Processes** (Optional, but highly recommended)\n- Prerequisite: MA3402\n- This is a **must** for financial mathematics, especially for topics like Brownian motion and Ito calculus.\n\n---\n\n### ✅ Computational Skills\nYou already have a B+ in **CS1302**. You’ll need to build up to more advanced programming.\n\n#### 4. **CS2301: Data Structures and Data Management** (Core)\n- Prerequisite: CS13",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:15:1",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm in my second year of Computing Mathematics at CityUHK. MA3518 (A-); GE1305 (A-); MA2503 (B+); CS3334 (F). I am planning semester B. I entered in 2024. I want the Financial Mathematics stream. With this record, how ready am I for CS4487?"
+      }
+    ],
+    "expected": {
+      "programme": "CM",
+      "year": 2,
+      "semester": "B",
+      "cohort": 2024,
+      "transcript": [
+        {
+          "course_code": "CS3334",
+          "grade": "F"
+        },
+        {
+          "course_code": "GE1305",
+          "grade": "A-"
+        },
+        {
+          "course_code": "MA2503",
+          "grade": "B+"
+        },
+        {
+          "course_code": "MA3518",
+          "grade": "A-"
+        }
+      ],
+      "completed_courses": [
+        "GE1305",
+        "MA2503",
+        "MA3518"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "CS4487",
+      "preparation_bonus": 0.25,
+      "strongest_sources": [
+        "MA2503"
+      ],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on your current academic record and the goal of pursuing the **Financial Mathematics stream**, here's a breakdown of your readiness for **CS4487** (likely a course in **Computational Finance or Financial Mathematics with programming**):\n\n---\n\n### 📚 **Your Current Record:**\n- **MA3518 (A-)**: Advanced Mathematics (likely linear algebra, analysis, or PDEs) – **Strong**.\n- **GE1305 (A-)**: General Education (math or computing) – **Good**.\n- **MA2503 (B+)**: Linear Algebra or Advanced Calculus – **Solid**.\n- **CS3334 (F)**: **Failed** – This is a concern.\n\n---\n\n### 🎓 **CS4487 (Assumed Topics):**\n- **Computational Finance** (e.g., Monte Carlo simulations, option pricing, risk management).\n- **Programming in Python or C++** (for financial models).\n- **Mathematical Finance** (Black-Scholes, Ito calculus, stochastic processes).\n- **Numerical methods** (e.g., finite difference, Monte Carlo).\n\n---\n\n### 🔍 **Your Readiness:**\n\n#### ✅ **Strengths:**\n- **Strong math foundation**: A- in MA3518 and B+ in MA2503 suggests you can handle advanced mathematical concepts.\n- **Interest in Financial Mathematics**: You're aiming for this stream, so you're likely motivated to learn the necessary tools.\n\n#### ⚠️ **Weaknesses:**\n- **CS3334 (F)**: This is a major red flag. If this course is about **programming for finance** or **numerical methods**, you may need to **retake it** or **take a programming course** (e.g., CS2030, CS2040, or CS3430) to build the required skills.\n- **No CS4487 prerequisites listed**: If the course requires **CS2030** or **CS3430**, you may need to **start from the beginning** in programming.\n\n---\n\n### 📈 **Recommendations:**\n\n1. **Retake CS333",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:19:1",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm in my second year of Computer Science at CityUHK. MA3514 (B); CS1302 (A-); MA1300 (F); CS1302A (F). I entered in 2026. I want the Data Science stream. With this record, how ready am I for MA3514?"
+      }
+    ],
+    "expected": {
+      "programme": "CS",
+      "year": 2,
+      "semester": null,
+      "cohort": 2026,
+      "transcript": [
+        {
+          "course_code": "CS1302",
+          "grade": "A-"
+        },
+        {
+          "course_code": "CS1302A",
+          "grade": "F"
+        },
+        {
+          "course_code": "MA1300",
+          "grade": "F"
+        },
+        {
+          "course_code": "MA3514",
+          "grade": "B"
+        }
+      ],
+      "completed_courses": [
+        "CS1302",
+        "MA3514"
+      ],
+      "desired_stream": "Data Science",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "MA3514",
+      "preparation_bonus": 0.0,
+      "strongest_sources": [],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on your academic record, here's an analysis of your readiness for **MA3514 (Advanced Linear Algebra)** and how to improve your preparation:\n\n---\n\n### **Your Current Record:**\n- **MA3514**: B (you've taken it)\n- **CS1302**: A- (intro to programming)\n- **MA1300**: F (intro to linear algebra)\n- **CS1302A**: F (repeat of CS1302)\n\n---\n\n### **Assessment of Readiness for MA3514:**\nYou **completed MA3514** and earned a **B**, which means you **have already taken the course** and **passed it**. However, your **MA1300 (intro to linear algebra)** was a **fail**, which suggests you may have struggled with foundational concepts.\n\n#### **Why MA3514 is Challenging:**\n- It covers **advanced topics** like:\n  - Eigenvalues and eigenvectors\n  - Matrix decompositions (SVD, QR)\n  - Vector spaces and inner product spaces\n  - Applications in data science (e.g., dimensionality reduction)\n\n- It assumes **strong understanding of linear algebra fundamentals** (which you may lack due to the F in MA1300).\n\n---\n\n### **Recommendations to Strengthen Your Foundation:**\n1. **Review Linear Algebra Fundamentals:**\n   - Revisit **MA1300** material (e.g., matrix operations, determinants, systems of equations).\n   - Use free resources like:\n     - [3Blue1Brown's Linear Algebra Series](https://www.youtube.com/playlist?list=PLZHQObOWTQDnh9e87XRt5C61Bf6uQ5w0O)\n     - Khan Academy Linear Algebra\n     - MIT OpenCourseWare: [18.06 Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)\n\n2. **Practice Problems:**\n   - Work through problems from **MA1300** and **MA3514** textbooks (e.g., Lay, Strang, or",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:5:0",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm a Computer Science student, currently in year 2. CS1302 is still in progress; I passed MA3521 with P. I entered in 2024. I want the Software Engineering and Project Management stream. Could you assess my background for taking MA4529?"
+      }
+    ],
+    "expected": {
+      "programme": "CS",
+      "year": 2,
+      "semester": null,
+      "cohort": 2024,
+      "transcript": [
+        {
+          "course_code": "CS1302",
+          "grade": "IP"
+        },
+        {
+          "course_code": "MA3521",
+          "grade": "P"
+        }
+      ],
+      "completed_courses": [
+        "MA3521"
+      ],
+      "desired_stream": "Software Engineering and Project Management",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "MA4529",
+      "preparation_bonus": 0.3,
+      "strongest_sources": [
+        "MA3521"
+      ],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on the information you've provided, here's an assessment of your background and readiness for **MA4529**:\n\n---\n\n### **Course Title:** MA4529 – **Advanced Topics in Mathematics for Computing**  \n**Typical Content:**  \n- Linear algebra (eigenvalues, eigenvectors, diagonalization)  \n- Optimization (linear, quadratic, convex)  \n- Numerical methods (Gaussian elimination, iterative methods)  \n- Applications in computing (e.g., machine learning, data science, computer graphics)  \n\n---\n\n### **Your Background:**\n\n- **Year of Study:** 2nd year  \n- **Completed Courses:**  \n  - **MA3521** (with a **P** grade)  \n- **Current Course:** CS1302 (still in progress)  \n- **Intended Stream:** **Software Engineering and Project Management**  \n\n---\n\n### **Assessment:**\n\n#### ✅ **Strengths:**\n- You've completed **MA3521**, which is likely a core mathematics course for computer science. A **P** grade suggests you have a solid foundation in the material, though it may not be the highest possible.  \n- If **MA3529** is a **prerequisite-free** or **corequisite** course, you may be eligible.  \n- Your intended stream (Software Engineering) often requires **mathematical modeling**, **optimization**, and **numerical methods**, which are likely covered in **MA4529**.\n\n#### ⚠️ **Potential Gaps:**\n- If **MA3521** was a **corequisite** for **MA4529**, you may need to wait until the next term.  \n- If **MA4529** includes **advanced linear algebra** or **optimization**, you may need to review those topics further.  \n- If you're not confident in your **mathematical maturity**, you might benefit from a **review course** or **supplementary materials**.\n\n---\n\n### **Recommendation:**\n\n- **Check the course prerequisites** for **MA4529**. If it's **open to 2nd-year students**, you're likely eligible.  \n- If you're unsure, consider **consulting with your",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:4:0",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm a Computer Science student, currently in year 2. I passed MA1300 with C; I passed CS1302 with C; I failed MA3512; I passed MA2508 with P; I failed CS3334. I want the Data Science stream. Could you assess my background for taking MA3512?"
+      }
+    ],
+    "expected": {
+      "programme": "CS",
+      "year": 2,
+      "semester": null,
+      "cohort": null,
+      "transcript": [
+        {
+          "course_code": "CS1302",
+          "grade": "C"
+        },
+        {
+          "course_code": "CS3334",
+          "grade": "F"
+        },
+        {
+          "course_code": "MA1300",
+          "grade": "C"
+        },
+        {
+          "course_code": "MA2508",
+          "grade": "P"
+        },
+        {
+          "course_code": "MA3512",
+          "grade": "F"
+        }
+      ],
+      "completed_courses": [
+        "CS1302",
+        "MA1300",
+        "MA2508"
+      ],
+      "desired_stream": "Data Science",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "MA3512",
+      "preparation_bonus": 0.25,
+      "strongest_sources": [
+        "MA2508"
+      ],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on your academic record, here's an assessment of your background and readiness for **MA3512** (likely a linear algebra course for advanced mathematics or data science):\n\n---\n\n### 📚 **Course Context: MA3512**\n- **Typical Content**: Advanced linear algebra, vector spaces, eigenvalues, eigenvectors, matrix decompositions (e.g., SVD), applications in data science.\n- **Prerequisites**: Often requires a solid foundation in linear algebra (e.g., MA2508) and mathematical maturity.\n\n---\n\n### 📊 **Your Background**\n- **MA1300 (Intro to Mathematics)**: C grade. This is a foundational course, so a C suggests you have the basics but may need reinforcement.\n- **CS1302 (Intro to Programming)**: C grade. Programming is important for data science, but a C here may indicate room for improvement.\n- **MA2508**: Passed with a **P** (likely a pass/fail system). This is a critical prerequisite for MA3512.\n- **MA3512**: Failed. This suggests the course was either too advanced or you were unprepared.\n\n---\n\n### 🧠 **Assessment of Readiness for MA3512**\n| Factor | Assessment |\n|-------|-----------|\n| **MA2508 (Prerequisite)** | **Not sufficient**. A \"P\" indicates you passed the course, but it may not reflect mastery. If the course was only introductory, you may lack the depth needed for MA3512. |\n| **Mathematical Maturity** | **Low to moderate**. A C in MA1300 and a C in CS1302 suggests you may need to strengthen your mathematical and programming foundations. |\n| **CS Background** | **Moderate**. A C in CS1302 is not ideal, but it's not a deal-breaker. You can improve with practice. |\n| **Relevance to Data Science** | **Important**. Linear algebra is **core** to data science (e.g., PCA, neural networks, SVD). You need this for advanced topics. |\n\n---\n\n### 🚀 **Recommendations**\n1. **Ret",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:18:0",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm a Computing Mathematics student, currently in year 4. I passed CS3334 with P. I am planning semester A. I entered in 2026. Could you assess my background for taking MA3512?"
+      }
+    ],
+    "expected": {
+      "programme": "CM",
+      "year": 4,
+      "semester": "A",
+      "cohort": 2026,
+      "transcript": [
+        {
+          "course_code": "CS3334",
+          "grade": "P"
+        }
+      ],
+      "completed_courses": [
+        "CS3334"
+      ],
+      "desired_stream": null,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "MA3512",
+      "preparation_bonus": 0.0,
+      "strongest_sources": [],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on the information you've provided, here's an assessment of your background and readiness for **MA3512**:\n\n---\n\n### **Course Title:** MA3512  \n**Typical Title:** *Linear Algebra II* or *Advanced Linear Algebra*  \n**Common Topics:**  \n- Vector spaces, linear independence, basis, dimension  \n- Linear transformations, matrices, eigenvalues, eigenvectors  \n- Inner product spaces, orthogonality, diagonalization  \n- Applications to differential equations, systems of linear equations, and geometry  \n\n---\n\n### **Your Background:**\n\n- **Program:** Computing Mathematics (Year 4)  \n- **Completed Course:** CS3334 (with a **P** grade)  \n- **Entry Year:** 2026  \n\n---\n\n### **Assessment:**\n\n#### ✅ **Positive Indicators:**\n- You are in a **Computing Mathematics** program, which typically requires a strong foundation in **linear algebra**.\n- You have completed **CS3334**, which is likely a **data structures and algorithms** course. While not directly related to linear algebra, this suggests you are **mathematically mature** and **comfortable with abstract concepts**.\n- Since you are in **Year 4**, you are likely to have taken **linear algebra** already (e.g., MA2512 or similar), which is a prerequisite for MA3512.\n\n#### ⚠️ **Potential Gaps:**\n- If you have **not yet taken a formal linear algebra course**, you may need to **start from the beginning**.\n- If you have only taken a **basic linear algebra course**, you may need to **review advanced topics** (e.g., eigenvalues, inner product spaces, diagonalization).\n\n---\n\n### **Recommendation:**\n\n#### ✅ **If you have already taken a linear algebra course (e.g., MA2512):**\n- You are **well-prepared** for MA3512.\n- You should **review key concepts** (e.g., eigenvalues, eigenvectors, inner product spaces) to ensure a smooth transition to advanced topics.\n\n#### ⚠️ **If you have not taken a linear algebra course:**\n- You may need to **take a prerequisite",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:11:0",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm a Computer Science student, currently in year 4. I passed MA1300 with P; I passed GE1202 with B+; I passed EF3320 with P. I entered in 2025. Could you assess my background for taking EF3320?"
+      }
+    ],
+    "expected": {
+      "programme": "CS",
+      "year": 4,
+      "semester": null,
+      "cohort": 2025,
+      "transcript": [
+        {
+          "course_code": "EF3320",
+          "grade": "P"
+        },
+        {
+          "course_code": "GE1202",
+          "grade": "B+"
+        },
+        {
+          "course_code": "MA1300",
+          "grade": "P"
+        }
+      ],
+      "completed_courses": [
+        "EF3320",
+        "GE1202",
+        "MA1300"
+      ],
+      "desired_stream": null,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "EF3320",
+      "preparation_bonus": 0.0,
+      "strongest_sources": [],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on the information you've provided, here's an assessment of your background for taking **EF3320** (which I assume is a course in **Financial Economics** or **Econometrics**, given the typical course codes):\n\n---\n\n### 📚 Course Code: **EF3320**  \n**Typical Title:** *Financial Economics* or *Econometrics*  \n**Typical Prerequisites:**  \n- A basic understanding of **microeconomics** and **macroeconomics**  \n- Some familiarity with **mathematical tools** (e.g., calculus, linear algebra)  \n- In some cases, a prerequisite course in **economics** or **mathematics**  \n\n---\n\n### 📚 Your Background:\n\n- **MA1300** (likely a core math course for CS students):  \n  - You passed this with a **P** (which in some systems means \"Pass,\" but in others could mean \"Incomplete\" or \"Not a grade\").  \n  - If this is a **mathematical methods for CS** course, it likely covers **calculus**, **linear algebra**, and **basic probability** — which are **essential** for **EF3320**.  \n  - **Assumption:** You have the **mathematical foundation** needed for this course.\n\n- **GE1202** (likely a general education course, possibly **introductory economics**):  \n  - You passed this with a **B+**, which suggests you have a **basic understanding of economics**.  \n  - This is **good**, but if **EF3320** is more advanced, you may need to take a **more rigorous economics course** (e.g., **EC2000** or **EC2010**) as a prerequisite.\n\n- **EF3320** (you've already taken it and passed with a **P**):  \n  - This suggests you **already completed** the course.  \n  - If you're asking about your **background** for taking it again, or for a **similar course**, that’s a different question.  \n  - If you're asking about your **eligibility** for taking it **now**, then the answer is: **You are eligible**, assuming you",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:3:1",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm in my fourth year of Computer Science at CityUHK. GE1305 (P); MA1300 (B+); CS1302 (B+); GE2134 (W); GE1105 (C). I am planning semester A. I entered in 2026. I want the Multimedia Computing stream. Can you help plan the next part of my degree?"
+      }
+    ],
+    "expected": {
+      "programme": "CS",
+      "year": 4,
+      "semester": "A",
+      "cohort": 2026,
+      "transcript": [
+        {
+          "course_code": "CS1302",
+          "grade": "B+"
+        },
+        {
+          "course_code": "GE1105",
+          "grade": "C"
+        },
+        {
+          "course_code": "GE1305",
+          "grade": "P"
+        },
+        {
+          "course_code": "GE2134",
+          "grade": "W"
+        },
+        {
+          "course_code": "MA1300",
+          "grade": "B+"
+        }
+      ],
+      "completed_courses": [
+        "CS1302",
+        "GE1105",
+        "GE1305",
+        "MA1300"
+      ],
+      "desired_stream": "Multimedia Computing",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": null,
+      "preparation_bonus": null,
+      "strongest_sources": [],
+      "request": "plan",
+      "missing_fields": []
+    },
+    "raw": "Certainly! Let's break down your current standing and plan the next steps for your **Multimedia Computing stream** at CityUHK. Since you're in your **fourth year** and have already completed some core courses, we'll focus on **elective planning**, **specialization courses**, and **completing your degree requirements**.\n\n---\n\n## 📌 Current Standing (as of 2026)\n- **Year**: 4th\n- **Completed Courses**:\n  - **GE1305 (P)** – General Education\n  - **MA1300 (B+)** – Mathematics\n  - **CS1302 (B+)** – Programming\n  - **GE2134 (W)** – General Education (failed)\n  - **GE1105 (C)** – General Education\n\n---\n\n## 🎯 Goal: Multimedia Computing Stream\nThis stream typically includes:\n- **Core CS courses** (already started)\n- **Multimedia-related electives**\n- **Specialization courses** in multimedia computing\n- **Project or thesis work**\n\n---\n\n## 📅 Semester A 2026 Plan\n\n### ✅ Core Courses Already Completed\n- **CS1302 (Programming)** – Good to go\n- **MA1300 (Math)** – Sufficient for most CS courses\n\n### ❌ Courses to Retake or Improve\n- **GE2134 (W)** – You need to retake this or replace it with a **GE elective** that counts toward your **multimedia stream**.\n- **GE1105 (C)** – You can use this as a **completed GE** or improve it if needed.\n\n---\n\n## 📚 Required Courses for Multimedia Computing Stream\n\n| Course Code | Title | Credits | Notes |\n|------------|-------|---------|-------|\n| **CS3400** | Multimedia Computing | 3 | Core for the stream |\n| **CS4400** | Advanced Multimedia Computing | 3 | Elective or core |\n| **CS4900** | Capstone Project or Thesis | 3–6 | Required for graduation |\n| **CS3401** | Multimedia Systems | 3 | Elective |\n|",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:6:0",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm a Computer Science student, currently in year 2. I passed MA2503 with B; CS1302 is still in progress; I passed MA1300 with B; I passed MA1301 with A-. I am planning semester B. I want the Multimedia Computing stream. Could you assess my background for taking CS4487?"
+      }
+    ],
+    "expected": {
+      "programme": "CS",
+      "year": 2,
+      "semester": "B",
+      "cohort": null,
+      "transcript": [
+        {
+          "course_code": "CS1302",
+          "grade": "IP"
+        },
+        {
+          "course_code": "MA1300",
+          "grade": "B"
+        },
+        {
+          "course_code": "MA1301",
+          "grade": "A-"
+        },
+        {
+          "course_code": "MA2503",
+          "grade": "B"
+        }
+      ],
+      "completed_courses": [
+        "MA1300",
+        "MA1301",
+        "MA2503"
+      ],
+      "desired_stream": "Multimedia Computing",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "CS4487",
+      "preparation_bonus": 0.25,
+      "strongest_sources": [
+        "MA2503"
+      ],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on your current academic background and the information you've provided, here's an assessment of your readiness for **CS4487: Multimedia Computing**:\n\n---\n\n### 📚 **Course Prerequisites for CS4487: Multimedia Computing**\nTypically, a course like **CS4487** would require the following:\n\n- **Advanced mathematics** (especially linear algebra, calculus, and probability)\n- **Data structures and algorithms** (CS2300 or equivalent)\n- **Programming proficiency** (especially in Python or C++)\n- **Digital media fundamentals** (e.g., image processing, audio, or video)\n- **Operating systems** (CS2301 or equivalent)\n\n---\n\n### 📊 **Your Current Background**\n\n| Course | Grade | Notes |\n|--------|-------|-------|\n| **MA1300** (Calculus I) | B | Good foundation |\n| **MA1301** (Calculus II) | A- | Strong |\n| **MA2503** (Linear Algebra) | B | Satisfactory |\n| **CS1302** (Data Structures) | In Progress | Not yet assessed |\n| **Other courses** | N/A | Not specified |\n\n---\n\n### ✅ **Strengths**\n- You have a solid foundation in **calculus** and **linear algebra**, which are essential for multimedia computing (e.g., image and audio processing).\n- You're currently taking **CS1302**, which is a core prerequisite for advanced courses like CS4487.\n\n---\n\n### ⚠️ **Potential Gaps**\n- **CS1302** is still in progress. If you're not confident in your understanding of **data structures and algorithms**, this could be a problem.\n- You haven't mentioned any **digital media or signal processing** courses. These are often prerequisites or co-requisites for CS4487.\n- You haven't taken **Operating Systems** (CS2301), which is also important for multimedia systems.\n\n---\n\n### 📈 **Recommendation for Semester B Planning**\nIf you're planning to take **CS4487** in **Semester B**, here's what you should do:\n\n1. **Complete CS1302",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:11:1",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm in my fourth year of Computer Science at CityUHK. MA1300 (P); GE1202 (B+); EF3320 (P). I entered in 2025. With this record, how ready am I for EF3320?"
+      }
+    ],
+    "expected": {
+      "programme": "CS",
+      "year": 4,
+      "semester": null,
+      "cohort": 2025,
+      "transcript": [
+        {
+          "course_code": "EF3320",
+          "grade": "P"
+        },
+        {
+          "course_code": "GE1202",
+          "grade": "B+"
+        },
+        {
+          "course_code": "MA1300",
+          "grade": "P"
+        }
+      ],
+      "completed_courses": [
+        "EF3320",
+        "GE1202",
+        "MA1300"
+      ],
+      "desired_stream": null,
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "EF3320",
+      "preparation_bonus": 0.0,
+      "strongest_sources": [],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on your current record, you have already completed **EF3320** with a **P (Pass)**. This means you are **not in the process of taking EF3320** right now. If you're asking how ready you are for **EF3320**, it depends on what you mean:\n\n### 1. **If you're asking how ready you are to take EF3320 again (e.g., retaking or planning to take it in the future):**\n- You have already passed it, so you are **already ready** for it.\n- If you're planning to take it again, you might want to review the course content or consult with the instructor for a refresher.\n\n### 2. **If you're asking how ready you are for a **similar** course (e.g., a prerequisite or a related course):**\n- **MA1300 (P)**: This is a core math course for computer science, and it covers essential topics like calculus, linear algebra, and discrete math. These are **very relevant** to EF3320, which is likely a **data structures and algorithms** course.\n- **GE1202 (B+)**: This is a general education course, so it's not directly relevant to EF3320.\n- **EF3320 (P)**: You've already completed it, so you are **fully prepared** for it.\n\n### 3. **If you're asking how ready you are for a **later** course that builds on EF3320:**\n- EF3320 is typically a **core course** in data structures and algorithms, which is foundational for advanced courses like:\n  - **Data Structures and Algorithms II**\n  - **Analysis of Algorithms**\n  - **Operating Systems**\n  - **Software Engineering**\n  - **Artificial Intelligence**\n- Since you've already passed EF3320, you are **well-prepared** for these courses.\n\n### Summary:\n- You are **already ready** for EF3320, as you've completed it.\n- If you're asking how ready you are for a **similar** or **related** course, you are **well-prepared** based on your MA1",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:14:1",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm in my first year of Computer Science at CityUHK. MA4529 (C); MA3521 (C); CS2310 (A-); CS1302 (B). I am planning semester B. I entered in 2025. I want the Software Engineering and Project Management stream. Use background mismatch weight 0.5, difficulty weight 1.0, and workload weight 0.0. Can you help plan the next part of my degree?"
+      }
+    ],
+    "expected": {
+      "programme": "CS",
+      "year": 1,
+      "semester": "B",
+      "cohort": 2025,
+      "transcript": [
+        {
+          "course_code": "CS1302",
+          "grade": "B"
+        },
+        {
+          "course_code": "CS2310",
+          "grade": "A-"
+        },
+        {
+          "course_code": "MA3521",
+          "grade": "C"
+        },
+        {
+          "course_code": "MA4529",
+          "grade": "C"
+        }
+      ],
+      "completed_courses": [
+        "CS1302",
+        "CS2310",
+        "MA3521",
+        "MA4529"
+      ],
+      "desired_stream": "Software Engineering and Project Management",
+      "weights": {
+        "background_mismatch": 0.5,
+        "difficulty": 1.0,
+        "workload": 0.0
+      },
+      "target": null,
+      "preparation_bonus": null,
+      "strongest_sources": [],
+      "request": "plan",
+      "missing_fields": []
+    },
+    "raw": "Based on your current standing and the stream you're interested in (Software Engineering and Project Management), I'll help you plan your remaining courses for the next part of your degree. I'll use the following criteria:\n\n- **Background mismatch weight**: 0.5 (prioritize courses that align with your current background)\n- **Difficulty weight**: 1.0 (prioritize courses that are not too difficult)\n- **Workload weight**: 0.0 (prioritize courses with manageable workloads)\n\n---\n\n## 📚 Current Standing (2025)\n- **MA4529 (C)**: Linear Algebra\n- **MA3521 (C)**: Discrete Mathematics\n- **CS2310 (A-)**: Data Structures and Data Management\n- **CS1302 (B)**: Programming Fundamentals\n\n---\n\n## 🎯 Software Engineering and Project Management Stream Goals\n- Core courses in software engineering, project management, and related areas\n- Emphasis on practical skills, teamwork, and real-world applications\n- Some flexibility to take electives in later years\n\n---\n\n## 📅 Semester B 2025 Plan (Based on Your Background and Criteria)\n\n### ✅ Core Courses (High Priority)\n1. **CS3310: Software Engineering**  \n   - **Difficulty**: Medium  \n   - **Background Mismatch**: Low (you've taken Data Structures)  \n   - **Workload**: Moderate  \n   - **Why**: This is the core course for the stream. You're already at a good level for this.\n\n2. **CS3410: Software Project Management**  \n   - **Difficulty**: Medium  \n   - **Background Mismatch**: Low (you've taken CS2310)  \n   - **Workload**: Moderate  \n   - **Why**: This is the other core course for the stream. It's a direct match.\n\n3. **CS3510: Software Testing and Quality Assurance**  \n   - **Difficulty**: Medium  \n   - **Background Mismatch**: Low (you've taken CS2310)  \n   - **Workload**: Moderate  \n   - **Why**: This is a key course for the stream and complements your current background.\n\n4. **CS3",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:5:1",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm in my second year of Computer Science at CityUHK. CS1302 (IP); MA3521 (P). I entered in 2024. I want the Software Engineering and Project Management stream. With this record, how ready am I for MA4529?"
+      }
+    ],
+    "expected": {
+      "programme": "CS",
+      "year": 2,
+      "semester": null,
+      "cohort": 2024,
+      "transcript": [
+        {
+          "course_code": "CS1302",
+          "grade": "IP"
+        },
+        {
+          "course_code": "MA3521",
+          "grade": "P"
+        }
+      ],
+      "completed_courses": [
+        "MA3521"
+      ],
+      "desired_stream": "Software Engineering and Project Management",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "MA4529",
+      "preparation_bonus": 0.3,
+      "strongest_sources": [
+        "MA3521"
+      ],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on your current record, you are **not yet fully prepared** for **MA4529 (Advanced Topics in Mathematics for Computer Science)**, but you are on the right path to being ready. Here's a breakdown:\n\n---\n\n### 📚 **Current Record:**\n- **CS1302 (Introduction to Programming)** – Completed (assuming you've passed this)\n- **MA3521 (Probability and Statistics)** – Completed\n- **Year:** 2nd year\n- **Intended stream:** Software Engineering and Project Management\n\n---\n\n### 📌 **What MA4529 Typically Covers:**\nMA4529 is an advanced mathematics course for computer science students. It usually includes topics such as:\n- **Linear Algebra** (eigenvalues, eigenvectors, matrix decompositions)\n- **Graph Theory** (applications in computer science)\n- **Combinatorics** (advanced counting techniques)\n- **Discrete Mathematics** (recurrence relations, logic, automata)\n- **Probability and Statistics** (advanced topics like Markov chains, random variables)\n\n---\n\n### 📈 **Your Readiness:**\n- **MA3521 (Probability and Statistics):** You have a solid foundation in this area, which is **very relevant** to MA4529.\n- **CS1302 (Programming):** While programming is important for software engineering, it is **not directly relevant** to the mathematical content of MA4529.\n- **No Linear Algebra or Discrete Math yet:** These are **critical prerequisites** for MA4529.\n\n---\n\n### 🚀 **Next Steps to Prepare:**\n1. **Take Linear Algebra (e.g., MA3501 or MA3502):**\n   - This is **essential** for understanding topics like eigenvalues, matrix operations, and their applications in computer science (e.g., machine learning, computer graphics).\n   - If not already taken, prioritize this in your next semester.\n\n2. **Take Discrete Mathematics (e.g., MA3503 or CS3401):**\n   - This covers logic, set theory, recurrence relations, and graph theory — all of which are **core topics** in MA4529.",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  },
+  {
+    "id": "test:8:0",
+    "group": "heldout",
+    "input": [
+      {
+        "role": "user",
+        "content": "I'm a Computer Science student, currently in year 3. I passed CS1302A with C; I passed GE1305 with B; MA1300 is still in progress. I am planning semester A. I want the Data Science stream. Could you assess my background for taking CS2360?"
+      }
+    ],
+    "expected": {
+      "programme": "CS",
+      "year": 3,
+      "semester": "A",
+      "cohort": null,
+      "transcript": [
+        {
+          "course_code": "CS1302A",
+          "grade": "C"
+        },
+        {
+          "course_code": "GE1305",
+          "grade": "B"
+        },
+        {
+          "course_code": "MA1300",
+          "grade": "IP"
+        }
+      ],
+      "completed_courses": [
+        "CS1302A",
+        "GE1305"
+      ],
+      "desired_stream": "Data Science",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "target": "CS2360",
+      "preparation_bonus": 0.2,
+      "strongest_sources": [
+        "CS1302A"
+      ],
+      "request": "preparation",
+      "missing_fields": []
+    },
+    "raw": "Based on your current background and the information you've provided, here's an assessment of whether you're ready to take **CS2360** (which is typically a **Data Structures and Data Management** course, though the exact title and content may vary by institution):\n\n---\n\n### 📚 **Your Background So Far:**\n- **CS1302A (Data Structures and Data Management)**: You passed this with a **C**.\n- **GE1305 (General Education Course)**: You passed this with a **B**.\n- **MA1300 (Mathematics)**: Still in progress.\n\n---\n\n### 📌 **CS2360 Overview (Typical Topics):**\n- **Advanced Data Structures**: Trees, graphs, heaps, hash tables, etc.\n- **Data Management**: Databases, SQL, normalization, and possibly NoSQL.\n- **Algorithms**: Time and space complexity, sorting, searching.\n- **Practical Implementation**: Often involves coding in Python or Java.\n\n---\n\n### ✅ **Strengths:**\n- You've already taken a **Data Structures and Data Management** course and passed it. This is a **strong foundation** for CS2360.\n- You have a **B in GE1305**, which suggests you're capable of handling academic work.\n- You're **planning to pursue a Data Science stream**, so this course is **very relevant**.\n\n---\n\n### ⚠️ **Potential Concerns:**\n- You passed **CS1302A with a C**, which might indicate that you need to **review or strengthen your understanding** of data structures and algorithms.\n- **MA1300 is still in progress**, and **math is critical** for data science and advanced CS courses. If you're not confident in your math skills, this could be a **weak point**.\n\n---\n\n### 📈 **Recommendation:**\nYou **are likely ready** to take **CS2360**, but it's **important to be prepared**. Here's what you should do:\n\n1. **Review CS1302A Material**:\n   - Focus on **trees, graphs, and hash tables**.\n   - Practice **algorithm analysis** (time and space complexity).",
+    "parsed": null,
+    "passed": false,
+    "validated": false,
+    "validation_error": null,
+    "fallback_used": false
+  }
+]

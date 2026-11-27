@@ -1,0 +1,32 @@
+{
+  "adapter": "adapters/cm-cs-programme-v6",
+  "sha256": "1d4f52049898ff08b4d1eb79d6753e08eddc328054d1ae06c989e3d0110d8889",
+  "source_adapter": "adapters/bscm-preparation-v5",
+  "model_role": "CM_CS_source_conditioned_curriculum_schedule_rules_and_single_stream_reward",
+  "training_performed": true,
+  "training_method": "NF4 frozen base with BF16 compute and rank-8 QLoRA",
+  "selected_epoch": 2,
+  "policy": "data/programme-v6/policy.json",
+  "courses": "data/programme-v6/courses.json",
+  "evaluation": {
+    "before": {
+      "passed": 3,
+      "total": 15
+    },
+    "after": {
+      "passed": 14,
+      "total": 15
+    }
+  },
+  "raw_outputs_require_validation": true,
+  "final_eligibility_authority": "document_membership_plus_saved_rules_and_sections_not_model_memory",
+  "official_registration_or_graduation_verified": false,
+  "corrective_trial": "reports/programme-v6/correction/training.json",
+  "correction_deployed": false,
+  "correction_selection_reason": "Trial fixed the original error but introduced another stream error and worsened validation loss; initial v6 retained.",
+  "corrective_trial_diagnostic": {
+    "passed": 14,
+    "total": 15,
+    "independent_holdout": false
+  }
+}

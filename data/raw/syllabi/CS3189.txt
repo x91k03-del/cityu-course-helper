@@ -1,0 +1,288 @@
+1         CS3189: User-centred Interaction Design
+CS3189: USER-CENTRED INTERACTION DESIGN
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+User-centred Interaction Design 
+Subject Code
+CS - Computer Science 
+Course Number
+3189 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+CS2310 Computer Programming or 
+CS2311 Computer Programming or 
+CS2313 Computer Programming or 
+CS2360 Java Programming 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+2         CS3189: User-centred Interaction Design
+Part II Course Details
+Abstract
+This course is intended for students in computing and related disciplines whose work focuses on human-computer
+interaction issues in the design of computer systems. The course stresses the importance of user-centred design and
+usability in the development of computer applications and systems, focusing on design practices from industry. Students
+will be taken through the analysis, design, development, and evaluation of human-computer interaction methods for
+computer systems. They will acquire hands-on design and implementation skills through laboratory exercises and
+assignments. The course also covers HCI design principles and emphasizes the importance of contextual, organisational,
+and social factors in system design.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Explain the importance of user-centred design
+and usability in the development of computer
+applications and systems.
+x x
+2 Apply human-computer interaction methods
+for the analysis, design, development, and
+evaluation of computer systems.
+x
+3 Demonstrate hands-on design and
+implementation skills through laboratory
+exercises and assignments.
+x
+4 Identify and consider contextual, system, and
+user related factors in the design of computer
+systems.
+x
+5 Collaborate eﬀectively with peers to design and
+implement an interactive prototype that solves a
+real-world problem.
+x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Students will examine a
+comprehensive overview
+of user-centered design
+principles, usability
+concepts, and their
+signiﬁcance in developing
+computer systems.
+1, 4 3 hours per week
+3         CS3189: User-centred Interaction Design
+2 In-class workshop Students will participate
+in interactive discussions
+and analyze case studies
+of real-world examples of
+successful user-centered
+designs, exploring
+their impact on user
+satisfaction and system
+eﬀectiveness.
+1, 2, 3, 4, 5 8 hours per semester
+3 Quiz Students will complete a
+quiz to demonstrate their
+understanding of key
+concepts and principles
+related to user-centered
+design and usability.
+1
+4 Individual assignments Students will read
+assigned materials and
+conduct research tasks,
+exploring scholarly
+articles, industry reports,
+and case studies on user-
+centered design and
+usability practices.
+1, 2, 3, 4
+5 Group project Students will work
+in small groups to
+collaboratively analyze,
+design, develop, and
+evaluate a computer
+system using human-
+computer interaction
+methods. This project
+will involve conducting
+user research, creating
+prototypes, and
+performing usability
+testing.
+1, 2, 3, 4, 5
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Design exercise 1, 2, 3, 4 10 - No
+2 Group project 1, 2, 3, 4, 5 40 - Yes
+3 Participation 1, 2, 3, 4, 5 20 - No
+Continuous Assessment (%)
+70 
+Examination (%)
+30 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+4         CS3189: User-centred Interaction Design
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+1. Design exercise 
+Criterion
+Problem-solving skills 
+Creativity and innovative ideas 
+Application of user-centered design principles 
+Utilization of the design lifecycle 
+Excellent (A+, A, A-)
+Excellent: Demonstrates exceptional problem-solving skills by identifying and analyzing complex design problems,
+proposing innovative solutions, and eﬀectively addressing user needs. Displays exceptional creativity and innovative ideas,
+going beyond the expected requirements with original and unique solutions. Applies user-centered design principles and
+eﬀectively utilizes the design lifecycle. 
+Good (B+, B, B-)
+Shows strong problem-solving skills by identifying and analyzing design problems, proposing eﬀective solutions, and
+addressing user needs. Displays creativity and innovative ideas, providing thoughtful and inventive solutions that meet the
+requirements eﬀectively. Applies user-centered design principles and utilizes the design lifecycle eﬀectively. 
+Fair (C+, C, C-)
+Displays adequate problem-solving skills by identifying and addressing design problems with some eﬀectiveness, but
+with minor gaps in addressing user needs. Exhibits some level of creativity and innovation, but the solutions may lack
+originality or fail to fully meet the requirements. Applies user-centered design principles to some extent and demonstrates
+an understanding of the design lifecycle. 
+Marginal (D)
+Exhibits limited problem-solving skills, with diﬃculties in identifying and addressing design problems and inadequate
+consideration of user needs. Displays limited creativity and innovation, with solutions that are largely conventional and do
+not fully meet the requirements. Demonstrates a limited understanding and application of user-centered design principles
+and the design lifecycle. 
+Failure (F)
+Fails to demonstrate eﬀective problem-solving skills, with an inability to identify and address design problems or meet user
+needs adequately. Fails to demonstrate creativity and innovation. Does not apply user-centered design principles or utilize
+the design lifecycle eﬀectively. 
+Assessment Task
+2. Group project 
+Criterion
+Collaboration and Communication 
+Deliverable Quality 
+Problem-solving Skills 
+Time Management and Meeting Deadlines 
+Excellent (A+, A, A-)
+5         CS3189: User-centred Interaction Design
+Actively collaborates and eﬀectively communicates within the group, demonstrating a high level of cooperation, division
+of tasks, and mutual support to achieve project goals. Produces high-quality deliverables that meet or exceed the project
+requirements. Shows strong problem-solving skills and applies user-centered design principles in the project. Demonstrates
+eﬀective time management and meets all deadlines. 
+Good (B+, B, B-)
+Collaborates well within the group, communicates eﬀectively, and contributes positively to the project, demonstrating good
+teamwork and coordination. Produces deliverables that meet the project requirements. Shows problem-solving skills and
+applies user-centered design principles in the project. Manages time eﬀectively and meets most deadlines. 
+Fair (C+, C, C-)
+Participates adequately within the group, but may occasionally exhibit challenges in communication, coordination, or
+division of tasks. Produces deliverables that partially meet the project requirements. Displays some problem-solving skills
+and applies user-centered design principles to some extent. Manages time reasonably well but may miss some deadlines. 
+Marginal (D)
+Shows limited collaboration and teamwork within the group, with inconsistent communication and a lack of clear division
+of tasks. Produces deliverables that have signiﬁcant gaps and do not fully meet the project requirements. Demonstrates
+limited problem-solving skills and struggles to apply user-centered design principles. Struggles with time management and
+misses several deadlines. 
+Failure (F)
+Fails to collaborate eﬀectively within the group, displaying poor communication, lack of coordination, and an inability to
+work together towards project goals. Produces deliverables that do not meet the project requirements. Fails to demonstrate
+problem-solving skills or apply user-centered design principles. Fails to manage time eﬀectively and misses most deadlines. 
+Assessment Task
+3. Course participation 
+Criterion
+Class Engagement 
+Understanding of Course Material 
+Feedback and Contribution 
+Excellent (A+, A, A-)
+Actively engages in class discussions, contributes insightful ideas and perspectives, asks relevant questions, and consistently
+demonstrates a high level of participation. Shows a deep understanding of the course material and consistently applies it to
+discussions and assignments. Provides constructive feedback to peers and contributes to a positive learning environment. 
+Good (B+, B, B-)
+Engages in class discussions, contributes ideas and perspectives, asks questions, and demonstrates regular participation
+throughout the course. Shows a solid understanding of the course material and applies it to discussions and assignments.
+Provides feedback to peers and contributes to a positive learning environment. 
+Fair (C+, C, C-)
+Participates adequately in class discussions, but may occasionally contribute minimally, ask few questions, or demonstrate
+inconsistent engagement. Shows an understanding of the course material and applies it to discussions and assignments to
+some extent. Occasionally provides feedback to peers and contributes to a positive learning environment. 
+Marginal (D)
+Shows limited engagement in class discussions, with infrequent contributions, minimal questions, and inconsistent
+participation. Demonstrates a limited understanding of the course material and struggles to apply it to discussions and
+assignments. Rarely provides feedback to peers or contributes to a positive learning environment. 
+6         CS3189: User-centred Interaction Design
+Failure (F)
+Fails to actively engage in class discussions, rarely contributes, asks no questions, and demonstrates a lack of participation
+throughout the course. Displays a lack of understanding of the course material and fails to apply it to discussions and
+assignments. Does not provide feedback to peers or contribute to a positive learning environment. 
+Assessment Task
+4. Examination 
+Criterion
+Problem Analysis; Ideation and Creativity; Rapid Prototyping; Usability Considerations; Time Management 
+Excellent (A+, A, A-)
+Quickly and accurately analyzes the design problem, identifying key user needs and constraints. Generates multiple
+innovative and relevant design concepts. Produces a clear, well-executed low-ﬁdelity prototype that eﬀectively
+communicates the design solution. Demonstrates strong consideration of usability principles in the design. Excellently
+manages time, completing all aspects of the challenge. 
+Good (B+, B, B-)
+Analyzes the design problem well, identifying most user needs and constraints. Generates several good design concepts.
+Produces a competent low-ﬁdelity prototype that communicates the design solution. Shows good consideration of usability
+principles. Manages time well, completing most aspects of the challenge. 
+Fair (C+, C, C-)
+Provides a basic analysis of the design problem with some gaps. Generates a few design concepts, some of which may
+lack relevance or creativity. Produces a basic low-ﬁdelity prototype with some unclear elements. Considers some usability
+principles but may miss key aspects. Time management is adequate but some elements may be rushed or incomplete. 
+Marginal (D)
+Struggles to analyze the design problem eﬀectively. Generates limited or irrelevant design concepts. Prototype is poorly
+executed or fails to communicate the design clearly. Shows minimal consideration of usability principles. Poor time
+management results in signiﬁcant aspects of the challenge being incomplete. 
+Failure (F)
+Fails to analyze the design problem. Unable to generate viable design concepts. Fails to produce a meaningful prototype. No
+evident consideration of usability principles. Unable to manage time eﬀectively, resulting in largely incomplete work. 
+Part III Other Information
+Keyword Syllabus
+• User-centred Interaction Design
+• Human computer interaction
+• Design life cycle
+• Contextual inquiry
+• Aﬃnity Diagrams
+• Brainstorming techniques
+• Sketching & Crazy 8
+• Balsamiq and Figma
+• Heuristic evaluations
+• Usability testing
+• Graphical design workﬂow
+7         CS3189: User-centred Interaction Design
+Reading List
+Compulsory Readings
+ Title
+1 Hugh Beyer and Karen Holtzblatt. 1997. Contextual Design: Deﬁning Customer-Centered Systems. Morgan Kaufmann
+Publishers Inc., San Francisco, CA, USA.
+2 Krug, Steve. Don't make me think!: a common sense approach to Web usability. Pearson Education India, 2000.
+Additional Readings
+ Title
+1 Krug, Steve. Rocket surgery made easy: The do-it-yourself guide to ﬁnding and ﬁxing usability problems. New Riders,
+2009.
+2 Norman, Don. The design of everyday things: Revised and expanded edition. Basic books, 2013.

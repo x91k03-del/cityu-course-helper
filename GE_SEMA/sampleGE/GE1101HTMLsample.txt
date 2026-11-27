@@ -1,0 +1,644 @@
+<html lang="en"><head id="Head1"><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="/Hemlock-on-Macb-Then-sight-What-Duncan-eard-thal" async=""></script><meta charset="utf-8">
+    <!-- Title -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>
+	Gateway Education Course Information
+</title>
+    <!-- InstanceEndEditable -->
+    <!-- /Title -->
+    <!-- Meta -->
+    <meta name="author" content="City University of Hong Kong"><meta name="description" content="Website descripion."><meta name="keywords" content="City University of Hong Kong, City University of HK, City University HK, City University, CityU Hong Kong, CityU HK, CityUHK, CityU, Course code, Course title, EDGE, Department of Education Development and Gateway Education, Gateway Education, Academic Unit of Education Development and Gateway Education"><meta name="robots" content="index, follow"><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes">
+    <!-- /Meta -->
+    <!-- Icon -->
+    <link rel="shortcut icon" href="http://www.cityu.edu.hk/favicon.ico">
+    <!-- /Icon -->
+    <!-- CSS -->    
+    <link rel="stylesheet" type="text/css" href="/ge_info/css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="/ge_info/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/ge_info/css/cityu.base.css">
+    <link rel="stylesheet" type="text/css" href="/ge_info/css/menu.css">
+    <link rel="stylesheet" type="text/css" href="/ge_info/css/website.css">
+    <link rel="stylesheet" type="text/css" href="/ge_info/css/responsive.css">
+     <link rel="stylesheet" type="text/css" href="/ge_info/css/bootstrap-select.min.css"> 
+    <script type="text/javascript" src="/ge_info/js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="/ge_info/js/cityu.base.js"></script>
+    <script type="text/javascript" src="/ge_info/js/ax-function.js"></script>
+    <script type="text/javascript" src="/ge_info/js/bootstrap-select.min.js"></script> 
+
+    <script>
+    	    (function (i, s, o, g, r, a, m) {
+    	        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+    	            (i[r].q = i[r].q || []).push(arguments)
+    	        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    	    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    	    ga('create', 'UA-34228090-1', 'auto');
+    	    ga('send', 'pageview');
+	</script>	
+
+    
+    
+    <script type="text/javascript" src="tinymce/tinymce.min.js"></script>
+<link rel="stylesheet" type="text/css" media="print" href="https://template.cityu.edu.hk/template/css/cityu.print.css"></head>
+<body class="default-body">
+    <form method="post" action="/ge_info/CourseListDtl/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODY2MzUwNzAzDxYEHgtVcmxSZWZlcnJlcgUtaHR0cHM6Ly93d3cuY2l0eXUuZWR1LmhrL2dlX2luZm8vU2VhcmNoL2FyZWExHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEWAmYPZBYCAgMPFgIeBmFjdGlvbgUXL2dlX2luZm8vQ291cnNlTGlzdER0bC8WAgIBD2QWMgIBDw8WAh4EVGV4dAUGR0UxMTAxZGQCAg8PFgIfAwUvQ2hpbmVzZSBDdWx0dXJhbCBIZXJpdGFnZSBpbiBNb2Rlcm4gUGVyc3BlY3RpdmVkZAIDDw8WAh4HVmlzaWJsZWhkZAIEDw8WAh8DBS9DaGluZXNlIEN1bHR1cmFsIEhlcml0YWdlIGluIE1vZGVybiBQZXJzcGVjdGl2ZWRkAgUPDxYCHwNlZGQCBg8PFgIfAwUuPGRpdiBjbGFzcz0ibGFiZWwtaWNvbiBTIj4yMDI2LTI3IFN1bW1lcjwvZGl2PmRkAgcPDxYCHwMFODxkaXYgY2xhc3M9ImxhYmVsLWljb24gQTEiPjEgLSBBcnRzIGFuZCBIdW1hbml0aWVzPC9kaXY+ZGQCCA8PFgIfAwUrQ29sbGVnZSBvZiBMaWJlcmFsIEFydHMgYW5kIFNvY2lhbCBTY2llbmNlc2RkAgkPDxYCHwMFE0NoaW5lc2UgYW5kIEhpc3RvcnlkZAIKDw8WAh8DBQEzZGQCCw8PFgIfAwUGQjEsIEExZGQCDA8PFgIfAwUCMCVkZAINDxYCHwRoFgICAQ8PFgIfAwUCTm9kZAIODw8WAh8DBQJOb2RkAg8PFgIfBGhkAhAPZBYIZg8PFgIfA2VkZAIBDw8WAh8DZWRkAgIPDxYCHwNlZGQCAw8PFgIfA2VkZAIRDw8WAh8DBQdFbmdsaXNoZGQCEg8PFgIfAwUHRW5nbGlzaGRkAhMPDxYCHwMFyQg8dHI+PHRkIHN0eWxlPSJ3aWR0aDo2MHB4Ij5QSUxPIDE8L3RkPjx0ZD5EZW1vbnN0cmF0ZSB0aGUgY2FwYWNpdHkgZm9yIHNlbGYtZGlyZWN0ZWQgbGVhcm5pbmc8L3RkPjwvdHI+PHRyPjx0ZCBzdHlsZT0id2lkdGg6NjBweCI+UElMTyAyPC90ZD48dGQ+RXhwbGFpbiB0aGUgYmFzaWMgbWV0aG9kb2xvZ2llcyBhbmQgdGVjaG5pcXVlcyBvZiBpbnF1aXJ5IG9mIHRoZSBhcnRzIGFuZCBodW1hbml0aWVzLCBzb2NpYWwgc2NpZW5jZXMsIGJ1c2luZXNzLCBhbmQgc2NpZW5jZSBhbmQgdGVjaG5vbG9neTwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDo2MHB4Ij5QSUxPIDM8L3RkPjx0ZD5EZW1vbnN0cmF0ZSBjcml0aWNhbCB0aGlua2luZyBza2lsbHM8L3RkPjwvdHI+PHRyPjx0ZCBzdHlsZT0id2lkdGg6NjBweCI+UElMTyA1PC90ZD48dGQ+UHJvZHVjZSBzdHJ1Y3R1cmVkLCB3ZWxsLW9yZ2FuaXNlZCBhbmQgZmx1ZW50IHRleHQ8L3RkPjwvdHI+PHRyPjx0ZCBzdHlsZT0id2lkdGg6NjBweCI+UElMTyA2PC90ZD48dGQ+RGVtb25zdHJhdGUgZWZmZWN0aXZlIG9yYWwgY29tbXVuaWNhdGlvbiBza2lsbHM8L3RkPjwvdHI+PHRyPjx0ZCBzdHlsZT0id2lkdGg6NjBweCI+UElMTyA3PC90ZD48dGQ+RGVtb25zdHJhdGUgYW4gYWJpbGl0eSB0byB3b3JrIGVmZmVjdGl2ZWx5IGluIGEgdGVhbTwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDo2MHB4Ij5QSUxPIDg8L3RkPjx0ZD5SZWNvZ25pc2UgaW1wb3J0YW50IGNoYXJhY3RlcmlzdGljcyBvZiB0aGVpciBvd24gY3VsdHVyZShzKSBhbmQgYXQgbGVhc3Qgb25lIG90aGVyIGN1bHR1cmUsIGFuZCB0aGVpciBpbXBhY3Qgb24gZ2xvYmFsIGlzc3VlczwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDo2MHB4Ij5QSUxPIDk8L3RkPjx0ZD5WYWx1ZSBldGhpY2FsIGFuZCBzb2NpYWxseSByZXNwb25zaWJsZSBhY3Rpb25zPC90ZD48L3RyPjx0cj48dGQgc3R5bGU9IndpZHRoOjYwcHgiPlBJTE8gMTA8L3RkPjx0ZD5EZW1vbnN0cmF0ZSB0aGUgYXR0aXR1ZGUgYW5kL29yIGFiaWxpdHkgdG8gYWNjb21wbGlzaCBkaXNjb3ZlcnkgYW5kL29yIGlubm92YXRpb24gPC90ZD48L3RyPmRkAhQPDxYCHwMFxQI8ZGl2IGNsYXNzPSJsYWJlbC1pY29uIj5QSUxPIDE8L2Rpdj48ZGl2IGNsYXNzPSJsYWJlbC1pY29uIj5QSUxPIDI8L2Rpdj48ZGl2IGNsYXNzPSJsYWJlbC1pY29uIj5QSUxPIDM8L2Rpdj48ZGl2IGNsYXNzPSJsYWJlbC1pY29uIj5QSUxPIDU8L2Rpdj48ZGl2IGNsYXNzPSJsYWJlbC1pY29uIj5QSUxPIDY8L2Rpdj48ZGl2IGNsYXNzPSJsYWJlbC1pY29uIj5QSUxPIDc8L2Rpdj48ZGl2IGNsYXNzPSJsYWJlbC1pY29uIj5QSUxPIDg8L2Rpdj48ZGl2IGNsYXNzPSJsYWJlbC1pY29uIj5QSUxPIDk8L2Rpdj48ZGl2IGNsYXNzPSJsYWJlbC1pY29uIj5QSUxPIDEwPC9kaXY+ZGQCFQ8PFgIfAwVLPGRpdiBjbGFzcz0ibGFiZWwtaWNvbiI+QVRUSVRVREU8L2Rpdj48ZGl2IGNsYXNzPSJsYWJlbC1pY29uIj5BQklMSVRZPC9kaXY+ZGQCFg8PFgIfAwX2CDxwPlRoaXMgY291cnNlIGJyaW5ncyBzdHVkZW50cyB0byB0aGUgZm9yZWZyb250IG9mIGN1bHR1cmFsIGhlcml0YWdlIGluIENoaW5hLCBpbmNsdWRpbmcgSG9uZyBLb25nIGFuZCBNYWNhdS4gSXQgYWRvcHRzIGEgbXVsdGlkaXNjaXBsaW5hcnkgYXBwcm9hY2gsIGVuYWJsaW5nIHN0dWRlbnRzIHRvIGNvbXByZWhlbmQgdGhlIGNvdXJzZSBmcm9tIGEgYnJvYWQgcGVyc3BlY3RpdmUuIFN0dWRlbnRzIHdpbGwgbGVhcm4gdG8gaWRlbnRpZnkgaW1wb3J0YW50IHByaW5jaXBsZXMgYW5kIGNvbmNlcHRzIG9mIGN1bHR1cmFsIGhlcml0YWdlIGluIHdvcmxkIHBlcnNwZWN0aXZlcywgcmVjb2duaXplIENoaW5lc2UgY3VsdHVyYWwgaGVyaXRhZ2UgaW4gY29udGVtcG9yYXJ5IGVjb25vbWljL3NvY2lhbC9wb2xpdGljYWwgY29udGV4dHMsIGFuZCBjb21wYXJlIGJldHdlZW4gdGFuZ2libGUgYW5kIGludGFuZ2libGUgaGVyaXRhZ2VzIGZvciB1bmRlcnN0YW5kaW5nIHRoZWlyIGNoYXJhY3RlcmlzdGljcywgdmFsdWVzIGFuZCBjdWx0dXJhbCByb290cy4gQWxzbyB0aGV5IHdpbGwgYXBwbHkgdGhlIGxlYXJuZWQga25vd2xlZGdlIHRvIHByb2JpbmcsIHJlZmxlY3RpbmcsIGp1ZGdpbmcgYW5kIHNvbHZpbmcgcHJvYmxlbXMgbGlrZSBwcmVzZXJ2YXRpb24gdnMuIGRldmVsb3BtZW50IGludm9sdmVkIGluIGxvY2FsL21haW5sYW5kIHJlYWwtbGlmZSBjYXNlcyBvZiBDaGluZXNlIGN1bHR1cmFsIGhlcml0YWdlLiBUaGUga25vd2xlZGdlLCBjYXBhY2l0eSBhbmQgbWVudGFsaXR5IGJ1aWx0IHVwIGFuZCBlbmhhbmNlZCB0aHJvdWdoIHRoZSBjb3Vyc2UgaGVscCBzdHVkZW50cyB0byBtYWludGFpbiB0aGVpciBvd24gY3VsdHVyYWwgdml0YWxpdHkgYW5kIHVuaXF1ZW5lc3MgaW4gdGhlIGV2ZXItY2hhbmdpbmcgd29ybGQgb2YgZ2xvYmFsaXNhdGlvbi4gSXQgaW50ZWdyYXRlcyB0aGUgZm9sbG93aW5nIGxlYXJuaW5nL3RlYWNoaW5nIGFjdGl2aXRpZXM6IExhcmdlIGNsYXNzIHRlYWNoaW5nLCB0dXRvcmlhbCwgb3JhbCBwcmVzZW50YXRpb24sIG9ubGluZSBkaXNjdXNzaW9uLCB2aXJ0dWFsIGZpZWxkdHJpcCBhbmQgZmluYWwgcHJvamVjdCAodXN1YWxseSBhcyB3cml0dGVuIGZpbmFsIHBhcGVyKS4mbmJzcDs8L3A+ZGQCFw8PFgIfAwUpTm8gY291cnNlIG1hdGVyaWFsIGhpZ2hsaWdodCBpcyBhdmFpbGFibGVkZAIZDxYCHgtfIUl0ZW1Db3VudAIEFggCAQ9kFhQCAQ8PFgIfAwUFMTA0MTlkZAIDDw8WAh8DBQgxMDQxOUNCMWRkAgUPDxYCHwMFMDxzcGFuIGNsYXNzPSJsYWJlbC1pY29uIFMiPjIwMjYtMjcgU3VtbWVyPC9zcGFuPmRkAgcPDxYCHwMFB0xlY3R1cmVkZAIJDw8WAh8DBQI2NWRkAgsPDxYCHwMFA1dlZGRkAg0PDxYCHwMFEzEyOjAwOjAwIC0gMTQ6NTA6MDBkZAIPDw8WAh8DBQNNTVdkZAIRDw8WAh8DBQQzNDIwZGQCEw8PFgIfAwUaPGxpPkRyLiBORyBQYWsgU2hldW5nPC9saT5kZAICD2QWFAIBDw8WAh8DBQUxMDU4MWRkAgMPDxYCHwMFCDEwNTgxQ0ExZGQCBQ8PFgIfAwUwPHNwYW4gY2xhc3M9ImxhYmVsLWljb24gUyI+MjAyNi0yNyBTdW1tZXI8L3NwYW4+ZGQCBw8PFgIfAwUHTGVjdHVyZWRkAgkPDxYCHwMFATVkZAILDw8WAh8DBQNXZWRkZAINDw8WAh8DBRMxMjowMDowMCAtIDE0OjUwOjAwZGQCDw8PFgIfAwUDTU1XZGQCEQ8PFgIfAwUEMzQyMGRkAhMPDxYCHwMFGjxsaT5Eci4gTkcgUGFrIFNoZXVuZzwvbGk+ZGQCAw9kFhQCAQ8PFgIfAwUFMTA0MTlkZAIDDw8WAh8DBQgxMDQxOUNCMWRkAgUPDxYCHwMFMDxzcGFuIGNsYXNzPSJsYWJlbC1pY29uIFMiPjIwMjYtMjcgU3VtbWVyPC9zcGFuPmRkAgcPDxYCHwMFB0xlY3R1cmVkZAIJDw8WAh8DBQI2NWRkAgsPDxYCHwMFA1RodWRkAg0PDxYCHwMFEzEyOjAwOjAwIC0gMTQ6NTA6MDBkZAIPDw8WAh8DBQNNTVdkZAIRDw8WAh8DBQQzNDIwZGQCEw8PFgIfAwUaPGxpPkRyLiBORyBQYWsgU2hldW5nPC9saT5kZAIED2QWFAIBDw8WAh8DBQUxMDU4MWRkAgMPDxYCHwMFCDEwNTgxQ0ExZGQCBQ8PFgIfAwUwPHNwYW4gY2xhc3M9ImxhYmVsLWljb24gUyI+MjAyNi0yNyBTdW1tZXI8L3NwYW4+ZGQCBw8PFgIfAwUHTGVjdHVyZWRkAgkPDxYCHwMFATVkZAILDw8WAh8DBQNUaHVkZAINDw8WAh8DBRMxMjowMDowMCAtIDE0OjUwOjAwZGQCDw8PFgIfAwUDTU1XZGQCEQ8PFgIfAwUEMzQyMGRkAhMPDxYCHwMFGjxsaT5Eci4gTkcgUGFrIFNoZXVuZzwvbGk+ZGQCGg8WAh4JaW5uZXJodG1sBREwOS1BdWctMjAyMSAwMzoyMWRkhgoGN+JC8g8/Xr8K0FrRIcvh7Cqp2luElEuM3340AOA=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/ge_info/WebResource.axd?d=KUHnvxgaFIwf1feGEe0rGshOTvsDbOtaeWpiDa_G_6N-tYktjGQSO0uRTMmfd7vScSfSSig0r_I1khMnc_VW9nDl1tUcqasbWqRuaJ2Uwvo1&amp;t=639256397503738887" type="text/javascript"></script>
+
+
+<script src="/ge_info/ScriptResource.axd?d=YBo6oKda-VP8Yg5J9ILw5Bu8eyXhYKwMzjqw_VWOy58E73R5NJYpa1GZJwfWHhp06wAWagI-kNdfyNh8Jdrfx_hH3vDHim4sa-aB5YxsAfSE9LvYTkV-OvJzMCXWlI5zWYa3ydvksJGWvpcxq-wfLTyhJ0Gosv-HSMpHkZMvhn8TSyDJe2F-TxiHWZYh0XCY0&amp;t=ffffffffa1bf0f7b" type="text/javascript"></script>
+<script src="/ge_info/ScriptResource.axd?d=_bJsTak9uveaqfnrd9lhvrnW5xF8jUNNfKR8_dD3dkp0_Oi7Gp0YrENp24rIrQYImf6m36pFcI7_lk_TvYRjuDF398u0z2V1ytkX2Sxl68Tg3Ld3WDn6LhFrlP5n1mRYf2NALs4BgCcwzuzjT0HW-fG73T6jw1a0g5HViCLi3iEc4vJ2DOFOz_zea6613dji0&amp;t=ffffffffa1bf0f7b" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="12458992">
+</div>
+        <div class="body-div">
+            <div class="cu-header">
+                <div class="inner">
+                    <div class="skip-link"><a href="#cu-nav">Skip to navigation</a></div>
+                    <div class="skip-link"><a href="#cu-content">Skip to content</a></div>
+                    <div class="cu-logo">
+                        <a href="http://www.cityu.edu.hk/ge/">
+                            <img class="logo" src="/ge_info/images/cityu-edge-logo.png" alt="City University of Hong Kong"><img class="logo-responsive" src="/ge_info/images/cityu-edge-logo-responsive.png" alt="City University of Hong Kong"></a>
+                    </div>
+                    <div id="cityu-header-toolbar"><div id="cityu-header-wa"><div class="cityu-wa-fontsize"><button class="cityu-wa-fontsize-0" title="Smaller Font Size">-</button><button class="cityu-wa-fontsize-1" title="Default Font Size"><i class="icon-font"></i></button><button class="cityu-wa-fontsize-2" title="Larger Font Size">+</button></div></div></div>
+                </div>
+            </div>
+
+            <div class="top-menu" id="cu-nav">
+                <div class="inner">
+                    <label class="rwd-menu-trigger" id="rwd-menu-trigger-0-" for="rwd-menu-cbx-0-"><i class="ti-menu"></i></label><input class="rwd-menu-cbx hidden-checkbox" type="checkbox" id="rwd-menu-cbx-0-"><div class="rwd-menu-mask" id="rwd-menu-mask-0-"></div><nav class="css-menu horizontal rwd">
+                        <ul>
+                            <li class="home"><a href="/ge_info/Home/"><i class="ti-home"></i><span>Home</span></a> </li>
+                            <li><a href="/ge_info/News/"><i class="ti-comment-alt"></i><span>What's New</span></a> </li>
+                            <li><a href="/ge_info/Search/"><i class="ti-book"></i><span>GE Courses</span></a> </li>
+                            
+
+                            
+                            
+                            
+                            
+
+                            <li><a href="https://www.cityu.edu.hk/catalogue/ug/current/catalogue/catalogue_UC.htm?page=B/ge_requirement.htm" target="_blank"><i class="ti-check-box"></i><span>GE Requirements</span></a> </li>
+                            
+                            <li><a href="/ge_info/Contact/"><i class="ti-email"></i><span>Contacts</span></a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /Nav -->
+            <div class="cu-container">
+                <!-- InstanceBeginEditable name="banner" -->
+                <div class="cu-banner">
+                    <div class="inner">
+                        
+                        
+                    </div>
+                </div>
+
+                <!-- InstanceEndEditable -->
+                <div id="cu-content" class="cu-content">
+                    <div id="cityu-main" style="font-size: 14px;">
+                        <div class="inner">
+                            
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    
+
+    
+    
+
+    <div class="rwd-inner">
+        <div class="page-title rwd">
+            <h1><a class="ax-back-icon-url" href="javascript:void(0)" onclick="window.close()"><i class="ax-icon ti-arrow-left"></i>
+                <span id="ContentPlaceHolder1_lblCode">GE1101</span>
+                -
+                <span id="ContentPlaceHolder1_lblTitle">Chinese Cultural Heritage in Modern Perspective</span></a></h1>
+        </div>
+        <div class="panel-group" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" href="#section-01" aria-expanded="true" aria-controls="section-01"><i class="section-icon ti-book"></i><i class="ti-angle-up"></i><span class="text"><b>Course Information</b>
+                                
+                                
+                            </span></a>
+
+                        </h4>
+                    </div>
+                    <div id="section-01" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-01">
+                        <div class="panel-body">
+                            <div class="form-horizontal">
+
+                                
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">Course Title</label>
+                                    <div class="col-sm-9">
+                                        <div class="form-control-static">
+                                            <span id="ContentPlaceHolder1_lblCourseTitle">Chinese Cultural Heritage in Modern Perspective</span>
+
+                                        </div>
+                                        <div>
+                                            <span id="ContentPlaceHolder1_lblCourseTitleLang"></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">Offering Term</label>
+                                    <div class="col-sm-9">
+                                        <div class="form-control-static">
+                                            <span id="ContentPlaceHolder1_lblOffTerm"><div class="label-icon S">2026-27 Summer</div></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">Distributional Area</label>
+                                    <div class="col-sm-9">
+                                        <div class="form-control-static">
+                                            <span id="ContentPlaceHolder1_lblDistriArea"><div class="label-icon A1">1 - Arts and Humanities</div></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">Offering College/School</label>
+                                    <div class="col-sm-9">
+                                        <div class="form-control-static">
+                                            <span id="ContentPlaceHolder1_lblOffColege">College of Liberal Arts and Social Sciences</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">Offering Unit</label>
+                                    <div class="col-sm-9">
+                                        <div class="form-control-static">
+                                            <span id="ContentPlaceHolder1_lblOffAcadUnit">Chinese and History</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">No. of Credit Units</label>
+                                    <div class="col-sm-9">
+                                        <div class="form-control-static">
+                                            <span id="ContentPlaceHolder1_lblNoOfCreditUnit">3</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">Level</label>
+                                    <div class="col-sm-9">
+                                        <div class="form-control-static">
+                                            <span id="ContentPlaceHolder1_lblLevel">B1, A1</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    
+                                    <label for="inputEmail3" class="col-sm-3 control-label">Exam Assessment Weighting </label>
+                                    <div class="col-sm-9">
+                                        <div class="form-control-static">
+                                            <span id="ContentPlaceHolder1_lblEXAM_WGT">0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">Introductory Discipline Gateway Education (ID-GE)</label>
+                                    <div class="col-sm-9">
+                                        <div class="form-control-static">
+                                            <span id="ContentPlaceHolder1_lblIDGE">No</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+            <div id="ContentPlaceHolder1_pnlRelatedCourse" class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingSix">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" href="#section-06" aria-expanded="true" aria-controls="section-06">
+                            <i class="section-icon ti-bookmark-alt"></i><i class="ti-angle-up"></i>
+                            <span class="text"><b>Related Courses</b></span>
+                        </a>
+                    </h4>
+                </div>
+                <div id="section-06" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading-06">
+                    <div class="panel-body">
+                        <div>
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label">Equivalent Course </label>
+                                <div class="col-sm-9">
+                                    <div class="form-control-static">
+                                        <span id="ContentPlaceHolder1_lblEQU_CRS" autosize="false" wordwrap="true"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label">Exclusive Course </label>
+                                <div class="col-sm-9">
+                                    <div class="form-control-static">
+                                        <span id="ContentPlaceHolder1_lblEXCL_CRS" autosize="false" wordwrap="true"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label">Prerequisites Course </label>
+                                <div class="col-sm-9">
+                                    <div class="form-control-static">
+                                        <span id="ContentPlaceHolder1_lblPREQ_CRS" autosize="false" wordwrap="true"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label">Precursors Course </label>
+                                <div class="col-sm-9">
+                                    <div class="form-control-static">
+                                        <span id="ContentPlaceHolder1_lblPREC_CRS" autosize="false" wordwrap="true"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                    <h4 class="panel-title"><a class="collapsed-" role="button" data-toggle="collapse" href="#section-07" aria-expanded="true" aria-controls="section-07"><i class="section-icon ti-bookmark-alt"></i><i class="ti-angle-up"></i><span class="text"><b>Supplementary Information</b></span></a> </h4>
+                </div>
+                <div id="section-07" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-07">
+                    <div class="panel-body">
+                        <div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">Medium of Instruction</label>
+                                <div class="col-sm-9">
+                                    <div class="form-control-static">
+                                        <span id="ContentPlaceHolder1_lblMediumOfInstr">English</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">Medium of Assessment</label>
+                                <div class="col-sm-9">
+                                    <div class="form-control-static">
+                                        <span id="ContentPlaceHolder1_lblMediumOfAsses">English</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label">
+                                    Related GE PILO
+                                    <a class="rwd-fr circle-icon btn" data-trigger="click" data-toggle="popover" role="button" tabindex="0" data-original-title="" title="" href="javascript:void(0)"><i class="ti-help"></i></a>
+                                    <div id="PILO-content" style="display: none">
+                                        <div class="PILO-table">
+                                            <span id="ContentPlaceHolder1_lblRelatedGEPILOTips"></span><table>
+                                                <tbody><tr><td style="width:60px">PILO 1</td><td>Demonstrate the capacity for self-directed learning</td></tr><tr><td style="width:60px">PILO 2</td><td>Explain the basic methodologies and techniques of inquiry of the arts and humanities, social sciences, business, and science and technology</td></tr><tr><td style="width:60px">PILO 3</td><td>Demonstrate critical thinking skills</td></tr><tr><td style="width:60px">PILO 5</td><td>Produce structured, well-organised and fluent text</td></tr><tr><td style="width:60px">PILO 6</td><td>Demonstrate effective oral communication skills</td></tr><tr><td style="width:60px">PILO 7</td><td>Demonstrate an ability to work effectively in a team</td></tr><tr><td style="width:60px">PILO 8</td><td>Recognise important characteristics of their own culture(s) and at least one other culture, and their impact on global issues</td></tr><tr><td style="width:60px">PILO 9</td><td>Value ethical and socially responsible actions</td></tr><tr><td style="width:60px">PILO 10</td><td>Demonstrate the attitude and/or ability to accomplish discovery and/or innovation </td></tr>
+                                            </tbody></table>
+                                        </div>
+                                    </div>
+                                    <script>
+                                        $(function () {
+                                            $('[data-toggle="popover"]').popover(
+                                                {
+                                                    html: true,
+                                                    container: 'body',
+                                                    placement: 'auto right',
+                                                    title: 'Programme Intended Learning Outcome',
+                                                    delay: { "show": 300, "hide": 100 },
+                                                    template: '<div class="popover popover-medium ax-popover" ><div class="arrow"></div><div class="popover-inner" ><h3 class="popover-title"></h3><div class="popover-content"><p></p></div></div></div>',
+                                                    content: function () {
+                                                        return $("#PILO-content").html();
+                                                    }
+                                                }
+                                            )
+                                        })
+                                    </script>
+                                </label>
+                                <div class="col-sm-9">
+                                    <div class="form-control-static">
+                                        <span id="ContentPlaceHolder1_lblRelatedGEPILO"><div class="label-icon">PILO 1</div><div class="label-icon">PILO 2</div><div class="label-icon">PILO 3</div><div class="label-icon">PILO 5</div><div class="label-icon">PILO 6</div><div class="label-icon">PILO 7</div><div class="label-icon">PILO 8</div><div class="label-icon">PILO 9</div><div class="label-icon">PILO 10</div></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label">Related DEC Aspects</label>
+                                <div class="col-sm-9">
+                                    <div class="form-control-static">
+                                        <span id="ContentPlaceHolder1_lblRelatedDECAsp"><div class="label-icon">ATTITUDE</div><div class="label-icon">ABILITY</div></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-3 control-label">Official Course Syllabus</label>
+                                <div class="col-sm-9">
+                                    <div class="form-control-static">
+                                        <div class="ax-icons list">
+                                            <ul>
+                                                <li><a class="cityu-link-url" href="http://www.cityu.edu.hk/ug/current/course/GE1101.htm" target="_blank" title="Click here to view the official course information"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title"><a class="collapsed-" role="button" data-toggle="collapse" href="#section-02" aria-expanded="true" aria-controls="section-02"><i class="section-icon ti-bookmark-alt"></i><i class="ti-angle-up"></i><span class="text"><b>Abstract</b></span></a> </h4>
+                </div>
+                <div id="section-02" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-02">
+                    <div class="panel-body">
+                        <div>
+                            <span id="ContentPlaceHolder1_lblAbstract"><p>This course brings students to the forefront of cultural heritage in China, including Hong Kong and Macau. It adopts a multidisciplinary approach, enabling students to comprehend the course from a broad perspective. Students will learn to identify important principles and concepts of cultural heritage in world perspectives, recognize Chinese cultural heritage in contemporary economic/social/political contexts, and compare between tangible and intangible heritages for understanding their characteristics, values and cultural roots. Also they will apply the learned knowledge to probing, reflecting, judging and solving problems like preservation vs. development involved in local/mainland real-life cases of Chinese cultural heritage. The knowledge, capacity and mentality built up and enhanced through the course help students to maintain their own cultural vitality and uniqueness in the ever-changing world of globalisation. It integrates the following learning/teaching activities: Large class teaching, tutorial, oral presentation, online discussion, virtual fieldtrip and final project (usually as written final paper).&nbsp;</p></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title"><a class="collapsed-" role="button" data-toggle="collapse" href="#section-03" aria-expanded="true" aria-controls="section-03"><i class="section-icon ti-files"></i><i class="ti-angle-up"></i><span class="text"><b>Course Material Highlight</b></span></a> </h4>
+                </div>
+                <div id="section-03" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-03">
+                    <div class="panel-body">
+                        <div>
+                            <div class="ax-section type-b">
+                                <div class="ax-icons list">
+                                    <span id="ContentPlaceHolder1_lblCourseMaterialHigh">No course material highlight is available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title"><a class="collapsed-" role="button" data-toggle="collapse" href="#section-04" aria-expanded="true" aria-controls="section-04"><i class="section-icon ti-blackboard"></i><i class="ti-angle-up"></i><span class="text"><b>Course Section</b></span></a> </h4>
+                </div>
+                <div id="section-04" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-04">
+                    <div class="panel-body">
+                        
+
+                        
+                                <style>table#id0mobileTableRegion > tbody > tr > td:nth-of-type(1):before { content: ''; }table#id0mobileTableRegion > tbody > tr > td:nth-of-type(2):before { content: 'CRN '; }table#id0mobileTableRegion > tbody > tr > td:nth-of-type(3):before { content: 'Section '; }table#id0mobileTableRegion > tbody > tr > td:nth-of-type(4):before { content: 'Term '; }table#id0mobileTableRegion > tbody > tr > td:nth-of-type(5):before { content: 'Type '; }table#id0mobileTableRegion > tbody > tr > td:nth-of-type(6):before { content: 'Capacity '; }table#id0mobileTableRegion > tbody > tr > td:nth-of-type(7):before { content: 'Day '; }table#id0mobileTableRegion > tbody > tr > td:nth-of-type(8):before { content: 'Time '; }table#id0mobileTableRegion > tbody > tr > td:nth-of-type(9):before { content: 'Building '; }table#id0mobileTableRegion > tbody > tr > td:nth-of-type(10):before { content: 'Room '; }table#id0mobileTableRegion > tbody > tr > td:nth-of-type(11):before { content: 'Instructor '; }</style><table class="ax-mobile-table table table-bordered table-hover table-striped" id="id0mobileTableRegion" transformed="true">
+                                    <thead>
+                                        <tr><th class="mobile-display-only mobile-row-num"></th>
+                                            <th>CRN </th>
+                                            <th>Section </th>
+                                            <th>Term </th>
+                                            <th>Type </th>
+                                            <th>Capacity </th>
+                                            <th>Day </th>
+                                            <th>Time </th>
+                                            <th>Building </th>
+                                            <th>Room </th>
+                                            <th>Instructor </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody style="font-size: 12px">
+                            
+                                <tr><td class="mobile-display-only mobile-row-num">&nbsp;</td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCRN_0">10419</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCode_0">10419CB1</span>
+                                    </td>
+                                    <td style="word-break: break-all; white-space: nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSemesterTitle_0"><span class="label-icon S">2026-27 Summer</span></span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblType_0">Lecture</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCapacity_0">65</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionDay_0">Wed</span>
+                                    </td>
+                                    <td nowrap="nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionTime_0">12:00:00 - 14:50:00</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblBuilding_0">MMW</span>
+                                    </td>
+                                    <td nowrap="nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblRoom_0">3420</span>
+                                    </td>
+                                    <td>
+                                        
+                                        <span id="ContentPlaceHolder1_rptCourse_lblInstructor_0"><li>Dr. NG Pak Sheung</li></span>
+                                    </td>
+
+                                </tr>
+                            
+                                <tr><td class="mobile-display-only mobile-row-num">&nbsp;</td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCRN_1">10581</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCode_1">10581CA1</span>
+                                    </td>
+                                    <td style="word-break: break-all; white-space: nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSemesterTitle_1"><span class="label-icon S">2026-27 Summer</span></span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblType_1">Lecture</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCapacity_1">5</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionDay_1">Wed</span>
+                                    </td>
+                                    <td nowrap="nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionTime_1">12:00:00 - 14:50:00</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblBuilding_1">MMW</span>
+                                    </td>
+                                    <td nowrap="nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblRoom_1">3420</span>
+                                    </td>
+                                    <td>
+                                        
+                                        <span id="ContentPlaceHolder1_rptCourse_lblInstructor_1"><li>Dr. NG Pak Sheung</li></span>
+                                    </td>
+
+                                </tr>
+                            
+                                <tr><td class="mobile-display-only mobile-row-num">&nbsp;</td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCRN_2">10419</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCode_2">10419CB1</span>
+                                    </td>
+                                    <td style="word-break: break-all; white-space: nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSemesterTitle_2"><span class="label-icon S">2026-27 Summer</span></span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblType_2">Lecture</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCapacity_2">65</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionDay_2">Thu</span>
+                                    </td>
+                                    <td nowrap="nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionTime_2">12:00:00 - 14:50:00</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblBuilding_2">MMW</span>
+                                    </td>
+                                    <td nowrap="nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblRoom_2">3420</span>
+                                    </td>
+                                    <td>
+                                        
+                                        <span id="ContentPlaceHolder1_rptCourse_lblInstructor_2"><li>Dr. NG Pak Sheung</li></span>
+                                    </td>
+
+                                </tr>
+                            
+                                <tr><td class="mobile-display-only mobile-row-num">&nbsp;</td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCRN_3">10581</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCode_3">10581CA1</span>
+                                    </td>
+                                    <td style="word-break: break-all; white-space: nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSemesterTitle_3"><span class="label-icon S">2026-27 Summer</span></span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblType_3">Lecture</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionCapacity_3">5</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionDay_3">Thu</span>
+                                    </td>
+                                    <td nowrap="nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblSectionTime_3">12:00:00 - 14:50:00</span>
+                                    </td>
+                                    <td>
+                                        <span id="ContentPlaceHolder1_rptCourse_lblBuilding_3">MMW</span>
+                                    </td>
+                                    <td nowrap="nowrap">
+                                        <span id="ContentPlaceHolder1_rptCourse_lblRoom_3">3420</span>
+                                    </td>
+                                    <td>
+                                        
+                                        <span id="ContentPlaceHolder1_rptCourse_lblInstructor_3"><li>Dr. NG Pak Sheung</li></span>
+                                    </td>
+
+                                </tr>
+                            
+                                </tbody>
+                                <input type="hidden" name="ctl00$ContentPlaceHolder1$rptCourse$ctl05$hf_CODE_UUID" id="ContentPlaceHolder1_rptCourse_hf_CODE_UUID">
+                                </table>
+                            
+
+                    </div>
+                    
+                    
+                    
+                </div>
+
+            </div>
+            <div hidden="hidden" class="note" style="margin-top: 30px; margin-bottom: 30px">Last Updated Time: <span id="ContentPlaceHolder1_lblUpdatedDate">09-Aug-2021 03:21</span></div>
+        </div>
+
+        <div class="ax-btn-set">
+            <button type="button" class="btn btn-primary" onclick="window.close()">Close</button>
+        </div>
+
+    </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div id="cu-footer" class="cu-footer">
+                <div class="inner">
+                    <div class="hr"></div>
+                    <div class="logo">
+                        <a href="http://www.cityu.edu.hk/" target="_blank">
+                            <img src="/ge_info/images/cityu_footer.png" alt="City University of Hong Kong"></a>
+                    </div>
+                    <ul class="links">
+                        <li><span>·</span><a href="http://www.cityu.edu.hk/edge/policy.htm#policy" target="_blank">Privacy Policy</a></li>
+                        <li><span>·</span><a href="http://www.cityu.edu.hk/edge/policy.htm#copyright" target="_blank">Copyright</a></li>
+                        <li><span>·</span><a href="http://www.cityu.edu.hk/edge/policy.htm#disclaimer" target="_blank">Disclaimer</a></li>
+                        <li><span>·</span><a href="http://www.cityu.edu.hk/edge/contact.htm" target="_blank">Contact Us</a></li>
+                    </ul>
+                   
+                     <div class="credits">© City University of Hong Kong. All Rights Reserved. </div>
+                </div>
+                <div class="cu-footer-bottom"></div>
+            </div>
+            <!-- /Footer -->
+        </div>
+        <script type="text/javascript" src="/ge_info/js/bootstrap.min.js"></script>
+    </form>
+
+
+<a class="cityu-backtotop" style="display: block;"><i class="icon-arrow-up">Back to Top</i></a></body></html>

@@ -1,0 +1,544 @@
+1         GE1218: Social Entrepreneurship and Innovation
+GE1218: SOCIAL ENTREPRENEURSHIP AND
+INNOVATION
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Social Entrepreneurship and Innovation 
+Subject Code
+GE - Gateway Education 
+Course Number
+1218 
+Academic Unit
+Public and International Aﬀairs (PIA) 
+College/School
+College of Liberal Arts and Social Sciences (CH) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+GE Area (Primary)
+Area 2 - Study of Societies, Social and Business Organisations 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+2         GE1218: Social Entrepreneurship and Innovation
+Additional Information
+Nil 
+Part II Course Details
+Abstract
+Global and local grand challenges (e.g., inequality, climate change, inadequate housing, discrimination) and the
+acceleration of change in the economy and social ecosystem require citizens today to take an active part in driving positive
+change. This phenomenon becomes known as 'social entrepreneurship', a rapidly growing trend where private individuals
+and groups mobilize private resources and using market mechanisms to beneﬁt the public. Rather than leaving societal
+problems to the government or businesses, social entrepreneurs lead as change agents and take up the responsibility
+to drive for a better world and become valuable partners of the government and non-proﬁts in experimenting with new
+solutions.
+The local and global interest in 'social entrepreneurship', 'social innovation', and 'social enterprise' has grown rapidly in
+the past two decades. Social entrepreneurship is a type of entrepreneurship that relies on economic activities that aim to
+create social outcomes. Social innovation refers to the pursuit of innovation where the beneﬁts accrue to the society than
+a particular individual or organization. Social enterprise is the business entity to implement social entrepreneurship and
+innovation. Social enterprise is a form of business but, unlike conventional commercial businesses, it focuses on bringing
+about solutions to social problems in a ﬁnancially sustainable (and often innovative) manner. Examples include 'work
+integration social enterprises' (WISEs) that employ stigmatized groups (e.g., ex-criminals, people with disability, homeless,
+refugees, ethnic minority) and socially innovative ventures (e.g., new types of transitional housing, taxis that cater to the
+elderly, etc). New developments in this area include Certiﬁed B Corporation, platform cooperatives, to the use of blockchain
+and AI to assist poor farmers; many of whom also employ social enterprise models.
+This course aims to educate students as positive agents of development and responsible citizens by equipping them with
+the theories, concepts, and tools to be social entrepreneurs. The skills learned in this course is equally applicable to
+conventional (for-proﬁt) entrepreneurship. The course integrates Western and non-Western theories, practices, and cases
+to social entrepreneurship, and thus oﬀers a unique design in the world. It also incorporates and integrates the use of
+generative artiﬁcial intelligence (AI) as part of the learning process on aspects that are relevant to social entrepreneurship.
+As social entrepreneurship is multidimensional, this course adopts a multi-disciplinary approach by combining humanities,
+public sector management, business management, design, information and communication technology, and technology
+management.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Identify the diﬀerences between commercial
+enterprise and social enterprise, the meaning of
+social entrepreneurship and innovation, the key
+features and diﬀerent types of social enterprises
+and social entrepreneurship opportunities in
+Hong Kong and internationally.
+10 x x x
+2 Discover why and what innovative solutions
+have been created by social entrepreneurs and
+innovators both at home and abroad to solve
+societal problems.
+20 x x
+3 Explore how social entrepreneurs and
+innovators draw on business models and
+market-based mechanisms to create positive
+and innovative change.
+20 x x
+4 Analyse some of the best practices in social
+entrepreneurship, strategies and social
+innovation strategies, successes and failures,
+opportunities and pitfalls in the ﬁeld of social
+entrepreneurship and innovation.
+20 x x
+3         GE1218: Social Entrepreneurship and Innovation
+5 Develop eﬀective communication skills and
+multimedia skills, including generative AI skills,
+to bring about positive change and societal
+improvements by generating and analyzing new
+ideas and solutions, narrating the issues and
+challenges, conducting analysis and exploring
+new perspectives of social entrepreneurs.
+20 x
+6 Relate the spirit of social entrepreneurship to
+community building and develop a sense of
+civic responsibility.
+10 x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lectures Lay out the main ideas of
+social entrepreneurship
+and enterprise and
+their key concepts,
+characteristic features;
+how they are related
+to social innovation;
+diﬀerent types of social
+enterprises; opportunities
+and constraints faced
+by social entrepreneurs
+in Hong Kong and other
+parts of the globe.
+1, 2, 3, 4, 5
+2 Readings Facilitate students to have
+in-depth understanding
+of the key concepts, ideas,
+models, and practices of
+social entrepreneurship
+and enterprise in the
+local and international
+settings.
+1, 2, 3, 4, 5
+4         GE1218: Social Entrepreneurship and Innovation
+3 Guest Lectures by
+Practitioners
+Provide real life examples
+of best practices, business
+strategies and resources
+management, successes
+and failures in the ﬁeld of
+social entrepreneurship
+and enterprise.
+2, 3, 4
+4 Case Studies & Class
+Exercise and Discussions
+Equip students with
+insightful cases,
+successful and less
+sucessful, and class
+exercise and discussions
+to understand, explain
+and communicate the
+challenges and best
+practices of social
+entrepreneurship and
+enterprise at home and
+abroad.
+2, 3, 4, 5, 6
+5 Site Visit Enable students to
+experience the spirit of
+social entrepreneurship
+by seeing and visiting real
+life practices of social
+enterprises in town.
+2, 3, 4, 6
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Class Participation:
+Student’s class
+participation
+includes actively
+participation in
+class activities and
+exercises, class
+discussions, asking
+useful questions,
+and volunteering in
+class activities.
+1, 2, 3, 4, 5 10 - Yes
+5         GE1218: Social Entrepreneurship and Innovation
+2 Social Enterprise
+Ideation Challenge:
+Each student will
+generate ideas and
+solutions to tackle
+a chosen social
+environmental
+problem. This
+requires students
+to think deeply and
+creatively about
+the social problem
+of interest and
+creatively write
+and frame the
+social problems,
+the mission of the
+social enterprise,
+and the potential
+ideas or solutions
+to tackle the
+problem. Students
+will generate the
+ideas and solutions
+using a “manual
+approach” (relying
+on their mind and
+hand), compare
+it with an “AI
+approach”,
+and a “human-
+AI combined
+approach”. This
+three-thronged
+approach builds
+the bilities in
+identifying
+accurate
+information
+and understand
+the subtleties,
+complexities, and
+intricacies of social
+entrepreneurship.
+As part of the
+learning process,
+students are
+required to identify
+the strengths and
+weaknesses of AI
+only approach,
+human only
+approach, and
+the combined AI-
+human approach.
+2, 3, 6 25 This is an
+individual work. To
+be submitted near
+the middle of the
+semester.
+A combination of
+AI (e.g., ChatGPT
+or other AI tools
+including text-
+to-image AI) and
+human problem
+solving is required
+in this assignment. 
+Students must
+acknowledge
+their use of AI
+in responsible
+manner by
+including the
+original prompts
+and the outputs.
+Yes
+6         GE1218: Social Entrepreneurship and Innovation
+3 Social Business
+Plan Presentation:
+Students will
+conduct an in-
+depth investigation
+of a chosen societal
+problem and
+design social
+business plan
+to address the
+problem. This
+requires students
+to conduct
+problem analysis,
+market analysis,
+opportunity
+analysis, and
+solution feasibility
+using a “social
+business plan
+canvass”.
+Students will use
+a “AI and human
+collaborative
+approach” to
+facilitate various
+activities in the
+social business
+plan that include
+idea generation,
+problem
+identiﬁcation,
+market-
+opportunity
+analysis, ﬁnancial
+analysis, to impact
+analysis.
+Students will
+present and
+defend their social
+business plan to
+the teacher and
+whenever feasible,
+in front of expert
+judges. Teachers
+will make oral
+assessment in class
+during the poster
+pitching.
+1, 2, 3, 4, 5, 6 40 This is a group
+work, with the
+group size to be
+determined by
+the course leader
+depending on the
+class size. To be
+submitted near
+the end of the
+semester.
+A combination of
+AI (e.g., ChatGPT
+or other AI tools
+including text-
+to-image AI) and
+human problem
+solving is required
+in this assignment.
+Students must
+acknowledge
+their use of AI
+in responsible
+manner by
+including the
+original prompts
+and the outputs. 
+Yes
+7         GE1218: Social Entrepreneurship and Innovation
+4 Final Quiz:
+Students will
+take a ﬁnal quiz,
+that will examine
+what they have
+learned, solving
+cases, applying
+knowledge into a
+problem, etc.
+1, 2, 3, 4, 5 25 This is an
+individual
+work and to be
+administered in
+near the end or
+the last class of the
+course.
+No
+Continuous Assessment (%)
+100 
+Examination (%)
+0 
+Assessment Rubrics (AR)
+Assessment Task
+1. Class Participation 
+Criterion
+This assesses active participation throughout the semester. It includes participating actively in class activities, class
+exercises, class discussion or debate, asking clariﬁcations, volunteering in the class; avoid creating troubles that could
+hamper other students’ learning experience or the smooth operations of the course. 
+Excellent (A+, A, A-)
+Demonstrating very positive and proactive attitudes in class discussions; showing superior preparation of the readings
+before coming to class; and very active interaction in class with unique ideas and insightful questions 
+Good (B+, B, B-)
+Demonstrating good & positive attitudes in class discussions; showing good preparation of the readings before coming to
+class; and active interaction in class with some stimulating ideas and insightful questions. 
+Fair (C+, C, C-)
+Demonstrating good attitudes in class discussions; showing adequate preparation of the readings before coming to class;
+and some interaction in class but no stimulating ideas and little insightful questions. 
+Marginal (D)
+Demonstrating non-positive attitudes class discussions; showing inadequate preparation of the readings before coming to
+class; and little interaction in class with no stimulating ideas or insightful questions. 
+Failure (F)
+Demonstrating negative attitude in class discussions; showing poor preparation of the readings before coming to class; and
+no interaction in class at all. 
+Assessment Task
+Social Enterprise Ideation Challenge 
+Criterion
+This assesses students’ logical and creative thinking about a social problem of interest and creatively write and frame
+the social problems, articulate the mission of the social enterprise, and express the potential ideas or solutions to tackle
+the problem. Students will be assessed based on how well they can demonstrate the use of “manual approach” (relying
+on their mind and hand), compare it with an “AI approach”, and a “human-AI combined approach” in terms of
+8         GE1218: Social Entrepreneurship and Innovation
+identifying accurate information, in being creative and innovative, and understand the complexities and intricacies of social
+entrepreneurship. 
+Excellent (A+, A, A-)
+Demonstrating outstanding ideas and outstanding innovative results to make a diﬀerence in real-life issues and problem;
+outstanding creativity in communicating ideas and solutions in writing; strong evidence that the suggested ideas and
+solutions would or have created societal value; and impressive learning beneﬁts in using AI in this process. 
+Good (B+, B, B-)
+Demonstrating good ideas and innovative results to make a diﬀerence in real-life issues and problems; good creativity in
+communicating the ideas and solutions in writing; good evidence that the suggested ideas and solutions would or have
+created societal value; and good learning beneﬁts in using AI in this process. 
+Fair (C+, C, C-)
+Demonstrating some fair ideas and somewhat innovative results to make a diﬀerence in real-life issues and problems; fair
+creativity in communicating the ideas and solutions in writing; fair evidence that the suggested ideas and solutions would or
+have created societal value; and fair learning beneﬁts in using AI in this process. 
+Marginal (D)
+Demonstrating weak ideas and somewhat weak innovative results to make a diﬀerence in real-life issues and problems;
+weak creativity in communicating the ideas and solutions in writing; weak evidence that the suggested ideas and solutions
+would or have created societal value; and weak learning beneﬁts in using AI in this process. 
+Failure (F)
+Demonstrating inadequate ideas and clear lack of innovative results to make a diﬀerence in real-life issues and problems;
+very weak creativity in communicating the ideas and solutions in writing; very weak evidence that the suggested ideas and
+solutions would or have created societal value; and very limited learning beneﬁts in using AI in this process. 
+Assessment Task
+3. Social Business Plan Presentation 
+Criterion
+This assesses students, in groups, ability to conduct problem analysis, market analysis, opportunity analysis, ﬁnancial
+analysis, and impact analysis and solution feasibility using a “social business plan canvass”, and their ability in using a
+“AI and human collaborative approach” and in pitching the social business plan. 
+Excellent (A+, A, A-)
+Demonstration of outstanding ability in doing in-depth investigation independently and systematically to tackle a societal
+problem of interest ; creative and stimulating application of materials to establish a very convincing solution for the
+problem; highly eﬀective in communicating the ideas and defending the group’s position; strong evidence of superior
+critical analysis and synthesis; and excellent ability in using a “AI and human collaborative approach” and in pitching the
+social business plan. 
+Good (B+, B, B-)
+Demonstration of good ability in doing in-depth investigation independently and systematically to tackle a societal problem
+of interest; good level of creativity and stimulating application of materials to establish a convincing solution for the
+problem; eﬀective in communicating the ideas and defending the group’s position; good evidence of superior critical
+analysis and synthesis; and excellent ability in using a “AI and human collaborative approach” and in pitching the social
+business plan. 
+Fair (C+, C, C-)
+Demonstration of adequate ability in doing in-depth investigation independently and systematically to tackle a societal
+problem of interest; adequate level of creativity and stimulating application of materials to establish a somewhat convincing
+solution for the problem; fairly eﬀective in communicating the ideas and defending the group’s position; fair evidence of
+9         GE1218: Social Entrepreneurship and Innovation
+superior critical analysis and synthesis; and fair ability in using a “AI and human collaborative approach” and in pitching
+the social business plan. 
+Marginal (D)
+Demonstration of limited ability in doing in-depth investigation independently and systematically to tackle a societal
+problem of interest; limited level of creativity and stimulating application of materials to establish a convincing solution
+for the problem; limited eﬀectiveness in communicating the ideas and defending the group’s position; limited evidence
+of superior critical analysis and synthesis; and limited ability in using a “AI and human collaborative approach” and in
+pitching the social business plan. 
+Failure (F)
+Demonstration of poor ability in doing in-depth investigation independently and systematically to tackle a societal problem
+of interest; poor level of creativity and stimulating application of materials to establish a convincing solution for the
+problem; poor eﬀectiveness in communicating the ideas and defending the group’s position; poor evidence of superior
+critical analysis and synthesis; and poor ability in using a “AI and human collaborative approach” and in pitching the
+social business plan. 
+Assessment Task
+4. Final Quiz 
+Criterion
+Students will take a ﬁnal quiz near or at the end of the semester. This will tests what they have learned, and solving cases,
+that tests how they apply the knowledge into a real life situation. 
+Excellent (A+, A, A-)
+Outstanding performance in the quiz; evidence of extensive knowledge base in the subject matter; demonstration of
+excellent, critical and analytical thinking, rigorous analysis of materials and evaluation of issues. 
+Good (B+, B, B-)
+Good performance in the quiz; evidence of good knowledge base in the subject matter; demonstration of good analytical
+thinking, good analysis of materials and evaluation of issues. 
+Fair (C+, C, C-)
+Fair performance in the quiz, evidence of adequate knowledge base in the subject matter; demonstration of some critical
+and analytical thinking, fairly adequate analysis of materials and evaluation of issues. 
+Marginal (D)
+Weak performance in the quiz, evidence of weak knowledge base in the subject matter; limited critical and analytical
+thinking, insuﬃcient analysis of materials and evaluation of issues. 
+Failure (F)
+Poor performance in the quiz, evidence of some knowledge base in the subject matter; poor critical and analytical thinking,
+poor analysis of materials and evaluation of issues. 
+Part III Other Information
+Keyword Syllabus
+Social entrepreneurship; social innovation; social enterprise; tackling grand challenges; solving societal problems; United
+Nations Sustainable Development Goals; concepts of social entrepreneurship and social innovation; motives for social
+entrepreneurship; promises of social business; social problems as business opportunities; partnership between the state,
+business and civil society; business strategies and sustainability; qualities and traits of social entrepreneurs; doing well
+10         GE1218: Social Entrepreneurship and Innovation
+by doing good; pitching ideas; communicating new ideas; social enterprise ideation challenge; use of AI and human
+collaboration approach.
+Reading List
+Compulsory Readings
+ Title
+1 Bornstein, David (2004) How to Change the World: Social Entrepreneurs and the Power of New Ideas, Oxford: OUP.
+2 Mair, J., & Rathert, N. (2021). Alternative organizing with social purpose: Revisiting institutional analysis of market-
+based activity. Socio-Economic Review, 19(2), 817-836.
+3 Chandra, Y., & Wong, L. 2016. Social Entrepreneurship in the Greater China: Policy and Cases. Routledge (in print).
+4 Nicholls, Alex ed. (2006) Social Entrepreneurship: New Models of Sustainable Social Change, Oxford University
+Press.
+5 Yunus, M., Moingeon, B., & Lehmann-Ortega, L. 2010. Building Social Business Models: Lessons from the Grameen
+Experience. Long Range Planning, 43: 308-325.
+6 Ashoka: Innovators for the Public: proﬁles of Ashoka Fellows: https://www.ashoka.org/
+7 Skoll Foundation (Skoll entrepreneurs). http://www.skollfoundation.org/skoll-entrepreneurs/
+8 Schwab Foundation for Social Entrepreneurship. http://www.schwabfound.org/sf/index.htm
+9 Kiva: a platform to match social investors and the needy. http://www.kiva.org/
+10 Social Enterprise UK: a platform of social enterprises in UK: http://www.socialenterprise.org.uk/
+11 Community Interest Company (CIC): UK’s legal pathway to social enterprise: https://www.gov.uk/government/
+organisations/oﬃce-of-the-regulator-of-community-interest-companies
+12 BCorporation: a certiﬁcation of business for good: https://www.bcorporation.net/en-us/
+13 Social Enterprise Summit (Hong Kong). http://www.social-enterprise.org.hk/
+14 Directory of Social Enterprise in Hong Kong: https://socialenterprise.org.hk/en/sedb
+15 Social Enterprise Endorsement Mark (Hong Kong): https://sechamber.hk/en_gb/home/
+Additional Readings
+ Title
+1 Nil
+Annex (for GE courses only)
+A. Please specify the Gateway Education Programme Intended Learning Outcomes (PILOs) that the course is aligned to
+and relate them to the CILOs stated in Part II, Section 2 of this form:
+Please indicate which CILO(s) is/are related to this PILO, if any (can be more than one CILOs in each PILO)
+PILO 1: Demonstrate the capacity for self-directed learning
+2, 3, 4 
+PILO 2: Explain the basic methodologies and techniques of inquiry of the arts and humanities, social sciences,
+business, and science and technology
+1, 2, 3, 4, 5 
+PILO 3: Demonstrate critical thinking skills
+2, 3, 4, 5 
+PILO 4: Interpret information and numerical data
+2, 3, 4 
+11         GE1218: Social Entrepreneurship and Innovation
+PILO 5: Produce structured, well-organised and ﬂuent text
+2, 3, 4, 5 
+PILO 6: Demonstrate eﬀective oral communication skills
+2, 3, 4, 5 
+PILO 7: Demonstrate an ability to work eﬀectively in a team
+2, 3, 4, 5 
+PILO 8: Recognise important characteristics of their own culture(s) and at least one other culture, and their impact on
+global issues
+2, 3, 4, 5 
+PILO 9: Value ethical and socially responsible actions
+4, 5, 6 
+PILO 10: Demonstrate the attitude and/or ability to accomplish discovery and/or innovation
+2, 3, 4, 6 
+B. Please select an assessment task for collecting evidence of student achievement for quality assurance purposes.
+Please retain at least one sample of student achievement across a period of three years.
+Selected Assessment Task
+Students -- in groups -- conduct a poster pitching of a social entrepreneurship solution to tackle a societal problems. The
+poster will be collected for quality assurance audit. 

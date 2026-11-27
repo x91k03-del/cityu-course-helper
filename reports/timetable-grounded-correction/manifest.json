@@ -1,0 +1,23 @@
+{
+  "adapter": "adapters/timetable-grounded-correction",
+  "accepted_for_activation": false,
+  "accepted_for_grounded_timetable_domain": true,
+  "sha256": {
+    "cm_background_policy.py": "f543308315fee3bf2511edfb720eb760854af2f286e028e55ef55ab392a4db21",
+    "profit_objective.py": "0817f2ace1061f382b4ad6569b2f5c90cb3d89b26e7cab5d52a55bbc4c8a678e",
+    "markov_planner.py": "2f966a67969aa51ce31e2e1a4b5f2827bc714e97a854f2364d0ef5ae95f68603",
+    "programme_v6.py": "cb97e3f062aa9876b996fe3090ab27193ca8961235d2b19f335dd4d8302a1a5d",
+    "timetable_evidence.py": "44d3f1dacbe7c3f3978f4ace2d8fdca956181dad32cd8c77733a367322b7cf27",
+    "grounded_degree.py": "c60c1387e628467da567adc665643aa468dcf7f5decfce2a2389b3d8fafaae4a",
+    "timetable_grounded_training.py": "6380b9c0857b1e6c3f6902ba14cb2e5daad1306381441128e38bd337313b5fee",
+    "data/timetable-grounded/train.jsonl": "5fad6304fa794ddd8d4594010a28f0c1b3341cc32804a5915bbe12a8bf87bc69",
+    "data/timetable-grounded/validation.jsonl": "0074924adeea98a765c00985c52c4232bd9c055fada407d87415db74778a3618",
+    "data/timetable-grounded/snapshot/courses.json": "fe82107c5549c3015e07c507c08ff25907a0daf263a0cbd5a10860ab29393df7",
+    "adapters/timetable-grounded-correction/adapter_model.safetensors": "a4aa028229c62a92a63d370ac414220fe8942f4c26567b061e1b428ac7f3500c",
+    "reports/timetable-grounded-correction/rerun_year1.json": "e2121c1fdcafe42be88a5b2e1d82063e03948906bde0ed662da2d8b4845cfeb0",
+    "data/timetable-grounded-correction/train.jsonl": "4ac222c8bcce873cf75b8114d73aac2c8099c2a8f1913fdd66d45cae54b92ca7",
+    "data/timetable-grounded-correction/validation.jsonl": "f0d15c79ed4e38afac2288ed0561d307da3814c875a8773e3002afe00144c029",
+    "reports/timetable-grounded-correction/after_predictions.json": "4994666f701e75efc24072685ff4c96f1372314a2d8af18d82225da076b4ce03"
+  },
+  "all_run_outputs_on_drive": "F"
+}

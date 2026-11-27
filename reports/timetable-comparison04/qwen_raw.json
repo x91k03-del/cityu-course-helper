@@ -1,0 +1,72 @@
+[
+  {
+    "case_id": "CM_B_finance",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA2510:11812:11814\", \"MA3515:10141\", \"MA3521:10142\", \"MA4529:10143\"]}",
+    "seconds": 6.781366499955766
+  },
+  {
+    "case_id": "CM_B_no_finance",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA3523:14280\", \"MA3515:10141\", \"MA3517:11296\", \"MA3526:11816\"]}",
+    "seconds": 4.483208400080912
+  },
+  {
+    "case_id": "CS_B_AI",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"CS3103:10021:10023\", \"CS3342:10482:10484\", \"CS3402:10025:10027\"]}",
+    "seconds": 5.360870799981058
+  },
+  {
+    "case_id": "CS_B_difficulty",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"CS3342:10482:10484\", \"CS3342:10482:10485\"]}",
+    "seconds": 4.094661999959499
+  },
+  {
+    "case_id": "CM_A_missing_options",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA3525:11213:11219\"]}",
+    "seconds": 2.170374400098808
+  },
+  {
+    "case_id": "CS_A_missing_options",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"CS3103:10820:11094\", \"CS3402:10816:15173\"]}",
+    "seconds": 3.602415499975905
+  },
+  {
+    "case_id": "CM_early_analysis",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA2510:11812:11814\", \"MA3515:10141\", \"MA3517:11296\", \"MA3523:14280\"]}",
+    "seconds": 7.487167400075123
+  },
+  {
+    "case_id": "CM_calculus_not_passed",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA2510:11812:11814\", \"MA3515:10141\", \"MA3523:14280\", \"MA3526:11816\", \"MA3530:12169\"]}",
+    "seconds": 7.866833099978976
+  },
+  {
+    "case_id": "CM_final_year",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA3521:10101:10115\", \"MA4529:10075\", \"MA4537:10141\", \"EF3320:11812:11814\"]}",
+    "seconds": 7.76455540000461
+  },
+  {
+    "case_id": "CM_enriched_despite_finance_GE",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA3523:14280\", \"MA3526:11816\", \"MA3515:10141\", \"MA3517:11296\", \"MA2510:11812:11814\"]}",
+    "seconds": 8.026765400078148
+  },
+  {
+    "case_id": "CS_data_science",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"CS3103:10021:10023\", \"CS3481:10568:10900\", \"CS3402:10025:10027\"]}",
+    "seconds": 7.197288899915293
+  },
+  {
+    "case_id": "CS_missing_programming",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"CS2613:13675\", \"CS3481:10568:10899\"]}",
+    "seconds": 4.64097910001874
+  },
+  {
+    "case_id": "CS_workload_priority",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"CS3103:10021:10023\", \"CS3342:10482:10484\"]}",
+    "seconds": 5.185600299970247
+  },
+  {
+    "case_id": "CS_final_year",
+    "raw": "{\"status\": \"feasible\", \"selected_option_ids\": [\"CS3342:10482:10483\", \"CS3342:10482:10484\", \"CS3342:10482:10485\"]}",
+    "seconds": 7.020047100028023
+  }
+]

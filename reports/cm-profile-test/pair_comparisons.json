@@ -1,0 +1,169 @@
+[
+  {
+    "a": "CM01",
+    "b": "CM02",
+    "factor": "Analysis passed versus not studied",
+    "reference_added_in_a": [
+      "MA4542"
+    ],
+    "reference_removed_in_a": [
+      "MA3525"
+    ],
+    "model_a": [
+      "MA4542",
+      "MA3518",
+      "MA3521"
+    ],
+    "model_b": [
+      "MA1502",
+      "MA3518",
+      "MA3521"
+    ],
+    "model_pair_both_passed": false
+  },
+  {
+    "a": "CM03",
+    "b": "CM02",
+    "factor": "Analysis failed versus not studied",
+    "reference_added_in_a": [],
+    "reference_removed_in_a": [],
+    "model_a": [
+      "MA1502",
+      "MA3512",
+      "MA4542"
+    ],
+    "model_b": [
+      "MA1502",
+      "MA3518",
+      "MA3521"
+    ],
+    "model_pair_both_passed": false
+  },
+  {
+    "a": "CM04",
+    "b": "CM02",
+    "factor": "Analysis in progress versus not studied",
+    "reference_added_in_a": [],
+    "reference_removed_in_a": [],
+    "model_a": [
+      "MA4542",
+      "MA3518",
+      "MA3525"
+    ],
+    "model_b": [
+      "MA1502",
+      "MA3518",
+      "MA3521"
+    ],
+    "model_pair_both_passed": false
+  },
+  {
+    "a": "CM01",
+    "b": "CM05",
+    "factor": "Missing MA2508 despite Analysis passed",
+    "reference_added_in_a": [
+      "MA4542"
+    ],
+    "reference_removed_in_a": [
+      "MA3525"
+    ],
+    "model_a": [
+      "MA4542",
+      "MA3518",
+      "MA3521"
+    ],
+    "model_b": [
+      "MA4542",
+      "MA3518",
+      "MA3521"
+    ],
+    "model_pair_both_passed": false
+  },
+  {
+    "a": "CM06",
+    "b": "CM07",
+    "factor": "ODE passed versus failed",
+    "reference_added_in_a": [
+      "MA3512",
+      "MA4545"
+    ],
+    "reference_removed_in_a": [
+      "MA3518",
+      "MA3521"
+    ],
+    "model_a": [
+      "MA4542",
+      "MA3512",
+      "MA4545"
+    ],
+    "model_b": [
+      "MA4542",
+      "MA3512",
+      "MA3525"
+    ],
+    "model_pair_both_passed": false
+  },
+  {
+    "a": "CM08",
+    "b": "CM09",
+    "factor": "Both AND-branch courses passed versus one failed",
+    "reference_added_in_a": [
+      "MA2508"
+    ],
+    "reference_removed_in_a": [
+      "MA1300",
+      "MA3525"
+    ],
+    "model_a": [
+      "MA4542",
+      "MA3512",
+      "MA3525"
+    ],
+    "model_b": [
+      "MA4542",
+      "MA3512",
+      "MA3525"
+    ],
+    "model_pair_both_passed": false
+  },
+  {
+    "a": "CM08",
+    "b": "CM12",
+    "factor": "Completed GE1359 exclusive-course conflict",
+    "reference_added_in_a": [
+      "MA2508"
+    ],
+    "reference_removed_in_a": [
+      "MA3525"
+    ],
+    "model_a": [
+      "MA4542",
+      "MA3512",
+      "MA3525"
+    ],
+    "model_b": [
+      "MA4542",
+      "MA3512",
+      "MA3525"
+    ],
+    "model_pair_both_passed": false
+  },
+  {
+    "a": "CM10",
+    "b": "CM11",
+    "factor": "2026 versus 2025 cohort",
+    "reference_added_in_a": [],
+    "reference_removed_in_a": [],
+    "model_a": [
+      "MA1300",
+      "MA1502",
+      "MA2503"
+    ],
+    "model_b": [
+      "MA1502",
+      "MA2503",
+      "MA3512"
+    ],
+    "model_pair_both_passed": false
+  }
+]

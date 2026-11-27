@@ -1,0 +1,1656 @@
+[
+  {
+    "model": "before",
+    "id": "NEW00007:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00007",
+      "status": "candidate",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "GE1359",
+        "MA2503",
+        "MA2510",
+        "MA3511",
+        "MA3526"
+      ],
+      "selected_options": [
+        {
+          "course_code": "MA1300",
+          "class_section": "C01",
+          "tutorial_section": "T01",
+          "meetings": [
+            {
+              "section": "C01",
+              "day": "Fri",
+              "start_time": "12:00",
+              "end_time": "13:50"
+            },
+            {
+              "section": "C01",
+              "day": "Wed",
+              "start_time": "17:00",
+              "end_time": "18:50"
+            },
+            {
+              "section": "T01",
+              "day": "Mon",
+              "start_time": "18:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2509",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Mon",
+              "start_time": "10:00",
+              "end_time": "10:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Wed",
+              "start_time": "10:00",
+              "end_time": "11:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Mon",
+              "start_time": "11:00",
+              "end_time": "11:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3512",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Fri",
+              "start_time": "15:00",
+              "end_time": "17:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3518",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Tue",
+              "start_time": "16:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3525",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Thu",
+              "start_time": "13:00",
+              "end_time": "14:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Tue",
+              "start_time": "14:00",
+              "end_time": "14:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Tue",
+              "start_time": "15:00",
+              "end_time": "15:50"
+            }
+          ]
+        }
+      ],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00007\", \"status\": \"candidate\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA2503\", \"MA2510\", \"MA3526\", \"MA3511\"], \"selected_options\": [{\"course_code\": \"MA2508\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Sat\", \"start_time\": \"11:00\", \"end_time\": \"12:50\"}, {\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"16:50\"}]}, {\"course_code\": \"MA3512\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Fri\", \"start_time\": \"15:00\", \"end_time\": \"17:50\"}]}, {\"course_code\": \"MA3518\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"18:50\"}]}, {\"course_code\": \"MA3525\", \"class_section\": \"CA1\", \"tutorial_section\": \"TA1\", \"meetings\": [{\"section\": \"CA1\", \"day\": \"Thu\", \"start_time\": \"13:00\", \"end_time\": \"14:50\"}, {\"section\": \"TA1\", \"day\": \"Tue\", \"start_time\": \"15:00\", \"end_time\": \"15:50\"}]}, {\"course_code\": \"MA4545\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Wed\", \"start_time\": \"12:00\", \"end_time\": \"14:50\"}]}], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "credit_bound",
+        "incorrect_completed_courses",
+        "incorrect_or_missing_meetings:MA3525",
+        "invalid_bundle:MA2508"
+      ],
+      "expected_status": "candidate"
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00010:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00010",
+      "status": "candidate",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1301",
+        "MA2510",
+        "MA3511"
+      ],
+      "selected_options": [
+        {
+          "course_code": "MA1300",
+          "class_section": "C01",
+          "tutorial_section": "T01",
+          "meetings": [
+            {
+              "section": "C01",
+              "day": "Fri",
+              "start_time": "12:00",
+              "end_time": "13:50"
+            },
+            {
+              "section": "C01",
+              "day": "Wed",
+              "start_time": "17:00",
+              "end_time": "18:50"
+            },
+            {
+              "section": "T01",
+              "day": "Mon",
+              "start_time": "18:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2503",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Thu",
+              "start_time": "16:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2508",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Sat",
+              "start_time": "11:00",
+              "end_time": "12:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Tue",
+              "start_time": "16:00",
+              "end_time": "16:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Tue",
+              "start_time": "15:00",
+              "end_time": "15:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2509",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Mon",
+              "start_time": "10:00",
+              "end_time": "10:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Wed",
+              "start_time": "10:00",
+              "end_time": "11:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Mon",
+              "start_time": "11:00",
+              "end_time": "11:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3512",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Fri",
+              "start_time": "15:00",
+              "end_time": "17:50"
+            }
+          ]
+        }
+      ],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00010\", \"status\": \"candidate\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA2510\", \"MA3511\"], \"selected_options\": [{\"course_code\": \"MA2509\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Mon\", \"start_time\": \"10:00\", \"end_time\": \"10:50\"}, {\"section\": \"CA1\", \"day\": \"Wed\", \"start_time\": \"10:00\", \"end_time\": \"11:50\"}]}, {\"course_code\": \"MA3518\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"18:50\"}]}], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "credit_bound",
+        "invalid_bundle:MA2509",
+        "requires_five_to_six_distinct_courses"
+      ],
+      "expected_status": "candidate"
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00011:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00011",
+      "status": "candidate",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1301",
+        "MA3511"
+      ],
+      "selected_options": [
+        {
+          "course_code": "MA1300",
+          "class_section": "C01",
+          "tutorial_section": "T01",
+          "meetings": [
+            {
+              "section": "C01",
+              "day": "Fri",
+              "start_time": "12:00",
+              "end_time": "13:50"
+            },
+            {
+              "section": "C01",
+              "day": "Wed",
+              "start_time": "17:00",
+              "end_time": "18:50"
+            },
+            {
+              "section": "T01",
+              "day": "Mon",
+              "start_time": "18:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2503",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Thu",
+              "start_time": "16:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2508",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Sat",
+              "start_time": "11:00",
+              "end_time": "12:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Tue",
+              "start_time": "16:00",
+              "end_time": "16:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Tue",
+              "start_time": "15:00",
+              "end_time": "15:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2509",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Mon",
+              "start_time": "10:00",
+              "end_time": "10:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Wed",
+              "start_time": "10:00",
+              "end_time": "11:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Mon",
+              "start_time": "11:00",
+              "end_time": "11:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3512",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Fri",
+              "start_time": "15:00",
+              "end_time": "17:50"
+            }
+          ]
+        }
+      ],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00011\", \"status\": \"candidate\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA3511\"], \"selected_options\": [{\"course_code\": \"MA2503\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Thu\", \"start_time\": \"16:00\", \"end_time\": \"18:50\"}]}, {\"course_code\": \"MA3512\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Fri\", \"start_time\": \"15:00\", \"end_time\": \"17:50\"}]}, {\"course_code\": \"MA3518\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"18:50\"}]}, {\"course_code\": \"MA3525\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Thu\", \"start_time\": \"13:00\", \"end_time\": \"14:50\"}]}], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "MA3518:combined_requirement_not_satisfied",
+        "credit_bound",
+        "invalid_bundle:MA3525",
+        "requires_five_to_six_distinct_courses"
+      ],
+      "expected_status": "candidate"
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00013:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00013",
+      "status": "candidate",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1301",
+        "MA3511",
+        "MA3526"
+      ],
+      "selected_options": [
+        {
+          "course_code": "MA1300",
+          "class_section": "C01",
+          "tutorial_section": "T01",
+          "meetings": [
+            {
+              "section": "C01",
+              "day": "Fri",
+              "start_time": "12:00",
+              "end_time": "13:50"
+            },
+            {
+              "section": "C01",
+              "day": "Wed",
+              "start_time": "17:00",
+              "end_time": "18:50"
+            },
+            {
+              "section": "T01",
+              "day": "Mon",
+              "start_time": "18:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2503",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Thu",
+              "start_time": "16:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2508",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Sat",
+              "start_time": "11:00",
+              "end_time": "12:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Tue",
+              "start_time": "16:00",
+              "end_time": "16:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Tue",
+              "start_time": "15:00",
+              "end_time": "15:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2509",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Mon",
+              "start_time": "10:00",
+              "end_time": "10:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Wed",
+              "start_time": "10:00",
+              "end_time": "11:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Mon",
+              "start_time": "11:00",
+              "end_time": "11:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3512",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Fri",
+              "start_time": "15:00",
+              "end_time": "17:50"
+            }
+          ]
+        }
+      ],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00013\", \"status\": \"candidate\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA2509\", \"MA3526\", \"MA3511\", \"MA1503\"], \"selected_options\": [{\"course_code\": \"MA2509\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Mon\", \"start_time\": \"10:00\", \"end_time\": \"10:50\"}, {\"section\": \"CA1\", \"day\": \"Wed\", \"start_time\": \"10:00\", \"end_time\": \"11:50\"}]}, {\"course_code\": \"MA3512\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Fri\", \"start_time\": \"15:00\", \"end_time\": \"17:50\"}]}, {\"course_code\": \"MA3525\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Thu\", \"start_time\": \"13:00\", \"end_time\": \"14:50\"}, {\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"14:00\", \"end_time\": \"14:50\"}]}, {\"course_code\": \"MA4545\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Wed\", \"start_time\": \"12:00\", \"end_time\": \"14:50\"}]}, {\"course_code\": \"MA3518\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"18:50\"}]}], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "MA3518:combined_requirement_not_satisfied",
+        "credit_bound",
+        "incorrect_completed_courses",
+        "invalid_bundle:MA2509",
+        "invalid_bundle:MA3525"
+      ],
+      "expected_status": "candidate"
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00000:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00000",
+      "status": "infeasible",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1301",
+        "MA1503",
+        "MA2503",
+        "MA2509"
+      ],
+      "selected_options": [],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00000\", \"status\": \"candidate\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA2503\", \"MA2509\", \"MA1503\", \"MA1508\", \"GE1359\"], \"selected_options\": [{\"course_code\": \"MA2508\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Sat\", \"start_time\": \"11:00\", \"end_time\": \"12:50\"}, {\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"16:50\"}]}, {\"course_code\": \"MA3512\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Fri\", \"start_time\": \"15:00\", \"end_time\": \"17:50\"}]}, {\"course_code\": \"MA3525\", \"class_section\": \"CA1\", \"tutorial_section\": \"TA1\", \"meetings\": [{\"section\": \"CA1\", \"day\": \"Thu\", \"start_time\": \"13:00\", \"end_time\": \"14:50\"}, {\"section\": \"TA1\", \"day\": \"Tue\", \"start_time\": \"15:00\", \"end_time\": \"15:50\"}]}, {\"course_code\": \"MA3518\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"18:50\"}]}, {\"course_code\": \"MA4542\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Thu\", \"start_time\": \"15:00\", \"end_time\": \"17:50\"}]}], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "MA3512:combined_requirement_not_satisfied",
+        "MA3518:combined_requirement_not_satisfied",
+        "MA4542:combined_requirement_not_satisfied",
+        "claimed_plan_when_no_supported_five_course_plan_exists",
+        "credit_bound",
+        "incorrect_completed_courses",
+        "incorrect_or_missing_meetings:MA3525",
+        "invalid_bundle:MA2508"
+      ],
+      "expected_status": "infeasible"
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00001:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00001",
+      "status": "infeasible",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "GE1359",
+        "MA3526"
+      ],
+      "selected_options": [],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00001\", \"status\": \"candidate\", \"minimum_courses\": 5, \"completed_courses\": [\"GE1359\"], \"selected_options\": [{\"course_code\": \"MA2508\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Sat\", \"start_time\": \"11:00\", \"end_time\": \"12:50\"}, {\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"16:50\"}]}, {\"course_code\": \"MA3525\", \"class_section\": \"CA1\", \"tutorial_section\": \"TA1\", \"meetings\": [{\"section\": \"CA1\", \"day\": \"Thu\", \"start_time\": \"13:00\", \"end_time\": \"14:50\"}, {\"section\": \"TA1\", \"day\": \"Tue\", \"start_time\": \"15:00\", \"end_time\": \"15:50\"}]}, {\"course_code\": \"MA3518\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"18:50\"}]}, {\"course_code\": \"MA3521\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Mon\", \"start_time\": \"09:00\", \"end_time\": \"11:50\"}]}, {\"course_code\": \"MA4542\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Thu\", \"start_time\": \"15:00\", \"end_time\": \"17:50\"}]}], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "MA3518:combined_requirement_not_satisfied",
+        "MA3521:combined_requirement_not_satisfied",
+        "MA3525:combined_requirement_not_satisfied",
+        "MA4542:combined_requirement_not_satisfied",
+        "claimed_plan_when_no_supported_five_course_plan_exists",
+        "credit_bound",
+        "incorrect_completed_courses",
+        "incorrect_or_missing_meetings:MA3525",
+        "invalid_bundle:MA2508"
+      ],
+      "expected_status": "infeasible"
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00002:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00002",
+      "status": "infeasible",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1301",
+        "MA1508",
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA3526"
+      ],
+      "selected_options": [],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00002\", \"status\": \"candidate\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA2503\", \"MA2508\", \"MA2509\", \"MA3526\", \"MA1508\"], \"selected_options\": [{\"course_code\": \"MA2503\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Thu\", \"start_time\": \"16:00\", \"end_time\": \"18:50\"}]}, {\"course_code\": \"MA2508\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Sat\", \"start_time\": \"11:00\", \"end_time\": \"12:50\"}, {\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"16:50\"}]}, {\"course_code\": \"MA2509\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Mon\", \"start_time\": \"10:00\", \"end_time\": \"10:50\"}, {\"section\": \"CA1\", \"day\": \"Wed\", \"start_time\": \"10:00\", \"end_time\": \"11:50\"}]}, {\"course_code\": \"MA3525\", \"class_section\": \"TA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"TA1\", \"day\": \"Tue\", \"start_time\": \"15:00\", \"end_time\": \"15:50\"}]}, {\"course_code\": \"MA4545\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Wed\", \"start_time\": \"12:00\", \"end_time\": \"14:50\"}]}], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "MA2503:already_completed",
+        "MA4545:combined_requirement_not_satisfied",
+        "claimed_plan_when_no_supported_five_course_plan_exists",
+        "credit_bound",
+        "invalid_bundle:MA2508",
+        "invalid_bundle:MA2509",
+        "invalid_bundle:MA3525"
+      ],
+      "expected_status": "infeasible"
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00003:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00003",
+      "status": "infeasible",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1503",
+        "MA1508",
+        "MA3511",
+        "MA3526"
+      ],
+      "selected_options": [],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00003\", \"status\": \"candidate\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA2508\", \"MA3526\", \"MA3511\", \"MA1503\", \"MA1508\"], \"selected_options\": [{\"course_code\": \"MA2509\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Mon\", \"start_time\": \"10:00\", \"end_time\": \"10:50\"}, {\"section\": \"CA1\", \"day\": \"Wed\", \"start_time\": \"10:00\", \"end_time\": \"11:50\"}]}, {\"course_code\": \"MA3518\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"16:00\", \"end_time\": \"18:50\"}]}, {\"course_code\": \"MA3525\", \"class_section\": \"CA1\", \"tutorial_section\": null, \"meetings\": [{\"section\": \"CA1\", \"day\": \"Thu\", \"start_time\": \"13:00\", \"end_time\": \"14:50\"}, {\"section\": \"CA1\", \"day\": \"Tue\", \"start_time\": \"14:00\", \"end_time\": \"14:50\"}]}], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "MA3518:combined_requirement_not_satisfied",
+        "claimed_plan_when_no_supported_five_course_plan_exists",
+        "credit_bound",
+        "incorrect_completed_courses",
+        "invalid_bundle:MA2509",
+        "invalid_bundle:MA3525",
+        "requires_five_to_six_distinct_courses"
+      ],
+      "expected_status": "infeasible"
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00007:admit:MA3518",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA3518",
+      "allowed": true,
+      "reason_codes": []
+    },
+    "raw_model_response": "{\"course_code\": \"MA3518\", \"allowed\": true, \"reason_codes\": [\"MA2510_COMPLETED\"]}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "incorrect_admission_decision_or_error_codes"
+      ]
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00007:admit:MA2508",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA2508",
+      "allowed": false,
+      "reason_codes": [
+        "combined_requirement_not_satisfied",
+        "exclusive_course_completed"
+      ]
+    },
+    "raw_model_response": "{\"course_code\": \"MA2508\", \"allowed\": true, \"reason_codes\": [\"MA1301_COMPLETED\"]}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "incorrect_admission_decision_or_error_codes"
+      ]
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00007:admit:MA3512",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA3512",
+      "allowed": true,
+      "reason_codes": []
+    },
+    "raw_model_response": "{\"course_code\": \"MA3512\", \"allowed\": true, \"reason_codes\": [\"MA3511_COMPLETED\", \"PROGRAMME_IN_LIST\", \"MAJOR_MATCH\"]}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "incorrect_admission_decision_or_error_codes"
+      ]
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00007:admit:MA2509",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA2509",
+      "allowed": true,
+      "reason_codes": []
+    },
+    "raw_model_response": "{\"course_code\": \"MA2509\", \"allowed\": true, \"reason_codes\": [\"MA2509:PREREQ.NONE\", \"MA2509:PROGRAMME.MATCH\", \"MA2509:MAJOR.MATCH\"]}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "incorrect_admission_decision_or_error_codes"
+      ]
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00010:admit:MA2503",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA2503",
+      "allowed": true,
+      "reason_codes": []
+    },
+    "raw_model_response": "{\"course_code\": \"MA2503\", \"allowed\": true, \"reason_codes\": [\"MA1301_COMPLETED\"]}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "incorrect_admission_decision_or_error_codes"
+      ]
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00010:admit:MA3525",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA3525",
+      "allowed": false,
+      "reason_codes": [
+        "combined_requirement_not_satisfied"
+      ]
+    },
+    "raw_model_response": "{\"course_code\": \"MA3525\", \"allowed\": true, \"reason_codes\": [\"MA1503\", \"MA2503\"]}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "incorrect_admission_decision_or_error_codes"
+      ]
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00010:admit:MA1300",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA1300",
+      "allowed": true,
+      "reason_codes": []
+    },
+    "raw_model_response": "{\"course_code\": \"MA1300\", \"allowed\": true, \"reason_codes\": [\"MA:1300:1:1\", \"MA:1300:1:2\"]}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "incorrect_admission_decision_or_error_codes"
+      ]
+    }
+  },
+  {
+    "model": "before",
+    "id": "NEW00010:admit:MA1502",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA1502",
+      "allowed": false,
+      "reason_codes": [
+        "restriction:cohort"
+      ]
+    },
+    "raw_model_response": "{\"course_code\": \"MA1502\", \"allowed\": true, \"reason_codes\": [\"MA1502:PREREQ.NONE\", \"MA1502:MODE.NONE\"]}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "incorrect_admission_decision_or_error_codes"
+      ]
+    }
+  },
+  {
+    "model": "before",
+    "id": "regression:GE1105",
+    "task": "grounded_ge",
+    "expected": {
+      "course_code": "GE1105",
+      "term": "2026-27 Sem A",
+      "section": "15848CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "LT-14"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "raw_model_response": "{\"course_code\": \"GE1105\", \"term\": \"2026-27 Sem A\", \"section\": \"15848CA1\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"LT-14\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  {
+    "model": "before",
+    "id": "regression:GE1356",
+    "task": "grounded_ge",
+    "expected": {
+      "course_code": "GE1356",
+      "term": "2026-27 Sem A",
+      "section": "12086C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "12:00",
+          "end_time": "14:50",
+          "building": "LI",
+          "room": "3505"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "raw_model_response": "{\"course_code\": \"GE1356\", \"term\": \"2026-27 Sem A\", \"section\": \"12086C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"LI\", \"room\": \"3505\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00007:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00007",
+      "status": "candidate",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "GE1359",
+        "MA2503",
+        "MA2510",
+        "MA3511",
+        "MA3526"
+      ],
+      "selected_options": [
+        {
+          "course_code": "MA1300",
+          "class_section": "C01",
+          "tutorial_section": "T01",
+          "meetings": [
+            {
+              "section": "C01",
+              "day": "Fri",
+              "start_time": "12:00",
+              "end_time": "13:50"
+            },
+            {
+              "section": "C01",
+              "day": "Wed",
+              "start_time": "17:00",
+              "end_time": "18:50"
+            },
+            {
+              "section": "T01",
+              "day": "Mon",
+              "start_time": "18:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2509",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Mon",
+              "start_time": "10:00",
+              "end_time": "10:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Wed",
+              "start_time": "10:00",
+              "end_time": "11:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Mon",
+              "start_time": "11:00",
+              "end_time": "11:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3512",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Fri",
+              "start_time": "15:00",
+              "end_time": "17:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3518",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Tue",
+              "start_time": "16:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3525",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Thu",
+              "start_time": "13:00",
+              "end_time": "14:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Tue",
+              "start_time": "14:00",
+              "end_time": "14:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Tue",
+              "start_time": "15:00",
+              "end_time": "15:50"
+            }
+          ]
+        }
+      ],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00007\", \"status\": \"infeasible\", \"minimum_courses\": 5, \"completed_courses\": [\"GE1359\", \"MA2503\", \"MA2510\", \"MA3511\", \"MA3526\"], \"selected_options\": [], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "false_infeasibility"
+      ],
+      "expected_status": "candidate"
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00010:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00010",
+      "status": "candidate",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1301",
+        "MA2510",
+        "MA3511"
+      ],
+      "selected_options": [
+        {
+          "course_code": "MA1300",
+          "class_section": "C01",
+          "tutorial_section": "T01",
+          "meetings": [
+            {
+              "section": "C01",
+              "day": "Fri",
+              "start_time": "12:00",
+              "end_time": "13:50"
+            },
+            {
+              "section": "C01",
+              "day": "Wed",
+              "start_time": "17:00",
+              "end_time": "18:50"
+            },
+            {
+              "section": "T01",
+              "day": "Mon",
+              "start_time": "18:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2503",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Thu",
+              "start_time": "16:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2508",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Sat",
+              "start_time": "11:00",
+              "end_time": "12:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Tue",
+              "start_time": "16:00",
+              "end_time": "16:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Tue",
+              "start_time": "15:00",
+              "end_time": "15:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2509",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Mon",
+              "start_time": "10:00",
+              "end_time": "10:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Wed",
+              "start_time": "10:00",
+              "end_time": "11:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Mon",
+              "start_time": "11:00",
+              "end_time": "11:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3512",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Fri",
+              "start_time": "15:00",
+              "end_time": "17:50"
+            }
+          ]
+        }
+      ],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00010\", \"status\": \"infeasible\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA3511\", \"MA3510\"], \"selected_options\": [], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "incorrect_completed_courses",
+        "false_infeasibility"
+      ],
+      "expected_status": "candidate"
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00011:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00011",
+      "status": "candidate",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1301",
+        "MA3511"
+      ],
+      "selected_options": [
+        {
+          "course_code": "MA1300",
+          "class_section": "C01",
+          "tutorial_section": "T01",
+          "meetings": [
+            {
+              "section": "C01",
+              "day": "Fri",
+              "start_time": "12:00",
+              "end_time": "13:50"
+            },
+            {
+              "section": "C01",
+              "day": "Wed",
+              "start_time": "17:00",
+              "end_time": "18:50"
+            },
+            {
+              "section": "T01",
+              "day": "Mon",
+              "start_time": "18:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2503",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Thu",
+              "start_time": "16:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2508",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Sat",
+              "start_time": "11:00",
+              "end_time": "12:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Tue",
+              "start_time": "16:00",
+              "end_time": "16:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Tue",
+              "start_time": "15:00",
+              "end_time": "15:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2509",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Mon",
+              "start_time": "10:00",
+              "end_time": "10:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Wed",
+              "start_time": "10:00",
+              "end_time": "11:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Mon",
+              "start_time": "11:00",
+              "end_time": "11:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3512",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Fri",
+              "start_time": "15:00",
+              "end_time": "17:50"
+            }
+          ]
+        }
+      ],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00011\", \"status\": \"infeasible\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA3511\"], \"selected_options\": [], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "false_infeasibility"
+      ],
+      "expected_status": "candidate"
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00013:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00013",
+      "status": "candidate",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1301",
+        "MA3511",
+        "MA3526"
+      ],
+      "selected_options": [
+        {
+          "course_code": "MA1300",
+          "class_section": "C01",
+          "tutorial_section": "T01",
+          "meetings": [
+            {
+              "section": "C01",
+              "day": "Fri",
+              "start_time": "12:00",
+              "end_time": "13:50"
+            },
+            {
+              "section": "C01",
+              "day": "Wed",
+              "start_time": "17:00",
+              "end_time": "18:50"
+            },
+            {
+              "section": "T01",
+              "day": "Mon",
+              "start_time": "18:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2503",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Thu",
+              "start_time": "16:00",
+              "end_time": "18:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2508",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Sat",
+              "start_time": "11:00",
+              "end_time": "12:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Tue",
+              "start_time": "16:00",
+              "end_time": "16:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Tue",
+              "start_time": "15:00",
+              "end_time": "15:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA2509",
+          "class_section": "CA1",
+          "tutorial_section": "TA1",
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Mon",
+              "start_time": "10:00",
+              "end_time": "10:50"
+            },
+            {
+              "section": "CA1",
+              "day": "Wed",
+              "start_time": "10:00",
+              "end_time": "11:50"
+            },
+            {
+              "section": "TA1",
+              "day": "Mon",
+              "start_time": "11:00",
+              "end_time": "11:50"
+            }
+          ]
+        },
+        {
+          "course_code": "MA3512",
+          "class_section": "CA1",
+          "tutorial_section": null,
+          "meetings": [
+            {
+              "section": "CA1",
+              "day": "Fri",
+              "start_time": "15:00",
+              "end_time": "17:50"
+            }
+          ]
+        }
+      ],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00013\", \"status\": \"infeasible\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA3511\", \"MA3526\"], \"selected_options\": [], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "false_infeasibility"
+      ],
+      "expected_status": "candidate"
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00000:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00000",
+      "status": "infeasible",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1301",
+        "MA1503",
+        "MA2503",
+        "MA2509"
+      ],
+      "selected_options": [],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00000\", \"status\": \"infeasible\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA1503\", \"MA2503\", \"MA2509\"], \"selected_options\": [], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": true,
+      "errors": [],
+      "expected_status": "infeasible"
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00001:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00001",
+      "status": "infeasible",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "GE1359",
+        "MA3526"
+      ],
+      "selected_options": [],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00001\", \"status\": \"infeasible\", \"minimum_courses\": 5, \"completed_courses\": [\"GE1359\", \"MA3526\"], \"selected_options\": [], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": true,
+      "errors": [],
+      "expected_status": "infeasible"
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00002:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00002",
+      "status": "infeasible",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1301",
+        "MA1508",
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "MA3526"
+      ],
+      "selected_options": [],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00002\", \"status\": \"infeasible\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1301\", \"MA2503\", \"MA2508\", \"MA2509\", \"MA3526\"], \"selected_options\": [], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": false,
+      "errors": [
+        "incorrect_completed_courses"
+      ],
+      "expected_status": "infeasible"
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00003:plan",
+    "task": "five_course_plan",
+    "expected": {
+      "profile_id": "NEW00003",
+      "status": "infeasible",
+      "minimum_courses": 5,
+      "completed_courses": [
+        "MA1503",
+        "MA1508",
+        "MA3511",
+        "MA3526"
+      ],
+      "selected_options": [],
+      "needs_confirmation": true,
+      "feasibility_verified": false
+    },
+    "raw_model_response": "{\"profile_id\": \"NEW00003\", \"status\": \"infeasible\", \"minimum_courses\": 5, \"completed_courses\": [\"MA1503\", \"MA1508\", \"MA3511\", \"MA3526\"], \"selected_options\": [], \"needs_confirmation\": true, \"feasibility_verified\": false}",
+    "grading": {
+      "passed": true,
+      "errors": [],
+      "expected_status": "infeasible"
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00007:admit:MA3518",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA3518",
+      "allowed": true,
+      "reason_codes": []
+    },
+    "raw_model_response": "{\"course_code\": \"MA3518\", \"allowed\": true, \"reason_codes\": []}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00007:admit:MA2508",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA2508",
+      "allowed": false,
+      "reason_codes": [
+        "combined_requirement_not_satisfied",
+        "exclusive_course_completed"
+      ]
+    },
+    "raw_model_response": "{\"course_code\": \"MA2508\", \"allowed\": false, \"reason_codes\": [\"combined_requirement_not_satisfied\", \"exclusive_course_completed\"]}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00007:admit:MA3512",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA3512",
+      "allowed": true,
+      "reason_codes": []
+    },
+    "raw_model_response": "{\"course_code\": \"MA3512\", \"allowed\": true, \"reason_codes\": []}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00007:admit:MA2509",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA2509",
+      "allowed": true,
+      "reason_codes": []
+    },
+    "raw_model_response": "{\"course_code\": \"MA2509\", \"allowed\": true, \"reason_codes\": []}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00010:admit:MA2503",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA2503",
+      "allowed": true,
+      "reason_codes": []
+    },
+    "raw_model_response": "{\"course_code\": \"MA2503\", \"allowed\": true, \"reason_codes\": []}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00010:admit:MA3525",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA3525",
+      "allowed": false,
+      "reason_codes": [
+        "combined_requirement_not_satisfied"
+      ]
+    },
+    "raw_model_response": "{\"course_code\": \"MA3525\", \"allowed\": false, \"reason_codes\": [\"combined_requirement_not_satisfied\"]}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00010:admit:MA1300",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA1300",
+      "allowed": true,
+      "reason_codes": []
+    },
+    "raw_model_response": "{\"course_code\": \"MA1300\", \"allowed\": true, \"reason_codes\": []}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  {
+    "model": "after",
+    "id": "NEW00010:admit:MA1502",
+    "task": "admission",
+    "expected": {
+      "course_code": "MA1502",
+      "allowed": false,
+      "reason_codes": [
+        "restriction:cohort"
+      ]
+    },
+    "raw_model_response": "{\"course_code\": \"MA1502\", \"allowed\": false, \"reason_codes\": [\"restriction:cohort\"]}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  {
+    "model": "after",
+    "id": "regression:GE1105",
+    "task": "grounded_ge",
+    "expected": {
+      "course_code": "GE1105",
+      "term": "2026-27 Sem A",
+      "section": "15848CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "LT-14"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "raw_model_response": "{\"course_code\": \"GE1105\", \"term\": \"2026-27 Sem A\", \"section\": \"15848CA1\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"LT-14\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  {
+    "model": "after",
+    "id": "regression:GE1356",
+    "task": "grounded_ge",
+    "expected": {
+      "course_code": "GE1356",
+      "term": "2026-27 Sem A",
+      "section": "12086C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "12:00",
+          "end_time": "14:50",
+          "building": "LI",
+          "room": "3505"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "raw_model_response": "{\"course_code\": \"GE1356\", \"term\": \"2026-27 Sem A\", \"section\": \"12086C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"LI\", \"room\": \"3505\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "grading": {
+      "passed": true,
+      "errors": []
+    }
+  }
+]

@@ -1,0 +1,1448 @@
+[
+  {
+    "id": "F",
+    "mode": "transcript",
+    "raw": "{\"reward_parameters\":{\"base_course_profit\":3.0,\"covered_GE_area_multiplier\":0.1,\"new_GE_area_bonus\":5.0,\"GE_count_progress_bonus\":2.0,\"years_1_to_3_overload_weight\":0.25,\"year4_overload_weight\":0.25,\"ef3320_year4_bonus\":4.0,\"ef_no_finance_penalty\":1.5},\"course_relations\":[{\"source\":\"MA2508\",\"target\":\"MA3512\",\"benefit\":0.25},{\"source\":\"MA2508\",\"target\":\"MA3515\",\"benefit\":0.2},{\"source\":\"MA2509\",\"target\":\"GE2134\",\"benefit\":0.15},{\"source\":\"MA2510\",\"target\":\"MA3518\",\"benefit\":0.3},{\"source\":\"MA2503\",\"target\":\"MA3525\",\"benefit\":0.25},{\"source\":\"MA3511\",\"target\":\"MA3512\",\"benefit\":0.3},{\"source\":\"MA3525\",\"target\":\"MA3514\",\"benefit\":0.25},{\"source\":\"MA3526\",\"target\":\"MA4542\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"MA3521\",\"benefit\":0.25},{\"source\":\"MA3521\",\"target\":\"MA4529\",\"benefit\":0.3},{\"source\":\"MA2510\",\"target\":\"MA4546\",\"benefit\":0.25},{\"source\":\"MA2503\",\"target\":\"EF3320\",\"benefit\":0.2},{\"source\":\"MA3515\",\"target\":\"EF3320\",\"benefit\":0.25},{\"source\":\"GE1202\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"GE2260\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"CS1302\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS1302A\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS2360\",\"target\":\"CS2468\",\"benefit\":0.25},{\"source\":\"CS2468\",\"target\":\"CS4335\",\"benefit\":0.25},{\"source\":\"CS3334\",\"target\":\"CS4335\",\"benefit\":0.3},{\"source\":\"MA2509\",\"target\":\"CS3334\",\"benefit\":0.2},{\"source\":\"MA2503\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3515\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3518\",\"target\":\"CS4487\",\"benefit\":0.2},{\"source\":\"GE2340\",\"target\":\"CS4487\",\"benefit\":0.1}],\"penalty_weights\":{\"background_mismatch\":1.0,\"difficulty\":1.0,\"workload\":1.0},\"stream_reward_multiplier\":3.0}",
+    "accepted": true,
+    "error": null,
+    "parameters": {
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "penalty_weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    },
+    "fallback_used": false,
+    "optimizer_status": "curriculum_complete_timetables_pending",
+    "credits": 122.0,
+    "objective": 154.3120775871616,
+    "semester_courses": [
+      {
+        "term": 3,
+        "courses": [
+          "CS2360",
+          "GE1305",
+          "GE1601",
+          "MA2503",
+          "MA2508",
+          "MA2509"
+        ],
+        "credits": 18
+      },
+      {
+        "term": 4,
+        "courses": [
+          "CS2468",
+          "CSCI1002",
+          "MA2507",
+          "MA2510",
+          "MA3511",
+          "MA3517",
+          "MA3530"
+        ],
+        "credits": 14
+      },
+      {
+        "term": 5,
+        "courses": [
+          "GE1113",
+          "MA3512",
+          "MA3518",
+          "MA3521",
+          "MA3525"
+        ],
+        "credits": 15
+      },
+      {
+        "term": 6,
+        "courses": [
+          "MA3514",
+          "MA3515",
+          "MA3523",
+          "MA3526",
+          "MA4529",
+          "MA4537"
+        ],
+        "credits": 18
+      },
+      {
+        "term": 7,
+        "courses": [
+          "MA4528",
+          "MA4530:A",
+          "MA4542",
+          "MA4545"
+        ],
+        "credits": 12
+      },
+      {
+        "term": 8,
+        "courses": [
+          "EF3320",
+          "MA4530:B",
+          "MA4546",
+          "MA4550",
+          "MA4551"
+        ],
+        "credits": 15
+      }
+    ],
+    "certificate": {
+      "optimality_proven": true,
+      "scope": "Existing source-backed course/section allocations and mandatory catch-up placements are fixed; optimize missing electives over the declared current catalogue pool.",
+      "assignments_checked": 64,
+      "feasible_assignments": 20,
+      "objective_upper_bound": 154.3120775871616,
+      "optimality_gap": 0.0,
+      "verification": "Independent full Cartesian enumeration agrees with DP maximum"
+    }
+  },
+  {
+    "id": "N",
+    "mode": "transcript",
+    "raw": "{\"reward_parameters\":{\"base_course_profit\":3.0,\"covered_GE_area_multiplier\":0.1,\"new_GE_area_bonus\":5.0,\"GE_count_progress_bonus\":2.0,\"years_1_to_3_overload_weight\":0.25,\"year4_overload_weight\":0.25,\"ef3320_year4_bonus\":4.0,\"ef_no_finance_penalty\":1.5},\"course_relations\":[{\"source\":\"MA2508\",\"target\":\"MA3512\",\"benefit\":0.25},{\"source\":\"MA2508\",\"target\":\"MA3515\",\"benefit\":0.2},{\"source\":\"MA2509\",\"target\":\"GE2134\",\"benefit\":0.15},{\"source\":\"MA2510\",\"target\":\"MA3518\",\"benefit\":0.3},{\"source\":\"MA2503\",\"target\":\"MA3525\",\"benefit\":0.25},{\"source\":\"MA3511\",\"target\":\"MA3512\",\"benefit\":0.3},{\"source\":\"MA3525\",\"target\":\"MA3514\",\"benefit\":0.25},{\"source\":\"MA3526\",\"target\":\"MA4542\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"MA3521\",\"benefit\":0.25},{\"source\":\"MA3521\",\"target\":\"MA4529\",\"benefit\":0.3},{\"source\":\"MA2510\",\"target\":\"MA4546\",\"benefit\":0.25},{\"source\":\"MA2503\",\"target\":\"EF3320\",\"benefit\":0.2},{\"source\":\"MA3515\",\"target\":\"EF3320\",\"benefit\":0.25},{\"source\":\"GE1202\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"GE2260\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"CS1302\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS1302A\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS2360\",\"target\":\"CS2468\",\"benefit\":0.25},{\"source\":\"CS2468\",\"target\":\"CS4335\",\"benefit\":0.25},{\"source\":\"CS3334\",\"target\":\"CS4335\",\"benefit\":0.3},{\"source\":\"MA2509\",\"target\":\"CS3334\",\"benefit\":0.2},{\"source\":\"MA2503\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3515\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3518\",\"target\":\"CS4487\",\"benefit\":0.2},{\"source\":\"GE2340\",\"target\":\"CS4487\",\"benefit\":0.1}],\"penalty_weights\":{\"background_mismatch\":1.0,\"difficulty\":1.0,\"workload\":1.0},\"stream_reward_multiplier\":3.0}",
+    "accepted": true,
+    "error": null,
+    "parameters": {
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "penalty_weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    },
+    "fallback_used": false,
+    "optimizer_status": "curriculum_complete_timetables_pending",
+    "credits": 122.0,
+    "objective": 140.126282183488,
+    "semester_courses": [
+      {
+        "term": 3,
+        "courses": [
+          "CS2360",
+          "GE1601",
+          "GE2260",
+          "MA2503",
+          "MA2508",
+          "MA2509"
+        ],
+        "credits": 18
+      },
+      {
+        "term": 4,
+        "courses": [
+          "CS2468",
+          "CSCI1002",
+          "EF3320",
+          "MA2507",
+          "MA3511",
+          "MA3515",
+          "MA3517"
+        ],
+        "credits": 16
+      },
+      {
+        "term": 5,
+        "courses": [
+          "GE1105",
+          "MA3512",
+          "MA3525",
+          "MA4528",
+          "MA4545"
+        ],
+        "credits": 15
+      },
+      {
+        "term": 6,
+        "courses": [
+          "MA2510",
+          "MA3514",
+          "MA3523",
+          "MA3526",
+          "MA3530"
+        ],
+        "credits": 13
+      },
+      {
+        "term": 7,
+        "courses": [
+          "MA3518",
+          "MA3521",
+          "MA4530:A",
+          "MA4542"
+        ],
+        "credits": 12
+      },
+      {
+        "term": 8,
+        "courses": [
+          "MA4529",
+          "MA4530:B",
+          "MA4537",
+          "MA4546",
+          "MA4550",
+          "MA4551"
+        ],
+        "credits": 18
+      }
+    ],
+    "certificate": {
+      "optimality_proven": true,
+      "scope": "Existing source-backed course/section allocations and mandatory catch-up placements are fixed; optimize missing electives over the declared current catalogue pool.",
+      "assignments_checked": 64,
+      "feasible_assignments": 2,
+      "objective_upper_bound": 140.126282183488,
+      "optimality_gap": 0.0,
+      "verification": "Independent full Cartesian enumeration agrees with DP maximum"
+    }
+  },
+  {
+    "id": "M",
+    "mode": "transcript",
+    "raw": "{\"reward_parameters\":{\"base_course_profit\":3.0,\"covered_GE_area_multiplier\":0.1,\"new_GE_area_bonus\":5.0,\"GE_count_progress_bonus\":2.0,\"years_1_to_3_overload_weight\":0.25,\"year4_overload_weight\":0.25,\"ef3320_year4_bonus\":4.0,\"ef_no_finance_penalty\":1.5},\"course_relations\":[{\"source\":\"MA2508\",\"target\":\"MA3512\",\"benefit\":0.25},{\"source\":\"MA2508\",\"target\":\"MA3515\",\"benefit\":0.2},{\"source\":\"MA2509\",\"target\":\"GE2134\",\"benefit\":0.15},{\"source\":\"MA2510\",\"target\":\"MA3518\",\"benefit\":0.3},{\"source\":\"MA2503\",\"target\":\"MA3525\",\"benefit\":0.25},{\"source\":\"MA3511\",\"target\":\"MA3512\",\"benefit\":0.3},{\"source\":\"MA3525\",\"target\":\"MA3514\",\"benefit\":0.25},{\"source\":\"MA3526\",\"target\":\"MA4542\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"MA3521\",\"benefit\":0.25},{\"source\":\"MA3521\",\"target\":\"MA4529\",\"benefit\":0.3},{\"source\":\"MA2510\",\"target\":\"MA4546\",\"benefit\":0.25},{\"source\":\"MA2503\",\"target\":\"EF3320\",\"benefit\":0.2},{\"source\":\"MA3515\",\"target\":\"EF3320\",\"benefit\":0.25},{\"source\":\"GE1202\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"GE2260\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"CS1302\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS1302A\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS2360\",\"target\":\"CS2468\",\"benefit\":0.25},{\"source\":\"CS2468\",\"target\":\"CS4335\",\"benefit\":0.25},{\"source\":\"CS3334\",\"target\":\"CS4335\",\"benefit\":0.3},{\"source\":\"MA2509\",\"target\":\"CS3334\",\"benefit\":0.2},{\"source\":\"MA2503\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3515\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3518\",\"target\":\"CS4487\",\"benefit\":0.2},{\"source\":\"GE2340\",\"target\":\"CS4487\",\"benefit\":0.1}],\"penalty_weights\":{\"background_mismatch\":1.0,\"difficulty\":1.0,\"workload\":1.0},\"stream_reward_multiplier\":3.0}",
+    "accepted": true,
+    "error": null,
+    "parameters": {
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "penalty_weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    },
+    "fallback_used": false,
+    "optimizer_status": "curriculum_complete_timetables_pending",
+    "credits": 122.0,
+    "objective": 153.65504861058557,
+    "semester_courses": [
+      {
+        "term": 3,
+        "courses": [
+          "CS2360",
+          "GE1601",
+          "GE2260",
+          "MA2503",
+          "MA2508",
+          "MA2509"
+        ],
+        "credits": 18
+      },
+      {
+        "term": 4,
+        "courses": [
+          "CS2468",
+          "CSCI1002",
+          "MA2507",
+          "MA2510",
+          "MA3511",
+          "MA3517",
+          "MA3523"
+        ],
+        "credits": 16
+      },
+      {
+        "term": 5,
+        "courses": [
+          "GE1113",
+          "MA3512",
+          "MA3518",
+          "MA3525",
+          "MA4545"
+        ],
+        "credits": 15
+      },
+      {
+        "term": 6,
+        "courses": [
+          "MA3514",
+          "MA3515",
+          "MA3526",
+          "MA3530",
+          "MA4537",
+          "MA4546"
+        ],
+        "credits": 16
+      },
+      {
+        "term": 7,
+        "courses": [
+          "MA3521",
+          "MA4528",
+          "MA4530:A",
+          "MA4542"
+        ],
+        "credits": 12
+      },
+      {
+        "term": 8,
+        "courses": [
+          "EF3320",
+          "MA4529",
+          "MA4530:B",
+          "MA4550",
+          "MA4551"
+        ],
+        "credits": 15
+      }
+    ],
+    "certificate": {
+      "optimality_proven": true,
+      "scope": "Existing source-backed course/section allocations and mandatory catch-up placements are fixed; optimize missing electives over the declared current catalogue pool.",
+      "assignments_checked": 64,
+      "feasible_assignments": 12,
+      "objective_upper_bound": 153.65504861058557,
+      "optimality_gap": 0.0,
+      "verification": "Independent full Cartesian enumeration agrees with DP maximum"
+    }
+  },
+  {
+    "id": "F",
+    "mode": "prompted",
+    "raw": "{\"reward_parameters\":{\"base_course_profit\":3.0,\"covered_GE_area_multiplier\":0.1,\"new_GE_area_bonus\":5.0,\"GE_count_progress_bonus\":2.0,\"years_1_to_3_overload_weight\":0.25,\"year4_overload_weight\":0.25,\"ef3320_year4_bonus\":4.0,\"ef_no_finance_penalty\":1.5},\"course_relations\":[{\"source\":\"MA2508\",\"target\":\"MA3512\",\"benefit\":0.25},{\"source\":\"MA2508\",\"target\":\"MA3515\",\"benefit\":0.2},{\"source\":\"MA2509\",\"target\":\"GE2134\",\"benefit\":0.15},{\"source\":\"MA2510\",\"target\":\"MA3518\",\"benefit\":0.3},{\"source\":\"MA2503\",\"target\":\"MA3525\",\"benefit\":0.25},{\"source\":\"MA3511\",\"target\":\"MA3512\",\"benefit\":0.3},{\"source\":\"MA3525\",\"target\":\"MA3514\",\"benefit\":0.25},{\"source\":\"MA3526\",\"target\":\"MA4542\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"MA3521\",\"benefit\":0.25},{\"source\":\"MA3521\",\"target\":\"MA4529\",\"benefit\":0.3},{\"source\":\"MA2510\",\"target\":\"MA4546\",\"benefit\":0.25},{\"source\":\"MA2503\",\"target\":\"EF3320\",\"benefit\":0.2},{\"source\":\"MA3515\",\"target\":\"EF3320\",\"benefit\":0.25},{\"source\":\"GE1202\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"GE2260\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"CS1302\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS1302A\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS2360\",\"target\":\"CS2468\",\"benefit\":0.25},{\"source\":\"CS2468\",\"target\":\"CS4335\",\"benefit\":0.25},{\"source\":\"CS3334\",\"target\":\"CS4335\",\"benefit\":0.3},{\"source\":\"MA2509\",\"target\":\"CS3334\",\"benefit\":0.2},{\"source\":\"MA2503\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3515\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3518\",\"target\":\"CS4487\",\"benefit\":0.2},{\"source\":\"GE2340\",\"target\":\"CS4487\",\"benefit\":0.1}],\"penalty_weights\":{\"background_mismatch\":1.0,\"difficulty\":1.0,\"workload\":1.0},\"stream_reward_multiplier\":3.0}",
+    "accepted": true,
+    "error": null,
+    "parameters": {
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "penalty_weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    },
+    "fallback_used": false,
+    "optimizer_status": "curriculum_complete_timetables_pending",
+    "credits": 122.0,
+    "objective": 154.3120775871616,
+    "semester_courses": [
+      {
+        "term": 3,
+        "courses": [
+          "CS2360",
+          "GE1305",
+          "GE1601",
+          "MA2503",
+          "MA2508",
+          "MA2509"
+        ],
+        "credits": 18
+      },
+      {
+        "term": 4,
+        "courses": [
+          "CS2468",
+          "CSCI1002",
+          "MA2507",
+          "MA2510",
+          "MA3511",
+          "MA3517",
+          "MA3530"
+        ],
+        "credits": 14
+      },
+      {
+        "term": 5,
+        "courses": [
+          "GE1113",
+          "MA3512",
+          "MA3518",
+          "MA3521",
+          "MA3525"
+        ],
+        "credits": 15
+      },
+      {
+        "term": 6,
+        "courses": [
+          "MA3514",
+          "MA3515",
+          "MA3523",
+          "MA3526",
+          "MA4529",
+          "MA4537"
+        ],
+        "credits": 18
+      },
+      {
+        "term": 7,
+        "courses": [
+          "MA4528",
+          "MA4530:A",
+          "MA4542",
+          "MA4545"
+        ],
+        "credits": 12
+      },
+      {
+        "term": 8,
+        "courses": [
+          "EF3320",
+          "MA4530:B",
+          "MA4546",
+          "MA4550",
+          "MA4551"
+        ],
+        "credits": 15
+      }
+    ],
+    "certificate": {
+      "optimality_proven": true,
+      "scope": "Existing source-backed course/section allocations and mandatory catch-up placements are fixed; optimize missing electives over the declared current catalogue pool.",
+      "assignments_checked": 64,
+      "feasible_assignments": 20,
+      "objective_upper_bound": 154.3120775871616,
+      "optimality_gap": 0.0,
+      "verification": "Independent full Cartesian enumeration agrees with DP maximum"
+    }
+  },
+  {
+    "id": "N",
+    "mode": "prompted",
+    "raw": "{\"reward_parameters\":{\"base_course_profit\":3.0,\"covered_GE_area_multiplier\":0.1,\"new_GE_area_bonus\":5.0,\"GE_count_progress_bonus\":2.0,\"years_1_to_3_overload_weight\":0.25,\"year4_overload_weight\":0.25,\"ef3320_year4_bonus\":4.0,\"ef_no_finance_penalty\":1.5},\"course_relations\":[{\"source\":\"MA2508\",\"target\":\"MA3512\",\"benefit\":0.25},{\"source\":\"MA2508\",\"target\":\"MA3515\",\"benefit\":0.2},{\"source\":\"MA2509\",\"target\":\"GE2134\",\"benefit\":0.15},{\"source\":\"MA2510\",\"target\":\"MA3518\",\"benefit\":0.3},{\"source\":\"MA2503\",\"target\":\"MA3525\",\"benefit\":0.25},{\"source\":\"MA3511\",\"target\":\"MA3512\",\"benefit\":0.3},{\"source\":\"MA3525\",\"target\":\"MA3514\",\"benefit\":0.25},{\"source\":\"MA3526\",\"target\":\"MA4542\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"MA3521\",\"benefit\":0.25},{\"source\":\"MA3521\",\"target\":\"MA4529\",\"benefit\":0.3},{\"source\":\"MA2510\",\"target\":\"MA4546\",\"benefit\":0.25},{\"source\":\"MA2503\",\"target\":\"EF3320\",\"benefit\":0.2},{\"source\":\"MA3515\",\"target\":\"EF3320\",\"benefit\":0.25},{\"source\":\"GE1202\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"GE2260\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"CS1302\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS1302A\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS2360\",\"target\":\"CS2468\",\"benefit\":0.25},{\"source\":\"CS2468\",\"target\":\"CS4335\",\"benefit\":0.25},{\"source\":\"CS3334\",\"target\":\"CS4335\",\"benefit\":0.3},{\"source\":\"MA2509\",\"target\":\"CS3334\",\"benefit\":0.2},{\"source\":\"MA2503\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3515\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3518\",\"target\":\"CS4487\",\"benefit\":0.2},{\"source\":\"GE2340\",\"target\":\"CS4487\",\"benefit\":0.1}],\"penalty_weights\":{\"background_mismatch\":1.0,\"difficulty\":1.0,\"workload\":1.0},\"stream_reward_multiplier\":3.0}",
+    "accepted": true,
+    "error": null,
+    "parameters": {
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "penalty_weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    },
+    "fallback_used": false,
+    "optimizer_status": "curriculum_complete_timetables_pending",
+    "credits": 122.0,
+    "objective": 140.126282183488,
+    "semester_courses": [
+      {
+        "term": 3,
+        "courses": [
+          "CS2360",
+          "GE1601",
+          "GE2260",
+          "MA2503",
+          "MA2508",
+          "MA2509"
+        ],
+        "credits": 18
+      },
+      {
+        "term": 4,
+        "courses": [
+          "CS2468",
+          "CSCI1002",
+          "EF3320",
+          "MA2507",
+          "MA3511",
+          "MA3515",
+          "MA3517"
+        ],
+        "credits": 16
+      },
+      {
+        "term": 5,
+        "courses": [
+          "GE1105",
+          "MA3512",
+          "MA3525",
+          "MA4528",
+          "MA4545"
+        ],
+        "credits": 15
+      },
+      {
+        "term": 6,
+        "courses": [
+          "MA2510",
+          "MA3514",
+          "MA3523",
+          "MA3526",
+          "MA3530"
+        ],
+        "credits": 13
+      },
+      {
+        "term": 7,
+        "courses": [
+          "MA3518",
+          "MA3521",
+          "MA4530:A",
+          "MA4542"
+        ],
+        "credits": 12
+      },
+      {
+        "term": 8,
+        "courses": [
+          "MA4529",
+          "MA4530:B",
+          "MA4537",
+          "MA4546",
+          "MA4550",
+          "MA4551"
+        ],
+        "credits": 18
+      }
+    ],
+    "certificate": {
+      "optimality_proven": true,
+      "scope": "Existing source-backed course/section allocations and mandatory catch-up placements are fixed; optimize missing electives over the declared current catalogue pool.",
+      "assignments_checked": 64,
+      "feasible_assignments": 2,
+      "objective_upper_bound": 140.126282183488,
+      "optimality_gap": 0.0,
+      "verification": "Independent full Cartesian enumeration agrees with DP maximum"
+    }
+  },
+  {
+    "id": "M",
+    "mode": "prompted",
+    "raw": "{\"reward_parameters\":{\"base_course_profit\":3.0,\"covered_GE_area_multiplier\":0.1,\"new_GE_area_bonus\":5.0,\"GE_count_progress_bonus\":2.0,\"years_1_to_3_overload_weight\":0.25,\"year4_overload_weight\":0.25,\"ef3320_year4_bonus\":4.0,\"ef_no_finance_penalty\":1.5},\"course_relations\":[{\"source\":\"MA2508\",\"target\":\"MA3512\",\"benefit\":0.25},{\"source\":\"MA2508\",\"target\":\"MA3515\",\"benefit\":0.2},{\"source\":\"MA2509\",\"target\":\"GE2134\",\"benefit\":0.15},{\"source\":\"MA2510\",\"target\":\"MA3518\",\"benefit\":0.3},{\"source\":\"MA2503\",\"target\":\"MA3525\",\"benefit\":0.25},{\"source\":\"MA3511\",\"target\":\"MA3512\",\"benefit\":0.3},{\"source\":\"MA3525\",\"target\":\"MA3514\",\"benefit\":0.25},{\"source\":\"MA3526\",\"target\":\"MA4542\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"MA3521\",\"benefit\":0.25},{\"source\":\"MA3521\",\"target\":\"MA4529\",\"benefit\":0.3},{\"source\":\"MA2510\",\"target\":\"MA4546\",\"benefit\":0.25},{\"source\":\"MA2503\",\"target\":\"EF3320\",\"benefit\":0.2},{\"source\":\"MA3515\",\"target\":\"EF3320\",\"benefit\":0.25},{\"source\":\"GE1202\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"GE2260\",\"target\":\"EF3320\",\"benefit\":0.1},{\"source\":\"CS1302\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS1302A\",\"target\":\"CS2360\",\"benefit\":0.2},{\"source\":\"CS2360\",\"target\":\"CS2468\",\"benefit\":0.25},{\"source\":\"CS2468\",\"target\":\"CS4335\",\"benefit\":0.25},{\"source\":\"CS3334\",\"target\":\"CS4335\",\"benefit\":0.3},{\"source\":\"MA2509\",\"target\":\"CS3334\",\"benefit\":0.2},{\"source\":\"MA2503\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA2510\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3515\",\"target\":\"CS4487\",\"benefit\":0.25},{\"source\":\"MA3518\",\"target\":\"CS4487\",\"benefit\":0.2},{\"source\":\"GE2340\",\"target\":\"CS4487\",\"benefit\":0.1}],\"penalty_weights\":{\"background_mismatch\":1.0,\"difficulty\":1.0,\"workload\":1.0},\"stream_reward_multiplier\":3.0}",
+    "accepted": true,
+    "error": null,
+    "parameters": {
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "penalty_weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    },
+    "fallback_used": false,
+    "optimizer_status": "curriculum_complete_timetables_pending",
+    "credits": 122.0,
+    "objective": 153.65504861058557,
+    "semester_courses": [
+      {
+        "term": 3,
+        "courses": [
+          "CS2360",
+          "GE1601",
+          "GE2260",
+          "MA2503",
+          "MA2508",
+          "MA2509"
+        ],
+        "credits": 18
+      },
+      {
+        "term": 4,
+        "courses": [
+          "CS2468",
+          "CSCI1002",
+          "MA2507",
+          "MA2510",
+          "MA3511",
+          "MA3517",
+          "MA3523"
+        ],
+        "credits": 16
+      },
+      {
+        "term": 5,
+        "courses": [
+          "GE1113",
+          "MA3512",
+          "MA3518",
+          "MA3525",
+          "MA4545"
+        ],
+        "credits": 15
+      },
+      {
+        "term": 6,
+        "courses": [
+          "MA3514",
+          "MA3515",
+          "MA3526",
+          "MA3530",
+          "MA4537",
+          "MA4546"
+        ],
+        "credits": 16
+      },
+      {
+        "term": 7,
+        "courses": [
+          "MA3521",
+          "MA4528",
+          "MA4530:A",
+          "MA4542"
+        ],
+        "credits": 12
+      },
+      {
+        "term": 8,
+        "courses": [
+          "EF3320",
+          "MA4529",
+          "MA4530:B",
+          "MA4550",
+          "MA4551"
+        ],
+        "credits": 15
+      }
+    ],
+    "certificate": {
+      "optimality_proven": true,
+      "scope": "Existing source-backed course/section allocations and mandatory catch-up placements are fixed; optimize missing electives over the declared current catalogue pool.",
+      "assignments_checked": 64,
+      "feasible_assignments": 12,
+      "objective_upper_bound": 153.65504861058557,
+      "optimality_gap": 0.0,
+      "verification": "Independent full Cartesian enumeration agrees with DP maximum"
+    }
+  }
+]

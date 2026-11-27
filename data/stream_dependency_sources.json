@@ -1,0 +1,11 @@
+{
+  "MA4546":{"completion_alternatives":[["MA2506"],["MA2510"]],"source":"https://www.cityu.edu.hk/catalogue/ug/202526/course/MA4546.pdf","source_version":"2025/26"},
+  "CS4480":{"completion_alternatives":[["CS3402","CS3481"],["CS3402","SDSC3002"],["CS3402","SDSC3006"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/CS4480.htm"},
+  "CS4286":{"completion_alternatives":[["CS3201"],["CHEM2808"],["CHEM2809"]],"source":"https://www.cityu.edu.hk/catalogue/ug/202425/course/CS4286.htm","requires_current_confirmation":true},
+  "CS4293":{"completion_alternatives":[["CS2310","CS3103","CS3201"],["CS2311","CS3103","CS3201"],["CS2312","CS3103","CS3201"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/cs4293.htm"},
+  "CS4394":{"completion_alternatives":[[]],"advisory_precursors":["CS3103"],"source":"https://www.cityu.edu.hk/catalogue/ug/202526/course/CS4394.pdf","source_version":"2025/26; precursor is not compulsory"},
+  "CS4182":{"completion_alternatives":[["CS2303"],["CS3334"],["EE3206"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/cs4182.htm"},
+  "CS3346":{"completion_alternatives":[["CS3342"],["CS3343"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/cs3346.htm","offering_note":"Not offering in current 2026/27 academic year. Future offering unverified."},
+  "CS4348":{"completion_alternatives":[["CS3342"],["CS3343"]],"source":"https://www.cityu.edu.hk/catalogue/ug/202324/course/CS4348.htm","requires_current_confirmation":true},
+  "CS4389":{"completion_alternatives":[["CS3343"]],"advisory_precursors":["CS2204"],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/CS4389.htm","offering_note":"Not offering in current 2026/27 academic year. Future offering unverified."}
+}

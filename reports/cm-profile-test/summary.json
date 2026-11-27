@@ -1,0 +1,78 @@
+{
+  "grounded": {
+    "json_valid": {
+      "passed": 12,
+      "total": 12
+    },
+    "completed_courses_exact": {
+      "passed": 9,
+      "total": 12
+    },
+    "selection_rules_passed": {
+      "passed": 2,
+      "total": 12
+    },
+    "meeting_times_exact": {
+      "passed": 6,
+      "total": 12
+    },
+    "no_potential_weekly_overlap": {
+      "passed": 6,
+      "total": 12
+    },
+    "maximum_course_count_met": {
+      "passed": 2,
+      "total": 12
+    },
+    "objective_matched": {
+      "passed": 2,
+      "total": 12
+    },
+    "uncertainty_flags_correct": {
+      "passed": 12,
+      "total": 12
+    },
+    "all_checks_passed": {
+      "passed": 2,
+      "total": 12
+    }
+  },
+  "memory_only": {
+    "json_valid": {
+      "passed": 2,
+      "total": 2
+    },
+    "completed_courses_exact": {
+      "passed": 2,
+      "total": 2
+    },
+    "selection_rules_passed": {
+      "passed": 0,
+      "total": 2
+    },
+    "meeting_times_exact": {
+      "passed": 0,
+      "total": 2
+    },
+    "no_potential_weekly_overlap": {
+      "passed": 0,
+      "total": 2
+    },
+    "maximum_course_count_met": {
+      "passed": 0,
+      "total": 2
+    },
+    "objective_matched": {
+      "passed": 0,
+      "total": 2
+    },
+    "uncertainty_flags_correct": {
+      "passed": 2,
+      "total": 2
+    },
+    "all_checks_passed": {
+      "passed": 0,
+      "total": 2
+    }
+  }
+}

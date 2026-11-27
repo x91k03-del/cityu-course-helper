@@ -1,0 +1,15 @@
+{
+  "adapter": "adapters/gpt-course-relations-max",
+  "cases": 12,
+  "custom_system_message": false,
+  "teacher_edges_provided": false,
+  "output_schema_instructed": false,
+  "few_shot_examples_provided": false,
+  "retrieval_used": false,
+  "optimizer_used": false,
+  "each_case_new_conversation": true,
+  "decoding": "greedy, standard Qwen chat template, enable_thinking=False",
+  "max_new_tokens": 512,
+  "neural_weights_updated": false,
+  "scope": "Natural language and paraphrase robustness probes; references withheld from model. Transcript-only controls have no explicit task, so no answer-format accuracy is assigned."
+}

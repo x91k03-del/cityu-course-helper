@@ -1,0 +1,33 @@
+{
+  "cases": 12,
+  "natural_language_question_cases": 8,
+  "exact_reference_matches": 0,
+  "paraphrase_pairs": [
+    {
+      "profile": "FIN_PASS",
+      "identical_raw_answers": false,
+      "same_parsed_answer": null,
+      "both_exact_reference": false
+    },
+    {
+      "profile": "FIN_FAIL",
+      "identical_raw_answers": false,
+      "same_parsed_answer": null,
+      "both_exact_reference": false
+    },
+    {
+      "profile": "AI_GE",
+      "identical_raw_answers": false,
+      "same_parsed_answer": null,
+      "both_exact_reference": false
+    },
+    {
+      "profile": "AI_MAX",
+      "identical_raw_answers": false,
+      "same_parsed_answer": null,
+      "both_exact_reference": false
+    }
+  ],
+  "truncated_outputs": 11,
+  "input_sha256": "ade3997778c7ddcee1c4d9326259e1f59ad81111d75f63bdbc934369329c74f5"
+}

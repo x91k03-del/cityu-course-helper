@@ -1,0 +1,476 @@
+[
+  {
+    "changed_course": "MA2508",
+    "grade": "B",
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.15,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "state": {
+      "term": 4,
+      "year": 2,
+      "semester": "B",
+      "passed_ids": [
+        "CHEM1200",
+        "CS1302",
+        "CS2360",
+        "CSCI1001",
+        "CSCI1002",
+        "GE1113",
+        "GE1202",
+        "GE1305",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "PHY1201"
+      ],
+      "earned_credits": 48,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "core_credits": 14,
+      "attempted_credits": 48,
+      "needs_confirmation": true,
+      "official_graduation_verified": false
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.15, \"MA3512\": 0.25, \"MA3515\": 0.2}}",
+    "passed": true
+  },
+  {
+    "changed_course": "MA2508",
+    "grade": "F",
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.15,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "state": {
+      "term": 4,
+      "year": 2,
+      "semester": "B",
+      "passed_ids": [
+        "CHEM1200",
+        "CS1302",
+        "CS2360",
+        "CSCI1001",
+        "CSCI1002",
+        "GE1113",
+        "GE1202",
+        "GE1305",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2509",
+        "PHY1201"
+      ],
+      "earned_credits": 44,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "core_credits": 10,
+      "attempted_credits": 48,
+      "needs_confirmation": true,
+      "official_graduation_verified": false
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.15, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true
+  },
+  {
+    "changed_course": "MA2508",
+    "grade": "IP",
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.15,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "state": {
+      "term": 4,
+      "year": 2,
+      "semester": "B",
+      "passed_ids": [
+        "CHEM1200",
+        "CS1302",
+        "CS2360",
+        "CSCI1001",
+        "CSCI1002",
+        "GE1113",
+        "GE1202",
+        "GE1305",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2509",
+        "PHY1201"
+      ],
+      "earned_credits": 44,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "core_credits": 10,
+      "attempted_credits": 48,
+      "needs_confirmation": true,
+      "official_graduation_verified": false
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.15, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true
+  },
+  {
+    "changed_course": "MA2508",
+    "grade": "W",
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.15,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "state": {
+      "term": 4,
+      "year": 2,
+      "semester": "B",
+      "passed_ids": [
+        "CHEM1200",
+        "CS1302",
+        "CS2360",
+        "CSCI1001",
+        "CSCI1002",
+        "GE1113",
+        "GE1202",
+        "GE1305",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2509",
+        "PHY1201"
+      ],
+      "earned_credits": 44,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "core_credits": 10,
+      "attempted_credits": 48,
+      "needs_confirmation": true,
+      "official_graduation_verified": false
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.15, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true
+  },
+  {
+    "changed_course": "MA2509",
+    "grade": "B",
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.15,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "state": {
+      "term": 4,
+      "year": 2,
+      "semester": "B",
+      "passed_ids": [
+        "CHEM1200",
+        "CS1302",
+        "CS2360",
+        "CSCI1001",
+        "CSCI1002",
+        "GE1113",
+        "GE1202",
+        "GE1305",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2508",
+        "MA2509",
+        "PHY1201"
+      ],
+      "earned_credits": 48,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "core_credits": 14,
+      "attempted_credits": 48,
+      "needs_confirmation": true,
+      "official_graduation_verified": false
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.15, \"MA3512\": 0.25, \"MA3515\": 0.2}}",
+    "passed": true
+  },
+  {
+    "changed_course": "MA2509",
+    "grade": "F",
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "state": {
+      "term": 4,
+      "year": 2,
+      "semester": "B",
+      "passed_ids": [
+        "CHEM1200",
+        "CS1302",
+        "CS2360",
+        "CSCI1001",
+        "CSCI1002",
+        "GE1113",
+        "GE1202",
+        "GE1305",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2508",
+        "PHY1201"
+      ],
+      "earned_credits": 45,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "core_credits": 11,
+      "attempted_credits": 48,
+      "needs_confirmation": true,
+      "official_graduation_verified": false
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.25, \"MA3515\": 0.2}}",
+    "passed": true
+  },
+  {
+    "changed_course": "MA2509",
+    "grade": "IP",
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "state": {
+      "term": 4,
+      "year": 2,
+      "semester": "B",
+      "passed_ids": [
+        "CHEM1200",
+        "CS1302",
+        "CS2360",
+        "CSCI1001",
+        "CSCI1002",
+        "GE1113",
+        "GE1202",
+        "GE1305",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2508",
+        "PHY1201"
+      ],
+      "earned_credits": 45,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "core_credits": 11,
+      "attempted_credits": 48,
+      "needs_confirmation": true,
+      "official_graduation_verified": false
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.25, \"MA3515\": 0.2}}",
+    "passed": true
+  },
+  {
+    "changed_course": "MA2509",
+    "grade": "W",
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "state": {
+      "term": 4,
+      "year": 2,
+      "semester": "B",
+      "passed_ids": [
+        "CHEM1200",
+        "CS1302",
+        "CS2360",
+        "CSCI1001",
+        "CSCI1002",
+        "GE1113",
+        "GE1202",
+        "GE1305",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2508",
+        "PHY1201"
+      ],
+      "earned_credits": 45,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "core_credits": 11,
+      "attempted_credits": 48,
+      "needs_confirmation": true,
+      "official_graduation_verified": false
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.25, \"MA3515\": 0.2}}",
+    "passed": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "GPU": "NVIDIA GeForce RTX 5090",
+  "CUDA_total_VRAM_GiB": 31.81585693359375,
+  "adapter": "adapters/gpt-course-relations-max",
+  "quantization": "NF4 base with BF16 compute",
+  "batch_size": 1,
+  "task": "Course preparation reward: passed MA3515 to EF3320",
+  "prompt_tokens": 598,
+  "generated_tokens": 33,
+  "max_new_tokens": 180,
+  "model_loaded_allocated_GiB": 5.740689754486084,
+  "inference_peak_allocated_GiB": 5.990272045135498,
+  "inference_peak_reserved_GiB": 6.099609375,
+  "raw_output": "{\"target\": \"EF3320\", \"preparation_bonus\": 0.25, \"strongest_sources\": [\"MA3515\"]}",
+  "measurement_scope": "PyTorch tensors in this process, including model and generation; excludes other applications and CUDA driver memory"
+}

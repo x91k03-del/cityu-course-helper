@@ -1,0 +1,62 @@
+{
+  "prior": {
+    "ge_grounded_replay": {
+      "passed": 2,
+      "total": 2
+    },
+    "grounded_rules": {
+      "passed": 2,
+      "total": 2
+    },
+    "grounded_schedule": {
+      "passed": 2,
+      "total": 4
+    },
+    "guard": {
+      "passed": 0,
+      "total": 6
+    },
+    "requirement_check": {
+      "passed": 3,
+      "total": 10
+    },
+    "rules_recall": {
+      "passed": 0,
+      "total": 4
+    },
+    "schedule_recall": {
+      "passed": 0,
+      "total": 4
+    }
+  },
+  "ma_tuned": {
+    "ge_grounded_replay": {
+      "passed": 2,
+      "total": 2
+    },
+    "grounded_rules": {
+      "passed": 2,
+      "total": 2
+    },
+    "grounded_schedule": {
+      "passed": 4,
+      "total": 4
+    },
+    "guard": {
+      "passed": 1,
+      "total": 6
+    },
+    "requirement_check": {
+      "passed": 10,
+      "total": 10
+    },
+    "rules_recall": {
+      "passed": 0,
+      "total": 4
+    },
+    "schedule_recall": {
+      "passed": 0,
+      "total": 4
+    }
+  }
+}

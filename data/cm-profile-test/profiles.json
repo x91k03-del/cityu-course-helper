@@ -1,0 +1,765 @@
+[
+  {
+    "profile_id": "CM01",
+    "label": "Year 2: Analysis passed in Year 1",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 2,
+    "intake_cohort": "2025",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "MA1301",
+        "title": null,
+        "grade": "B+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2503",
+        "title": "Linear Algebra",
+        "grade": "A",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2508",
+        "title": "Multi-variable Calculus",
+        "grade": "B",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2509",
+        "title": "Discrete Mathematics",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2510",
+        "title": "Probability and Statistics",
+        "grade": "C",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "CS2360",
+        "title": "Java Programming",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA3526",
+        "title": "Analysis",
+        "grade": "A-",
+        "study_year": 1,
+        "status": "completed"
+      }
+    ],
+    "note": "Hypothetical accelerated first-year completion, not a claim about the standard handbook sequence. Historical offering/permission and past prerequisite chains are not audited."
+  },
+  {
+    "profile_id": "CM02",
+    "label": "Year 2: Analysis not studied",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 2,
+    "intake_cohort": "2025",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "MA1301",
+        "title": null,
+        "grade": "B+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2503",
+        "title": "Linear Algebra",
+        "grade": "A",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2508",
+        "title": "Multi-variable Calculus",
+        "grade": "B",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2509",
+        "title": "Discrete Mathematics",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2510",
+        "title": "Probability and Statistics",
+        "grade": "C",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "CS2360",
+        "title": "Java Programming",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      }
+    ],
+    "note": "Matched with CM01; only Analysis completion differs."
+  },
+  {
+    "profile_id": "CM03",
+    "label": "Year 2: Analysis failed",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 2,
+    "intake_cohort": "2025",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "MA1301",
+        "title": null,
+        "grade": "B+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2503",
+        "title": "Linear Algebra",
+        "grade": "A",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2508",
+        "title": "Multi-variable Calculus",
+        "grade": "B",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2509",
+        "title": "Discrete Mathematics",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2510",
+        "title": "Probability and Statistics",
+        "grade": "C",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "CS2360",
+        "title": "Java Programming",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA3526",
+        "title": "Analysis",
+        "grade": "F",
+        "study_year": 1,
+        "status": "failed"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "profile_id": "CM04",
+    "label": "Year 2: Analysis still in progress",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 2,
+    "intake_cohort": "2025",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "MA1301",
+        "title": null,
+        "grade": "B+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2503",
+        "title": "Linear Algebra",
+        "grade": "A",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2508",
+        "title": "Multi-variable Calculus",
+        "grade": "B",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2509",
+        "title": "Discrete Mathematics",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2510",
+        "title": "Probability and Statistics",
+        "grade": "C",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "CS2360",
+        "title": "Java Programming",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA3526",
+        "title": "Analysis",
+        "grade": "IP",
+        "study_year": 2,
+        "status": "in_progress"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "profile_id": "CM05",
+    "label": "Year 2: Analysis passed, MA2508 absent",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 2,
+    "intake_cohort": "2025",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "MA1301",
+        "title": null,
+        "grade": "B+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2503",
+        "title": "Linear Algebra",
+        "grade": "A",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2509",
+        "title": "Discrete Mathematics",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2510",
+        "title": "Probability and Statistics",
+        "grade": "C",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "CS2360",
+        "title": "Java Programming",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA3526",
+        "title": "Analysis",
+        "grade": "A-",
+        "study_year": 1,
+        "status": "completed"
+      }
+    ],
+    "note": "Deliberate incomplete-history stress case. Do not infer MA2508 from the advanced Analysis entry. Historical waivers are unknown."
+  },
+  {
+    "profile_id": "CM06",
+    "label": "Year 3: Analysis and ODE passed",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 3,
+    "intake_cohort": "2024",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "MA1301",
+        "title": null,
+        "grade": "B+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2503",
+        "title": "Linear Algebra",
+        "grade": "A",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2508",
+        "title": "Multi-variable Calculus",
+        "grade": "B",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2509",
+        "title": "Discrete Mathematics",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2510",
+        "title": "Probability and Statistics",
+        "grade": "C",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "CS2360",
+        "title": "Java Programming",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA3526",
+        "title": "Analysis",
+        "grade": "A-",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA3511",
+        "title": "Ordinary Differential Equations",
+        "grade": "B+",
+        "study_year": 2,
+        "status": "completed"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "profile_id": "CM07",
+    "label": "Year 3: Analysis passed, ODE failed",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 3,
+    "intake_cohort": "2024",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "MA1301",
+        "title": null,
+        "grade": "B+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2503",
+        "title": "Linear Algebra",
+        "grade": "A",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2508",
+        "title": "Multi-variable Calculus",
+        "grade": "B",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2509",
+        "title": "Discrete Mathematics",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA2510",
+        "title": "Probability and Statistics",
+        "grade": "C",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "CS2360",
+        "title": "Java Programming",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA3526",
+        "title": "Analysis",
+        "grade": "A-",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA3511",
+        "title": "Ordinary Differential Equations",
+        "grade": "F",
+        "study_year": 2,
+        "status": "failed"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "profile_id": "CM08",
+    "label": "Year 2: both courses in the calculus AND branch passed",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 2,
+    "intake_cohort": "2025",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "CS2360",
+        "title": "Java Programming",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA1503",
+        "title": null,
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA1508",
+        "title": "Calculus",
+        "grade": "C",
+        "study_year": 1,
+        "status": "completed"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "profile_id": "CM09",
+    "label": "Year 2: MA1503 passed, MA1508 failed",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 2,
+    "intake_cohort": "2025",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "CS2360",
+        "title": "Java Programming",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA1503",
+        "title": null,
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA1508",
+        "title": "Calculus",
+        "grade": "F",
+        "study_year": 1,
+        "status": "failed"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "profile_id": "CM10",
+    "label": "Year 1: new cohort, no passed courses",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 1,
+    "intake_cohort": "2026",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "CS1302",
+        "title": null,
+        "grade": "IP",
+        "study_year": 1,
+        "status": "in_progress"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "profile_id": "CM11",
+    "label": "Year 1: returning earlier-cohort student",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 1,
+    "intake_cohort": "2025",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "CS1302",
+        "title": null,
+        "grade": "IP",
+        "study_year": 1,
+        "status": "in_progress"
+      }
+    ],
+    "note": "Fictional returning first-year student after a leave; matched with CM10 except cohort."
+  },
+  {
+    "profile_id": "CM12",
+    "label": "Year 2: calculus branch passed plus exclusive GE1359",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 2,
+    "intake_cohort": "2025",
+    "target_term": "202609",
+    "priority_order": [
+      "MA4542",
+      "MA3512",
+      "MA4545",
+      "MA3518",
+      "MA3521",
+      "MA2508",
+      "MA3525",
+      "MA2503",
+      "MA2509",
+      "MA1300",
+      "MA1502"
+    ],
+    "maximum_courses": 3,
+    "transcript": [
+      {
+        "course_code": "CS2360",
+        "title": "Java Programming",
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA1503",
+        "title": null,
+        "grade": "C+",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "MA1508",
+        "title": "Calculus",
+        "grade": "C",
+        "study_year": 1,
+        "status": "completed"
+      },
+      {
+        "course_code": "GE1359",
+        "title": null,
+        "grade": "A-",
+        "study_year": 1,
+        "status": "completed"
+      }
+    ],
+    "note": "Matched with CM08; GE1359 is a completed exclusive course for MA2508."
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "degree_mode": "curriculum_with_pending",
+  "curriculum_beam_width": 24,
+  "minimum_degree_credits": 122,
+  "pending_timetable_authorised_by_user": true,
+  "include_GE_snapshot": true,
+  "scope": "CM profiles with explicit completed Year-1 history; curriculum completeness does not imply registration timetable completeness",
+  "curriculum_search_mode": "exact",
+  "reward_contract_path": "data/reward-only/active_packet.json",
+  "LLM_role": "reward_parameters_and_course_relations_only",
+  "path_selection_role": "external_dynamic_programming"
+}

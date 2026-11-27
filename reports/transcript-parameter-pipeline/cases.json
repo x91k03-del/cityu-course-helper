@@ -1,0 +1,1859 @@
+[
+  {
+    "id": "F",
+    "pdf": "reports/transcript-parameter-pipeline/fixtures/Fictional_Transcript_F.pdf",
+    "text": "FICTIONAL TRANSCRIPT - DEMONSTRATION ONLY\r\nCourse Helper - student grade display\r\n\r\nThis document is a synthetic test fixture. It is not a university academic record.\r\nStudent Name : FICTIONAL STUDENT F\r\nStudent Number : DEMO-F\r\nLevel : Bachelor's Degree\r\nDegree : Bachelor of Science\r\nMajor : Computing Mathematics\r\nINSTITUTION CREDIT\r\nCourse Code          Course Title                                                               Credits   Grade         Remarks\r\n\r\n\r\n                                                                     Semester A 2025/26\r\nStatus: Enrolled\r\nMajor: Computing Mathematics\r\nMA1300               Enhanced Calculus and Linear Algebra I                                     3         B\r\n\r\nCS1302               Introduction to Computer Programming                                       3         B\r\n\r\nPHY1201              PHY1201                                                                    3         B\r\n\r\nGE1401               GE1401                                                                     3         B\r\n\r\nGE2260               Introduction to Finance                                                    3         B\r\n\r\nCSCI1001             Employability for Scientists                                               0         P\r\n\r\nLC0200A              English for Academic Purposes 1                                            3         C+*           Non-degree\r\n\r\n     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00\r\n\r\n\r\n                                                                     Semester B 2025/26\r\nStatus: Enrolled\r\nMajor: Computing Mathematics\r\nMA1301               Enhanced Calculus and Linear Algebra II                                    3         B\r\n\r\nCHEM1200             CHEM1200                                                                   3         B\r\n\r\nGE1501               GE1501                                                                     3         B\r\n\r\nGE2401               GE2401                                                                     3         B\r\n\r\nGE1105               Chinese Music Appreciation                                                 3         B\r\n\r\n     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00\r\n\r\n\r\n                                                                     Semester A 2026/27\r\nStatus: Enrolled\r\nMajor: Computing Mathematics\r\nMA2503               Linear Algebra                                                             4         In Progress\r\n\r\nIn Progress Credits: 4.00\r\n* Starred flag retained; credit exclusion here is explicitly stated in the fictional Remarks.\r\nZero-credit P rows are passed requirements and add no credits.\r\nTotal Credit Units Completed (degree-counted in this fixture): 30\r\n\r\n\r\n\r\n\r\nSYNTHETIC TEST FIXTURE - NOT AN OFFICIAL RECORD                                                                                      1\r\n\f",
+    "preferences": {
+      "desired_stream": "Financial Mathematics",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    },
+    "facts": {
+      "programme": "CM",
+      "rows": [
+        {
+          "course_code": "MA1300",
+          "title": "Enhanced Calculus and Linear Algebra I",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "PHY1201",
+          "title": "PHY1201",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE1401",
+          "title": "GE1401",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE2260",
+          "title": "Introduction to Finance",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "CSCI1001",
+          "title": "Employability for Scientists",
+          "published_credits": 0.0,
+          "grade": "P",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 0.0
+        },
+        {
+          "course_code": "LC0200A",
+          "title": "English for Academic Purposes 1",
+          "published_credits": 3.0,
+          "grade": "C+",
+          "grade_starred": true,
+          "remarks": "Non-degree",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "excluded_explicit_non_degree",
+          "earned_degree_credits": 0.0
+        },
+        {
+          "course_code": "MA1301",
+          "title": "Enhanced Calculus and Linear Algebra II",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "CHEM1200",
+          "title": "CHEM1200",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE1501",
+          "title": "GE1501",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE2401",
+          "title": "GE2401",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE1105",
+          "title": "Chinese Music Appreciation",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "MA2503",
+          "title": "Linear Algebra",
+          "published_credits": 4.0,
+          "grade": "IP",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2026,
+          "semester": "A",
+          "passed": false,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 0.0
+        }
+      ],
+      "completed_courses": [
+        "CHEM1200",
+        "CS1302",
+        "CSCI1001",
+        "GE1105",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "LC0200A",
+        "MA1300",
+        "MA1301",
+        "PHY1201"
+      ],
+      "in_progress_courses": [
+        "MA2503"
+      ],
+      "confirmed_earned_degree_credits": 30.0,
+      "unresolved_degree_credit_rows": []
+    },
+    "source_profile": {
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "year": 2,
+      "term": "202609",
+      "include_GE_snapshot": true,
+      "ge_candidate_courses": [
+        "GE1105",
+        "GE1113",
+        "GE1202",
+        "GE1305",
+        "GE2134",
+        "GE2260"
+      ],
+      "start_semester": 3,
+      "chain_state_limit": 800,
+      "chain_branch_width": 4,
+      "chain_beam_width": 3,
+      "chain_credit_beam_width": 3,
+      "historical_transcript": [
+        {
+          "id": "MA1300",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "CS1302",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "PHY1201",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "GE1401",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "GE2260",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "MA1301",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "CHEM1200",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "GE1501",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "GE2401",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "GE1105",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "completed_courses": [
+        "MA1300",
+        "CS1302",
+        "PHY1201",
+        "GE1401",
+        "GE2260",
+        "MA1301",
+        "CHEM1200",
+        "GE1501",
+        "GE2401",
+        "GE1105"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "degree_mode": "curriculum_with_pending",
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "reward_course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "curriculum_search_mode": "exact",
+      "LLM_role": "reward_parameters_and_course_relations_only",
+      "path_selection_role": "external_dynamic_programming"
+    },
+    "expected_parameters": {
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "penalty_weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    }
+  },
+  {
+    "id": "N",
+    "pdf": "reports/transcript-parameter-pipeline/fixtures/Fictional_Transcript_N.pdf",
+    "text": "FICTIONAL TRANSCRIPT - DEMONSTRATION ONLY\r\nCourse Helper - student grade display\r\n\r\nThis document is a synthetic test fixture. It is not a university academic record.\r\nStudent Name : FICTIONAL STUDENT N\r\nStudent Number : DEMO-N\r\nLevel : Bachelor's Degree\r\nDegree : Bachelor of Science\r\nMajor : Computing Mathematics\r\nINSTITUTION CREDIT\r\nCourse Code          Course Title                                                               Credits   Grade         Remarks\r\n\r\n\r\n                                                                     Semester A 2025/26\r\nStatus: Enrolled\r\nMajor: Computing Mathematics\r\nMA1300               Enhanced Calculus and Linear Algebra I                                     3         B\r\n\r\nCS1302               Introduction to Computer Programming                                       3         B\r\n\r\nPHY1201              PHY1201                                                                    3         B\r\n\r\nGE1401               GE1401                                                                     3         B\r\n\r\nGE1305               Foundation Physics                                                         3         B\r\n\r\nCSCI1001             Employability for Scientists                                               0         P\r\n\r\nLC0200A              English for Academic Purposes 1                                            3         C+*           Non-degree\r\n\r\n     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00\r\n\r\n\r\n                                                                     Semester B 2025/26\r\nStatus: Enrolled\r\nMajor: Computing Mathematics\r\nMA1301               Enhanced Calculus and Linear Algebra II                                    3         B\r\n\r\nCHEM1200             CHEM1200                                                                   3         B\r\n\r\nGE1501               GE1501                                                                     3         B\r\n\r\nGE2401               GE2401                                                                     3         B\r\n\r\nGE1113               Visual Storytelling and Cultural Thinking                                  3         B\r\n\r\n     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00\r\n\r\n\r\n                                                                     Semester A 2026/27\r\nStatus: Enrolled\r\nMajor: Computing Mathematics\r\nMA2503               Linear Algebra                                                             4         In Progress\r\n\r\nIn Progress Credits: 4.00\r\n* Starred flag retained; credit exclusion here is explicitly stated in the fictional Remarks.\r\nZero-credit P rows are passed requirements and add no credits.\r\nTotal Credit Units Completed (degree-counted in this fixture): 30\r\n\r\n\r\n\r\n\r\nSYNTHETIC TEST FIXTURE - NOT AN OFFICIAL RECORD                                                                                      1\r\n\f",
+    "preferences": {
+      "desired_stream": "Financial Mathematics",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    },
+    "facts": {
+      "programme": "CM",
+      "rows": [
+        {
+          "course_code": "MA1300",
+          "title": "Enhanced Calculus and Linear Algebra I",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "PHY1201",
+          "title": "PHY1201",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE1401",
+          "title": "GE1401",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE1305",
+          "title": "Foundation Physics",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "CSCI1001",
+          "title": "Employability for Scientists",
+          "published_credits": 0.0,
+          "grade": "P",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 0.0
+        },
+        {
+          "course_code": "LC0200A",
+          "title": "English for Academic Purposes 1",
+          "published_credits": 3.0,
+          "grade": "C+",
+          "grade_starred": true,
+          "remarks": "Non-degree",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "excluded_explicit_non_degree",
+          "earned_degree_credits": 0.0
+        },
+        {
+          "course_code": "MA1301",
+          "title": "Enhanced Calculus and Linear Algebra II",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "CHEM1200",
+          "title": "CHEM1200",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE1501",
+          "title": "GE1501",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE2401",
+          "title": "GE2401",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE1113",
+          "title": "Visual Storytelling and Cultural Thinking",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "MA2503",
+          "title": "Linear Algebra",
+          "published_credits": 4.0,
+          "grade": "IP",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2026,
+          "semester": "A",
+          "passed": false,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 0.0
+        }
+      ],
+      "completed_courses": [
+        "CHEM1200",
+        "CS1302",
+        "CSCI1001",
+        "GE1113",
+        "GE1305",
+        "GE1401",
+        "GE1501",
+        "GE2401",
+        "LC0200A",
+        "MA1300",
+        "MA1301",
+        "PHY1201"
+      ],
+      "in_progress_courses": [
+        "MA2503"
+      ],
+      "confirmed_earned_degree_credits": 30.0,
+      "unresolved_degree_credit_rows": []
+    },
+    "source_profile": {
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "year": 2,
+      "term": "202609",
+      "include_GE_snapshot": true,
+      "ge_candidate_courses": [
+        "GE1105",
+        "GE1113",
+        "GE1202",
+        "GE1305",
+        "GE2134",
+        "GE2260"
+      ],
+      "start_semester": 3,
+      "chain_state_limit": 800,
+      "chain_branch_width": 4,
+      "chain_beam_width": 3,
+      "chain_credit_beam_width": 3,
+      "historical_transcript": [
+        {
+          "id": "MA1300",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "CS1302",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "PHY1201",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "GE1401",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "GE1305",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "MA1301",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "CHEM1200",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "GE1501",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "GE2401",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "GE1113",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "completed_courses": [
+        "MA1300",
+        "CS1302",
+        "PHY1201",
+        "GE1401",
+        "GE1305",
+        "MA1301",
+        "CHEM1200",
+        "GE1501",
+        "GE2401",
+        "GE1113"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "degree_mode": "curriculum_with_pending",
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "reward_course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "curriculum_search_mode": "exact",
+      "LLM_role": "reward_parameters_and_course_relations_only",
+      "path_selection_role": "external_dynamic_programming"
+    },
+    "expected_parameters": {
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "penalty_weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    }
+  },
+  {
+    "id": "M",
+    "pdf": "reports/transcript-parameter-pipeline/fixtures/Fictional_Transcript_M.pdf",
+    "text": "FICTIONAL TRANSCRIPT - DEMONSTRATION ONLY\r\nCourse Helper - student grade display\r\n\r\nThis document is a synthetic test fixture. It is not a university academic record.\r\nStudent Name : FICTIONAL STUDENT M\r\nStudent Number : DEMO-M\r\nLevel : Bachelor's Degree\r\nDegree : Bachelor of Science\r\nMajor : Computing Mathematics\r\nINSTITUTION CREDIT\r\nCourse Code          Course Title                                                               Credits   Grade         Remarks\r\n\r\n\r\n                                                                     Semester A 2025/26\r\nStatus: Enrolled\r\nMajor: Computing Mathematics\r\nMA1300               Enhanced Calculus and Linear Algebra I                                     3         B\r\n\r\nCS1302               Introduction to Computer Programming                                       3         B\r\n\r\nPHY1201              PHY1201                                                                    3         B\r\n\r\nGE1401               GE1401                                                                     3         B\r\n\r\nGE2134               Critical and Creative Thinking                                             3         B\r\n\r\nCSCI1001             Employability for Scientists                                               0         P\r\n\r\nLC0200A              English for Academic Purposes 1                                            3         C+*           Non-degree\r\n\r\n     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00\r\n\r\n\r\n                                                                     Semester B 2025/26\r\nStatus: Enrolled\r\nMajor: Computing Mathematics\r\nMA1301               Enhanced Calculus and Linear Algebra II                                    3         B\r\n\r\nCHEM1200             CHEM1200                                                                   3         B\r\n\r\nGE1501               GE1501                                                                     3         B\r\n\r\nGE2401               GE2401                                                                     3         B\r\n\r\nGE1305               Foundation Physics                                                         3         B\r\n\r\n     Earned Hours: 15.00 GPA Hours: 15.00 Points: 45.00 GPA: 3.00\r\n\r\n\r\n                                                                     Semester A 2026/27\r\nStatus: Enrolled\r\nMajor: Computing Mathematics\r\nMA2503               Linear Algebra                                                             4         In Progress\r\n\r\nIn Progress Credits: 4.00\r\n* Starred flag retained; credit exclusion here is explicitly stated in the fictional Remarks.\r\nZero-credit P rows are passed requirements and add no credits.\r\nTotal Credit Units Completed (degree-counted in this fixture): 30\r\n\r\n\r\n\r\n\r\nSYNTHETIC TEST FIXTURE - NOT AN OFFICIAL RECORD                                                                                      1\r\n\f",
+    "preferences": {
+      "desired_stream": "Enriched Mathematics",
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    },
+    "facts": {
+      "programme": "CM",
+      "rows": [
+        {
+          "course_code": "MA1300",
+          "title": "Enhanced Calculus and Linear Algebra I",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "CS1302",
+          "title": "Introduction to Computer Programming",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "PHY1201",
+          "title": "PHY1201",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE1401",
+          "title": "GE1401",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE2134",
+          "title": "Critical and Creative Thinking",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "CSCI1001",
+          "title": "Employability for Scientists",
+          "published_credits": 0.0,
+          "grade": "P",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 0.0
+        },
+        {
+          "course_code": "LC0200A",
+          "title": "English for Academic Purposes 1",
+          "published_credits": 3.0,
+          "grade": "C+",
+          "grade_starred": true,
+          "remarks": "Non-degree",
+          "academic_year_start": 2025,
+          "semester": "A",
+          "passed": true,
+          "degree_credit_status": "excluded_explicit_non_degree",
+          "earned_degree_credits": 0.0
+        },
+        {
+          "course_code": "MA1301",
+          "title": "Enhanced Calculus and Linear Algebra II",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "CHEM1200",
+          "title": "CHEM1200",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE1501",
+          "title": "GE1501",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE2401",
+          "title": "GE2401",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "GE1305",
+          "title": "Foundation Physics",
+          "published_credits": 3.0,
+          "grade": "B",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2025,
+          "semester": "B",
+          "passed": true,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 3.0
+        },
+        {
+          "course_code": "MA2503",
+          "title": "Linear Algebra",
+          "published_credits": 4.0,
+          "grade": "IP",
+          "grade_starred": false,
+          "remarks": "",
+          "academic_year_start": 2026,
+          "semester": "A",
+          "passed": false,
+          "degree_credit_status": "published_fixture_credit",
+          "earned_degree_credits": 0.0
+        }
+      ],
+      "completed_courses": [
+        "CHEM1200",
+        "CS1302",
+        "CSCI1001",
+        "GE1305",
+        "GE1401",
+        "GE1501",
+        "GE2134",
+        "GE2401",
+        "LC0200A",
+        "MA1300",
+        "MA1301",
+        "PHY1201"
+      ],
+      "in_progress_courses": [
+        "MA2503"
+      ],
+      "confirmed_earned_degree_credits": 30.0,
+      "unresolved_degree_credit_rows": []
+    },
+    "source_profile": {
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "year": 2,
+      "term": "202609",
+      "include_GE_snapshot": true,
+      "ge_candidate_courses": [
+        "GE1105",
+        "GE1113",
+        "GE1202",
+        "GE1305",
+        "GE2134",
+        "GE2260"
+      ],
+      "start_semester": 3,
+      "chain_state_limit": 800,
+      "chain_branch_width": 4,
+      "chain_beam_width": 3,
+      "chain_credit_beam_width": 3,
+      "historical_transcript": [
+        {
+          "id": "MA1300",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "CS1302",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "PHY1201",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "GE1401",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "GE2134",
+          "credits": 3,
+          "grade": "B",
+          "term": 1,
+          "year": 1,
+          "semester": "A"
+        },
+        {
+          "id": "MA1301",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "CHEM1200",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "GE1501",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "GE2401",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        },
+        {
+          "id": "GE1305",
+          "credits": 3,
+          "grade": "B",
+          "term": 2,
+          "year": 1,
+          "semester": "B"
+        }
+      ],
+      "completed_courses": [
+        "MA1300",
+        "CS1302",
+        "PHY1201",
+        "GE1401",
+        "GE2134",
+        "MA1301",
+        "CHEM1200",
+        "GE1501",
+        "GE2401",
+        "GE1305"
+      ],
+      "desired_stream": "Enriched Mathematics",
+      "degree_mode": "curriculum_with_pending",
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "reward_course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "curriculum_search_mode": "exact",
+      "LLM_role": "reward_parameters_and_course_relations_only",
+      "path_selection_role": "external_dynamic_programming"
+    },
+    "expected_parameters": {
+      "reward_parameters": {
+        "base_course_profit": 3.0,
+        "covered_GE_area_multiplier": 0.1,
+        "new_GE_area_bonus": 5.0,
+        "GE_count_progress_bonus": 2.0,
+        "years_1_to_3_overload_weight": 0.25,
+        "year4_overload_weight": 0.25,
+        "ef3320_year4_bonus": 4.0,
+        "ef_no_finance_penalty": 1.5
+      },
+      "course_relations": [
+        {
+          "source": "MA2508",
+          "target": "MA3512",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2508",
+          "target": "MA3515",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2509",
+          "target": "GE2134",
+          "benefit": 0.15
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3518",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2503",
+          "target": "MA3525",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3511",
+          "target": "MA3512",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA3525",
+          "target": "MA3514",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3526",
+          "target": "MA4542",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "MA3521",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3521",
+          "target": "MA4529",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2510",
+          "target": "MA4546",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2503",
+          "target": "EF3320",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA3515",
+          "target": "EF3320",
+          "benefit": 0.25
+        },
+        {
+          "source": "GE1202",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "GE2260",
+          "target": "EF3320",
+          "benefit": 0.1
+        },
+        {
+          "source": "CS1302",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS1302A",
+          "target": "CS2360",
+          "benefit": 0.2
+        },
+        {
+          "source": "CS2360",
+          "target": "CS2468",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS2468",
+          "target": "CS4335",
+          "benefit": 0.25
+        },
+        {
+          "source": "CS3334",
+          "target": "CS4335",
+          "benefit": 0.3
+        },
+        {
+          "source": "MA2509",
+          "target": "CS3334",
+          "benefit": 0.2
+        },
+        {
+          "source": "MA2503",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA2510",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3515",
+          "target": "CS4487",
+          "benefit": 0.25
+        },
+        {
+          "source": "MA3518",
+          "target": "CS4487",
+          "benefit": 0.2
+        },
+        {
+          "source": "GE2340",
+          "target": "CS4487",
+          "benefit": 0.1
+        }
+      ],
+      "penalty_weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "stream_reward_multiplier": 3.0
+    }
+  }
+]

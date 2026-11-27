@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "automated_parser_and_rule_tests": 42,
+  "suite": "test_ma_timetable test_ge_timetable test_banweb_collector test_ma_offline_import",
+  "log": "F:\\CODEX\\cityu-course-helper\\reports\\ma-timetable\\parser-tests.log",
+  "model_evaluation_separate": true
+}

@@ -1,0 +1,298 @@
+[
+  {
+    "profile_id": "NEW00016",
+    "label": "New fictional Year 1 five-course scenario",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 1,
+    "intake_cohort": "2026",
+    "target_term": "202609",
+    "maximum_courses": 6,
+    "transcript": [
+      {
+        "course_code": "MA1301",
+        "grade": "IP",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA2503",
+        "grade": "A",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA2508",
+        "grade": "W",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA2509",
+        "grade": "W",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA2510",
+        "grade": "A",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA3511",
+        "grade": "F",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA1503",
+        "grade": "W",
+        "study_year": 1
+      }
+    ],
+    "note": "Historical sequence and complete graduation eligibility are not audited.",
+    "minimum_courses": 5
+  },
+  {
+    "profile_id": "NEW00022",
+    "label": "New fictional Year 3 five-course scenario",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 3,
+    "intake_cohort": "2024",
+    "target_term": "202609",
+    "maximum_courses": 6,
+    "transcript": [
+      {
+        "course_code": "MA2503",
+        "grade": "A",
+        "study_year": 2
+      },
+      {
+        "course_code": "MA2508",
+        "grade": "C",
+        "study_year": 2
+      },
+      {
+        "course_code": "MA2509",
+        "grade": "F",
+        "study_year": 2
+      },
+      {
+        "course_code": "MA2510",
+        "grade": "B",
+        "study_year": 2
+      },
+      {
+        "course_code": "MA3526",
+        "grade": "A",
+        "study_year": 2
+      },
+      {
+        "course_code": "MA3511",
+        "grade": "C",
+        "study_year": 2
+      },
+      {
+        "course_code": "MA1503",
+        "grade": "IP",
+        "study_year": 2
+      },
+      {
+        "course_code": "MA1508",
+        "grade": "W",
+        "study_year": 2
+      },
+      {
+        "course_code": "GE1359",
+        "grade": "IP",
+        "study_year": 2
+      }
+    ],
+    "note": "Historical sequence and complete graduation eligibility are not audited.",
+    "minimum_courses": 5
+  },
+  {
+    "profile_id": "NEW00028",
+    "label": "New fictional Year 4 five-course scenario",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 4,
+    "intake_cohort": "2023",
+    "target_term": "202609",
+    "maximum_courses": 6,
+    "transcript": [
+      {
+        "course_code": "MA2503",
+        "grade": "B",
+        "study_year": 3
+      },
+      {
+        "course_code": "MA2508",
+        "grade": "C",
+        "study_year": 3
+      },
+      {
+        "course_code": "MA2510",
+        "grade": "C",
+        "study_year": 3
+      },
+      {
+        "course_code": "MA3526",
+        "grade": "W",
+        "study_year": 3
+      },
+      {
+        "course_code": "MA3511",
+        "grade": "B",
+        "study_year": 3
+      },
+      {
+        "course_code": "MA1503",
+        "grade": "B",
+        "study_year": 3
+      },
+      {
+        "course_code": "GE1359",
+        "grade": "W",
+        "study_year": 3
+      }
+    ],
+    "note": "Historical sequence and complete graduation eligibility are not audited.",
+    "minimum_courses": 5
+  },
+  {
+    "profile_id": "NEW00004",
+    "label": "New fictional Year 2 five-course scenario",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 2,
+    "intake_cohort": "2025",
+    "target_term": "202609",
+    "maximum_courses": 6,
+    "transcript": [
+      {
+        "course_code": "MA1301",
+        "grade": "W",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA2503",
+        "grade": "W",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA2508",
+        "grade": "C",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA2509",
+        "grade": "W",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA3511",
+        "grade": "IP",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA1503",
+        "grade": "IP",
+        "study_year": 1
+      }
+    ],
+    "note": "Historical sequence and complete graduation eligibility are not audited.",
+    "minimum_courses": 5
+  },
+  {
+    "profile_id": "NEW00005",
+    "label": "New fictional Year 1 five-course scenario",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 1,
+    "intake_cohort": "2026",
+    "target_term": "202609",
+    "maximum_courses": 6,
+    "transcript": [
+      {
+        "course_code": "MA1301",
+        "grade": "IP",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA2503",
+        "grade": "IP",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA2508",
+        "grade": "IP",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA2509",
+        "grade": "IP",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA1503",
+        "grade": "B",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA1508",
+        "grade": "C",
+        "study_year": 1
+      }
+    ],
+    "note": "Historical sequence and complete graduation eligibility are not audited.",
+    "minimum_courses": 5
+  },
+  {
+    "profile_id": "NEW00006",
+    "label": "New fictional Year 1 five-course scenario",
+    "synthetic": true,
+    "major": "Computing Mathematics",
+    "major_code": "CM",
+    "programme_code": "BSCSIU4",
+    "current_year": 1,
+    "intake_cohort": "2026",
+    "target_term": "202609",
+    "maximum_courses": 6,
+    "transcript": [
+      {
+        "course_code": "MA2508",
+        "grade": "B",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA3511",
+        "grade": "W",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA1503",
+        "grade": "B",
+        "study_year": 1
+      },
+      {
+        "course_code": "MA1508",
+        "grade": "IP",
+        "study_year": 1
+      },
+      {
+        "course_code": "GE1359",
+        "grade": "W",
+        "study_year": 1
+      }
+    ],
+    "note": "Historical sequence and complete graduation eligibility are not audited.",
+    "minimum_courses": 5
+  }
+]

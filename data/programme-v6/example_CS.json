@@ -1,0 +1,18 @@
+{
+  "programme": "CS",
+  "programme_code": "BSCCCU4",
+  "cohort": 2025,
+  "term": "202702",
+  "year": 2,
+  "completed_courses": [
+    "CS1302A",
+    "CS2115",
+    "CS2310",
+    "CS2312",
+    "CS2402",
+    "MA1503",
+    "MA1508",
+    "MA2185"
+  ],
+  "selected_stream": "Data Science"
+}

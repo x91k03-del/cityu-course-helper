@@ -1,0 +1,32 @@
+{
+  "programme": "CM",
+  "year": 2,
+  "cohort": 2025,
+  "completed_courses": [
+    "CS1302",
+    "GE2260",
+    "MA1300"
+  ],
+  "desired_stream": "Financial Mathematics",
+  "weights": {
+    "background_mismatch": 1.0,
+    "difficulty": 1.0,
+    "workload": 1.0
+  },
+  "transcript": [
+    {
+      "course_code": "CS1302",
+      "grade": "B"
+    },
+    {
+      "course_code": "GE2260",
+      "grade": "A-"
+    },
+    {
+      "course_code": "MA1300",
+      "grade": "B+"
+    }
+  ],
+  "semester": "A",
+  "natural_language_source": "F:\\CODEX\\cityu-course-helper\\reports\\natural-language-students-corrected\\latest-input\\input.txt"
+}

@@ -1,0 +1,4183 @@
+[
+  {
+    "id": "diagnostic:corrected:CM_finance_analysis",
+    "input_problem": {
+      "programme": "CM",
+      "selected_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 3.0,
+      "cm_ef_cs_prerequisite_waiver": true,
+      "prerequisite_bridge_bonus": {},
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "student_year": 3,
+      "term": "202609",
+      "required_courses": [],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3526"
+      ],
+      "credit_min": 0,
+      "credit_max": 18,
+      "course_min": 5,
+      "course_max": 6,
+      "options": [
+        {
+          "option_id": "MA3512:10430",
+          "course_code": "MA3512",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3512.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3518:10613",
+          "course_code": "MA3518",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3518.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3521:11880",
+          "course_code": "MA3521",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.15,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3521.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3525:11213:11219",
+          "course_code": "MA3525",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 780,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 840,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.507
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3525.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA4542:11513",
+          "course_code": "MA4542",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.78,
+            "workload": 0.558
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4542.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA4545:11882",
+          "course_code": "MA4545",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 720,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.7,
+            "workload": 0.558
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        }
+      ],
+      "data_mode": "hypothetical_component_bundles_over_saved_PDF_meetings",
+      "completed_GE_area_counts": {
+        "1": 0,
+        "2": 1,
+        "3": 0
+      },
+      "course_priority_weights": {
+        "MA3512": 3.0,
+        "MA3514": 1.0,
+        "MA3515": 1.0,
+        "MA3517": 1.0,
+        "MA3518": 3.0,
+        "MA3525": 1.0
+      },
+      "graduation_priority_weight": 3.0,
+      "priority_policy_note": "Advisory year-focused weights for unfinished common CM maths core; not an official graduation audit."
+    },
+    "raw_model_response": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA3512:10430\", \"MA3518:10613\", \"MA3521:11880\", \"MA3525:11213:11219\", \"MA4545:11882\"], \"course_count\": 5}",
+    "raw_request_origin": "post-training frozen evaluation; reused without another model call",
+    "result": {
+      "status": "feasible",
+      "model_output_accepted": true,
+      "proposal_validation": {
+        "accepted": true,
+        "violations": [],
+        "unknown_option_ids": [],
+        "course_count": 5,
+        "minimum_courses": 5
+      },
+      "proposal": {
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3521:11880",
+          "MA3525:11213:11219",
+          "MA4545:11882"
+        ],
+        "course_count": 5
+      },
+      "selected_options": [
+        "MA3512:10430",
+        "MA3518:10613",
+        "MA3521:11880",
+        "MA3525:11213:11219",
+        "MA4545:11882"
+      ],
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA3525",
+        "MA4545"
+      ],
+      "credits": 15,
+      "course_count": 5,
+      "policy_fallback_used": false,
+      "neural_output_repaired": false,
+      "planner": "Validated neural proposal; no optimality claim",
+      "selected_source_options": [
+        {
+          "option_id": "MA3512:10430",
+          "course_code": "MA3512",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3512.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3518:10613",
+          "course_code": "MA3518",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3518.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3521:11880",
+          "course_code": "MA3521",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.15,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3521.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3525:11213:11219",
+          "course_code": "MA3525",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 780,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 840,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.507
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3525.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA4545:11882",
+          "course_code": "MA4545",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 720,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.7,
+            "workload": 0.558
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "diagnostic:corrected:CM_finance_no_analysis",
+    "input_problem": {
+      "programme": "CM",
+      "selected_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 3.0,
+      "cm_ef_cs_prerequisite_waiver": true,
+      "prerequisite_bridge_bonus": {},
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "student_year": 3,
+      "term": "202609",
+      "required_courses": [],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511"
+      ],
+      "credit_min": 0,
+      "credit_max": 18,
+      "course_min": 5,
+      "course_max": 6,
+      "options": [
+        {
+          "option_id": "MA3512:10430",
+          "course_code": "MA3512",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3512.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3518:10613",
+          "course_code": "MA3518",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3518.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3521:11880",
+          "course_code": "MA3521",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.15,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3521.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3525:11213:11219",
+          "course_code": "MA3525",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 780,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 840,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.507
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3525.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA4545:11882",
+          "course_code": "MA4545",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 720,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.7,
+            "workload": 0.558
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        }
+      ],
+      "data_mode": "hypothetical_component_bundles_over_saved_PDF_meetings",
+      "completed_GE_area_counts": {
+        "1": 0,
+        "2": 1,
+        "3": 0
+      },
+      "course_priority_weights": {
+        "MA3512": 3.0,
+        "MA3514": 1.0,
+        "MA3515": 1.0,
+        "MA3517": 1.0,
+        "MA3518": 3.0,
+        "MA3525": 1.0
+      },
+      "graduation_priority_weight": 3.0,
+      "priority_policy_note": "Advisory year-focused weights for unfinished common CM maths core; not an official graduation audit."
+    },
+    "raw_model_response": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA3512:10430\", \"MA3518:10613\", \"MA3521:11880\", \"MA3525:11213:11219\", \"MA4545:11882\"], \"course_count\": 5}",
+    "raw_request_origin": "post-training frozen evaluation; reused without another model call",
+    "result": {
+      "status": "feasible",
+      "model_output_accepted": true,
+      "proposal_validation": {
+        "accepted": true,
+        "violations": [],
+        "unknown_option_ids": [],
+        "course_count": 5,
+        "minimum_courses": 5
+      },
+      "proposal": {
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3521:11880",
+          "MA3525:11213:11219",
+          "MA4545:11882"
+        ],
+        "course_count": 5
+      },
+      "selected_options": [
+        "MA3512:10430",
+        "MA3518:10613",
+        "MA3521:11880",
+        "MA3525:11213:11219",
+        "MA4545:11882"
+      ],
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA3525",
+        "MA4545"
+      ],
+      "credits": 15,
+      "course_count": 5,
+      "policy_fallback_used": false,
+      "neural_output_repaired": false,
+      "planner": "Validated neural proposal; no optimality claim",
+      "selected_source_options": [
+        {
+          "option_id": "MA3512:10430",
+          "course_code": "MA3512",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3512.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3518:10613",
+          "course_code": "MA3518",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3518.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3521:11880",
+          "course_code": "MA3521",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.15,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3521.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3525:11213:11219",
+          "course_code": "MA3525",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 780,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 840,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.507
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3525.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA4545:11882",
+          "course_code": "MA4545",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 720,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.7,
+            "workload": 0.558
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "diagnostic:corrected:CM_enriched",
+    "input_problem": {
+      "programme": "CM",
+      "selected_stream": "Enriched Mathematics",
+      "stream_reward_multiplier": 3.0,
+      "cm_ef_cs_prerequisite_waiver": true,
+      "prerequisite_bridge_bonus": {},
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "student_year": 3,
+      "term": "202609",
+      "required_courses": [],
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3526"
+      ],
+      "credit_min": 0,
+      "credit_max": 18,
+      "course_min": 5,
+      "course_max": 6,
+      "options": [
+        {
+          "option_id": "MA3512:10430",
+          "course_code": "MA3512",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3512.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3518:10613",
+          "course_code": "MA3518",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3518.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3521:11880",
+          "course_code": "MA3521",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.15,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3521.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3525:11213:11219",
+          "course_code": "MA3525",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 780,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 840,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.507
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3525.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA4542:11513",
+          "course_code": "MA4542",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.78,
+            "workload": 0.558
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4542.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA4545:11882",
+          "course_code": "MA4545",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 720,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.7,
+            "workload": 0.558
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        }
+      ],
+      "data_mode": "hypothetical_component_bundles_over_saved_PDF_meetings",
+      "completed_GE_area_counts": {
+        "1": 0,
+        "2": 1,
+        "3": 0
+      },
+      "course_priority_weights": {
+        "MA3512": 3.0,
+        "MA3514": 1.0,
+        "MA3515": 1.0,
+        "MA3517": 1.0,
+        "MA3518": 3.0,
+        "MA3525": 1.0
+      },
+      "graduation_priority_weight": 3.0,
+      "priority_policy_note": "Advisory year-focused weights for unfinished common CM maths core; not an official graduation audit."
+    },
+    "raw_model_response": "{\"status\": \"feasible\", \"selected_option_ids\": [\"MA3512:10430\", \"MA3518:10613\", \"MA3521:11880\", \"MA3525:11213:11219\", \"MA4545:11882\"], \"course_count\": 5}",
+    "raw_request_origin": "post-training frozen evaluation; reused without another model call",
+    "result": {
+      "status": "feasible",
+      "model_output_accepted": true,
+      "proposal_validation": {
+        "accepted": true,
+        "violations": [],
+        "unknown_option_ids": [],
+        "course_count": 5,
+        "minimum_courses": 5
+      },
+      "proposal": {
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3521:11880",
+          "MA3525:11213:11219",
+          "MA4545:11882"
+        ],
+        "course_count": 5
+      },
+      "selected_options": [
+        "MA3512:10430",
+        "MA3518:10613",
+        "MA3521:11880",
+        "MA3525:11213:11219",
+        "MA4545:11882"
+      ],
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA3525",
+        "MA4545"
+      ],
+      "credits": 15,
+      "course_count": 5,
+      "policy_fallback_used": false,
+      "neural_output_repaired": false,
+      "planner": "Validated neural proposal; no optimality claim",
+      "selected_source_options": [
+        {
+          "option_id": "MA3512:10430",
+          "course_code": "MA3512",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3512.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3518:10613",
+          "course_code": "MA3518",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3518.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3521:11880",
+          "course_code": "MA3521",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.15,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3521.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA3525:11213:11219",
+          "course_code": "MA3525",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 780,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 840,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.507
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3525.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "MA4545:11882",
+          "course_code": "MA4545",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 720,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.7,
+            "workload": 0.558
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "diagnostic:corrected:CS_AI",
+    "input_problem": {
+      "programme": "CS",
+      "selected_stream": "Artificial Intelligence",
+      "stream_reward_multiplier": 3.0,
+      "cm_ef_cs_prerequisite_waiver": true,
+      "prerequisite_bridge_bonus": {},
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "student_year": 3,
+      "term": "202609",
+      "required_courses": [],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2340",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "credit_min": 0,
+      "credit_max": 18,
+      "course_min": 5,
+      "course_max": 6,
+      "options": [
+        {
+          "option_id": "CS2613:13743",
+          "course_code": "CS2613",
+          "credits": 1,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [
+            "CS2611"
+          ],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 1020,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.42,
+            "workload": 0.408
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs2613.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3356:11724:11726",
+          "course_code": "CS3356",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [
+            "IS4500",
+            "IS4532"
+          ],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 1110,
+              "end_minute": 1280,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 1290,
+              "end_minute": 1340,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3356.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3383:14958:14957",
+          "course_code": "CS3383",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 720,
+              "end_minute": 770,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 5,
+              "start_minute": 600,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.378
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3383.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3383:14958:15302",
+          "course_code": "CS3383",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 720,
+              "end_minute": 770,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 5,
+              "start_minute": 780,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.378
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3383.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3383:14958:15303",
+          "course_code": "CS3383",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 720,
+              "end_minute": 770,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 5,
+              "start_minute": 1140,
+              "end_minute": 1250,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.378
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3383.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3402:10816:10817",
+          "course_code": "CS3402",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 3,
+              "start_minute": 840,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3402.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3402:10816:11728",
+          "course_code": "CS3402",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 3,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3402.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3402:10816:15173",
+          "course_code": "CS3402",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 4,
+              "start_minute": 780,
+              "end_minute": 830,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3402.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3483:10145:10025",
+          "course_code": "CS3483",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 1110,
+              "end_minute": 1280,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 1290,
+              "end_minute": 1340,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3483.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3483:10145:13161",
+          "course_code": "CS3483",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 1110,
+              "end_minute": 1280,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3483.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        }
+      ],
+      "data_mode": "hypothetical_component_bundles_over_saved_PDF_meetings",
+      "completed_GE_area_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 1
+      },
+      "course_priority_weights": {
+        "CS4335": 3.0
+      },
+      "graduation_priority_weight": 3.0,
+      "priority_policy_note": "Year focus derived from supplied 2025 CS suggested schedule; 2026/27 major-page differences need cohort confirmation."
+    },
+    "raw_model_response": "{\"status\": \"infeasible\", \"selected_option_ids\": [], \"course_count\": 0}",
+    "raw_request_origin": "post-training frozen evaluation; reused without another model call",
+    "result": {
+      "planner": "Markov decision subset search; no MILP",
+      "search_exact": true,
+      "states_by_course_count": [
+        1,
+        10,
+        32,
+        38,
+        15
+      ],
+      "course_min": 5,
+      "course_max": 6,
+      "rejected_options": {},
+      "eligible_course_count": 5,
+      "status": "infeasible",
+      "reason": "hard_constraints_infeasible",
+      "message": "No legal semester found. The minimum course load was not relaxed.",
+      "model_output_accepted": true,
+      "verified_model_infeasibility": true,
+      "policy_fallback_used": false,
+      "neural_output_repaired": false,
+      "proposal": {
+        "status": "infeasible",
+        "selected_option_ids": [],
+        "course_count": 0
+      },
+      "proposal_validation": {
+        "accepted": true,
+        "violations": []
+      },
+      "selected_source_options": []
+    }
+  },
+  {
+    "id": "diagnostic:corrected:CS_AI_no_CS3342",
+    "input_problem": {
+      "programme": "CS",
+      "selected_stream": "Artificial Intelligence",
+      "stream_reward_multiplier": 3.0,
+      "cm_ef_cs_prerequisite_waiver": true,
+      "prerequisite_bridge_bonus": {
+        "CS3342": 3.0
+      },
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "student_year": 3,
+      "term": "202609",
+      "required_courses": [],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2340",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "credit_min": 0,
+      "credit_max": 18,
+      "course_min": 5,
+      "course_max": 6,
+      "options": [
+        {
+          "option_id": "CS2613:13743",
+          "course_code": "CS2613",
+          "credits": 1,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [
+            "CS2611"
+          ],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 1020,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.42,
+            "workload": 0.408
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs2613.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3402:10816:10817",
+          "course_code": "CS3402",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 3,
+              "start_minute": 840,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3402.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3402:10816:11728",
+          "course_code": "CS3402",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 3,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3402.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3402:10816:15173",
+          "course_code": "CS3402",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 4,
+              "start_minute": 780,
+              "end_minute": 830,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3402.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3483:10145:10025",
+          "course_code": "CS3483",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 1110,
+              "end_minute": 1280,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 1290,
+              "end_minute": 1340,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3483.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3483:10145:13161",
+          "course_code": "CS3483",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 1110,
+              "end_minute": 1280,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3483.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        }
+      ],
+      "data_mode": "hypothetical_component_bundles_over_saved_PDF_meetings",
+      "completed_GE_area_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 1
+      },
+      "course_priority_weights": {
+        "CS4335": 3.0
+      },
+      "graduation_priority_weight": 3.0,
+      "priority_policy_note": "Year focus derived from supplied 2025 CS suggested schedule; 2026/27 major-page differences need cohort confirmation."
+    },
+    "raw_model_response": "{\"status\": \"infeasible\", \"selected_option_ids\": [], \"course_count\": 0}",
+    "raw_request_origin": "post-training frozen evaluation; reused without another model call",
+    "result": {
+      "planner": "Markov decision subset search; no MILP",
+      "search_exact": true,
+      "states_by_course_count": [
+        1,
+        6,
+        5
+      ],
+      "course_min": 5,
+      "course_max": 6,
+      "rejected_options": {},
+      "eligible_course_count": 3,
+      "status": "infeasible",
+      "reason": "hard_constraints_infeasible",
+      "message": "No legal semester found. The minimum course load was not relaxed.",
+      "model_output_accepted": true,
+      "verified_model_infeasibility": true,
+      "policy_fallback_used": false,
+      "neural_output_repaired": false,
+      "proposal": {
+        "status": "infeasible",
+        "selected_option_ids": [],
+        "course_count": 0
+      },
+      "proposal_validation": {
+        "accepted": true,
+        "violations": []
+      },
+      "selected_source_options": []
+    }
+  },
+  {
+    "id": "diagnostic:corrected:CS_data_science",
+    "input_problem": {
+      "programme": "CS",
+      "selected_stream": "Data Science",
+      "stream_reward_multiplier": 3.0,
+      "cm_ef_cs_prerequisite_waiver": true,
+      "prerequisite_bridge_bonus": {},
+      "weights": {
+        "background_mismatch": 1.0,
+        "difficulty": 1.0,
+        "workload": 1.0
+      },
+      "student_year": 3,
+      "term": "202609",
+      "required_courses": [],
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2340",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "credit_min": 0,
+      "credit_max": 18,
+      "course_min": 5,
+      "course_max": 6,
+      "options": [
+        {
+          "option_id": "CS2613:13743",
+          "course_code": "CS2613",
+          "credits": 1,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [
+            "CS2611"
+          ],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 1020,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.42,
+            "workload": 0.408
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs2613.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3356:11724:11726",
+          "course_code": "CS3356",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [
+            "IS4500",
+            "IS4532"
+          ],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 1110,
+              "end_minute": 1280,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 1290,
+              "end_minute": 1340,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3356.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3383:14958:14957",
+          "course_code": "CS3383",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 720,
+              "end_minute": 770,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 5,
+              "start_minute": 600,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.378
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3383.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3383:14958:15302",
+          "course_code": "CS3383",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 720,
+              "end_minute": 770,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 5,
+              "start_minute": 780,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.378
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3383.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3383:14958:15303",
+          "course_code": "CS3383",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 720,
+              "end_minute": 770,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 5,
+              "start_minute": 1140,
+              "end_minute": 1250,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.378
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3383.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3402:10816:10817",
+          "course_code": "CS3402",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 3,
+              "start_minute": 840,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3402.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3402:10816:11728",
+          "course_code": "CS3402",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 3,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3402.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3402:10816:15173",
+          "course_code": "CS3402",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 4,
+              "start_minute": 780,
+              "end_minute": 830,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3402.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3483:10145:10025",
+          "course_code": "CS3483",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 1110,
+              "end_minute": 1280,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 1290,
+              "end_minute": 1340,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3483.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        },
+        {
+          "option_id": "CS3483:10145:13161",
+          "course_code": "CS3483",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 1110,
+              "end_minute": 1280,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs3483.pdf",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true
+        }
+      ],
+      "data_mode": "hypothetical_component_bundles_over_saved_PDF_meetings",
+      "completed_GE_area_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 1
+      },
+      "course_priority_weights": {
+        "CS4335": 3.0
+      },
+      "graduation_priority_weight": 3.0,
+      "priority_policy_note": "Year focus derived from supplied 2025 CS suggested schedule; 2026/27 major-page differences need cohort confirmation."
+    },
+    "raw_model_response": "{\"status\": \"infeasible\", \"selected_option_ids\": [], \"course_count\": 0}",
+    "raw_request_origin": "post-training frozen evaluation; reused without another model call",
+    "result": {
+      "planner": "Markov decision subset search; no MILP",
+      "search_exact": true,
+      "states_by_course_count": [
+        1,
+        10,
+        32,
+        38,
+        15
+      ],
+      "course_min": 5,
+      "course_max": 6,
+      "rejected_options": {},
+      "eligible_course_count": 5,
+      "status": "infeasible",
+      "reason": "hard_constraints_infeasible",
+      "message": "No legal semester found. The minimum course load was not relaxed.",
+      "model_output_accepted": true,
+      "verified_model_infeasibility": true,
+      "policy_fallback_used": false,
+      "neural_output_repaired": false,
+      "proposal": {
+        "status": "infeasible",
+        "selected_option_ids": [],
+        "course_count": 0
+      },
+      "proposal_validation": {
+        "accepted": true,
+        "violations": []
+      },
+      "selected_source_options": []
+    }
+  }
+]

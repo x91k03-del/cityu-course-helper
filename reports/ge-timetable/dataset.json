@@ -1,0 +1,8 @@
+{
+  "examples": {
+    "train": 654,
+    "validation": 32,
+    "test": 32
+  },
+  "split_design": "All section facts taught. Validation/test use different question wording. No claim of unseen-fact generalization. Includes BSCM replay."
+}

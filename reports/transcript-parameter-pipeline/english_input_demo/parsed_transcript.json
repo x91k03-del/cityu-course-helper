@@ -1,0 +1,20 @@
+{
+  "programme": "CM",
+  "rows": [
+    {
+      "course_code": "CS1302",
+      "grade": "B"
+    },
+    {
+      "course_code": "MA1300",
+      "grade": "B+"
+    }
+  ],
+  "completed_courses": [
+    "CS1302",
+    "MA1300"
+  ],
+  "in_progress_courses": [],
+  "confirmed_earned_degree_credits": null,
+  "unresolved_degree_credit_rows": []
+}

@@ -1,0 +1,566 @@
+CASE FIN_PASS_NL1
+INPUT
+I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-. How well does my completed study prepare me for EF3320?
+RAW OUTPUT
+Based on your current transcript and the typical prerequisites for **EF3320: Financial Management** at the undergraduate level, your preparation is **moderate** but **not yet sufficient** to confidently prepare for the course. Here's a breakdown:
+
+---
+
+### 📚 **Course Overview: EF3320 (Financial Management)**
+- **Typical prerequisites**: A basic understanding of **financial mathematics**, **accounting**, and **economic principles**.
+- **Topics covered**:
+  - Time value of money
+  - Capital budgeting
+  - Risk and return
+  - Financial statements
+  - Cost of capital
+  - Working capital management
+  - Dividend policy
+- **Mathematical focus**: Moderate (some algebra, basic calculus, and financial formulas).
+
+---
+
+### 📚 **Your Current Background**
+- **CS1302 (Programming Fundamentals)**: **B**
+  - Not directly relevant to financial management.
+- **MA1300 (Calculus)**: **B+**
+  - Good foundation for financial formulas (e.g., present value, compound interest).
+- **GE2260 (Introduction to Finance)**: **A-**
+  - **Strong positive sign**! This is the most relevant course to EF3320.
+  - You’ve already covered:
+    - Financial statements
+    - Time value of money
+    - Risk and return
+    - Capital budgeting
+    - Working capital
+  - You may be **well-prepared** for the **core concepts** of EF3320.
+
+---
+
+### ✅ **Strengths**
+- **GE2260 (A-)**: This is the **most direct prerequisite** for EF3320.
+- **MA1300 (B+)**: Sufficient for the mathematical components of the course.
+- **CS1302 (B)**: Not a direct prerequisite, but shows you can handle technical material.
+
+---
+
+### ⚠️ **Areas to Improve**
+- **Depth of financial knowledge**: While you have a strong foundation, EF3320 is more advanced and applied. You may need to:
+  - Review **capital budgeting techniques** (e.g., NPV, IRR)
+  - Practice **financial statement analysis**
+  - Understand **cost of capital** and **dividend policy**
+- **Mathematical fluency**: While your calculus is sufficient, you may need to:
+  - Practice **financial
+HIT TOKEN LIMIT: True
+
+CASE FIN_PASS_NL2
+INPUT
+I'm in my second year of Computing Mathematics at CityUHK. I passed GE2260 Introduction to Finance with A-, CS1302 with B and MA1300 with B+. Based on these results, what preparation do I have for EF3320?
+RAW OUTPUT
+Based on your current academic record and the courses you've taken, here's an assessment of your preparation for **EF3320: Financial Management**:
+
+---
+
+### 📚 **Courses You've Completed:**
+- **GE2260: Introduction to Finance** (A-)  
+  ✅ This is **directly relevant** to EF3320. You've already covered foundational topics like:
+  - Time value of money
+  - Risk and return
+  - Capital budgeting
+  - Financial statements
+  - Cost of capital
+  - Working capital management
+
+- **CS1302: Data Structures and Algorithms** (B)  
+  ⚠️ Not directly relevant to EF3320, but **useful for understanding financial software or data analysis tools** that may be used in the course.
+
+- **MA1300: Calculus and Linear Algebra** (B+)  
+  ✅ **Very relevant**. Financial modeling and quantitative analysis in EF3320 will require:
+  - Calculus (e.g., derivatives, optimization)
+  - Linear algebra (e.g., matrix operations, systems of equations)
+  - Probability and statistics (covered in MA2300 or later, but may be assumed)
+
+---
+
+### 📈 **What EF3320 Covers:**
+EF3320 is a **core finance course** for business and economics students. It typically includes:
+- **Capital budgeting** (NPV, IRR, payback period)
+- **Cost of capital** (WACC, CAPM)
+- **Working capital management**
+- **Financial statement analysis**
+- **Risk and return** (modern portfolio theory, beta)
+- **Dividend policy**
+- **Corporate finance principles**
+
+---
+
+### 🧭 **Your Preparation:**
+| Topic | Your Preparation |
+|------|------------------|
+| Time value of money | ✅ Strong (GE2260) |
+| Financial statements | ✅ Strong (GE2260) |
+| Capital budgeting | ✅ Strong (GE2260) |
+| Cost of capital | ✅ Strong (GE2260) |
+| Risk and return | ✅ Strong (GE2260) |
+| Financial modeling | ⚠️ Moderate (depends on depth of MA1300) |
+| Optimization | ⚠️ Moderate (MA1300) |
+| Probability/statistics | �
+HIT TOKEN LIMIT: True
+
+CASE FIN_FAIL_NL1
+INPUT
+I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: F. How well does my completed study prepare me for EF3320?
+RAW OUTPUT
+Based on your current transcript and the information you've provided, here's an assessment of how well your completed studies prepare you for **EF3320: Financial Management**:
+
+---
+
+### **Your Completed Courses:**
+1. **CS1302: Introduction to Programming** – **B**
+2. **MA1300: Calculus and Linear Algebra** – **B+**
+3. **GE2260: Introduction to Finance** – **F**
+
+---
+
+### **What EF3320 Typically Covers:**
+EF3320 is a **core finance course** for business and economics students. It usually includes topics such as:
+
+- Time value of money
+- Financial statement analysis
+- Capital budgeting
+- Risk and return
+- Cost of capital
+- Working capital management
+- Financial markets and instruments
+
+It is **not a math-heavy course**, but it **does require a basic understanding of financial concepts** and **some mathematical skills** (e.g., using formulas for present value, future value, and NPV).
+
+---
+
+### **Your Preparation:**
+
+#### ✅ **Strengths:**
+- **MA1300 (B+):** This is a strong foundation for understanding the **mathematical tools** used in finance, such as formulas for present value, future value, and NPV. You’ll be able to handle the **quantitative aspects** of the course.
+- **CS1302 (B):** While not directly relevant to finance, programming skills can be helpful for **data analysis** or using financial software in later courses.
+
+#### ❌ **Weakness:**
+- **GE2260 (F):** This is a **major concern**. The course is a prerequisite for EF3320 in most programs, and a **fail** indicates that you may not have the **basic financial concepts** needed to succeed in EF3320.
+
+---
+
+### **Recommendations:**
+
+1. **Review Financial Concepts:**
+   - Even if you didn’t pass GE2260, you can **self-study** the core topics (e.g., time value of money, financial statements, and risk/return).
+   - Use free resources like:
+     - Khan Academy (Financial Literacy)
+     - Investopedia (Financial Concepts)
+     - YouTube tutorials on financial management
+
+2. **Talk to Your Academic Advisor:**
+   - Confirm whether **EF3320 is a prerequisite** for your
+HIT TOKEN LIMIT: True
+
+CASE FIN_FAIL_NL2
+INPUT
+I'm in my second year of Computing Mathematics at CityUHK. I failed GE2260 Introduction to Finance, but passed CS1302 with B and MA1300 with B+. Based on these results, what preparation do I have for EF3320?
+RAW OUTPUT
+Based on your current academic record, here's a breakdown of your preparation for **EF3320: Financial Management**:
+
+---
+
+### 📚 **Your Background:**
+- **CS1302 (Programming)**: **B**  
+  - This is a strong foundation for understanding computational tools in finance (e.g., Excel, Python, or financial modeling).
+- **MA1300 (Mathematics)**: **B+**  
+  - This is **very relevant** for financial mathematics, as EF3320 involves concepts like present value, future value, and risk-return trade-offs.
+- **GE2260 (Introduction to Finance)**: **Failed**  
+  - This is **not ideal**, as EF3320 is a core finance course that builds on the material from GE2260.
+
+---
+
+### 📈 **What You Need to Know for EF3320:**
+EF3320 typically covers:
+- Time value of money
+- Risk and return
+- Capital budgeting
+- Cost of capital
+- Financial statement analysis
+- Working capital management
+- Capital structure
+
+These topics are **not just theoretical** — they require **mathematical understanding** and **practical application**.
+
+---
+
+### 🧠 **Your Strengths:**
+- **Mathematical foundation (MA1300)**: You can handle the formulas and calculations required for time value of money, NPV, IRR, etc.
+- **Programming skills (CS1302)**: You’ll be able to use tools like Excel or Python for financial modeling, which is a **major advantage**.
+
+---
+
+### ⚠️ **Your Weakness:**
+- **No credit in GE2260**: You’ll need to **start from scratch** in finance concepts. This could be a **challenge**, especially if the course assumes prior knowledge.
+
+---
+
+### 📌 **Recommendations:**
+1. **Review Financial Concepts**:
+   - Start with **time value of money** (PV, FV, annuities, etc.).
+   - Learn about **risk and return** (expected return, standard deviation, Sharpe ratio).
+   - Understand **capital budgeting** (NPV, IRR, payback period).
+   - Review **financial statements** (income statement, balance sheet, cash flow).
+
+2. **Use Resources**:
+   - **Textbook**: *Fundamentals of Financial Management* by Eugene
+HIT TOKEN LIMIT: True
+
+CASE AI_GE_NL1
+INPUT
+I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B. How well does my completed study prepare me for CS4487?
+RAW OUTPUT
+CS4487 is a **senior-level course** in **Artificial Intelligence**, and it is likely to cover advanced topics such as **machine learning algorithms**, **neural networks**, **deep learning**, **natural language processing**, and **computer vision**. It may also involve **practical programming assignments** using frameworks like **TensorFlow** or **PyTorch**.
+
+### Your Completed Courses:
+1. **CS1302A: Data Structures and Data Management (A)**  
+   - This is a **strong foundation** for understanding how data is stored, processed, and manipulated — essential for AI applications.
+
+2. **CS2310: Data Structures and Algorithms (B+)**  
+   - A solid understanding of **algorithms** is important for AI, especially when implementing or analyzing complex models.
+
+3. **GE2340: Artificial Intelligence - Past, Present, and Future (B)**  
+   - This course likely introduced the **history**, **key concepts**, and **applications** of AI. While it's a **general overview**, it may not have covered **technical depth** or **hands-on programming**.
+
+---
+
+### How Well Are You Prepared for CS4487?
+
+| Skill | Your Level | Required for CS4487 |
+|------|------------|---------------------|
+| **Programming in Python** | Likely (common in CS courses) | **Essential** (used for AI/ML frameworks) |
+| **Data Structures and Algorithms** | B+ | **Very important** (for efficient model implementation) |
+| **Mathematical Background** | Not specified | **Critical** (linear algebra, calculus, probability) |
+| **AI/ML Fundamentals** | B | **Some coverage**, but likely **not sufficient** |
+| **Hands-on Experience** | Not specified | **Highly recommended** (projects, labs, or self-study) |
+
+---
+
+### Recommendations to Better Prepare for CS4487:
+
+1. **Strengthen Your Math Background**:
+   - Focus on **linear algebra**, **calculus**, and **probability**.
+   - Consider taking a **math elective** or self-studying these topics.
+
+2. **Learn Python for AI/ML**:
+   - If you haven’t already, learn **Python** and **libraries** like **NumPy**, **Pandas**, **Matplotlib**, **Scikit-learn**, **TensorFlow**, or **PyTorch**.
+
+3. **Take
+HIT TOKEN LIMIT: True
+
+CASE AI_GE_NL2
+INPUT
+I'm studying Computer Science in Year 2 at CityUHK. I have passed the AI GE GE2340 with B, CS2310 with B+ and CS1302A with A. What preparation from these courses would help me take CS4487?
+RAW OUTPUT
+Great to hear about your courses! CS4487 (Artificial Intelligence) is a senior-level course that builds on foundational knowledge in AI, machine learning, and related areas. Let's break down how your current courses prepare you and what you might need to strengthen.
+
+---
+
+### **Your Current Courses and Their Relevance to CS4487:**
+
+#### **1. AI GE GE2340 (Grade: B)**
+- **Relevance:** This is the most directly relevant course.
+  - You've already been introduced to **core AI concepts** like search algorithms, knowledge representation, logic, and basic machine learning.
+  - You may have covered **problem-solving techniques**, **heuristics**, and **rule-based systems**.
+  - However, a **B grade** suggests you might need to **deepen your understanding** of these topics, especially in **practical implementation** and **advanced algorithms**.
+
+#### **2. CS2310 (Grade: B+)**
+- **Relevance:** This is likely a **data structures and algorithms** course.
+  - Strong knowledge of **data structures** (e.g., trees, graphs) and **algorithms** (e.g., sorting, searching) is **crucial** for AI, especially for **search and optimization algorithms**.
+  - You may have also learned about **time and space complexity**, which is important for evaluating AI algorithms.
+  - A **B+** is good, but if you're not confident in **advanced data structures** (e.g., heaps, graphs, or priority queues), you might want to review them.
+
+#### **3. CS1302A (Grade: A)**
+- **Relevance:** This is likely a **programming course** (e.g., Python, Java, or C++).
+  - A strong **programming foundation** is **essential** for AI, as you'll be implementing algorithms and working with libraries like **NumPy, TensorFlow, or PyTorch**.
+  - Your **A grade** suggests you're comfortable with **coding**, which is a big plus.
+
+---
+
+### **What You Need to Prepare for CS4487:**
+
+#### **1. Reinforce Core AI Concepts**
+- **Review search algorithms** (e.g., A*, Dijkstra, BFS, DFS) and **heuristics**.
+- **Understand logic and knowledge representation** (e.g., propositional and first-order logic).
+- **Familiarize yourself with
+HIT TOKEN LIMIT: True
+
+CASE AI_MAX_NL1
+INPUT
+I am a Year 3 Computing Mathematics student at City University of Hong Kong. My transcript is MA2503: B+, MA2510: P, MA3515: A-, and GE2340: B. How well does my completed study prepare me for CS4487?
+RAW OUTPUT
+Based on your completed coursework and the typical prerequisites for **CS4487** (which I assume is a **Data Structures and Data Management** course), let's evaluate how well your background prepares you for this course.
+
+---
+
+### 📚 Your Completed Courses:
+
+| Course Code | Title | Grade | Notes |
+|------------|-------|-------|-------|
+| **MA2503** | Linear Algebra | **B+** | Essential for understanding vector spaces, matrices, and transformations. |
+| **MA2510** | Discrete Mathematics | **P** | **Not completed**. This is a **major issue** for CS4487. |
+| **MA3515** | Numerical Analysis | **A-** | Not directly relevant to data structures, but shows strong math skills. |
+| **GE2340** | Introduction to Computing | **B** | Good foundation, but not sufficient for advanced data structures. |
+
+---
+
+### 📌 Prerequisites for CS4487:
+
+Most **CS4487** courses require:
+
+- **Discrete Mathematics** (MA2510 or equivalent)
+- **Data Structures** (often a prerequisite or corequisite)
+- **Programming proficiency** (especially in a language like Python or Java)
+
+---
+
+### 🔍 Your Current Standing:
+
+- **MA2510 (Discrete Mathematics)**: **Not completed**. This is a **critical gap**.
+- **Data Structures**: Not mentioned in your transcript. This is **also a major gap**.
+- **Programming**: You have a **B in GE2340**, which is an intro course, so it's not enough for advanced data structures.
+
+---
+
+### 📈 What You Need to Do:
+
+1. **Complete MA2510 (Discrete Mathematics)**: This is **essential** for understanding logic, sets, recurrence relations, and graph theory — all of which are used in data structures and algorithms.
+2. **Take a Data Structures Course**: If not already taken, this is **required** for CS4487.
+3. **Strengthen Programming Skills**: If you haven't taken a more advanced programming course, consider taking one (e.g., **CS2000: Data Structures and Data Management** or a similar course).
+
+---
+
+### 📈 Final Assessment:
+
+| Category | Status | Notes |
+|---------|--------|-------|
+| **Discrete Mathematics** | ❌ Not
+HIT TOKEN LIMIT: True
+
+CASE AI_MAX_NL2
+INPUT
+I'm a third-year Computing Mathematics student at CityUHK. My passed courses are GE2340 (B), MA3515 (A-), MA2510 (P) and MA2503 (B+). What preparation from these courses would help me take CS4487?
+RAW OUTPUT
+Great to hear about your background! CS4487 is likely a **computer graphics** course, which typically covers topics like **3D geometry, transformations, rendering, lighting, and shading**. Since you're a **Computing Mathematics** student, your math background is a strong asset, especially in areas like **linear algebra, calculus, and geometry**.
+
+Let’s break down what you’ve studied and how it relates to CS4487:
+
+---
+
+### ✅ **Courses You’ve Completed:**
+
+1. **GE2340 (B)** – General Education course. Not directly relevant, but shows you're a well-rounded student.
+2. **MA3515 (A-)** – Likely **Advanced Linear Algebra** or **Numerical Analysis**. This is **very relevant** to computer graphics, especially for:
+   - **Transformations** (rotation, scaling, translation)
+   - **Matrix operations** (used in 3D transformations)
+   - **Eigenvalues and eigenvectors** (used in some rendering algorithms)
+   - **Quaternions** (for 3D rotations)
+3. **MA2510 (P)** – Possibly **Multivariable Calculus** or **Vector Calculus**. This is **very relevant** for:
+   - **Lighting models** (e.g., Phong, Lambert)
+   - **Surface normals and curvature**
+   - **Integration over surfaces**
+4. **MA2503 (B+)** – Likely **Linear Algebra** or **Differential Equations**. This is **also relevant**, especially for:
+   - **Matrix operations**
+   - **Parametric surfaces**
+   - **Animation and motion modeling**
+
+---
+
+### 🔍 **What You Need to Know for CS4487:**
+
+Here’s a typical breakdown of what a computer graphics course covers:
+
+#### 1. **3D Geometry and Transformations**
+   - Vectors, points, lines, planes
+   - 3D coordinate systems
+   - Translation, rotation, scaling
+   - Homogeneous coordinates
+   - **Matrix operations** (especially 4x4 matrices)
+   - **Quaternions** (optional but useful)
+
+#### 2. **Lighting and Shading**
+   - Lambert’s law
+   - Phong reflection model
+   - Diffuse, specular, ambient lighting
+   - **Vector calculus** (dot and cross products)
+
+#### 3. **Rendering Techniques**
+   - Raster
+HIT TOKEN LIMIT: True
+
+CASE FIN_PASS_TRANSCRIPT_ONLY
+INPUT
+I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-.
+RAW OUTPUT
+Based on your current academic record and the information you've provided, here's a breakdown of your situation and some guidance for the future:
+
+---
+
+### **Current Standing:**
+- **CS1302 (Programming Fundamentals): B**  
+  This is a foundational course for a Computing Mathematics program. A B is acceptable, but if you're aiming for higher honors or research opportunities, you may want to improve this in future semesters.
+
+- **MA1300 (Mathematics for Computing): B+**  
+  This is a strong start, especially for a program that combines computing and mathematics. A B+ is good, but if you're planning to take more advanced math courses (e.g., linear algebra, discrete math, or analysis), you'll need to maintain or improve this performance.
+
+- **GE2260 (Introduction to Finance): A-**  
+  This is a general elective, but it shows you're capable of performing well in non-computing courses. It's a good sign for your overall academic adaptability.
+
+---
+
+### **Next Steps and Recommendations:**
+
+#### 1. **Review Your Program Requirements**
+Check the **curriculum** for your Computing Mathematics program to see:
+- What advanced math courses are required (e.g., linear algebra, probability, numerical methods).
+- What computing courses you still need to complete (e.g., data structures, algorithms, software engineering).
+- Whether there are any **core electives** or **specialization tracks** you can choose from.
+
+#### 2. **Improve Your GPA**
+- Aim for **A- or A** in your next semesters to raise your GPA.
+- Focus on **core courses** (math and computing) to strengthen your profile for internships, research, or graduate school.
+
+#### 3. **Consider Advanced Math Courses**
+If you're interested in **theoretical computing** or **applied mathematics**, take courses like:
+- **Linear Algebra**
+- **Discrete Mathematics**
+- **Probability and Statistics**
+- **Numerical Methods**
+
+These will be essential for advanced topics in machine learning, cryptography, or scientific computing.
+
+#### 4. **Explore Computing Electives**
+If you're interested in **software development**, consider:
+- **Data Structures and Algorithms**
+- **Operating Systems**
+- **Database Systems**
+- **Web Development or Mobile App Development**
+
+These will give you a more well-rounded skill set.
+
+#### 5. **Look for Research or Project Opportunities**
+- Join a **research group** or **
+HIT TOKEN LIMIT: True
+
+CASE FIN_PASS_PLAN
+INPUT
+I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-. What courses should I consider next semester and why?
+RAW OUTPUT
+Based on your current academic standing and the courses you've completed, here's a suggested plan for your next semester, along with the reasoning for each recommendation:
+
+---
+
+### **1. Core Computing Mathematics Courses**
+Since you're a Year 2 student, it's important to continue building a strong foundation in both **computing** and **mathematics**.
+
+#### **CS2301: Data Structures and Data Management**
+- **Why?** This is a core course for a Computing Mathematics program. It builds on your CS1302 (Programming Fundamentals) and introduces essential data structures (arrays, linked lists, trees, graphs) and algorithms.
+- **Prerequisites:** CS1302 (already completed)
+- **Outcome:** You'll be better prepared for advanced courses like Algorithms, Software Engineering, and AI.
+
+#### **MA2301: Linear Algebra**
+- **Why?** Linear algebra is a fundamental tool in computing mathematics, especially in areas like machine learning, computer graphics, and numerical methods.
+- **Prerequisites:** MA1300 (already completed)
+- **Outcome:** This course will provide you with the mathematical tools needed for advanced topics in both computing and mathematics.
+
+---
+
+### **2. Elective or Optional Courses**
+Depending on your interests and future goals, you may want to consider one or more of the following:
+
+#### **CS2302: Algorithms and Data Structures**
+- **Why?** This is a more advanced version of CS2301 and covers algorithm design, complexity analysis, and advanced data structures.
+- **Prerequisites:** CS2301
+- **Outcome:** This course is highly recommended if you're planning to pursue a career in software engineering, AI, or theoretical computer science.
+
+#### **MA2302: Calculus II**
+- **Why?** If you haven't taken this yet, it's a core math course that builds on your MA1300 (Calculus I) and is essential for understanding more advanced mathematical concepts.
+- **Prerequisites:** MA1300
+- **Outcome:** This course is important for fields like physics, engineering, and advanced mathematics.
+
+#### **CS3301: Database Systems**
+- **Why?** This is a key course for understanding how data is stored, retrieved, and managed in modern computing systems.
+- **Prerequisites:** CS2301
+- **Outcome:** This course is highly relevant for careers in software development, data science, and information systems
+HIT TOKEN LIMIT: True
+
+CASE AI_GE_TRANSCRIPT_ONLY
+INPUT
+I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B.
+RAW OUTPUT
+Based on your current academic record, here's a breakdown of your performance and some guidance for the future:
+
+### Current Standing:
+- **CS1302A (Data Structures and Data Management): A** – Strong performance in a foundational course.
+- **CS2310 (Operating Systems): B+** – Good, but there's room for improvement.
+- **GE2340 (Artificial Intelligence - Past, Present, and Future): B** – Satisfactory, but not the best.
+
+### Areas to Improve:
+1. **Consistency in Performance**: You have a mix of A, B+, and B grades. Aim for more consistent high performance, especially in core CS courses.
+2. **Operating Systems (CS2310)**: This is a crucial course for a CS major. Consider retaking it or seeking additional resources to improve your grade.
+3. **Artificial Intelligence (GE2340)**: This is a general elective, but if you're interested in AI, consider taking a more advanced AI course to deepen your knowledge.
+
+### Future Planning:
+- **Core Courses**: Focus on advanced CS courses (e.g., Algorithms, Databases, Networks) to strengthen your profile.
+- **Electives**: Choose electives that align with your interests (e.g., AI, Machine Learning, Cybersecurity).
+- **Research or Projects**: If you're interested in AI, consider joining a research group or working on a project related to AI or machine learning.
+- **Internships or Co-op**: Look for opportunities to gain hands-on experience, especially in areas like software development, AI, or data science.
+
+### Next Steps:
+1. **Review Your Transcript**: Identify which courses you want to improve and plan accordingly.
+2. **Talk to an Academic Advisor**: They can help you map out a path to graduation and suggest electives or advanced courses.
+3. **Explore AI Opportunities**: If AI is your interest, look into advanced AI courses or research labs at City University of Hong Kong.
+
+Let me know if you'd like help with course planning or preparing for advanced AI courses!
+HIT TOKEN LIMIT: False
+
+CASE AI_GE_PLAN
+INPUT
+I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B. What courses should I consider next semester and why?
+RAW OUTPUT
+Based on your current standing and the courses you've completed, here's a suggested plan for your next semester at City University of Hong Kong (CityU), along with the reasoning for each recommendation:
+
+---
+
+### **1. CS3301: Data Structures and Data Management (A)**
+- **Why?** This is a core course for a Computer Science degree and builds on your CS1302A (Programming Fundamentals) and CS2310 (Data Structures). It's essential for advanced programming and algorithm design.
+- **Prerequisites:** CS1302A and CS2310. You've completed both, so you're ready.
+- **Outcome:** Strong foundation for further courses like Algorithms, Software Engineering, and Database Systems.
+
+---
+
+### **2. CS3402: Operating Systems (A)**
+- **Why?** Operating Systems is a fundamental area in computer science. It's required for many advanced topics and is highly relevant to systems programming, cloud computing, and distributed systems.
+- **Prerequisites:** CS1302A. You're ready.
+- **Outcome:** Understanding of process management, memory, file systems, and concurrency.
+
+---
+
+### **3. CS4401: Software Engineering (A)**
+- **Why?** This course is ideal for building practical skills in software development, project management, and teamwork. It's highly relevant to your career and further studies.
+- **Prerequisites:** CS1302A and CS2310. You're ready.
+- **Outcome:** Hands-on experience with software development life cycles, version control, and collaborative tools.
+
+---
+
+### **4. CS4403: Artificial Intelligence (A)**
+- **Why?** You've taken GE2340 (AI: Past, Present, and Future), which is a general introduction. This course will give you a deeper understanding of AI algorithms, machine learning, and applications.
+- **Prerequisites:** CS1302A and CS2310. You're ready.
+- **Outcome:** Strong foundation in AI and machine learning, which is in high demand in the job market.
+
+---
+
+### **5. CS4404: Computer Networks (A)**
+- **Why?** This course is essential for understanding how data is transmitted across the internet and is relevant to cloud computing, distributed systems, and cybersecurity.
+- **Prerequisites:** CS1302A. You're ready.
+- **Outcome:**
+HIT TOKEN LIMIT: True

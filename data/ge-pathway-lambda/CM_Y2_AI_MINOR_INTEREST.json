@@ -1,0 +1,32 @@
+{
+  "profile_id": "CM_Y2_AI_MINOR_INTEREST",
+  "programme": "CM",
+  "programme_code": "BSCSIU4",
+  "cohort": 2025,
+  "year": 2,
+  "term": "202702",
+  "completed_courses": [
+    "MA1300",
+    "MA1301",
+    "CS1302",
+    "CS2360",
+    "MA2503",
+    "MA2508",
+    "MA2509",
+    "GE1401",
+    "GE1501",
+    "GE1601",
+    "GE2401",
+    "GE2340"
+  ],
+  "GE_history": [
+    {
+      "course": "GE2340",
+      "title": "Artificial Intelligence - Past, Present, and Future",
+      "year": 1,
+      "semester": "A",
+      "grade": "B"
+    }
+  ],
+  "CGPA": 3.3
+}

@@ -1,0 +1,30 @@
+{
+  "source_reference": {
+    "profile_id": "NEW00003",
+    "status": "infeasible",
+    "minimum_courses": 5,
+    "completed_courses": [
+      "MA1503",
+      "MA1508",
+      "MA3511",
+      "MA3526"
+    ],
+    "selected_options": [],
+    "needs_confirmation": true,
+    "feasibility_verified": false
+  },
+  "course_count": 0,
+  "credits": 0,
+  "policy_weights": {
+    "MA2508": 1.0,
+    "MA2509": 1.0,
+    "MA2510": 1.0,
+    "MA3512": 3.0,
+    "MA3514": 1.0,
+    "MA3515": 1.0,
+    "MA3517": 1.0,
+    "MA3518": 3.0,
+    "MA3525": 1.0
+  },
+  "experimental_only": true
+}

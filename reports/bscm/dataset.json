@@ -1,0 +1,12 @@
+{
+  "source": "user-supplied handbook",
+  "source_sha256": "39731fc1294622cf024da35f4c6b5664720555634ac72c2d9e3f97c30f7e3625",
+  "facts": 29,
+  "core_course_records": 17,
+  "examples": {
+    "train": 356,
+    "validation": 63,
+    "test": 51
+  },
+  "evaluation_scope": "Paraphrase recall of learned handbook facts and new profiles; not unseen-fact evaluation. Old course score splits preserved. Numeric scores remain synthetic. ASI inconsistency explicitly flagged."
+}

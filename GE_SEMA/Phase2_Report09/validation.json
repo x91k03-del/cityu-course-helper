@@ -1,0 +1,13 @@
+{
+  "pages": 6,
+  "template_section_order_preserved": true,
+  "software_checks_passed": 111,
+  "visual_pages_reviewed": 6,
+  "overfull_boxes": 0,
+  "unresolved_references": 0,
+  "matched_cases": 3,
+  "GPT_valid": 3,
+  "GPT_matching_maximum": 3,
+  "earlier_report_hashes_unchanged": true,
+  "pdf_sha256": "d13cbc91c7a879fade57ee34cb4f3385b00091853478e1ff87f4ae2fed6da5ba"
+}

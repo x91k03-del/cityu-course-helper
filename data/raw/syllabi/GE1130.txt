@@ -1,0 +1,215 @@
+1         GE1130: Introduction to Digital Media
+GE1130: INTRODUCTION TO DIGITAL MEDIA
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Introduction to Digital Media 
+Subject Code
+GE - Gateway Education 
+Course Number
+1130 
+Academic Unit
+School of Creative Media (SM) 
+College/School
+School of Creative Media (SM) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+GE Area (Primary)
+Area 1 - Arts and Humanities 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+SM3611 New Media for Installation, Events and Performance 
+Additional Information
+GE1130 is opened for all students except SCM students. 
+2         GE1130: Introduction to Digital Media
+Part II Course Details
+Abstract
+In the age of digital revolution, everyone is focusing on digital media and technology, such as internet, video and audio
+streaming, web 2.0, 3G computer networks, media art , e-learning, mobile media, digital marketing, human-computer
+interface (HCI) …etc.
+As a new generation of learners, we should have a good understanding on digital media, principles of user interface design,
+production planning, production skill, prototype design and development of interactive media.
+This course covers practical learning in video production and UXUI prototype design/multimedia project with various types
+of human computer interaction techniques (sensors, motion capture, augmented reality) .
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Understand the theories and principles of user
+interface design, interactive installation and
+physical computing;
+x
+2 Understand the interactive technology for
+creative, theatre, dance, musicals, exhibition,
+marketing, entertainment, performance and
+social purposes
+x
+3 To demonstrate professional competence
+in areas such as digital image, video
+production……etc
+x
+4 To learn and apply the knowledge of UXUI
+Design
+x
+5 Associate, combine and integrate knowledge
+from diﬀerent disciplines (e.g. mathematics,
+sciences, literature etc) into course assignments
+x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Demonstration lectures:
+introduce the digital
+media types
+1, 2, 3, 4
+2 Visit Exhibition Visit to various media art
+exhibition.
+2
+3         GE1130: Introduction to Digital Media
+3 Group Project Learning video
+production, such as
+storyboard development,
+camera shots/
+movement, visual eﬀect,
+editing…..etc.
+3, 5
+4 Group Project Develop a conceptual/
+theoretical framework on
+interaction design (e.g.
+Concept Map, Persona, UI
+Prototyping, Wireframe
+Design...etc.).
+1, 2, 4
+5 Group Project Prototype design,
+develop concepts and
+visual simulations for
+interactive application.
+4, 5
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Video Production 3, 5 25 - No
+2 Project Proposal/
+Prototype Design
+2, 3, 4, 5 35 - No
+3 Self-Reﬂection
+Report/Exhibition
+Review
+1, 2, 5 30 - No
+4 Class Participation 1, 2, 5 10 - No
+Continuous Assessment (%)
+100 
+Examination (%)
+0 
+Assessment Rubrics (AR)
+Assessment Task
+1. Video Production 
+Criterion
+Story Development (Originality, Character, Scene, Creativity) Visual Design (Style, Composition, Color, Image, Video &
+Sound) Video Eﬀect (e.g. Stop Motion, Time Lapse, Transition Eﬀect) Camera Shots/Movement 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+4         GE1130: Introduction to Digital Media
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+2. Project Proposal/Prototype Design/Self-Reﬂection Report/Exhibition Review 
+Criterion
+Strong evidence of understanding and implementation digital media; evidence of demonstrating excellent synthesis of all
+the digital media types, media art, media production and internet technology; demonstrates excellent ability in using the
+computer software to create digital contents 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Additional Information for AR
+All A+/A/A- grade assignment should comply with the highest performance of Discovery-oriented learning.
+Part III Other Information
+Keyword Syllabus
+• Digital Media
+• Video Production
+• Storyboard Development
+• Camera Shot/Movement
+• Prototype Design
+• Interactive Media
+• Human-Computer Interaction (HCI)
+Reading List
+Compulsory Readings
+ Title
+1 R. Klanten, S. Ehmann, L. Feireiss (2011) A Touch of Code: Interactive Installations and Experiences
+2 Ben Shneiderman, Catherine Plaisant, Maxine Cohen, Steven Jacobs (2009) Designing the User Interface: Strategies
+for Eﬀective Human-Computer Interaction (5th Edition)
+Additional Readings
+5         GE1130: Introduction to Digital Media
+ Title
+1 Noah Wardrip-Fruin and Nick Montfort (editors) The New Media Reader (MIT Press, 2003)
+2 Nigel Chapman and Jenny Chapman Digital Multimedia (2009)
+3 Douglas E. Comer The Internet Book: Everything You Need to Know About Computer Networking and How the
+Internet Works (4th Edition) (2006)
+4 Jason Beaird - The Principles of Beautiful Web Design, 2nd Edition (Dec 5, 2010)
+5 Henry Jenkins (Author) Convergence Culture: Where Old and New Media Collide (2008)
+6 Learning Processing, Second Edition: A Beginner's Guide to Programming Images, Animation, and Interaction (The
+Morgan Kaufmann Series in Computer Graphics) 2nd Edition by Daniel Shiﬀman (2015)
+7 Jeﬀ Johnson PhD Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Rules
+(2010)
+8 John Maeda The Laws of Simplicity (Simplicity: Design, Technology, Business, Life) ( 2006)
+9 Creative Applications Network http://www.creativeapplications.net/
+Annex (for GE courses only)
+A. Please specify the Gateway Education Programme Intended Learning Outcomes (PILOs) that the course is aligned to
+and relate them to the CILOs stated in Part II, Section 2 of this form:
+Please indicate which CILO(s) is/are related to this PILO, if any (can be more than one CILOs in each PILO)
+PILO 1: Demonstrate the capacity for self-directed learning
+1, 2, 3 
+PILO 2: Explain the basic methodologies and techniques of inquiry of the arts and humanities, social sciences,
+business, and science and technology
+2, 5 
+PILO 4: Interpret information and numerical data
+3, 5 
+PILO 5: Produce structured, well-organised and ﬂuent text
+3 
+PILO 7: Demonstrate an ability to work eﬀectively in a team
+4, 5 
+PILO 10: Demonstrate the attitude and/or ability to accomplish discovery and/or innovation
+3, 5 
+B. Please select an assessment task for collecting evidence of student achievement for quality assurance purposes.
+Please retain at least one sample of student achievement across a period of three years.
+Selected Assessment Task
+Project proposal and prototype design for facilitating communications, capturing decisions, and stimulating innovation. 

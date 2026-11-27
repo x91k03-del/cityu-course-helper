@@ -1,0 +1,1672 @@
+[
+  {
+    "model": "before",
+    "id": "SYN:test:4",
+    "state": {
+      "year": 1,
+      "term": 1,
+      "earned_credits": 12,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:8",
+    "state": {
+      "year": 1,
+      "term": 1,
+      "earned_credits": 12,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 2,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [
+        "MA2508"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.25, \"MA3515\": 0.2, \"GE2134\": 0.15}}",
+    "passed": false,
+    "GE_cap_passed": true,
+    "preparation_map_passed": false,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:12",
+    "state": {
+      "year": 1,
+      "term": 1,
+      "earned_credits": 12,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 0,
+        "2": 2,
+        "3": 2
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [
+        "MA2508"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.25, \"MA3515\": 0.2, \"GE2134\": 0.15}}",
+    "passed": false,
+    "GE_cap_passed": true,
+    "preparation_map_passed": false,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:16",
+    "state": {
+      "year": 1,
+      "term": 1,
+      "earned_credits": 15,
+      "distribution_GE_count": 1,
+      "GE_area_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:20",
+    "state": {
+      "year": 1,
+      "term": 1,
+      "earned_credits": 22,
+      "distribution_GE_count": 0,
+      "GE_area_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [
+        "MA2508"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.25, \"MA3515\": 0.2, \"GE2134\": 0.15}}",
+    "passed": false,
+    "GE_cap_passed": true,
+    "preparation_map_passed": false,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "BOUNDARY_GE3",
+    "state": {
+      "year": 2,
+      "term": 3,
+      "earned_credits": 60,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "BOUNDARY_GE4",
+    "state": {
+      "year": 2,
+      "term": 3,
+      "earned_credits": 63,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:1",
+    "state": {
+      "year": 2,
+      "term": 4,
+      "earned_credits": 51,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 2,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:5",
+    "state": {
+      "year": 2,
+      "term": 4,
+      "earned_credits": 34,
+      "distribution_GE_count": 0,
+      "GE_area_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:9",
+    "state": {
+      "year": 2,
+      "term": 4,
+      "earned_credits": 55,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [
+        "MA2508",
+        "MA2509"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.15,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.25, \"MA3515\": 0.2, \"GE2134\": 0.15}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:2",
+    "state": {
+      "year": 3,
+      "term": 5,
+      "earned_credits": 84,
+      "distribution_GE_count": 2,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 0,
+        "3": 0
+      },
+      "elective_math_credits": 9,
+      "passed_ids": [
+        "MA2508"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.25, \"MA3515\": 0.2, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:6",
+    "state": {
+      "year": 3,
+      "term": 5,
+      "earned_credits": 89,
+      "distribution_GE_count": 5,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 2,
+        "3": 1
+      },
+      "elective_math_credits": 19,
+      "passed_ids": [
+        "MA2509"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.15,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.25, \"MA3515\": 0.2, \"GE2134\": 0.15}}",
+    "passed": false,
+    "GE_cap_passed": true,
+    "preparation_map_passed": false,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:10",
+    "state": {
+      "year": 3,
+      "term": 5,
+      "earned_credits": 59,
+      "distribution_GE_count": 1,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 0,
+        "3": 0
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:14",
+    "state": {
+      "year": 3,
+      "term": 5,
+      "earned_credits": 75,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 3,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:18",
+    "state": {
+      "year": 3,
+      "term": 5,
+      "earned_credits": 83,
+      "distribution_GE_count": 5,
+      "GE_area_counts": {
+        "1": 3,
+        "2": 2,
+        "3": 0
+      },
+      "elective_math_credits": 9,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "BOUNDARY_MATH19",
+    "state": {
+      "year": 4,
+      "term": 7,
+      "earned_credits": 121,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 19,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.25,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.25, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "BOUNDARY_MATH20",
+    "state": {
+      "year": 4,
+      "term": 7,
+      "earned_credits": 122,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 20,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 0.0,
+      "total_credit_progress_bonus": 0.0,
+      "year4_overload_weight": 0.25,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 0.0, \"total_credit_progress_bonus\": 0.0, \"year4_overload_weight\": 0.25, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:3",
+    "state": {
+      "year": 4,
+      "term": 8,
+      "earned_credits": 117,
+      "distribution_GE_count": 5,
+      "GE_area_counts": {
+        "1": 0,
+        "2": 3,
+        "3": 2
+      },
+      "elective_math_credits": 20,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 0.0,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.25,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 0.0, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.25, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:7",
+    "state": {
+      "year": 4,
+      "term": 8,
+      "earned_credits": 97,
+      "distribution_GE_count": 2,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 0
+      },
+      "elective_math_credits": 3,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.25,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.25, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.0, \"MA3515\": 0.0, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "before",
+    "id": "SYN:test:11",
+    "state": {
+      "year": 4,
+      "term": 8,
+      "earned_credits": 97,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 0,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [
+        "MA2508"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.25,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.25, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"MA3512\": 0.25, \"MA3515\": 0.2, \"GE2134\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:4",
+    "state": {
+      "year": 1,
+      "term": 1,
+      "earned_credits": 12,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:8",
+    "state": {
+      "year": 1,
+      "term": 1,
+      "earned_credits": 12,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 2,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [
+        "MA2508"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.25, \"MA3515\": 0.2}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:12",
+    "state": {
+      "year": 1,
+      "term": 1,
+      "earned_credits": 12,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 0,
+        "2": 2,
+        "3": 2
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [
+        "MA2508"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.25, \"MA3515\": 0.2}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:16",
+    "state": {
+      "year": 1,
+      "term": 1,
+      "earned_credits": 15,
+      "distribution_GE_count": 1,
+      "GE_area_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:20",
+    "state": {
+      "year": 1,
+      "term": 1,
+      "earned_credits": 22,
+      "distribution_GE_count": 0,
+      "GE_area_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [
+        "MA2508"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.25, \"MA3515\": 0.2}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "BOUNDARY_GE3",
+    "state": {
+      "year": 2,
+      "term": 3,
+      "earned_credits": 60,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "BOUNDARY_GE4",
+    "state": {
+      "year": 2,
+      "term": 3,
+      "earned_credits": 63,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:1",
+    "state": {
+      "year": 2,
+      "term": 4,
+      "earned_credits": 51,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 2,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:5",
+    "state": {
+      "year": 2,
+      "term": 4,
+      "earned_credits": 34,
+      "distribution_GE_count": 0,
+      "GE_area_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:9",
+    "state": {
+      "year": 2,
+      "term": 4,
+      "earned_credits": 55,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [
+        "MA2508",
+        "MA2509"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.15,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.15, \"MA3512\": 0.25, \"MA3515\": 0.2}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:2",
+    "state": {
+      "year": 3,
+      "term": 5,
+      "earned_credits": 84,
+      "distribution_GE_count": 2,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 0,
+        "3": 0
+      },
+      "elective_math_credits": 9,
+      "passed_ids": [
+        "MA2508"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.25, \"MA3515\": 0.2}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:6",
+    "state": {
+      "year": 3,
+      "term": 5,
+      "earned_credits": 89,
+      "distribution_GE_count": 5,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 2,
+        "3": 1
+      },
+      "elective_math_credits": 19,
+      "passed_ids": [
+        "MA2509"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.15,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.15, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:10",
+    "state": {
+      "year": 3,
+      "term": 5,
+      "earned_credits": 59,
+      "distribution_GE_count": 1,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 0,
+        "3": 0
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:14",
+    "state": {
+      "year": 3,
+      "term": 5,
+      "earned_credits": 75,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 3,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:18",
+    "state": {
+      "year": 3,
+      "term": 5,
+      "earned_credits": 83,
+      "distribution_GE_count": 5,
+      "GE_area_counts": {
+        "1": 3,
+        "2": 2,
+        "3": 0
+      },
+      "elective_math_credits": 9,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.0,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.0, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "BOUNDARY_MATH19",
+    "state": {
+      "year": 4,
+      "term": 7,
+      "earned_credits": 121,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 19,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.25,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.25, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "BOUNDARY_MATH20",
+    "state": {
+      "year": 4,
+      "term": 7,
+      "earned_credits": 122,
+      "distribution_GE_count": 4,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 1,
+        "3": 1
+      },
+      "elective_math_credits": 20,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 0.0,
+      "total_credit_progress_bonus": 0.0,
+      "year4_overload_weight": 0.25,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 0.0, \"total_credit_progress_bonus\": 0.0, \"year4_overload_weight\": 0.25, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:3",
+    "state": {
+      "year": 4,
+      "term": 8,
+      "earned_credits": 117,
+      "distribution_GE_count": 5,
+      "GE_area_counts": {
+        "1": 0,
+        "2": 3,
+        "3": 2
+      },
+      "elective_math_credits": 20,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 0.0,
+      "math_credit_progress_bonus": 0.0,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.25,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 0.0, \"math_credit_progress_bonus\": 0.0, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.25, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:7",
+    "state": {
+      "year": 4,
+      "term": 8,
+      "earned_credits": 97,
+      "distribution_GE_count": 2,
+      "GE_area_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 0
+      },
+      "elective_math_credits": 3,
+      "passed_ids": [],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.25,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.0,
+        "MA3515": 0.0
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.25, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.0, \"MA3515\": 0.0}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  },
+  {
+    "model": "after",
+    "id": "SYN:test:11",
+    "state": {
+      "year": 4,
+      "term": 8,
+      "earned_credits": 97,
+      "distribution_GE_count": 3,
+      "GE_area_counts": {
+        "1": 2,
+        "2": 0,
+        "3": 1
+      },
+      "elective_math_credits": 0,
+      "passed_ids": [
+        "MA2508"
+      ],
+      "synthetic_numeric_boundary_state": true,
+      "official_graduation_verified": false
+    },
+    "expected": {
+      "base_course_profit": 3.0,
+      "covered_GE_area_multiplier": 0.1,
+      "new_GE_area_bonus": 5.0,
+      "GE_count_progress_bonus": 2.0,
+      "math_credit_progress_bonus": 1.5,
+      "total_credit_progress_bonus": 0.05,
+      "year4_overload_weight": 0.25,
+      "overload_threshold_credits": 12,
+      "discount": 0.98,
+      "maximum_distribution_GE_per_semester": 1,
+      "preparation_bonus_by_course": {
+        "GE2134": 0.0,
+        "MA3512": 0.25,
+        "MA3515": 0.2
+      }
+    },
+    "raw_model_response": "{\"base_course_profit\": 3.0, \"covered_GE_area_multiplier\": 0.1, \"new_GE_area_bonus\": 5.0, \"GE_count_progress_bonus\": 2.0, \"math_credit_progress_bonus\": 1.5, \"total_credit_progress_bonus\": 0.05, \"year4_overload_weight\": 0.25, \"overload_threshold_credits\": 12, \"discount\": 0.98, \"maximum_distribution_GE_per_semester\": 1, \"preparation_bonus_by_course\": {\"GE2134\": 0.0, \"MA3512\": 0.25, \"MA3515\": 0.2}}",
+    "passed": true,
+    "GE_cap_passed": true,
+    "preparation_map_passed": true,
+    "original_nine_parameters_passed": true
+  }
+]

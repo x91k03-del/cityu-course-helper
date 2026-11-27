@@ -1,0 +1,25 @@
+{
+  "authority": "user-provided CM planning rule",
+  "default_CM_EF_CS_prerequisite_waiver": true,
+  "university_waiver_approval_verified": false,
+  "additional_missing_prerequisite_penalty": 0,
+  "still_enforced": [
+    "programme membership",
+    "exclusions",
+    "section restrictions",
+    "timetable",
+    "credit and GE limits",
+    "non-EF/CS and non-CM prerequisites"
+  ],
+  "finance_scores": {
+    "none": 0.45,
+    "introductory": 0.15,
+    "advanced": 0.05
+  },
+  "files": {
+    "cm_background_policy.py": "9fd6abeb6a6b77289043b2d54c6094f5e5b93ec24f4dc76304d33b4e6939f1c3",
+    "data/cm-finance-background/train.jsonl": "4b696aab189480dcd2896e46b6a760a20c37856465a157e9f70793e7bc053392",
+    "data/cm-finance-background/validation.jsonl": "f4b5b2713bf2804ae2c8eded3ba22fbf761d125249e7c56a150496db9489e51c",
+    "data/cm-finance-background/test.jsonl": "04e8a29af6259061d9086404da4c654a4bf7d5757683f9feb2d62ce733997aff"
+  }
+}

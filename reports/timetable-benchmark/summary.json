@@ -1,0 +1,16 @@
+{
+  "qwen": {
+    "valid_feasible_plans": 0,
+    "feasible_cases": 4,
+    "optimal_feasible_plans": 0,
+    "correct_infeasible": 0,
+    "infeasible_cases": 2
+  },
+  "gpt": {
+    "valid_feasible_plans": 4,
+    "feasible_cases": 4,
+    "optimal_feasible_plans": 4,
+    "correct_infeasible": 2,
+    "infeasible_cases": 2
+  }
+}

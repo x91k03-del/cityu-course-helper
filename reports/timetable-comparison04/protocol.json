@@ -1,0 +1,11 @@
+{
+  "total_profiles": 14,
+  "new_profiles": 8,
+  "prior_results_reused_unchanged": 6,
+  "selection_for_report": "Show only examples whose actual model outputs differ; retain all cases and raw outputs in evidence.",
+  "same_per_profile_input": true,
+  "GPT_model": "gpt-6.1-sol, model-specific agent, eight-case batch",
+  "Qwen": "current fine-tuned adapter, greedy/non-thinking, separate per-case prompts",
+  "limitations": "Fictional profiles and shared source-conditioned options; assumed component linkage/weeks. Not a representative performance estimate.",
+  "cases_sha256": "fa9308794df36a81f94c09c19ed125a50381307da1cea06ac3a9fc81b6706d81"
+}

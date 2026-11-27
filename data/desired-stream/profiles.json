@@ -1,0 +1,1338 @@
+[
+  {
+    "profile_id": "CM_01",
+    "programme": "CM",
+    "desired_stream": "Enriched Mathematics",
+    "stream_reward_multiplier": 2.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "MA2503",
+      "MA2508",
+      "MA2509",
+      "MA2507",
+      "MA2510",
+      "MA3511",
+      "MA3526",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "CS2360",
+      "CS2468"
+    ],
+    "completed_courses": [
+      "CS1302",
+      "CS2360",
+      "CS2468",
+      "GE1113",
+      "GE2260",
+      "MA1300",
+      "MA1301",
+      "MA2503",
+      "MA2507",
+      "MA2508",
+      "MA2509",
+      "MA2510",
+      "MA3511",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "MA3526"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1113",
+        "title": "Visual Storytelling and Cultural Thinking",
+        "grade": "A",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE2260",
+        "title": "Introduction to Finance",
+        "grade": "B",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CM_02",
+    "programme": "CM",
+    "desired_stream": "Financial Mathematics",
+    "stream_reward_multiplier": 3.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "MA2503",
+      "MA2508",
+      "MA2509",
+      "MA2507",
+      "MA2510",
+      "MA3511",
+      "MA3526",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "CS2360",
+      "CS2468"
+    ],
+    "completed_courses": [
+      "CS1302",
+      "CS2360",
+      "CS2468",
+      "GE1113",
+      "MA1300",
+      "MA1301",
+      "MA2503",
+      "MA2507",
+      "MA2508",
+      "MA2509",
+      "MA2510",
+      "MA3511",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "MA3526"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1113",
+        "title": "Visual Storytelling and Cultural Thinking",
+        "grade": "B+",
+        "year": 1,
+        "semester": "A"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CM_03",
+    "programme": "CM",
+    "desired_stream": "Enriched Mathematics",
+    "stream_reward_multiplier": 3.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "MA2503",
+      "MA2508",
+      "MA2509",
+      "MA2507",
+      "MA2510",
+      "MA3511",
+      "MA3526",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "CS2360",
+      "CS2468"
+    ],
+    "completed_courses": [
+      "CS1302",
+      "CS2360",
+      "CS2468",
+      "GE1113",
+      "GE2340",
+      "MA1300",
+      "MA1301",
+      "MA2503",
+      "MA2507",
+      "MA2508",
+      "MA2509",
+      "MA2510",
+      "MA3511",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "MA3526"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1113",
+        "title": "Visual Storytelling and Cultural Thinking",
+        "grade": "B",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE2340",
+        "title": "Artificial Intelligence - Past, Present, and Future",
+        "grade": "C+",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CM_04",
+    "programme": "CM",
+    "desired_stream": "Financial Mathematics",
+    "stream_reward_multiplier": 2.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "MA2503",
+      "MA2508",
+      "MA2509",
+      "MA2507",
+      "MA2510",
+      "MA3511",
+      "MA3526",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "CS2360",
+      "CS2468"
+    ],
+    "completed_courses": [
+      "CS1302",
+      "CS2360",
+      "CS2468",
+      "GE1105",
+      "GE2134",
+      "MA1300",
+      "MA1301",
+      "MA2503",
+      "MA2507",
+      "MA2508",
+      "MA2509",
+      "MA2510",
+      "MA3511",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "MA3526"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE2134",
+        "title": "Critical and Creative Thinking",
+        "grade": "B+",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE1105",
+        "title": "Chinese Music Appreciation",
+        "grade": "C+",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CM_05",
+    "programme": "CM",
+    "desired_stream": "Enriched Mathematics",
+    "stream_reward_multiplier": 2.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "MA2503",
+      "MA2508",
+      "MA2509",
+      "MA2507",
+      "MA2510",
+      "MA3511",
+      "MA3526",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "CS2360",
+      "CS2468"
+    ],
+    "completed_courses": [
+      "CS1302",
+      "CS2360",
+      "CS2468",
+      "GE1105",
+      "GE1202",
+      "MA1300",
+      "MA1301",
+      "MA2503",
+      "MA2507",
+      "MA2508",
+      "MA2509",
+      "MA2510",
+      "MA3511",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "MA3526"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1105",
+        "title": "Chinese Music Appreciation",
+        "grade": "B+",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE1202",
+        "title": "Managing Your Personal Finance",
+        "grade": "A",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CM_06",
+    "programme": "CM",
+    "desired_stream": "Financial Mathematics",
+    "stream_reward_multiplier": 2.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "MA2503",
+      "MA2508",
+      "MA2509",
+      "MA2507",
+      "MA2510",
+      "MA3511",
+      "MA3526",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "CS2360",
+      "CS2468"
+    ],
+    "completed_courses": [
+      "CS1302",
+      "CS2360",
+      "CS2468",
+      "GE1105",
+      "GE1113",
+      "GE1202",
+      "MA1300",
+      "MA1301",
+      "MA2503",
+      "MA2507",
+      "MA2508",
+      "MA2509",
+      "MA2510",
+      "MA3511",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "MA3526"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1113",
+        "title": "Visual Storytelling and Cultural Thinking",
+        "grade": "B",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE1202",
+        "title": "Managing Your Personal Finance",
+        "grade": "C+",
+        "year": 1,
+        "semester": "B"
+      },
+      {
+        "course_code": "GE1105",
+        "title": "Chinese Music Appreciation",
+        "grade": "A",
+        "year": 2,
+        "semester": "A"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CM_07",
+    "programme": "CM",
+    "desired_stream": "Enriched Mathematics",
+    "stream_reward_multiplier": 2.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "MA2503",
+      "MA2508",
+      "MA2509",
+      "MA2507",
+      "MA2510",
+      "MA3511",
+      "MA3526",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "CS2360",
+      "CS2468"
+    ],
+    "completed_courses": [
+      "CS1302",
+      "CS2360",
+      "CS2468",
+      "GE2340",
+      "MA1300",
+      "MA1301",
+      "MA2503",
+      "MA2507",
+      "MA2508",
+      "MA2509",
+      "MA2510",
+      "MA3511",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "MA3526"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE2340",
+        "title": "Artificial Intelligence - Past, Present, and Future",
+        "grade": "B+",
+        "year": 1,
+        "semester": "A"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CM_08",
+    "programme": "CM",
+    "desired_stream": "Financial Mathematics",
+    "stream_reward_multiplier": 3.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "MA2503",
+      "MA2508",
+      "MA2509",
+      "MA2507",
+      "MA2510",
+      "MA3511",
+      "MA3526",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "CS2360",
+      "CS2468"
+    ],
+    "completed_courses": [
+      "CS1302",
+      "CS2360",
+      "CS2468",
+      "GE2134",
+      "GE2260",
+      "MA1300",
+      "MA1301",
+      "MA2503",
+      "MA2507",
+      "MA2508",
+      "MA2509",
+      "MA2510",
+      "MA3511",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "MA3526"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE2134",
+        "title": "Critical and Creative Thinking",
+        "grade": "B",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE2260",
+        "title": "Introduction to Finance",
+        "grade": "B",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CM_09",
+    "programme": "CM",
+    "desired_stream": "Enriched Mathematics",
+    "stream_reward_multiplier": 3.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "MA2503",
+      "MA2508",
+      "MA2509",
+      "MA2507",
+      "MA2510",
+      "MA3511",
+      "MA3526",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "CS2360",
+      "CS2468"
+    ],
+    "completed_courses": [
+      "CS1302",
+      "CS2360",
+      "CS2468",
+      "GE2134",
+      "GE2260",
+      "MA1300",
+      "MA1301",
+      "MA2503",
+      "MA2507",
+      "MA2508",
+      "MA2509",
+      "MA2510",
+      "MA3511",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "MA3526"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE2134",
+        "title": "Critical and Creative Thinking",
+        "grade": "C+",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE2260",
+        "title": "Introduction to Finance",
+        "grade": "C+",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CM_10",
+    "programme": "CM",
+    "desired_stream": "Financial Mathematics",
+    "stream_reward_multiplier": 3.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "MA2503",
+      "MA2508",
+      "MA2509",
+      "MA2507",
+      "MA2510",
+      "MA3511",
+      "MA3526",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "CS2360",
+      "CS2468"
+    ],
+    "completed_courses": [
+      "CS1302",
+      "CS2360",
+      "CS2468",
+      "GE1105",
+      "GE1113",
+      "GE2134",
+      "MA1300",
+      "MA1301",
+      "MA2503",
+      "MA2507",
+      "MA2508",
+      "MA2509",
+      "MA2510",
+      "MA3511",
+      "MA3512",
+      "MA3514",
+      "MA3515",
+      "MA3517",
+      "MA3518",
+      "MA3525",
+      "MA3526"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1105",
+        "title": "Chinese Music Appreciation",
+        "grade": "B+",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE1113",
+        "title": "Visual Storytelling and Cultural Thinking",
+        "grade": "C+",
+        "year": 1,
+        "semester": "B"
+      },
+      {
+        "course_code": "GE2134",
+        "title": "Critical and Creative Thinking",
+        "grade": "C+",
+        "year": 2,
+        "semester": "A"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CS_01",
+    "programme": "CS",
+    "desired_stream": "Artificial Intelligence",
+    "stream_reward_multiplier": 4.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "MA2185"
+    ],
+    "completed_courses": [
+      "CS1302A",
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "GE1105",
+      "GE1305",
+      "MA1503",
+      "MA1508",
+      "MA2185"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1305",
+        "title": "Foundation Physics",
+        "grade": "C+",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE1105",
+        "title": "Chinese Music Appreciation",
+        "grade": "B",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CS_02",
+    "programme": "CS",
+    "desired_stream": "Data Science",
+    "stream_reward_multiplier": 3.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "MA2185"
+    ],
+    "completed_courses": [
+      "CS1302A",
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "GE1305",
+      "MA1503",
+      "MA1508",
+      "MA2185"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1305",
+        "title": "Foundation Physics",
+        "grade": "A",
+        "year": 1,
+        "semester": "A"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CS_03",
+    "programme": "CS",
+    "desired_stream": "Cybersecurity",
+    "stream_reward_multiplier": 2.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "MA2185"
+    ],
+    "completed_courses": [
+      "CS1302A",
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "GE1105",
+      "GE1202",
+      "MA1503",
+      "MA1508",
+      "MA2185"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1202",
+        "title": "Managing Your Personal Finance",
+        "grade": "B+",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE1105",
+        "title": "Chinese Music Appreciation",
+        "grade": "B",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CS_04",
+    "programme": "CS",
+    "desired_stream": "Multimedia Computing",
+    "stream_reward_multiplier": 3.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "MA2185"
+    ],
+    "completed_courses": [
+      "CS1302A",
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "GE1105",
+      "GE2134",
+      "MA1503",
+      "MA1508",
+      "MA2185"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1105",
+        "title": "Chinese Music Appreciation",
+        "grade": "C+",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE2134",
+        "title": "Critical and Creative Thinking",
+        "grade": "B",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CS_05",
+    "programme": "CS",
+    "desired_stream": "Software Engineering and Project Management",
+    "stream_reward_multiplier": 4.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "MA2185"
+    ],
+    "completed_courses": [
+      "CS1302A",
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "GE1105",
+      "GE1202",
+      "GE2340",
+      "MA1503",
+      "MA1508",
+      "MA2185"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1202",
+        "title": "Managing Your Personal Finance",
+        "grade": "C+",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE2340",
+        "title": "Artificial Intelligence - Past, Present, and Future",
+        "grade": "B+",
+        "year": 1,
+        "semester": "B"
+      },
+      {
+        "course_code": "GE1105",
+        "title": "Chinese Music Appreciation",
+        "grade": "C+",
+        "year": 2,
+        "semester": "A"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CS_06",
+    "programme": "CS",
+    "desired_stream": "Artificial Intelligence",
+    "stream_reward_multiplier": 2.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "MA2185"
+    ],
+    "completed_courses": [
+      "CS1302A",
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "GE1113",
+      "GE2134",
+      "GE2260",
+      "MA1503",
+      "MA1508",
+      "MA2185"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE2260",
+        "title": "Introduction to Finance",
+        "grade": "C+",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE2134",
+        "title": "Critical and Creative Thinking",
+        "grade": "B+",
+        "year": 1,
+        "semester": "B"
+      },
+      {
+        "course_code": "GE1113",
+        "title": "Visual Storytelling and Cultural Thinking",
+        "grade": "C+",
+        "year": 2,
+        "semester": "A"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CS_07",
+    "programme": "CS",
+    "desired_stream": "Data Science",
+    "stream_reward_multiplier": 4.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "MA2185"
+    ],
+    "completed_courses": [
+      "CS1302A",
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "GE1105",
+      "GE1305",
+      "MA1503",
+      "MA1508",
+      "MA2185"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE1105",
+        "title": "Chinese Music Appreciation",
+        "grade": "B",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE1305",
+        "title": "Foundation Physics",
+        "grade": "B+",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CS_08",
+    "programme": "CS",
+    "desired_stream": "Cybersecurity",
+    "stream_reward_multiplier": 2.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "MA2185"
+    ],
+    "completed_courses": [
+      "CS1302A",
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "GE1105",
+      "GE2260",
+      "MA1503",
+      "MA1508",
+      "MA2185"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE2260",
+        "title": "Introduction to Finance",
+        "grade": "A",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE1105",
+        "title": "Chinese Music Appreciation",
+        "grade": "B+",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CS_09",
+    "programme": "CS",
+    "desired_stream": "Multimedia Computing",
+    "stream_reward_multiplier": 4.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "MA2185"
+    ],
+    "completed_courses": [
+      "CS1302A",
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "GE1305",
+      "GE2134",
+      "GE2260",
+      "MA1503",
+      "MA1508",
+      "MA2185"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE2134",
+        "title": "Critical and Creative Thinking",
+        "grade": "A",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE2260",
+        "title": "Introduction to Finance",
+        "grade": "C+",
+        "year": 1,
+        "semester": "B"
+      },
+      {
+        "course_code": "GE1305",
+        "title": "Foundation Physics",
+        "grade": "C+",
+        "year": 2,
+        "semester": "A"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  },
+  {
+    "profile_id": "CS_10",
+    "programme": "CS",
+    "desired_stream": "Software Engineering and Project Management",
+    "stream_reward_multiplier": 4.0,
+    "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+    "completed_taught_core": [
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "MA2185"
+    ],
+    "completed_courses": [
+      "CS1302A",
+      "CS2115",
+      "CS2310",
+      "CS2312",
+      "CS2402",
+      "CS2613",
+      "CS3103",
+      "CS3201",
+      "CS3334",
+      "CS3342",
+      "CS4335",
+      "GE2260",
+      "GE2340",
+      "MA1503",
+      "MA1508",
+      "MA2185"
+    ],
+    "GE_history": [
+      {
+        "course_code": "GE2340",
+        "title": "Artificial Intelligence - Past, Present, and Future",
+        "grade": "B",
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "course_code": "GE2260",
+        "title": "Introduction to Finance",
+        "grade": "A",
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "fictional": true,
+    "future_term": "unverified",
+    "random_seed": 20261121,
+    "weights": {
+      "background_mismatch": 1.0,
+      "difficulty": 1.0,
+      "workload": 1.0
+    }
+  }
+]

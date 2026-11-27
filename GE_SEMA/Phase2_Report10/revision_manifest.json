@@ -1,0 +1,21 @@
+{
+  "base_report": "Phase2_Report09",
+  "introduction_restored_from": "Phase2_Report08",
+  "old_introduction_preserved_verbatim": true,
+  "PDF_training_source_count": 85,
+  "changes": [
+    "Restore the old introduction exactly",
+    "Add audited collected/parsed/training PDF counts",
+    "Show original penalty and its conversion into net reward",
+    "Relocate unchanged protocol, component and evidence paragraphs for layout",
+    "Compact the workflow and local layout to retain the template page limit"
+  ],
+  "latest_GPT_comparison_preserved": true,
+  "old_three_lambda_penalty_restored": true,
+  "current_Years1_to3_and_Year4_overload_rule_preserved": true,
+  "prior_hashes": {
+    "GE_SEMA\\Phase2_Report08.tex": "1754c7bb6e9930053e601dbb42e6c1247d8eb2b32cbb55d4091c97eeccff9104",
+    "GE_SEMA\\Phase2_Report09\\Phase2_Report09.tex": "93047922adeaf2a8deba969ee5014b78866685881d40036af13c12483b284f29",
+    "GE_SEMA\\Phase2_Report09\\Phase2_Report09.pdf": "d13cbc91c7a879fade57ee34cb4f3385b00091853478e1ff87f4ae2fed6da5ba"
+  }
+}

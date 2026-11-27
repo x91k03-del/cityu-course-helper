@@ -1,0 +1,42 @@
+{
+  "adapter": "adapters/timetable-grounded",
+  "source_adapter": "adapters/cm-finance-background",
+  "training_performed": true,
+  "sha256": "2aaa65843ddc27f40621f6a6aa794e927e470161ea106f60f95925de7005406b",
+  "accepted_for_activation": false,
+  "evaluation": {
+    "before": {
+      "heldout_policy": {
+        "passed": 0,
+        "total": 20
+      },
+      "familiar_schedule_diagnostics": {
+        "passed": 7,
+        "total": 10
+      },
+      "historical_regression": {
+        "passed": 5,
+        "total": 6
+      }
+    },
+    "after": {
+      "heldout_policy": {
+        "passed": 12,
+        "total": 20
+      },
+      "familiar_schedule_diagnostics": {
+        "passed": 7,
+        "total": 10
+      },
+      "historical_regression": {
+        "passed": 5,
+        "total": 6
+      }
+    }
+  },
+  "selected_epoch": 2,
+  "training_method": "NF4 frozen base with BF16 compute and rank-8 QLoRA",
+  "model_role": "source-conditioned timetable availability, minimum load and EF finance-mismatch policy; retained source/stream replay",
+  "raw_outputs_require_validation": true,
+  "official_registration_or_graduation_verified": false
+}

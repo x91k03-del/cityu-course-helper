@@ -1,0 +1,365 @@
+1         CS1102: Introduction to Computer Studies
+CS1102: INTRODUCTION TO COMPUTER
+STUDIES
+Eﬀective Term
+Semester A 2026/27 
+Part I Course Overview
+Course Title
+Introduction to Computer Studies 
+Subject Code
+CS - Computer Science 
+Course Number
+1102 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+CS1302 Introduction to Computer Programming or 
+CS1302A Introduction to Computer Programming 
+2         CS1102: Introduction to Computer Studies
+Part II Course Details
+Abstract
+This course aims to provide an introduction to computing concepts, skills and the technologies behind the Internet. 
+Students are introduced to software tools, web content scripting and basic computer programming. No prior programming
+or computer science experience is required.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Describe the basic principles of computer
+systems, networks, Internet and information
+security.
+x
+2 Inquire and evaluate the social, ethical, and
+safety issues of emerging technologies and
+innovations.
+x x
+3 Demonstrate the use of software tools and
+the ability to write simple programs using a
+scripting language.
+x x x
+4 Apply basic programming concepts to develop
+simple computer programs.
+x x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+3         CS1102: Introduction to Computer Studies
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lectures/ Demonstrations Students will learn to
+describe and explain
+basic principles of
+computer systems,
+networks, Internet and
+information security will
+be introduced. Social,
+ethical, and safety issues
+of emerging technologies
+and innovations will be
+presented. The basic
+programming concepts
+will be explained. Online
+resources will also be
+given for out-of-classroom
+reading and learning.
+1, 2, 3, 4 3 hours per week
+2 Labs Students will join lab
+sessions to be held in
+“terminal rooms”,
+in which concepts and
+operations presented
+in lectures will be
+demonstrated and
+exercised. They will be
+given additional tasks for
+self practice.
+2, 3, 4 1 hour per week
+3 Project Students will have a
+hands-on experience to
+discover and comprehend
+a particular computer
+topic. They will also
+have an opportunity
+to demonstrate their
+abilities of using
+productivity software
+tools to create the
+presentation slides and
+report.
+1, 2 After class
+4 Exam Students will be assessed
+on their understanding
+of computer systems,
+networks, the Internet,
+and information security.
+They will also be tested
+the ability to analyze and
+solve problems leveraging
+programming.
+1, 2, 3, 4
+Assessment Tasks / Activities (ATs)
+4         CS1102: Introduction to Computer Studies
+ ATs CILO No. Weighting (%) Remarks Allow Use of
+GenAI?
+1 Lab exercises 3, 4 5 Students can only
+use GenAI for
+editing the English
+of the submitted
+document,
+debugging code, or
+brainstorming. 
+GenAI cannot
+be used for
+other aspects,
+e.g., directly
+copying the AI-
+generated result
+and submitting
+it as the student's
+own work, which
+will be considered
+as academic
+dishonesty and
+students may face
+severe penalty.
+Students must
+understand their
+submitted work
+and be able to
+explain it. 
+GenAI cannot
+be used as the
+only source for
+researching
+information.
+Students must
+verify the accuracy
+of information
+from authentic
+sources and
+demonstrate their
+understanding.
+Yes
+5         CS1102: Introduction to Computer Studies
+2 Online homework 1, 2, 3 5 Students can only
+use GenAI for
+editing the English
+of the submitted
+document,
+debugging code, or
+brainstorming. 
+GenAI cannot
+be used for
+other aspects,
+e.g., directly
+copying the AI-
+generated result
+and submitting
+it as the student's
+own work, which
+will be considered
+as academic
+dishonesty and
+students may face
+severe penalty.
+Students must
+understand their
+submitted work
+and be able to
+explain it. 
+GenAI cannot
+be used as the
+only source for
+researching
+information.
+Students must
+verify the accuracy
+of information
+from authentic
+sources and
+demonstrate their
+understanding.
+Yes
+6         CS1102: Introduction to Computer Studies
+3 Project 1, 2 10 Students can only
+use GenAI for
+editing the English
+of the submitted
+document,
+debugging code, or
+brainstorming. 
+GenAI cannot
+be used for
+other aspects,
+e.g., directly
+copying the AI-
+generated result
+and submitting
+it as the student's
+own work, which
+will be considered
+as academic
+dishonesty and
+students may face
+severe penalty.
+Students must
+understand their
+submitted work
+and be able to
+explain it. 
+GenAI cannot
+be used as the
+only source for
+researching
+information.
+Students must
+verify the accuracy
+of information
+from authentic
+sources and
+demonstrate their
+understanding.
+Yes
+4 Midterm test 1, 2, 3, 4 20 - No
+Continuous Assessment (%)
+40 
+Examination (%)
+60 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+7         CS1102: Introduction to Computer Studies
+Assessment Rubrics (AR)
+Assessment Task
+1. Project 
+Criterion
+1.1 Study for a particular topic of computer technology 
+1.2 Presentation of ﬁndings for the topic 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+2. Lab 
+Criterion
+2.1 Demonstration of independent problem-solving ability 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+3. Online homework 
+Criterion
+3.1 Ability to analyze emerging technologies and innovations 
+3.2 Capacity to understand programs written with scripting language 
+8         CS1102: Introduction to Computer Studies
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+4. Midterm 
+Criterion
+4.1 Ability to demonstrate the basic computing principles taught in the lectures 
+4.2 Capacity to apply basic programming concepts 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+5. Exam 
+Criterion
+5.1 Ability to demonstrate the basic computing principles taught in the lectures 
+5.2 Capacity to write simple programs 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+9         CS1102: Introduction to Computer Studies
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Part III Other Information
+Keyword Syllabus
+• Logical operations
+• Binary arithmetic
+• Basic operations of computer, data, CPU, memory, bus, IO, peripherals
+• Programming concepts ‒ instructions, programs, need for high-level language, compilers, interpreters
+• Basic data types (integers, Boolean, characters and strings)
+• Variables, expressions, and operations
+• Compound statements and control structures
+• Functions and parameters
+• Operating systems ‒ Unix, Windows
+• File system
+• End-user computing - word processing, spread sheet, presentation tool
+• Databases
+• Data communication - switches, networks, LANs, WANs, routers
+• Internet ‒ internet protocol, internet applications, email, ﬁle transfer, web browser, web server, web searching, basic
+html/css
+• Concepts of client-side and server-side scripting
+• Digital media, multimedia software tools
+• Basic computer security, virus, ﬁltering and scanning tools
+Reading List
+Compulsory Readings
+ Title
+1 Timothy J. O'Leary, Daniel A. O'Leary and Linda I. O'Leary (2023). Computing Essentials 2023, McGraw Hill
+Education.
+Additional Readings
+ Title
+1 Nil

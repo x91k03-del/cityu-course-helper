@@ -1,0 +1,73 @@
+{
+  "original_hashes": {
+    "GE_SEMA\\Phase2_Report02.tex": "e755c76262b9f21dca1ce7ae4852dd5d289b54666559fef3435d4a3d7425896a",
+    "GE_SEMA\\Phase2_Report02.pdf": "27d6e67305fe56cac9d5f5971a3f0470e99fe2d009b1dcf75883ec539dc632ea"
+  },
+  "changes": [
+    {
+      "old": "\\section{Implementation Details}",
+      "new": "\\textbf{Prompts used in training.} Our saved training rows contain three message roles: a system instruction defining the task and output rules, a user message supplying the programme, passed courses, source facts and requested task, and an assistant message containing the target JSON. Instructions include ``Return JSON only,'' preserve source times, distinguish documents from instructions, count distinct stream slots, and never infer passes from year of study. The CM background prompt also states the EF/CS planning waiver and the treatment of failed/in-progress finance records. We train on assistant-answer tokens using supervised cross-entropy; this is more than providing a prompt at inference time.\n\n\\section{Implementation Details}"
+    },
+    {
+      "old": "figures/workflow.pdf",
+      "new": "figures/workflow_training03.pdf"
+    },
+    {
+      "old": "Our planning pipeline connects course evidence and student preferences to validated recommendations and an explanation of the result.",
+      "new": "Expanded training workflow: GPT relation teaching and post-round human feedback feed Qwen retraining, followed by validation and timetable optimisation. Dashed boxes denote designed feedback stages whose separate execution is not established by the saved training logs."
+    },
+    {
+      "old": "\\textbf{Efficient model adaptation.}",
+      "new": "\\textbf{GPT-6.1 Sol teaching course relations.} In the teacher-guided design, GPT-6.1 Sol reads the supplied course information and proposes relation examples: shared mathematical preparation, finance/AI interest links, workload implications and prerequisite bridges. We separate official requirements from inferred content links, review the proposed labels, and teach Qwen with the accepted source-conditioned input/output examples. A relation is an editable preparation hypothesis, not automatic registration permission. This is teacher-output distillation; we do not claim that Qwen also trains GPT.\n\n\\textbf{Human feedback after a full training round.} After one complete model-to-model teaching round and evaluation, a reviewer checks generated relations, rewards and schedules. Incorrect examples receive corrected targets and explanations; correct source examples are replayed to reduce forgetting. We then retrain Qwen and retain a checkpoint only if held-out checks support it. The repository demonstrates supervised training and corrective replay, but does not contain a separately logged GPT relation-teaching trial or a formal human-annotation evaluation; these two workflow stages remain a protocol for the next review cycle.\n\n\\textbf{Efficient model adaptation.}"
+    },
+    {
+      "old": "O(X,s)=\\mathbf{1}_{\\{\\mathrm{year}=4\\}}\\,0.25\\,[\\max(0,C(X)-12)]^2,",
+      "new": "O(X,s)=\\begin{cases}\n0.25[\\max(0,C(X)-15)]^2,&\\text{Years 1--3},\\\\\n0.25[\\max(0,C(X)-12)]^2,&\\text{Year 4}.\n\\end{cases}"
+    },
+    {
+      "old": "where $C(X)$ is semester credits. The penalty is zero in Years 1--3 and for at most 12 credits in Year 4; it increases to 2.25 at 15 credits and 9 at 18 credits. This encourages manageable final-year choices without penalising the standard earlier-year load.",
+      "new": "where $C(X)$ is semester credits. In Years 1--3 the penalty is zero through 15 credits, then 0.25 at 16 credits and 2.25 at 18 credits. In Year 4 it is zero through 12 credits, then 2.25 at 15 and 9 at 18 credits. We use the same 0.25 coefficient for the newly added earlier-year term. Inspection found that the previous default disabled overload penalties in Years 1--3; we corrected both the semester optimiser and the four-year simulation. This is a planner-policy correction, not a claim that the saved neural weights were retrained on this new threshold. The 18-credit hard limit remains separate."
+    },
+    {
+      "old": "\\section{Results \\& Evaluation}",
+      "new": "\\section{Results \\& Evaluation}\n\n\\textbf{Timetable benchmark: Qwen versus GPT-6.1 Sol.} We froze six supplied-data cases before inference: two CM Semester B profiles (finance versus neutral GE history), two CS Semester B settings (balanced versus difficulty-focused penalties), and two Semester A cases with insufficient distinct course options. Four cases are feasible and two infeasible under the common MILP reference. Both models receive the same validated options, saved meeting times, additive scores, stream rules and corrected overload formula. Their task is to return selected option IDs or declare infeasibility. We grade the raw answer without repair: valid constraints first, then objective regret against the exact solver.\n\n\\begin{table}[H]\n\\centering\\small\n\\caption{Executed six-case timetable diagnostic. Solver fallback is reported separately from direct-model performance.}\n\\begin{tabular}{p{2.6in}ccc}\n\\toprule\nMethod & Valid plans & Optimal plans & Correct infeasible\\\\\n\\midrule\nQwen, direct selection & 0/4 & 0/4 & 0/2\\\\\nGPT-6.1 Sol, direct selection & 4/4 & 4/4 & 2/2\\\\\nQwen + validator/MILP fallback & 4/4 & 4/4 & 2/2\\\\\n\\bottomrule\n\\end{tabular}\n\\label{tab:benchmark03}\n\\end{table}\n\nThe direct Qwen responses invent two option IDs in the finance case, select fewer than five courses in other cases, or repeat two sections of the same course. GPT returns legal, objective-optimal selections in this small test. The hybrid pipeline rejects all six invalid Qwen responses and returns the common solver result; this does not count as improved Qwen accuracy. Table~\\ref{tab:timetable03} shows the actual CS balanced timetable comparison. All meeting times are from the saved snapshots; component pairing and weeks 1--14 remain shared assumptions.\n\n\\begin{table}[H]\n\\centering\\small\n\\caption{CS Semester B balanced example: returned meeting times (24-hour format). Qwen selects only three courses; GPT selects six courses, 16 credits and a 0.25 overload penalty. A dash means the course was omitted.}\n\\begin{tabular}{p{.6in}p{2.2in}p{2.2in}}\n\\toprule\nCourse & Qwen direct timetable & GPT-6.1 Sol timetable\\\\\n\\midrule\n{\\raggedright CS2613\\par} & {\\raggedright ---\\par} & {\\raggedright Fri 17:00--18:50\\par}\\\\\n{\\raggedright CS3103\\par} & {\\raggedright Fri 14:00--16:50; Mon 17:00--17:50\\par} & {\\raggedright Fri 14:00--16:50; Fri 12:00--12:50\\par}\\\\\n{\\raggedright CS3342\\par} & {\\raggedright Thu 10:00--12:50; Thu 15:00--15:50\\par} & {\\raggedright Thu 10:00--12:50; Thu 14:00--14:50\\par}\\\\\n{\\raggedright CS3391\\par} & {\\raggedright ---\\par} & {\\raggedright Tue 18:30--21:20; Tue 21:30--22:20\\par}\\\\\n{\\raggedright CS3402\\par} & {\\raggedright Wed 09:00--11:50; Mon 13:00--13:50\\par} & {\\raggedright Wed 09:00--11:50; Mon 11:00--11:50\\par}\\\\\n{\\raggedright CS3481\\par} & {\\raggedright ---\\par} & {\\raggedright Mon 18:30--21:20; Mon 21:30--22:20\\par}\\\\\n\\bottomrule\n\\end{tabular}\n\\label{tab:timetable03}\n\\end{table}\n\nThis is a reproducible familiar-source diagnostic, not a general model ranking. Qwen uses local greedy, non-thinking decoding; the requested GPT-6.1 Sol is invoked as a model-specific agent with a single read of the frozen six-case packet and no solver or outside evidence. Qwen receives each case separately, whereas GPT receives the six-case batch, and reasoning settings are not matched. We make no latency/cost comparison. The shared scores isolate timetable selection, not independent course-scoring quality. Future evaluation should use larger held-out cohorts, matched per-case provider calls, repeated runs and uncertainty intervals. Benchmark inputs, raw outputs and independent grades are saved separately from training data.\n\n"
+    }
+  ],
+  "unrelated_text_preserved_by_literal_edits": true,
+  "benchmark_summary": {
+    "qwen": {
+      "valid_feasible_plans": 0,
+      "feasible_cases": 4,
+      "optimal_feasible_plans": 0,
+      "correct_infeasible": 0,
+      "infeasible_cases": 2
+    },
+    "gpt": {
+      "valid_feasible_plans": 4,
+      "feasible_cases": 4,
+      "optimal_feasible_plans": 4,
+      "correct_infeasible": 2,
+      "infeasible_cases": 2
+    }
+  },
+  "overload_tests_passed": 86,
+  "report_date": "2026-11-24",
+  "pages": 9,
+  "all_pages_visually_reviewed": true,
+  "source_content_outside_requested_edits_verified_unchanged": true,
+  "pdf_sha256": "9ab95b150d3792e1133ec16139ab657277009ae9ab464c7bb3885813c6f8fc5a",
+  "prompt_evidence": [
+    "programme_training_v6.py:SYSTEM",
+    "cm_finance_training.py:SYSTEM",
+    "data/cm-finance-background/train.jsonl"
+  ],
+  "benchmark_evidence": {
+    "protocol.json": "544eebaee34487563e8f22b6a0e14343f96f3b78b516164d5b8ceffd3b2c0fab",
+    "cases.json": "ed025c4102ec695af04038831522ace387335d74487dba831aa9b9f8f9fc66fb",
+    "qwen_raw.json": "fc191a80d03762b7967548cd00765b19bea86c9ef3e0174f4201701d76efb860",
+    "gpt_raw.json": "1f08b94327704bbd54973156cc78ed2763bbe23da48d86bab2ff4800cde8f655",
+    "graded_results.json": "c4f9f41d6cad444a5d5d8297b1074fa8d3818b49e1d183d69fd67215b70eceda",
+    "hybrid_results.json": "08b42256c47565ab32f094ccac6f0a13f1a3cd74fb360bf772427e87eee254d8",
+    "summary.json": "7ffda3843408d46c36fdd29c225a9bbf0465d0f437bbbb3161ba980d82c1f1a3"
+  }
+}

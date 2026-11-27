@@ -1,0 +1,13 @@
+﻿case,mechanism,source change,target,before utility,after utility,delta,before prerequisite,after prerequisite
+D01,direct_preparation,pass MA2508,MA3515,2.4,2.6,0.2,True,True
+D02,direct_preparation,pass MA2509,GE2134,2.4,2.55,0.15,True,True
+D03,same_area_diminishing_profit,replace a passed Area-2 GE with Area-1 GE,GE1113,2.4,-0.3,-2.7,True,True
+D04,GE_interest_multiplier,pass GE2260; selected finance stream held fixed,MA3521,4.4,8.4,4.0,True,True
+D05,explicit_choice_negative_control,pass GE2260 with explicit Enriched preference,MA3521,2.4,2.4,0.0,True,True
+D06,prerequisite_unlock,pass CS3481,CS4487,4.4,4.4,0.0,False,True
+D07,completion_threshold,pass CS4480,CS4487,4.4,10.4,6.0,True,True
+D08,unrelated_course_negative_control,pass GE1305,MA3521,4.4,4.4,0.0,True,True
+D09,repeat_normalization_control,repeat an already-passed MA2509 ID,GE2134,2.55,2.55,0.0,True,True
+D10,bridge_weight_amplification,pass GE2260,MA2510,3.4,5.4,2.0,False,False
+D11,explicit_weight_saturation,pass GE2260 when explicit finance weight is already 3,MA3521,8.4,8.4,0.0,True,True
+D12,unimplemented_content_link_control,pass MA2503; conceptual finance link has no active preparation bonus,EF3320,4.4,4.4,0.0,False,False

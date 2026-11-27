@@ -1,0 +1,16 @@
+{
+  "before": {
+    "passed": 16,
+    "GE_cap_passed": 20,
+    "preparation_map_passed": 16,
+    "original_nine_parameters_passed": 20,
+    "total": 20
+  },
+  "after": {
+    "passed": 20,
+    "GE_cap_passed": 20,
+    "preparation_map_passed": 20,
+    "original_nine_parameters_passed": 20,
+    "total": 20
+  }
+}

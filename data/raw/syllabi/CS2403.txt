@@ -1,0 +1,252 @@
+1         CS2403: Data Management and Cloud Storage
+CS2403: DATA MANAGEMENT AND CLOUD
+STORAGE
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Data Management and Cloud Storage 
+Subject Code
+CS - Computer Science 
+Course Number
+2403 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+CS2313 Computer Programming 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+Part II Course Details
+Abstract
+2         CS2403: Data Management and Cloud Storage
+This course is aimed at equipping students with the knowledge of database design, as well as, the ability to use database
+management systems in an eﬀective manner.  The course will also provide the knowledge of how to use a relational
+database system (RDBMS) for analytical processing.  For the cloud storage part of the course, the students will also learn
+how to use an elastic computing service to host a database and retrieve data from it.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Design a database schema database schema
+using the entity-relationship and relational data
+models.
+x x x
+2 Improve an existing database schema through
+the normalization process.
+x x
+3 Demonstrate the ability to use SQL as a
+Data Deﬁnition Language XDDL) and a Data
+Manipulation Language XDML) eﬀectively.
+x x
+4 Demonstrate the ability to use an RDBMS to
+manipulate data in data science applications,
+and the ability to use a cloud storage to host an
+RDBMS.
+x x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 1 Students will engage
+in lectures covering
+database design
+principles, SQL, as
+well as, techniques
+and concepts related to
+database management
+systems.
+1, 2, 3, 4 3 hours/week
+2 2 Students will practice
+solving database
+problems and using
+an actual database
+management system.
+1, 2, 3, 4 8 hours/semester
+3         CS2403: Data Management and Cloud Storage
+3 3 Class assignments/
+project: Students will
+also have the opportunity
+to use their database
+knowledge to solve real-
+world data management
+problems through
+assignment/project
+questions.
+1, 2, 3, 4 After Class
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Project/
+Assignments
+1, 2, 3, 4 15 One Project and
+Two Assignments
+Yes
+2 In-class discussion 1, 2, 3, 4 5 - Yes
+3 Midterm
+Examination
+1, 2, 3 20 - No
+Continuous Assessment (%)
+40 
+Examination (%)
+60 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Project/Assignments 
+Criterion
+1.1 Ability to design a database using a data modeling principles covered in the course 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+4         CS2403: Data Management and Cloud Storage
+Inadequate 
+Assessment Task
+Project/Assignments 
+Criterion
+1.2 Ability to translate express a database design in SQL 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Inadequate 
+Assessment Task
+Project/Assignments 
+Criterion
+1.3 Ability to use a database management system to store and manipulate data 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Inadequate 
+Assessment Task
+Project/Assignments 
+Criterion
+1.4 Ability to interface an RDBMS with the Python programming language 
+5         CS2403: Data Management and Cloud Storage
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Inadequate 
+Assessment Task
+Project/Assignments 
+Criterion
+1.5 Ability to use a cloud storage to host an RDBMS 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Inadequate 
+Assessment Task
+In-class discussion 
+Criterion
+2.1 Ability to contribute to discussions on principle and concepts of database design and database management systems 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+6         CS2403: Data Management and Cloud Storage
+Basic 
+Failure (F)
+Inadequate 
+Assessment Task
+Midterm Exam 
+Criterion
+3.1, 4.1 Ability to demonstrate a good understanding of basic and advanced materials covered in the course 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Inadequate 
+Assessment Task
+Final Exam 
+Criterion
+3.1, 4.1 Ability to demonstrate a good understanding of basic and advanced materials covered in the course 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Inadequate 
+Part III Other Information
+Keyword Syllabus
+7         CS2403: Data Management and Cloud Storage
+Database design methodology: entity-relationship model, functional dependency, normalization, data deﬁnition language,
+Query Language: SQL, data model: relational model, index, ﬁle organization, Cloud Computing.
+Reading List
+Compulsory Readings
+ Title
+1 Elmasri R. and Navathe S. B. Fundamentals of Database Systems. 6th Ed. Addison Wesley (2010)
+Additional Readings
+ Title
+1 Silberschatz A., Korth H. and Sudarshan S. Database System Concepts. 6th Ed. McGraw-Hill Companies Inc. (2010)

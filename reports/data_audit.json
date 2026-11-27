@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "courses": 77,
+  "source_hashes_verified": 77,
+  "disjoint_normalized_aims_groups": true,
+  "assistant_only_loss_masks": true,
+  "token_lengths": {
+    "train": {
+      "min": 136,
+      "max": 1072
+    },
+    "validation": {
+      "min": 152,
+      "max": 654
+    },
+    "test": {
+      "min": 152,
+      "max": 636
+    }
+  },
+  "missing_assessment_percentages": [
+    "GE1136"
+  ],
+  "real_timetables": 0,
+  "human_reviewed_workload_labels": 0
+}

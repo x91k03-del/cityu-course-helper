@@ -1,0 +1,219 @@
+1         CS2204: Fundamentals of Internet Applications Development
+CS2204: FUNDAMENTALS OF INTERNET
+APPLICATIONS DEVELOPMENT
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Fundamentals of Internet Applications Development 
+Subject Code
+CS - Computer Science 
+Course Number
+2204 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+CS1303 Introduction to Internet and Programming, CS2161 Fundamentals of Web Technologies 
+Part II Course Details
+Abstract
+2         CS2204: Fundamentals of Internet Applications Development
+This course aims at providing the fundamental skills in programming Internet applications. Upon completion, students
+should be able to:a)  be familiar with the development of WEB programmingb)  write web pages with the Extensible
+HyperText Markup Language (XHTML) and Cascading Style Sheet (CSS)c)  write dynamic web pages using scriptingd)  write
+a basic client-side web-based application
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Explain the development of WEB and its current
+trends.
+5 x
+2 Apply internet development tools such as
+XHTML editor.
+5 x
+3 Design and implement static Web pages using
+WEB standards.
+54 x
+4 Create and set up Web sites and write interactive
+Web pages.
+29
+5 Describe, compare and evaluate the design
+techniques required for Internet applications.
+7 x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 1 Students will engage with 
+the introduction to the 
+web programming
+concepts 
+and techniques.
+1, 2 Lecture: 3 hours/week
+2 2 Students will engage
+with self-paced exercises
+focusing on individual
+topics.
+3, 4 Tutorial: at least 8 hours/
+semester
+3 3 Problem Based Learning
+XPBL) approach is
+adopted; students are
+required to implement a
+coursework project.
+3, 4, 5
+Assessment Tasks / Activities (ATs)
+3         CS2204: Fundamentals of Internet Applications Development
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Quiz is used to
+assess students’
+understanding
+of fundamental
+concepts.
+1, 3, 4, 5 15 - No
+2 Coursework
+is designed to
+assess students’
+ability to set
+up Web pages;
+it will include
+components
+with emphasis
+on structure,
+style setting
+and Javascript
+programming
+3, 4, 5 35 - No
+Continuous Assessment (%)
+50 
+Examination (%)
+50 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Coursework are designed to assess students’ ability to set up Web pages 
+Criterion
+1.1. Ability to use matching structures in Web pages to meet speciﬁed requirements 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+4         CS2204: Fundamentals of Internet Applications Development
+Not even reaching margin level 
+Assessment Task
+Coursework are designed to assess students’ ability to set up Web pages 
+Criterion
+1.2. Ability to design the layout of Web pages with justiﬁcation 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching margin level 
+Assessment Task
+Coursework are designed to assess students’ ability to set up Web pages 
+Criterion
+1.3. Ability to write Javascript codes with good practice to meet speciﬁed requirements 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching margin level 
+Assessment Task
+Quiz 
+Criterion
+2.1. Quantitative mark based 
+5         CS2204: Fundamentals of Internet Applications Development
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching margin level 
+Assessment Task
+Examination 
+Criterion
+3.1 Quantitative mark based 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching margin level 
+Part III Other Information
+Keyword Syllabus
+Review of Internet organization, Common Internet services and protocols. HyperText Transfer Protocol (HTTP), Client-
+server model, HyperText Markup Language (HTML), Document Object Model (DOM), Cascading Style Sheet (CSS), Scripting
+language and Web browser, JavaScript and Client-side programming models.
+Syllabus
+• Review of Internet and World Wide Web
+• HTTP, WEB multimedia, XHTML CSS, and DOM
+• Client-side Scripting
+• Dynamic HTML and introduction to HTML5 scripting API
+Reading List
+Compulsory Readings
+6         CS2204: Fundamentals of Internet Applications Development
+ Title
+1 Duckett J., (2014). Web Design with HTML, CSS, JavaScript and jQuery Set, Wiley, 1st edition.
+Additional Readings
+ Title
+1 Osborn J., (2011). HTML5 Digital Classroom. Wiley, 1st edition.
+2 Duckett J., (2009). Beginning HTML, XHTML, CSS, and JavaScript, Wiley, 1st edition.
+3 Various on-line resources on HTML, CSS and Javascript

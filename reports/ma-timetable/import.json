@@ -1,0 +1,91 @@
+{
+  "term_code": "202609",
+  "source_pdfs": 17,
+  "courses_with_cm_sections": 11,
+  "selected_sections": 16,
+  "selected_meetings": 20,
+  "excluded_sections": 52,
+  "courses_without_cm_sections": [
+    "MA1508",
+    "MA2001",
+    "MA2158",
+    "MA2172",
+    "MA2185",
+    "MA2510"
+  ],
+  "selection": "Explicit only-for-Major list includes exact CM token; keep all CM alternatives; other restrictions retained.",
+  "rule_scope": "Combined prerequisites/precursors, not independently classified; Boolean structure and exclusives preserved.",
+  "source_manifest": [
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA1300.pdf",
+      "sha256": "6e278281aa120ed49c3ee579236404a3588dd85d6639649c91d25c7ef31d5918"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA1502.pdf",
+      "sha256": "8afd8dba1b468cd3baa61c5e4c335315c49cc416a12d620a861e201de48e643c"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA1508.pdf",
+      "sha256": "2649c1a69b3c13eec54ce9fabc23909fbb478366c80fc002abf3fbab442997d0"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA2001.pdf",
+      "sha256": "08af71f8a5cdb22af24c9c59698e2dac44a7ee7e7b34d87b870499cc70e4e8af"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA2158.pdf",
+      "sha256": "9d59b2dc4ee64fb31c8159d26e9bd26ea8453852323f67c5410f508d7aeeb054"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA2172.pdf",
+      "sha256": "23d102a3b7a3ec6805068f668401e1dec23cbd13f50da26a7613660811ecc982"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA2185.pdf",
+      "sha256": "f847092b2dc4677053d939e331fdeadf1f877418599099d5e7216f447b4eaf9f"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA2503.pdf",
+      "sha256": "4d94d4efa5446c08db6f977e0605982c628f2c9b7fc345c3902a60c41b564971"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA2508.pdf",
+      "sha256": "b3b613a0e55528a2f485ea151a7beba9cb6f36126614831aa85d903a449d08bc"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA2509.pdf",
+      "sha256": "3fb7ab5f841d18f599bc117c92969a3077728bf88731af9ae9d4263d7665e3b6"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA2510.pdf",
+      "sha256": "1343c3886c9809bc9dd07332d389250f0fd5df117f4b2488008d73f1d00c83c5"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA3512.pdf",
+      "sha256": "36c6c0b4873cd6a40a0ebca6c03025728b81dcd30f9eb23c824268baf256a9bd"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA3518.pdf",
+      "sha256": "66903480a3b356b6db61a5594b8a7886ee30c15ba3908a375e7d35aecaa62e14"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA3521.pdf",
+      "sha256": "f325937e55a2a022a25adfe046dd29f092f72b2ae5551c3a231a521b9b737e6e"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA3525.pdf",
+      "sha256": "8a9195e2c597d04a9e7b9571f4c4a4b41860e135185940dddf2ba89dc5b480f3"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA4542.pdf",
+      "sha256": "6da6c14bf0fcb2aba6d220059fbf0af892d30228a7726fbd9dd38638727e501c"
+    },
+    {
+      "file": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\MA4545.pdf",
+      "sha256": "72e3ad547c150884c86deab0839830a026ef9f8fd051b9013fd1e988a409322c"
+    }
+  ],
+  "calendar_teaching_weeks_verified": false,
+  "component_linking_verified": false,
+  "current_seats_verified": false
+}

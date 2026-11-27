@@ -1,0 +1,30 @@
+{
+  "profile_id": "CS_Y2_AI_GE",
+  "programme": "CS",
+  "programme_code": "BSCCCU4",
+  "cohort": 2025,
+  "year": 2,
+  "term": "202702",
+  "completed_courses": [
+    "CS1302A",
+    "CS2115",
+    "CS2310",
+    "CS2312",
+    "CS2402",
+    "CS3201",
+    "CS3334",
+    "MA1503",
+    "MA1508",
+    "MA2185",
+    "GE2340"
+  ],
+  "GE_history": [
+    {
+      "course": "GE2340",
+      "title": "Artificial Intelligence - Past, Present, and Future",
+      "year": 1,
+      "semester": "A",
+      "grade": "B"
+    }
+  ]
+}

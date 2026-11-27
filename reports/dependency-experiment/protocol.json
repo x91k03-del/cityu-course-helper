@@ -1,0 +1,30 @@
+{
+  "seed": 20261121,
+  "design": "Predeclared paired computational intervention; not causal evidence of actual learning or workload savings.",
+  "target_estimand": "Within-target change in advertised marginal utility, decomposed into base, preparation, stream and prerequisite-bridge components.",
+  "frozen": {
+    "year": 2,
+    "base_profit": 3,
+    "scores": {
+      "background_mismatch": 0.2,
+      "difficulty": 0.2,
+      "workload": 0.2
+    },
+    "lambdas": [
+      1,
+      1,
+      1
+    ],
+    "cost": 0.6
+  },
+  "excluded_confounds": [
+    "earned-credit progress",
+    "GE count quotas",
+    "year-priority bonuses",
+    "overload",
+    "semester competition"
+  ],
+  "phase2": "Use identical complete candidate sets, timetable facts, lambda values and required courses; compare plan selection and rank separately. A changed reward need not change an optimal schedule.",
+  "phase3": "Four predeclared SE factorial model probes, greedy decoding, current v6 weights, exact raw JSON grading. Rule fallback is reported separately, never a model pass.",
+  "empirical_followup": "To validate real preparation benefits, collect authorized prior-grade/target-assessment/time-spent data with comparable backgrounds; use held-out cohorts and uncertainty intervals. Do not interpret policy agreement as educational causality."
+}

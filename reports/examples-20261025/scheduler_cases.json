@@ -1,0 +1,1255 @@
+[
+  {
+    "id": "M01",
+    "title": "Choose required course and avoid overlapping alternative",
+    "data_kind": "synthetic_solver_fixture_not_actual_timetable",
+    "problem": {
+      "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+      "term": "DEMO",
+      "required_courses": [
+        "DEMO1001"
+      ],
+      "completed_courses": [],
+      "credit_min": 6,
+      "credit_max": 6,
+      "options": [
+        {
+          "option_id": "DEMO1001-01",
+          "course_code": "DEMO1001",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        },
+        {
+          "option_id": "DEMO1002-01",
+          "course_code": "DEMO1002",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.1,
+            "difficulty": 0.1,
+            "workload": 0.1
+          }
+        },
+        {
+          "option_id": "DEMO1003-01",
+          "course_code": "DEMO1003",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        }
+      ]
+    },
+    "expected_status": "optimal",
+    "expected_options": [
+      "DEMO1001-01",
+      "DEMO1003-01"
+    ],
+    "expected_error": null,
+    "actual": {
+      "status": "optimal",
+      "selected_options": [
+        "DEMO1001-01",
+        "DEMO1003-01"
+      ],
+      "course_codes": [
+        "DEMO1001",
+        "DEMO1003"
+      ],
+      "credits": 6,
+      "objective": 2.4000000000000004,
+      "rejected_options": {},
+      "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "passed": true,
+    "seconds": 0.003057100111618638
+  },
+  {
+    "id": "M02",
+    "title": "Missing required-course timetable fails closed",
+    "data_kind": "synthetic_solver_fixture_not_actual_timetable",
+    "problem": {
+      "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+      "term": "DEMO",
+      "required_courses": [
+        "DEMO1001"
+      ],
+      "completed_courses": [],
+      "credit_min": 6,
+      "credit_max": 6,
+      "options": [
+        {
+          "option_id": "DEMO1001-01",
+          "course_code": "DEMO1001",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": false,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        },
+        {
+          "option_id": "DEMO1002-01",
+          "course_code": "DEMO1002",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.1,
+            "difficulty": 0.1,
+            "workload": 0.1
+          }
+        },
+        {
+          "option_id": "DEMO1003-01",
+          "course_code": "DEMO1003",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        }
+      ]
+    },
+    "expected_status": "infeasible",
+    "expected_options": null,
+    "expected_error": null,
+    "actual": {
+      "status": "infeasible",
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "rejected_options": {
+        "DEMO1001-01": "missing_verified_timetable"
+      }
+    },
+    "passed": true,
+    "seconds": 0.0007013999857008457
+  },
+  {
+    "id": "M03",
+    "title": "Unmet prerequisite makes required course infeasible",
+    "data_kind": "synthetic_solver_fixture_not_actual_timetable",
+    "problem": {
+      "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+      "term": "DEMO",
+      "required_courses": [
+        "DEMO1001"
+      ],
+      "completed_courses": [],
+      "credit_min": 6,
+      "credit_max": 6,
+      "options": [
+        {
+          "option_id": "DEMO1001-01",
+          "course_code": "DEMO1001",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [
+            "PASS2001"
+          ],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        },
+        {
+          "option_id": "DEMO1002-01",
+          "course_code": "DEMO1002",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.1,
+            "difficulty": 0.1,
+            "workload": 0.1
+          }
+        },
+        {
+          "option_id": "DEMO1003-01",
+          "course_code": "DEMO1003",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        }
+      ]
+    },
+    "expected_status": "infeasible",
+    "expected_options": null,
+    "expected_error": null,
+    "actual": {
+      "status": "infeasible",
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "rejected_options": {
+        "DEMO1001-01": "prerequisites_not_met"
+      }
+    },
+    "passed": true,
+    "seconds": 0.0007180001121014357
+  },
+  {
+    "id": "M04",
+    "title": "Report absent required course",
+    "data_kind": "synthetic_solver_fixture_not_actual_timetable",
+    "problem": {
+      "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+      "term": "DEMO",
+      "required_courses": [
+        "MISSING9999"
+      ],
+      "completed_courses": [],
+      "credit_min": 6,
+      "credit_max": 6,
+      "options": [
+        {
+          "option_id": "DEMO1001-01",
+          "course_code": "DEMO1001",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        },
+        {
+          "option_id": "DEMO1002-01",
+          "course_code": "DEMO1002",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.1,
+            "difficulty": 0.1,
+            "workload": 0.1
+          }
+        },
+        {
+          "option_id": "DEMO1003-01",
+          "course_code": "DEMO1003",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        }
+      ]
+    },
+    "expected_status": "infeasible",
+    "expected_options": null,
+    "expected_error": null,
+    "actual": {
+      "status": "infeasible",
+      "reason": "required_courses_missing",
+      "courses": [
+        "MISSING9999"
+      ]
+    },
+    "passed": true,
+    "seconds": 2.5700079277157784e-05
+  },
+  {
+    "id": "M05",
+    "title": "Refuse week cap without weekly measurements",
+    "data_kind": "synthetic_solver_fixture_not_actual_timetable",
+    "problem": {
+      "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+      "term": "DEMO",
+      "required_courses": [
+        "DEMO1001"
+      ],
+      "completed_courses": [],
+      "credit_min": 6,
+      "credit_max": 6,
+      "options": [
+        {
+          "option_id": "DEMO1001-01",
+          "course_code": "DEMO1001",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        },
+        {
+          "option_id": "DEMO1002-01",
+          "course_code": "DEMO1002",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.1,
+            "difficulty": 0.1,
+            "workload": 0.1
+          }
+        },
+        {
+          "option_id": "DEMO1003-01",
+          "course_code": "DEMO1003",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        }
+      ],
+      "weekly_workload_caps": {
+        "7": 8
+      }
+    },
+    "expected_status": null,
+    "expected_options": null,
+    "expected_error": "ValueError",
+    "actual": {
+      "error_type": "ValueError",
+      "message": "Missing reliable assessment-week workload data"
+    },
+    "passed": true,
+    "seconds": 2.4799956008791924e-05
+  },
+  {
+    "id": "M06",
+    "title": "Detect assessment-week overload",
+    "data_kind": "synthetic_solver_fixture_not_actual_timetable",
+    "problem": {
+      "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+      "term": "DEMO",
+      "required_courses": [
+        "DEMO1001"
+      ],
+      "completed_courses": [],
+      "credit_min": 6,
+      "credit_max": 6,
+      "options": [
+        {
+          "option_id": "DEMO1001-01",
+          "course_code": "DEMO1001",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          },
+          "workload_by_week": {
+            "7": 5
+          }
+        },
+        {
+          "option_id": "DEMO1002-01",
+          "course_code": "DEMO1002",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.1,
+            "difficulty": 0.1,
+            "workload": 0.1
+          },
+          "workload_by_week": {
+            "7": 5
+          }
+        },
+        {
+          "option_id": "DEMO1003-01",
+          "course_code": "DEMO1003",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          },
+          "workload_by_week": {
+            "7": 5
+          }
+        }
+      ],
+      "weekly_workload_caps": {
+        "7": 8
+      }
+    },
+    "expected_status": "infeasible",
+    "expected_options": null,
+    "expected_error": null,
+    "actual": {
+      "status": "infeasible",
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "rejected_options": {}
+    },
+    "passed": true,
+    "seconds": 0.0005657000001519918
+  },
+  {
+    "id": "M07",
+    "title": "Select a non-conflicting alternative section",
+    "data_kind": "synthetic_solver_fixture_not_actual_timetable",
+    "problem": {
+      "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+      "term": "DEMO",
+      "required_courses": [
+        "DEMO1001"
+      ],
+      "completed_courses": [],
+      "credit_min": 6,
+      "credit_max": 6,
+      "options": [
+        {
+          "option_id": "DEMO1001-01",
+          "course_code": "DEMO1001",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        },
+        {
+          "option_id": "DEMO1002-01",
+          "course_code": "DEMO1002",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.1,
+            "difficulty": 0.1,
+            "workload": 0.1
+          }
+        },
+        {
+          "option_id": "DEMO1003-01",
+          "course_code": "DEMO1003",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        },
+        {
+          "option_id": "DEMO1001-02",
+          "course_code": "DEMO1001",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        }
+      ]
+    },
+    "expected_status": "optimal",
+    "expected_options": [
+      "DEMO1001-02",
+      "DEMO1002-01"
+    ],
+    "expected_error": null,
+    "actual": {
+      "status": "optimal",
+      "selected_options": [
+        "DEMO1002-01",
+        "DEMO1001-02"
+      ],
+      "course_codes": [
+        "DEMO1002",
+        "DEMO1001"
+      ],
+      "credits": 6,
+      "objective": 1.5000000000000002,
+      "rejected_options": {},
+      "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+      "weekly_balance_verified": false,
+      "limitations": [
+        "Only the supplied reviewed rules and meetings are enforced.",
+        "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+      ]
+    },
+    "passed": true,
+    "seconds": 0.000669300090521574
+  },
+  {
+    "id": "M08",
+    "title": "Exclude an already completed course",
+    "data_kind": "synthetic_solver_fixture_not_actual_timetable",
+    "problem": {
+      "data_mode": "synthetic_test_fixture_not_actual_CityU_timetable",
+      "term": "DEMO",
+      "required_courses": [
+        "DEMO1001"
+      ],
+      "completed_courses": [
+        "DEMO1003"
+      ],
+      "credit_min": 6,
+      "credit_max": 6,
+      "options": [
+        {
+          "option_id": "DEMO1001-01",
+          "course_code": "DEMO1001",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        },
+        {
+          "option_id": "DEMO1002-01",
+          "course_code": "DEMO1002",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.1,
+            "difficulty": 0.1,
+            "workload": 0.1
+          }
+        },
+        {
+          "option_id": "DEMO1003-01",
+          "course_code": "DEMO1003",
+          "credits": 3,
+          "term": "DEMO",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "start_minute": 540,
+              "end_minute": 600
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.4,
+            "difficulty": 0.4,
+            "workload": 0.4
+          }
+        }
+      ]
+    },
+    "expected_status": "infeasible",
+    "expected_options": null,
+    "expected_error": null,
+    "actual": {
+      "status": "infeasible",
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+      "rejected_options": {
+        "DEMO1003-01": "already_completed"
+      }
+    },
+    "passed": true,
+    "seconds": 0.0007350998930633068
+  }
+]

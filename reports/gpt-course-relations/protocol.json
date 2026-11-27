@@ -1,0 +1,12 @@
+{
+  "teacher": "GPT assistant in the current Codex conversation; no separate GPT-6.1-sol API call claimed",
+  "parent_adapter": "adapters/timetable-grounded-correction",
+  "splits": {
+    "test": 20,
+    "validation": 20,
+    "train": 149
+  },
+  "edges": 26,
+  "scope": "GPT-authored utility distillation, shared course facts; not empirical correlation learning.",
+  "graph_sha256": "2bdce769525f014b3c961752ccea68db0decd84bd06ad7ce61fab9d5f8cc5d70"
+}

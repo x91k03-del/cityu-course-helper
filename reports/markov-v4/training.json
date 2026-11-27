@@ -1,0 +1,45 @@
+{
+  "model": {
+    "repo_id": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "retrieved_at": "2026-10-24T04:09:04.230857+00:00",
+    "official_url": "https://huggingface.co/Qwen/Qwen3-8B"
+  },
+  "args": {
+    "epochs": 2,
+    "accumulation": 4,
+    "max_length": 4096,
+    "lr": 5e-05,
+    "data_dir": "data/markov-v4",
+    "output_dir": "adapters/bscm-markov-v4",
+    "report_dir": "reports/markov-v4",
+    "init_adapter": "adapters/bscm-profit-v3",
+    "assistant_logits_only": true
+  },
+  "label_type": "user_rule_distillation_of_Markov_profit_parameters_with_synthetic_transcript_states",
+  "torch": "2.7.1+cu128",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "train_examples": 239,
+  "validation_examples": 24,
+  "training_method": "BF16 frozen base with rank-8 LoRA on all linear layers",
+  "trainable_parameters": 21823488,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.009511345352124386,
+      "validation_loss": 5.1019900700374494e-05
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0017814077268705514,
+      "validation_loss": 5.596186575686967e-05
+    }
+  ],
+  "status": "complete",
+  "loss_method": "assistant_positions_only_equivalent_masked_CE",
+  "initial_validation_loss": 0.2382778207803163,
+  "selected_epoch": 1,
+  "seconds": 255.77191290003248,
+  "peak_gpu_allocated_gb": 20.139927864074707,
+  "optimizer_steps": 120
+}

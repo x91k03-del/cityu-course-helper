@@ -1,0 +1,11 @@
+{
+  "parent_adapter": "adapters/timetable-grounded-correction",
+  "splits": {
+    "test": 16,
+    "validation": 12,
+    "train": 96
+  },
+  "policy": "No fixed five-course minimum; full eight-term chain must satisfy source minimum 122 and all other graduation rules.",
+  "user_authorised_repeating_AB": true,
+  "scope": "Synthetic rule distillation and source-evidence diagnostics, not real-student generalisation."
+}

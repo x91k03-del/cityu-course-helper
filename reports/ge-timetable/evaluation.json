@@ -1,0 +1,26 @@
+{
+  "bscm": {
+    "recall": {
+      "passed": 0,
+      "time_fields_match": 0,
+      "total": 12
+    },
+    "grounded": {
+      "passed": 12,
+      "time_fields_match": 12,
+      "total": 12
+    }
+  },
+  "timetable": {
+    "recall": {
+      "passed": 0,
+      "time_fields_match": 0,
+      "total": 12
+    },
+    "grounded": {
+      "passed": 12,
+      "time_fields_match": 12,
+      "total": 12
+    }
+  }
+}

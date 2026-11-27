@@ -1,0 +1,56 @@
+{
+  "source_pdf": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\EF3320_SEMB.pdf",
+  "source_sha256": "79954227761c22ac5be981e9b0e459202348c05be381789833762ec12a69bdbd",
+  "compatible_sections": [
+    {
+      "course_code": "EF3320",
+      "crn": "11425",
+      "section": "CA1",
+      "credits": 3,
+      "meetings": [
+        {
+          "day": "Fri",
+          "start_time": "16:00",
+          "end_time": "18:50",
+          "start_date": "2027-01-11",
+          "end_date": "2027-04-17",
+          "building": "YEUNG",
+          "room": "LT-3",
+          "pdf_page": 1
+        }
+      ],
+      "pdf_pages": [
+        1
+      ],
+      "web_registration": true,
+      "availability_at_capture": "9",
+      "capacity": 40,
+      "restrictions": [
+        {
+          "mode": "not",
+          "field": "college",
+          "raw": "CB",
+          "values": [
+            "CB"
+          ]
+        }
+      ],
+      "term_code": "202702",
+      "teaching_weeks": null,
+      "component_linking_verified": false,
+      "eligibility_verified": false
+    }
+  ],
+  "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF3320\", \"timetable_available\": true, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 1.5}",
+  "expected": {
+    "programme": "CM",
+    "term": "202702",
+    "course_code": "EF3320",
+    "timetable_available": true,
+    "finance_background": "none",
+    "EF_mismatch_penalty": 1.5
+  },
+  "model_output_accepted": true,
+  "original_benchmark_rejection": "The invented EF3320:10000 option was in a Semester-A response; the real record is EF3320:11425 in Semester B.",
+  "importer_bug_fixed": "General non-CB sections were incorrectly discarded because no explicit ONLY FOR CM line existed."
+}

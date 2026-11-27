@@ -1,0 +1,109 @@
+{
+  "date_hong_kong": "2026-10-25",
+  "model_cases": 26,
+  "model_generations": 52,
+  "novel_prompt_check": "No exact prompt matches train/validation/original-test prompts.",
+  "evaluation_design": "Exploratory: 24 initial cases plus 2 matched clean controls added after observing stress failures. Designed after the prior evaluation; some courses were previously evaluated. No weight updates.",
+  "scoring_pass_tolerance": 0.02,
+  "methods": {
+    "base": {
+      "categories": {
+        "new_profile_scoring": {
+          "passed": 0,
+          "total": 8,
+          "schema_valid": 8
+        },
+        "paraphrased_fact_extraction": {
+          "passed": 0,
+          "total": 6,
+          "schema_valid": 0
+        },
+        "scoring_stress": {
+          "passed": 0,
+          "total": 4,
+          "schema_valid": 4
+        },
+        "missing_information": {
+          "passed": 3,
+          "total": 3,
+          "schema_valid": 3
+        },
+        "untrained_advising_format": {
+          "passed": 3,
+          "total": 3,
+          "schema_valid": 3
+        },
+        "matched_clean_control": {
+          "passed": 0,
+          "total": 2,
+          "schema_valid": 2
+        }
+      },
+      "schema_valid": 20,
+      "scoring_valid": 14,
+      "scoring_total": 14,
+      "synthetic_mse_on_valid_scores": {
+        "background_mismatch": 0.04607142857142856,
+        "difficulty": 0.050357142857142864,
+        "workload": 0.03180000000000001
+      },
+      "fact_values_correct_after_numeric_normalization": 6,
+      "mean_generation_seconds": 3.8329575307613526
+    },
+    "fine_tuned": {
+      "categories": {
+        "new_profile_scoring": {
+          "passed": 4,
+          "total": 8,
+          "schema_valid": 8
+        },
+        "paraphrased_fact_extraction": {
+          "passed": 6,
+          "total": 6,
+          "schema_valid": 6
+        },
+        "scoring_stress": {
+          "passed": 0,
+          "total": 4,
+          "schema_valid": 4
+        },
+        "missing_information": {
+          "passed": 3,
+          "total": 3,
+          "schema_valid": 3
+        },
+        "untrained_advising_format": {
+          "passed": 3,
+          "total": 3,
+          "schema_valid": 3
+        },
+        "matched_clean_control": {
+          "passed": 0,
+          "total": 2,
+          "schema_valid": 2
+        }
+      },
+      "schema_valid": 26,
+      "scoring_valid": 14,
+      "scoring_total": 14,
+      "synthetic_mse_on_valid_scores": {
+        "background_mismatch": 0.02910714285714286,
+        "difficulty": 0.004821428571428572,
+        "workload": 0.005435714285714287
+      },
+      "fact_values_correct_after_numeric_normalization": 6,
+      "mean_generation_seconds": 3.358168165351694
+    }
+  },
+  "scheduler": {
+    "passed": 8,
+    "total": 8
+  },
+  "model": {
+    "repo_id": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "retrieved_at": "2026-10-24T04:09:04.230857+00:00",
+    "official_url": "https://huggingface.co/Qwen/Qwen3-8B"
+  },
+  "adapter_sha256": "41d5a47b95fbbfb4027e2383d320644619abb1838b93cafe1c74870b03902612"
+}

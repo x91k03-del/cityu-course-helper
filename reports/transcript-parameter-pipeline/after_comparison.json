@@ -1,0 +1,29 @@
+[
+  {
+    "id": "F",
+    "transcript_accepted": true,
+    "prompted_accepted": true,
+    "parameters_identical": true,
+    "optimizer_paths_identical": true,
+    "credits": 122.0,
+    "objective": 154.3120775871616
+  },
+  {
+    "id": "N",
+    "transcript_accepted": true,
+    "prompted_accepted": true,
+    "parameters_identical": true,
+    "optimizer_paths_identical": true,
+    "credits": 122.0,
+    "objective": 140.126282183488
+  },
+  {
+    "id": "M",
+    "transcript_accepted": true,
+    "prompted_accepted": true,
+    "parameters_identical": true,
+    "optimizer_paths_identical": true,
+    "credits": 122.0,
+    "objective": 153.65504861058557
+  }
+]

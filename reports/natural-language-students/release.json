@@ -1,0 +1,45 @@
+{
+  "adapter": "adapters/natural-language-students",
+  "parent_adapter": "adapters/gpt-course-relations-max",
+  "accepted_for_activation": false,
+  "role": "User-only natural-language transcript/profile extraction and preparation reward task; external planner chooses paths",
+  "before": {
+    "heldout": {
+      "passed": 0,
+      "total": 16
+    },
+    "familiar_failures": {
+      "passed": 0,
+      "total": 0
+    },
+    "legacy_relations": {
+      "passed": 0,
+      "total": 0
+    },
+    "scope": "Bounded pre-training baseline on the first saved heldout cases only. Compare these same IDs after training; full post-training evaluation uses all 48 heldout cases."
+  },
+  "after": {
+    "heldout": {
+      "passed": 24,
+      "total": 48
+    },
+    "familiar_failures": {
+      "passed": 9,
+      "total": 12
+    },
+    "legacy_relations": {
+      "passed": 20,
+      "total": 20
+    },
+    "fresh_manual": {
+      "passed": 5,
+      "total": 6
+    }
+  },
+  "training_performed": true,
+  "requires_system_prompt": false,
+  "selected_epoch": 3,
+  "sha256": "4afa9cef61c66d9f059dd24f70f7cef83dc52cbcbc909ffbf077be16ceb60c6a",
+  "legacy_active_relation_adapter_unchanged": true,
+  "validation_required": true
+}

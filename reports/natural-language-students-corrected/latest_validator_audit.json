@@ -1,0 +1,332 @@
+[
+  {
+    "id": "final_test:6:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:3:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:7:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:18:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:21:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:14:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:19:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:5:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:10:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:2:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:12:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:1:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:6:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:11:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:9:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:4:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:17:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:17:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:8:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:22:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:10:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:23:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:20:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:7:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:16:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:18:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:4:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:23:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:2:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:20:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:0:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:22:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:21:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:15:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:5:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:1:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:3:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:14:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:19:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:11:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:16:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:15:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:9:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:12:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:13:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:0:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:13:1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "final_test:8:0",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:FIN_PASS_NL1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:FIN_PASS_NL2",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:FIN_FAIL_NL1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:FIN_FAIL_NL2",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:AI_GE_NL1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:AI_GE_NL2",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:AI_MAX_NL1",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:AI_MAX_NL2",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:FIN_PASS_TRANSCRIPT_ONLY",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:FIN_PASS_PLAN",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:AI_GE_TRANSCRIPT_ONLY",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "correct:AI_GE_PLAN",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "manual:finance_pass",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "manual:finance_fail",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "manual:p_is_pass",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "manual:cs_plan_context_missing",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "manual:explicit_weights",
+    "accepted": true,
+    "error": null
+  },
+  {
+    "id": "manual:unknown_grade",
+    "accepted": true,
+    "error": null
+  }
+]

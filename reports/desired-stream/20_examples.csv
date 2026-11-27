@@ -1,0 +1,22 @@
+﻿FICTIONAL TEST PROFILES - NOT OFFICIAL UNIVERSITY RECORDS
+profile,programme,desired_stream,GE_passed,stream_weight,path_status,dependency_layers,pending_rules,blocking_courses,model_accepted
+CM_01,CM,Enriched Mathematics,"GE1113, GE2260",2.0,academic_dependency_path,MA3523+MA4542+MA4545+MA4546,,,False
+CM_02,CM,Financial Mathematics,GE1113,3.0,blocked,MA3521+MA4537 -> MA4529,MA4537,CB3410; EF3320,False
+CM_03,CM,Enriched Mathematics,"GE1113, GE2340",3.0,academic_dependency_path,MA3523+MA4542+MA4545+MA4546,,,False
+CM_04,CM,Financial Mathematics,"GE2134, GE1105",2.0,blocked,MA3521+MA4537 -> MA4529,MA4537,CB3410; EF3320,False
+CM_05,CM,Enriched Mathematics,"GE1105, GE1202",2.0,academic_dependency_path,MA3523+MA4542+MA4545+MA4546,,,False
+CM_06,CM,Financial Mathematics,"GE1113, GE1202, GE1105",2.0,blocked,MA3521+MA4537 -> MA4529,MA4537,CB3410; EF3320,False
+CM_07,CM,Enriched Mathematics,GE2340,2.0,academic_dependency_path,MA3523+MA4542+MA4545+MA4546,,,False
+CM_08,CM,Financial Mathematics,"GE2134, GE2260",3.0,blocked,MA3521+MA4537 -> MA4529,MA4537,CB3410; EF3320,False
+CM_09,CM,Enriched Mathematics,"GE2134, GE2260",3.0,academic_dependency_path,MA3523+MA4542+MA4545+MA4546,,,False
+CM_10,CM,Financial Mathematics,"GE1105, GE1113, GE2134",3.0,blocked,MA3521+MA4537 -> MA4529,MA4537,CB3410; EF3320,False
+CS_01,CS,Artificial Intelligence,"GE1305, GE1105",4.0,academic_dependency_path,CS3383+CS4486 -> CS4487,,,True
+CS_02,CS,Data Science,GE1305,3.0,academic_dependency_path,CS3402+CS3481 -> CS4480+CS4487,,,True
+CS_03,CS,Cybersecurity,"GE1202, GE1105",2.0,provisional_missing_rules,CS4286+CS4293+CS4394,CS4286,,True
+CS_04,CS,Multimedia Computing,"GE1105, GE2134",3.0,academic_dependency_path,CS3189+CS3483+CS4182,,,True
+CS_05,CS,Software Engineering and Project Management,"GE1202, GE2340, GE1105",4.0,provisional_missing_rules,CS3346+CS3356+CS4348,CS4348,,True
+CS_06,CS,Artificial Intelligence,"GE2260, GE2134, GE1113",2.0,academic_dependency_path,CS3383+CS4486 -> CS4487,,,True
+CS_07,CS,Data Science,"GE1105, GE1305",4.0,academic_dependency_path,CS3402+CS3481 -> CS4480+CS4487,,,True
+CS_08,CS,Cybersecurity,"GE2260, GE1105",2.0,provisional_missing_rules,CS4286+CS4293+CS4394,CS4286,,True
+CS_09,CS,Multimedia Computing,"GE2134, GE2260, GE1305",4.0,academic_dependency_path,CS3189+CS3483+CS4182,,,True
+CS_10,CS,Software Engineering and Project Management,"GE2340, GE2260",4.0,provisional_missing_rules,CS3346+CS3356+CS4348,CS4348,,True

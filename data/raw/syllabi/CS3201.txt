@@ -1,0 +1,189 @@
+1         CS3201: Computer Networks
+CS3201: COMPUTER NETWORKS
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Computer Networks 
+Subject Code
+CS - Computer Science 
+Course Number
+3201 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+CS2310 Computer Programming or 
+CS2311 Computer Programming or 
+CS2315 Computer Programming or 
+CS2334 Data Structures for Data Science or 
+CS2360 Java Programming 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+2         CS3201: Computer Networks
+Part II Course Details
+Abstract
+This course aims to introduce fundamental concepts in data communication and computer networks.  The framework
+of the course is the 5-layer architecture, with the lower layers up to and including the transport layer as the main focus.
+Examples will be drawn liberally from the Internet to illustrate abstract concepts so that students can understand how a
+computer network actually works.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Identify and describe the key transmission level
+technologies used in modern communication
+networks.
+20
+2 Apply the concepts of layered architecture in
+assessing the placement of network devices,
+protocols and services.
+15
+3 Explain the working of error control and
+medium access control protocols in the data
+link layer and apply them to both wired and
+wireless local area networks.
+15
+4 Explain the role of routing, congestion and ﬂow
+control, naming and internetworking in the
+context of a global network such as the Internet,
+and the common protocols used to implement
+these functions.
+25
+5 Compare the services provided by the UDP/
+TCP transport layer protocols and explain the
+mechanisms used to provide a reliable data
+transport service on an unreliable IP network.
+10
+6 Analyze the application of network technologies
+in designated scenarios and explore how these
+technologies can be deployed to support the
+Quality of Service requirements of current and
+future applications.
+15 x x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+3         CS3201: Computer Networks
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Explain key concepts. 1, 2, 3, 4, 5, 6 3 hours/week
+2 Tutorials The tutorials provide
+an opportunity for the
+students to discuss
+and deepen their
+understanding of material
+learned during the
+lecture. In particular,
+questions will be
+formulated in the form
+of speciﬁc scenarios
+to help the students to
+apply concepts learned
+and to encourage them
+to propose creative
+solutions.
+1, 2, 3, 4, 5 1 hour/week 
+started from week 2 
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Assignments 1, 2, 3, 4, 5, 6 18 - Yes
+2 Quiz 1, 2, 3 12 - No
+Continuous Assessment (%)
+30 
+Examination (%)
+70 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Assignments 
+Criterion
+Ability to apply concepts learned in lectures to solve problems in data communications and computer networks. 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+4         CS3201: Computer Networks
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Quiz 
+Criterion
+Ability to solve short questions in data communications and computer networks. 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Examination 
+Criterion
+Ability to apply concepts learned in lectures to solve problems in data communications and computer networks, including
+modelling, analysis of performance, speciﬁcation evaluation of appropriate technology for speciﬁc network scenarios. 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+5         CS3201: Computer Networks
+Part III Other Information
+Keyword Syllabus
+Data transmission. Coding. Modulation techniques. Common network devices and conﬁgurations. Layered network
+architecture: The OSI and Internet TCP/IP reference models. Data link layer: error control and ﬂow control issues. Sliding
+window protocols. LANs and medium access protocols. Network layer issues: addressing, routing, congestion and ﬂow
+control. Internetworking. Transport layer issues. Case study based on TCP/UDP and IP protocols.
+Reading List
+Compulsory Readings
+ Title
+1 Tanenbaum A. and Wetherell D. J. (2010). Computer Networks. Prentice Hall, 5th edition.
+Additional Readings
+ Title
+1 Kurose, J. F. and Ross, K. W. (2012). Computer Networking: A Top Down Approach. Addison- Wesley, 6th edition.
+2 Stallings, W. (2013). Data and Computer Communications. Prentice Hall, 10th edition.
+3 Comer, D. (2014). Computer Networks and Internets. Prentice Hall, 6th edition.
+4 Forouzan, B. A. (2013). Data Communications and Networks. McGraw Hill, 5th edition.

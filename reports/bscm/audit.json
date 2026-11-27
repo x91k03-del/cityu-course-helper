@@ -1,0 +1,9 @@
+{
+  "unique_prompts": true,
+  "maximum_token_lengths": {
+    "train": 1059,
+    "validation": 630,
+    "test": 558
+  },
+  "original_adapter_sha256": "41d5a47b95fbbfb4027e2383d320644619abb1838b93cafe1c74870b03902612"
+}

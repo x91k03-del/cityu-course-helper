@@ -1,0 +1,20 @@
+{
+  "examples": {
+    "train": 239,
+    "validation": 24,
+    "test": 28
+  },
+  "seed": 2025111604,
+  "scope": "User-rule distillation of configured academic utility parameters. Not empirical reward learning or actual student outcomes.",
+  "state_vectors_disjoint": true,
+  "official_minimum": 122,
+  "user_minimum": 121,
+  "math_elective_minimum": 20,
+  "GE_minimum": 4,
+  "required_areas": [
+    1,
+    2,
+    3
+  ],
+  "full_transcript_states_in_training": 15
+}

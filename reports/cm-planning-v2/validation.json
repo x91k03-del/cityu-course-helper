@@ -1,0 +1,11 @@
+{
+  "automated_tests": 74,
+  "all_passed": true,
+  "public_demo_courses": 5,
+  "public_demo_credits": 15,
+  "maths_priorities_selected": [
+    "MA3512",
+    "MA3518"
+  ],
+  "source_experiment_is_hypothetical": true
+}

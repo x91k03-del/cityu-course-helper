@@ -1,0 +1,9 @@
+{
+  "prompt_splits_disjoint": true,
+  "maximum_token_lengths": {
+    "train": 882,
+    "validation": 268,
+    "test": 266
+  },
+  "fact_targets_shared_across_paraphrases": true
+}

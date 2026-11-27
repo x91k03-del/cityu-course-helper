@@ -1,0 +1,18 @@
+{
+  "adapter": "adapters/bscm-preparation-v5",
+  "adapter_sha256": "ae9fa01a7814e7a7c88cf75dc354bd2c843c3263a6c9fbee147cae0cc72beeff",
+  "source_adapter": "adapters/bscm-markov-v4",
+  "source_adapter_sha256": "0bc7135f4f94f520adc097086bba02326ef99070c2d79314b607befc761e24d3",
+  "model_role": "state_dependent_profit_parameters_GE_cap_and_direct_preparation_controller",
+  "training_performed": true,
+  "selected_epoch": 2,
+  "policy_file": "data/four_year_policy.json",
+  "preparation_hypotheses": "data/preparation-v5.json",
+  "formal_prerequisite_branches": "data/preparation-v5-prerequisites.json",
+  "training_report": "reports/preparation-v5/training.json",
+  "evaluation_report": "reports/preparation-v5/evaluation.json",
+  "four_year_audit_report": "reports/preparation-v5/validation.json",
+  "final_selection_authority": "hard_constrained_curriculum_solver",
+  "full_current_syllabi_downloaded": false,
+  "official_graduation_verified": false
+}

@@ -1,0 +1,268 @@
+1         GE1313: Earthquakes
+GE1313: EARTHQUAKES
+Eﬀective Term
+Semester B 2025/26 
+Part I Course Overview
+Course Title
+Earthquakes 
+Subject Code
+GE - Gateway Education 
+Course Number
+1313 
+Academic Unit
+Architecture and Civil Engineering (CA) 
+College/School
+College of Engineering (EG) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+GE Area (Primary)
+Area 3 - Science and Technology 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+2         GE1313: Earthquakes
+Part II Course Details
+Abstract
+This course introduces students to earthquakes in aspects related to science, engineering and the society. Science aspects
+include the origin of earthquakes and their geographical distribution, how they propagate through the earth crust and
+aﬀect human beings. Engineering and social aspects cover the common methods used for quantifying and monitoring
+earthquakes, their damage on constructed facilities, preparedness and disaster mitigation strategies. Teaching and learning
+activities include formal lecture, discussion, and experimental demonstration. Students from all disciplines are welcome.
+Students shall pursue a topic of their own interest and background in a group project with presentation, which will allow
+them to consolidate the materials learnt in the course for learning development in their own discipline of focus.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Describe the overall earthquake process and
+implications, including the origin, geographical
+distribution, seismic wave propagation and
+attenuation.
+20 x
+2 Describe common scales used for quantifying
+earthquakes, the principles involved; and
+interpret earthquake events in news and
+earthquake monitoring websites.
+20 x
+3 Describe the primary eﬀects of an earthquake
+event to human beings; how constructed
+facilities are damaged and common solutions
+adopted for buildings and lifeline facilities.
+20 x
+4 Describe the secondary eﬀects of an earthquake
+event to human beings, e.g., landslides, tsunami
+and post-earthquake ﬁre.
+10 x
+5 Describe existing preparedness and disaster
+mitigation strategies against earthquake risks.
+10 x
+6 Develop an approach to understand and
+discover earthquake related issues of personal
+interest; and explain to public audience in a
+comprehensible manner
+20 x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+3         GE1313: Earthquakes
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Students will attend
+formal lectures to gain
+knowledge about the
+overall earthquake
+process and seismic wave
+phenomena.
+1, 2
+2 Lecture Students will engage
+in formal lectures
+to obtain knowledge
+regarding experimental
+demonstration of seismic
+wave phenomena.
+1
+3 Lecture Students will engage
+in formal lectures to
+learn knowledge about
+earthquake magnitudes
+and intensities and to
+participate in case studies
+and discussion using
+current and past news of
+earthquake events.
+2
+4 Lecture Students will engage in
+formal lectures to gain
+knowledge in terms of
+seismicity and seismic
+monitoring in Hong
+Kong, preparedness, and
+mitigation.
+6
+5 Lecture Students will engage in
+formal lectures to obtain
+knowledge about primary
+eﬀects of earthquakes
+(e.g., buildings, lifelines).
+3
+6 Lecture Students will engage in
+formal lectures to gain
+knowledge regarding
+secondary eﬀects of
+earthquakes (e.g.,
+landslide, tsunami, ﬁre,
+economic loss).
+4
+4         GE1313: Earthquakes
+7 Group Project/Group
+Presentation
+Students will participate
+in groups to pursue a
+topic of their own interest
+and background after
+the consultation with
+the instructor; submit a
+group report explaining
+the issue focused and
+discussing their ﬁndings
+in the context of course;
+and engage in critical
+discussion on assessed
+group presentations in
+order to increase their
+knowledge and skills.
+1, 2, 3, 4, 5, 6
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Two Assignments 1, 2, 3, 4 20 - No
+2 Group project
+report
+1, 2, 3, 4, 5, 6 50 - No
+3 Group project
+presentation
+1, 2, 3, 4, 5, 6 30 - No
+Continuous Assessment (%)
+100 
+Examination (%)
+0 
+Examination Duration (Hours)
+0 
+Minimum Continuous Assessment Passing Requirement (%)
+40 
+Minimum Examination Passing Requirement (%)
+0 
+Additional Information for ATs
+To pass a course, a student must obtain minimum marks of 40% in coursework components.
+Assessment Rubrics (AR)
+Assessment Task
+Two Assignments 
+Criterion
+Capacity to discuss earthquake process and implications 
+Excellent (A+, A, A-)
+Excellent grasp of the earthquake process and implications 
+Good (B+, B, B-)
+5         GE1313: Earthquakes
+Some grasp of the earthquake process and implications 
+Fair (C+, C, C-)
+Fair grasp of the earthquake process and implications 
+Marginal (D)
+Little grasp of the earthquake process and implications 
+Failure (F)
+Not even reaching marginal level 
+Assessment Task
+Group project report 
+Criterion
+Capacity to explain the issue focused and discuss their ﬁndings 
+Excellent (A+, A, A-)
+Clear description of problem focused in relation to course context 
+Good (B+, B, B-)
+Some description of problem focused in relation to course context 
+Fair (C+, C, C-)
+Insuﬃcient description of problem focused in relation to course context 
+Marginal (D)
+Little or no description of problem focused in relation to course context 
+Failure (F)
+Not even reaching marginal level 
+Assessment Task
+Group project presentation 
+Criterion
+Capacity to explain the issue focused and discuss their ﬁndings 
+Excellent (A+, A, A-)
+Clear description of problem focused in relation to course context 
+Good (B+, B, B-)
+Some description of problem focused in relation to course context 
+Fair (C+, C, C-)
+Insuﬃcient description of problem focused in relation to course context 
+Marginal (D)
+Little or no description of problem focused in relation to course context 
+Failure (F)
+Not even reaching marginal level 
+6         GE1313: Earthquakes
+Part III Other Information
+Keyword Syllabus
+Earthquake hazards, ring of ﬁre, wave propagation, earthquake magnitude and intensity, tsunami, earthquake loss, seismic
+monitoring
+Reading List
+Compulsory Readings
+ Title
+1 Lecture notes
+Additional Readings
+ Title
+1 United States Geological Survey (2001), This Dynamic Earth.
+2 Bolt BA (2004). Earthquakes. W. H. Freeman, New York.
+3 Kramer SL (1996). Geotechnical Earthquake Engineering. Prentice-Hall.
+4 Reiter L. (1990). Earthquake Hazard Analysis. Columbia University Press.
+5 This Dynamic Earth', online version, USGS http://pubs.usgs.gov/gip/dynamic/
+6 Earthquake Hazards Program, United States Geological Survey (USGS) http://earthquake.usgs.gov/
+7 China Seismological Bureau (中國地震信息網) http://www.csi.ac.cn
+8 HK Observatory [earthquakes in HK] http://www.weather.gov.hk/gts/equake/seismic_mon_e.htm?defaultpopup=0
+9 Consortium of Organizations for Strong-Motion Observation Systems (COSMOS) http://db.cosmos-eq.org/scripts/
+default.plx
+Annex (for GE courses only)
+A. Please specify the Gateway Education Programme Intended Learning Outcomes (PILOs) that the course is aligned to
+and relate them to the CILOs stated in Part II, Section 2 of this form:
+Please indicate which CILO(s) is/are related to this PILO, if any (can be more than one CILOs in each PILO)
+PILO 2: Explain the basic methodologies and techniques of inquiry of the arts and humanities, social sciences,
+business, and science and technology
+1, 3, 4, 5 
+PILO 3: Demonstrate critical thinking skills
+6 
+PILO 4: Interpret information and numerical data
+1 
+PILO 5: Produce structured, well-organised and ﬂuent text
+6 
+PILO 6: Demonstrate eﬀective oral communication skills
+6 
+PILO 7: Demonstrate an ability to work eﬀectively in a team
+6 
+7         GE1313: Earthquakes
+PILO 10: Demonstrate the attitude and/or ability to accomplish discovery and/or innovation
+6 
+B. Please select an assessment task for collecting evidence of student achievement for quality assurance purposes.
+Please retain at least one sample of student achievement across a period of three years.
+Selected Assessment Task
+Student project 

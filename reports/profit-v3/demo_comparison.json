@@ -1,0 +1,169 @@
+{
+  "no_overload_penalty": {
+    "status": "optimal",
+    "selected_options": [
+      "DEMO1000-SIM",
+      "DEMO1001-SIM",
+      "DEMO1002-SIM",
+      "DEMO1003-SIM",
+      "DEMO1004-SIM",
+      "DEMO1005-SIM",
+      "DEMO1006-SIM",
+      "DEMO1007-SIM"
+    ],
+    "course_codes": [
+      "DEMO1000",
+      "DEMO1001",
+      "DEMO1002",
+      "DEMO1003",
+      "DEMO1004",
+      "DEMO1005",
+      "DEMO1006",
+      "DEMO1007"
+    ],
+    "credits": 24,
+    "objective": 21.6,
+    "objective_sense": "maximize",
+    "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+    "profit_breakdown": {
+      "course_profit": 24.0,
+      "maths_priority_bonus": 0.0,
+      "gross_profit": 24.0,
+      "student_cost_penalty": 2.4000000000000004,
+      "overload_penalty": 0.0,
+      "total_profit_penalty": 2.4000000000000004,
+      "net_profit": 21.6,
+      "schedule_loss": -21.6,
+      "course_count": 8
+    },
+    "objective_settings": {
+      "objective_mode": "profit",
+      "base_course_profit": 3.0,
+      "overload_reference_courses": 5,
+      "overload_penalty_weight": 0.0
+    },
+    "course_count": 8,
+    "course_min": 5,
+    "course_max": 8,
+    "student_cost": 2.4000000000000004,
+    "graduation_priority_weight": 0.0,
+    "selected_priority_courses": [],
+    "unselected_priority_courses": [],
+    "priority_policy_note": null,
+    "rejected_options": {},
+    "data_mode": "synthetic_policy_test_not_actual_CityU_times_or_eligibility",
+    "weekly_balance_verified": false,
+    "limitations": [
+      "Only the supplied reviewed rules and meetings are enforced.",
+      "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+    ]
+  },
+  "default_overload_penalty": {
+    "status": "optimal",
+    "selected_options": [
+      "DEMO1003-SIM",
+      "DEMO1004-SIM",
+      "DEMO1005-SIM",
+      "DEMO1006-SIM",
+      "DEMO1007-SIM"
+    ],
+    "course_codes": [
+      "DEMO1003",
+      "DEMO1004",
+      "DEMO1005",
+      "DEMO1006",
+      "DEMO1007"
+    ],
+    "credits": 15,
+    "objective": 13.5,
+    "objective_sense": "maximize",
+    "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+    "profit_breakdown": {
+      "course_profit": 15.0,
+      "maths_priority_bonus": 0.0,
+      "gross_profit": 15.0,
+      "student_cost_penalty": 1.5000000000000002,
+      "overload_penalty": 0.0,
+      "total_profit_penalty": 1.5000000000000002,
+      "net_profit": 13.5,
+      "schedule_loss": -13.5,
+      "course_count": 5
+    },
+    "objective_settings": {
+      "objective_mode": "profit",
+      "base_course_profit": 3.0,
+      "overload_reference_courses": 5,
+      "overload_penalty_weight": 3.0
+    },
+    "course_count": 5,
+    "course_min": 5,
+    "course_max": 8,
+    "student_cost": 1.5000000000000002,
+    "graduation_priority_weight": 0.0,
+    "selected_priority_courses": [],
+    "unselected_priority_courses": [],
+    "priority_policy_note": null,
+    "rejected_options": {},
+    "data_mode": "synthetic_policy_test_not_actual_CityU_times_or_eligibility",
+    "weekly_balance_verified": false,
+    "limitations": [
+      "Only the supplied reviewed rules and meetings are enforced.",
+      "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+    ]
+  },
+  "high_course_profit": {
+    "status": "optimal",
+    "selected_options": [
+      "DEMO1002-SIM",
+      "DEMO1003-SIM",
+      "DEMO1004-SIM",
+      "DEMO1005-SIM",
+      "DEMO1006-SIM",
+      "DEMO1007-SIM"
+    ],
+    "course_codes": [
+      "DEMO1002",
+      "DEMO1003",
+      "DEMO1004",
+      "DEMO1005",
+      "DEMO1006",
+      "DEMO1007"
+    ],
+    "credits": 18,
+    "objective": 43.2,
+    "objective_sense": "maximize",
+    "objective_model": "net_course_profit_after_cost_and_overload_penalties",
+    "profit_breakdown": {
+      "course_profit": 48.0,
+      "maths_priority_bonus": 0.0,
+      "gross_profit": 48.0,
+      "student_cost_penalty": 1.8000000000000003,
+      "overload_penalty": 3.0,
+      "total_profit_penalty": 4.800000000000001,
+      "net_profit": 43.2,
+      "schedule_loss": -43.2,
+      "course_count": 6
+    },
+    "objective_settings": {
+      "objective_mode": "profit",
+      "base_course_profit": 8.0,
+      "overload_reference_courses": 5,
+      "overload_penalty_weight": 3.0
+    },
+    "course_count": 6,
+    "course_min": 5,
+    "course_max": 8,
+    "student_cost": 1.8000000000000003,
+    "graduation_priority_weight": 0.0,
+    "selected_priority_courses": [],
+    "unselected_priority_courses": [],
+    "priority_policy_note": null,
+    "rejected_options": {},
+    "data_mode": "synthetic_policy_test_not_actual_CityU_times_or_eligibility",
+    "weekly_balance_verified": false,
+    "limitations": [
+      "Only the supplied reviewed rules and meetings are enforced.",
+      "Scores may be synthetic estimates. Seats and registration are not guaranteed."
+    ]
+  }
+}

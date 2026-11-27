@@ -1,0 +1,179 @@
+1         CS2066: IT Professionals and Society
+CS2066: IT PROFESSIONALS AND SOCIETY
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+IT Professionals and Society 
+Subject Code
+CS - Computer Science 
+Course Number
+2066 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+JC2066 IT Professionals: Ethical, Legal and Social Issues 
+Exclusive Courses
+SS3904 Science, Technology and Society for Computing 
+Part II Course Details
+Abstract
+The course aims to provide students with concepts and knowledge of technology trend and its impact on the society.  It
+stimulates students to have a basic awareness of the legal responsibilities, ethical obligations and professional conduct as
+2         CS2066: IT Professionals and Society
+an IT professional; and understand issues relating to sustainable development, health and safety in the workplace of an
+information society.  Eminent professionals are invited to deliver some of the lectures, aiming to provide students with
+some professional insights leading to the need for life-long learning.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Recognise the impact of information technology
+on the society, and the role of IT professionals in
+the development of ICT industries.
+x x
+2 Understand the responsibilities of IT
+professionals in sustainable development, and
+health and safety in the workplace.
+x x
+3 Describe the legal responsibilities, ethical
+obligations and rules of conduct of an IT
+professional.
+x x
+4 Recognise and appreciate the world-wide
+technology trend and innovation, and the need
+for life-long learning.
+x x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+3         CS2066: IT Professionals and Society
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Made up of a mixture of
+lectures and group work.
+Professional engineers,
+eminent industrialists
+and ICAC oﬃcers will be
+invited as guest lecturers
+to enrich students’
+learning. Students’
+learning on each lecture
+topic is complemented
+by selected case studies,
+assignments and follow-
+up group work or
+individual assignments.
+Tutorials provide the
+forum for case analyses,
+topical discussions and
+interactions among
+students and tutor.
+1, 2, 3, 4 2 hours/ week
+2 TutorialXGroup Work/
+Individual Work)
+1, 2, 3, 4 1 hour/ week
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 At least 2 group
+assignments with
+presentation
+1, 2, 3, 4 40 - Yes
+2 Short test 1, 2, 3 10 - No
+Continuous Assessment (%)
+50 
+Examination (%)
+50 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Continuous Assessment 
+Criterion
+Achievements in CILOs 
+4         CS2066: IT Professionals and Society
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Examination 
+Criterion
+Achievements in CILOs 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Part III Other Information
+Keyword Syllabus
+• Introduction to Local and Global Industry 
+Overview of local and global ICT industries in various sectors. International cooperation. Technology transfer. Quality
+assurance practices.
+• Engineering and Society 
+Impact of engineering on society and impact of society on engineering- key issues. The role of engineers and
+professionals in society.
+• Technological Trends and life-long learning 
+Emerging technologies. Eminent practitioners in industry and commerce will be invited to deliver at least 3 topics of
+current interests. Continuous professional development and life-long learning.
+• Ethics in Practice 
+Engineering professional ethics, conﬂicts of interests, code of conduct, legal issues.
+• Health and safety 
+5         CS2066: IT Professionals and Society
+Health, safety and welfare at work, preventing the unlawful activities
+• Sustainable development 
+Environmental issues, shortage of resources, sustainable development.
+Reading List
+Compulsory Readings
+ Title
+1 Nil
+Additional Readings
+ Title
+1 L. S. Hjorth, B. A. Eichler, A. S. Khan, J. A. Morello: Technology and Society ‒ issues for the 21st century and beyond.
+(Pearson, 3rd edition, 2008).
+2 Charles E. Harris, Michael S. Pritchard & Michael J. Rabins, Engineering Ethics: Concepts and Cases, Belmont,
+California: Wadsworth, ISBN: 978-0495502791.
+3 Castells, M., Fernández-Ardèvol, M. Qiu, J. L., and Sey, A. Mobile communication and society: a global perspective.
+(Cambridge, Mass. : MIT Press, 2009)
+4 Website of HKIE https://www.hkie.org.hk/en/

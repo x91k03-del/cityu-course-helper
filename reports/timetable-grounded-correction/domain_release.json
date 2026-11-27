@@ -1,0 +1,25 @@
+{
+  "adapter": "adapters/timetable-grounded-correction",
+  "report_dir": "reports/timetable-grounded-correction",
+  "accepted_for_activation": true,
+  "scope": "Timetable availability, offered option selection, minimum load and EF background penalty only.",
+  "general_stream_model_replaced": false,
+  "general_adapter_retained": "adapters/cm-finance-background",
+  "reason": "Timetable-domain checks passed; retain the prior general checkpoint after a historical stream-answer regression.",
+  "sha256": "a4aa028229c62a92a63d370ac414220fe8942f4c26567b061e1b428ac7f3500c",
+  "evaluation": {
+    "heldout_policy": {
+      "passed": 20,
+      "total": 20
+    },
+    "familiar_schedule_diagnostics": {
+      "passed": 10,
+      "total": 10
+    },
+    "historical_regression": {
+      "passed": 4,
+      "total": 6
+    }
+  },
+  "raw_outputs_require_validation": true
+}

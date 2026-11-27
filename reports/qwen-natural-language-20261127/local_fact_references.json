@@ -1,0 +1,42 @@
+[
+  {
+    "course_code": "MA1300",
+    "title": "Enhanced Calculus and Linear Algebra I",
+    "source_pdf": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA1300.pdf"
+  },
+  {
+    "course_code": "EF3320",
+    "title": "Security Analysis and Portfolio Management",
+    "source_pdf": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\EF3320_SEMB.pdf"
+  },
+  {
+    "course_code": "CS2310",
+    "title": "Computer Programming",
+    "source_pdf": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs2310.pdf"
+  },
+  {
+    "course_code": "CS2310",
+    "title": "Computer Programming",
+    "source_pdf": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs semb time\\cs2310.pdf"
+  },
+  {
+    "course_code": "CS1302",
+    "title": "Introduction to Computer Programming",
+    "source_url": "https://www.cityu.edu.hk/ug/202627/course/CS1302.pdf"
+  },
+  {
+    "course_code": "CS1302A",
+    "title": "Introduction to Computer Programming",
+    "source_url": "https://www.cityu.edu.hk/ug/202627/course/CS1302A.pdf"
+  },
+  {
+    "course_code": "MA2510",
+    "title": "Probability and Statistics",
+    "source_pdf": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA2510.pdf"
+  },
+  {
+    "course_code": "MA3515",
+    "title": "Introduction to Optimization",
+    "source_pdf": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3515.pdf"
+  }
+]

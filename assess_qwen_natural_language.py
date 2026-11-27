@@ -1,0 +1,119 @@
+"""Record observations from raw, uncorrected natural-language Qwen outputs."""
+import json,re
+from pathlib import Path
+import project_runtime
+from programme_policy import allowed
+
+ROOT=Path(__file__).resolve().parent
+OUT=ROOT/'reports/qwen-natural-language-20261127'
+rows=json.loads((OUT/'results.json').read_text(encoding='utf-8'))
+assert len(rows)==len({r['id'] for r in rows})==12
+assert all(len(r['messages'])==1 and r['messages'][0]['role']=='user' for r in rows)
+rendered=(OUT/'rendered_inputs.txt').read_text(encoding='utf-8')
+assert '<|im_start|>system' not in rendered and rendered.count('CASE ')==12
+plans=[]
+for r in rows:
+    if r['mode']!='ordinary_planning_question':continue
+    programme='CM' if r['group']=='FIN_PASS' else 'CS'
+    # Only course codes in recommendation headings, rather than every mention.
+    proposed=re.findall(r'^#{2,5}\s+(?:\*\*)?(?:\d+\.\s*)?([A-Z]{2,6}\d{4}[A-Z]?)',r['raw_output'],re.M)
+    plans.append({'case':r['id'],'programme':programme,
+                  'recommended_heading_codes':proposed,
+                  'programme_allowed':{code:allowed(programme,code) for code in proposed},
+                  'scope':'Membership in saved programme allowlist only; no claim these codes do not exist elsewhere.'})
+(OUT/'planning_allowlist_audit.json').write_text(json.dumps(plans,indent=2),encoding='utf-8')
+
+text='''NATURAL-LANGUAGE TRANSCRIPT TEST: QWEN
+
+Conclusion
+The active fine-tuned model accepts ordinary natural-language input, but its
+standalone advice is not consistently grounded in the saved course facts.
+Broad finance-background advice is reasonably stable across the tested wordings.
+Course identities, prerequisites and the interpretation of a passing grade are
+not reliable enough to use the raw advice as a study plan.
+
+How the test was run
+Twelve independent, greedy-decoded conversations used the same active relation
+adapter as the previous tests. Each conversation contains one USER message only.
+There is no custom system message, supplied course graph, example answer, JSON
+schema instruction, retrieval, optimiser, repair or fallback. Standard Qwen chat
+formatting remains, with thinking disabled as in the earlier run. No training or
+checkpoint changes were performed.
+
+Eight questions form four matched paraphrase pairs: finance GE passed, finance GE
+failed, AI GE with programming study, and several mathematics courses before AI.
+Two controls provide only a transcript, without a question. Two ordinary questions
+ask what courses to consider next semester. Inputs and raw outputs are retained.
+
+Observed results
+1. FIN_PASS_NL1 versus FIN_PASS_NL2: both recognise GE2260 as relevant finance
+   study. However, they call EF3320 Financial Management. The saved source title
+   is Security Analysis and Portfolio Management. CS1302 changes from Programming
+   Fundamentals to Data Structures and Algorithms; the saved title is Introduction
+   to Computer Programming. GE2260 is also described as a formal prerequisite in
+   the first answer without supplying evidence for that claim.
+
+2. FIN_FAIL_NL1 versus FIN_FAIL_NL2: both recognise the F in GE2260 as a weakness,
+   so the broad pass/fail distinction survives paraphrasing. Both still use the
+   wrong EF3320 identity. The first says GE2260 is a prerequisite in most programs,
+   an unsupported extension of the supplied transcript.
+
+3. AI_GE_NL1 versus AI_GE_NL2: both discuss an AI background, but CS1302A changes
+   from Data Structures and Data Management to a programming course. Both describe
+   CS2310 as data structures/algorithms, while the saved programme data calls it
+   Computer Programming. These answers do not reproduce the configured 0.10
+   preparation reward, though no numeric output was requested.
+
+4. AI_MAX_NL1 versus AI_MAX_NL2: the same target CS4487 changes from Data Structures
+   and Data Management to computer graphics. In the first wording, MA2510 (P) is
+   labelled Not completed and a critical gap. In the second, it appears under
+   Courses You've Completed. MA2510 also changes from Discrete Mathematics to
+   Multivariable/Vector Calculus. The saved title is Probability and Statistics.
+   This is a substantive contradiction, beyond differences in writing style.
+
+5. Transcript-only controls: Qwen volunteers generic academic advice without an
+   explicit task. The CS control misidentifies CS2310 as Operating Systems and
+   CS1302A as Data Structures and Data Management. A transcript by itself does
+   not produce a validated reward packet or timetable.
+
+6. Ordinary planning questions: the CM answer recommends CS2301, MA2301, CS2302,
+   MA2302 and CS3301 as course headings. All five are outside the saved CM
+   allowlist. See planning_allowlist_audit.json for both programme checks.
+   The raw planning answers do not establish offering availability, class times,
+   clash freedom or completion of the degree requirements.
+
+Interpretation and limits
+All eight preparation-question answers are prose rather than the earlier reward
+JSON. This format difference alone is not counted as semantic failure, because
+the user did not request JSON. The numeric reference-match field in summary.json
+is therefore a diagnostic, not an accuracy score for this natural-language task.
+Raw answers differ in all four paraphrase pairs; wording differences alone are
+not counted as contradictions. The specific course/grade contradictions above
+are the evidence for the consistency finding.
+
+Eleven of twelve outputs reached the fixed 512-new-token limit. The analysis
+therefore concerns the visible raw output, not complete long-form answers or
+their final conclusions. The transcript-only controls have no uniquely specified
+task and receive no accuracy score. Removing system instructions, supplied facts
+and structured input together tests standalone use, not the causal effect of
+removing the system prompt alone. This is a small diagnostic on familiar course
+codes, not an independent generalisation benchmark.
+
+Practical implication
+The earlier structured tests do not establish reliable natural-language transcript
+handling. A production path should validate extracted course codes and grades,
+ground titles and eligibility in the saved sources, and pass validated rewards
+to the external planner. Natural-language examples and these observed failures
+would be useful for a later training update. No such update was performed here.
+
+Files
+natural_language_inputs.txt   Exact user messages
+rendered_inputs.txt           Actual chat-template inputs, showing no system role
+natural_language_outputs.txt  Original outputs with truncation flags
+results.json                 Inputs, raw outputs and diagnostic fields
+protocol.json                Model and generation setup
+local_fact_references.json    Saved titles used to check claims
+planning_allowlist_audit.json Saved-programme checks for proposed course headings
+'''
+(OUT/'consistency_review.txt').write_text(text,encoding='utf-8')
+print(json.dumps({'cases':len(rows),'only_user_messages':True,'system_role_absent':True,'planning_checks':plans},indent=2))

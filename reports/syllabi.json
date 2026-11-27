@@ -1,0 +1,17 @@
+{
+  "courses": 77,
+  "failures": [
+    {
+      "code": "CS2611",
+      "error": "Variable-credit course excluded from the fixed-credit single-semester prototype: 0-1"
+    },
+    {
+      "code": "CS2612",
+      "error": "Variable-credit course excluded from the fixed-credit single-semester prototype: 0-2"
+    },
+    {
+      "code": "CS2613",
+      "error": "Variable-credit course excluded from the fixed-credit single-semester prototype: 0-2"
+    }
+  ]
+}

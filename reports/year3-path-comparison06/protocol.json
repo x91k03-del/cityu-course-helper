@@ -1,0 +1,22 @@
+{
+  "current_year": 2,
+  "planning_year": 3,
+  "planning_semester": "A",
+  "future_term": "202709",
+  "proxy_term": "202609",
+  "fictional_end_of_Year2_transcripts": true,
+  "profiles": 6,
+  "paired_factors": [
+    "MA3526 pass",
+    "explicit CM stream",
+    "CS3342 pass",
+    "explicit CS stream"
+  ],
+  "blind_definition": "Neither model receives other-model outputs or the solver reference.",
+  "same_per_profile_payload": true,
+  "future_availability_verified": false,
+  "Qwen": "greedy/non-thinking; separate cases",
+  "GPT": "requested gpt-6.1-sol model-specific agent; six-case batch",
+  "instruction": "Plan Year 3 Semester A for a fictional student currently in Year 2. The completed_courses input is the projected end-of-Year-2 passing transcript. Source options are saved Semester A 2026 snapshots used only as a proxy; actual Year-3 offerings are unverified. Use only supplied option IDs, at most one per course, no already-passed course, required courses, credit/count bounds, no meeting overlap. Candidates already passed individual programme/prerequisite checks, including the user-assumed CM EF/CS waiver. Maximise additive_net plus selected-stream potential gain*multiplier minus .25*max(0,credits-15)^2. Stream potential=2*distinct slots+6 once complete; AI core/elective slots cannot reuse a course. Return JSON with case_id,status(feasible/infeasible),selected_option_ids,and future_path (one short English sentence, maximum 35 words). If fewer legal courses than course_min or no legal combination, return infeasible and empty IDs. Explain how the given passed/missing course or explicit stream changes the later academic path. Later course suggestions must come from the supplied stream definition or missing prerequisite list, and be conditional on passing current selections. Do not invent future availability, passes, stream credit or graduation. No markdown or extra evidence.",
+  "cases_sha256": "139aa3aef09c023885c7f433a4360fbdab951151879727ff9063d1340445021b"
+}

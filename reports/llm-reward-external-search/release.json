@@ -1,0 +1,51 @@
+{
+  "software_checks_passed": 108,
+  "reward_settings": 8,
+  "course_relations": 26,
+  "local_Qwen_export_accepted": true,
+  "LLM_generates_paths": false,
+  "neural_weights_updated": false,
+  "optimality_scope": "Missing elective placement with source-backed allocations and compulsory placements fixed",
+  "packet_sha256": "a9942ad8db8ad518bf36ffd68d56620de1d4a967aa5800ee0bdb37514f768f6c",
+  "cases": {
+    "F": {
+      "credits": 122,
+      "reward": 154.3120775871616,
+      "certificate": {
+        "optimality_proven": true,
+        "scope": "Existing source-backed course/section allocations and mandatory catch-up placements are fixed; optimize missing electives over the declared current catalogue pool.",
+        "assignments_checked": 64,
+        "feasible_assignments": 20,
+        "objective_upper_bound": 154.3120775871616,
+        "optimality_gap": 0.0,
+        "verification": "Independent full Cartesian enumeration agrees with DP maximum"
+      }
+    },
+    "N": {
+      "credits": 122,
+      "reward": 140.126282183488,
+      "certificate": {
+        "optimality_proven": true,
+        "scope": "Existing source-backed course/section allocations and mandatory catch-up placements are fixed; optimize missing electives over the declared current catalogue pool.",
+        "assignments_checked": 64,
+        "feasible_assignments": 2,
+        "objective_upper_bound": 140.126282183488,
+        "optimality_gap": 0.0,
+        "verification": "Independent full Cartesian enumeration agrees with DP maximum"
+      }
+    },
+    "M": {
+      "credits": 122,
+      "reward": 153.65504861058557,
+      "certificate": {
+        "optimality_proven": true,
+        "scope": "Existing source-backed course/section allocations and mandatory catch-up placements are fixed; optimize missing electives over the declared current catalogue pool.",
+        "assignments_checked": 64,
+        "feasible_assignments": 12,
+        "objective_upper_bound": 153.65504861058557,
+        "optimality_gap": 0.0,
+        "verification": "Independent full Cartesian enumeration agrees with DP maximum"
+      }
+    }
+  }
+}

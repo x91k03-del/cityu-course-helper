@@ -1,0 +1,19 @@
+{
+  "version": "v5",
+  "source_access": "Direct catalogue and PDF downloads returned an Incapsula challenge. The evidence below is from search-indexed text of official CityU PDF URLs, not downloaded full PDFs. Historical versions are explicitly identified.",
+  "interpretation": "Deductive preparation hypotheses, not measured workload savings, grade improvements, eligibility or exemptions. Fixed contact and assessment demands remain unchanged. The strongest direct completed-source edge is used, capped at 0.35 utility units per target; no recursive or same-semester transfer.",
+  "max_preparation_benefit": 0.35,
+  "courses": {
+    "MA1300": {"source_url":"https://www.cityu.edu.hk/catalogue/ug/202526/course/MA1300.pdf","version":"2025/26","evidence":"Course overview identifies enhanced first calculus/linear algebra, three credits; prerequisite includes specified HKDSE mathematics results.","published_self_study_hours":null},
+    "MA2508": {"source_url":"https://www.cityu.edu.hk/catalogue/ug/202526/course/MA2508.pdf","version":"2025/26","pages":[2],"evidence":"CILOs cover partial derivatives, multiple integrals, vector integration and mathematical modelling. Lecture allocation is 39 total hours; two shown tutorial rows list four hours each; the indexed excerpt is incomplete and is not treated as a total workload figure.","lecture_hours_total":39,"published_self_study_hours":null},
+    "MA2509": {"source_url":"https://www.cityu.edu.hk/catalogue/ug/202021/course/MA2509.pdf","version":"2020/21 historical; current content unverified","pages":[6],"evidence":"Keyword syllabus includes propositional/predicate logic, sets, relations, counting and graphs.","published_self_study_hours":null},
+    "MA3512": {"source_url":"https://www.cityu.edu.hk/catalogue/ug/202324/course/MA3512.pdf","version":"2023/24 historical; current content unverified","pages":[2],"evidence":"CILOs address second-order PDEs, heat/wave/Laplace equations, eigenfunction expansions and modelling. Lectures total 39 hours.","lecture_hours_total":39,"published_self_study_hours":null},
+    "MA3515": {"source_url":"https://www.cityu.edu.hk/catalogue/ug/202526/course/MA3515.pdf","version":"2025/26","pages":[2],"evidence":"Linear, integer and nonlinear optimization with mathematical modelling, computational methods and take-home problem work. Lectures total 39 hours; assignment hours unspecified.","lecture_hours_total":39,"published_self_study_hours":null},
+    "GE2134": {"source_url":"https://www.cityu.edu.hk/catalogue/ug/202526/course/GE2134.pdf","version":"2025/26","pages":[1,3],"evidence":"Area 1, three credits, Nil prerequisites/precursors. Rational reasoning, fallacies and creative thinking use workshops, presentations/projects, individual work and a quiz. Average lecture time two hours/week and workshop one hour/week; an individual assignment carries 20% in the indexed excerpt. Other current component weights were not recovered.","lecture_hours_weekly":2,"workshop_hours_weekly":1,"continuous_assessment_percent":100,"published_self_study_hours":null}
+  },
+  "edges": [
+    {"source":"MA2508","target":"MA3512","benefit":0.25,"confidence":"moderate_content_overlap","reason":"Partial differentiation and multivariate modelling provide preparation for PDE formulation; the PDE syllabus still introduces new methods."},
+    {"source":"MA2508","target":"MA3515","benefit":0.20,"confidence":"moderate_deduction","reason":"Multivariate differentiation may help interpret smooth nonlinear optimization. It does not cover the full linear/integer programming or computational workload."},
+    {"source":"MA2509","target":"GE2134","benefit":0.15,"confidence":"low_to_moderate_cross_domain_hypothesis_historical_source","reason":"Practice with formal logic may help evaluate arguments. Ethical reasoning, cognitive biases, creativity, group work and writing remain distinct demands."}
+  ]
+}

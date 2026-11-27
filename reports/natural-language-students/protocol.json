@@ -1,0 +1,30 @@
+{
+  "parent_adapter": "adapters/gpt-course-relations-max",
+  "new_adapter": "adapters/natural-language-students",
+  "splits": {
+    "train": 396,
+    "validation": 32,
+    "test": 48
+  },
+  "unique_random_profiles": {
+    "train": 160,
+    "validation": 16,
+    "test": 24
+  },
+  "natural_input_system_message": false,
+  "natural_input_teacher_graph_provided": false,
+  "validation_and_test_styles": [
+    4,
+    5
+  ],
+  "train_styles": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "test_used_for_training": false,
+  "diagnostic_cases_used_for_training": 12,
+  "scope": "Synthetic supervised natural-language extraction and configured preparation rewards. Documents/course relations shared; heldout random profiles and phrase templates differ.",
+  "parent_sha256": "0aebc93f06265a96ee8b3c0b18e08be4124b4216b56779f310162aeb1b77213a"
+}

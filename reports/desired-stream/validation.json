@@ -1,0 +1,13 @@
+{
+  "software_checks": 92,
+  "passed": true,
+  "profiles": 20,
+  "CM": 10,
+  "CS": 10,
+  "explicit_stream_respected_for_all": true,
+  "all_path_courses_within_programme_policy": true,
+  "future_timetables_verified": false,
+  "pdf_pages": 12,
+  "all_20_examples_present_in_PDF": true,
+  "all_pages_visually_reviewed": true
+}

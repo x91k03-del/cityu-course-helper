@@ -1,0 +1,82 @@
+=== PAGE 1 ===
+2026/11/15 晚上9:41                                                                              Courses Offered
+
+                                                                                                                                       How to Navigate | Site Map | Help | Exit
+
+
+   Courses Offered in Semester A 2026/27
+
+
+
+    As of November 15, 2026 21:41 PM
+
+    Course : MA3525 Elementary Numerical Methods [ Click here for course catalogue ] or [ Click here for registration detail ] (use "Back" to return
+    to this page)
+
+    Offering Academic Unit: Mathematics
+
+    Pre-requisites/precursors (Students should ensure they fulfill the pre-requisites/precursors requirement prior to adding a course.):
+         MA1503 or MA2503
+
+    Exclusive Course (Students are restricted from registration in a course when they have earned credits for an exclusive course.):
+         Nil
+
+     CRN     Section   Credit  Campus      WEB    Level  Avail   Cap   Waitlist  Date                         Day  Time             Bldg   Room    Instructor   Medium of
+                                                                       Avail                                                                                    Instruction
+     11213   CA1       3       Main        Y      B      10      106   N         31/08/2026 - 28/11/2026      R    13:00 - 14:50    LI     1614    ZHANG        English
+                               Campus                                                                                                              Shun
+                                                  only for Programme: BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4, DBSCBSC1, DLLBBSC
+                                                  only for Major: CFFT, CM, D001, D004, D008
+                                                                                 31/08/2026 - 28/11/2026      T    14:00 - 14:50    LI     1614    ZHANG        English
+                                                                                                                                                   Shun
+                                                  only for Programme: BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4, DBSCBSC1, DLLBBSC
+                                                  only for Major: CFFT, CM, D001, D004, D008
+     11214   CB1       3       Main        Y      B      5       10    N         31/08/2026 - 28/11/2026      R    13:00 - 14:50    LI     1614    ZHANG        English
+                               Campus                                                                                                              Shun
+                                                  only for Minor: MA
+                                                                                 31/08/2026 - 28/11/2026      T    14:00 - 14:50    LI     1614    ZHANG        English
+                                                                                                                                                   Shun
+                                                  only for Minor: MA
+     11219   TA1       0       Main        Y      B      10      106   N         31/08/2026 - 28/11/2026      T    15:00 - 15:50    LI     1614    ZHANG        English
+                               Campus                                                                                                              Shun
+                                                  only for Programme: BSCCBU4, BSCSIU2, BSCSIU3, BSCSIU4, DBSCBSC1, DLLBBSC
+                                                  only for Major: CFFT, CM, D001, D004, D008
+     11220   TB1       0       Main        Y      B      5       10    N         31/08/2026 - 28/11/2026      T    15:00 - 15:50    LI     1614    ZHANG        English
+                               Campus                                                                                                              Shun
+                                                  only for Minor: MA
+
+    As of November 15, 2026 21:41 PM
+
+    Disclaimer:
+           The University reserves the right to make adjustments to the class schedules.
+           The Medium of Instruction listed is for general reference only. Please refer to the syllabus of individual courses for more detailed information.
+
+     Search Class
+
+
+    [ Personal Information Collection Statement | Copyright | Disclaimer ]                                          IT Service Desk: +852 3442-8340
+    © 2026 City University of Hong Kong. All Rights Reserved.                                                       Email: it.servicedesk@cityu.edu.hk
+    Release: 8.7.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://banweb.cityu.edu.hk/pls/PROD/hwscrssh_cityu.P_DispOneSection?term=202609&subj=MA&crse=3525&camp=%25&web_avail=                                                      1/1

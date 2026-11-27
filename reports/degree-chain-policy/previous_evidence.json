@@ -1,0 +1,15 @@
+{
+  "courses_dir": "data/timetable-grounded/snapshot",
+  "policy_path": "data/timetable-grounded/snapshot/policy.json",
+  "source_scope": [
+    "GE_SEMA/MA/SEMA",
+    "GE_SEMA/MA/SEMB",
+    "GE_SEMA/CS/cs sema time",
+    "GE_SEMA/CS/cs semb time"
+  ],
+  "term_codes": [
+    "202609",
+    "202702"
+  ],
+  "future_terms_verified": false
+}

@@ -1,0 +1,8 @@
+{
+  "scope":"Indexed official catalogue text; current 2026/27 pages are not proof of future offerings or all 2025-cohort rules. Only the branch used by the generated CM path is encoded. Inferred familiarity never replaces these rules.",
+  "MA3511":{"source_url":"https://www.cityu.edu.hk/catalogue/ug/current/course/MA3511.htm","published_rule":"(MA2508 and MA2503) or MA2001","encoded_branch":["MA2508","MA2503"],"alternative_not_in_mock_catalogue":"MA2001"},
+  "MA3512":{"source_url":"https://www.cityu.edu.hk/catalogue/ug/current/course/MA3512.htm","published_rule":"MA3511","encoded_branch":["MA3511"]},
+  "MA3514":{"source_url":"https://www.cityu.edu.hk/catalogue/ug/current/course/MA3514.htm","published_rule":"MA3511","encoded_branch":["MA3511"]},
+  "MA3515":{"source_url":"https://www.cityu.edu.hk/catalogue/ug/current/course/MA3515.htm","published_rule":"MA2503","encoded_branch":["MA2503"]},
+  "MA3526":{"source_url":"https://www.cityu.edu.hk/catalogue/ug/current/course/MA3526.htm","published_rule":"(Grade B or above in MA1200 and MA approval) or MA1300 or MA1508","encoded_branch":["MA1300"]}
+}

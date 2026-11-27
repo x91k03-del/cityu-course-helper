@@ -1,0 +1,17 @@
+{
+  "neural_weights_updated": false,
+  "previous_reports_overwritten": false,
+  "sha256": {
+    "markov_planner.py": "2de80ae1e4e909f8d146a8485705123e1526708e19a7e1505f9476d512f90cca",
+    "markov_degree.py": "e1dcb70411c08f1b187f2d1563ccf608a7979b471b974c02e2066c5fdc5c6504",
+    "programme_v6.py": "f9ba2a5796b4810993749664ba985ce369af476d7e88b289fc879a2e02712bed",
+    "data/markov-repair/year1_CM.json": "2172843e14fe888accc5d58d6b5dc722def6d4e1037316445f43665c23e688c9",
+    "data/profit_objective_policy.json": "a928365c52392712415bda8f526b31255409e76bd491979ea3149e6b8a5afb46",
+    "data/programme-v6/policy.json": "15e7327d5fa1462bb3e78ed501c92abdcbdc824954218ea546b0705e603f9992",
+    "data/preparation-v5.json": "2876ecad7dd3b1c2c795eb584fbbec369e0ca85e7410dbe537359de086aa380a",
+    "reports/markov-repair/year1_simulation.json": "4461421528ff5a1515488bcc80a72a065bf82bc23705df1d05e1612d6a914cdb",
+    "reports/markov-repair/semester_checks.json": "e031d1701cd46c207ca83a97a96fe6b83995b69106b17f204fcaa2538aa98405",
+    "reports/year3-path-comparison06/cases.json": "139aa3aef09c023885c7f433a4360fbdab951151879727ff9063d1340445021b",
+    "reports/year3-path-comparison06/qwen_raw.json": "2c32918a182fc1208ce9ba0820438e6994c76c4b69da585be4e36964ff71eb56"
+  }
+}

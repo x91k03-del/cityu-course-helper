@@ -1,0 +1,47 @@
+﻿FICTIONAL TEST TRANSCRIPT - NOT AN OFFICIAL RECORD
+term,year,semester,id,title,credits,grade,kind,area,earned_credits
+1,1,A,GE1401,University English,3,C+,language,,3
+1,1,A,GE1501,Chinese Civilisation - History and Philosophy,3,A,language,,3
+1,1,A,GE1601,Whole-Person Development,1,B,language,,1
+1,1,A,MA1300,Enhanced Calculus and Linear Algebra I,3,B-,college_specified,,3
+1,1,A,PHY1201,General Physics I,3,B,college,,3
+1,1,A,CSCI1001,Employability for Scientists,0,B,soft_skill,,0
+1,1,A,GE1113,Visual Storytelling and Cultural Thinking,3,C,distribution_GE,1,3
+2,1,B,GE2401,English for Science,3,A-,language,,3
+2,1,B,MA1301,Enhanced Calculus and Linear Algebra II,3,B,college_specified,,3
+2,1,B,CS1302,Introduction to Computer Programming,3,A-,college_specified,,3
+2,1,B,CHEM1200,Discovery in Biology,3,B-,college,,3
+2,1,B,CSCI1002,Career Lab for Scientists,0,B,soft_skill,,0
+2,1,B,GE1202,Managing Your Personal Finance,3,C,distribution_GE,2,3
+3,2,A,MA2503,Linear Algebra,4,A,core,,4
+3,2,A,MA2508,Multi-variable Calculus,4,C,core,,4
+3,2,A,MA2509,Discrete Mathematics,3,A,core,,3
+3,2,A,CS2360,Java Programming,3,B,core,,3
+3,2,A,GE1305,Foundation Physics,3,A,distribution_GE,3,3
+4,2,B,MA2507,Computing Mathematics Laboratory,1,A,core,,1
+4,2,B,MA2510,Probability and Statistics,3,B-,core,,3
+4,2,B,MA3511,Ordinary Differential Equations,3,B,core,,3
+4,2,B,MA3526,Analysis,3,F,core,,0
+4,2,B,CS2468,Data Structures and Data Management,3,B,core,,3
+4,2,B,GE2134,Critical and Creative Thinking,3,C+,distribution_GE,1,3
+5,3,A,MA3526,Analysis,3,B-,core,,3
+5,3,A,MA3512,Partial Differential Equations,3,C,core,,3
+5,3,A,MA3518,Applied Statistics,3,B,core,,3
+5,3,A,MA3525,Elementary Numerical Methods,3,B,core,,3
+5,3,A,MA3521,Introductory Mathematical Finance,3,A,math_elective,,3
+5,3,A,MA4546,Introduction to Stochastic Processes,3,B-,math_elective,,3
+6,3,B,MA3514,Numerical Methods for Differential Equations,3,B-,core,,3
+6,3,B,MA3515,Introduction to Optimization,3,B+,core,,3
+6,3,B,MA3517,Complex Analysis,3,A-,core,,3
+6,3,B,MA3523,Introduction to Abstract Algebra,3,A,math_elective,,3
+6,3,B,MA4523,Introduction to Finite Element Method,3,A,math_elective,,3
+6,3,B,MA4525,Combinatorial and Network Optimization,3,A-,math_elective,,3
+7,4,A,MA4530:A,Project (part A of six-credit year-long project),3,B-,capstone,,3
+7,4,A,MA4542,Real Analysis,3,A,math_elective,,3
+7,4,A,MA4545,Applied Differential Geometry,3,A,math_elective,,3
+7,4,A,CS2117,Foundation of Cybersecurity,3,B,free_elective,,3
+8,4,B,MA4530:B,Project (part B of six-credit year-long project),3,A-,capstone,,3
+8,4,B,CS2066,IT Professionals and Society,3,B+,free_elective,,3
+8,4,B,CS2115,Computer Organization,3,A-,free_elective,,3
+8,4,B,CS2116,Computer Systems,3,C,free_elective,,3
+8,4,B,CS2204,Fundamentals of Internet Applications Development,3,A,free_elective,,3

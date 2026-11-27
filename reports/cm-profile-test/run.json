@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "adapter": "adapters/bscm-ma-timetable",
+  "adapter_sha256_before": "20baa2d40a8a65400ecfb7e33df29e83eb9f522b0924fde684c50be377ea9072",
+  "adapter_sha256_after": "20baa2d40a8a65400ecfb7e33df29e83eb9f522b0924fde684c50be377ea9072",
+  "seed": 20261115,
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 1900
+  },
+  "training_performed": false,
+  "seconds": 240.4015431997832
+}

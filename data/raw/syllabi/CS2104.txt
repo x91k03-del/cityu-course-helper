@@ -1,0 +1,213 @@
+1         CS2104: Discrete Computations
+CS2104: DISCRETE COMPUTATIONS
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Discrete Computations 
+Subject Code
+CS - Computer Science 
+Course Number
+2104 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+CS2303 Data Structures for Media 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+Part II Course Details
+Abstract
+This course aims to introduce basic ideas of discrete mathematics such as formal mathematical reasoning techniques,
+basic counting techniques and their applications for BSCCM students.  The objective is for students to understand the basic
+2         CS2104: Discrete Computations
+theory and some applications of discrete mathematics and algorithm design.  The course gives students training in the
+ability to think quantitatively and analyse problems critically.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Explain at high levels concepts from discrete
+mathematics.
+x
+2 Implement basic operations in discrete
+mathematics.
+x
+3 Use formal mathematical reasoning techniques
+and basic counting techniques.
+x
+4 Create design using mathematical models
+for media applications through relations,
+combinatorics, and functions, and apply
+algorithm design techniques to media
+applications.
+x x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture The instructor will
+explain the course
+material in detail.
+Lectures support ILOs 1, 2
+and 3.
+1, 2
+2 Assignment Each student is required
+to independently work
+on 2-3 assignments. Each
+assignment contains
+several questions
+designed to help students
+consolidate the concepts/
+algorithms learned. This
+learning method supports
+ILOs 2 and 3.
+2, 3
+3         CS2104: Discrete Computations
+3 Hands-on Practice The instructor will
+arrange tutorials where
+each student can practice
+on related problems. This
+learning method supports
+ILO 1, 2 and 3.
+1, 2
+4 Project Each student is required
+to complete and
+implement a media
+project based on the
+discrete computation
+methods and algorithm
+design techniques learned
+in the course. This
+learning method supports
+ILOs 2 and 4.
+2, 4
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Peer Review 1 5 N/A No
+2 Project 2, 4 10 - Yes
+3 Coursework 3 15 - Yes
+Continuous Assessment (%)
+30 
+Examination (%)
+70 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Peer Review 
+Criterion
+ABILITY to answer peers’ questions 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+4         CS2104: Discrete Computations
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Coursework 
+Criterion
+ABILITY to answer course related questions 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Project 
+Criterion
+ABILITY to DESIGN and IMPLEMENT a media project using discrete computation and algorithms 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+5         CS2104: Discrete Computations
+Final Examination 
+Criterion
+ABILITY to answer course related questions under time pressure 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Part III Other Information
+Keyword Syllabus
+Set theory; Counting; Equivalence relation; Boolean logic and proof; Induction; Recursion; Recurrences; Probability; Graph;
+Divide and Conquer.
+Syllabus
+• Counting 
+The Sum Principle; The Product Principle; Summing Consecutive Integers; Bijection Principle; Binomial Coeﬃcients;
+Equivalence Relation.
+• Number Theory 
+Greatest Common Divisor; Modular Equations; Computing Inverses.
+• Logic and Proof 
+DeMorgan’s Laws; Variables and Quantiﬁers; Boolean Logic; Rules of Inference for Direct Proofs; Proof by
+Contradiction.
+• Recursion and Recurrences 
+Mathematical Induction; Solving Recursive Equations; The Master Theorem.
+• Probability 
+Probability and Hashing; Principle of Inclusion and Exclusion; Conditional Probability; Random Variables.
+• Graph and Algorithms 
+Spanning Trees; Divide and Conquer; Matching; Greedy Algorithm.
+Reading List
+Compulsory Readings
+ Title
+1 Kenneth Bogart, Cliﬀord Stein and Robert L. Drysdale (2010). Discrete Mathematics for Computer Science. Key
+College Publishing.
+Additional Readings
+6         CS2104: Discrete Computations
+ Title
+1 Nil

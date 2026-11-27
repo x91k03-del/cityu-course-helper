@@ -1,0 +1,6 @@
+{
+  "path": "data/gpt-course-relations/reward_graph.json",
+  "teacher": "GPT assistant in the current Codex conversation; no separate GPT-6.1-sol API call claimed",
+  "aggregation": "strongest_direct_passed_edge",
+  "cap": 0.35
+}

@@ -1,0 +1,17 @@
+{
+  "previous_tex_sha256": "5f4a68cb568e4c0fcbd357d095c9adcaa2f220de233b46d0792815ca73e32e74",
+  "previous_pdf_sha256": "38bd2b034ecaf50289fd2b8bdd25a75613cc40851260998b058948b76bdfc5f8",
+  "displayed_examples": [
+    "CM1",
+    "CM2",
+    "CS2"
+  ],
+  "rows_per_comparison_table": 3,
+  "full_benchmark_size": 8,
+  "benchmark_results_changed": false,
+  "previous_report_overwritten": false,
+  "pdf_pages": 8,
+  "both_comparison_tables_on_page": 5,
+  "final_tex_sha256": "1754c7bb6e9930053e601dbb42e6c1247d8eb2b32cbb55d4091c97eeccff9104",
+  "final_pdf_sha256": "8232ad40a1f32e937face8b5ffc5c78124b8296a3c5948a136c07e8e0755e1d0"
+}

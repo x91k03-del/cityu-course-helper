@@ -1,0 +1,15 @@
+{
+  "courses_dir": "data/degree-chain-policy/snapshot_cross",
+  "policy_path": "data/degree-chain-policy/snapshot_cross/policy.json",
+  "source_scope": [
+    "GE_SEMA/MA",
+    "GE_SEMA/CS"
+  ],
+  "term_codes": [
+    "202609",
+    "202702"
+  ],
+  "repeat_AB_for_simulation_authorised": true,
+  "future_offerings_verified": false,
+  "cross_folder_programme_assessment": true
+}

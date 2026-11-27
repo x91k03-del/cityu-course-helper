@@ -1,0 +1,14 @@
+{
+  "paired_comparisons": 12,
+  "all_predeclared_delta_checks_passed": true,
+  "grade_controls": 4,
+  "reward_factorial_cells": 4,
+  "prerequisite_OR_cells": 4,
+  "model_exact_matches": 4,
+  "model_queries": 4,
+  "interaction_expected_and_observed": 6,
+  "pdf_pages": 5,
+  "source_scope": "Configured utility correctness only; no empirical student-effect validation",
+  "phase_B_schedule_study": "Specified, not executed in this experiment",
+  "neural_weights_changed": false
+}

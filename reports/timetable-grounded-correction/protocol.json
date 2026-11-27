@@ -1,0 +1,15 @@
+{
+  "source_adapter": "adapters/timetable-grounded",
+  "splits": {
+    "train": 213,
+    "validation": 16
+  },
+  "scope": "Corrective supervised trial; output-label types and unseen penalty weights. Feasible timetable examples reweighted tenfold; familiar diagnostics remain familiar.",
+  "test_weights_excluded_from_train_and_validation": [
+    0.5,
+    2.0
+  ],
+  "before_evaluation": "Reused exact saved first-trial predictions on unchanged frozen prompts; no prompt or criterion changes.",
+  "first_trial_report": "reports/timetable-grounded",
+  "previous_rollout_corrections": 45
+}

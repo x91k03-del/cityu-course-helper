@@ -1,0 +1,171 @@
+=== PAGE 1 ===
+2026/11/15 晚上9:24                                                                        Courses Offered
+
+
+                                                                                                                                How to Navigate | Site Map | Help | Exit
+
+
+  Courses Offered in Semester A 2026/27
+
+
+
+   As of November 15, 2026 21:24 PM
+
+   Course : MA1300 Enhanced Calculus and Linear Algebra I [ Click here for course catalogue ] or [ Click here for registration detail ] (use "Back" to
+   return to this page)
+
+   Offering Academic Unit: Mathematics
+
+   Pre-requisites/precursors (Students should ensure they fulfill the pre-requisites/precursors requirement prior to adding a course.):
+        Nil
+
+   Exclusive Course (Students are restricted from registration in a course when they have earned credits for an exclusive course.):
+        MA1006 MA1400 MA1508
+
+    CRN     Section  Credit  Campus     WEB   Level  Avail  Cap  Waitlist  Date                       Day  Time           Bldg     Room    Instructor  Medium of
+                                                                 Avail                                                                                 Instruction
+    12244   C01      3       Main       N     B      FULL   4    N         31/08/2026 - 28/11/2026    F    12:00 - 13:50  YEUNG    LT-18   XIANG       English
+                             Campus                                                                                                        Wei
+                                              only for Major: CM
+                                                                           31/08/2026 - 28/11/2026    W    17:00 - 18:50  BOC      R4057   XIANG       English
+                                                                                                                                           Wei
+                                              only for Major: CM
+    10342   CA1      3       Main       N     B      3      142  N         31/08/2026 - 28/11/2026    F    12:00 - 13:50  YEUNG    LT-18   XIANG       English
+                             Campus                                                                                                        Wei
+                                              not for Major: CM
+                                                                           31/08/2026 - 28/11/2026    W    17:00 - 18:50  BOC      R4057   XIANG       English
+                                                                                                                                           Wei
+                                              not for Major: CM
+    11762   CB1      3       Main       N     B      2      128  N         31/08/2026 - 28/11/2026    M    12:00 - 13:50  YEUNG    LT-10   ZHAO        English
+                             Campus                                                                                                        Lina
+                                              only for Programme: BDEGCA, BDEGEE, BDEGMNE, BDSEE, BDSEE1, BDSI, BENGBDU3, BENGBDU4,
+                                              BENGEGU2, BENGEGU3, BENGEGU4, BENGSEEU2, BENGSEEU3, BENGSEEU4, BSCCBU4, BSCCCU2,
+                                              BSCCCU3, BSCCCU4, BSCSCMU3, BSCSCMU4, BSCSEEU4, BSCSIU2, BSCSIU3, BSCSIU4, DBENGBBA,
+                                              DBSCBSC1
+                                              only for Major: A.E., ARSV, BME, CDE, CEG, CFFT, CHEM, CRM1, CSC, CSC1, D004, D006, D008, ELEL,
+                                              ESB, ESE, EVE, IEEG, INFE, ITME, M.E., MASE, MEE, NRE, PHY, U
+                                                                           31/08/2026 - 28/11/2026    F    17:00 - 18:50  LI       6606    ZHAO        English
+                                                                                                                                           Lina
+                                              only for Programme: BDEGCA, BDEGEE, BDEGMNE, BDSEE, BDSEE1, BDSI, BENGBDU3, BENGBDU4,
+                                              BENGEGU2, BENGEGU3, BENGEGU4, BENGSEEU2, BENGSEEU3, BENGSEEU4, BSCCBU4, BSCCCU2,
+                                              BSCCCU3, BSCCCU4, BSCSCMU3, BSCSCMU4, BSCSEEU4, BSCSIU2, BSCSIU3, BSCSIU4, DBENGBBA,
+                                              DBSCBSC1
+                                              only for Major: A.E., ARSV, BME, CDE, CEG, CFFT, CHEM, CRM1, CSC, CSC1, D004, D006, D008, ELEL,
+                                              ESB, ESE, EVE, IEEG, INFE, ITME, M.E., MASE, MEE, NRE, PHY, U
+    12245   T01      0       Main       N     B      FULL   4    N         31/08/2026 - 28/11/2026    M    18:00 - 18:50  YEUNG    P4302   SUN         English
+                             Campus                                                                                                        Tianxing
+                                              only for Major: CM
+    12246   T02      0       Main       N     B      FULL   0    N         31/08/2026 - 28/11/2026    T    18:00 - 18:50  YEUNG    B5-     SUN         English
+                             Campus                                                                                                211     Tianxing
+                                              only for Major: CM
+    11763   TA1      0       Main       N     B      3      54   N         31/08/2026 - 28/11/2026    M    18:00 - 18:50  YEUNG    P4302   SUN         English
+                             Campus                                                                                                        Tianxing
+                                              not for Major: CM
+    11764   TA2      0       Main       N     B      FULL   49   N         31/08/2026 - 28/11/2026    T    18:00 - 18:50  YEUNG    B5-     SUN         English
+                             Campus                                                                                                211     Tianxing
+                                              not for Major: CM
+    11957   TA3      0       Main       N     B      FULL   39   N         31/08/2026 - 28/11/2026    T    11:00 - 11:50  YEUNG    B5-     YU Guo      English
+                             Campus                                                                                                310
+                                              not for Major: CM
+    11765   TB1      0       Main       N     B      1      37   N         31/08/2026 - 28/11/2026    T    18:00 - 18:50  YEUNG    B5-     MA          English
+                             Campus                                                                                                310     Wengang
+                                              only for Programme: BDEGCA, BDEGEE, BDEGMNE, BDSEE, BDSEE1, BDSI, BENGBDU3, BENGBDU4,
+                                              BENGEGU2, BENGEGU3, BENGEGU4, BENGSEEU2, BENGSEEU3, BENGSEEU4, BSCCBU4, BSCCCU2,
+                                              BSCCCU3, BSCCCU4, BSCSCMU3, BSCSCMU4, BSCSEEU4, BSCSIU2, BSCSIU3, BSCSIU4, DBENGBBA,
+                                              DBSCBSC1
+
+
+https://banweb.cityu.edu.hk/pls/PROD/hwscrssh_cityu.P_DispOneSection?term=202609&subj=MA&crse=1300&camp=%25&web_avail=                                            1/2
+=== PAGE 2 ===
+2026/11/15 晚上9:24                                                                           Courses Offered
+                                               only for Major: A.E., ARSV, BME, CDE, CEG, CFFT, CHEM, CRM1, CSC, CSC1, D004, D006, D008, ELEL,
+                                               ESB, ESE, EVE, IEEG, INFE, ITME, M.E., MASE, MEE, NRE, PHY, U
+    11766   TB2       0       Main       N     B       FULL   45   N         31/08/2026 - 28/11/2026    R     11:00 - 11:50  YEUNG     B5-     YU Guo       English
+                              Campus                                                                                                   310
+                                               only for Programme: BDEGCA, BDEGEE, BDEGMNE, BDSEE, BDSEE1, BDSI, BENGBDU3, BENGBDU4,
+                                               BENGEGU2, BENGEGU3, BENGEGU4, BENGSEEU2, BENGSEEU3, BENGSEEU4, BSCCBU4, BSCCCU2,
+                                               BSCCCU3, BSCCCU4, BSCSCMU3, BSCSCMU4, BSCSEEU4, BSCSIU2, BSCSIU3, BSCSIU4, DBENGBBA,
+                                               DBSCBSC1
+                                               only for Major: A.E., ARSV, BME, CDE, CEG, CFFT, CHEM, CRM1, CSC, CSC1, D004, D006, D008, ELEL,
+                                               ESB, ESE, EVE, IEEG, INFE, ITME, M.E., MASE, MEE, NRE, PHY, U
+    11767   TB3       0       Main       N     B       1      46   N         31/08/2026 - 28/11/2026    T     12:00 - 12:50  YEUNG     B5-     MA           English
+                              Campus                                                                                                   310     Wengang
+                                               only for Programme: BDEGCA, BDEGEE, BDEGMNE, BDSEE, BDSEE1, BDSI, BENGBDU3, BENGBDU4,
+                                               BENGEGU2, BENGEGU3, BENGEGU4, BENGSEEU2, BENGSEEU3, BENGSEEU4, BSCCBU4, BSCCCU2,
+                                               BSCCCU3, BSCCCU4, BSCSCMU3, BSCSCMU4, BSCSEEU4, BSCSIU2, BSCSIU3, BSCSIU4, DBENGBBA,
+                                               DBSCBSC1
+                                               only for Major: A.E., ARSV, BME, CDE, CEG, CFFT, CHEM, CRM1, CSC, CSC1, D004, D006, D008, ELEL,
+                                               ESB, ESE, EVE, IEEG, INFE, ITME, M.E., MASE, MEE, NRE, PHY, U
+
+   As of November 15, 2026 21:24 PM
+
+    Disclaimer:
+           The University reserves the right to make adjustments to the class schedules.
+           The Medium of Instruction listed is for general reference only. Please refer to the syllabus of individual courses for more detailed information.
+
+    Search Class
+
+
+    [ Personal Information Collection Statement | Copyright | Disclaimer ]                                      IT Service Desk: +852 3442-8340
+    © 2026 City University of Hong Kong. All Rights Reserved.                                                   Email: it.servicedesk@cityu.edu.hk
+   Release: 8.7.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://banweb.cityu.edu.hk/pls/PROD/hwscrssh_cityu.P_DispOneSection?term=202609&subj=MA&crse=1300&camp=%25&web_avail=                                                 2/2

@@ -1,0 +1,290 @@
+{
+  "courses": 9,
+  "discovered_links": 263,
+  "failures": [
+    {
+      "code": "CS2117",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2204",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2303",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2310",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2311",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2312",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2313",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2315",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2334",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2360",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2402",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2403",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2468",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2611",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2612",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS2613",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3000",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3103",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3104",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3185",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3189",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3201",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3273",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3283",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3301",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3334",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3342",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3343",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3346",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3347",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "CS3356",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1101",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1102",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1105",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1106",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1107",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1109",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1110",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1113",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1117",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1120",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1121",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1125",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1126",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1127",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1128",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1129",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1130",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1132",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1136",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1137",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1138",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1139",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1202",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1204",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1205",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1209",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1214",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1216",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1218",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1220",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1222",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1223",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1226",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1229",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1230",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1301",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1304",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1305",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1308",
+      "error": "No catalogue content"
+    },
+    {
+      "code": "GE1313",
+      "error": "No catalogue content"
+    }
+  ]
+}

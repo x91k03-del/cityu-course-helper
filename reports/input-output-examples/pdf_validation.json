@@ -1,0 +1,55 @@
+{
+  "pages": 9,
+  "system_prompt_complete": true,
+  "six_inputs_and_outputs_complete": [
+    {
+      "case": "E01",
+      "input_complete": true,
+      "actual_output_complete": true,
+      "model_accepted": true,
+      "credits": 16,
+      "net_profit": 17.25
+    },
+    {
+      "case": "E02",
+      "input_complete": true,
+      "actual_output_complete": true,
+      "model_accepted": true,
+      "credits": 17,
+      "net_profit": 16.3
+    },
+    {
+      "case": "E03",
+      "input_complete": true,
+      "actual_output_complete": true,
+      "model_accepted": true,
+      "credits": 18,
+      "net_profit": 16.2
+    },
+    {
+      "case": "E04",
+      "input_complete": true,
+      "actual_output_complete": true,
+      "model_accepted": true,
+      "credits": 13,
+      "net_profit": 14.1
+    },
+    {
+      "case": "E05",
+      "input_complete": true,
+      "actual_output_complete": true,
+      "model_accepted": true,
+      "credits": 12,
+      "net_profit": 12.6
+    },
+    {
+      "case": "E06",
+      "input_complete": true,
+      "actual_output_complete": true,
+      "model_accepted": true,
+      "credits": 12,
+      "net_profit": 9.5
+    }
+  ],
+  "all_nine_pages_rendered_and_visually_reviewed": true
+}

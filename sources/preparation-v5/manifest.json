@@ -1,0 +1,227 @@
+[
+  {
+    "code": "MA1300",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA1300.htm",
+    "fetched_at": "2026-11-15T19:58:09.851455+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA1301",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA1301.htm",
+    "fetched_at": "2026-11-15T19:58:11.133970+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA2503",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA2503.htm",
+    "fetched_at": "2026-11-15T19:58:12.353685+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA2508",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA2508.htm",
+    "fetched_at": "2026-11-15T19:58:13.572256+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA2509",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA2509.htm",
+    "fetched_at": "2026-11-15T19:58:14.876436+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA2510",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA2510.htm",
+    "fetched_at": "2026-11-15T19:58:16.183375+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA3511",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3511.htm",
+    "fetched_at": "2026-11-15T19:58:17.439966+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA3512",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3512.htm",
+    "fetched_at": "2026-11-15T19:58:18.661883+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA3514",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3514.htm",
+    "fetched_at": "2026-11-15T19:58:19.932526+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA3515",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3515.htm",
+    "fetched_at": "2026-11-15T19:58:21.161255+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA3517",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3517.htm",
+    "fetched_at": "2026-11-15T19:58:22.380961+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA3518",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3518.htm",
+    "fetched_at": "2026-11-15T19:58:23.617018+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA3525",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3525.htm",
+    "fetched_at": "2026-11-15T19:58:24.839374+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA3526",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3526.htm",
+    "fetched_at": "2026-11-15T19:58:26.057357+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA3521",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm",
+    "fetched_at": "2026-11-15T19:58:27.279467+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA3523",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA3523.htm",
+    "fetched_at": "2026-11-15T19:58:28.497142+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA4523",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4523.htm",
+    "fetched_at": "2026-11-15T19:58:29.719080+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA4524",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4524.htm",
+    "fetched_at": "2026-11-15T19:58:30.960618+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA4525",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4525.htm",
+    "fetched_at": "2026-11-15T19:58:32.183083+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA4542",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4542.htm",
+    "fetched_at": "2026-11-15T19:58:33.401588+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA4545",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4545.htm",
+    "fetched_at": "2026-11-15T19:58:34.622132+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA4546",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4546.htm",
+    "fetched_at": "2026-11-15T19:58:35.847312+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA4535",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4535.htm",
+    "fetched_at": "2026-11-15T19:58:37.075363+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "MA4550",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4550.htm",
+    "fetched_at": "2026-11-15T19:58:38.309749+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  },
+  {
+    "code": "GE2134",
+    "catalogue_page": "https://www.cityu.edu.hk/catalogue/ug/current/course/GE2134.htm",
+    "fetched_at": "2026-11-15T19:58:39.528279+00:00",
+    "catalogue_status": 200,
+    "pdf_link_method": "official_public_pdf_endpoint_catalogue_unavailable",
+    "status": "unavailable",
+    "error": "Not a PDF; access challenge is not course evidence"
+  }
+]

@@ -1,0 +1,193 @@
+{
+  "profile": {
+    "profile_id": "CM_Y2_FINANCE_GE",
+    "programme": "CM",
+    "programme_code": "BSCSIU4",
+    "cohort": 2025,
+    "year": 2,
+    "term": "202702",
+    "completed_courses": [
+      "MA1300",
+      "MA1301",
+      "CS1302",
+      "CS2360",
+      "MA2503",
+      "MA2508",
+      "MA2509",
+      "GE1401",
+      "GE1501",
+      "GE1601",
+      "GE2401",
+      "GE2260"
+    ],
+    "GE_history": [
+      {
+        "course": "GE2260",
+        "title": "Introduction to Finance",
+        "year": 1,
+        "semester": "A",
+        "grade": "B"
+      }
+    ]
+  },
+  "pathway": {
+    "selected_stream": "Financial Mathematics",
+    "stream_reward_multiplier": 3.0,
+    "evidence_GE_passes": [
+      "GE2260"
+    ],
+    "prerequisite_bridge_bonus": {
+      "MA2510": 3.0
+    },
+    "finance_route_audit": {
+      "EF_options": [
+        {
+          "course_code": "EF3320",
+          "known_prerequisites_satisfied": false,
+          "source_conflict_courses_needing_confirmation": [],
+          "missing_alternatives": [
+            [
+              "CB3410"
+            ],
+            [
+              "FB3410"
+            ]
+          ],
+          "exclusive_conflicts": [],
+          "source": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+          "registration_verified": false,
+          "document_allowed": true,
+          "outside_allowlist_in_each_missing_route": [
+            [
+              "CB3410"
+            ],
+            [
+              "FB3410"
+            ]
+          ],
+          "no_currently_allowed_prerequisite_route": true
+        },
+        {
+          "course_code": "EF4821",
+          "known_prerequisites_satisfied": false,
+          "source_conflict_courses_needing_confirmation": [],
+          "missing_alternatives": [
+            [
+              "EF4820"
+            ]
+          ],
+          "exclusive_conflicts": [],
+          "source": "GE_SEMA/MA/SEMA/EF4821.pdf",
+          "registration_verified": false,
+          "document_allowed": true,
+          "outside_allowlist_in_each_missing_route": [
+            [
+              "EF4820"
+            ]
+          ],
+          "no_currently_allowed_prerequisite_route": true
+        }
+      ],
+      "GE2260_CB3410_conflict_if_both_passed": false,
+      "usual_CB3410_route_conflicts_with_passed_finance_GE": true,
+      "financial_stream_completion_verified": false,
+      "warning": "Financial interest can be strong while the EF entry route is blocked. Do not promise completion of the financial stream without an approved prerequisite route and eligible sections."
+    },
+    "interpretation": "User-requested interest preference, not proven ability, prerequisite substitution or earned stream/minor credit. Explicit stream choice overrides automatic GE inference.",
+    "minor": null
+  },
+  "cases": [
+    {
+      "course_code": "EF3320",
+      "known_prerequisites_satisfied": false,
+      "source_conflict_courses_needing_confirmation": [],
+      "missing_alternatives": [
+        [
+          "CB3410"
+        ],
+        [
+          "FB3410"
+        ]
+      ],
+      "exclusive_conflicts": [],
+      "source": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+      "registration_verified": false
+    },
+    {
+      "course_code": "EF3320",
+      "known_prerequisites_satisfied": true,
+      "source_conflict_courses_needing_confirmation": [],
+      "missing_alternatives": [
+        [],
+        [
+          "FB3410"
+        ]
+      ],
+      "exclusive_conflicts": [],
+      "source": "https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+      "registration_verified": false
+    },
+    {
+      "course_code": "CB3410",
+      "known_prerequisites_satisfied": null,
+      "source_conflict_courses_needing_confirmation": [],
+      "missing_alternatives": null,
+      "exclusive_conflicts": [
+        "GE2260"
+      ],
+      "source": "https://www.cityu.edu.hk/catalogue/ug/202526/course/CB3410.htm",
+      "registration_verified": false
+    },
+    {
+      "course_code": "EF4821",
+      "known_prerequisites_satisfied": false,
+      "source_conflict_courses_needing_confirmation": [],
+      "missing_alternatives": [
+        [
+          "EF4820"
+        ]
+      ],
+      "exclusive_conflicts": [],
+      "source": "GE_SEMA/MA/SEMA/EF4821.pdf",
+      "registration_verified": false
+    },
+    {
+      "course_code": "CS4487",
+      "known_prerequisites_satisfied": false,
+      "source_conflict_courses_needing_confirmation": [],
+      "missing_alternatives": [
+        [
+          "CS3481"
+        ],
+        [
+          "CS4486"
+        ],
+        [
+          "SDSC3002"
+        ]
+      ],
+      "exclusive_conflicts": [],
+      "source": "https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm",
+      "registration_verified": false
+    },
+    {
+      "course_code": "CS4487",
+      "known_prerequisites_satisfied": true,
+      "source_conflict_courses_needing_confirmation": [],
+      "missing_alternatives": [
+        [],
+        [
+          "CS4486"
+        ],
+        [
+          "SDSC3002"
+        ]
+      ],
+      "exclusive_conflicts": [],
+      "source": "https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm",
+      "registration_verified": false
+    }
+  ],
+  "software_checks_passed": 84,
+  "neural_weights_changed": false
+}

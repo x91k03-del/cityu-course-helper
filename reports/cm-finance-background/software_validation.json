@@ -1,0 +1,17 @@
+{
+  "passed_distinct_checks": 130,
+  "new_CM_background_checks": 9,
+  "groups": {
+    "targeted_policy_solver_and_paths": 55,
+    "profit_preparation_timetable_and_degree_checks": 75
+  },
+  "legacy_fixture_note": "A stale degree test was corrected to expect preserved pre-allowlist snapshots to fail current document membership; graduation rules were not relaxed.",
+  "matched_background_effect": {
+    "none": 3.71,
+    "introductory": 4.01,
+    "advanced": 4.11,
+    "failed_GE": 3.71
+  },
+  "controlled_examples_are_synthetic": true,
+  "actual_matching_CM_EF_sections_in_saved_snapshots": 0
+}

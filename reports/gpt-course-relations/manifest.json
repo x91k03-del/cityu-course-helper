@@ -1,0 +1,13 @@
+{
+  "teacher": "GPT assistant in the current Codex conversation; no separate GPT-6.1-sol API call claimed",
+  "sha256": {
+    "data/gpt-course-relations/reward_graph.json": "2bdce769525f014b3c961752ccea68db0decd84bd06ad7ce61fab9d5f8cc5d70",
+    "data/gpt-course-relations/train.jsonl": "fded1f1fcecdc96ed4273b09e1ad530e9da7b545566ee886d8af0d99c638a9ca",
+    "data/gpt-course-relations/test.jsonl": "dcf117bc5986dccc43c0a4d4ec80effd626b027942caedb38ea833b6acd175d6",
+    "data/gpt-course-relations-max/train.jsonl": "b0743aae14619400e4333364707b2b11f85f036caab31583380df586b0ab91bd",
+    "preparation.py": "72331504d84e2e711035911d5756e5a0357eb51df2c3eeda53e16871ea5139eb",
+    "profit_objective.py": "3bc23d292df0a716cc4eccdc4b4577b79517a239fea25d338153780b9d8fdaa9",
+    "markov_planner.py": "655262d4f5fed53e84902e1614f650cb2418b7abaa88ad0756b761ecf375e6fa",
+    "adapters/gpt-course-relations-max/adapter_model.safetensors": "0aebc93f06265a96ee8b3c0b18e08be4124b4216b56779f310162aeb1b77213a"
+  }
+}

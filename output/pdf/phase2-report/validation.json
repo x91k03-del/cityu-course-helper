@@ -1,0 +1,18 @@
+{
+  "pages": 6,
+  "all_pages_visually_reviewed": true,
+  "required_section_titles_and_order_match": true,
+  "original_template_unchanged": true,
+  "original_style_unchanged": true,
+  "authors_blank_as_requested": true,
+  "voice": "first-person project creators; benefits-focused",
+  "internal_model_versions_removed_from_essay": true,
+  "storage_details_removed_from_essay": true,
+  "former_evaluation_table_removed": true,
+  "dependency_table_cases": 12,
+  "compilation": "pdflatex TeX Live 2025, two passes",
+  "overfull_boxes": 0,
+  "unresolved_references": 0,
+  "pdf_sha256": "6c8fa0d53a446aa7ce29992fd4f649761feba165137db3e3aed579cda0219598",
+  "CM_waiver_and_finance_background_update_included": true
+}

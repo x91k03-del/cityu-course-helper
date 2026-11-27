@@ -1,0 +1,84 @@
+2026/11/21 17:10                                                                                  Courses Offered
+
+                                                                                                                                               How to Navigate | Site Map | Help | Exit
+
+
+   Courses Offered in Semester B 2026/27
+
+
+
+       Exchange   students   who   were   not   pre-registered   in   this   course   cannot   add   this   course   directly   through   AIMS.   Instead,   they   can   submit
+       applications  for  add/drop  of  non  web-enabled  courses  via  an  electronic  form  available  in AIMS  to  seek  approval  if  they  would  like  to  take  this
+       course. Please log-in AIMS, go to tab "Course Registration" and click "Application for Add/Drop of Non Web-enabled Course".
+
+
+    As of November 21, 2026 17:10 PM
+
+    Course : CS3334 Data Structures [ Click here for course catalogue ] or [ Click here for registration detail ] (use "Back" to return to this page)
+
+    Offering Academic Unit: Computer Science
+
+    Pre-requisites/precursors (Students should ensure they fulfill the pre-requisites/precursors requirement prior to adding a course.):
+         CS2310 or CS2311 or CS2312
+
+    Exclusive Course (Students are restricted from registration in a course when they have earned credits for an exclusive course.):
+         CS2334
+
+     CRN     Section    Credit   Campus     WEB     Level   Avail  Cap   Waitlist   Date                         Day   Time             Bldg       Room     Instructor   Medium of
+                                                                         Avail                                                                                           Instruction
+     10479   C01        3        Main       Y       B       71     130   N          11/01/2027 - 17/04/2027      F     09:00 - 11:50    LI         6606     QIU          English
+                                 Campus                                                                                                                     Junqiao
+                                                    only for Major: CFFT, CSC, CSC1, CYBE, D004, D008
+     11615   CA1        3        Main       Y       B       15     35    N          11/01/2027 - 17/04/2027      F     09:00 - 11:50    LI         6606     QIU          English
+                                 Campus                                                                                                                     Junqiao
+                                                    only for Major: CFFT, CSC, CSC1, CYBE, D004, D008
+     10480   T01        0        Main       Y       B       9      20    N          11/01/2027 - 17/04/2027      R     18:00 - 18:50    YEUNG      B7520    QIU          English
+                                 Campus                                                                                                                     Junqiao
+                                                    only for Major: CFFT, CSC, CSC1, CYBE, D004, D008
+     10481   T02        0        Main       Y       B       30     55    N          11/01/2027 - 17/04/2027      M     12:00 - 12:50    YEUNG      B7520    QIU          English
+                                 Campus                                                                                                                     Junqiao
+                                                    only for Major: CFFT, CSC, CSC1, CYBE, D004, D008
+     12631   T03        0        Main       Y       B       32     55    N          11/01/2027 - 17/04/2027      R     09:00 - 09:50    YEUNG      B7520    QIU          English
+                                 Campus                                                                                                                     Junqiao
+                                                    only for Major: CFFT, CSC, CSC1, CYBE, D004, D008
+     11616   TA1        0        Main       Y       B       15     35    N          11/01/2027 - 17/04/2027      R     18:00 - 18:50    YEUNG      B7520    QIU          English
+                                 Campus                                                                                                                     Junqiao
+                                                    only for Major: CFFT, CSC, CSC1, CYBE, D004, D008
+
+    As of November 21, 2026 17:10 PM
+
+    Disclaimer:
+            The University reserves the right to make adjustments to the class schedules.
+            The Medium of Instruction listed is for general reference only. Please refer to the syllabus of individual courses for more detailed information.
+
+
+     Search Class
+
+
+    [ Personal Information Collection Statement | Copyright | Disclaimer ]                                                IT Service Desk: +852 3442-8340
+    © 2026 City University of Hong Kong. All Rights Reserved.                                                             Email: it.servicedesk@cityu.edu.hk
+    Release: 8.7.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://banweb.cityu.edu.hk/pls/PROD/hwscrssh_cityu.P_DispOneSection?term=202702&subj=CS&crse=3334&camp=%25&web_avail=                                                               1/1

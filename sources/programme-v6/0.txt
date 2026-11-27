@@ -1,0 +1,584 @@
+2026/11/21 下午5:32                                                                                     Majors
+
+
+
+     MAJORS >>>
+
+
+
+         Overview
+
+       Curriculum»
+
+         Normative 4-year
+         Degree
+
+
+           GE Requirements
+
+           College / School
+           Requirements
+
+           Major Requirements
+
+           Suggested Study Plan
+
+         Advanced Standing I
+
+
+         Advanced Standing II
+
+
+            Computing Mathematics
+
+
+                                                                                             Normative 4-year Degree
+
+               Major                                        Computing Mathematics
+                                                            計算數學
+
+               Degree / Award Title                         Bachelor of Science in Computing Mathematics
+                                                            理學⼠    (計算數學       )
+
+               Offering Academic Unit                       Department of Mathematics
+
+               Normal Period of Study                       4 years
+
+               Maximum Period of Study                      8 years
+
+               Credit Units Required for                    121 credit units
+               Graduation
+
+             Note: The following curriculum information is subject to periodic review and changes.
+
+
+              GE Requirements (30 credit units)                                             Catalogue Term : Semester A 2022/23
+
+
+
+                                                                                                          Credit
+                                                                                                          Units
+
+              University                 GE1401 University English                                        3
+              Requirements               GE2401 English for Science                                       3
+
+                                         GE1501 Chinese Civilisation - History and Philosophy             3
+
+              Distributional             Take at least 1 course from each of the three                    12
+              Requirements               distributional areas:
+
+
+                                         Area 1: Arts and Humanities
+                                         Area 2: Study of Societies, Social and Business
+                                         Organisations
+                                         Area 3: Science and Technology
+
+                                We use cookies to ensure you get the best experience on our website.Visit the GE website for more course information.OK
+                               More information
+
+
+
+https://www.cityu.edu.hk/catalogue/ug/202223/Major/BSC1_CM-1.htm                                                                                                               1/7
+2026/11/21 下午5:32                                                                                     Majors
+
+              College-specified         MA1200 Calculus and Basic Linear Algebra I                        3
+              Courses                   Or
+              (including GREAT          MA1300 Enhanced Calculus and Linear Algebra I
+              Stream)                   MA1201 Calculus and Basic Linear Algebra II                       3
+
+                                        Or
+                                        MA1301 Enhanced Calculus and Linear Algebra II
+
+                                        CS1302 Introduction to Computer Programming                       3
+
+
+
+              College / School Requirements (6-17 credit units)                             Catalogue Term : Semester A 2022/23
+
+
+
+              (i) For taking the Majors without Stream (6 credit units)
+
+
+              a. Choose two from the following four science courses subject areas:
+
+              Biology
+                Course Code          Course Title                                                          Credit
+                                                                                                           Units
+
+                CHEM1200             Discovery in Biology                                                  3
+
+              Chemistry
+
+                Course Code          Course Title                                                          Credit
+                                                                                                           Units
+
+                CHEM1101             Introduction to Chemistry                                             3
+
+                CHEM1300             Principles of General Chemistry                                       3
+
+              Mathematics
+
+                Course Code          Course Title                                                          Credit
+                                                                                                           Units
+
+                MA1501               Coordinate Geometry                                                   3
+
+                MA1502               Algebra                                                               3
+
+              Physics
+
+                Course         Course Title                          Credit      Remarks
+                Code                                                 Units
+
+                                                                                 All BScPHY major students
+                PHY1101        Introductory Classical                3           are required to take this
+                               Mechanics                                         course to fulfill the College
+                                                                                 Requirement
+
+                PHY1201        General Physics I                     3
+
+
+
+              b. Compulsory attendance for the following two soft skills courses:
+
+                Course Code          Course Title                                                          Credit
+                                                                                                           Units
+
+                CSCI1001             Employability for Scientists                                          0
+
+                CSCI1002             Career Lab for Scientists                                             0
+
+
+
+              (ii) For taking the Stream of "Global Research Enrichment and Technopreneurship
+              Programme (GREAT)" (13 -17 credit units)
+
+
+              a. Research Methodology
+
+                Course CodeWe use cookies to ensure you get the best experience on our website.Course TitleCredit
+                              More information
+                                                                                                           Units
+
+
+https://www.cityu.edu.hk/catalogue/ug/202223/Major/BSC1_CM-1.htm                                                                                                               2/7
+2026/11/21 下午5:32                                                                                    Majors
+
+                CSCI2002            Workshop on Research Methodology                                      1
+
+
+
+              b. College Requirements I (6-8 credit units). Choose two from the following seven courses:
+
+              Biology
+
+                Course Code         Course Title                                                          Credit
+                                                                                                          Units
+
+                CHEM3081            Chemical Biology of DNA and RNA                                       3
+
+              Chemistry
+
+                Course Code         Course Title                                                          Credit
+                                                                                                          Units
+
+                CHEM2006            Principles of Inorganic Chemistry                                     4
+
+                CHEM2007            Principles of Organic Chemistry                                       4
+
+              Mathematics
+
+                Course Code         Course Title                                                          Credit
+                                                                                                          Units
+
+                MA2172              Applied Statistics for Sciences and Engineering                       3
+
+                MA2509              Discrete Mathematics                                                  3
+
+              Physics
+
+                Course Code         Course Title                                                          Credit
+                                                                                                          Units
+
+                PHY1101             Introductory Classical Mechanics                                      3
+
+                PHY1202             General Physics II                                                    3
+
+
+
+              c. College Requirements II (6-8 credit units).    Choose two from the following six courses:
+
+              Biology
+
+                Course Code         Course Title                                                          Credit
+                                                                                                          Units
+
+                CHEM3017            Molecular Biology                                                     4
+
+              Chemistry
+
+                Course Code         Course Title                                                          Credit
+                                                                                                          Units
+
+                CHEM2004            Principles of Analytical Chemistry                                    4
+
+                CHEM2008            Principles of Physical Chemistry                                      4
+
+              Mathematics
+
+                Course Code         Course Title                                                          Credit
+                                                                                                          Units
+
+                MA1501              Coordinate Geometry                                                   3
+
+              Physics
+                Course Code         Course Title                                                          Credit
+                                                                                                          Units
+
+                PHY3202             Modern Physics                                                        3
+
+                PHY3204             Waves and Optics                                                      3
+
+
+
+              Major Requirements (63-65 credit units)We use cookies to ensure you get the best experience on our website.Catalogue Term : Semester A 2022/23
+                              More information
+
+
+
+https://www.cityu.edu.hk/catalogue/ug/202223/Major/BSC1_CM-1.htm                                                                                                             3/7
+2026/11/21 下午5:32                                                                                     Majors
+
+
+
+              1. Core Courses (45 credit units)
+
+                Course       Course Title                            Credit      Remarks
+                Code                                                 Units
+
+                MA2503       Linear Algebra                          4           *
+
+                MA2509       Discrete Mathematics                    3           *
+
+                MA2510       Probability and Statistics              3           *
+
+                MA2507       Computing Mathematics                   1           Waived for students admitted
+                             Laboratory                                          into ASII
+
+                MA2508       Multi-variable Calculus                 4
+
+                MA3511       Ordinary Differential Equations         3
+
+                MA3512       Partial Differential Equations          3
+
+                MA3514       Numerical Methods for                   3
+                             Differential Equations
+
+                MA3515       Introduction to Optimization            3
+
+                MA3517       Complex Analysis                        3
+
+                MA3518       Applied Statistics                      3
+
+                MA3525       Elementary Numerical Methods            3
+
+                MA3526       Analysis                                3
+
+                CS2360       Java Programming                        3
+
+                CS2468       Data Structures and Data                3
+                             Management
+
+
+
+              Note: * Based on the academic background, two out of the three core courses MA2503,
+              MA2509 and MA2510 are to be waived for students admitted with Advanced Standing II.
+
+
+
+              2. Electives (18 - 20 credit units)
+
+
+              For Normative 4-year, please choose one of the following courses (3 - 8 credit units):
+
+                Course          Course Title                          Credit      Remarks
+                Code                                                  Units
+
+                MA4530          Project                               6
+
+                CSCI4001        Co-operative Education                8
+                                Scheme for Science Students
+
+                CSCI4002        Industrial Attachment Scheme          3
+                                for Science Students
+
+                CSCI4005        Overseas Internship Scheme            3
+                                for Science Student
+
+
+
+              Fulfill the Major Electives requirement from the following list
+              Normative 4-year: remaining 10 - 17 credit units
+
+                Course           Course Title                          Credit     Remarks
+                Code                                                   Units
+
+                                                                                  Only for first year students of
+                MA1501          We use cookies to ensure you get the best experience on our website.Coordinate Geometry3Normative 4-year Degree
+                               More information                                  (BSCSIU4/CM) except with
+                                                                                  special approval.
+
+https://www.cityu.edu.hk/catalogue/ug/202223/Major/BSC1_CM-1.htm                                                                                                                4/7
+2026/11/21 下午5:32                                                                                     Majors
+
+                MA3521          Introductory Mathematical             3
+                                Finance
+
+                MA3523          Introduction to Abstract              3
+                                Algebra
+
+                MA3530          Selected Topics on                    1
+                                Mathematics
+
+                MA4523          Introduction to Finite Element        3
+                                Method
+
+                MA4524          Elementary Number Theory              3
+                                and Applications
+
+                MA4525          Combinatorial and Network             3
+                                Optimization
+
+                MA4527          Computational Geometry                3
+
+                MA4528          Introduction to Dynamical             3
+                                Systems and Chaos
+
+                MA4529          Mathematical Finance                  3
+
+                MA4530          Project                               6
+
+                MA4531          Partial Differential Equations        3
+                                II
+
+                MA4533          Applied Mathematics                   1
+                                Laboratory
+
+                MA4534          Computer Graphics and                 3
+                                Geometry
+
+                MA4535          Applied Probability                   3
+
+                MA4537          Introduction to Actuarial             3
+                                Science
+
+                MA4538          Numerical Partial Differential        3
+                                Equations
+
+                MA4540          Modelling and Case Studies            3
+
+                MA4542          Real Analysis                         3
+
+                MA4543          Introduction to Time Series           3
+                                and Forecasting
+
+                MA4545          Applied Differential Geometry         3
+
+                MA4546          Introduction to Stochastic            3
+                                Processes
+
+                MA4547          Asymptotic Analysis                   3
+
+                MA4548          Abstract Algebra II                   3
+
+                MA4549          Sampling Survey Methods for           3
+                                Social and Market Research
+
+                                A Mathematical Introduction
+                MA4550          to Machine Learning for Data          3
+                                Sciences
+
+                MA4551          Introduction to Functional            3
+                                Analysis
+
+                MA4552          Introduction to Differential          3
+                                Manifolds
+
+                CS4486         We use cookies to ensure you get the best experience on our website.Artificial Intelligence3
+                              More information
+                CS4487          Machine Learning                      3
+
+https://www.cityu.edu.hk/catalogue/ug/202223/Major/BSC1_CM-1.htm                                                                                                              5/7
+2026/11/21 下午5:32                                                                                        Majors
+
+                CSCI3001         Grand Challenges in the                 3
+                                 World
+
+                SDSC3001         Big Data: The Arts and                  3
+                                 Science of Scaling
+
+                SDSC3003         Blockchain                              3
+
+                SDSC3022         Financial Data Analytics for            3
+                                 Investments
+
+                SDSC4107         Financial Engineering and               3
+                                 Analytics
+
+
+
+              Within    the    abovementioned    credit    units    for    the    BSCM    Major    Electives    requirement,
+              students    may    declare    a    maximum    of    one    of    the    following    streams    by    fulfilling    the
+              designated  stream  requirement.  Declaration  of  stream  is  optional  and  there  is  no  GPA
+              requirement for declaring a stream.
+
+              Enriched Mathematics Stream (12 credit units)
+
+                Course        Course Title                             Credit      Remarks
+                Code                                                   Units
+
+                MA3523        Introduction to Abstract Algebra         3
+
+                MA4542        Real Analysis                            3
+
+                MA4545        Applied Differential Geometry            3
+
+
+
+              Choose at least one of the following courses:
+
+                Course        Course Title                             Credit      Remarks
+                Code                                                   Units
+
+                MA4528        Introduction to Dynamical                3
+                              Systems and Chaos
+
+                MA4546        Introduction to Stochastic               3
+                              Processes
+
+                MA4551        Introduction to Functional               3
+                              Analysis
+
+
+
+
+              Financial Mathematics Stream (12 credit units)
+
+                Course        Course Title                             Credit      Remarks
+                Code                                                   Units
+
+                MA3521        Introductory Mathematical                3
+                              Finance
+
+                MA4529        Mathematical Finance                     3
+
+
+
+              Choose at least two of the following courses:
+
+                Course        Course Title                             Credit      Remarks
+                Code                                                   Units
+
+                MA4537        Introduction to Actuarial                3
+                              Science
+
+                EF3320        Security Analysis and Portfolio          3
+                              ManagementWe use cookies to ensure you get the best experience on our website.
+                               More information
+
+
+
+https://www.cityu.edu.hk/catalogue/ug/202223/Major/BSC1_CM-1.htm                                                                                                                     6/7
+2026/11/21 下午5:32                                                                                    Majors
+
+                EF4821       Derivatives Pricing II: Interest       3
+                             Rate and Credit Risk
+
+
+
+
+              3. GREAT Stream Core Courses (53 credit units)
+
+                Course         Course Title                           Credit     Remarks
+                Code                                                  Units
+
+                MA3510         Independent Research I                 6
+
+                MA4510         Independent Research II                6
+
+                MA2503         Linear Algebra                         4
+
+                MA2508         Multi-variable Calculus                4
+
+                MA2510         Probability and Statistics             3
+
+                MA3511         Ordinary Differential Equations        3
+
+                MA3512         Partial Differential Equations         3
+
+                MA3514         Numerical Methods for                  3
+                               Differential Equations
+
+                MA3515         Introduction to Optimization           3
+
+                MA3517         Complex Analysis                       3
+
+                MA3518         Applied Statistics                     3
+
+                MA3525         Elementary Numerical                   3
+                               Methods
+
+                MA3526         Analysis                               3
+
+                CS2468         Data Structures and Data               3
+                               Management
+
+                MGT2324        Introduction to                        3
+                               Entrepreneurship
+
+
+
+              Suggested Study Plan
+
+               Normative 4-year Degree (BSCSIU4/CM/2022)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               We use cookies to ensure you get the best experience on our website.
+                              More information
+
+
+
+https://www.cityu.edu.hk/catalogue/ug/202223/Major/BSC1_CM-1.htm                                                                                                              7/7

@@ -1,0 +1,51 @@
+{
+  "profile_id": "NEW00007",
+  "label": "New fictional Year 3 five-course scenario",
+  "synthetic": true,
+  "major": "Computing Mathematics",
+  "major_code": "CM",
+  "programme_code": "BSCSIU4",
+  "current_year": 3,
+  "intake_cohort": "2024",
+  "target_term": "202609",
+  "maximum_courses": 6,
+  "transcript": [
+    {
+      "course_code": "MA1301",
+      "grade": "W",
+      "study_year": 2
+    },
+    {
+      "course_code": "MA2503",
+      "grade": "C",
+      "study_year": 2
+    },
+    {
+      "course_code": "MA2510",
+      "grade": "C",
+      "study_year": 2
+    },
+    {
+      "course_code": "MA3526",
+      "grade": "A",
+      "study_year": 2
+    },
+    {
+      "course_code": "MA3511",
+      "grade": "A",
+      "study_year": 2
+    },
+    {
+      "course_code": "MA1508",
+      "grade": "W",
+      "study_year": 2
+    },
+    {
+      "course_code": "GE1359",
+      "grade": "C",
+      "study_year": 2
+    }
+  ],
+  "note": "Historical sequence and complete graduation eligibility are not audited.",
+  "minimum_courses": 5
+}

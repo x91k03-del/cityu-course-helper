@@ -1,0 +1,8 @@
+{
+  "profile_id": "NEW00007",
+  "cohort": "2024",
+  "target_cohort": "2025",
+  "compatible": false,
+  "reason": "Prior synthetic example is a 2024-entry profile, not the supplied 2025 cohort. GE1359 also conflicts with required MA2508 under the saved MA rule if applied to this curriculum.",
+  "silently_rewritten": false
+}

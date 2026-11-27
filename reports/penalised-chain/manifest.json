@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "degree_chain.py": "148b46fa299e43c8ce99009d392edad10ace58dd2d81c26f101d49c5152ed5c5",
+    "terminal_markov.py": "e050079b7c53625a0e39b58557bc4b18f989eab1c0db5e8f0e5ef4aca1fcad7d",
+    "markov_planner.py": "1e5fe6437667b67f7434fa38248ad67679b7aa8711e0c72827abb91d7e02a480",
+    "reports\\penalised-chain\\rollout.json": "db5d584b647902370ad9b1062430bfdfb64a22d161f3e6ba3b991b9cbde2309a"
+  },
+  "prior_reports_overwritten": false
+}

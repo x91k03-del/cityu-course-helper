@@ -1,0 +1,19 @@
+{
+  "training_completed": true,
+  "active_adapter": "adapters/cm-finance-background",
+  "new_policy_tests": {
+    "passed": 18,
+    "total": 20
+  },
+  "default_profile_diagnostics": {
+    "passed": 6,
+    "total": 6,
+    "independent_holdout": false
+  },
+  "software_checks_passed": 130,
+  "CLI_actual_model_output_accepted": true,
+  "report_updated_and_visually_checked": true,
+  "report_pages": 6,
+  "old_adapter_preserved": true,
+  "template_unchanged": true
+}

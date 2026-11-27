@@ -1,0 +1,13 @@
+﻿profile,model_courses,reference_courses,model_all_checks_passed,errors
+CM01,"MA4542,MA3518,MA3521","MA3518,MA3521,MA4542",True,
+CM02,"MA1502,MA3518,MA3521","MA3518,MA3521,MA3525",False,ineligible:MA1502:exclusive_course_completed;ineligible:MA1502:restriction:cohort
+CM03,"MA1502,MA3512,MA4542","MA3518,MA3521,MA3525",False,ineligible:MA1502:exclusive_course_completed;ineligible:MA1502:restriction:cohort;ineligible:MA3512:combined_requirement_not_satisfied;ineligible:MA4542:combined_requirement_not_satisfied
+CM04,"MA4542,MA3518,MA3525","MA3518,MA3521,MA3525",False,ineligible:MA4542:combined_requirement_not_satisfied;invalid_or_incomplete_component_option:MA3525
+CM05,"MA4542,MA3518,MA3521","MA3518,MA3521,MA3525",False,ineligible:MA4542:combined_requirement_not_satisfied
+CM06,"MA4542,MA3512,MA4545","MA3512,MA4542,MA4545",True,
+CM07,"MA4542,MA3512,MA3525","MA3518,MA3521,MA4542",False,ineligible:MA3512:combined_requirement_not_satisfied;invalid_or_incomplete_component_option:MA3525
+CM08,"MA4542,MA3512,MA3525","MA2508,MA2509",False,incorrect_completed_course_extraction;ineligible:MA4542:combined_requirement_not_satisfied;ineligible:MA3512:combined_requirement_not_satisfied;invalid_or_incomplete_component_option:MA3525
+CM09,"MA4542,MA3512,MA3525","MA1300,MA2509,MA3525",False,incorrect_completed_course_extraction;ineligible:MA4542:combined_requirement_not_satisfied;ineligible:MA3512:combined_requirement_not_satisfied;invalid_or_incomplete_component_option:MA3525
+CM10,"MA1300,MA1502,MA2503","MA1300,MA2509",False,invalid_or_incomplete_component_option:MA1300;ineligible:MA2503:combined_requirement_not_satisfied
+CM11,"MA1502,MA2503,MA3512","MA1300,MA2509",False,ineligible:MA1502:restriction:cohort;ineligible:MA2503:combined_requirement_not_satisfied;ineligible:MA3512:combined_requirement_not_satisfied
+CM12,"MA4542,MA3512,MA3525","MA2509,MA3525",False,incorrect_completed_course_extraction;ineligible:MA4542:combined_requirement_not_satisfied;ineligible:MA3512:combined_requirement_not_satisfied;invalid_or_incomplete_component_option:MA3525

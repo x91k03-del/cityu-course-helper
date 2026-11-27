@@ -1,0 +1,8 @@
+{
+  "accepted": true,
+  "LLM_output_role": "objective_parameters_only",
+  "LLM_generated_schedule": false,
+  "optimizer_called": false,
+  "reason": "No supported fixed full-degree context was supplied; no schedule is invented.",
+  "fallback_used": false
+}

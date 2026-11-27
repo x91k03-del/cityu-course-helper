@@ -1,0 +1,107 @@
+{
+  "seed": 20261115,
+  "profile_count": 12,
+  "grounded_profile_ids": [
+    "CM01",
+    "CM02",
+    "CM03",
+    "CM04",
+    "CM05",
+    "CM06",
+    "CM07",
+    "CM08",
+    "CM09",
+    "CM10",
+    "CM11",
+    "CM12"
+  ],
+  "memory_only_profile_ids": [
+    "CM01",
+    "CM02"
+  ],
+  "grade_policy": [
+    "A",
+    "A+",
+    "A-",
+    "B",
+    "B+",
+    "B-",
+    "C",
+    "C+",
+    "C-",
+    "D",
+    "P"
+  ],
+  "maximum_courses": 3,
+  "priority_order": [
+    "MA4542",
+    "MA3512",
+    "MA4545",
+    "MA3518",
+    "MA3521",
+    "MA2508",
+    "MA3525",
+    "MA2503",
+    "MA2509",
+    "MA1300",
+    "MA1502"
+  ],
+  "objective": "Maximize course count, then minimize sum of priority indices, then lexical option IDs.",
+  "assumption": "One C plus one T if offered; purely experimental, not CityU-verified component linkage.",
+  "source_scope": "Only MA courses with explicit CM sections in the 202609 saved PDFs. No GE/CS timetable coverage.",
+  "comparison_pairs": [
+    {
+      "a": "CM01",
+      "b": "CM02",
+      "factor": "Analysis passed versus not studied"
+    },
+    {
+      "a": "CM03",
+      "b": "CM02",
+      "factor": "Analysis failed versus not studied"
+    },
+    {
+      "a": "CM04",
+      "b": "CM02",
+      "factor": "Analysis in progress versus not studied"
+    },
+    {
+      "a": "CM01",
+      "b": "CM05",
+      "factor": "Missing MA2508 despite Analysis passed"
+    },
+    {
+      "a": "CM06",
+      "b": "CM07",
+      "factor": "ODE passed versus failed"
+    },
+    {
+      "a": "CM08",
+      "b": "CM09",
+      "factor": "Both AND-branch courses passed versus one failed"
+    },
+    {
+      "a": "CM08",
+      "b": "CM12",
+      "factor": "Completed GE1359 exclusive-course conflict"
+    },
+    {
+      "a": "CM10",
+      "b": "CM11",
+      "factor": "2026 versus 2025 cohort"
+    }
+  ],
+  "primary_criteria": [
+    "completed-course extraction",
+    "source-supported course and section selection",
+    "combined rules and exclusions",
+    "all required experimental components",
+    "exact weekday and clock times",
+    "no potential weekly overlaps",
+    "predeclared objective",
+    "uncertainty flags"
+  ],
+  "model_answers_not_repaired": true,
+  "no_training": true,
+  "synthetic_only": true
+}

@@ -1,0 +1,17 @@
+{
+  "token_lengths": {
+    "train": {
+      "count": 263,
+      "max_tokens": 3270
+    },
+    "validation": {
+      "count": 24,
+      "max_tokens": 936
+    }
+  },
+  "sha256": {
+    "train": "5fad6304fa794ddd8d4594010a28f0c1b3341cc32804a5915bbe12a8bf87bc69",
+    "validation": "0074924adeea98a765c00985c52c4232bd9c055fada407d87415db74778a3618",
+    "test": "06853aa0d1df2c83cdb4f1a044a54c4fa99edd9895737b1bf34538f13adaaa4b"
+  }
+}

@@ -1,0 +1,17 @@
+manual:finance_pass
+I'm in Year 2 of Computing Mathematics at CityUHK. My grades are CS1302: B, MA1300: B+, GE2260: A-. Would my study help me with EF3320?
+
+manual:finance_fail
+I'm in Year 2 of Computing Mathematics at CityUHK. My grades are CS1302: B, MA1300: B+, GE2260: F. Would my study help me with EF3320?
+
+manual:p_is_pass
+I study Computing Mathematics in Year 3. My results are MA2503 (B+), MA2510 (P), MA3515 (A-) and GE2340 (B). Can you assess my preparation for CS4487?
+
+manual:cs_plan_context_missing
+I am a Year 2 Computer Science student at CityUHK. CS1302A: A, CS2310: B+, GE2340: B. I want the Artificial Intelligence stream. What should I study next semester?
+
+manual:explicit_weights
+My programme is CM, year 2, entry cohort 2025, semester A. I passed CS1302 with B and GE2260 with A-. I want the Financial Mathematics stream. Use background mismatch weight 2, difficulty weight 0.5, and workload weight 1. What should I consider next semester?
+
+manual:unknown_grade
+I am a Year 2 CM student. MA2508: grade unknown. How does my background prepare me for MA3515?

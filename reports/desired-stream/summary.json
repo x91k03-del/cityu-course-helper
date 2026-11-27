@@ -1,0 +1,18 @@
+{
+  "CM_profiles": 10,
+  "CS_profiles": 10,
+  "paths": {
+    "academic_dependency_path": 11,
+    "blocked": 5,
+    "provisional_missing_rules": 4
+  },
+  "raw_model_accepted": 10,
+  "raw_model_total": 20,
+  "raw_model_acceptance_by_programme": {
+    "CM": 0,
+    "CS": 10
+  },
+  "policy_fallbacks": 10,
+  "weights_retrained": false,
+  "path_notes": "Dependency layers are not semester assignments. Source-based paths are not official eligibility, registration, stream declaration or future availability."
+}

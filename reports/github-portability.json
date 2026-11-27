@@ -1,0 +1,19 @@
+{
+  "normalised_data_files": [
+    "data/degree-chain-policy/snapshot/courses.json",
+    "data/degree-chain-policy/snapshot/policy.json",
+    "data/degree-chain-policy/snapshot/quarantine.json",
+    "data/degree-chain-policy/snapshot_cross/courses.json",
+    "data/degree-chain-policy/snapshot_cross/policy.json",
+    "data/four-year/GE_areas.json",
+    "data/ma-timetable/courses.json",
+    "data/programme-v6/courses.json",
+    "data/programme-v6/policy.json",
+    "data/programme-v6/quarantine.json",
+    "data/timetable-grounded/snapshot/courses.json",
+    "data/timetable-grounded/snapshot/policy.json",
+    "data/timetable-grounded/snapshot/quarantine.json"
+  ],
+  "source_hashes_unchanged": true,
+  "source_PDFs_unchanged": true
+}

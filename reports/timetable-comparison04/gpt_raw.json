@@ -1,0 +1,145 @@
+[
+  {
+    "case_id": "CM_B_finance",
+    "status": "feasible",
+    "selected_option_ids": [
+      "MA2507:10101:10115",
+      "MA2510:11812:11814",
+      "MA3511:10075",
+      "MA3517:11296",
+      "MA3523:14280",
+      "MA3530:12169"
+    ]
+  },
+  {
+    "case_id": "CM_B_no_finance",
+    "status": "feasible",
+    "selected_option_ids": [
+      "MA2507:10101:10115",
+      "MA3511:10075",
+      "MA3515:10141",
+      "MA3517:11296",
+      "MA3523:14280",
+      "MA3530:12169"
+    ]
+  },
+  {
+    "case_id": "CS_B_AI",
+    "status": "feasible",
+    "selected_option_ids": [
+      "CS2613:13675",
+      "CS3103:10021:10022",
+      "CS3342:10482:10483",
+      "CS3391:13076:13416",
+      "CS3402:10025:10026",
+      "CS3481:10568:10899"
+    ]
+  },
+  {
+    "case_id": "CS_B_difficulty",
+    "status": "feasible",
+    "selected_option_ids": [
+      "CS2613:13675",
+      "CS3103:10021:10022",
+      "CS3342:10482:10483",
+      "CS3391:13076:13416",
+      "CS3402:10025:10026"
+    ]
+  },
+  {
+    "case_id": "CM_A_missing_options",
+    "status": "infeasible",
+    "selected_option_ids": []
+  },
+  {
+    "case_id": "CS_A_missing_options",
+    "status": "infeasible",
+    "selected_option_ids": []
+  },
+  {
+    "case_id": "CM_early_analysis",
+    "status": "feasible",
+    "selected_option_ids": [
+      "MA2507:10101:10115",
+      "MA2510:11812:11814",
+      "MA3511:10075",
+      "MA3517:11296",
+      "MA3523:14280",
+      "MA3530:12169"
+    ]
+  },
+  {
+    "case_id": "CM_calculus_not_passed",
+    "status": "feasible",
+    "selected_option_ids": [
+      "MA2507:10101:10115",
+      "MA2510:11812:11814",
+      "MA3523:14280",
+      "MA3526:11816",
+      "MA3530:12169"
+    ]
+  },
+  {
+    "case_id": "CM_final_year",
+    "status": "feasible",
+    "selected_option_ids": [
+      "MA2507:10101:10115",
+      "MA3511:10075",
+      "MA3515:10141",
+      "MA3517:11296",
+      "MA3523:14280",
+      "MA3530:12169"
+    ]
+  },
+  {
+    "case_id": "CM_enriched_despite_finance_GE",
+    "status": "feasible",
+    "selected_option_ids": [
+      "MA2507:10101:10115",
+      "MA3511:10075",
+      "MA3515:10141",
+      "MA3517:11296",
+      "MA3523:14280",
+      "MA3530:12169"
+    ]
+  },
+  {
+    "case_id": "CS_data_science",
+    "status": "feasible",
+    "selected_option_ids": [
+      "CS2613:13675",
+      "CS3103:10021:10022",
+      "CS3342:10482:10483",
+      "CS3391:13076:13416",
+      "CS3402:10025:10026",
+      "CS3481:10568:10899"
+    ]
+  },
+  {
+    "case_id": "CS_missing_programming",
+    "status": "infeasible",
+    "selected_option_ids": []
+  },
+  {
+    "case_id": "CS_workload_priority",
+    "status": "feasible",
+    "selected_option_ids": [
+      "CS2613:13675",
+      "CS3103:10021:10022",
+      "CS3342:10482:10483",
+      "CS3402:10025:10026",
+      "CS3481:10568:10899"
+    ]
+  },
+  {
+    "case_id": "CS_final_year",
+    "status": "feasible",
+    "selected_option_ids": [
+      "CS2613:13675",
+      "CS3342:10482:10483",
+      "CS3391:13076:13416",
+      "CS3402:10025:10026",
+      "CS3481:10568:10899"
+    ]
+  }
+]

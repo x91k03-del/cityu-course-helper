@@ -1,0 +1,47 @@
+CASE FIN_PASS_NL1
+USER MESSAGE (exact text)
+I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-. How well does my completed study prepare me for EF3320?
+
+CASE FIN_PASS_NL2
+USER MESSAGE (exact text)
+I'm in my second year of Computing Mathematics at CityUHK. I passed GE2260 Introduction to Finance with A-, CS1302 with B and MA1300 with B+. Based on these results, what preparation do I have for EF3320?
+
+CASE FIN_FAIL_NL1
+USER MESSAGE (exact text)
+I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: F. How well does my completed study prepare me for EF3320?
+
+CASE FIN_FAIL_NL2
+USER MESSAGE (exact text)
+I'm in my second year of Computing Mathematics at CityUHK. I failed GE2260 Introduction to Finance, but passed CS1302 with B and MA1300 with B+. Based on these results, what preparation do I have for EF3320?
+
+CASE AI_GE_NL1
+USER MESSAGE (exact text)
+I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B. How well does my completed study prepare me for CS4487?
+
+CASE AI_GE_NL2
+USER MESSAGE (exact text)
+I'm studying Computer Science in Year 2 at CityUHK. I have passed the AI GE GE2340 with B, CS2310 with B+ and CS1302A with A. What preparation from these courses would help me take CS4487?
+
+CASE AI_MAX_NL1
+USER MESSAGE (exact text)
+I am a Year 3 Computing Mathematics student at City University of Hong Kong. My transcript is MA2503: B+, MA2510: P, MA3515: A-, and GE2340: B. How well does my completed study prepare me for CS4487?
+
+CASE AI_MAX_NL2
+USER MESSAGE (exact text)
+I'm a third-year Computing Mathematics student at CityUHK. My passed courses are GE2340 (B), MA3515 (A-), MA2510 (P) and MA2503 (B+). What preparation from these courses would help me take CS4487?
+
+CASE FIN_PASS_TRANSCRIPT_ONLY
+USER MESSAGE (exact text)
+I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-.
+
+CASE FIN_PASS_PLAN
+USER MESSAGE (exact text)
+I am a Year 2 Computing Mathematics student at City University of Hong Kong. My transcript is CS1302: B, MA1300: B+, and GE2260 Introduction to Finance: A-. What courses should I consider next semester and why?
+
+CASE AI_GE_TRANSCRIPT_ONLY
+USER MESSAGE (exact text)
+I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B.
+
+CASE AI_GE_PLAN
+USER MESSAGE (exact text)
+I am a Year 2 Computer Science student at City University of Hong Kong. My transcript is CS1302A: A, CS2310: B+, and GE2340 Artificial Intelligence - Past, Present, and Future: B. What courses should I consider next semester and why?

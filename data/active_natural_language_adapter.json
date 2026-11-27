@@ -1,0 +1,51 @@
+{
+  "adapter": "adapters/natural-language-students-corrected",
+  "parent_adapter": "adapters/natural-language-students",
+  "accepted_for_activation": true,
+  "role": "User-only natural-language transcript/profile extraction; external code computes contextual rewards and selects paths",
+  "before": {
+    "scope": "Initial candidate evaluated on a development set; final test profiles are new and were frozen before correction training."
+  },
+  "after": {
+    "heldout": {
+      "passed": 34,
+      "total": 48
+    },
+    "familiar_failures": {
+      "passed": 12,
+      "total": 12
+    },
+    "legacy_relations": {
+      "passed": 20,
+      "total": 20
+    },
+    "fresh_manual": {
+      "passed": 4,
+      "total": 6
+    }
+  },
+  "training_performed": true,
+  "requires_system_prompt": false,
+  "selected_epoch": 2,
+  "sha256": "699f476cc28f4fb941acc972feef1db9b3f2d56ba35d0b7e9d4c4f1604420115",
+  "legacy_active_relation_adapter_unchanged": true,
+  "validation_required": true,
+  "activation_basis": "Exact natural-language profile extraction; raw numeric reward proposals are not deployed",
+  "profile_extraction": {
+    "heldout": {
+      "passed": 48,
+      "total": 48
+    },
+    "familiar_failures": {
+      "passed": 12,
+      "total": 12
+    },
+    "fresh_manual": {
+      "passed": 6,
+      "total": 6
+    }
+  },
+  "contextual_reward_source": "external reviewed course-relation calculator",
+  "default_enabled": false,
+  "superseded_by": "data/active_objective_parameter_adapter.json"
+}

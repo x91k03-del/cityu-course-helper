@@ -1,0 +1,293 @@
+{
+  "data_mode": "synthetic_policy_demo_not_actual_CityU_times_or_eligibility",
+  "term": "DEMO",
+  "required_courses": [],
+  "completed_courses": [],
+  "credit_min": 15,
+  "credit_max": 18,
+  "course_min": 5,
+  "course_max": 6,
+  "course_priority_weights": {
+    "MA3512": 3,
+    "MA3518": 3
+  },
+  "graduation_priority_weight": 3,
+  "priority_policy_note": "Synthetic year-three example: actual eligibility and class times are simulated.",
+  "options": [
+    {
+      "option_id": "MA3512-SIM",
+      "course_code": "MA3512",
+      "credits": 3,
+      "term": "DEMO",
+      "rules_reviewed": true,
+      "prerequisites_all": [],
+      "prerequisites_any_groups": [],
+      "corequisites": [],
+      "exclusive_courses": [],
+      "timetable_verified": true,
+      "meetings": [
+        {
+          "day": 1,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_minute": 480,
+          "end_minute": 540
+        }
+      ],
+      "scores": {
+        "background_mismatch": 0.8,
+        "difficulty": 0.8,
+        "workload": 0.8
+      }
+    },
+    {
+      "option_id": "MA3518-SIM",
+      "course_code": "MA3518",
+      "credits": 3,
+      "term": "DEMO",
+      "rules_reviewed": true,
+      "prerequisites_all": [],
+      "prerequisites_any_groups": [],
+      "corequisites": [],
+      "exclusive_courses": [],
+      "timetable_verified": true,
+      "meetings": [
+        {
+          "day": 1,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_minute": 570,
+          "end_minute": 630
+        }
+      ],
+      "scores": {
+        "background_mismatch": 0.8,
+        "difficulty": 0.8,
+        "workload": 0.8
+      }
+    },
+    {
+      "option_id": "DEMO1001-SIM",
+      "course_code": "DEMO1001",
+      "credits": 3,
+      "term": "DEMO",
+      "rules_reviewed": true,
+      "prerequisites_all": [],
+      "prerequisites_any_groups": [],
+      "corequisites": [],
+      "exclusive_courses": [],
+      "timetable_verified": true,
+      "meetings": [
+        {
+          "day": 1,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_minute": 660,
+          "end_minute": 720
+        }
+      ],
+      "scores": {
+        "background_mismatch": 0.1,
+        "difficulty": 0.1,
+        "workload": 0.1
+      }
+    },
+    {
+      "option_id": "DEMO1002-SIM",
+      "course_code": "DEMO1002",
+      "credits": 3,
+      "term": "DEMO",
+      "rules_reviewed": true,
+      "prerequisites_all": [],
+      "prerequisites_any_groups": [],
+      "corequisites": [],
+      "exclusive_courses": [],
+      "timetable_verified": true,
+      "meetings": [
+        {
+          "day": 1,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_minute": 750,
+          "end_minute": 810
+        }
+      ],
+      "scores": {
+        "background_mismatch": 0.1,
+        "difficulty": 0.1,
+        "workload": 0.1
+      }
+    },
+    {
+      "option_id": "DEMO1003-SIM",
+      "course_code": "DEMO1003",
+      "credits": 3,
+      "term": "DEMO",
+      "rules_reviewed": true,
+      "prerequisites_all": [],
+      "prerequisites_any_groups": [],
+      "corequisites": [],
+      "exclusive_courses": [],
+      "timetable_verified": true,
+      "meetings": [
+        {
+          "day": 2,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_minute": 480,
+          "end_minute": 540
+        }
+      ],
+      "scores": {
+        "background_mismatch": 0.1,
+        "difficulty": 0.1,
+        "workload": 0.1
+      }
+    },
+    {
+      "option_id": "DEMO1004-SIM",
+      "course_code": "DEMO1004",
+      "credits": 3,
+      "term": "DEMO",
+      "rules_reviewed": true,
+      "prerequisites_all": [],
+      "prerequisites_any_groups": [],
+      "corequisites": [],
+      "exclusive_courses": [],
+      "timetable_verified": true,
+      "meetings": [
+        {
+          "day": 2,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_minute": 570,
+          "end_minute": 630
+        }
+      ],
+      "scores": {
+        "background_mismatch": 0.1,
+        "difficulty": 0.1,
+        "workload": 0.1
+      }
+    },
+    {
+      "option_id": "DEMO1005-SIM",
+      "course_code": "DEMO1005",
+      "credits": 3,
+      "term": "DEMO",
+      "rules_reviewed": true,
+      "prerequisites_all": [],
+      "prerequisites_any_groups": [],
+      "corequisites": [],
+      "exclusive_courses": [],
+      "timetable_verified": true,
+      "meetings": [
+        {
+          "day": 2,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "start_minute": 660,
+          "end_minute": 720
+        }
+      ],
+      "scores": {
+        "background_mismatch": 0.1,
+        "difficulty": 0.1,
+        "workload": 0.1
+      }
+    }
+  ],
+  "objective_mode": "profit",
+  "student_year": 3
+}

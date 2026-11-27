@@ -1,0 +1,13 @@
+{
+  "tests": 86,
+  "passed": true,
+  "exact_quadratic_penalty": true,
+  "bruteforce_profit_instances": 16,
+  "demo_course_counts": [
+    8,
+    5,
+    6
+  ],
+  "copy_hash_verified": true,
+  "training_performed": false
+}

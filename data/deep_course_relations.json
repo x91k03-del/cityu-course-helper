@@ -1,0 +1,39 @@
+{
+  "checked_date_Hong_Kong":"2026-11-21",
+  "scope":"Verified prerequisites, advisory precursors, exclusions and separately labelled content deductions. No relationship grants registration permission, substitution or stream credit.",
+  "verified_rules":{
+    "CB3410":{"exclusive_courses":["GE2260"],"source":"https://www.cityu.edu.hk/catalogue/ug/202526/course/CB3410.htm","version":"2025/26; agrees with current GE2260 exclusion"},
+    "GE2260":{"exclusive_courses":["CB3410"],"uncertain_exclusions":["GE1202"],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/GE2260.htm","conflict_note":"2024/25 GE2260 PDF instead names GE1202. Source discrepancy retained; current page and CB3410 page agree on CB3410."},
+    "GE1202":{"uncertain_exclusions":["GE2260"],"source":"https://www.cityu.edu.hk/catalogue/ug/202425/course/GE2260.pdf","conflict_note":"Unresolved cross-course exclusion evidence; do not declare both credit-compatible without clarification."},
+    "EF3320":{"completion_alternatives":[["CB3410"],["FB3410"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm","local_confirmation":"GE_SEMA/MA/SEMB/EF3320_SEMB.pdf"},
+    "EF4321":{"completion_alternatives":[["CB3410","EF3320"],["FB3410","EF3320"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/EF4321.htm"},
+    "EF4820":{"completion_alternatives":[["EF3520","EF4321"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/EF4820.htm"},
+    "EF4821":{"completion_alternatives":[["EF4820"]],"source":"GE_SEMA/MA/SEMA/EF4821.pdf","catalogue_confirmation":"https://www.cityu.edu.hk/catalogue/ug/202425/course/EF4821.htm"},
+    "EF4822":{"completion_alternatives":[["EF3320"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/EF4822.htm"},
+    "MA3521":{"completion_alternatives":[["MA2506"],["MA2510"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/MA3521.htm"},
+    "MA4529":{"completion_alternatives":[["MA3521"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm"},
+    "CS4487":{"completion_alternatives":[["CS3481"],["CS4486"],["SDSC3002"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm"},
+    "CS4490":{"completion_alternatives":[["CS4487"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/CS4490.htm"}
+  },
+  "advisory_precursors":[{"target":"CS4335","alternatives":[["CS2468"],["CS3334"],["EE2331"]],"source":"https://www.cityu.edu.hk/catalogue/ug/current/course/CS4335.htm","note":"Published as precursors, not compulsory prerequisites. Content: data structures support efficient algorithm design."}],
+  "deduced_preparation_edges":[
+    {"sources":["GE2260"],"target":"EF3320","mechanism":"Investment products, risk-return language and financial news provide vocabulary for portfolio analysis.","strength":"limited_introductory_overlap","formal_prerequisite":false},
+    {"sources":["MA2503","MA3515"],"target":"EF3320","mechanism":"Covariance matrices, quadratic forms and constrained optimization provide a mathematical way to understand portfolio risk and asset weights.","strength":"moderate_deduction","formal_prerequisite":false},
+    {"sources":["MA2510","MA3521","MA4529"],"target":"EF3520","mechanism":"Probability, random processes and option-pricing foundations prepare for Brownian motion and Ito calculus.","strength":"moderate_content_deduction","formal_prerequisite":false,"warning":"Current EF3520 HTML has malformed prerequisite parentheses. Do not reconstruct a compulsory rule from it."},
+    {"sources":["MA3512","MA3525"],"target":"EF4820","mechanism":"PDEs and numerical approximation help explain differential-equation pricing and computational schemes; EF4820 explicitly discusses PDE, binomial and Monte Carlo methods.","strength":"strong_topic_overlap_not_eligibility","formal_prerequisite":false},
+    {"sources":["MA3518"],"target":"EF4822","mechanism":"Applied statistical modelling can help with financial return series and empirical risk analysis; finance-specific inference still has to be learned.","strength":"moderate_deduction","formal_prerequisite":false},
+    {"sources":["MA2503","MA3515","MA2510"],"target":"CS4487","mechanism":"Linear algebra represents data and parameters, optimization fits a model, and probability supports uncertainty and generalization reasoning.","strength":"moderate_cross_department_deduction","formal_prerequisite":false},
+    {"sources":["GE2340"],"target":"CS4486","mechanism":"AI applications, limitations and ethics motivate later algorithmic study; introductory GE does not supply programming competence.","strength":"interest_and_vocabulary_only","formal_prerequisite":false},
+    {"sources":["MA2509"],"target":"GE2134","mechanism":"Formal logic can help evaluate arguments, but creative thinking, cognitive biases and ethical reasoning remain separate demands.","strength":"limited_cross_domain_deduction","formal_prerequisite":false}
+  ],
+  "content_sources":{
+    "EF3320":"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3320.htm",
+    "EF3520":"https://www.cityu.edu.hk/catalogue/ug/current/course/EF3520.htm",
+    "EF4820":"https://www.cityu.edu.hk/catalogue/ug/current/course/EF4820.htm",
+    "EF4822":"https://www.cityu.edu.hk/catalogue/ug/current/course/EF4822.htm",
+    "MA3515":"https://www.cityu.edu.hk/catalogue/ug/current/course/MA3515.htm",
+    "CS4487":"https://www.cityu.edu.hk/catalogue/ug/current/course/CS4487.htm",
+    "GE2340":"https://www.cityu.edu.hk/catalogue/ug/current/course/ge2340.htm",
+    "other_saved_PDF_content":"data/preparation-v5.json"
+  }
+}

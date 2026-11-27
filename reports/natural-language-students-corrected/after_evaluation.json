@@ -1,0 +1,18 @@
+{
+  "heldout": {
+    "passed": 34,
+    "total": 48
+  },
+  "familiar_failures": {
+    "passed": 12,
+    "total": 12
+  },
+  "legacy_relations": {
+    "passed": 20,
+    "total": 20
+  },
+  "fresh_manual": {
+    "passed": 4,
+    "total": 6
+  }
+}

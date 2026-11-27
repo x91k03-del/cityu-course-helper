@@ -1,0 +1,29 @@
+{
+  "previous_tex_sha256": "49b50de76516fe3568124c771b3595afbabc95c6fb8a27df0fd5844ad079cc67",
+  "previous_pdf_sha256": "e452c0a246a15843e2e2dae239b2712c8623bae1c788a9d41009b54afafbc393",
+  "new_comparison_inputs_sha256": "af960bb512ce03b641bfaa6defc8fdbd4cc806772e0aaa3d98c9cf8990b6288f",
+  "new_profiles": 8,
+  "previous_report_overwritten": false,
+  "sections_updated": [
+    "model comparison",
+    "GPT reward teaching",
+    "current planner",
+    "degree evidence scope"
+  ],
+  "summary": {
+    "qwen": {
+      "accepted": 4,
+      "total": 8,
+      "feasible_schedules": 3
+    },
+    "gpt": {
+      "accepted": 8,
+      "total": 8,
+      "feasible_schedules": 4
+    }
+  },
+  "pdf_pages": 9,
+  "final_tex_sha256": "5f4a68cb568e4c0fcbd357d095c9adcaa2f220de233b46d0792815ca73e32e74",
+  "final_pdf_sha256": "38bd2b034ecaf50289fd2b8bdd25a75613cc40851260998b058948b76bdfc5f8",
+  "validation": "8 paired results, report counts, reward optima and preservation checks passed"
+}

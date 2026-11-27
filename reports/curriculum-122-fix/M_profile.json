@@ -1,0 +1,117 @@
+{
+  "programme": "CM",
+  "programme_code": "BSCSIU4",
+  "cohort": 2025,
+  "year": 2,
+  "term": "202609",
+  "include_GE_snapshot": true,
+  "ge_candidate_courses": [
+    "GE1105",
+    "GE1113",
+    "GE1202",
+    "GE1305",
+    "GE2134",
+    "GE2260"
+  ],
+  "start_semester": 3,
+  "chain_state_limit": 800,
+  "chain_branch_width": 4,
+  "chain_beam_width": 3,
+  "chain_credit_beam_width": 3,
+  "historical_transcript": [
+    {
+      "id": "MA1300",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "CS1302",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "PHY1201",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "GE1401",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "GE2134",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "MA1301",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "CHEM1200",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "GE1501",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "GE2401",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "GE1305",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    }
+  ],
+  "completed_courses": [
+    "MA1300",
+    "CS1302",
+    "PHY1201",
+    "GE1401",
+    "GE2134",
+    "MA1301",
+    "CHEM1200",
+    "GE1501",
+    "GE2401",
+    "GE1305"
+  ],
+  "desired_stream": "Enriched Mathematics",
+  "degree_mode": "curriculum_with_pending"
+}

@@ -1,0 +1,12 @@
+{
+  "qwen": {
+    "accepted": 4,
+    "total": 8,
+    "feasible_schedules": 3
+  },
+  "gpt": {
+    "accepted": 8,
+    "total": 8,
+    "feasible_schedules": 4
+  }
+}

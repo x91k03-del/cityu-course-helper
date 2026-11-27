@@ -1,0 +1,36 @@
+{
+  "template": {
+    "path": "GE_SEMA/Phase2_Template.tex",
+    "sha256": "e4049d5adb9a34f1e24fb36ea815409b6e748a9d4a89af10aea7ce6c73e9a447"
+  },
+  "style_sha256": "31f36ae4dbafb4f79726fe0cea8cff88b4080415ab4481f1ca13c59b7c8b1e41",
+  "evidence": {
+    "reports/programme-v6/release.json": "5ba09f9c307a26f367f1f55440a85488cd0f148516873e34541ccdb31b4c8386",
+    "reports/programme-v6/training.json": "6f333d277aefe3a49389a8586bb8e0e5e278f03f08d9369750f1221470279d38",
+    "reports/programme-v6/evaluation.json": "01a1afe2f1756dc9862dc1cafa554531366e14b0f8cb0c94cef0d72148b97f74",
+    "reports/programme-v6/validation.json": "455063722745245d8c7ee93e1db32f8abe1a22b07b19472144e6603c595306e8",
+    "reports/desired-stream/summary.json": "8d2e97073822ba05dfc91c23f8c2b18c787bc1357eb557e5ff4e700272504abb",
+    "reports/desired-stream/generation_protocol.json": "3c0afdbcb8149214936831a32aae21e1e34668087a72103e3b541367c591598a",
+    "reports/ge-pathway-lambda/controlled_sensitivity.json": "c4373b5eb854430e3aa0667785e1b523105e6d43deef44e3319d5a572b1eebe6",
+    "reports/ge-pathway-lambda/validation.json": "302d978d0a877b25c0e58d13f107a1cd504246040376afe7e4b42391564ab33c",
+    "reports/dependency-experiment/protocol.json": "f7135e0d7c446dffce2239ebd6a492e8d564aecf69c8e36dc70a432eafb9b360",
+    "reports/dependency-experiment/paired_results.json": "6085cf1934c9a6fecf205f9565029e6c1b72162d2b5ffd409aa50f900fb6c53f",
+    "reports/dependency-experiment/factorial.json": "d023be826086a9dae2c79cd12e4a5ed3201ff3fd99713253aef61fc65014e5e7",
+    "reports/dependency-experiment/model_results.json": "3284ec72bd96a864df28b88d02d7389e1fbe2129c0003bb3c537a5dda11922a6",
+    "reports/dependency-experiment/summary.json": "fabc172f4b0c96e960fc1ab6fc7028dde45c2d54d2dbcdb327eb6c768d7d3cd3",
+    "data/four_year_policy.json": "26caf535841b1ff306b5e1d3ad5b70dcf4a75f0edea6e5230f9477947ba68834",
+    "data/active_programme_adapter.json": "2274c28936793acbadff068c2bbb38f5bd319f1724a2d599c2c74359a7f0dff9",
+    "reports/cm-finance-background/training.json": "687ac51c6e3d5348aa110fedd31b53784b08eb89147f989835bd0cbef67ed042",
+    "reports/cm-finance-background/before_evaluation.json": "584452b477aaa1a0dae28971f71008e7019398093fdd9cab821fb90a04a26a2a",
+    "reports/cm-finance-background/after_evaluation.json": "72bd9263f1c399d18a0908080cb5612a3ffc456cb3435339763cd36aca39e0c5",
+    "reports/cm-finance-background/profile_default_diagnostics.json": "f9e55aa288207b1263872183831c8b59eb4da9067e711570621e085140528a20",
+    "reports/cm-finance-background/release.json": "f1e16ee64e966900acd9763611a9775d9bc39c1cde56edc44f4b5e87caa5e97b",
+    "reports/cm-finance-background/updated_20_paths.json": "1892eb7c4a3c2f50976f822a76bd7e9ef69ab6c6edf3000123f43ac6a1740cea",
+    "reports/cm-finance-background/background_examples.json": "d942ab5ebb757da3d3e01baa7ab590eb0aeedc4d29a998d7bea8f9657aa75d43",
+    "data/cm-finance-background/policy.json": "0c6ecb1f2fccaa54e2a98f1ce757424e8759542a8768e98f41f09b3e5143ddfe"
+  },
+  "report_date": "2026-11-21",
+  "model_base_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "figure_builder_runs_model_training_or_inference": false,
+  "CM_finance_background_training_performed": true
+}

@@ -1,0 +1,46 @@
+{
+  "validation_checks_passed": 101,
+  "end_to_end_entrypoint_passed": true,
+  "neural_weights_updated": false,
+  "planner_method": "Markov full-path curriculum insertion; hard terminal acceptance; saved timetable attachment",
+  "pending_mode_approved_by_user": true,
+  "original_reports_and_profiles_preserved": true,
+  "cases": {
+    "F": {
+      "total": 122,
+      "math_elective_credits": 30,
+      "GE_count": 4,
+      "all_encoded_requirements_met": true,
+      "Y4B_credits": 15,
+      "pending_credits": 25,
+      "registration_timetable_complete": false
+    },
+    "N": {
+      "total": 122,
+      "math_elective_credits": 30,
+      "GE_count": 4,
+      "all_encoded_requirements_met": true,
+      "Y4B_credits": 18,
+      "pending_credits": 25,
+      "registration_timetable_complete": false
+    },
+    "M": {
+      "total": 122,
+      "math_elective_credits": 30,
+      "GE_count": 4,
+      "all_encoded_requirements_met": true,
+      "Y4B_credits": 15,
+      "pending_credits": 25,
+      "registration_timetable_complete": false
+    }
+  },
+  "sha256": {
+    "curriculum_chain.py": "4d663fa8a02f4bc0868e16061376d55b4aa5341c53f5d44df2772bb3de582143",
+    "degree_chain.py": "54fa1facc193b39a9164cf34751f5fd46b03daf892684e817a068dd46f5579ed",
+    "degree_chain_training.py": "c929cbdbb94b3ac9feb0ac0d6a1ae067233bebeb59f999104576fa58f1907ee7",
+    "data/curriculum-pending-evidence.json": "60a643cb377330f818bdfcd5a9f872105b288f7c9e04c3acbbf0800a4369b4c8",
+    "data/active_degree_planning_policy.json": "558032066501aac671246b112666a51ca920345d038e544bf09480b6d444099f",
+    "test_curriculum_122.py": "452a7220a13e0e0de78781d15ce2380dfaef906a559dc765f5df442040f515c7",
+    "report_curriculum_122.py": "597e13baf386b0f651c04abce508517b3cb3c859cf496eaba4e33306e178d1d8"
+  }
+}

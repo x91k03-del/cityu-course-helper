@@ -1,0 +1,1710 @@
+[
+  {
+    "id": "15848CA1:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1105 section 15848CA1 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1105",
+      "term": "2026-27 Sem A",
+      "section": "15848CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "LT-14"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1105\", \"term\": \"2026-27 Semester A\", \"section\": 15848, \"meetings\": [{\"day\": \"Monday\", \"start_time\": \"14:00\", \"end_time\": \"15:15\", \"building\": \"KC\", \"room\": \"KC111\"}, {\"day\": \"Wednesday\", \"start_time\": \"14:00\", \"end_time\": \"15:15\", \"building\": \"KC\", \"room\": \"KC111\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "15848CA1:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1105\", \"term\": \"2026-27 Sem A\", \"section\": \"15848CA1\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"LT-14\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1105",
+      "term": "2026-27 Sem A",
+      "section": "15848CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "LT-14"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1105\", \"term\": \"2026-27 Sem A\", \"section\": \"15848CA1\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"LT-14\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "15333C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1113 section 15333C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1113",
+      "term": "2026-27 Sem A",
+      "section": "15333C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "15:00",
+          "end_time": "16:20",
+          "building": "CMC",
+          "room": "M4051"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1113\", \"term\": \"2026-27 Semester A\", \"section\": \"15333C01\", \"meetings\": [{\"day\": \"Monday\", \"start_time\": \"10:30\", \"end_time\": \"11:30\", \"building\": \"KC\", \"room\": \"KC111\"}, {\"day\": \"Wednesday\", \"start_time\": \"10:30\", \"end_time\": \"11:30\", \"building\": \"KC\", \"room\": \"KC111\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "15333C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1113\", \"term\": \"2026-27 Sem A\", \"section\": \"15333C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"15:00\", \"end_time\": \"16:20\", \"building\": \"CMC\", \"room\": \"M4051\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1113",
+      "term": "2026-27 Sem A",
+      "section": "15333C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "15:00",
+          "end_time": "16:20",
+          "building": "CMC",
+          "room": "M4051"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1113\", \"term\": \"2026-27 Sem A\", \"section\": \"15333C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"15:00\", \"end_time\": \"16:20\", \"building\": \"CMC\", \"room\": \"M4051\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "13209C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1128 section 13209C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1128",
+      "term": "2026-27 Sem A",
+      "section": "13209C01",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "15:00",
+          "end_time": "17:50",
+          "building": "CMC",
+          "room": "M3090"
+        },
+        {
+          "day": "Thu",
+          "start_time": "15:00",
+          "end_time": "17:50",
+          "building": "LAU",
+          "room": "7-209"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1128\", \"term\": \"2026-27 Semester A\", \"section\": \"13209C01\", \"meetings\": [{\"day\": \"Monday\", \"start_time\": \"10:30\", \"end_time\": \"11:30\", \"building\": \"KC\", \"room\": \"KC111\"}, {\"day\": \"Wednesday\", \"start_time\": \"10:30\", \"end_time\": \"11:30\", \"building\": \"KC\", \"room\": \"KC111\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "13209C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1128\", \"term\": \"2026-27 Sem A\", \"section\": \"13209C01\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"15:00\", \"end_time\": \"17:50\", \"building\": \"CMC\", \"room\": \"M3090\"}, {\"day\": \"Thu\", \"start_time\": \"15:00\", \"end_time\": \"17:50\", \"building\": \"LAU\", \"room\": \"7-209\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1128",
+      "term": "2026-27 Sem A",
+      "section": "13209C01",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "15:00",
+          "end_time": "17:50",
+          "building": "CMC",
+          "room": "M3090"
+        },
+        {
+          "day": "Thu",
+          "start_time": "15:00",
+          "end_time": "17:50",
+          "building": "LAU",
+          "room": "7-209"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1128\", \"term\": \"2026-27 Sem A\", \"section\": \"13209C01\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"15:00\", \"end_time\": \"17:50\", \"building\": \"CMC\", \"room\": \"M3090\"}, {\"day\": \"Thu\", \"start_time\": \"15:00\", \"end_time\": \"17:50\", \"building\": \"LAU\", \"room\": \"7-209\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "13475C03:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1202 section 13475C03 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1202",
+      "term": "2026-27 Sem A",
+      "section": "13475C03",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "LI",
+          "room": "2614"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1202\", \"term\": \"2026-27 Semester A\", \"section\": \"13475C03\", \"meetings\": [{\"day\": \"Monday\", \"start_time\": \"14:00\", \"end_time\": \"15:15\", \"building\": \"K11\", \"room\": \"1112\"}, {\"day\": \"Wednesday\", \"start_time\": \"14:00\", \"end_time\": \"15:15\", \"building\": \"K11\", \"room\": \"1112\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "13475C03:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1202\", \"term\": \"2026-27 Sem A\", \"section\": \"13475C03\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"LI\", \"room\": \"2614\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1202",
+      "term": "2026-27 Sem A",
+      "section": "13475C03",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "LI",
+          "room": "2614"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1202\", \"term\": \"2026-27 Sem A\", \"section\": \"13475C03\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"LI\", \"room\": \"2614\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "11355C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1305 section 11355C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1305",
+      "term": "2026-27 Sem A",
+      "section": "11355C01",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "building": "YEUNG",
+          "room": "LT-17"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1305\", \"term\": \"2026-27 Semester A\", \"section\": 11355, \"route\": \"C01\", \"meetings\": [{\"day\": \"Monday\", \"start_time\": \"10:30\", \"end_time\": \"11:30\", \"building\": \"KC\", \"room\": \"KC111\"}, {\"day\": \"Wednesday\", \"start_time\": \"10:30\", \"end_time\": \"11:30\", \"building\": \"KC\", \"room\": \"KC111\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "11355C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1305\", \"term\": \"2026-27 Sem A\", \"section\": \"11355C01\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"12:00\", \"end_time\": \"13:50\", \"building\": \"YEUNG\", \"room\": \"LT-17\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1305",
+      "term": "2026-27 Sem A",
+      "section": "11355C01",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "building": "YEUNG",
+          "room": "LT-17"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1305\", \"term\": \"2026-27 Sem A\", \"section\": \"11355C01\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"12:00\", \"end_time\": \"13:50\", \"building\": \"YEUNG\", \"room\": \"LT-17\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "11456LB1:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1354 section 11456LB1 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1354",
+      "term": "2026-27 Sem A",
+      "section": "11456LB1",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "13:00",
+          "end_time": "14:50",
+          "building": "YEUNG",
+          "room": "G7610"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1354\", \"term\": \"2026-27 Semester A\", \"section\": 11456, \"route\": \"LB1\", \"title\": \"English for Academic Purposes\", \"credits\": 3, \"route_note\": \"Language Bridge\", \"route_eligibility\": [\"GE1353\"], \"prerequisites\": [\"GE1353\"], \"current_enrollment\": 0, \"capacity\": 15, \"waitlisted\": 0, \"route_eligibility_verified\": true, \"needs_confirmation\": true, \"meetings\": [{\"day\": \"Monday\", \"start_time\": \"10:30\", \"end_time\": \"12:30\", \"building\": \"KC\", \"room\": \"KC111\"}, {\"day\": \"Wednesday\", \"start_time\": \"10:30\", \"end_time\": \"12:30\", \"building\": \"KC\", \"room\": \"KC111\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"capacity_remaining\": 15}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "11456LB1:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1354\", \"term\": \"2026-27 Sem A\", \"section\": \"11456LB1\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"13:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1354",
+      "term": "2026-27 Sem A",
+      "section": "11456LB1",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "13:00",
+          "end_time": "14:50",
+          "building": "YEUNG",
+          "room": "G7610"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1354\", \"term\": \"2026-27 Sem A\", \"section\": \"11456LB1\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"13:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "12086C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1356 section 12086C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1356",
+      "term": "2026-27 Sem A",
+      "section": "12086C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "12:00",
+          "end_time": "14:50",
+          "building": "LI",
+          "room": "3505"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1356\", \"term\": \"2026-27 Semester A\", \"section\": \"12086C01\", \"meetings\": [{\"day\": \"Monday\", \"start_time\": \"14:00\", \"end_time\": \"15:15\", \"building\": \"KC\", \"room\": \"KC111\"}, {\"day\": \"Wednesday\", \"start_time\": \"14:00\", \"end_time\": \"15:15\", \"building\": \"KC\", \"room\": \"KC111\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "12086C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1356\", \"term\": \"2026-27 Sem A\", \"section\": \"12086C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"LI\", \"room\": \"3505\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1356",
+      "term": "2026-27 Sem A",
+      "section": "12086C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "12:00",
+          "end_time": "14:50",
+          "building": "LI",
+          "room": "3505"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1356\", \"term\": \"2026-27 Sem A\", \"section\": \"12086C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"LI\", \"room\": \"3505\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "14467C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1362 section 14467C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1362",
+      "term": "2026-27 Sem A",
+      "section": "14467C01",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "16:00",
+          "end_time": "17:50",
+          "building": "LI",
+          "room": "1507"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1362\", \"term\": \"2026-27 Semester A\", \"section\": \"14467C01\", \"meetings\": [{\"day\": \"Monday\", \"start_time\": \"10:30\", \"end_time\": \"11:30\", \"building\": \"KC\", \"room\": \"KC111\"}, {\"day\": \"Wednesday\", \"start_time\": \"10:30\", \"end_time\": \"11:30\", \"building\": \"KC\", \"room\": \"KC111\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "14467C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1362\", \"term\": \"2026-27 Sem A\", \"section\": \"14467C01\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"16:00\", \"end_time\": \"17:50\", \"building\": \"LI\", \"room\": \"1507\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1362",
+      "term": "2026-27 Sem A",
+      "section": "14467C01",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "16:00",
+          "end_time": "17:50",
+          "building": "LI",
+          "room": "1507"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1362\", \"term\": \"2026-27 Sem A\", \"section\": \"14467C01\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"16:00\", \"end_time\": \"17:50\", \"building\": \"LI\", \"room\": \"1507\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "10708T34:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1401 section 10708T34 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1401",
+      "term": "2026-27 Sem A",
+      "section": "10708T34",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "LI",
+          "room": "2312"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1401\", \"term\": \"2026-27 Semester A\", \"section\": 10708, \"meetings\": [{\"day\": \"Wednesday\", \"start_time\": \"14:00\", \"end_time\": \"15:00\", \"building\": \"K11\", \"room\": \"1121\"}, {\"day\": \"Friday\", \"start_time\": \"14:00\", \"end_time\": \"15:00\", \"building\": \"K11\", \"room\": \"1121\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "10708T34:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1401\", \"term\": \"2026-27 Sem A\", \"section\": \"10708T34\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"LI\", \"room\": \"2312\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1401",
+      "term": "2026-27 Sem A",
+      "section": "10708T34",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "LI",
+          "room": "2312"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1401\", \"term\": \"2026-27 Sem A\", \"section\": \"10708T34\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"LI\", \"room\": \"2312\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "12619C14:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1501 section 12619C14 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1501",
+      "term": "2026-27 Sem A",
+      "section": "12619C14",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "Y4702"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1501\", \"term\": \"2026-27 Semester A\", \"section\": 12619, \"route\": \"C14\", \"meetings\": [{\"day\": \"Monday\", \"start_time\": \"10:30\", \"end_time\": \"11:30\", \"building\": \"KC\", \"room\": \"KC111\"}, {\"day\": \"Wednesday\", \"start_time\": \"10:30\", \"end_time\": \"11:30\", \"building\": \"KC\", \"room\": \"KC111\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "12619C14:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1501\", \"term\": \"2026-27 Sem A\", \"section\": \"12619C14\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"Y4702\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1501",
+      "term": "2026-27 Sem A",
+      "section": "12619C14",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "Y4702"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1501\", \"term\": \"2026-27 Sem A\", \"section\": \"12619C14\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"Y4702\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "14217C17:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1601 section 14217C17 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1601",
+      "term": "2026-27 Sem A",
+      "section": "14217C17",
+      "meetings": [
+        {
+          "day": null,
+          "start_time": null,
+          "end_time": null,
+          "building": null,
+          "room": null
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1601\", \"term\": \"2026-27 Semester A\", \"section\": 14217, \"meetings\": [{\"day\": \"Monday\", \"start_time\": 1030, \"end_time\": 1130, \"building\": \"KC\", \"room\": \"KC111\"}, {\"day\": \"Wednesday\", \"start_time\": 1030, \"end_time\": 1130, \"building\": \"KC\", \"room\": \"KC111\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "14217C17:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1601\", \"term\": \"2026-27 Sem A\", \"section\": \"14217C17\", \"meetings\": [{\"day\": null, \"start_time\": null, \"end_time\": null, \"building\": null, \"room\": null}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1601",
+      "term": "2026-27 Sem A",
+      "section": "14217C17",
+      "meetings": [
+        {
+          "day": null,
+          "start_time": null,
+          "end_time": null,
+          "building": null,
+          "room": null
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE1601\", \"term\": \"2026-27 Sem A\", \"section\": \"14217C17\", \"meetings\": [{\"day\": null, \"start_time\": null, \"end_time\": null, \"building\": null, \"room\": null}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "11758C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE2262 section 11758C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE2262",
+      "term": "2026-27 Sem A",
+      "section": "11758C01",
+      "meetings": [
+        {
+          "day": "Tue",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "building": "YEUNG",
+          "room": "LT-13"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE2262\", \"term\": \"2026-27 Semester A\", \"section\": 11758, \"route\": \"C01\", \"meetings\": [{\"day\": \"Monday\", \"start_time\": \"14:00\", \"end_time\": \"15:15\", \"building\": \"KC\", \"room\": \"KC111\"}, {\"day\": \"Wednesday\", \"start_time\": \"14:00\", \"end_time\": \"15:15\", \"building\": \"KC\", \"room\": \"KC111\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "11758C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE2262\", \"term\": \"2026-27 Sem A\", \"section\": \"11758C01\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"13:50\", \"building\": \"YEUNG\", \"room\": \"LT-13\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE2262",
+      "term": "2026-27 Sem A",
+      "section": "11758C01",
+      "meetings": [
+        {
+          "day": "Tue",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "building": "YEUNG",
+          "room": "LT-13"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "bscm",
+    "raw_response": "{\"course_code\": \"GE2262\", \"term\": \"2026-27 Sem A\", \"section\": \"11758C01\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"13:50\", \"building\": \"YEUNG\", \"room\": \"LT-13\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "15848CA1:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1105 section 15848CA1 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1105",
+      "term": "2026-27 Sem A",
+      "section": "15848CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "LT-14"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1105\", \"term\": \"2026-27 Sem A\", \"section\": \"15848CA1\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "15848CA1:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1105\", \"term\": \"2026-27 Sem A\", \"section\": \"15848CA1\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"LT-14\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1105",
+      "term": "2026-27 Sem A",
+      "section": "15848CA1",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "LT-14"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1105\", \"term\": \"2026-27 Sem A\", \"section\": \"15848CA1\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"LT-14\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "15333C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1113 section 15333C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1113",
+      "term": "2026-27 Sem A",
+      "section": "15333C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "15:00",
+          "end_time": "16:20",
+          "building": "CMC",
+          "room": "M4051"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1113\", \"term\": \"2026-27 Sem A\", \"section\": \"15333C01\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "15333C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1113\", \"term\": \"2026-27 Sem A\", \"section\": \"15333C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"15:00\", \"end_time\": \"16:20\", \"building\": \"CMC\", \"room\": \"M4051\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1113",
+      "term": "2026-27 Sem A",
+      "section": "15333C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "15:00",
+          "end_time": "16:20",
+          "building": "CMC",
+          "room": "M4051"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1113\", \"term\": \"2026-27 Sem A\", \"section\": \"15333C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"15:00\", \"end_time\": \"16:20\", \"building\": \"CMC\", \"room\": \"M4051\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "13209C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1128 section 13209C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1128",
+      "term": "2026-27 Sem A",
+      "section": "13209C01",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "15:00",
+          "end_time": "17:50",
+          "building": "CMC",
+          "room": "M3090"
+        },
+        {
+          "day": "Thu",
+          "start_time": "15:00",
+          "end_time": "17:50",
+          "building": "LAU",
+          "room": "7-209"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1128\", \"term\": \"2026-27 Sem A\", \"section\": \"13209C01\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "13209C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1128\", \"term\": \"2026-27 Sem A\", \"section\": \"13209C01\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"15:00\", \"end_time\": \"17:50\", \"building\": \"CMC\", \"room\": \"M3090\"}, {\"day\": \"Thu\", \"start_time\": \"15:00\", \"end_time\": \"17:50\", \"building\": \"LAU\", \"room\": \"7-209\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1128",
+      "term": "2026-27 Sem A",
+      "section": "13209C01",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "15:00",
+          "end_time": "17:50",
+          "building": "CMC",
+          "room": "M3090"
+        },
+        {
+          "day": "Thu",
+          "start_time": "15:00",
+          "end_time": "17:50",
+          "building": "LAU",
+          "room": "7-209"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1128\", \"term\": \"2026-27 Sem A\", \"section\": \"13209C01\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"15:00\", \"end_time\": \"17:50\", \"building\": \"CMC\", \"room\": \"M3090\"}, {\"day\": \"Thu\", \"start_time\": \"15:00\", \"end_time\": \"17:50\", \"building\": \"LAU\", \"room\": \"7-209\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "13475C03:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1202 section 13475C03 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1202",
+      "term": "2026-27 Sem A",
+      "section": "13475C03",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "LI",
+          "room": "2614"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1202\", \"term\": \"2026-27 Sem A\", \"section\": \"13475C03\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "13475C03:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1202\", \"term\": \"2026-27 Sem A\", \"section\": \"13475C03\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"LI\", \"room\": \"2614\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1202",
+      "term": "2026-27 Sem A",
+      "section": "13475C03",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "LI",
+          "room": "2614"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1202\", \"term\": \"2026-27 Sem A\", \"section\": \"13475C03\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"LI\", \"room\": \"2614\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "11355C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1305 section 11355C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1305",
+      "term": "2026-27 Sem A",
+      "section": "11355C01",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "building": "YEUNG",
+          "room": "LT-17"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1305\", \"term\": \"2026-27 Sem A\", \"section\": \"11355C01\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "11355C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1305\", \"term\": \"2026-27 Sem A\", \"section\": \"11355C01\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"12:00\", \"end_time\": \"13:50\", \"building\": \"YEUNG\", \"room\": \"LT-17\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1305",
+      "term": "2026-27 Sem A",
+      "section": "11355C01",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "building": "YEUNG",
+          "room": "LT-17"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1305\", \"term\": \"2026-27 Sem A\", \"section\": \"11355C01\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"12:00\", \"end_time\": \"13:50\", \"building\": \"YEUNG\", \"room\": \"LT-17\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "11456LB1:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1354 section 11456LB1 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1354",
+      "term": "2026-27 Sem A",
+      "section": "11456LB1",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "13:00",
+          "end_time": "14:50",
+          "building": "YEUNG",
+          "room": "G7610"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1354\", \"term\": \"2026-27 Sem A\", \"section\": \"11456LB1\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "11456LB1:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1354\", \"term\": \"2026-27 Sem A\", \"section\": \"11456LB1\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"13:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1354",
+      "term": "2026-27 Sem A",
+      "section": "11456LB1",
+      "meetings": [
+        {
+          "day": "Wed",
+          "start_time": "13:00",
+          "end_time": "14:50",
+          "building": "YEUNG",
+          "room": "G7610"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1354\", \"term\": \"2026-27 Sem A\", \"section\": \"11456LB1\", \"meetings\": [{\"day\": \"Wed\", \"start_time\": \"13:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "12086C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1356 section 12086C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1356",
+      "term": "2026-27 Sem A",
+      "section": "12086C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "12:00",
+          "end_time": "14:50",
+          "building": "LI",
+          "room": "3505"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1356\", \"term\": \"2026-27 Sem A\", \"section\": \"12086C01\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "12086C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1356\", \"term\": \"2026-27 Sem A\", \"section\": \"12086C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"LI\", \"room\": \"3505\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1356",
+      "term": "2026-27 Sem A",
+      "section": "12086C01",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "12:00",
+          "end_time": "14:50",
+          "building": "LI",
+          "room": "3505"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1356\", \"term\": \"2026-27 Sem A\", \"section\": \"12086C01\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"LI\", \"room\": \"3505\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "14467C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1362 section 14467C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1362",
+      "term": "2026-27 Sem A",
+      "section": "14467C01",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "16:00",
+          "end_time": "17:50",
+          "building": "LI",
+          "room": "1507"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1362\", \"term\": \"2026-27 Sem A\", \"section\": \"14467C01\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "14467C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1362\", \"term\": \"2026-27 Sem A\", \"section\": \"14467C01\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"16:00\", \"end_time\": \"17:50\", \"building\": \"LI\", \"room\": \"1507\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1362",
+      "term": "2026-27 Sem A",
+      "section": "14467C01",
+      "meetings": [
+        {
+          "day": "Thu",
+          "start_time": "16:00",
+          "end_time": "17:50",
+          "building": "LI",
+          "room": "1507"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1362\", \"term\": \"2026-27 Sem A\", \"section\": \"14467C01\", \"meetings\": [{\"day\": \"Thu\", \"start_time\": \"16:00\", \"end_time\": \"17:50\", \"building\": \"LI\", \"room\": \"1507\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "10708T34:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1401 section 10708T34 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1401",
+      "term": "2026-27 Sem A",
+      "section": "10708T34",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "LI",
+          "room": "2312"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1401\", \"term\": \"2026-27 Sem A\", \"section\": \"10708T34\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"LI\", \"room\": \"2308\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "10708T34:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1401\", \"term\": \"2026-27 Sem A\", \"section\": \"10708T34\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"LI\", \"room\": \"2312\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1401",
+      "term": "2026-27 Sem A",
+      "section": "10708T34",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "LI",
+          "room": "2312"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1401\", \"term\": \"2026-27 Sem A\", \"section\": \"10708T34\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"LI\", \"room\": \"2312\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "12619C14:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1501 section 12619C14 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1501",
+      "term": "2026-27 Sem A",
+      "section": "12619C14",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "Y4702"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1501\", \"term\": \"2026-27 Sem A\", \"section\": \"12619C14\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "12619C14:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1501\", \"term\": \"2026-27 Sem A\", \"section\": \"12619C14\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"Y4702\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1501",
+      "term": "2026-27 Sem A",
+      "section": "12619C14",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start_time": "09:00",
+          "end_time": "11:50",
+          "building": "YEUNG",
+          "room": "Y4702"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1501\", \"term\": \"2026-27 Sem A\", \"section\": \"12619C14\", \"meetings\": [{\"day\": \"Mon\", \"start_time\": \"09:00\", \"end_time\": \"11:50\", \"building\": \"YEUNG\", \"room\": \"Y4702\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "14217C17:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE1601 section 14217C17 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1601",
+      "term": "2026-27 Sem A",
+      "section": "14217C17",
+      "meetings": [
+        {
+          "day": null,
+          "start_time": null,
+          "end_time": null,
+          "building": null,
+          "room": null
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1601\", \"term\": \"2026-27 Sem A\", \"section\": \"14217C17\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "14217C17:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE1601\", \"term\": \"2026-27 Sem A\", \"section\": \"14217C17\", \"meetings\": [{\"day\": null, \"start_time\": null, \"end_time\": null, \"building\": null, \"room\": null}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE1601",
+      "term": "2026-27 Sem A",
+      "section": "14217C17",
+      "meetings": [
+        {
+          "day": null,
+          "start_time": null,
+          "end_time": null,
+          "building": null,
+          "room": null
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE1601\", \"term\": \"2026-27 Sem A\", \"section\": \"14217C17\", \"meetings\": [{\"day\": null, \"start_time\": null, \"end_time\": null, \"building\": null, \"room\": null}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  },
+  {
+    "id": "11758C01:recall",
+    "task": "recall",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Check the saved meeting details of GE2262 section 11758C01 in 2026-27 Sem A?"
+      }
+    ],
+    "expected": {
+      "course_code": "GE2262",
+      "term": "2026-27 Sem A",
+      "section": "11758C01",
+      "meetings": [
+        {
+          "day": "Tue",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "building": "YEUNG",
+          "room": "LT-13"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE2262\", \"term\": \"2026-27 Sem A\", \"section\": \"11758C01\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"14:50\", \"building\": \"YEUNG\", \"room\": \"G7610\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": false,
+    "time_fields_match": false
+  },
+  {
+    "id": "11758C01:grounded",
+    "task": "grounded",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return captured CityU GE timetable information as JSON with course_code, term, section, meetings, calendar_dates, teaching_weeks, and needs_confirmation. meetings contains day, start_time, end_time, building, room. Use the 2026-27 Semester A snapshot only. Missing days/times are null, not free periods. Calendar dates and teaching weeks were not published in this source, so both are null and needs_confirmation true. Capacity is not remaining seats. Preserve multiple room records without inventing date assignments."
+      },
+      {
+        "role": "user",
+        "content": "Read this supplied section and return its timetable fields: {\"course_code\": \"GE2262\", \"term\": \"2026-27 Sem A\", \"section\": \"11758C01\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"13:50\", \"building\": \"YEUNG\", \"room\": \"LT-13\"}]}"
+      }
+    ],
+    "expected": {
+      "course_code": "GE2262",
+      "term": "2026-27 Sem A",
+      "section": "11758C01",
+      "meetings": [
+        {
+          "day": "Tue",
+          "start_time": "12:00",
+          "end_time": "13:50",
+          "building": "YEUNG",
+          "room": "LT-13"
+        }
+      ],
+      "calendar_dates": null,
+      "teaching_weeks": null,
+      "needs_confirmation": true
+    },
+    "model": "timetable",
+    "raw_response": "{\"course_code\": \"GE2262\", \"term\": \"2026-27 Sem A\", \"section\": \"11758C01\", \"meetings\": [{\"day\": \"Tue\", \"start_time\": \"12:00\", \"end_time\": \"13:50\", \"building\": \"YEUNG\", \"room\": \"LT-13\"}], \"calendar_dates\": null, \"teaching_weeks\": null, \"needs_confirmation\": true}",
+    "passed": true,
+    "time_fields_match": true
+  }
+]

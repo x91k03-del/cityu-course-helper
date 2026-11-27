@@ -1,0 +1,62 @@
+{
+  "profile_id": "CS_03",
+  "programme": "CS",
+  "desired_stream": "Cybersecurity",
+  "stream_reward_multiplier": 2.0,
+  "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+  "completed_taught_core": [
+    "CS2115",
+    "CS2310",
+    "CS2312",
+    "CS2402",
+    "CS2613",
+    "CS3103",
+    "CS3201",
+    "CS3334",
+    "CS3342",
+    "CS4335",
+    "MA2185"
+  ],
+  "completed_courses": [
+    "CS1302A",
+    "CS2115",
+    "CS2310",
+    "CS2312",
+    "CS2402",
+    "CS2613",
+    "CS3103",
+    "CS3201",
+    "CS3334",
+    "CS3342",
+    "CS4335",
+    "GE1105",
+    "GE1202",
+    "MA1503",
+    "MA1508",
+    "MA2185"
+  ],
+  "GE_history": [
+    {
+      "course_code": "GE1202",
+      "title": "Managing Your Personal Finance",
+      "grade": "B+",
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "course_code": "GE1105",
+      "title": "Chinese Music Appreciation",
+      "grade": "B",
+      "year": 1,
+      "semester": "B"
+    }
+  ],
+  "fictional": true,
+  "future_term": "unverified",
+  "random_seed": 20261121,
+  "weights": {
+    "background_mismatch": 1.0,
+    "difficulty": 1.0,
+    "workload": 1.0
+  }
+}

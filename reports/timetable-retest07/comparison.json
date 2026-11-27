@@ -1,0 +1,1389 @@
+[
+  {
+    "case_id": "CM_finance_analysis",
+    "profile": {
+      "profile_id": "CM_finance_analysis",
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "current_year": 2,
+      "year": 3,
+      "term": "202609",
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3526"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 3.0
+    },
+    "reference": {
+      "planner": "Markov decision subset search; no MILP",
+      "search_exact": true,
+      "states_by_course_count": [
+        1,
+        6,
+        15,
+        20,
+        15,
+        6,
+        1
+      ],
+      "course_min": 5,
+      "course_max": 6,
+      "rejected_options": {},
+      "eligible_course_count": 6,
+      "status": "optimal",
+      "selected_options": [
+        "MA3512:10430",
+        "MA3518:10613",
+        "MA3521:11880",
+        "MA3525:11213:11219",
+        "MA4542:11513"
+      ],
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA3525",
+        "MA4542"
+      ],
+      "credits": 15,
+      "course_count": 5,
+      "objective": 36.681000000000004,
+      "objective_sense": "maximize",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 21.0,
+        "gross_profit": 36.0,
+        "ef_finance_mismatch_penalty": 0.0,
+        "preparation_by_course": {
+          "MA3512": 0.3,
+          "MA3518": 0.3,
+          "MA3521": 0.25,
+          "MA3525": 0.25,
+          "MA4542": 0.25
+        },
+        "student_cost_penalty": 6.669,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 6.669,
+        "preparation_benefit": 1.35,
+        "net_profit": 36.681,
+        "schedule_loss": -36.681,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 6.0,
+        "selected_stream": "Financial Mathematics"
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year_specific_credits",
+        "student_year": 3,
+        "ef_no_finance_penalty": 1.5,
+        "completed_courses": [
+          "CS1302",
+          "CS2360",
+          "CS2468",
+          "GE1401",
+          "GE1501",
+          "GE2260",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3526"
+        ],
+        "preparation_completed_courses": [
+          "CS1302",
+          "CS2360",
+          "CS2468",
+          "GE1401",
+          "GE1501",
+          "GE2260",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3526"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {
+          "1": 0,
+          "2": 1,
+          "3": 0
+        },
+        "covered_GE_area_multiplier": 0.1,
+        "years_1_to_3_overload_weight": 0.25,
+        "years_1_to_3_overload_threshold_credits": 15.0,
+        "year4_overload_weight": 0.25
+      },
+      "marginal_rewards": [
+        {
+          "added_option": "MA3512:10430",
+          "reward": 11.002
+        },
+        {
+          "added_option": "MA3518:10613",
+          "reward": 11.002
+        },
+        {
+          "added_option": "MA3521:11880",
+          "reward": 7.981999999999999
+        },
+        {
+          "added_option": "MA3525:11213:11219",
+          "reward": 4.962999999999997
+        },
+        {
+          "added_option": "MA4542:11513",
+          "reward": 1.7320000000000064
+        }
+      ],
+      "stop_action_available": true,
+      "neural_output_repaired": false,
+      "student_cost": 6.669,
+      "selected_priority_courses": [
+        "MA3512",
+        "MA3518",
+        "MA3525"
+      ],
+      "unselected_priority_courses": [
+        "MA3514",
+        "MA3515",
+        "MA3517"
+      ],
+      "weekly_balance_verified": false,
+      "prerequisite_waivers_assumed": [],
+      "limitations": [
+        "Only supplied reviewed rules and meetings are enforced.",
+        "No neural weights were updated by this planner change."
+      ]
+    },
+    "qwen": {
+      "raw_answer": {
+        "case_id": "CM_finance_analysis",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3521:11880",
+          "MA4542:11513",
+          "MA4545:11882"
+        ],
+        "future_path": "Complete MA4529 and EF3320 to satisfy stream requirements."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": [],
+        "unknown_option_ids": [],
+        "course_count": 5,
+        "minimum_courses": 5
+      },
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA4542",
+        "MA4545"
+      ],
+      "course_count": 5,
+      "net_reward": 33.28,
+      "reward_regret": 3.4010000000000034
+    },
+    "gpt": {
+      "raw_answer": {
+        "case_id": "CM_finance_analysis",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3521:11880",
+          "MA3525:11213:11219",
+          "MA4542:11513"
+        ],
+        "future_path": "Conditional on passing these selections and compatible future timetables, pursue MA4529 and two of MA4537, EF3320 and EF4821 to complete Financial Mathematics."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": [],
+        "unknown_option_ids": [],
+        "course_count": 5,
+        "minimum_courses": 5
+      },
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA3525",
+        "MA4542"
+      ],
+      "course_count": 5,
+      "net_reward": 36.681,
+      "reward_regret": 7.105427357601002e-15
+    }
+  },
+  {
+    "case_id": "CM_finance_no_analysis",
+    "profile": {
+      "profile_id": "CM_finance_no_analysis",
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "current_year": 2,
+      "year": 3,
+      "term": "202609",
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 3.0
+    },
+    "reference": {
+      "planner": "Markov decision subset search; no MILP",
+      "search_exact": true,
+      "states_by_course_count": [
+        1,
+        5,
+        10,
+        10,
+        5,
+        1
+      ],
+      "course_min": 5,
+      "course_max": 6,
+      "rejected_options": {},
+      "eligible_course_count": 5,
+      "status": "optimal",
+      "selected_options": [
+        "MA3512:10430",
+        "MA3518:10613",
+        "MA3521:11880",
+        "MA3525:11213:11219",
+        "MA4545:11882"
+      ],
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA3525",
+        "MA4545"
+      ],
+      "credits": 15,
+      "course_count": 5,
+      "objective": 36.511,
+      "objective_sense": "maximize",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 21.0,
+        "gross_profit": 36.0,
+        "ef_finance_mismatch_penalty": 0.0,
+        "preparation_by_course": {
+          "MA3512": 0.3,
+          "MA3518": 0.3,
+          "MA3521": 0.25,
+          "MA3525": 0.25,
+          "MA4545": 0.0
+        },
+        "student_cost_penalty": 6.5889999999999995,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 6.5889999999999995,
+        "preparation_benefit": 1.1,
+        "net_profit": 36.511,
+        "schedule_loss": -36.511,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 6.0,
+        "selected_stream": "Financial Mathematics"
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year_specific_credits",
+        "student_year": 3,
+        "ef_no_finance_penalty": 1.5,
+        "completed_courses": [
+          "CS1302",
+          "CS2360",
+          "CS2468",
+          "GE1401",
+          "GE1501",
+          "GE2260",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511"
+        ],
+        "preparation_completed_courses": [
+          "CS1302",
+          "CS2360",
+          "CS2468",
+          "GE1401",
+          "GE1501",
+          "GE2260",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {
+          "1": 0,
+          "2": 1,
+          "3": 0
+        },
+        "covered_GE_area_multiplier": 0.1,
+        "years_1_to_3_overload_weight": 0.25,
+        "years_1_to_3_overload_threshold_credits": 15.0,
+        "year4_overload_weight": 0.25
+      },
+      "marginal_rewards": [
+        {
+          "added_option": "MA3512:10430",
+          "reward": 11.002
+        },
+        {
+          "added_option": "MA3518:10613",
+          "reward": 11.002
+        },
+        {
+          "added_option": "MA3521:11880",
+          "reward": 7.981999999999999
+        },
+        {
+          "added_option": "MA3525:11213:11219",
+          "reward": 4.962999999999997
+        },
+        {
+          "added_option": "MA4545:11882",
+          "reward": 1.5620000000000047
+        }
+      ],
+      "stop_action_available": true,
+      "neural_output_repaired": false,
+      "student_cost": 6.5889999999999995,
+      "selected_priority_courses": [
+        "MA3512",
+        "MA3518",
+        "MA3525"
+      ],
+      "unselected_priority_courses": [
+        "MA3514",
+        "MA3515",
+        "MA3517"
+      ],
+      "weekly_balance_verified": false,
+      "prerequisite_waivers_assumed": [],
+      "limitations": [
+        "Only supplied reviewed rules and meetings are enforced.",
+        "No neural weights were updated by this planner change."
+      ]
+    },
+    "qwen": {
+      "raw_answer": {
+        "case_id": "CM_finance_no_analysis",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3521:11880",
+          "MA3525:11213:11219",
+          "EF3320:10000"
+        ],
+        "future_path": "Complete MA3521, MA3525, and EF3320 to meet stream requirements; then take MA4529 and MA4537."
+      },
+      "accepted": false,
+      "validation": {
+        "accepted": false,
+        "violations": [
+          "course_count_outside_limits",
+          "unknown_option_ids"
+        ],
+        "unknown_option_ids": [
+          "EF3320:10000"
+        ],
+        "course_count": 4,
+        "minimum_courses": 5
+      },
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA3525"
+      ],
+      "course_count": 4,
+      "net_reward": null,
+      "reward_regret": null
+    },
+    "gpt": {
+      "raw_answer": {
+        "case_id": "CM_finance_no_analysis",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3521:11880",
+          "MA3525:11213:11219",
+          "MA4545:11882"
+        ],
+        "future_path": "Conditional on passing these selections and compatible future timetables, address missing MA3526 and pursue MA4529 plus two of MA4537, EF3320 and EF4821."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": [],
+        "unknown_option_ids": [],
+        "course_count": 5,
+        "minimum_courses": 5
+      },
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA3525",
+        "MA4545"
+      ],
+      "course_count": 5,
+      "net_reward": 36.511,
+      "reward_regret": 0.0
+    }
+  },
+  {
+    "case_id": "CM_enriched",
+    "profile": {
+      "profile_id": "CM_enriched",
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "current_year": 2,
+      "year": 3,
+      "term": "202609",
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3526"
+      ],
+      "desired_stream": "Enriched Mathematics",
+      "stream_reward_multiplier": 3.0
+    },
+    "reference": {
+      "planner": "Markov decision subset search; no MILP",
+      "search_exact": true,
+      "states_by_course_count": [
+        1,
+        6,
+        15,
+        20,
+        15,
+        6,
+        1
+      ],
+      "course_min": 5,
+      "course_max": 6,
+      "rejected_options": {},
+      "eligible_course_count": 6,
+      "status": "optimal",
+      "selected_options": [
+        "MA3512:10430",
+        "MA3518:10613",
+        "MA3525:11213:11219",
+        "MA4542:11513",
+        "MA4545:11882"
+      ],
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3525",
+        "MA4542",
+        "MA4545"
+      ],
+      "credits": 15,
+      "course_count": 5,
+      "objective": 42.261,
+      "objective_sense": "maximize",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 21.0,
+        "gross_profit": 36.0,
+        "ef_finance_mismatch_penalty": 0.0,
+        "preparation_by_course": {
+          "MA3512": 0.3,
+          "MA3518": 0.3,
+          "MA3525": 0.25,
+          "MA4542": 0.25,
+          "MA4545": 0.0
+        },
+        "student_cost_penalty": 6.8389999999999995,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 6.8389999999999995,
+        "preparation_benefit": 1.1,
+        "net_profit": 42.261,
+        "schedule_loss": -42.261,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 12.0,
+        "selected_stream": "Enriched Mathematics"
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year_specific_credits",
+        "student_year": 3,
+        "ef_no_finance_penalty": 1.5,
+        "completed_courses": [
+          "CS1302",
+          "CS2360",
+          "CS2468",
+          "GE1401",
+          "GE1501",
+          "GE2260",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3526"
+        ],
+        "preparation_completed_courses": [
+          "CS1302",
+          "CS2360",
+          "CS2468",
+          "GE1401",
+          "GE1501",
+          "GE2260",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3526"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {
+          "1": 0,
+          "2": 1,
+          "3": 0
+        },
+        "covered_GE_area_multiplier": 0.1,
+        "years_1_to_3_overload_weight": 0.25,
+        "years_1_to_3_overload_threshold_credits": 15.0,
+        "year4_overload_weight": 0.25
+      },
+      "marginal_rewards": [
+        {
+          "added_option": "MA3512:10430",
+          "reward": 11.002
+        },
+        {
+          "added_option": "MA3518:10613",
+          "reward": 11.002
+        },
+        {
+          "added_option": "MA3525:11213:11219",
+          "reward": 4.963000000000001
+        },
+        {
+          "added_option": "MA4542:11513",
+          "reward": 7.731999999999996
+        },
+        {
+          "added_option": "MA4545:11882",
+          "reward": 7.562000000000005
+        }
+      ],
+      "stop_action_available": true,
+      "neural_output_repaired": false,
+      "student_cost": 6.8389999999999995,
+      "selected_priority_courses": [
+        "MA3512",
+        "MA3518",
+        "MA3525"
+      ],
+      "unselected_priority_courses": [
+        "MA3514",
+        "MA3515",
+        "MA3517"
+      ],
+      "weekly_balance_verified": false,
+      "prerequisite_waivers_assumed": [],
+      "limitations": [
+        "Only supplied reviewed rules and meetings are enforced.",
+        "No neural weights were updated by this planner change."
+      ]
+    },
+    "qwen": {
+      "raw_answer": {
+        "case_id": "CM_enriched",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3525:11213:11219",
+          "MA4542:11513",
+          "MA4545:11882"
+        ],
+        "future_path": "Complete MA3523 and MA4546 to satisfy stream requirements."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": [],
+        "unknown_option_ids": [],
+        "course_count": 5,
+        "minimum_courses": 5
+      },
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3525",
+        "MA4542",
+        "MA4545"
+      ],
+      "course_count": 5,
+      "net_reward": 42.261,
+      "reward_regret": 0.0
+    },
+    "gpt": {
+      "raw_answer": {
+        "case_id": "CM_enriched",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3525:11213:11219",
+          "MA4542:11513",
+          "MA4545:11882"
+        ],
+        "future_path": "Conditional on passing these selections and compatible future timetables, pursue MA3523 and one of MA4528, MA4546 or MA4551 to complete Enriched Mathematics."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": [],
+        "unknown_option_ids": [],
+        "course_count": 5,
+        "minimum_courses": 5
+      },
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3525",
+        "MA4542",
+        "MA4545"
+      ],
+      "course_count": 5,
+      "net_reward": 42.261,
+      "reward_regret": 0.0
+    }
+  },
+  {
+    "case_id": "CS_AI",
+    "profile": {
+      "profile_id": "CS_AI",
+      "programme": "CS",
+      "programme_code": "BSCCCU4",
+      "cohort": 2025,
+      "current_year": 2,
+      "year": 3,
+      "term": "202609",
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2340",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "desired_stream": "Artificial Intelligence",
+      "stream_reward_multiplier": 3.0
+    },
+    "reference": {
+      "planner": "Markov decision subset search; no MILP",
+      "search_exact": true,
+      "states_by_course_count": [
+        1,
+        10,
+        32,
+        38,
+        15
+      ],
+      "course_min": 5,
+      "course_max": 6,
+      "rejected_options": {},
+      "eligible_course_count": 5,
+      "status": "infeasible",
+      "reason": "hard_constraints_infeasible",
+      "message": "No legal semester found. The minimum course load was not relaxed."
+    },
+    "qwen": {
+      "raw_answer": {
+        "case_id": "CS_AI",
+        "status": "feasible",
+        "selected_option_ids": [
+          "CS3356:11724:11726",
+          "CS3383:14958:15303",
+          "CS3402:10816:15173",
+          "CS3483:10145:13161",
+          "CS4486:11729:11730"
+        ],
+        "future_path": "Complete CS4487 and AI electives next term to satisfy core slots."
+      },
+      "accepted": false,
+      "validation": {
+        "accepted": false,
+        "violations": [
+          "course_count_outside_limits",
+          "meeting_clash",
+          "unknown_option_ids"
+        ],
+        "unknown_option_ids": [
+          "CS4486:11729:11730"
+        ],
+        "course_count": 4,
+        "minimum_courses": 5
+      },
+      "course_codes": [
+        "CS3356",
+        "CS3383",
+        "CS3402",
+        "CS3483"
+      ],
+      "course_count": 4,
+      "net_reward": null,
+      "reward_regret": null
+    },
+    "gpt": {
+      "raw_answer": {
+        "case_id": "CS_AI",
+        "status": "infeasible",
+        "selected_option_ids": [],
+        "future_path": "Subject to passing future selections and compatible future timetables, pursue one of CS4486 or CS4487 and two distinct additional AI members without reusing a course."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": []
+      },
+      "course_codes": [],
+      "course_count": 0,
+      "net_reward": null,
+      "reward_regret": null
+    }
+  },
+  {
+    "case_id": "CS_AI_no_CS3342",
+    "profile": {
+      "profile_id": "CS_AI_no_CS3342",
+      "programme": "CS",
+      "programme_code": "BSCCCU4",
+      "cohort": 2025,
+      "current_year": 2,
+      "year": 3,
+      "term": "202609",
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2340",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "desired_stream": "Artificial Intelligence",
+      "stream_reward_multiplier": 3.0
+    },
+    "reference": {
+      "planner": "Markov decision subset search; no MILP",
+      "search_exact": true,
+      "states_by_course_count": [
+        1,
+        6,
+        5
+      ],
+      "course_min": 5,
+      "course_max": 6,
+      "rejected_options": {},
+      "eligible_course_count": 3,
+      "status": "infeasible",
+      "reason": "hard_constraints_infeasible",
+      "message": "No legal semester found. The minimum course load was not relaxed."
+    },
+    "qwen": {
+      "raw_answer": {
+        "case_id": "CS_AI_no_CS3342",
+        "status": "feasible",
+        "selected_option_ids": [
+          "CS2613:13743",
+          "CS3402:10816:15173",
+          "CS3483:10145:13161"
+        ],
+        "future_path": "Take CS3342 next year to complete AI core slots; then CS4486 and CS4487 in Year 3 Semester B."
+      },
+      "accepted": false,
+      "validation": {
+        "accepted": false,
+        "violations": [
+          "course_count_outside_limits",
+          "meeting_clash"
+        ],
+        "unknown_option_ids": [],
+        "course_count": 3,
+        "minimum_courses": 5
+      },
+      "course_codes": [
+        "CS2613",
+        "CS3402",
+        "CS3483"
+      ],
+      "course_count": 3,
+      "net_reward": null,
+      "reward_regret": null
+    },
+    "gpt": {
+      "raw_answer": {
+        "case_id": "CS_AI_no_CS3342",
+        "status": "infeasible",
+        "selected_option_ids": [],
+        "future_path": "Subject to passing future selections and compatible future timetables, address missing CS3342 before pursuing an AI core choice and two distinct additional stream members."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": []
+      },
+      "course_codes": [],
+      "course_count": 0,
+      "net_reward": null,
+      "reward_regret": null
+    }
+  },
+  {
+    "case_id": "CS_data_science",
+    "profile": {
+      "profile_id": "CS_data_science",
+      "programme": "CS",
+      "programme_code": "BSCCCU4",
+      "cohort": 2025,
+      "current_year": 2,
+      "year": 3,
+      "term": "202609",
+      "completed_courses": [
+        "CS1302A",
+        "CS2115",
+        "CS2310",
+        "CS2312",
+        "CS2402",
+        "CS3103",
+        "CS3201",
+        "CS3334",
+        "CS3342",
+        "GE1401",
+        "GE1501",
+        "GE1601",
+        "GE2340",
+        "MA1503",
+        "MA1508",
+        "MA2185"
+      ],
+      "desired_stream": "Data Science",
+      "stream_reward_multiplier": 3.0
+    },
+    "reference": {
+      "planner": "Markov decision subset search; no MILP",
+      "search_exact": true,
+      "states_by_course_count": [
+        1,
+        10,
+        32,
+        38,
+        15
+      ],
+      "course_min": 5,
+      "course_max": 6,
+      "rejected_options": {},
+      "eligible_course_count": 5,
+      "status": "infeasible",
+      "reason": "hard_constraints_infeasible",
+      "message": "No legal semester found. The minimum course load was not relaxed."
+    },
+    "qwen": {
+      "raw_answer": {
+        "case_id": "CS_data_science",
+        "status": "feasible",
+        "selected_option_ids": [
+          "CS2613:13743",
+          "CS3356:11724:11726",
+          "CS3402:10816:15173",
+          "CS3483:10145:13161",
+          "CS3383:14958:15303"
+        ],
+        "future_path": "Complete CS3481 and CS4480/CS4487 in next term to fulfill Data Science stream."
+      },
+      "accepted": false,
+      "validation": {
+        "accepted": false,
+        "violations": [
+          "meeting_clash"
+        ],
+        "unknown_option_ids": [],
+        "course_count": 5,
+        "minimum_courses": 5
+      },
+      "course_codes": [
+        "CS2613",
+        "CS3356",
+        "CS3402",
+        "CS3483",
+        "CS3383"
+      ],
+      "course_count": 5,
+      "net_reward": null,
+      "reward_regret": null
+    },
+    "gpt": {
+      "raw_answer": {
+        "case_id": "CS_data_science",
+        "status": "infeasible",
+        "selected_option_ids": [],
+        "future_path": "Subject to passing future selections and compatible future timetables, pursue CS3481, CS4480 and CS4487 for Data Science."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": []
+      },
+      "course_codes": [],
+      "course_count": 0,
+      "net_reward": null,
+      "reward_regret": null
+    }
+  },
+  {
+    "case_id": "CM_finance_no_statistics",
+    "profile": {
+      "profile_id": "CM_finance_no_statistics",
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "current_year": 2,
+      "year": 3,
+      "term": "202609",
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2503",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA3511",
+        "MA3526"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 3.0
+    },
+    "reference": {
+      "planner": "Markov decision subset search; no MILP",
+      "search_exact": true,
+      "states_by_course_count": [
+        1,
+        4,
+        6,
+        4,
+        1
+      ],
+      "course_min": 5,
+      "course_max": 6,
+      "rejected_options": {},
+      "eligible_course_count": 4,
+      "status": "infeasible",
+      "reason": "hard_constraints_infeasible",
+      "message": "No legal semester found. The minimum course load was not relaxed."
+    },
+    "qwen": {
+      "raw_answer": {
+        "case_id": "CM_finance_no_statistics",
+        "status": "infeasible",
+        "selected_option_ids": [],
+        "future_path": "No legal five-course combination exists for the Financial Mathematics stream."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": []
+      },
+      "course_codes": [],
+      "course_count": 0,
+      "net_reward": null,
+      "reward_regret": null
+    },
+    "gpt": {
+      "raw_answer": {
+        "case_id": "CM_finance_no_statistics",
+        "status": "infeasible",
+        "selected_option_ids": [],
+        "future_path": "Subject to passing future selections and compatible future timetables, address missing MA2510 and pursue MA3521, MA4529 and two of MA4537, EF3320 and EF4821."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": []
+      },
+      "course_codes": [],
+      "course_count": 0,
+      "net_reward": null,
+      "reward_regret": null
+    }
+  },
+  {
+    "case_id": "CM_finance_no_linear_algebra",
+    "profile": {
+      "profile_id": "CM_finance_no_linear_algebra",
+      "programme": "CM",
+      "programme_code": "BSCSIU4",
+      "cohort": 2025,
+      "current_year": 2,
+      "year": 3,
+      "term": "202609",
+      "completed_courses": [
+        "CS1302",
+        "CS2360",
+        "CS2468",
+        "GE1401",
+        "GE1501",
+        "GE2260",
+        "GE2401",
+        "MA1300",
+        "MA1301",
+        "MA2507",
+        "MA2508",
+        "MA2509",
+        "MA2510",
+        "MA3511",
+        "MA3526"
+      ],
+      "desired_stream": "Financial Mathematics",
+      "stream_reward_multiplier": 3.0
+    },
+    "reference": {
+      "planner": "Markov decision subset search; no MILP",
+      "search_exact": true,
+      "states_by_course_count": [
+        1,
+        6,
+        14,
+        16,
+        9,
+        2
+      ],
+      "course_min": 5,
+      "course_max": 6,
+      "rejected_options": {},
+      "eligible_course_count": 6,
+      "status": "optimal",
+      "selected_options": [
+        "MA3512:10430",
+        "MA3518:10613",
+        "MA3521:11880",
+        "MA4542:11513",
+        "MA4545:11882"
+      ],
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA4542",
+        "MA4545"
+      ],
+      "credits": 15,
+      "course_count": 5,
+      "objective": 33.28,
+      "objective_sense": "maximize",
+      "profit_breakdown": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 18.0,
+        "gross_profit": 33.0,
+        "ef_finance_mismatch_penalty": 0.0,
+        "preparation_by_course": {
+          "MA3512": 0.3,
+          "MA3518": 0.3,
+          "MA3521": 0.25,
+          "MA4542": 0.25,
+          "MA4545": 0.0
+        },
+        "student_cost_penalty": 6.819999999999999,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 6.819999999999999,
+        "preparation_benefit": 1.1,
+        "net_profit": 33.28,
+        "schedule_loss": -33.28,
+        "course_count": 5,
+        "selected_credits": 15,
+        "prerequisite_bridge_bonus": 0,
+        "stream_chain_bonus": 6.0,
+        "selected_stream": "Financial Mathematics"
+      },
+      "objective_settings": {
+        "objective_mode": "profit",
+        "overload_mode": "year_specific_credits",
+        "student_year": 3,
+        "ef_no_finance_penalty": 1.5,
+        "completed_courses": [
+          "CS1302",
+          "CS2360",
+          "CS2468",
+          "GE1401",
+          "GE1501",
+          "GE2260",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3526"
+        ],
+        "preparation_completed_courses": [
+          "CS1302",
+          "CS2360",
+          "CS2468",
+          "GE1401",
+          "GE1501",
+          "GE2260",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3526"
+        ],
+        "base_course_profit": 3.0,
+        "overload_reference_courses": 5,
+        "overload_threshold_credits": 12.0,
+        "overload_penalty_weight": 3.0,
+        "completed_GE_area_counts": {
+          "1": 0,
+          "2": 1,
+          "3": 0
+        },
+        "covered_GE_area_multiplier": 0.1,
+        "years_1_to_3_overload_weight": 0.25,
+        "years_1_to_3_overload_threshold_credits": 15.0,
+        "year4_overload_weight": 0.25
+      },
+      "marginal_rewards": [
+        {
+          "added_option": "MA3512:10430",
+          "reward": 11.002
+        },
+        {
+          "added_option": "MA3518:10613",
+          "reward": 11.002
+        },
+        {
+          "added_option": "MA3521:11880",
+          "reward": 7.981999999999999
+        },
+        {
+          "added_option": "MA4542:11513",
+          "reward": 1.7320000000000029
+        },
+        {
+          "added_option": "MA4545:11882",
+          "reward": 1.5619999999999976
+        }
+      ],
+      "stop_action_available": true,
+      "neural_output_repaired": false,
+      "student_cost": 6.819999999999999,
+      "selected_priority_courses": [
+        "MA3512",
+        "MA3518"
+      ],
+      "unselected_priority_courses": [
+        "MA3514",
+        "MA3515",
+        "MA3517",
+        "MA3525"
+      ],
+      "weekly_balance_verified": false,
+      "prerequisite_waivers_assumed": [],
+      "limitations": [
+        "Only supplied reviewed rules and meetings are enforced.",
+        "No neural weights were updated by this planner change."
+      ]
+    },
+    "qwen": {
+      "raw_answer": {
+        "case_id": "CM_finance_no_linear_algebra",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3521:11880",
+          "MA4542:11513",
+          "MA4545:11882"
+        ],
+        "future_path": "Complete MA2503 and MA3521 to satisfy stream requirements."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": [],
+        "unknown_option_ids": [],
+        "course_count": 5,
+        "minimum_courses": 5
+      },
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA4542",
+        "MA4545"
+      ],
+      "course_count": 5,
+      "net_reward": 33.28,
+      "reward_regret": 0.0
+    },
+    "gpt": {
+      "raw_answer": {
+        "case_id": "CM_finance_no_linear_algebra",
+        "status": "feasible",
+        "selected_option_ids": [
+          "MA3512:10430",
+          "MA3518:10613",
+          "MA3521:11880",
+          "MA4542:11513",
+          "MA4545:11882"
+        ],
+        "future_path": "Conditional on passing these selections and compatible future timetables, address missing MA2503 and pursue MA4529 plus two of MA4537, EF3320 and EF4821."
+      },
+      "accepted": true,
+      "validation": {
+        "accepted": true,
+        "violations": [],
+        "unknown_option_ids": [],
+        "course_count": 5,
+        "minimum_courses": 5
+      },
+      "course_codes": [
+        "MA3512",
+        "MA3518",
+        "MA3521",
+        "MA4542",
+        "MA4545"
+      ],
+      "course_count": 5,
+      "net_reward": 33.28,
+      "reward_regret": 0.0
+    }
+  }
+]

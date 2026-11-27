@@ -1,0 +1,116 @@
+1         CS2611: Seminars on Contemporary Technology I
+CS2611: SEMINARS ON CONTEMPORARY
+TECHNOLOGY I
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Seminars on Contemporary Technology I 
+Subject Code
+CS - Computer Science 
+Course Number
+2611 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+Two Semesters 
+Credit Units
+0-1 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+Nil 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+Part II Course Details
+Abstract
+2         CS2611: Seminars on Contemporary Technology I
+This course aims to increase the breadth of outlook of students in computer related topics. Upon completion, students
+should be able to:
+1.  know the current technological trends, social and ethical issues in computer related professions;
+2.  acquire knowledge through self-motivated, continuous and outside-class-room learning.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Recognize the current technological trends,
+social and ethical issues in computer related
+professions.
+80 x
+2 Acquire knowledge through self-motivated,
+outside-class-room learning and discovery.
+20 x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 1 Approximately one
+seminar in diﬀerent
+topics would be arranged
+1
+2 2 Students are required
+to write a report per
+semester
+1, 2
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Attendance of the
+arranged seminars
+1 50 N/A No
+2 Reﬂections and
+extended readings
+documented in the
+submitted reports
+1, 2 50 - No
+Continuous Assessment (%)
+100 
+Examination (%)
+3         CS2611: Seminars on Contemporary Technology I
+0 
+Assessment Rubrics (AR)
+Assessment Task
+Attendance of the arranged seminars 
+Criterion
+1.1. Attendance 
+Failure (F)
+Not even reaching margin level 
+Assessment Task
+Reﬂections and extended readings documented in the submitted reports 
+Criterion
+2.1. Ability to show appreciation of the technological trends and issues as well as self-learning 
+Failure (F)
+Not even reaching margin level 
+Part III Other Information
+Keyword Syllabus
+Selected topics presented in the format of seminar.  Example topics are: computer architecture development; computer
+application systems in large corporations; product and technology trends; ethics in workplace; sustainability and green
+computing.
+Reading List
+Compulsory Readings
+ Title
+1 Nil
+Additional Readings
+ Title
+1 Nil

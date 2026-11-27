@@ -1,0 +1,18 @@
+{
+  "accepted": true,
+  "LLM_output_role": "objective_parameters_only",
+  "LLM_generated_schedule": false,
+  "optimizer_called": true,
+  "method": "Exact dynamic programming over remaining course-to-term assignments; no LLM path generation",
+  "all_encoded_requirements_met": true,
+  "certificate": {
+    "optimality_proven": true,
+    "scope": "Existing source-backed course/section allocations and mandatory catch-up placements are fixed; optimize missing electives over the declared current catalogue pool.",
+    "assignments_checked": 64,
+    "feasible_assignments": 20,
+    "objective_upper_bound": 154.3120775871616,
+    "optimality_gap": 0.0,
+    "verification": "Independent full Cartesian enumeration agrees with DP maximum"
+  },
+  "fallback_used": false
+}

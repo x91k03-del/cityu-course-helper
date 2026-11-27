@@ -1,0 +1,15 @@
+{
+  "term": "2026-27 Sem A",
+  "courses": 63,
+  "meeting_rows": 290,
+  "sections": 287,
+  "missing_day_time_rows": 30,
+  "calendar_dates_published": false,
+  "teaching_weeks_published": false,
+  "capture_sha256": "5570629f108e9d9bbfc350bd0c28c820ab79957cecb86a2665e71e398e121365",
+  "capture_method": "Rendered public course-detail DOM, restricted to exact Semester A term; manually serialized from browser output.",
+  "retrieval_date": "2026-11-15",
+  "all_availability_codes_covered": true,
+  "GE1101_summer_negative_control": "passed",
+  "authority_note": "ARRO Master Class Schedule prevails over this GE site."
+}

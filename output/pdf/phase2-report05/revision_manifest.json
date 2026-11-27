@@ -1,0 +1,100 @@
+{
+  "prior_tex_sha256": "17e6eb5ff53453eb8119bee8aa84cd4d9c8fcb1777b23af0a05d1039e00f2399",
+  "prior_pdf_sha256": "fec5439c332d7dd26097e7f8e29b88c636081b39bed62e0258c506b2de30bf69",
+  "only_changes": "Replace model comparison with one 14-profile path table; add longtable package.",
+  "blind_definition": "Other-model answers and solver reference withheld from each model; no claim of unseen documents or blinded human grading.",
+  "rows": [
+    {
+      "case_id": "CM_B_finance",
+      "student": "Year 2 CM; finance GE (GE2260) passed.",
+      "qwen_path": "MA2510, MA3515, MA3521$^{\\dagger}$, MA4529$^{\\dagger}$",
+      "gpt_path": "MA2507, MA2510, MA3511, MA3517, MA3523, MA3530"
+    },
+    {
+      "case_id": "CM_B_no_finance",
+      "student": "Year 2 CM; non-finance GE; Enriched Mathematics inferred.",
+      "qwen_path": "MA3523, MA3515, MA3517, MA3526",
+      "gpt_path": "MA2507, MA3511, MA3515, MA3517, MA3523, MA3530"
+    },
+    {
+      "case_id": "CS_B_AI",
+      "student": "Year 2 CS; AI GE (GE2340) passed; AI interest.",
+      "qwen_path": "CS3103, CS3342, CS3402",
+      "gpt_path": "CS2613, CS3103, CS3342, CS3391, CS3402, CS3481"
+    },
+    {
+      "case_id": "CS_B_difficulty",
+      "student": "Year 2 CS; AI interest; higher difficulty weight ($\\lambda_d=20$).",
+      "qwen_path": "CS3342 ($\\times2$ sections)",
+      "gpt_path": "CS2613, CS3103, CS3342, CS3391, CS3402"
+    },
+    {
+      "case_id": "CM_A_missing_options",
+      "student": "Year 2 CM; finance interest; Semester A candidates.",
+      "qwen_path": "MA3525",
+      "gpt_path": "No feasible selection returned"
+    },
+    {
+      "case_id": "CS_A_missing_options",
+      "student": "Year 2 CS; AI interest; Semester A candidates.",
+      "qwen_path": "CS3103, CS3402",
+      "gpt_path": "No feasible selection returned"
+    },
+    {
+      "case_id": "CM_early_analysis",
+      "student": "Year 2 CM; finance GE and Analysis (MA3526) passed.",
+      "qwen_path": "MA2510, MA3515, MA3517, MA3523",
+      "gpt_path": "MA2507, MA2510, MA3511, MA3517, MA3523, MA3530"
+    },
+    {
+      "case_id": "CM_calculus_not_passed",
+      "student": "Year 2 CM; finance GE passed; MA2508 not passed.",
+      "qwen_path": "MA2510, MA3515, MA3523, MA3526, MA3530",
+      "gpt_path": "MA2507, MA2510, MA3523, MA3526, MA3530"
+    },
+    {
+      "case_id": "CM_final_year",
+      "student": "Year 4 CM; finance interest; unfinished core courses.",
+      "qwen_path": "MA3521$^{\\dagger}$, MA4529$^{\\dagger}$, MA4537$^{\\dagger}$, EF3320$^{\\dagger}$",
+      "gpt_path": "MA2507, MA3511, MA3515, MA3517, MA3523, MA3530"
+    },
+    {
+      "case_id": "CM_enriched_despite_finance_GE",
+      "student": "Year 2 CM; finance GE passed; explicitly prefers Enriched Mathematics.",
+      "qwen_path": "MA3523, MA3526, MA3515, MA3517, MA2510",
+      "gpt_path": "MA2507, MA3511, MA3515, MA3517, MA3523, MA3530"
+    },
+    {
+      "case_id": "CS_data_science",
+      "student": "Year 2 CS; AI GE passed; explicitly prefers Data Science.",
+      "qwen_path": "CS3103, CS3481, CS3402",
+      "gpt_path": "CS2613, CS3103, CS3342, CS3391, CS3402, CS3481"
+    },
+    {
+      "case_id": "CS_missing_programming",
+      "student": "Year 2 CS; AI interest; CS2310 not passed.",
+      "qwen_path": "CS2613, CS3481",
+      "gpt_path": "No feasible selection returned"
+    },
+    {
+      "case_id": "CS_workload_priority",
+      "student": "Year 2 CS; AI interest; higher workload weight ($\\lambda_w=20$).",
+      "qwen_path": "CS3103, CS3342",
+      "gpt_path": "CS2613, CS3103, CS3342, CS3402, CS3481"
+    },
+    {
+      "case_id": "CS_final_year",
+      "student": "Year 4 CS; AI interest; unfinished core courses.",
+      "qwen_path": "CS3342 ($\\times3$ sections)",
+      "gpt_path": "CS2613, CS3342, CS3391, CS3402, CS3481"
+    }
+  ],
+  "pages": 9,
+  "comparison_table_page": 6,
+  "profile_rows": 14,
+  "no_meeting_times_in_comparison": true,
+  "previous_files_unchanged": true,
+  "unrelated_report_text_preserved": true,
+  "comparison_page_visually_reviewed": true,
+  "pdf_sha256": "7e13dd514b31b5a40a0886374245d91363cff28858e3bc631c0d68da36b85433"
+}

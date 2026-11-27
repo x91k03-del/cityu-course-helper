@@ -1,0 +1,190 @@
+[
+  {
+    "profile_label": "no_finance",
+    "profile": {
+      "profile_id": "YEAR1_CM_ENTERING_MARKOV_SIMULATION",
+      "programme": "CM",
+      "year": 2,
+      "cohort": 2025,
+      "completed_courses": [],
+      "desired_stream": "Enriched Mathematics",
+      "cm_ef_cs_prerequisite_waiver": true,
+      "synthetic": true,
+      "note": "New entering Year-1 profile; all courses in the simulation receive a hypothetical B pass.",
+      "programme_code": "BSCSIU4",
+      "term": "202702"
+    },
+    "course_code": "EF3320",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF3320\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 1.5}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF3320",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 1.5
+    },
+    "model_output_accepted": true,
+    "policy_fallback_used": false
+  },
+  {
+    "profile_label": "passed_finance_GE",
+    "profile": {
+      "profile_id": "YEAR1_CM_ENTERING_MARKOV_SIMULATION",
+      "programme": "CM",
+      "year": 2,
+      "cohort": 2025,
+      "completed_courses": [
+        "GE1202"
+      ],
+      "desired_stream": "Enriched Mathematics",
+      "cm_ef_cs_prerequisite_waiver": true,
+      "synthetic": true,
+      "note": "New entering Year-1 profile; all courses in the simulation receive a hypothetical B pass.",
+      "programme_code": "BSCSIU4",
+      "term": "202702"
+    },
+    "course_code": "EF3320",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF3320\", \"timetable_available\": false, \"finance_background\": \"introductory\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF3320",
+      "timetable_available": false,
+      "finance_background": "introductory",
+      "EF_mismatch_penalty": 0.0
+    },
+    "model_output_accepted": true,
+    "policy_fallback_used": false
+  },
+  {
+    "profile_label": "failed_finance_GE",
+    "profile": {
+      "profile_id": "YEAR1_CM_ENTERING_MARKOV_SIMULATION",
+      "programme": "CM",
+      "year": 2,
+      "cohort": 2025,
+      "completed_courses": [
+        "GE1202"
+      ],
+      "desired_stream": "Enriched Mathematics",
+      "cm_ef_cs_prerequisite_waiver": true,
+      "synthetic": true,
+      "note": "New entering Year-1 profile; all courses in the simulation receive a hypothetical B pass.",
+      "programme_code": "BSCSIU4",
+      "term": "202702",
+      "GE_history": [
+        {
+          "course_code": "GE1202",
+          "grade": "F"
+        }
+      ]
+    },
+    "course_code": "EF3320",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202702\", \"course_code\": \"EF3320\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 1.5}",
+    "expected": {
+      "programme": "CM",
+      "term": "202702",
+      "course_code": "EF3320",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 1.5
+    },
+    "model_output_accepted": true,
+    "policy_fallback_used": false
+  },
+  {
+    "profile_label": "no_finance",
+    "profile": {
+      "profile_id": "YEAR1_CM_ENTERING_MARKOV_SIMULATION",
+      "programme": "CM",
+      "year": 2,
+      "cohort": 2025,
+      "completed_courses": [],
+      "desired_stream": "Enriched Mathematics",
+      "cm_ef_cs_prerequisite_waiver": true,
+      "synthetic": true,
+      "note": "New entering Year-1 profile; all courses in the simulation receive a hypothetical B pass.",
+      "programme_code": "BSCSIU4",
+      "term": "202609"
+    },
+    "course_code": "EF4821",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202609\", \"course_code\": \"EF4821\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 1.5}",
+    "expected": {
+      "programme": "CM",
+      "term": "202609",
+      "course_code": "EF4821",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 1.5
+    },
+    "model_output_accepted": true,
+    "policy_fallback_used": false
+  },
+  {
+    "profile_label": "passed_finance_GE",
+    "profile": {
+      "profile_id": "YEAR1_CM_ENTERING_MARKOV_SIMULATION",
+      "programme": "CM",
+      "year": 2,
+      "cohort": 2025,
+      "completed_courses": [
+        "GE1202"
+      ],
+      "desired_stream": "Enriched Mathematics",
+      "cm_ef_cs_prerequisite_waiver": true,
+      "synthetic": true,
+      "note": "New entering Year-1 profile; all courses in the simulation receive a hypothetical B pass.",
+      "programme_code": "BSCSIU4",
+      "term": "202609"
+    },
+    "course_code": "EF4821",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202609\", \"course_code\": \"EF4821\", \"timetable_available\": false, \"finance_background\": \"introductory\", \"EF_mismatch_penalty\": 0.0}",
+    "expected": {
+      "programme": "CM",
+      "term": "202609",
+      "course_code": "EF4821",
+      "timetable_available": false,
+      "finance_background": "introductory",
+      "EF_mismatch_penalty": 0.0
+    },
+    "model_output_accepted": true,
+    "policy_fallback_used": false
+  },
+  {
+    "profile_label": "failed_finance_GE",
+    "profile": {
+      "profile_id": "YEAR1_CM_ENTERING_MARKOV_SIMULATION",
+      "programme": "CM",
+      "year": 2,
+      "cohort": 2025,
+      "completed_courses": [
+        "GE1202"
+      ],
+      "desired_stream": "Enriched Mathematics",
+      "cm_ef_cs_prerequisite_waiver": true,
+      "synthetic": true,
+      "note": "New entering Year-1 profile; all courses in the simulation receive a hypothetical B pass.",
+      "programme_code": "BSCSIU4",
+      "term": "202609",
+      "GE_history": [
+        {
+          "course_code": "GE1202",
+          "grade": "F"
+        }
+      ]
+    },
+    "course_code": "EF4821",
+    "raw_model_response": "{\"programme\": \"CM\", \"term\": \"202609\", \"course_code\": \"EF4821\", \"timetable_available\": false, \"finance_background\": \"none\", \"EF_mismatch_penalty\": 1.5}",
+    "expected": {
+      "programme": "CM",
+      "term": "202609",
+      "course_code": "EF4821",
+      "timetable_available": false,
+      "finance_background": "none",
+      "EF_mismatch_penalty": 1.5
+    },
+    "model_output_accepted": true,
+    "policy_fallback_used": false
+  }
+]

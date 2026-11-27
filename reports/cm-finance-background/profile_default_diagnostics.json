@@ -1,0 +1,252 @@
+{
+  "scope": "Six user-facing/default-input diagnostics over familiar policy facts; not an independent holdout.",
+  "results": [
+    {
+      "id": "no_finance",
+      "input_profile": {
+        "profile_id": "no_finance",
+        "programme": "CM",
+        "programme_code": "BSCSIU4",
+        "cohort": 2025,
+        "year": 2,
+        "term": "202702",
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "CS1302"
+        ],
+        "desired_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 1.0
+      },
+      "expected": {
+        "programme": "CM",
+        "course_code": "EF3320",
+        "document_allowed": true,
+        "prerequisite_waiver_assumed": true,
+        "prerequisite_handling": "waived_for_CM_planning",
+        "additional_missing_prerequisite_penalty": 0.0,
+        "finance_background_level": "none",
+        "finance_evidence_courses": [],
+        "finance_background_mismatch": 0.45,
+        "finance_priority_multiplier": 1.0,
+        "registration_verified": false
+      },
+      "raw_model_response": "{\"programme\": \"CM\", \"course_code\": \"EF3320\", \"document_allowed\": true, \"prerequisite_waiver_assumed\": true, \"prerequisite_handling\": \"waived_for_CM_planning\", \"additional_missing_prerequisite_penalty\": 0.0, \"finance_background_level\": \"none\", \"finance_evidence_courses\": [], \"finance_background_mismatch\": 0.45, \"finance_priority_multiplier\": 1.0, \"registration_verified\": false}",
+      "passed": true
+    },
+    {
+      "id": "finance_GE",
+      "input_profile": {
+        "profile_id": "finance_GE",
+        "programme": "CM",
+        "programme_code": "BSCSIU4",
+        "cohort": 2025,
+        "year": 2,
+        "term": "202702",
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "CS1302",
+          "GE2260"
+        ],
+        "desired_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 1.0
+      },
+      "expected": {
+        "programme": "CM",
+        "course_code": "EF3320",
+        "document_allowed": true,
+        "prerequisite_waiver_assumed": true,
+        "prerequisite_handling": "waived_for_CM_planning",
+        "additional_missing_prerequisite_penalty": 0.0,
+        "finance_background_level": "introductory",
+        "finance_evidence_courses": [
+          "GE2260"
+        ],
+        "finance_background_mismatch": 0.15,
+        "finance_priority_multiplier": 3.0,
+        "registration_verified": false
+      },
+      "raw_model_response": "{\"programme\": \"CM\", \"course_code\": \"EF3320\", \"document_allowed\": true, \"prerequisite_waiver_assumed\": true, \"prerequisite_handling\": \"waived_for_CM_planning\", \"additional_missing_prerequisite_penalty\": 0.0, \"finance_background_level\": \"introductory\", \"finance_evidence_courses\": [\"GE2260\"], \"finance_background_mismatch\": 0.15, \"finance_priority_multiplier\": 3.0, \"registration_verified\": false}",
+      "passed": true
+    },
+    {
+      "id": "self_reported_finance",
+      "input_profile": {
+        "profile_id": "self_reported_finance",
+        "programme": "CM",
+        "programme_code": "BSCSIU4",
+        "cohort": 2025,
+        "year": 2,
+        "term": "202702",
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "CS1302"
+        ],
+        "desired_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 1.0,
+        "finance_background": {
+          "studied": true,
+          "topics": [
+            "personal finance"
+          ]
+        }
+      },
+      "expected": {
+        "programme": "CM",
+        "course_code": "EF3320",
+        "document_allowed": true,
+        "prerequisite_waiver_assumed": true,
+        "prerequisite_handling": "waived_for_CM_planning",
+        "additional_missing_prerequisite_penalty": 0.0,
+        "finance_background_level": "introductory",
+        "finance_evidence_courses": [],
+        "finance_background_mismatch": 0.15,
+        "finance_priority_multiplier": 3.0,
+        "registration_verified": false
+      },
+      "raw_model_response": "{\"programme\": \"CM\", \"course_code\": \"EF3320\", \"document_allowed\": true, \"prerequisite_waiver_assumed\": true, \"prerequisite_handling\": \"waived_for_CM_planning\", \"additional_missing_prerequisite_penalty\": 0.0, \"finance_background_level\": \"introductory\", \"finance_evidence_courses\": [], \"finance_background_mismatch\": 0.15, \"finance_priority_multiplier\": 3.0, \"registration_verified\": false}",
+      "passed": true
+    },
+    {
+      "id": "advanced_finance",
+      "input_profile": {
+        "profile_id": "advanced_finance",
+        "programme": "CM",
+        "programme_code": "BSCSIU4",
+        "cohort": 2025,
+        "year": 2,
+        "term": "202702",
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "CS1302",
+          "MA3521"
+        ],
+        "desired_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 1.0
+      },
+      "expected": {
+        "programme": "CM",
+        "course_code": "EF3320",
+        "document_allowed": true,
+        "prerequisite_waiver_assumed": true,
+        "prerequisite_handling": "waived_for_CM_planning",
+        "additional_missing_prerequisite_penalty": 0.0,
+        "finance_background_level": "advanced",
+        "finance_evidence_courses": [
+          "MA3521"
+        ],
+        "finance_background_mismatch": 0.05,
+        "finance_priority_multiplier": 3.0,
+        "registration_verified": false
+      },
+      "raw_model_response": "{\"programme\": \"CM\", \"course_code\": \"EF3320\", \"document_allowed\": true, \"prerequisite_waiver_assumed\": true, \"prerequisite_handling\": \"waived_for_CM_planning\", \"additional_missing_prerequisite_penalty\": 0.0, \"finance_background_level\": \"advanced\", \"finance_evidence_courses\": [\"MA3521\"], \"finance_background_mismatch\": 0.05, \"finance_priority_multiplier\": 3.0, \"registration_verified\": false}",
+      "passed": true
+    },
+    {
+      "id": "failed_finance_GE",
+      "input_profile": {
+        "profile_id": "failed_finance_GE",
+        "programme": "CM",
+        "programme_code": "BSCSIU4",
+        "cohort": 2025,
+        "year": 2,
+        "term": "202702",
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "CS1302",
+          "GE2260"
+        ],
+        "desired_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 1.0,
+        "GE_history": [
+          {
+            "course_code": "GE2260",
+            "grade": "F"
+          }
+        ]
+      },
+      "expected": {
+        "programme": "CM",
+        "course_code": "EF3320",
+        "document_allowed": true,
+        "prerequisite_waiver_assumed": true,
+        "prerequisite_handling": "waived_for_CM_planning",
+        "additional_missing_prerequisite_penalty": 0.0,
+        "finance_background_level": "none",
+        "finance_evidence_courses": [],
+        "finance_background_mismatch": 0.45,
+        "finance_priority_multiplier": 1.0,
+        "registration_verified": false
+      },
+      "raw_model_response": "{\"programme\": \"CM\", \"course_code\": \"EF3320\", \"document_allowed\": true, \"prerequisite_waiver_assumed\": true, \"prerequisite_handling\": \"waived_for_CM_planning\", \"additional_missing_prerequisite_penalty\": 0.0, \"finance_background_level\": \"none\", \"finance_evidence_courses\": [], \"finance_background_mismatch\": 0.45, \"finance_priority_multiplier\": 1.0, \"registration_verified\": false}",
+      "passed": true
+    },
+    {
+      "id": "strict_prerequisites",
+      "input_profile": {
+        "profile_id": "strict_prerequisites",
+        "programme": "CM",
+        "programme_code": "BSCSIU4",
+        "cohort": 2025,
+        "year": 2,
+        "term": "202702",
+        "completed_courses": [
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "CS1302",
+          "GE2260"
+        ],
+        "desired_stream": "Financial Mathematics",
+        "stream_reward_multiplier": 1.0,
+        "cm_ef_cs_prerequisite_waiver": false
+      },
+      "expected": {
+        "programme": "CM",
+        "course_code": "EF3320",
+        "document_allowed": true,
+        "prerequisite_waiver_assumed": false,
+        "prerequisite_handling": "not_satisfied",
+        "additional_missing_prerequisite_penalty": 0.0,
+        "finance_background_level": "introductory",
+        "finance_evidence_courses": [
+          "GE2260"
+        ],
+        "finance_background_mismatch": 0.15,
+        "finance_priority_multiplier": 3.0,
+        "registration_verified": false
+      },
+      "raw_model_response": "{\"programme\": \"CM\", \"course_code\": \"EF3320\", \"document_allowed\": true, \"prerequisite_waiver_assumed\": false, \"prerequisite_handling\": \"not_satisfied\", \"additional_missing_prerequisite_penalty\": 0.0, \"finance_background_level\": \"introductory\", \"finance_evidence_courses\": [\"GE2260\"], \"finance_background_mismatch\": 0.15, \"finance_priority_multiplier\": 3.0, \"registration_verified\": false}",
+      "passed": true
+    }
+  ],
+  "passed": 6,
+  "total": 6
+}

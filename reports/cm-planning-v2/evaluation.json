@@ -1,0 +1,38 @@
+{
+  "before": {
+    "five_course_plan": {
+      "passed": 0,
+      "total": 8
+    },
+    "admission": {
+      "passed": 0,
+      "total": 8
+    },
+    "grounded_ge": {
+      "passed": 2,
+      "total": 2
+    },
+    "admission_decision_only": {
+      "passed": 5,
+      "total": 8
+    }
+  },
+  "after": {
+    "five_course_plan": {
+      "passed": 3,
+      "total": 8
+    },
+    "admission": {
+      "passed": 8,
+      "total": 8
+    },
+    "grounded_ge": {
+      "passed": 2,
+      "total": 2
+    },
+    "admission_decision_only": {
+      "passed": 8,
+      "total": 8
+    }
+  }
+}

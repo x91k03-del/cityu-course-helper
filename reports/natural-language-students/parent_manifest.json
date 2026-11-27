@@ -1,0 +1,19 @@
+{
+  "adapter": "adapters/gpt-course-relations-max",
+  "accepted_for_activation": true,
+  "role": "GPT-teacher direct preparation relation reward task only",
+  "sha256": "0aebc93f06265a96ee8b3c0b18e08be4124b4216b56779f310162aeb1b77213a",
+  "before": {
+    "passed": 20,
+    "total": 20
+  },
+  "after": {
+    "passed": 20,
+    "total": 20
+  },
+  "training_performed": true,
+  "selected_epoch": 1,
+  "teacher": "GPT assistant in the current Codex conversation; no separate GPT-6.1-sol API call claimed",
+  "raw_outputs_require_validation": true,
+  "general_and_timetable_checkpoints_replaced": false
+}

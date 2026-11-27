@@ -1,0 +1,217 @@
+1         CS2468: Data Structures and Data Management
+CS2468: DATA STRUCTURES AND DATA
+MANAGEMENT
+Eﬀective Term
+Semester A 2025/26 
+Part I Course Overview
+Course Title
+Data Structures and Data Management 
+Subject Code
+CS - Computer Science 
+Course Number
+2468 
+Academic Unit
+Computer Science (CS) 
+College/School
+College of Computing (CC) 
+Course Duration
+One Semester 
+Credit Units
+3 
+Level
+B1, B2, B3, B4 - Bachelor's Degree 
+Medium of Instruction
+English 
+Medium of Assessment
+English 
+Prerequisites
+CS2360 Java Programmingor equivalent 
+Precursors
+Nil 
+Equivalent Courses
+Nil 
+Exclusive Courses
+Nil 
+Part II Course Details
+Abstract
+2         CS2468: Data Structures and Data Management
+Data structures are essential in computer science.  This course aims to let the student describe concepts and techniques of
+fundamental data structures, data management and simple ﬁle systems.
+Course Intended Learning Outcomes (CILOs)
+ CILOs Weighting (if
+app.)
+DEC-A1 DEC-A2 DEC-A3
+1 Describe the functionality of a data structure as
+an abstract data type.
+x
+2 Implement an abstract data type in a
+programming language.
+x
+3 Implement and test data structures for common
+structures; select an appropriate data structure
+from a given set of structures to solve a given
+problem.
+x
+4 Develop the attitude to propose solutions
+through independent investigation.
+x x
+5 Develop the ability to design, implement,
+and apply data structures and data storage
+management to simple real life problems.
+x x
+A1: Attitude 
+Develop an attitude of discovery/innovation/creativity, as demonstrated by students possessing a strong sense of curiosity,
+asking questions actively, challenging assumptions or engaging in inquiry together with teachers.
+A2: Ability 
+Develop the ability/skill needed to discover/innovate/create, as demonstrated by students possessing critical thinking skills
+to assess ideas, acquiring research skills, synthesizing knowledge across disciplines or applying academic knowledge to
+real-life problems.
+A3: Accomplishments 
+Demonstrate accomplishment of discovery/innovation/creativity through producing /constructing creative works/new
+artefacts, eﬀective solutions to real-life problems or new processes.
+Learning and Teaching Activities (LTAs)
+ LTAs Brief Description CILO No. Hours/week (if
+applicable)
+1 Lecture Students will engage
+in lectures that explain
+concepts, diﬀerent
+kind of data structures,
+algorithms for data
+structures
+1, 2, 3, 4, 5 3 hours per week
+2 Tutorials Students will do exercises
+about concepts, data
+structure algorithms and
+programming
+1, 2, 3, 4, 5 8 hours per semester
+3 Pre-mid-term The students have to give
+narrative-type answers
+or write simple functions
+in a programming
+language to test their
+understanding of
+fundamental concepts.
+1, 2, 3, 4, 5 1 hour per semester
+3         CS2468: Data Structures and Data Management
+4 Midterm Students will be tested on
+all the contents we have
+learnt so far.
+1, 2, 3, 4, 5 2 hour per semester
+5 Assignments The students have to
+ﬁnish two or three
+assignments through
+individual investigation.
+The ﬁrst assignment is
+to apply the learnt data
+structures for problems,
+and the second is to let
+the student combine
+several data structures to
+solve problems.
+1, 2, 3, 4, 5
+Assessment Tasks / Activities (ATs)
+ ATs CILO No. Weighting (%) Remarks ("-" for
+nil entry)
+Allow Use of
+GenAI?
+1 Assignments 1, 2, 3, 4, 5 8 2 assignments will
+be given.
+No
+2 Exercises (in-
+lecture and in-
+tutorial)
+1, 2, 3, 4, 5 10 10 in-lectures
+exercises will be
+given in 10 weeks. 
+10 in-tutorial
+exercises will be
+given in 10 weeks . 
+No
+3 Pre-mid-term test 1, 2, 3, 4, 5 4 - No
+4 Midterm 1, 2, 3, 4, 5 8 - No
+Continuous Assessment (%)
+30 
+Examination (%)
+70 
+Examination Duration (Hours)
+2 
+Minimum Examination Passing Requirement (%)
+30 
+Additional Information for ATs
+For a student to pass the course, at least 30% of the maximum mark for the examination must be obtained.
+Assessment Rubrics (AR)
+Assessment Task
+Exercises (in-lecture and in-tutorial) 
+Criterion
+Perfect answers full mark. 50% for in-perfect answers. 
+4         CS2468: Data Structures and Data Management
+Assessment Task
+Assignments 
+Criterion
+Question has a score 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Pre-mid-term test 
+Criterion
+Question has a score 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Midterm 
+Criterion
+Question has a score 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+5         CS2468: Data Structures and Data Management
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Assessment Task
+Final exam 
+Criterion
+Question has a score 
+Excellent (A+, A, A-)
+High 
+Good (B+, B, B-)
+Signiﬁcant 
+Fair (C+, C, C-)
+Moderate 
+Marginal (D)
+Basic 
+Failure (F)
+Not even reaching marginal levels 
+Part III Other Information
+Keyword Syllabus
+Abstract data types, data structures, linked lists, stacks, queues, binary trees, multiway trees, sorting, searching, ﬁle
+processing, and updating ﬁles.
+Reading List
+Compulsory Readings
+ Title
+1 Michael T. Goodrich and Roberto Tamassia. Data Structure and Algorithms in Java. John Wiley & Sons, Inc. 5th
+edition.
+Additional Readings
+ Title
+1 Cormen, Thomas H., Charles E. Leiserson, Ronald L. Rivest, and Cliﬀord Stein. Introduction to Algorithms.
+Cambridge, MA: MIT Press, 3rd edition.

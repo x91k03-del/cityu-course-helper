@@ -1,0 +1,62 @@
+{
+  "profile_id": "CM_07",
+  "programme": "CM",
+  "desired_stream": "Enriched Mathematics",
+  "stream_reward_multiplier": 2.0,
+  "academic_stage": "Fictional taught-core completed; capstone/project and internships are not assumed completed.",
+  "completed_taught_core": [
+    "MA2503",
+    "MA2508",
+    "MA2509",
+    "MA2507",
+    "MA2510",
+    "MA3511",
+    "MA3526",
+    "MA3512",
+    "MA3514",
+    "MA3515",
+    "MA3517",
+    "MA3518",
+    "MA3525",
+    "CS2360",
+    "CS2468"
+  ],
+  "completed_courses": [
+    "CS1302",
+    "CS2360",
+    "CS2468",
+    "GE2340",
+    "MA1300",
+    "MA1301",
+    "MA2503",
+    "MA2507",
+    "MA2508",
+    "MA2509",
+    "MA2510",
+    "MA3511",
+    "MA3512",
+    "MA3514",
+    "MA3515",
+    "MA3517",
+    "MA3518",
+    "MA3525",
+    "MA3526"
+  ],
+  "GE_history": [
+    {
+      "course_code": "GE2340",
+      "title": "Artificial Intelligence - Past, Present, and Future",
+      "grade": "B+",
+      "year": 1,
+      "semester": "A"
+    }
+  ],
+  "fictional": true,
+  "future_term": "unverified",
+  "random_seed": 20261121,
+  "weights": {
+    "background_mismatch": 1.0,
+    "difficulty": 1.0,
+    "workload": 1.0
+  }
+}

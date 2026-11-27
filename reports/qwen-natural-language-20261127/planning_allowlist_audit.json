@@ -1,0 +1,40 @@
+[
+  {
+    "case": "FIN_PASS_PLAN",
+    "programme": "CM",
+    "recommended_heading_codes": [
+      "CS2301",
+      "MA2301",
+      "CS2302",
+      "MA2302",
+      "CS3301"
+    ],
+    "programme_allowed": {
+      "CS2301": false,
+      "MA2301": false,
+      "CS2302": false,
+      "MA2302": false,
+      "CS3301": false
+    },
+    "scope": "Membership in saved programme allowlist only; no claim these codes do not exist elsewhere."
+  },
+  {
+    "case": "AI_GE_PLAN",
+    "programme": "CS",
+    "recommended_heading_codes": [
+      "CS3301",
+      "CS3402",
+      "CS4401",
+      "CS4403",
+      "CS4404"
+    ],
+    "programme_allowed": {
+      "CS3301": false,
+      "CS3402": true,
+      "CS4401": false,
+      "CS4403": false,
+      "CS4404": false
+    },
+    "scope": "Membership in saved programme allowlist only; no claim these codes do not exist elsewhere."
+  }
+]

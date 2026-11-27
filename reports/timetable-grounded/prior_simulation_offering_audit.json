@@ -1,0 +1,187 @@
+{
+  "scope": "Repeating the source year only to diagnose prior A/B errors; not future offering evidence.",
+  "unsupported_selections": [
+    {
+      "original_term": 1,
+      "course_code": "GE1401",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 1,
+      "course_code": "GE1601",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 1,
+      "course_code": "CS1302",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 1,
+      "course_code": "PHY1201",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 1,
+      "course_code": "GE1305",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 1,
+      "course_code": "CSCI1001",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 2,
+      "course_code": "GE1501",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 2,
+      "course_code": "GE2401",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 2,
+      "course_code": "CHEM1200",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 2,
+      "course_code": "GE1202",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 2,
+      "course_code": "CSCI1002",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 3,
+      "course_code": "CS2360",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 3,
+      "course_code": "GE1128",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 4,
+      "course_code": "CS2468",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 4,
+      "course_code": "GE2134",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 5,
+      "course_code": "MA3523",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 5,
+      "course_code": "MA4528",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 5,
+      "course_code": "MA4551",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 5,
+      "course_code": "MA4537",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 6,
+      "course_code": "MA3512",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 6,
+      "course_code": "MA3525",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 6,
+      "course_code": "MA4550",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 7,
+      "course_code": "MA4530",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 7,
+      "course_code": "MA4535",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 7,
+      "course_code": "EF3320",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 7,
+      "course_code": "EF4821",
+      "same_semester_snapshot": "202609",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 8,
+      "course_code": "MA4530",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 8,
+      "course_code": "MA4524",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 8,
+      "course_code": "MA4525",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    },
+    {
+      "original_term": 8,
+      "course_code": "MA4546",
+      "same_semester_snapshot": "202702",
+      "reason": "No compatible saved timetable; do not select."
+    }
+  ],
+  "unsupported_count": 30,
+  "prior_graduation_result_not_timetable_verified": true
+}

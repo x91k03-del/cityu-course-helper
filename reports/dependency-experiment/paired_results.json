@@ -1,0 +1,875 @@
+[
+  {
+    "id": "D01",
+    "mechanism": "direct_preparation",
+    "source_change": "pass MA2508",
+    "target": "MA3515",
+    "before_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Enriched Mathematics",
+      "completed_courses": [
+        "MA2503"
+      ]
+    },
+    "after_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Enriched Mathematics",
+      "completed_courses": [
+        "MA2503",
+        "MA2508"
+      ]
+    },
+    "before": {
+      "target": "MA3515",
+      "selected_stream": "Enriched Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 2.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 2.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "MA3515",
+      "selected_stream": "Enriched Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.2,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 2.6,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 2.6,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": 0.2,
+    "expected_delta_predeclared": 0.2,
+    "component_deltas": {
+      "base_GE_adjusted_profit": 0.0,
+      "preparation_bonus": 0.2,
+      "stream_chain_bonus": 0.0,
+      "bridge_bonus": 0.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": "Prerequisite MA2503 is already passed in both profiles."
+  },
+  {
+    "id": "D02",
+    "mechanism": "direct_preparation",
+    "source_change": "pass MA2509",
+    "target": "GE2134",
+    "before_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Enriched Mathematics",
+      "completed_courses": []
+    },
+    "after_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Enriched Mathematics",
+      "completed_courses": [
+        "MA2509"
+      ]
+    },
+    "before": {
+      "target": "GE2134",
+      "selected_stream": "Enriched Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 2.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 2.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "GE2134",
+      "selected_stream": "Enriched Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.15,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 2.55,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 2.55,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": 0.15,
+    "expected_delta_predeclared": 0.15,
+    "component_deltas": {
+      "base_GE_adjusted_profit": 0.0,
+      "preparation_bonus": 0.15,
+      "stream_chain_bonus": 0.0,
+      "bridge_bonus": 0.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": ""
+  },
+  {
+    "id": "D03",
+    "mechanism": "same_area_diminishing_profit",
+    "source_change": "replace a passed Area-2 GE with Area-1 GE",
+    "target": "GE1113",
+    "before_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Enriched Mathematics",
+      "completed_courses": [
+        "GE1202"
+      ]
+    },
+    "after_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Enriched Mathematics",
+      "completed_courses": [
+        "GE1105"
+      ]
+    },
+    "before": {
+      "target": "GE1113",
+      "selected_stream": "Enriched Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 2.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 2.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "GE1113",
+      "selected_stream": "Enriched Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 0.30000000000000004,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": -0.3,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": -0.3,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": -2.7,
+    "expected_delta_predeclared": -2.7,
+    "component_deltas": {
+      "base_GE_adjusted_profit": -2.7,
+      "preparation_bonus": 0.0,
+      "stream_chain_bonus": 0.0,
+      "bridge_bonus": 0.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": "Matched 3-credit GE substitution isolates target-area coverage, not earned-credit change."
+  },
+  {
+    "id": "D04",
+    "mechanism": "GE_interest_multiplier",
+    "source_change": "pass GE2260; selected finance stream held fixed",
+    "target": "MA3521",
+    "before_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Financial Mathematics",
+      "completed_courses": [
+        "MA2510"
+      ]
+    },
+    "after_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Financial Mathematics",
+      "completed_courses": [
+        "MA2510",
+        "GE2260"
+      ]
+    },
+    "before": {
+      "target": "MA3521",
+      "selected_stream": "Financial Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 2.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 4.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 4.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "MA3521",
+      "selected_stream": "Financial Mathematics",
+      "stream_multiplier": 3.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 6.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 8.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 8.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": 4.0,
+    "expected_delta_predeclared": 4.0,
+    "component_deltas": {
+      "base_GE_adjusted_profit": 0.0,
+      "preparation_bonus": 0.0,
+      "stream_chain_bonus": 4.0,
+      "bridge_bonus": 0.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": "Legacy fixed stream lets GE change weight 1 to 3. It does not earn a stream slot."
+  },
+  {
+    "id": "D05",
+    "mechanism": "explicit_choice_negative_control",
+    "source_change": "pass GE2260 with explicit Enriched preference",
+    "target": "MA3521",
+    "before_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Enriched Mathematics",
+      "completed_courses": [
+        "MA2510"
+      ],
+      "desired_stream": "Enriched Mathematics"
+    },
+    "after_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Enriched Mathematics",
+      "completed_courses": [
+        "MA2510",
+        "GE2260"
+      ],
+      "desired_stream": "Enriched Mathematics"
+    },
+    "before": {
+      "target": "MA3521",
+      "selected_stream": "Enriched Mathematics",
+      "stream_multiplier": 3.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 2.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 2.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "MA3521",
+      "selected_stream": "Enriched Mathematics",
+      "stream_multiplier": 3.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 2.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 2.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": 0.0,
+    "expected_delta_predeclared": 0.0,
+    "component_deltas": {
+      "base_GE_adjusted_profit": 0.0,
+      "preparation_bonus": 0.0,
+      "stream_chain_bonus": 0.0,
+      "bridge_bonus": 0.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": ""
+  },
+  {
+    "id": "D06",
+    "mechanism": "prerequisite_unlock",
+    "source_change": "pass CS3481",
+    "target": "CS4487",
+    "before_profile": {
+      "programme": "CS",
+      "year": 2,
+      "selected_stream": "Data Science",
+      "completed_courses": [
+        "CS1302A",
+        "CS2310",
+        "CS2402"
+      ]
+    },
+    "after_profile": {
+      "programme": "CS",
+      "year": 2,
+      "selected_stream": "Data Science",
+      "completed_courses": [
+        "CS1302A",
+        "CS2310",
+        "CS2402",
+        "CS3481"
+      ]
+    },
+    "before": {
+      "target": "CS4487",
+      "selected_stream": "Data Science",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 2.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 4.4,
+      "known_prerequisite_satisfied": false,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": false,
+      "usable_marginal_utility": null,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "CS4487",
+      "selected_stream": "Data Science",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 2.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 4.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 4.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": 0.0,
+    "expected_delta_predeclared": 0.0,
+    "component_deltas": {
+      "base_GE_adjusted_profit": 0.0,
+      "preparation_bonus": 0.0,
+      "stream_chain_bonus": 0.0,
+      "bridge_bonus": 0.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": "Reward coefficients do not change; the option becomes usable. Ineligibility is not represented as zero reward."
+  },
+  {
+    "id": "D07",
+    "mechanism": "completion_threshold",
+    "source_change": "pass CS4480",
+    "target": "CS4487",
+    "before_profile": {
+      "programme": "CS",
+      "year": 2,
+      "selected_stream": "Data Science",
+      "completed_courses": [
+        "CS1302A",
+        "CS2310",
+        "CS2402",
+        "CS3402",
+        "CS3481"
+      ]
+    },
+    "after_profile": {
+      "programme": "CS",
+      "year": 2,
+      "selected_stream": "Data Science",
+      "completed_courses": [
+        "CS1302A",
+        "CS2310",
+        "CS2402",
+        "CS3402",
+        "CS3481",
+        "CS4480"
+      ]
+    },
+    "before": {
+      "target": "CS4487",
+      "selected_stream": "Data Science",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 2.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 4.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 4.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "CS4487",
+      "selected_stream": "Data Science",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 8.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 10.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 10.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": 6.0,
+    "expected_delta_predeclared": 6.0,
+    "component_deltas": {
+      "base_GE_adjusted_profit": 0.0,
+      "preparation_bonus": 0.0,
+      "stream_chain_bonus": 6.0,
+      "bridge_bonus": 0.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": "Last required stream slot becomes worth 2+6 rather than 2."
+  },
+  {
+    "id": "D08",
+    "mechanism": "unrelated_course_negative_control",
+    "source_change": "pass GE1305",
+    "target": "MA3521",
+    "before_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Financial Mathematics",
+      "completed_courses": [
+        "MA2510"
+      ]
+    },
+    "after_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Financial Mathematics",
+      "completed_courses": [
+        "MA2510",
+        "GE1305"
+      ]
+    },
+    "before": {
+      "target": "MA3521",
+      "selected_stream": "Financial Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 2.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 4.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 4.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "MA3521",
+      "selected_stream": "Financial Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 2.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 4.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 4.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": 0.0,
+    "expected_delta_predeclared": 0.0,
+    "component_deltas": {
+      "base_GE_adjusted_profit": 0.0,
+      "preparation_bonus": 0.0,
+      "stream_chain_bonus": 0.0,
+      "bridge_bonus": 0.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": ""
+  },
+  {
+    "id": "D09",
+    "mechanism": "repeat_normalization_control",
+    "source_change": "repeat an already-passed MA2509 ID",
+    "target": "GE2134",
+    "before_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Enriched Mathematics",
+      "completed_courses": [
+        "MA2509"
+      ]
+    },
+    "after_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Enriched Mathematics",
+      "completed_courses": [
+        "MA2509",
+        "MA2509"
+      ]
+    },
+    "before": {
+      "target": "GE2134",
+      "selected_stream": "Enriched Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.15,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 2.55,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 2.55,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "GE2134",
+      "selected_stream": "Enriched Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.15,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 2.55,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 2.55,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": 0.0,
+    "expected_delta_predeclared": 0.0,
+    "component_deltas": {
+      "base_GE_adjusted_profit": 0.0,
+      "preparation_bonus": 0.0,
+      "stream_chain_bonus": 0.0,
+      "bridge_bonus": 0.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": "Duplicate passed IDs are not a valid new credit record; this probes normalization only."
+  },
+  {
+    "id": "D10",
+    "mechanism": "bridge_weight_amplification",
+    "source_change": "pass GE2260",
+    "target": "MA2510",
+    "before_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Financial Mathematics",
+      "completed_courses": []
+    },
+    "after_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Financial Mathematics",
+      "completed_courses": [
+        "GE2260"
+      ]
+    },
+    "before": {
+      "target": "MA2510",
+      "selected_stream": "Financial Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 1.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 3.4,
+      "known_prerequisite_satisfied": false,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": false,
+      "usable_marginal_utility": null,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "MA2510",
+      "selected_stream": "Financial Mathematics",
+      "stream_multiplier": 3.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 0.0,
+        "bridge_bonus": 3.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 5.4,
+      "known_prerequisite_satisfied": false,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": false,
+      "usable_marginal_utility": null,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": 2.0,
+    "expected_delta_predeclared": 2.0,
+    "component_deltas": {
+      "base_GE_adjusted_profit": 0.0,
+      "preparation_bonus": 0.0,
+      "stream_chain_bonus": 0.0,
+      "bridge_bonus": 2.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": "The existing bridge reward rises from 1 to 3; combined-source prerequisite eligibility is intentionally tracked separately."
+  },
+  {
+    "id": "D11",
+    "mechanism": "explicit_weight_saturation",
+    "source_change": "pass GE2260 when explicit finance weight is already 3",
+    "target": "MA3521",
+    "before_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Financial Mathematics",
+      "completed_courses": [
+        "MA2510"
+      ],
+      "desired_stream": "Financial Mathematics"
+    },
+    "after_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Financial Mathematics",
+      "completed_courses": [
+        "MA2510",
+        "GE2260"
+      ],
+      "desired_stream": "Financial Mathematics"
+    },
+    "before": {
+      "target": "MA3521",
+      "selected_stream": "Financial Mathematics",
+      "stream_multiplier": 3.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 6.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 8.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 8.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "MA3521",
+      "selected_stream": "Financial Mathematics",
+      "stream_multiplier": 3.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 6.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 8.4,
+      "known_prerequisite_satisfied": true,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": true,
+      "usable_marginal_utility": 8.4,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": 0.0,
+    "expected_delta_predeclared": 0.0,
+    "component_deltas": {
+      "base_GE_adjusted_profit": 0.0,
+      "preparation_bonus": 0.0,
+      "stream_chain_bonus": 0.0,
+      "bridge_bonus": 0.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": ""
+  },
+  {
+    "id": "D12",
+    "mechanism": "unimplemented_content_link_control",
+    "source_change": "pass MA2503; conceptual finance link has no active preparation bonus",
+    "target": "EF3320",
+    "before_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Financial Mathematics",
+      "completed_courses": [
+        "MA2510"
+      ]
+    },
+    "after_profile": {
+      "programme": "CM",
+      "year": 2,
+      "selected_stream": "Financial Mathematics",
+      "completed_courses": [
+        "MA2510",
+        "MA2503"
+      ]
+    },
+    "before": {
+      "target": "EF3320",
+      "selected_stream": "Financial Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 2.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 4.4,
+      "known_prerequisite_satisfied": false,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": false,
+      "usable_marginal_utility": null,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "after": {
+      "target": "EF3320",
+      "selected_stream": "Financial Mathematics",
+      "stream_multiplier": 1.0,
+      "components": {
+        "base_GE_adjusted_profit": 3.0,
+        "preparation_bonus": 0.0,
+        "stream_chain_bonus": 2.0,
+        "bridge_bonus": 0.0,
+        "fixed_cost_penalty": 0.6
+      },
+      "advertised_marginal_utility": 4.4,
+      "known_prerequisite_satisfied": false,
+      "programme_allowed": true,
+      "already_passed": false,
+      "eligibility_under_known_rules": false,
+      "usable_marginal_utility": null,
+      "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+    },
+    "observed_delta": 0.0,
+    "expected_delta_predeclared": 0.0,
+    "component_deltas": {
+      "base_GE_adjusted_profit": 0.0,
+      "preparation_bonus": 0.0,
+      "stream_chain_bonus": 0.0,
+      "bridge_bonus": 0.0,
+      "fixed_cost_penalty": 0.0
+    },
+    "passed": true,
+    "note": "The conceptual link exists in the relationship graph, but is not a numeric preparation reward. EF prerequisites still block this target."
+  }
+]

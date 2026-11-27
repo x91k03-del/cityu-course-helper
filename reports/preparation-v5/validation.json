@@ -1,0 +1,1015 @@
+{
+  "automated_tests": 119,
+  "tests_passed": true,
+  "complete_transcripts": 8,
+  "semester_profit_recomputations": 64,
+  "audits": [
+    {
+      "profile_id": "CM2025_NORMAL",
+      "audit": {
+        "term": 8,
+        "year": 4,
+        "semester": "B",
+        "passed_ids": [
+          "CHEM1200",
+          "CS1302",
+          "CS2115",
+          "CS2116",
+          "CS2117",
+          "CS2204",
+          "CS2360",
+          "CS2468",
+          "CSCI1001",
+          "CSCI1002",
+          "GE1113",
+          "GE1202",
+          "GE1305",
+          "GE1401",
+          "GE1501",
+          "GE1601",
+          "GE2134",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3512",
+          "MA3514",
+          "MA3515",
+          "MA3517",
+          "MA3518",
+          "MA3521",
+          "MA3523",
+          "MA3525",
+          "MA3526",
+          "MA4523",
+          "MA4524",
+          "MA4525",
+          "MA4530:A",
+          "MA4530:B",
+          "MA4535",
+          "MA4546",
+          "MA4550",
+          "PHY1201"
+        ],
+        "earned_credits": 124,
+        "distribution_GE_count": 4,
+        "GE_area_counts": {
+          "1": 2,
+          "2": 1,
+          "3": 1
+        },
+        "elective_math_credits": 24,
+        "core_credits": 45,
+        "attempted_credits": 124,
+        "needs_confirmation": true,
+        "official_graduation_verified": false,
+        "checks": {
+          "at_most_one_distribution_GE_per_semester": true,
+          "total_at_least_121": true,
+          "source_total_at_least_122": true,
+          "total_at_most_144": true,
+          "four_distribution_GE": true,
+          "each_GE_area_covered": true,
+          "at_least_20_elective_math_credits": true,
+          "all_mandatory_complete": true,
+          "core_45_credits": true,
+          "capstone_6_credits_once": true,
+          "major_elective_at_least_18": true,
+          "free_elective_at_least_20": true
+        },
+        "all_encoded_requirements_met": true,
+        "missing_mandatory": [],
+        "free_elective_credits": 24,
+        "capstone_credits": 6,
+        "note": "Credit/category simulation only. Elective approval, all prerequisites, future offerings, grade rules and actual timetables require university confirmation."
+      }
+    },
+    {
+      "profile_id": "CM2025_EARLY_ANALYSIS",
+      "audit": {
+        "term": 8,
+        "year": 4,
+        "semester": "B",
+        "passed_ids": [
+          "CHEM1200",
+          "CS1302",
+          "CS2115",
+          "CS2116",
+          "CS2117",
+          "CS2204",
+          "CS2360",
+          "CS2468",
+          "CSCI1001",
+          "CSCI1002",
+          "GE1113",
+          "GE1202",
+          "GE1305",
+          "GE1401",
+          "GE1501",
+          "GE1601",
+          "GE2134",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3512",
+          "MA3514",
+          "MA3515",
+          "MA3517",
+          "MA3518",
+          "MA3521",
+          "MA3523",
+          "MA3525",
+          "MA3526",
+          "MA4523",
+          "MA4524",
+          "MA4525",
+          "MA4530:A",
+          "MA4530:B",
+          "MA4535",
+          "MA4546",
+          "MA4550",
+          "PHY1201"
+        ],
+        "earned_credits": 124,
+        "distribution_GE_count": 4,
+        "GE_area_counts": {
+          "1": 2,
+          "2": 1,
+          "3": 1
+        },
+        "elective_math_credits": 24,
+        "core_credits": 45,
+        "attempted_credits": 124,
+        "needs_confirmation": true,
+        "official_graduation_verified": false,
+        "checks": {
+          "at_most_one_distribution_GE_per_semester": true,
+          "total_at_least_121": true,
+          "source_total_at_least_122": true,
+          "total_at_most_144": true,
+          "four_distribution_GE": true,
+          "each_GE_area_covered": true,
+          "at_least_20_elective_math_credits": true,
+          "all_mandatory_complete": true,
+          "core_45_credits": true,
+          "capstone_6_credits_once": true,
+          "major_elective_at_least_18": true,
+          "free_elective_at_least_20": true
+        },
+        "all_encoded_requirements_met": true,
+        "missing_mandatory": [],
+        "free_elective_credits": 24,
+        "capstone_credits": 6,
+        "note": "Credit/category simulation only. Elective approval, all prerequisites, future offerings, grade rules and actual timetables require university confirmation."
+      }
+    },
+    {
+      "profile_id": "CM2025_ANALYSIS_RESIT",
+      "audit": {
+        "term": 8,
+        "year": 4,
+        "semester": "B",
+        "passed_ids": [
+          "CHEM1200",
+          "CS1302",
+          "CS2066",
+          "CS2115",
+          "CS2116",
+          "CS2117",
+          "CS2204",
+          "CS2360",
+          "CS2468",
+          "CSCI1001",
+          "CSCI1002",
+          "GE1113",
+          "GE1202",
+          "GE1305",
+          "GE1401",
+          "GE1501",
+          "GE1601",
+          "GE2134",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3512",
+          "MA3514",
+          "MA3515",
+          "MA3517",
+          "MA3518",
+          "MA3521",
+          "MA3523",
+          "MA3525",
+          "MA3526",
+          "MA4523",
+          "MA4525",
+          "MA4530:A",
+          "MA4530:B",
+          "MA4542",
+          "MA4545",
+          "MA4546",
+          "PHY1201"
+        ],
+        "earned_credits": 124,
+        "distribution_GE_count": 4,
+        "GE_area_counts": {
+          "1": 2,
+          "2": 1,
+          "3": 1
+        },
+        "elective_math_credits": 21,
+        "core_credits": 45,
+        "attempted_credits": 127,
+        "needs_confirmation": true,
+        "official_graduation_verified": false,
+        "checks": {
+          "at_most_one_distribution_GE_per_semester": true,
+          "total_at_least_121": true,
+          "source_total_at_least_122": true,
+          "total_at_most_144": true,
+          "four_distribution_GE": true,
+          "each_GE_area_covered": true,
+          "at_least_20_elective_math_credits": true,
+          "all_mandatory_complete": true,
+          "core_45_credits": true,
+          "capstone_6_credits_once": true,
+          "major_elective_at_least_18": true,
+          "free_elective_at_least_20": true
+        },
+        "all_encoded_requirements_met": true,
+        "missing_mandatory": [],
+        "free_elective_credits": 24,
+        "capstone_credits": 6,
+        "note": "Credit/category simulation only. Elective approval, all prerequisites, future offerings, grade rules and actual timetables require university confirmation."
+      }
+    },
+    {
+      "profile_id": "CM2025_GE_RESIT",
+      "audit": {
+        "term": 8,
+        "year": 4,
+        "semester": "B",
+        "passed_ids": [
+          "CHEM1200",
+          "CS1302",
+          "CS2066",
+          "CS2115",
+          "CS2116",
+          "CS2117",
+          "CS2204",
+          "CS2360",
+          "CS2468",
+          "CSCI1001",
+          "CSCI1002",
+          "GE1113",
+          "GE1202",
+          "GE1305",
+          "GE1401",
+          "GE1501",
+          "GE1601",
+          "GE2134",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3512",
+          "MA3514",
+          "MA3515",
+          "MA3517",
+          "MA3518",
+          "MA3523",
+          "MA3525",
+          "MA3526",
+          "MA4523",
+          "MA4525",
+          "MA4530:A",
+          "MA4530:B",
+          "MA4535",
+          "MA4545",
+          "MA4546",
+          "MA4550",
+          "PHY1201"
+        ],
+        "earned_credits": 124,
+        "distribution_GE_count": 4,
+        "GE_area_counts": {
+          "1": 2,
+          "2": 1,
+          "3": 1
+        },
+        "elective_math_credits": 21,
+        "core_credits": 45,
+        "attempted_credits": 127,
+        "needs_confirmation": true,
+        "official_graduation_verified": false,
+        "checks": {
+          "at_most_one_distribution_GE_per_semester": true,
+          "total_at_least_121": true,
+          "source_total_at_least_122": true,
+          "total_at_most_144": true,
+          "four_distribution_GE": true,
+          "each_GE_area_covered": true,
+          "at_least_20_elective_math_credits": true,
+          "all_mandatory_complete": true,
+          "core_45_credits": true,
+          "capstone_6_credits_once": true,
+          "major_elective_at_least_18": true,
+          "free_elective_at_least_20": true
+        },
+        "all_encoded_requirements_met": true,
+        "missing_mandatory": [],
+        "free_elective_credits": 24,
+        "capstone_credits": 6,
+        "note": "Credit/category simulation only. Elective approval, all prerequisites, future offerings, grade rules and actual timetables require university confirmation."
+      }
+    },
+    {
+      "profile_id": "CM2025_CALCULUS_RESIT",
+      "audit": {
+        "term": 8,
+        "year": 4,
+        "semester": "B",
+        "passed_ids": [
+          "CHEM1200",
+          "CS1302",
+          "CS2066",
+          "CS2115",
+          "CS2116",
+          "CS2117",
+          "CS2204",
+          "CS2360",
+          "CS2468",
+          "CSCI1001",
+          "CSCI1002",
+          "GE1113",
+          "GE1202",
+          "GE1305",
+          "GE1401",
+          "GE1501",
+          "GE1601",
+          "GE2134",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3512",
+          "MA3514",
+          "MA3515",
+          "MA3517",
+          "MA3518",
+          "MA3521",
+          "MA3523",
+          "MA3525",
+          "MA3526",
+          "MA4523",
+          "MA4524",
+          "MA4530:A",
+          "MA4530:B",
+          "MA4542",
+          "MA4545",
+          "MA4546",
+          "PHY1201"
+        ],
+        "earned_credits": 124,
+        "distribution_GE_count": 4,
+        "GE_area_counts": {
+          "1": 2,
+          "2": 1,
+          "3": 1
+        },
+        "elective_math_credits": 21,
+        "core_credits": 45,
+        "attempted_credits": 128,
+        "needs_confirmation": true,
+        "official_graduation_verified": false,
+        "checks": {
+          "at_most_one_distribution_GE_per_semester": true,
+          "total_at_least_121": true,
+          "source_total_at_least_122": true,
+          "total_at_most_144": true,
+          "four_distribution_GE": true,
+          "each_GE_area_covered": true,
+          "at_least_20_elective_math_credits": true,
+          "all_mandatory_complete": true,
+          "core_45_credits": true,
+          "capstone_6_credits_once": true,
+          "major_elective_at_least_18": true,
+          "free_elective_at_least_20": true
+        },
+        "all_encoded_requirements_met": true,
+        "missing_mandatory": [],
+        "free_elective_credits": 24,
+        "capstone_credits": 6,
+        "note": "Credit/category simulation only. Elective approval, all prerequisites, future offerings, grade rules and actual timetables require university confirmation."
+      }
+    },
+    {
+      "profile_id": "MODEL_CM2025",
+      "audit": {
+        "term": 8,
+        "year": 4,
+        "semester": "B",
+        "passed_ids": [
+          "CHEM1200",
+          "CS1302",
+          "CS2115",
+          "CS2116",
+          "CS2117",
+          "CS2204",
+          "CS2360",
+          "CS2468",
+          "CSCI1001",
+          "CSCI1002",
+          "GE1113",
+          "GE1202",
+          "GE1305",
+          "GE1401",
+          "GE1501",
+          "GE1601",
+          "GE2134",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3512",
+          "MA3514",
+          "MA3515",
+          "MA3517",
+          "MA3518",
+          "MA3521",
+          "MA3523",
+          "MA3525",
+          "MA3526",
+          "MA4523",
+          "MA4524",
+          "MA4525",
+          "MA4530:A",
+          "MA4530:B",
+          "MA4535",
+          "MA4546",
+          "MA4550",
+          "PHY1201"
+        ],
+        "earned_credits": 124,
+        "distribution_GE_count": 4,
+        "GE_area_counts": {
+          "1": 2,
+          "2": 1,
+          "3": 1
+        },
+        "elective_math_credits": 24,
+        "core_credits": 45,
+        "attempted_credits": 124,
+        "needs_confirmation": true,
+        "official_graduation_verified": false,
+        "checks": {
+          "at_most_one_distribution_GE_per_semester": true,
+          "total_at_least_121": true,
+          "source_total_at_least_122": true,
+          "total_at_most_144": true,
+          "four_distribution_GE": true,
+          "each_GE_area_covered": true,
+          "at_least_20_elective_math_credits": true,
+          "all_mandatory_complete": true,
+          "core_45_credits": true,
+          "capstone_6_credits_once": true,
+          "major_elective_at_least_18": true,
+          "free_elective_at_least_20": true
+        },
+        "all_encoded_requirements_met": true,
+        "missing_mandatory": [],
+        "free_elective_credits": 24,
+        "capstone_credits": 6,
+        "note": "Credit/category simulation only. Elective approval, all prerequisites, future offerings, grade rules and actual timetables require university confirmation."
+      }
+    },
+    {
+      "profile_id": "MODEL_CM2025_RESIT",
+      "audit": {
+        "term": 8,
+        "year": 4,
+        "semester": "B",
+        "passed_ids": [
+          "CHEM1200",
+          "CS1302",
+          "CS2066",
+          "CS2115",
+          "CS2116",
+          "CS2117",
+          "CS2204",
+          "CS2360",
+          "CS2468",
+          "CSCI1001",
+          "CSCI1002",
+          "GE1113",
+          "GE1202",
+          "GE1305",
+          "GE1401",
+          "GE1501",
+          "GE1601",
+          "GE2134",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3512",
+          "MA3514",
+          "MA3515",
+          "MA3517",
+          "MA3518",
+          "MA3521",
+          "MA3523",
+          "MA3525",
+          "MA3526",
+          "MA4523",
+          "MA4525",
+          "MA4530:A",
+          "MA4530:B",
+          "MA4542",
+          "MA4545",
+          "MA4546",
+          "PHY1201"
+        ],
+        "earned_credits": 124,
+        "distribution_GE_count": 4,
+        "GE_area_counts": {
+          "1": 2,
+          "2": 1,
+          "3": 1
+        },
+        "elective_math_credits": 21,
+        "core_credits": 45,
+        "attempted_credits": 127,
+        "needs_confirmation": true,
+        "official_graduation_verified": false,
+        "checks": {
+          "at_most_one_distribution_GE_per_semester": true,
+          "total_at_least_121": true,
+          "source_total_at_least_122": true,
+          "total_at_most_144": true,
+          "four_distribution_GE": true,
+          "each_GE_area_covered": true,
+          "at_least_20_elective_math_credits": true,
+          "all_mandatory_complete": true,
+          "core_45_credits": true,
+          "capstone_6_credits_once": true,
+          "major_elective_at_least_18": true,
+          "free_elective_at_least_20": true
+        },
+        "all_encoded_requirements_met": true,
+        "missing_mandatory": [],
+        "free_elective_credits": 24,
+        "capstone_credits": 6,
+        "note": "Credit/category simulation only. Elective approval, all prerequisites, future offerings, grade rules and actual timetables require university confirmation."
+      }
+    },
+    {
+      "profile_id": "MODEL_CM2025_CALCULUS_RESIT",
+      "audit": {
+        "term": 8,
+        "year": 4,
+        "semester": "B",
+        "passed_ids": [
+          "CHEM1200",
+          "CS1302",
+          "CS2066",
+          "CS2115",
+          "CS2116",
+          "CS2117",
+          "CS2204",
+          "CS2360",
+          "CS2468",
+          "CSCI1001",
+          "CSCI1002",
+          "GE1113",
+          "GE1202",
+          "GE1305",
+          "GE1401",
+          "GE1501",
+          "GE1601",
+          "GE2134",
+          "GE2401",
+          "MA1300",
+          "MA1301",
+          "MA2503",
+          "MA2507",
+          "MA2508",
+          "MA2509",
+          "MA2510",
+          "MA3511",
+          "MA3512",
+          "MA3514",
+          "MA3515",
+          "MA3517",
+          "MA3518",
+          "MA3521",
+          "MA3523",
+          "MA3525",
+          "MA3526",
+          "MA4523",
+          "MA4524",
+          "MA4530:A",
+          "MA4530:B",
+          "MA4542",
+          "MA4545",
+          "MA4546",
+          "PHY1201"
+        ],
+        "earned_credits": 124,
+        "distribution_GE_count": 4,
+        "GE_area_counts": {
+          "1": 2,
+          "2": 1,
+          "3": 1
+        },
+        "elective_math_credits": 21,
+        "core_credits": 45,
+        "attempted_credits": 128,
+        "needs_confirmation": true,
+        "official_graduation_verified": false,
+        "checks": {
+          "at_most_one_distribution_GE_per_semester": true,
+          "total_at_least_121": true,
+          "source_total_at_least_122": true,
+          "total_at_most_144": true,
+          "four_distribution_GE": true,
+          "each_GE_area_covered": true,
+          "at_least_20_elective_math_credits": true,
+          "all_mandatory_complete": true,
+          "core_45_credits": true,
+          "capstone_6_credits_once": true,
+          "major_elective_at_least_18": true,
+          "free_elective_at_least_20": true
+        },
+        "all_encoded_requirements_met": true,
+        "missing_mandatory": [],
+        "free_elective_credits": 24,
+        "capstone_credits": 6,
+        "note": "Credit/category simulation only. Elective approval, all prerequisites, future offerings, grade rules and actual timetables require university confirmation."
+      }
+    }
+  ],
+  "profit_arithmetic": [
+    {
+      "profile_id": "CM2025_NORMAL",
+      "term": 1,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_NORMAL",
+      "term": 2,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_NORMAL",
+      "term": 3,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_NORMAL",
+      "term": 4,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_NORMAL",
+      "term": 5,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_NORMAL",
+      "term": 6,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_NORMAL",
+      "term": 7,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_NORMAL",
+      "term": 8,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_EARLY_ANALYSIS",
+      "term": 1,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_EARLY_ANALYSIS",
+      "term": 2,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_EARLY_ANALYSIS",
+      "term": 3,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_EARLY_ANALYSIS",
+      "term": 4,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_EARLY_ANALYSIS",
+      "term": 5,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_EARLY_ANALYSIS",
+      "term": 6,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_EARLY_ANALYSIS",
+      "term": 7,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_EARLY_ANALYSIS",
+      "term": 8,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_ANALYSIS_RESIT",
+      "term": 1,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_ANALYSIS_RESIT",
+      "term": 2,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_ANALYSIS_RESIT",
+      "term": 3,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_ANALYSIS_RESIT",
+      "term": 4,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_ANALYSIS_RESIT",
+      "term": 5,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_ANALYSIS_RESIT",
+      "term": 6,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_ANALYSIS_RESIT",
+      "term": 7,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_ANALYSIS_RESIT",
+      "term": 8,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_GE_RESIT",
+      "term": 1,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_GE_RESIT",
+      "term": 2,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_GE_RESIT",
+      "term": 3,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_GE_RESIT",
+      "term": 4,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_GE_RESIT",
+      "term": 5,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_GE_RESIT",
+      "term": 6,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_GE_RESIT",
+      "term": 7,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_GE_RESIT",
+      "term": 8,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_CALCULUS_RESIT",
+      "term": 1,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_CALCULUS_RESIT",
+      "term": 2,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_CALCULUS_RESIT",
+      "term": 3,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_CALCULUS_RESIT",
+      "term": 4,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_CALCULUS_RESIT",
+      "term": 5,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_CALCULUS_RESIT",
+      "term": 6,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_CALCULUS_RESIT",
+      "term": 7,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "CM2025_CALCULUS_RESIT",
+      "term": 8,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025",
+      "term": 1,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025",
+      "term": 2,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025",
+      "term": 3,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025",
+      "term": 4,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025",
+      "term": 5,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025",
+      "term": 6,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025",
+      "term": 7,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025",
+      "term": 8,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_RESIT",
+      "term": 1,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_RESIT",
+      "term": 2,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_RESIT",
+      "term": 3,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_RESIT",
+      "term": 4,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_RESIT",
+      "term": 5,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_RESIT",
+      "term": 6,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_RESIT",
+      "term": 7,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_RESIT",
+      "term": 8,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_CALCULUS_RESIT",
+      "term": 1,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_CALCULUS_RESIT",
+      "term": 2,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_CALCULUS_RESIT",
+      "term": 3,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_CALCULUS_RESIT",
+      "term": 4,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_CALCULUS_RESIT",
+      "term": 5,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_CALCULUS_RESIT",
+      "term": 6,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_CALCULUS_RESIT",
+      "term": 7,
+      "matches_recomputed_profit": true
+    },
+    {
+      "profile_id": "MODEL_CM2025_CALCULUS_RESIT",
+      "term": 8,
+      "matches_recomputed_profit": true
+    }
+  ],
+  "model_parameters_accepted": 24,
+  "parameter_fallbacks": 0,
+  "paired_transcript_diagnostics_passed": 8,
+  "source_adapter_unchanged": true,
+  "official_graduation_verified": false
+}

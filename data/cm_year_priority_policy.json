@@ -1,0 +1,38 @@
+{
+  "minimum_courses": 0,
+  "maximum_courses": 6,
+  "graduation_priority_weight": 3,
+  "common_maths_core": [
+    "MA2508",
+    "MA2509",
+    "MA2510",
+    "MA3511",
+    "MA3512",
+    "MA3514",
+    "MA3515",
+    "MA3517",
+    "MA3518",
+    "MA3525"
+  ],
+  "base_core_weight": 1,
+  "year_focus_weight": 3,
+  "year_focus": {
+    "1": [
+      "MA1505"
+    ],
+    "2": [
+      "MA2508",
+      "MA2509"
+    ],
+    "3": [
+      "MA3512",
+      "MA3518"
+    ],
+    "4": [
+      "MA3514",
+      "MA3515"
+    ]
+  },
+  "source_note": "Common core list from user-supplied BSCM 2026/27 handbook physical page 10; year assignments are an advisory policy, not official deadlines.",
+  "applicability_note": "Do not treat route-dependent MA1505 as universally required. No offering is invented when a focus course is absent."
+}

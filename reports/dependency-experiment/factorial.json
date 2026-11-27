@@ -1,0 +1,239 @@
+{
+  "cases": [
+    {
+      "A_CS3346": 0,
+      "B_CS3356": 0,
+      "profile": {
+        "programme": "CS",
+        "year": 2,
+        "selected_stream": "Software Engineering and Project Management",
+        "completed_courses": [
+          "CS1302A",
+          "CS2310",
+          "CS3342"
+        ]
+      },
+      "target": "CS4348",
+      "result": {
+        "target": "CS4348",
+        "selected_stream": "Software Engineering and Project Management",
+        "stream_multiplier": 1.0,
+        "components": {
+          "base_GE_adjusted_profit": 3.0,
+          "preparation_bonus": 0.0,
+          "stream_chain_bonus": 2.0,
+          "bridge_bonus": 0.0,
+          "fixed_cost_penalty": 0.6
+        },
+        "advertised_marginal_utility": 4.4,
+        "known_prerequisite_satisfied": true,
+        "programme_allowed": true,
+        "already_passed": false,
+        "eligibility_under_known_rules": true,
+        "usable_marginal_utility": 4.4,
+        "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+      }
+    },
+    {
+      "A_CS3346": 1,
+      "B_CS3356": 0,
+      "profile": {
+        "programme": "CS",
+        "year": 2,
+        "selected_stream": "Software Engineering and Project Management",
+        "completed_courses": [
+          "CS1302A",
+          "CS2310",
+          "CS3342",
+          "CS3346"
+        ]
+      },
+      "target": "CS4348",
+      "result": {
+        "target": "CS4348",
+        "selected_stream": "Software Engineering and Project Management",
+        "stream_multiplier": 1.0,
+        "components": {
+          "base_GE_adjusted_profit": 3.0,
+          "preparation_bonus": 0.0,
+          "stream_chain_bonus": 2.0,
+          "bridge_bonus": 0.0,
+          "fixed_cost_penalty": 0.6
+        },
+        "advertised_marginal_utility": 4.4,
+        "known_prerequisite_satisfied": true,
+        "programme_allowed": true,
+        "already_passed": false,
+        "eligibility_under_known_rules": true,
+        "usable_marginal_utility": 4.4,
+        "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+      }
+    },
+    {
+      "A_CS3346": 0,
+      "B_CS3356": 1,
+      "profile": {
+        "programme": "CS",
+        "year": 2,
+        "selected_stream": "Software Engineering and Project Management",
+        "completed_courses": [
+          "CS1302A",
+          "CS2310",
+          "CS3342",
+          "CS3356"
+        ]
+      },
+      "target": "CS4348",
+      "result": {
+        "target": "CS4348",
+        "selected_stream": "Software Engineering and Project Management",
+        "stream_multiplier": 1.0,
+        "components": {
+          "base_GE_adjusted_profit": 3.0,
+          "preparation_bonus": 0.0,
+          "stream_chain_bonus": 2.0,
+          "bridge_bonus": 0.0,
+          "fixed_cost_penalty": 0.6
+        },
+        "advertised_marginal_utility": 4.4,
+        "known_prerequisite_satisfied": true,
+        "programme_allowed": true,
+        "already_passed": false,
+        "eligibility_under_known_rules": true,
+        "usable_marginal_utility": 4.4,
+        "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+      }
+    },
+    {
+      "A_CS3346": 1,
+      "B_CS3356": 1,
+      "profile": {
+        "programme": "CS",
+        "year": 2,
+        "selected_stream": "Software Engineering and Project Management",
+        "completed_courses": [
+          "CS1302A",
+          "CS2310",
+          "CS3342",
+          "CS3346",
+          "CS3356"
+        ]
+      },
+      "target": "CS4348",
+      "result": {
+        "target": "CS4348",
+        "selected_stream": "Software Engineering and Project Management",
+        "stream_multiplier": 1.0,
+        "components": {
+          "base_GE_adjusted_profit": 3.0,
+          "preparation_bonus": 0.0,
+          "stream_chain_bonus": 8.0,
+          "bridge_bonus": 0.0,
+          "fixed_cost_penalty": 0.6
+        },
+        "advertised_marginal_utility": 10.4,
+        "known_prerequisite_satisfied": true,
+        "programme_allowed": true,
+        "already_passed": false,
+        "eligibility_under_known_rules": true,
+        "usable_marginal_utility": 10.4,
+        "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+      }
+    }
+  ],
+  "reward_interaction": 6.0,
+  "gate_cases": [
+    {
+      "A_CS3481": 0,
+      "B_CS4486": 0,
+      "result": {
+        "target": "CS4487",
+        "selected_stream": "Data Science",
+        "stream_multiplier": 1.0,
+        "components": {
+          "base_GE_adjusted_profit": 3.0,
+          "preparation_bonus": 0.0,
+          "stream_chain_bonus": 2.0,
+          "bridge_bonus": 0.0,
+          "fixed_cost_penalty": 0.6
+        },
+        "advertised_marginal_utility": 4.4,
+        "known_prerequisite_satisfied": false,
+        "programme_allowed": true,
+        "already_passed": false,
+        "eligibility_under_known_rules": false,
+        "usable_marginal_utility": null,
+        "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+      }
+    },
+    {
+      "A_CS3481": 1,
+      "B_CS4486": 0,
+      "result": {
+        "target": "CS4487",
+        "selected_stream": "Data Science",
+        "stream_multiplier": 1.0,
+        "components": {
+          "base_GE_adjusted_profit": 3.0,
+          "preparation_bonus": 0.0,
+          "stream_chain_bonus": 2.0,
+          "bridge_bonus": 0.0,
+          "fixed_cost_penalty": 0.6
+        },
+        "advertised_marginal_utility": 4.4,
+        "known_prerequisite_satisfied": true,
+        "programme_allowed": true,
+        "already_passed": false,
+        "eligibility_under_known_rules": true,
+        "usable_marginal_utility": 4.4,
+        "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+      }
+    },
+    {
+      "A_CS3481": 0,
+      "B_CS4486": 1,
+      "result": {
+        "target": "CS4487",
+        "selected_stream": "Data Science",
+        "stream_multiplier": 1.0,
+        "components": {
+          "base_GE_adjusted_profit": 3.0,
+          "preparation_bonus": 0.0,
+          "stream_chain_bonus": 2.0,
+          "bridge_bonus": 0.0,
+          "fixed_cost_penalty": 0.6
+        },
+        "advertised_marginal_utility": 4.4,
+        "known_prerequisite_satisfied": true,
+        "programme_allowed": true,
+        "already_passed": false,
+        "eligibility_under_known_rules": true,
+        "usable_marginal_utility": 4.4,
+        "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+      }
+    },
+    {
+      "A_CS3481": 1,
+      "B_CS4486": 1,
+      "result": {
+        "target": "CS4487",
+        "selected_stream": "Data Science",
+        "stream_multiplier": 1.0,
+        "components": {
+          "base_GE_adjusted_profit": 3.0,
+          "preparation_bonus": 0.0,
+          "stream_chain_bonus": 2.0,
+          "bridge_bonus": 0.0,
+          "fixed_cost_penalty": 0.6
+        },
+        "advertised_marginal_utility": 4.4,
+        "known_prerequisite_satisfied": true,
+        "programme_allowed": true,
+        "already_passed": false,
+        "eligibility_under_known_rules": true,
+        "usable_marginal_utility": 4.4,
+        "eligibility_note": "Known prerequisite/membership check only; no source of current seats, component linkage or actual timetable."
+      }
+    }
+  ]
+}

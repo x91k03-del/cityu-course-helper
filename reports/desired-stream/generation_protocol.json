@@ -1,0 +1,9 @@
+{
+  "seed": 20261121,
+  "CM": 10,
+  "CS": 10,
+  "core_policy": "All listed taught core passed; grade and degree-award rules not inferred. Capstone/internships excluded from the completed set.",
+  "randomization": "GE courses, passing GE grades and explicit preference weights vary. Stream choices are balanced across each programme, not sampled by chance.",
+  "no_mock_future_times": true,
+  "profile_year_not_inferred_from_core": true
+}

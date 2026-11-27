@@ -1,0 +1,40 @@
+{
+  "automated_tests": 70,
+  "passed": true,
+  "CM_full_mock_credits": 124,
+  "CM_stream": {
+    "selected_stream": "Enriched Mathematics",
+    "completed_slots": 4,
+    "required_slots": 4,
+    "stream_complete": true,
+    "course_chain_bonus": {
+      "MA4546": 0
+    },
+    "completion_bonus": 6,
+    "progress_bonus_per_slot": 2,
+    "maximum_streams_rewarded": 1
+  },
+  "all_generated_CM_courses_document_allowed": true,
+  "semester_examples": [
+    {
+      "programme": "CS",
+      "term": "202609",
+      "status": "optimal"
+    },
+    {
+      "programme": "CS",
+      "term": "202702",
+      "status": "optimal"
+    },
+    {
+      "programme": "CM",
+      "term": "202609",
+      "status": "infeasible"
+    },
+    {
+      "programme": "CM",
+      "term": "202702",
+      "status": "optimal"
+    }
+  ]
+}

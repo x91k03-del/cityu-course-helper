@@ -1,0 +1,36 @@
+{
+  "adapter": "adapters/objective-parameters",
+  "accepted_for_activation": true,
+  "role": "objective_parameters_only",
+  "LLM_output_keys": [
+    "course_relations",
+    "penalty_weights",
+    "reward_parameters",
+    "stream_reward_multiplier"
+  ],
+  "student_facts_reader": "deterministic PDF/text parser outside the LLM",
+  "path_solver": "external exact dynamic programming; independent finite enumeration certificate",
+  "LLM_generates_timetable": false,
+  "transcript_prompt_consistency": "3/3 cases: parameter and optimizer-path equality",
+  "heldout_parameter_exports": {
+    "passed": 8,
+    "total": 8,
+    "scope": "New synthetic record and explicit weight combinations; reviewed policy and formatting families are familiar."
+  },
+  "training_performed": true,
+  "selected_epoch": 2,
+  "sha256": "62fd3c3bcb8585b36e47e806d9c3c7126801e81953e7b5448a0e11a40d7ec1e8",
+  "no_custom_system_prompt_for_transcript_input": true,
+  "fallback_used": false,
+  "scope": "Known reviewed reward policy, synthetic records, fixed CM completion contexts; pending timetable details are not invented.",
+  "ordinary_english_exports": {
+    "passed": 4,
+    "total": 4,
+    "scope": "New ordinary-English wordings with the same reviewed objective policy; no custom system prompt."
+  },
+  "english_correction": {
+    "train_examples": 120,
+    "epochs": 2,
+    "selected_epoch": 2
+  }
+}

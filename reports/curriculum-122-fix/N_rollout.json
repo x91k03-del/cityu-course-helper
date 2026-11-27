@@ -1,0 +1,2603 @@
+{
+  "status": "curriculum_complete_timetables_pending",
+  "curriculum_credit_plan_complete": true,
+  "registration_timetable_complete": false,
+  "official_graduation_verified": false,
+  "recommendation_scope": "122-credit curriculum path; pending courses are not registerable timetable selections",
+  "input_profile": {
+    "programme": "CM",
+    "programme_code": "BSCSIU4",
+    "cohort": 2025,
+    "year": 2,
+    "term": "202609",
+    "include_GE_snapshot": true,
+    "ge_candidate_courses": [
+      "GE1105",
+      "GE1113",
+      "GE1202",
+      "GE1305",
+      "GE2134",
+      "GE2260"
+    ],
+    "start_semester": 3,
+    "chain_state_limit": 800,
+    "chain_branch_width": 4,
+    "chain_beam_width": 3,
+    "chain_credit_beam_width": 3,
+    "historical_transcript": [
+      {
+        "id": "MA1300",
+        "credits": 3,
+        "grade": "B",
+        "term": 1,
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "id": "CS1302",
+        "credits": 3,
+        "grade": "B",
+        "term": 1,
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "id": "PHY1201",
+        "credits": 3,
+        "grade": "B",
+        "term": 1,
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "id": "GE1401",
+        "credits": 3,
+        "grade": "B",
+        "term": 1,
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "id": "GE1305",
+        "credits": 3,
+        "grade": "B",
+        "term": 1,
+        "year": 1,
+        "semester": "A"
+      },
+      {
+        "id": "MA1301",
+        "credits": 3,
+        "grade": "B",
+        "term": 2,
+        "year": 1,
+        "semester": "B"
+      },
+      {
+        "id": "CHEM1200",
+        "credits": 3,
+        "grade": "B",
+        "term": 2,
+        "year": 1,
+        "semester": "B"
+      },
+      {
+        "id": "GE1501",
+        "credits": 3,
+        "grade": "B",
+        "term": 2,
+        "year": 1,
+        "semester": "B"
+      },
+      {
+        "id": "GE2401",
+        "credits": 3,
+        "grade": "B",
+        "term": 2,
+        "year": 1,
+        "semester": "B"
+      },
+      {
+        "id": "GE1113",
+        "credits": 3,
+        "grade": "B",
+        "term": 2,
+        "year": 1,
+        "semester": "B"
+      }
+    ],
+    "completed_courses": [
+      "MA1300",
+      "CS1302",
+      "PHY1201",
+      "GE1401",
+      "GE1305",
+      "MA1301",
+      "CHEM1200",
+      "GE1501",
+      "GE2401",
+      "GE1113"
+    ],
+    "desired_stream": "Financial Mathematics",
+    "degree_mode": "curriculum_with_pending"
+  },
+  "historical_transcript": [
+    {
+      "id": "MA1300",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "CS1302",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "PHY1201",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "GE1401",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "GE1305",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "MA1301",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "CHEM1200",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "GE1501",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "GE2401",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "GE1113",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    }
+  ],
+  "semesters": [
+    {
+      "term": 3,
+      "year": 2,
+      "semester": "A",
+      "selected_courses": [
+        "CS2360",
+        "CSCI1001",
+        "GE1601",
+        "GE2260",
+        "MA2503",
+        "MA2508",
+        "MA2509"
+      ],
+      "credits": 18,
+      "earned_credits_after": 48,
+      "reward": {
+        "course_profit": 18.0,
+        "maths_priority_bonus": 18.0,
+        "gross_profit": 43.0,
+        "EF3320_year4_bonus": 0.0,
+        "GE_graduation_progress_bonus": 7.0,
+        "ef_finance_mismatch_penalty": 0.0,
+        "preparation_by_course": {
+          "CS2360": 0.2,
+          "GE1601": 0.0,
+          "GE2260": 0.0,
+          "MA2503": 0.0,
+          "MA2508": 0.0,
+          "MA2509": 0.0
+        },
+        "student_cost_penalty": 5.8999999999999995,
+        "overload_penalty": 2.25,
+        "total_profit_penalty": 8.149999999999999,
+        "preparation_benefit": 0.2,
+        "net_profit": 35.050000000000004,
+        "schedule_loss": -35.050000000000004,
+        "course_count": 6,
+        "selected_credits": 18,
+        "stream_chain_bonus": 0.0,
+        "prerequisite_bridge_bonus": 0.0
+      },
+      "course_evidence": [
+        {
+          "option_id": "CS2360:10118:10119",
+          "course_code": "CS2360",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [
+            "CS1315",
+            "CS2310",
+            "CS2311",
+            "CS2313",
+            "CS2315",
+            "CS2362",
+            "CS2363"
+          ],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 720,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 720,
+              "end_minute": 770,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.42,
+            "workload": 0.478
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs sema time\\cs2360.pdf",
+          "source_sha256": "7ecd7e14e8b638e531d5253bd65646942f25dbd45b6fcabf8dcf5766cb76334a",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "course_code": "CSCI1001",
+          "credits": 0,
+          "option_id": null,
+          "crn": null,
+          "meetings": null,
+          "evidence_status": "pending_timetable",
+          "course_offering_verified": false,
+          "current_prerequisite_rule_known": false,
+          "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\Department of Mathematics Bachelor of Science in Computing Mathematics Normative 4-year Degree \u2013 2025 Entry (BSCSIU4_CM_2025) _ Department of Mathematics.pdf",
+          "additional_confirmation": "Overdue zero-credit completion; catch-up arrangements require confirmation"
+        },
+        {
+          "course_code": "GE1601",
+          "credits": 1,
+          "option_id": null,
+          "crn": null,
+          "meetings": null,
+          "evidence_status": "pending_timetable",
+          "course_offering_verified": false,
+          "current_prerequisite_rule_known": false,
+          "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\Department of Mathematics Bachelor of Science in Computing Mathematics Normative 4-year Degree \u2013 2025 Entry (BSCSIU4_CM_2025) _ Department of Mathematics.pdf"
+        },
+        {
+          "option_id": "GE2260:14014",
+          "course_code": "GE2260",
+          "credits": 3,
+          "term": "202609",
+          "ge_area": 2,
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.3,
+            "difficulty": 0.35,
+            "workload": 0.4
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\sources\\ge-timetable\\semester_a_browser_capture.txt",
+          "source_sha256": "5570629f108e9d9bbfc350bd0c28c820ab79957cecb86a2665e71e398e121365",
+          "area_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\courseAavaible\\SEMA2.pdf",
+          "area_source_sha256": "6e18dc76592a7e20d99a6c5890f7e8f2247246f25d6a6438387bf1c33a10657e",
+          "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE2260",
+          "teaching_weeks_assumed": true,
+          "component_linkage_assumed": true,
+          "GE_eligibility_assumed": true,
+          "registration_verified": false,
+          "score_basis": "editable illustrative GE rubric",
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA2503:13697",
+          "course_code": "MA2503",
+          "credits": 4,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [
+            "MA1503"
+          ],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.5,
+            "workload": 0.478
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA2503.pdf",
+          "source_sha256": "4d94d4efa5446c08db6f977e0605982c628f2c9b7fc345c3902a60c41b564971",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA2508:13701:13704",
+          "course_code": "MA2508",
+          "credits": 4,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [
+            "GE1359",
+            "MA1502"
+          ],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 6,
+              "start_minute": 660,
+              "end_minute": 770,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-12-05"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 960,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-12-05"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.5,
+            "workload": 0.467
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA2508.pdf",
+          "source_sha256": "b3b613a0e55528a2f485ea151a7beba9cb6f36126614831aa85d903a449d08bc",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA2509:12041:12042",
+          "course_code": "MA2509",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [
+            "MA2144",
+            "MA2185",
+            "MA2504"
+          ],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 600,
+              "end_minute": 650,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 3,
+              "start_minute": 600,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 660,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.42,
+            "workload": 0.467
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA2509.pdf",
+          "source_sha256": "3fb7ab5f841d18f599bc117c92969a3077728bf88731af9ae9d4263d7665e3b6",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        }
+      ]
+    },
+    {
+      "term": 4,
+      "year": 2,
+      "semester": "B",
+      "selected_courses": [
+        "CS2468",
+        "CSCI1002",
+        "EF3320",
+        "MA2507",
+        "MA3511",
+        "MA3515",
+        "MA3517"
+      ],
+      "credits": 16,
+      "earned_credits_after": 64,
+      "reward": {
+        "course_profit": 18.0,
+        "maths_priority_bonus": 9.0,
+        "gross_profit": 27.0,
+        "EF3320_year4_bonus": 0.0,
+        "GE_graduation_progress_bonus": 0.0,
+        "ef_finance_mismatch_penalty": 0.0,
+        "preparation_by_course": {
+          "CS2468": 0.25,
+          "EF3320": 0.2,
+          "MA2507": 0.0,
+          "MA3511": 0.0,
+          "MA3515": 0.2,
+          "MA3517": 0.0
+        },
+        "student_cost_penalty": 7.178,
+        "overload_penalty": 0.25,
+        "total_profit_penalty": 7.428,
+        "preparation_benefit": 0.65,
+        "net_profit": 26.221999999999998,
+        "schedule_loss": -26.221999999999998,
+        "course_count": 6,
+        "selected_credits": 16,
+        "stream_chain_bonus": 6.0,
+        "prerequisite_bridge_bonus": 0.0
+      },
+      "course_evidence": [
+        {
+          "option_id": "CS2468:10018:10020",
+          "course_code": "CS2468",
+          "credits": 3,
+          "term": "202702",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 720,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 1,
+              "start_minute": 720,
+              "end_minute": 770,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.42,
+            "workload": 0.478
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\CS\\cs semb time\\cs2468.pdf",
+          "source_sha256": "e5da13ff331e48327f0c44ef31bae15caa396832182dcba301c8dc57a9b13cbc",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "course_code": "CSCI1002",
+          "credits": 0,
+          "option_id": null,
+          "crn": null,
+          "meetings": null,
+          "evidence_status": "pending_timetable",
+          "course_offering_verified": false,
+          "current_prerequisite_rule_known": false,
+          "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\Department of Mathematics Bachelor of Science in Computing Mathematics Normative 4-year Degree \u2013 2025 Entry (BSCSIU4_CM_2025) _ Department of Mathematics.pdf",
+          "additional_confirmation": "Overdue zero-credit completion; catch-up arrangements require confirmation"
+        },
+        {
+          "option_id": "EF3320:11425",
+          "course_code": "EF3320",
+          "credits": 3,
+          "term": "202702",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.15,
+            "difficulty": 0.52,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\EF3320_SEMB.pdf",
+          "source_sha256": "79954227761c22ac5be981e9b0e459202348c05be381789833762ec12a69bdbd",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA2507:10101:10115",
+          "course_code": "MA2507",
+          "credits": 1,
+          "term": "202702",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 960,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.5,
+            "workload": 0.338
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma2507.pdf",
+          "source_sha256": "fb20e526288bbbe20bac553422c953d77ce70db0c501889eac0e7beee911d2de",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA3511:10075",
+          "course_code": "MA3511",
+          "credits": 3,
+          "term": "202702",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3511.pdf",
+          "source_sha256": "0f99796bc623220be69b8c8945ba817a5ba72a2a3584115dff0c218044ce5339",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA3515:10141",
+          "course_code": "MA3515",
+          "credits": 3,
+          "term": "202702",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3515.pdf",
+          "source_sha256": "fbbbf36331e7e3d1f33f18d4cc0a45f49dc9973bafa52a1bf2a0213769e74a6e",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA3517:11296",
+          "course_code": "MA3517",
+          "credits": 3,
+          "term": "202702",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3517.pdf",
+          "source_sha256": "9fc97d496f6e0d3ef580aa6770239b77b08fa15182c80ac9740da162d2a3630a",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        }
+      ]
+    },
+    {
+      "term": 5,
+      "year": 3,
+      "semester": "A",
+      "selected_courses": [
+        "GE1105",
+        "MA3512",
+        "MA3525",
+        "MA4528",
+        "MA4545"
+      ],
+      "credits": 15,
+      "earned_credits_after": 79,
+      "reward": {
+        "course_profit": 12.3,
+        "maths_priority_bonus": 12.0,
+        "gross_profit": 26.3,
+        "EF3320_year4_bonus": 0.0,
+        "GE_graduation_progress_bonus": 2.0,
+        "ef_finance_mismatch_penalty": 0.0,
+        "preparation_by_course": {
+          "GE1105": 0.0,
+          "MA3512": 0.3,
+          "MA3525": 0.25,
+          "MA4528": 0.0,
+          "MA4545": 0.0
+        },
+        "student_cost_penalty": 6.523,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 6.523,
+        "preparation_benefit": 0.55,
+        "net_profit": 20.327,
+        "schedule_loss": -20.327,
+        "course_count": 5,
+        "selected_credits": 15,
+        "stream_chain_bonus": 0.0,
+        "prerequisite_bridge_bonus": 0.0
+      },
+      "course_evidence": [
+        {
+          "option_id": "GE1105:10967",
+          "course_code": "GE1105",
+          "credits": 3,
+          "term": "202609",
+          "ge_area": 1,
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.3,
+            "difficulty": 0.35,
+            "workload": 0.4
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\sources\\ge-timetable\\semester_a_browser_capture.txt",
+          "source_sha256": "5570629f108e9d9bbfc350bd0c28c820ab79957cecb86a2665e71e398e121365",
+          "area_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\courseAavaible\\SEMA1.pdf",
+          "area_source_sha256": "02dfc61374b3157df9b81e85501bfbf020462cacb61eae4ca2ae48c17164dccb",
+          "source_url": "https://www.cityu.edu.hk/ge_info/Course/GE1105",
+          "teaching_weeks_assumed": true,
+          "component_linkage_assumed": true,
+          "GE_eligibility_assumed": true,
+          "registration_verified": false,
+          "score_basis": "editable illustrative GE rubric",
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA3512:10430",
+          "course_code": "MA3512",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3512.pdf",
+          "source_sha256": "36c6c0b4873cd6a40a0ebca6c03025728b81dcd30f9eb23c824268baf256a9bd",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA3525:11213:11219",
+          "course_code": "MA3525",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 780,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 840,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            },
+            {
+              "day": 2,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.507
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3525.pdf",
+          "source_sha256": "8a9195e2c597d04a9e7b9571f4c4a4b41860e135185940dddf2ba89dc5b480f3",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "course_code": "MA4528",
+          "credits": 3,
+          "option_id": null,
+          "crn": null,
+          "meetings": null,
+          "evidence_status": "pending_timetable",
+          "course_offering_verified": false,
+          "current_prerequisite_rule_known": true,
+          "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+          "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4528.htm",
+          "future_offering_repeated_as_assumption": true
+        },
+        {
+          "option_id": "MA4545:11882",
+          "course_code": "MA4545",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 720,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.7,
+            "workload": 0.558
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4545.pdf",
+          "source_sha256": "72e3ad547c150884c86deab0839830a026ef9f8fd051b9013fd1e988a409322c",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        }
+      ]
+    },
+    {
+      "term": 6,
+      "year": 3,
+      "semester": "B",
+      "selected_courses": [
+        "MA2510",
+        "MA3514",
+        "MA3523",
+        "MA3526",
+        "MA3530"
+      ],
+      "credits": 13,
+      "earned_credits_after": 92,
+      "reward": {
+        "course_profit": 15.0,
+        "maths_priority_bonus": 6.0,
+        "gross_profit": 21.0,
+        "EF3320_year4_bonus": 0.0,
+        "GE_graduation_progress_bonus": 0.0,
+        "ef_finance_mismatch_penalty": 0.0,
+        "preparation_by_course": {
+          "MA2510": 0.0,
+          "MA3514": 0.25,
+          "MA3523": 0.0,
+          "MA3526": 0.0,
+          "MA3530": 0.0
+        },
+        "student_cost_penalty": 6.279,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 6.279,
+        "preparation_benefit": 0.25,
+        "net_profit": 17.971,
+        "schedule_loss": -17.971,
+        "course_count": 5,
+        "selected_credits": 13,
+        "stream_chain_bonus": 0.0,
+        "prerequisite_bridge_bonus": 3.0
+      },
+      "course_evidence": [
+        {
+          "option_id": "MA2510:11812:11814",
+          "course_code": "MA2510",
+          "credits": 3,
+          "term": "202702",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [
+            "MA2172",
+            "MA2177",
+            "MA2506"
+          ],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 960,
+              "end_minute": 1010,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 4,
+              "start_minute": 960,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            },
+            {
+              "day": 5,
+              "start_minute": 900,
+              "end_minute": 950,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.5,
+            "workload": 0.467
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma2510.pdf",
+          "source_sha256": "327b1ee09ce46cb10938251161cfb665a62095f6e2e7ddc74bb10c9018b5d79d",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA3514:11108",
+          "course_code": "MA3514",
+          "credits": 3,
+          "term": "202702",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 5,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.68,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3514.pdf",
+          "source_sha256": "bb7ee36e4fdd5c412f6efe19322269517fca11958a25d1e6f5335195caf8fbbd",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA3523:14280",
+          "course_code": "MA3523",
+          "credits": 3,
+          "term": "202702",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 3,
+              "start_minute": 720,
+              "end_minute": 890,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3523.pdf",
+          "source_sha256": "62ba9f9f24aef72368f57c955c15b76ba0bd07e9c5836e7ec948525474858127",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA3526:11816",
+          "course_code": "MA3526",
+          "credits": 3,
+          "term": "202702",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [
+            "MA3524"
+          ],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3526.pdf",
+          "source_sha256": "3d60f96a0e6b2c501f1b5400d58d41ece663290b4e549733b72e6f4fc348447f",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA3530:12169",
+          "course_code": "MA3530",
+          "credits": 1,
+          "term": "202702",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 1080,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2027-01-11",
+                "2027-04-17"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.378
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMB\\ma semb time\\ma3530.pdf",
+          "source_sha256": "d13bb2e2378f04ff1c4b2d325a75c83b842ad544023a2d02ddcd4df2b54e6b61",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        }
+      ]
+    },
+    {
+      "term": 7,
+      "year": 4,
+      "semester": "A",
+      "selected_courses": [
+        "MA3518",
+        "MA3521",
+        "MA4530:A",
+        "MA4542"
+      ],
+      "credits": 12,
+      "earned_credits_after": 104,
+      "reward": {
+        "course_profit": 12.0,
+        "maths_priority_bonus": 3.0,
+        "gross_profit": 15.0,
+        "EF3320_year4_bonus": 0.0,
+        "GE_graduation_progress_bonus": 0.0,
+        "ef_finance_mismatch_penalty": 0.0,
+        "preparation_by_course": {
+          "MA3518": 0.3,
+          "MA3521": 0.25,
+          "MA4530:A": 0.0,
+          "MA4542": 0.25
+        },
+        "student_cost_penalty": 5.5840000000000005,
+        "overload_penalty": 0.0,
+        "total_profit_penalty": 5.5840000000000005,
+        "preparation_benefit": 0.8,
+        "net_profit": 16.216,
+        "schedule_loss": -16.216,
+        "course_count": 4,
+        "selected_credits": 12,
+        "stream_chain_bonus": 6.0,
+        "prerequisite_bridge_bonus": 0.0
+      },
+      "course_evidence": [
+        {
+          "option_id": "MA3518:10613",
+          "course_code": "MA3518",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 2,
+              "start_minute": 960,
+              "end_minute": 1130,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3518.pdf",
+          "source_sha256": "66903480a3b356b6db61a5594b8a7886ee30c15ba3908a375e7d35aecaa62e14",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "option_id": "MA3521:11880",
+          "course_code": "MA3521",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 1,
+              "start_minute": 540,
+              "end_minute": 710,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.05,
+            "difficulty": 0.6,
+            "workload": 0.518
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA3521.pdf",
+          "source_sha256": "f325937e55a2a022a25adfe046dd29f092f72b2ae5551c3a231a521b9b737e6e",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        },
+        {
+          "course_code": "MA4530:A",
+          "credits": 3,
+          "option_id": null,
+          "crn": null,
+          "meetings": null,
+          "evidence_status": "pending_timetable",
+          "course_offering_verified": false,
+          "current_prerequisite_rule_known": true,
+          "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\Department of Mathematics Bachelor of Science in Computing Mathematics Normative 4-year Degree \u2013 2025 Entry (BSCSIU4_CM_2025) _ Department of Mathematics.pdf",
+          "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4530.htm",
+          "future_offering_repeated_as_assumption": true,
+          "allocation_note": "Three plus three is an advisory allocation of one six-credit year-long project"
+        },
+        {
+          "option_id": "MA4542:11513",
+          "course_code": "MA4542",
+          "credits": 3,
+          "term": "202609",
+          "rules_reviewed": true,
+          "prerequisites_all": [],
+          "prerequisites_any_groups": [],
+          "corequisites": [],
+          "exclusive_courses": [],
+          "timetable_verified": true,
+          "meetings": [
+            {
+              "day": 4,
+              "start_minute": 900,
+              "end_minute": 1070,
+              "weeks": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "date_range": [
+                "2026-08-31",
+                "2026-11-28"
+              ]
+            }
+          ],
+          "scores": {
+            "background_mismatch": 0.18,
+            "difficulty": 0.78,
+            "workload": 0.558
+          },
+          "source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\SEMA\\MA4542.pdf",
+          "source_sha256": "6da6c14bf0fcb2aba6d220059fbf0af892d30228a7726fbd9dd38638727e501c",
+          "component_linkage_assumed": true,
+          "teaching_weeks_assumed": true,
+          "evidence_status": "saved_timetable_hypothetical_bundle"
+        }
+      ]
+    },
+    {
+      "term": 8,
+      "year": 4,
+      "semester": "B",
+      "selected_courses": [
+        "MA4529",
+        "MA4530:B",
+        "MA4537",
+        "MA4546",
+        "MA4550",
+        "MA4551"
+      ],
+      "credits": 18,
+      "earned_credits_after": 122,
+      "reward": {
+        "course_profit": 18.0,
+        "maths_priority_bonus": 0.0,
+        "gross_profit": 18.0,
+        "EF3320_year4_bonus": 0.0,
+        "GE_graduation_progress_bonus": 0.0,
+        "ef_finance_mismatch_penalty": 0.0,
+        "preparation_by_course": {
+          "MA4529": 0.3,
+          "MA4530:B": 0.0,
+          "MA4537": 0.0,
+          "MA4546": 0.25,
+          "MA4550": 0.0,
+          "MA4551": 0.0
+        },
+        "student_cost_penalty": 8.59,
+        "overload_penalty": 9.0,
+        "total_profit_penalty": 17.59,
+        "preparation_benefit": 0.55,
+        "net_profit": 30.96,
+        "schedule_loss": -30.96,
+        "course_count": 6,
+        "selected_credits": 18,
+        "stream_chain_bonus": 30.0,
+        "prerequisite_bridge_bonus": 0.0
+      },
+      "course_evidence": [
+        {
+          "course_code": "MA4529",
+          "credits": 3,
+          "option_id": null,
+          "crn": null,
+          "meetings": null,
+          "evidence_status": "pending_timetable",
+          "course_offering_verified": false,
+          "current_prerequisite_rule_known": true,
+          "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+          "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm",
+          "future_offering_repeated_as_assumption": true
+        },
+        {
+          "course_code": "MA4530:B",
+          "credits": 3,
+          "option_id": null,
+          "crn": null,
+          "meetings": null,
+          "evidence_status": "pending_timetable",
+          "course_offering_verified": false,
+          "current_prerequisite_rule_known": true,
+          "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\Department of Mathematics Bachelor of Science in Computing Mathematics Normative 4-year Degree \u2013 2025 Entry (BSCSIU4_CM_2025) _ Department of Mathematics.pdf",
+          "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4530.htm",
+          "future_offering_repeated_as_assumption": true,
+          "allocation_note": "Three plus three is an advisory allocation of one six-credit year-long project"
+        },
+        {
+          "course_code": "MA4537",
+          "credits": 3,
+          "option_id": null,
+          "crn": null,
+          "meetings": null,
+          "evidence_status": "pending_timetable",
+          "course_offering_verified": false,
+          "current_prerequisite_rule_known": true,
+          "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+          "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4537.htm",
+          "future_offering_repeated_as_assumption": true
+        },
+        {
+          "course_code": "MA4546",
+          "credits": 3,
+          "option_id": null,
+          "crn": null,
+          "meetings": null,
+          "evidence_status": "pending_timetable",
+          "course_offering_verified": false,
+          "current_prerequisite_rule_known": true,
+          "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+          "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4546.htm",
+          "future_offering_repeated_as_assumption": true
+        },
+        {
+          "course_code": "MA4550",
+          "credits": 3,
+          "option_id": null,
+          "crn": null,
+          "meetings": null,
+          "evidence_status": "pending_timetable",
+          "course_offering_verified": false,
+          "current_prerequisite_rule_known": true,
+          "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+          "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4550.htm",
+          "future_offering_repeated_as_assumption": true
+        },
+        {
+          "course_code": "MA4551",
+          "credits": 3,
+          "option_id": null,
+          "crn": null,
+          "meetings": null,
+          "evidence_status": "pending_timetable",
+          "course_offering_verified": false,
+          "current_prerequisite_rule_known": true,
+          "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+          "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4551.htm",
+          "future_offering_repeated_as_assumption": true
+        }
+      ]
+    }
+  ],
+  "transcript": [
+    {
+      "id": "MA1300",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "CS1302",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "PHY1201",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "GE1401",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "GE1305",
+      "credits": 3,
+      "grade": "B",
+      "term": 1,
+      "year": 1,
+      "semester": "A"
+    },
+    {
+      "id": "MA1301",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "CHEM1200",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "GE1501",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "GE2401",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "GE1113",
+      "credits": 3,
+      "grade": "B",
+      "term": 2,
+      "year": 1,
+      "semester": "B"
+    },
+    {
+      "id": "CS2360",
+      "credits": 3,
+      "grade": "B",
+      "term": 3,
+      "year": 2,
+      "semester": "A"
+    },
+    {
+      "id": "CSCI1001",
+      "credits": 0,
+      "grade": "B",
+      "term": 3,
+      "year": 2,
+      "semester": "A"
+    },
+    {
+      "id": "GE1601",
+      "credits": 1,
+      "grade": "B",
+      "term": 3,
+      "year": 2,
+      "semester": "A"
+    },
+    {
+      "id": "GE2260",
+      "credits": 3,
+      "grade": "B",
+      "term": 3,
+      "year": 2,
+      "semester": "A"
+    },
+    {
+      "id": "MA2503",
+      "credits": 4,
+      "grade": "B",
+      "term": 3,
+      "year": 2,
+      "semester": "A"
+    },
+    {
+      "id": "MA2508",
+      "credits": 4,
+      "grade": "B",
+      "term": 3,
+      "year": 2,
+      "semester": "A"
+    },
+    {
+      "id": "MA2509",
+      "credits": 3,
+      "grade": "B",
+      "term": 3,
+      "year": 2,
+      "semester": "A"
+    },
+    {
+      "id": "CS2468",
+      "credits": 3,
+      "grade": "B",
+      "term": 4,
+      "year": 2,
+      "semester": "B"
+    },
+    {
+      "id": "CSCI1002",
+      "credits": 0,
+      "grade": "B",
+      "term": 4,
+      "year": 2,
+      "semester": "B"
+    },
+    {
+      "id": "EF3320",
+      "credits": 3,
+      "grade": "B",
+      "term": 4,
+      "year": 2,
+      "semester": "B"
+    },
+    {
+      "id": "MA2507",
+      "credits": 1,
+      "grade": "B",
+      "term": 4,
+      "year": 2,
+      "semester": "B"
+    },
+    {
+      "id": "MA3511",
+      "credits": 3,
+      "grade": "B",
+      "term": 4,
+      "year": 2,
+      "semester": "B"
+    },
+    {
+      "id": "MA3515",
+      "credits": 3,
+      "grade": "B",
+      "term": 4,
+      "year": 2,
+      "semester": "B"
+    },
+    {
+      "id": "MA3517",
+      "credits": 3,
+      "grade": "B",
+      "term": 4,
+      "year": 2,
+      "semester": "B"
+    },
+    {
+      "id": "GE1105",
+      "credits": 3,
+      "grade": "B",
+      "term": 5,
+      "year": 3,
+      "semester": "A"
+    },
+    {
+      "id": "MA3512",
+      "credits": 3,
+      "grade": "B",
+      "term": 5,
+      "year": 3,
+      "semester": "A"
+    },
+    {
+      "id": "MA3525",
+      "credits": 3,
+      "grade": "B",
+      "term": 5,
+      "year": 3,
+      "semester": "A"
+    },
+    {
+      "id": "MA4528",
+      "credits": 3,
+      "grade": "B",
+      "term": 5,
+      "year": 3,
+      "semester": "A"
+    },
+    {
+      "id": "MA4545",
+      "credits": 3,
+      "grade": "B",
+      "term": 5,
+      "year": 3,
+      "semester": "A"
+    },
+    {
+      "id": "MA2510",
+      "credits": 3,
+      "grade": "B",
+      "term": 6,
+      "year": 3,
+      "semester": "B"
+    },
+    {
+      "id": "MA3514",
+      "credits": 3,
+      "grade": "B",
+      "term": 6,
+      "year": 3,
+      "semester": "B"
+    },
+    {
+      "id": "MA3523",
+      "credits": 3,
+      "grade": "B",
+      "term": 6,
+      "year": 3,
+      "semester": "B"
+    },
+    {
+      "id": "MA3526",
+      "credits": 3,
+      "grade": "B",
+      "term": 6,
+      "year": 3,
+      "semester": "B"
+    },
+    {
+      "id": "MA3530",
+      "credits": 1,
+      "grade": "B",
+      "term": 6,
+      "year": 3,
+      "semester": "B"
+    },
+    {
+      "id": "MA3518",
+      "credits": 3,
+      "grade": "B",
+      "term": 7,
+      "year": 4,
+      "semester": "A"
+    },
+    {
+      "id": "MA3521",
+      "credits": 3,
+      "grade": "B",
+      "term": 7,
+      "year": 4,
+      "semester": "A"
+    },
+    {
+      "id": "MA4530:A",
+      "credits": 3,
+      "grade": "B",
+      "term": 7,
+      "year": 4,
+      "semester": "A"
+    },
+    {
+      "id": "MA4542",
+      "credits": 3,
+      "grade": "B",
+      "term": 7,
+      "year": 4,
+      "semester": "A"
+    },
+    {
+      "id": "MA4529",
+      "credits": 3,
+      "grade": "B",
+      "term": 8,
+      "year": 4,
+      "semester": "B"
+    },
+    {
+      "id": "MA4530:B",
+      "credits": 3,
+      "grade": "B",
+      "term": 8,
+      "year": 4,
+      "semester": "B"
+    },
+    {
+      "id": "MA4537",
+      "credits": 3,
+      "grade": "B",
+      "term": 8,
+      "year": 4,
+      "semester": "B"
+    },
+    {
+      "id": "MA4546",
+      "credits": 3,
+      "grade": "B",
+      "term": 8,
+      "year": 4,
+      "semester": "B"
+    },
+    {
+      "id": "MA4550",
+      "credits": 3,
+      "grade": "B",
+      "term": 8,
+      "year": 4,
+      "semester": "B"
+    },
+    {
+      "id": "MA4551",
+      "credits": 3,
+      "grade": "B",
+      "term": 8,
+      "year": 4,
+      "semester": "B"
+    }
+  ],
+  "audit": {
+    "earned_credits": 122,
+    "minimum_degree_credits": 122,
+    "checks": {
+      "credit_minimum": true,
+      "total_at_least_121": true,
+      "total_at_least_122": true,
+      "credit_maximum": true,
+      "no_duplicate_credit": true,
+      "all_mandatory_complete": true,
+      "GE_at_least_four": true,
+      "GE_all_areas": true,
+      "math_elective_at_least_20": true,
+      "core_45_credits": true,
+      "capstone_six_credits": true,
+      "major_elective_at_least_18": true,
+      "free_elective_at_least_20": true,
+      "selected_stream_complete": true,
+      "GE_at_most_one_per_semester": true
+    },
+    "all_encoded_requirements_met": true,
+    "missing_mandatory": [],
+    "GE_area_counts": {
+      "1": 2,
+      "2": 1,
+      "3": 1
+    },
+    "distribution_GE_count": 4,
+    "elective_math_credits": 30,
+    "official_graduation_verified": false
+  },
+  "discounted_academic_reward": 140.126282183488,
+  "terminal_shortfall_penalty": 0.0,
+  "pending_courses": [
+    {
+      "term": 3,
+      "course_code": "CSCI1001",
+      "credits": 0,
+      "option_id": null,
+      "crn": null,
+      "meetings": null,
+      "evidence_status": "pending_timetable",
+      "course_offering_verified": false,
+      "current_prerequisite_rule_known": false,
+      "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\Department of Mathematics Bachelor of Science in Computing Mathematics Normative 4-year Degree \u2013 2025 Entry (BSCSIU4_CM_2025) _ Department of Mathematics.pdf",
+      "additional_confirmation": "Overdue zero-credit completion; catch-up arrangements require confirmation"
+    },
+    {
+      "term": 3,
+      "course_code": "GE1601",
+      "credits": 1,
+      "option_id": null,
+      "crn": null,
+      "meetings": null,
+      "evidence_status": "pending_timetable",
+      "course_offering_verified": false,
+      "current_prerequisite_rule_known": false,
+      "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\Department of Mathematics Bachelor of Science in Computing Mathematics Normative 4-year Degree \u2013 2025 Entry (BSCSIU4_CM_2025) _ Department of Mathematics.pdf"
+    },
+    {
+      "term": 4,
+      "course_code": "CSCI1002",
+      "credits": 0,
+      "option_id": null,
+      "crn": null,
+      "meetings": null,
+      "evidence_status": "pending_timetable",
+      "course_offering_verified": false,
+      "current_prerequisite_rule_known": false,
+      "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\Department of Mathematics Bachelor of Science in Computing Mathematics Normative 4-year Degree \u2013 2025 Entry (BSCSIU4_CM_2025) _ Department of Mathematics.pdf",
+      "additional_confirmation": "Overdue zero-credit completion; catch-up arrangements require confirmation"
+    },
+    {
+      "term": 5,
+      "course_code": "MA4528",
+      "credits": 3,
+      "option_id": null,
+      "crn": null,
+      "meetings": null,
+      "evidence_status": "pending_timetable",
+      "course_offering_verified": false,
+      "current_prerequisite_rule_known": true,
+      "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+      "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4528.htm",
+      "future_offering_repeated_as_assumption": true
+    },
+    {
+      "term": 7,
+      "course_code": "MA4530:A",
+      "credits": 3,
+      "option_id": null,
+      "crn": null,
+      "meetings": null,
+      "evidence_status": "pending_timetable",
+      "course_offering_verified": false,
+      "current_prerequisite_rule_known": true,
+      "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\Department of Mathematics Bachelor of Science in Computing Mathematics Normative 4-year Degree \u2013 2025 Entry (BSCSIU4_CM_2025) _ Department of Mathematics.pdf",
+      "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4530.htm",
+      "future_offering_repeated_as_assumption": true,
+      "allocation_note": "Three plus three is an advisory allocation of one six-credit year-long project"
+    },
+    {
+      "term": 8,
+      "course_code": "MA4529",
+      "credits": 3,
+      "option_id": null,
+      "crn": null,
+      "meetings": null,
+      "evidence_status": "pending_timetable",
+      "course_offering_verified": false,
+      "current_prerequisite_rule_known": true,
+      "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+      "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4529.htm",
+      "future_offering_repeated_as_assumption": true
+    },
+    {
+      "term": 8,
+      "course_code": "MA4530:B",
+      "credits": 3,
+      "option_id": null,
+      "crn": null,
+      "meetings": null,
+      "evidence_status": "pending_timetable",
+      "course_offering_verified": false,
+      "current_prerequisite_rule_known": true,
+      "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\Department of Mathematics Bachelor of Science in Computing Mathematics Normative 4-year Degree \u2013 2025 Entry (BSCSIU4_CM_2025) _ Department of Mathematics.pdf",
+      "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4530.htm",
+      "future_offering_repeated_as_assumption": true,
+      "allocation_note": "Three plus three is an advisory allocation of one six-credit year-long project"
+    },
+    {
+      "term": 8,
+      "course_code": "MA4537",
+      "credits": 3,
+      "option_id": null,
+      "crn": null,
+      "meetings": null,
+      "evidence_status": "pending_timetable",
+      "course_offering_verified": false,
+      "current_prerequisite_rule_known": true,
+      "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+      "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4537.htm",
+      "future_offering_repeated_as_assumption": true
+    },
+    {
+      "term": 8,
+      "course_code": "MA4546",
+      "credits": 3,
+      "option_id": null,
+      "crn": null,
+      "meetings": null,
+      "evidence_status": "pending_timetable",
+      "course_offering_verified": false,
+      "current_prerequisite_rule_known": true,
+      "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+      "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4546.htm",
+      "future_offering_repeated_as_assumption": true
+    },
+    {
+      "term": 8,
+      "course_code": "MA4550",
+      "credits": 3,
+      "option_id": null,
+      "crn": null,
+      "meetings": null,
+      "evidence_status": "pending_timetable",
+      "course_offering_verified": false,
+      "current_prerequisite_rule_known": true,
+      "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+      "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4550.htm",
+      "future_offering_repeated_as_assumption": true
+    },
+    {
+      "term": 8,
+      "course_code": "MA4551",
+      "credits": 3,
+      "option_id": null,
+      "crn": null,
+      "meetings": null,
+      "evidence_status": "pending_timetable",
+      "course_offering_verified": false,
+      "current_prerequisite_rule_known": true,
+      "curriculum_source": "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf",
+      "catalogue_rule_source": "https://www.cityu.edu.hk/catalogue/ug/current/course/MA4551.htm",
+      "future_offering_repeated_as_assumption": true
+    }
+  ],
+  "removed_optional_GE": [
+    {
+      "course_code": "GE2134",
+      "term": 7,
+      "reason": "GE requirement already fulfilled; reserve credits for missing degree work"
+    }
+  ],
+  "curriculum_source_sha256": {
+    "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\Department of Mathematics Bachelor of Science in Computing Mathematics Normative 4-year Degree \u2013 2025 Entry (BSCSIU4_CM_2025) _ Department of Mathematics.pdf": "162b58c5904bec22348d52d8d1d2a56374e9e4ce4723a057878367d06467815f",
+    "F:\\CODEX\\cityu-course-helper\\GE_SEMA\\MA\\CMcourses.pdf": "bea18f4c23dbae705d865aa243af5efe14647309d24068b4ab95a969fa11b922",
+    "F:\\CODEX\\cityu-course-helper\\data\\curriculum-pending-evidence.json": "60a643cb377330f818bdfcd5a9f872105b288f7c9e04c3acbbf0800a4369b4c8"
+  },
+  "method": "Bounded Markov insertion search over remaining full-path allocations; hard terminal credit and graduation checks; no MILP",
+  "global_optimality_claimed": false,
+  "search_expansions": [
+    12,
+    50,
+    100,
+    87,
+    54,
+    12
+  ],
+  "beam_width": 24,
+  "baseline_evidence_only_credits": 100,
+  "limitations": [
+    "Future actual offerings, pending course prerequisites and registration eligibility require confirmation.",
+    "Saved meetings retain the existing component/week assumptions; pending courses have no invented meetings.",
+    "The Year-1 transcript remains assumed history; no new passes were added to it.",
+    "Zero-credit overdue requirements are planned catch-up tasks, not claimed completed passes."
+  ]
+}
